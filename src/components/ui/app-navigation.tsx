@@ -5,6 +5,7 @@ import { House, UsersRound, CircleDot, UserRound, LogIn } from 'lucide-react';
 import { useAuth } from '@/lib/auth/use-auth';
 import { PlayerDot } from '@/components/ui/primitives';
 import { useLanguageStore } from '@/lib/store/language';
+import { LanguageSelector } from '@/components/ui/language-selector';
 
 export function BrandMark({compact=false}:{compact?:boolean}) {
   return <Link href="/" className="jx-wordmark" aria-label="AGORAX">{compact?'AGX':'AGORAX'}</Link>;
@@ -74,7 +75,8 @@ export function AppNavigation() {
           <nav aria-label={en ? 'Main navigation' : 'Navigation principale'} className="jx-desktop-nav">
             {links}
           </nav>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
+            <LanguageSelector variant="compact" />
             {!isLoggedIn ? (
               <Link
                 href="/auth"

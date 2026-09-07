@@ -248,17 +248,17 @@ function ProfileEditor({ user, character }: { user: AuthUser; character?: string
             />
           </label>
           <label>
-            {en ? 'Application language' : 'Langue de l’application'}
+            {en ? 'Language (App & Questions)' : 'Langue (Application & Questions)'}
             <select
               className="fp-input"
               value={language}
               disabled={busy}
               onChange={e => { setLanguage(e.target.value as UILanguage); dirty(); }}
             >
-              <option value="fr">Français</option>
-              <option value="en">English</option>
+              <option value="fr">🇫🇷 Français</option>
+              <option value="en">🇬🇧 English</option>
             </select>
-            <small>{en ? 'The interface and questions, in your language.' : 'L’interface et les questions dans ta langue.'}</small>
+            <small>{en ? 'The interface and questions, in your chosen language.' : 'L’interface et les questions dans ta langue préférée.'}</small>
           </label>
 
           <p className="jx-profile-note">
