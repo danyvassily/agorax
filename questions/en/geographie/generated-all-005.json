@@ -1,0 +1,1962 @@
+[
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Malaysia use?",
+    "answers": [
+      "ringgit",
+      "kip",
+      "Zambian kwacha",
+      "Mauritian rupee"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "malaisie",
+      "monnaies"
+    ],
+    "familyId": "currency-malaisie",
+    "confidence": 0.97,
+    "explanation": "Malaysia uses the ringgit (MYR).",
+    "id": "malaisie-100078",
+    "conceptId": "fact-100078",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Maldives use?",
+    "answers": [
+      "rufiyaa",
+      "Cuban peso",
+      "Bahraini dinar",
+      "South Korean won"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "maldives",
+      "monnaies"
+    ],
+    "familyId": "currency-maldives",
+    "confidence": 0.97,
+    "explanation": "Maldives uses the rufiyaa (MVR).",
+    "id": "maldives-100079",
+    "conceptId": "fact-100079",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Mali use?",
+    "answers": [
+      "CFA franc (BCEAO)",
+      "Swiss franc",
+      "South Korean won",
+      "pula"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mali",
+      "monnaies"
+    ],
+    "familyId": "currency-mali",
+    "confidence": 0.97,
+    "explanation": "Mali uses the CFA franc (BCEAO) (XOF).",
+    "id": "mali-100080",
+    "conceptId": "fact-100080",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Malta use?",
+    "answers": [
+      "euro",
+      "Romanian leu",
+      "Omani rial",
+      "afghani"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "malte",
+      "monnaies"
+    ],
+    "familyId": "currency-malte",
+    "confidence": 0.97,
+    "explanation": "Malta uses the euro (EUR).",
+    "id": "malte-100081",
+    "conceptId": "fact-100081",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Mauritius use?",
+    "answers": [
+      "Mauritian rupee",
+      "Pakistani rupee",
+      "Kyrgyzstani som",
+      "Philippine peso"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "maurice",
+      "monnaies"
+    ],
+    "familyId": "currency-maurice",
+    "confidence": 0.97,
+    "explanation": "Mauritius uses the Mauritian rupee (MUR).",
+    "id": "maurice-100082",
+    "conceptId": "fact-100082",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Mauritania use?",
+    "answers": [
+      "ouguiya",
+      "Moroccan dirham",
+      "Pakistani rupee",
+      "Turkish lira"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mauritanie",
+      "monnaies"
+    ],
+    "familyId": "currency-mauritanie",
+    "confidence": 0.97,
+    "explanation": "Mauritania uses the ouguiya (MRU).",
+    "id": "mauritanie-100083",
+    "conceptId": "fact-100083",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Mexico use?",
+    "answers": [
+      "Mexican peso",
+      "sum",
+      "tugrik",
+      "afghani"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mexique",
+      "monnaies"
+    ],
+    "familyId": "currency-mexique",
+    "confidence": 0.97,
+    "explanation": "Mexico uses the Mexican peso (MXN).",
+    "id": "mexique-100084",
+    "conceptId": "fact-100084",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Moldova use?",
+    "answers": [
+      "Moldovan leu",
+      "yen",
+      "Kenyan shilling",
+      "shekel"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "moldavie",
+      "monnaies"
+    ],
+    "familyId": "currency-moldavie",
+    "confidence": 0.97,
+    "explanation": "Moldova uses the Moldovan leu (MDL).",
+    "id": "moldavie-100085",
+    "conceptId": "fact-100085",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Monaco use?",
+    "answers": [
+      "euro",
+      "shekel",
+      "Surinamese dollar",
+      "leone"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "monaco",
+      "monnaies"
+    ],
+    "familyId": "currency-monaco",
+    "confidence": 0.97,
+    "explanation": "Monaco uses the euro (EUR).",
+    "id": "monaco-100086",
+    "conceptId": "fact-100086",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Mongolia use?",
+    "answers": [
+      "tugrik",
+      "denar",
+      "ouguiya",
+      "Belarusian ruble"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mongolie",
+      "monnaies"
+    ],
+    "familyId": "currency-mongolie",
+    "confidence": 0.97,
+    "explanation": "Mongolia uses the tugrik (MNT).",
+    "id": "mongolie-100087",
+    "conceptId": "fact-100087",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Montenegro use?",
+    "answers": [
+      "euro",
+      "kwanza",
+      "dalasi",
+      "Nepalese rupee"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "montenegro",
+      "monnaies"
+    ],
+    "familyId": "currency-montenegro",
+    "confidence": 0.97,
+    "explanation": "Montenegro uses the euro (EUR).",
+    "id": "montenegro-100088",
+    "conceptId": "fact-100088",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Mozambique use?",
+    "answers": [
+      "metical",
+      "Syrian pound",
+      "Comorian franc",
+      "Burundian franc"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mozambique",
+      "monnaies"
+    ],
+    "familyId": "currency-mozambique",
+    "confidence": 0.97,
+    "explanation": "Mozambique uses the metical (MZN).",
+    "id": "mozambique-100089",
+    "conceptId": "fact-100089",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Nicaragua use?",
+    "answers": [
+      "córdoba",
+      "kina",
+      "lek",
+      "Serbian dinar"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "nicaragua",
+      "monnaies"
+    ],
+    "familyId": "currency-nicaragua",
+    "confidence": 0.97,
+    "explanation": "Nicaragua uses the córdoba (NIO).",
+    "id": "nicaragua-100090",
+    "conceptId": "fact-100090",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Niger use?",
+    "answers": [
+      "CFA franc (BCEAO)",
+      "boliviano",
+      "Indonesian rupiah",
+      "leone"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "niger",
+      "monnaies"
+    ],
+    "familyId": "currency-niger",
+    "confidence": 0.97,
+    "explanation": "Niger uses the CFA franc (BCEAO) (XOF).",
+    "id": "niger-100091",
+    "conceptId": "fact-100091",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Nigeria use?",
+    "answers": [
+      "naira",
+      "ouguiya",
+      "Somali shilling",
+      "ngultrum"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "nigeria",
+      "monnaies"
+    ],
+    "familyId": "currency-nigeria",
+    "confidence": 0.97,
+    "explanation": "Nigeria uses the naira (NGN).",
+    "id": "nigeria-100092",
+    "conceptId": "fact-100092",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Norway use?",
+    "answers": [
+      "Norwegian krone",
+      "Canadian dollar",
+      "Cape Verdean escudo",
+      "naira"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "norvege",
+      "monnaies"
+    ],
+    "familyId": "currency-norvege",
+    "confidence": 0.97,
+    "explanation": "Norway uses the Norwegian krone (NOK).",
+    "id": "norvege-100093",
+    "conceptId": "fact-100093",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does New Zealand use?",
+    "answers": [
+      "New Zealand dollar",
+      "Belize dollar",
+      "Argentine peso",
+      "Brazilian real"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "nouvelle-zelande",
+      "monnaies"
+    ],
+    "familyId": "currency-nouvelle-zelande",
+    "confidence": 0.97,
+    "explanation": "New Zealand uses the New Zealand dollar (NZD).",
+    "id": "nouvelle-zelande-100094",
+    "conceptId": "fact-100094",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Uzbekistan use?",
+    "answers": [
+      "sum",
+      "baht",
+      "Icelandic króna",
+      "Guyanese dollar"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "ouzbekistan",
+      "monnaies"
+    ],
+    "familyId": "currency-ouzbekistan",
+    "confidence": 0.97,
+    "explanation": "Uzbekistan uses the sum (UZS).",
+    "id": "ouzbekistan-100095",
+    "conceptId": "fact-100095",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Panama use?",
+    "answers": [
+      "balboa",
+      "rufiyaa",
+      "Burundian franc",
+      "yuan renminbi"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "panama",
+      "monnaies"
+    ],
+    "familyId": "currency-panama",
+    "confidence": 0.97,
+    "explanation": "Panama uses the balboa (PAB).",
+    "id": "panama-100096",
+    "conceptId": "fact-100096",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Papua New Guinea use?",
+    "answers": [
+      "kina",
+      "Bahraini dinar",
+      "riel",
+      "lek"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "papouasie-nouvelle-guinee",
+      "monnaies"
+    ],
+    "familyId": "currency-papouasie-nouvelle-guinee",
+    "confidence": 0.97,
+    "explanation": "Papua New Guinea uses the kina (PGK).",
+    "id": "papouasie-nouvelle-guinee-100097",
+    "conceptId": "fact-100097",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Paraguay use?",
+    "answers": [
+      "guaraní",
+      "kip",
+      "Belarusian ruble",
+      "złoty"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "paraguay",
+      "monnaies"
+    ],
+    "familyId": "currency-paraguay",
+    "confidence": 0.97,
+    "explanation": "Paraguay uses the guaraní (PYG).",
+    "id": "paraguay-100098",
+    "conceptId": "fact-100098",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does the Netherlands use?",
+    "answers": [
+      "euro",
+      "dong",
+      "Bahraini dinar",
+      "yen"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "pays-bas",
+      "monnaies"
+    ],
+    "familyId": "currency-pays-bas",
+    "confidence": 0.97,
+    "explanation": "The Netherlands uses the euro (EUR).",
+    "id": "pays-bas-100099",
+    "conceptId": "fact-100099",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Peru use?",
+    "answers": [
+      "Peruvian sol",
+      "Libyan dinar",
+      "Pula",
+      "Kwanza"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "perou",
+      "monnaies"
+    ],
+    "familyId": "currency-perou",
+    "confidence": 0.97,
+    "explanation": "Peru uses the Peruvian sol (PEN).",
+    "id": "perou-100100",
+    "conceptId": "fact-100100",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does the Philippines use?",
+    "answers": [
+      "Philippine peso",
+      "CFA franc (BEAC)",
+      "Uruguayan peso",
+      "Afghani"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philippines",
+      "monnaies"
+    ],
+    "familyId": "currency-philippines",
+    "confidence": 0.97,
+    "explanation": "The Philippines uses the Philippine peso (PHP).",
+    "id": "philippines-100101",
+    "conceptId": "fact-100101",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Poland use?",
+    "answers": [
+      "złoty",
+      "Yemeni rial",
+      "CFA franc (BCEAO)",
+      "Danish krone"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "pologne",
+      "monnaies"
+    ],
+    "familyId": "currency-pologne",
+    "confidence": 0.97,
+    "explanation": "Poland uses the złoty (PLN).",
+    "id": "pologne-100102",
+    "conceptId": "fact-100102",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Portugal use?",
+    "answers": [
+      "euro",
+      "kyat",
+      "Malawian kwacha",
+      "Swedish krona"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "portugal",
+      "monnaies"
+    ],
+    "familyId": "currency-portugal",
+    "confidence": 0.97,
+    "explanation": "Portugal uses the euro (EUR).",
+    "id": "portugal-100103",
+    "conceptId": "fact-100103",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does the Czech Republic use?",
+    "answers": [
+      "Czech crown",
+      "Argentine peso",
+      "kwanza",
+      "dong"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "republique-tcheque",
+      "monnaies"
+    ],
+    "familyId": "currency-republique-tcheque",
+    "confidence": 0.97,
+    "explanation": "The Czech Republic uses the Czech crown (CZK).",
+    "id": "republique-tcheque-100104",
+    "conceptId": "fact-100104",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Romania use?",
+    "answers": [
+      "Romanian leu",
+      "rand",
+      "euro",
+      "Norwegian krone"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "roumanie",
+      "monnaies"
+    ],
+    "familyId": "currency-roumanie",
+    "confidence": 0.97,
+    "explanation": "Romania uses the Romanian leu (RON).",
+    "id": "roumanie-100105",
+    "conceptId": "fact-100105",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does the United Kingdom use?",
+    "answers": [
+      "pound sterling",
+      "nakfa",
+      "Sudanese pound",
+      "Nepalese rupee"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "royaume-uni",
+      "monnaies"
+    ],
+    "familyId": "currency-royaume-uni",
+    "confidence": 0.97,
+    "explanation": "The United Kingdom uses the pound sterling (GBP).",
+    "id": "royaume-uni-100106",
+    "conceptId": "fact-100106",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Russia use?",
+    "answers": [
+      "Russian ruble",
+      "Sudanese pound",
+      "Zimbabwean dollar",
+      "Peruvian sol"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "russie",
+      "monnaies"
+    ],
+    "familyId": "currency-russie",
+    "confidence": 0.97,
+    "explanation": "Russia uses the Russian ruble (RUB).",
+    "id": "russie-100107",
+    "conceptId": "fact-100107",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Senegal use?",
+    "answers": [
+      "CFA franc (BCEAO)",
+      "Guinean franc",
+      "Argentine peso",
+      "Kuwaiti dinar"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "senegal",
+      "monnaies"
+    ],
+    "familyId": "currency-senegal",
+    "confidence": 0.97,
+    "explanation": "Senegal uses the CFA franc (BCEAO) (XOF).",
+    "id": "senegal-100108",
+    "conceptId": "fact-100108",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Serbia use?",
+    "answers": [
+      "Serbian dinar",
+      "Iraqi dinar",
+      "ngultrum",
+      "Jamaican dollar"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "serbie",
+      "monnaies"
+    ],
+    "familyId": "currency-serbie",
+    "confidence": 0.97,
+    "explanation": "Serbia uses the Serbian dinar (RSD).",
+    "id": "serbie-100109",
+    "conceptId": "fact-100109",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Slovakia use?",
+    "answers": [
+      "euro",
+      "Belize dollar",
+      "Djiboutian franc",
+      "Namibian dollar"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "slovaquie",
+      "monnaies"
+    ],
+    "familyId": "currency-slovaquie",
+    "confidence": 0.97,
+    "explanation": "Slovakia uses the euro (EUR).",
+    "id": "slovaquie-100110",
+    "conceptId": "fact-100110",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Slovenia use?",
+    "answers": [
+      "euro",
+      "Peruvian sol",
+      "boliviano",
+      "Syrian pound"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "slovenie",
+      "monnaies"
+    ],
+    "familyId": "currency-slovenie",
+    "confidence": 0.97,
+    "explanation": "Slovenia uses the euro (EUR).",
+    "id": "slovenie-100111",
+    "conceptId": "fact-100111",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does South Sudan use?",
+    "answers": [
+      "South Sudanese pound",
+      "metical",
+      "Fijian dollar",
+      "Comorian franc"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "soudan-du-sud",
+      "monnaies"
+    ],
+    "familyId": "currency-soudan-du-sud",
+    "confidence": 0.97,
+    "explanation": "South Sudan uses the South Sudanese pound (SSP).",
+    "id": "soudan-du-sud-100112",
+    "conceptId": "fact-100112",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Sri Lanka use?",
+    "answers": [
+      "Sri Lankan rupee",
+      "North Korean won",
+      "Chilean peso",
+      "Canadian dollar"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sri-lanka",
+      "monnaies"
+    ],
+    "familyId": "currency-sri-lanka",
+    "confidence": 0.97,
+    "explanation": "Sri Lanka uses the Sri Lankan rupee (LKR).",
+    "id": "sri-lanka-100113",
+    "conceptId": "fact-100113",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Sweden use?",
+    "answers": [
+      "Swedish krona",
+      "Swiss franc",
+      "Sri Lankan rupee",
+      "Libyan dinar"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "suede",
+      "monnaies"
+    ],
+    "familyId": "currency-suede",
+    "confidence": 0.97,
+    "explanation": "Sweden uses the Swedish krona (SEK).",
+    "id": "suede-100114",
+    "conceptId": "fact-100114",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Tajikistan use?",
+    "answers": [
+      "somoni",
+      "ariary",
+      "Icelandic króna",
+      "Zimbabwean dollar"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "tadjikistan",
+      "monnaies"
+    ],
+    "familyId": "currency-tadjikistan",
+    "confidence": 0.97,
+    "explanation": "Tajikistan uses the somoni (TJS).",
+    "id": "tadjikistan-100115",
+    "conceptId": "fact-100115",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Chad use?",
+    "answers": [
+      "CFA franc (BEAC)",
+      "cedi",
+      "nakfa",
+      "Qatari riyal"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "tchad",
+      "monnaies"
+    ],
+    "familyId": "currency-tchad",
+    "confidence": 0.97,
+    "explanation": "Chad uses the CFA franc (BEAC) (XAF).",
+    "id": "tchad-100116",
+    "conceptId": "fact-100116",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Thailand use?",
+    "answers": [
+      "baht",
+      "cedi",
+      "Sudanese pound",
+      "kyat"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "thailande",
+      "monnaies"
+    ],
+    "familyId": "currency-thailande",
+    "confidence": 0.97,
+    "explanation": "Thailand uses the baht (THB).",
+    "id": "thailande-100117",
+    "conceptId": "fact-100117",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Togo use?",
+    "answers": [
+      "CFA franc (BCEAO)",
+      "Omani rial",
+      "Saudi riyal",
+      "Cuban peso"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "togo",
+      "monnaies"
+    ],
+    "familyId": "currency-togo",
+    "confidence": 0.97,
+    "explanation": "Togo uses the CFA franc (BCEAO) (XOF).",
+    "id": "togo-100118",
+    "conceptId": "fact-100118",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Trinidad and Tobago use?",
+    "answers": [
+      "Trinidad dollar",
+      "Guinean franc",
+      "Saudi riyal",
+      "dalasi"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "trinite-et-tobago",
+      "monnaies"
+    ],
+    "familyId": "currency-trinite-et-tobago",
+    "confidence": 0.97,
+    "explanation": "Trinidad and Tobago uses the Trinidad dollar (TTD).",
+    "id": "trinite-et-tobago-100119",
+    "conceptId": "fact-100119",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Turkmenistan use?",
+    "answers": [
+      "Turkmen manat",
+      "kwanza",
+      "Zimbabwean dollar",
+      "Singapore dollar"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "turkmenistan",
+      "monnaies"
+    ],
+    "familyId": "currency-turkmenistan",
+    "confidence": 0.97,
+    "explanation": "Turkmenistan uses the Turkmen manat (TMT).",
+    "id": "turkmenistan-100120",
+    "conceptId": "fact-100120",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Turkey use?",
+    "answers": [
+      "Turkish lira",
+      "Syrian pound",
+      "Iranian rial",
+      "Swedish krona"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "turquie",
+      "monnaies"
+    ],
+    "familyId": "currency-turquie",
+    "confidence": 0.97,
+    "explanation": "Turkey uses the Turkish lira (TRY).",
+    "id": "turquie-100121",
+    "conceptId": "fact-100121",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Ukraine use?",
+    "answers": [
+      "hryvnia",
+      "Indonesian rupiah",
+      "US dollar",
+      "vatu"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "ukraine",
+      "monnaies"
+    ],
+    "familyId": "currency-ukraine",
+    "confidence": 0.97,
+    "explanation": "Ukraine uses the hryvnia (UAH).",
+    "id": "ukraine-100122",
+    "conceptId": "fact-100122",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Vanuatu use?",
+    "answers": [
+      "vatu",
+      "South Korean won",
+      "Iranian rial",
+      "shekel"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vanuatu",
+      "monnaies"
+    ],
+    "familyId": "currency-vanuatu",
+    "confidence": 0.97,
+    "explanation": "Vanuatu uses the vatu (VUV).",
+    "id": "vanuatu-100123",
+    "conceptId": "fact-100123",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "Which currency does Vatican City use?",
+    "answers": [
+      "euro",
+      "Dominican peso",
+      "złoty",
+      "Singapore dollar"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vatican",
+      "monnaies"
+    ],
+    "familyId": "currency-vatican",
+    "confidence": 0.97,
+    "explanation": "Vatican City uses the euro (EUR).",
+    "id": "vatican-100124",
+    "conceptId": "fact-100124",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Venezuela use?",
+    "answers": [
+      "bolívar",
+      "pound sterling",
+      "colón",
+      "balboa"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "venezuela",
+      "monnaies"
+    ],
+    "familyId": "currency-venezuela",
+    "confidence": 0.97,
+    "explanation": "Venezuela uses the bolívar (VES).",
+    "id": "venezuela-100125",
+    "conceptId": "fact-100125",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  },
+  {
+    "inputMode": "mcq",
+    "type": "mcq",
+    "question": "What currency does Vietnam use?",
+    "answers": [
+      "đồng",
+      "yen",
+      "Australian dollar",
+      "Bahraini dinar"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "monnaies",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "viet-nam",
+      "monnaies"
+    ],
+    "familyId": "currency-viet-nam",
+    "confidence": 0.97,
+    "explanation": "Vietnam uses the đồng (VND).",
+    "id": "viet-nam-100126",
+    "conceptId": "fact-100126",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "version": 1,
+    "qualityScore": 0.95
+  }
+]

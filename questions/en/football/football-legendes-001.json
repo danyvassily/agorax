@@ -1,0 +1,392 @@
+[
+  {
+    "id": "foot-ext-0001",
+    "conceptId": "concept-foot-ext-0001",
+    "familyId": "family-foot-ext-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Portuguese player has won 5 Ballons d'Or and is the all-time top scorer in Champions League history?",
+    "answers": [
+      "Cristiano Ronaldo",
+      "Bernardo Silva",
+      "Luis Figo",
+      "Eusébio"
+    ],
+    "correctAnswer": 0,
+    "category": "football",
+    "subcategory": "joueurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "football",
+      "joueurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "foot-ext-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "foot-ext-0002",
+    "conceptId": "concept-foot-ext-0002",
+    "familyId": "family-foot-ext-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which German city was the 2006 World Cup final between France and Italy played?",
+    "answers": [
+      "Frankfurt",
+      "Berlin",
+      "Munich",
+      "Dortmund"
+    ],
+    "correctAnswer": 1,
+    "category": "football",
+    "subcategory": "coupe-du-monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "football",
+      "coupe-du-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "foot-ext-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "foot-ext-0003",
+    "conceptId": "concept-foot-ext-0003",
+    "familyId": "family-foot-ext-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French coach won three consecutive Champions Leagues at the helm of Real Madrid (2016-2018)?",
+    "answers": [
+      "Laurent Blanc",
+      "Arsène Wenger",
+      "Zinédine Zidane",
+      "Didier Deschamps"
+    ],
+    "correctAnswer": 2,
+    "category": "football",
+    "subcategory": "entraineurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "football",
+      "entraineurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "foot-ext-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "foot-ext-0004",
+    "conceptId": "concept-foot-ext-0004",
+    "familyId": "family-foot-ext-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which English club based in Manchester achieved the historic treble of Premier League - FA Cup - Champions League in 1999?",
+    "answers": [
+      "Liverpool",
+      "Manchester United",
+      "Manchester City",
+      "Arsenal"
+    ],
+    "correctAnswer": 1,
+    "category": "football",
+    "subcategory": "clubs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "football",
+      "clubs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "foot-ext-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "foot-ext-0005",
+    "conceptId": "concept-foot-ext-0005",
+    "familyId": "family-foot-ext-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French forward became the youngest player since Pelé to score in a World Cup final, in 2018 against Croatia?",
+    "answers": [
+      "Paul Pogba",
+      "Antoine Griezmann",
+      "Ousmane Dembélé",
+      "Kylian Mbappé"
+    ],
+    "correctAnswer": 3,
+    "category": "football",
+    "subcategory": "joueurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "football",
+      "joueurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "foot-ext-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "foot-ext-0006",
+    "conceptId": "concept-foot-ext-0006",
+    "familyId": "family-foot-ext-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which mythical stadium in Rio de Janeiro did Uruguay beat Brazil during the 'Maracanazo' in 1950?",
+    "answers": [
+      "Mineirão",
+      "Maracanã",
+      "Morumbi",
+      "Allianz Parque"
+    ],
+    "correctAnswer": 1,
+    "category": "football",
+    "subcategory": "stades",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "football",
+      "stades"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "foot-ext-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "foot-ext-0007",
+    "conceptId": "concept-foot-ext-0007",
+    "familyId": "family-foot-ext-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which legendary Dutch footballer is considered the embodiment of \"total football\" with Ajax and FC Barcelona?",
+    "answers": [
+      "Johan Cruyff",
+      "Ruud Gullit",
+      "Marco van Basten",
+      "Dennis Bergkamp"
+    ],
+    "correctAnswer": 0,
+    "category": "football",
+    "subcategory": "legendes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "football",
+      "legendes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "foot-ext-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "foot-ext-0008",
+    "conceptId": "concept-foot-ext-0008",
+    "familyId": "family-foot-ext-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which continental competition of African national football teams is organized every two years by CAF?",
+    "answers": [
+      "The Nile Cup",
+      "The Africa Cup of Nations (AFCON)",
+      "The African Championship",
+      "The Sahara Trophy"
+    ],
+    "correctAnswer": 1,
+    "category": "football",
+    "subcategory": "competitions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "football",
+      "competitions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "foot-ext-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "foot-ext-0009",
+    "conceptId": "concept-foot-ext-0009",
+    "familyId": "family-foot-ext-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Bavarian football club dominates the record of the German championship (Bundesliga) with more than 30 titles?",
+    "answers": [
+      "Borussia Dortmund",
+      "Bayern Munich",
+      "Schalke 04",
+      "Bayer Leverkusen"
+    ],
+    "correctAnswer": 1,
+    "category": "football",
+    "subcategory": "clubs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "football",
+      "clubs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "foot-ext-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "foot-ext-0010",
+    "conceptId": "concept-foot-ext-0010",
+    "familyId": "family-foot-ext-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French player won three consecutive Ballons d'Or from 1983 to 1985 while playing for Juventus?",
+    "answers": [
+      "Raymond Kopa",
+      "Jean-Pierre Papin",
+      "Michel Platini",
+      "Zinédine Zidane"
+    ],
+    "correctAnswer": 2,
+    "category": "football",
+    "subcategory": "legendes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "football",
+      "legendes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "foot-ext-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

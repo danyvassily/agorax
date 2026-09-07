@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "flag-fr",
+    "conceptId": "flag-fr",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Kenya",
+      "Austria",
+      "Greece",
+      "France"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/fr.svg",
+      "alt": "Drapeau : France",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-jp",
+    "conceptId": "flag-jp",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Argentina",
+      "Brazil",
+      "Russia",
+      "Japan"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/jp.svg",
+      "alt": "Drapeau : Japon",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-br",
+    "conceptId": "flag-br",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Brazil",
+      "Switzerland",
+      "Indonesia",
+      "Algeria"
+    ],
+    "correctAnswer": 0,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/br.svg",
+      "alt": "Drapeau : Brésil",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-ca",
+    "conceptId": "flag-ca",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Russia",
+      "Norway",
+      "Morocco",
+      "Canada"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/ca.svg",
+      "alt": "Drapeau : Canada",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-za",
+    "conceptId": "flag-za",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "France",
+      "South Africa",
+      "Russia",
+      "Mexico"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/za.svg",
+      "alt": "Drapeau : Afrique du Sud",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-us",
+    "conceptId": "flag-us",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "France",
+      "Indonesia",
+      "United States",
+      "Norway"
+    ],
+    "correctAnswer": 2,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/us.svg",
+      "alt": "Drapeau : États-Unis",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-gb",
+    "conceptId": "flag-gb",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Venezuela",
+      "Germany",
+      "United Kingdom",
+      "Morocco"
+    ],
+    "correctAnswer": 2,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/gb.svg",
+      "alt": "Drapeau : Royaume-Uni",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-de",
+    "conceptId": "flag-de",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Germany",
+      "Algeria",
+      "Brazil",
+      "Russia"
+    ],
+    "correctAnswer": 0,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/de.svg",
+      "alt": "Drapeau : Allemagne",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-it",
+    "conceptId": "flag-it",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Iran",
+      "Italy",
+      "Russia",
+      "Saudi Arabia"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/it.svg",
+      "alt": "Drapeau : Italie",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-es",
+    "conceptId": "flag-es",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Japan",
+      "Ireland",
+      "Russia",
+      "Spain"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/es.svg",
+      "alt": "Drapeau : Espagne",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-cn",
+    "conceptId": "flag-cn",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "China",
+      "Spain",
+      "Greece",
+      "Mexico"
+    ],
+    "correctAnswer": 0,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/cn.svg",
+      "alt": "Drapeau : Chine",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-in",
+    "conceptId": "flag-in",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "India",
+      "Ukraine",
+      "Poland",
+      "Austria"
+    ],
+    "correctAnswer": 0,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/in.svg",
+      "alt": "Drapeau : Inde",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-au",
+    "conceptId": "flag-au",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Iran",
+      "Vietnam",
+      "Australia",
+      "Nigeria"
+    ],
+    "correctAnswer": 2,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/au.svg",
+      "alt": "Drapeau : Australie",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-ru",
+    "conceptId": "flag-ru",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "France",
+      "Canada",
+      "Brazil",
+      "Russia"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/ru.svg",
+      "alt": "Drapeau : Russie",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-mx",
+    "conceptId": "flag-mx",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Saudi Arabia",
+      "Mexico",
+      "Australia",
+      "Indonesia"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/mx.svg",
+      "alt": "Drapeau : Mexique",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-ar",
+    "conceptId": "flag-ar",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Argentina",
+      "Nigeria",
+      "Malaysia",
+      "Finland"
+    ],
+    "correctAnswer": 0,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/ar.svg",
+      "alt": "Drapeau : Argentine",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-kr",
+    "conceptId": "flag-kr",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Nigeria",
+      "Iraq",
+      "India",
+      "South Korea"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/kr.svg",
+      "alt": "Drapeau : Corée du Sud",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-tr",
+    "conceptId": "flag-tr",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Switzerland",
+      "Russia",
+      "Cuba",
+      "Turkey"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/tr.svg",
+      "alt": "Drapeau : Turquie",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-sa",
+    "conceptId": "flag-sa",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Pakistan",
+      "Iran",
+      "Saudi Arabia",
+      "Venezuela"
+    ],
+    "correctAnswer": 2,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/sa.svg",
+      "alt": "Drapeau : Arabie Saoudite",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-eg",
+    "conceptId": "flag-eg",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "South Africa",
+      "Egypt",
+      "Brazil",
+      "Colombia"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/eg.svg",
+      "alt": "Drapeau : Égypte",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-ng",
+    "conceptId": "flag-ng",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Algeria",
+      "Nigeria",
+      "Israel",
+      "Singapore"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/ng.svg",
+      "alt": "Drapeau : Nigeria",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-ke",
+    "conceptId": "flag-ke",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Spain",
+      "Germany",
+      "Kenya",
+      "Denmark"
+    ],
+    "correctAnswer": 2,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/ke.svg",
+      "alt": "Drapeau : Kenya",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-dz",
+    "conceptId": "flag-dz",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Australia",
+      "Mexico",
+      "Algeria",
+      "Morocco"
+    ],
+    "correctAnswer": 2,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/dz.svg",
+      "alt": "Drapeau : Algérie",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-ma",
+    "conceptId": "flag-ma",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Morocco",
+      "Argentina",
+      "Malaysia",
+      "Cuba"
+    ],
+    "correctAnswer": 0,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/ma.svg",
+      "alt": "Drapeau : Maroc",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-se",
+    "conceptId": "flag-se",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Indonesia",
+      "Sweden",
+      "Ukraine",
+      "Ireland"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/se.svg",
+      "alt": "Drapeau : Suède",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-no",
+    "conceptId": "flag-no",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Germany",
+      "Mexico",
+      "Cuba",
+      "Norway"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/no.svg",
+      "alt": "Drapeau : Norvège",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-fi",
+    "conceptId": "flag-fi",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Colombia",
+      "Finland",
+      "Venezuela",
+      "Thailand"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/fi.svg",
+      "alt": "Drapeau : Finlande",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-dk",
+    "conceptId": "flag-dk",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Germany",
+      "Denmark",
+      "Kenya",
+      "Argentina"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/dk.svg",
+      "alt": "Drapeau : Danemark",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-ch",
+    "conceptId": "flag-ch",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Mexico",
+      "China",
+      "Finland",
+      "Switzerland"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/ch.svg",
+      "alt": "Drapeau : Suisse",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-at",
+    "conceptId": "flag-at",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Austria",
+      "Australia",
+      "Ireland",
+      "Finland"
+    ],
+    "correctAnswer": 0,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/at.svg",
+      "alt": "Drapeau : Autriche",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-gr",
+    "conceptId": "flag-gr",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "India",
+      "Malaysia",
+      "Egypt",
+      "Greece"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/gr.svg",
+      "alt": "Drapeau : Grèce",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-pt",
+    "conceptId": "flag-pt",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Norway",
+      "Nigeria",
+      "France",
+      "Portugal"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/pt.svg",
+      "alt": "Drapeau : Portugal",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-nl",
+    "conceptId": "flag-nl",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Netherlands",
+      "Germany",
+      "Switzerland",
+      "New Zealand"
+    ],
+    "correctAnswer": 0,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/nl.svg",
+      "alt": "Drapeau : Pays-Bas",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-be",
+    "conceptId": "flag-be",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Saudi Arabia",
+      "United Kingdom",
+      "Belgium",
+      "United States"
+    ],
+    "correctAnswer": 2,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/be.svg",
+      "alt": "Drapeau : Belgique",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-pl",
+    "conceptId": "flag-pl",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Egypt",
+      "Poland",
+      "Philippines",
+      "Mexico"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/pl.svg",
+      "alt": "Drapeau : Pologne",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-ua",
+    "conceptId": "flag-ua",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Peru",
+      "Nigeria",
+      "Norway",
+      "Ukraine"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/ua.svg",
+      "alt": "Drapeau : Ukraine",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-ie",
+    "conceptId": "flag-ie",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Ireland",
+      "Morocco",
+      "Belgium",
+      "Iran"
+    ],
+    "correctAnswer": 0,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/ie.svg",
+      "alt": "Drapeau : Irlande",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-nz",
+    "conceptId": "flag-nz",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Colombia",
+      "Canada",
+      "South Africa",
+      "New Zealand"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/nz.svg",
+      "alt": "Drapeau : Nouvelle-Zélande",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-cl",
+    "conceptId": "flag-cl",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Brazil",
+      "Norway",
+      "Chile",
+      "Colombia"
+    ],
+    "correctAnswer": 2,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/cl.svg",
+      "alt": "Drapeau : Chili",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-co",
+    "conceptId": "flag-co",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Japan",
+      "Thailand",
+      "Kenya",
+      "Colombia"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/co.svg",
+      "alt": "Drapeau : Colombie",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-pe",
+    "conceptId": "flag-pe",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Colombia",
+      "Peru",
+      "Thailand",
+      "Germany"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/pe.svg",
+      "alt": "Drapeau : Pérou",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-ve",
+    "conceptId": "flag-ve",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Egypt",
+      "Venezuela",
+      "Saudi Arabia",
+      "Portugal"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/ve.svg",
+      "alt": "Drapeau : Venezuela",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-cu",
+    "conceptId": "flag-cu",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Norway",
+      "India",
+      "Turkey",
+      "Cuba"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/cu.svg",
+      "alt": "Drapeau : Cuba",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-jm",
+    "conceptId": "flag-jm",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Thailand",
+      "Jamaica",
+      "Iraq",
+      "Algeria"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/jm.svg",
+      "alt": "Drapeau : Jamaïque",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-th",
+    "conceptId": "flag-th",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "India",
+      "Turkey",
+      "Singapore",
+      "Thailand"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/th.svg",
+      "alt": "Drapeau : Thaïlande",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-vn",
+    "conceptId": "flag-vn",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "South Africa",
+      "New Zealand",
+      "Portugal",
+      "Vietnam"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/vn.svg",
+      "alt": "Drapeau : Vietnam",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-id",
+    "conceptId": "flag-id",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "France",
+      "Indonesia",
+      "Spain",
+      "Philippines"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/id.svg",
+      "alt": "Drapeau : Indonésie",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-my",
+    "conceptId": "flag-my",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Malaysia",
+      "Indonesia",
+      "Denmark",
+      "Philippines"
+    ],
+    "correctAnswer": 0,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/my.svg",
+      "alt": "Drapeau : Malaisie",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-ph",
+    "conceptId": "flag-ph",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Netherlands",
+      "Switzerland",
+      "Philippines",
+      "Nigeria"
+    ],
+    "correctAnswer": 2,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/ph.svg",
+      "alt": "Drapeau : Philippines",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-sg",
+    "conceptId": "flag-sg",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Argentina",
+      "Singapore",
+      "United Kingdom",
+      "Morocco"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/sg.svg",
+      "alt": "Drapeau : Singapour",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-ir",
+    "conceptId": "flag-ir",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Iran",
+      "South Africa",
+      "Philippines",
+      "Canada"
+    ],
+    "correctAnswer": 0,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/ir.svg",
+      "alt": "Drapeau : Iran",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-iq",
+    "conceptId": "flag-iq",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "China",
+      "Cuba",
+      "Iraq",
+      "Ireland"
+    ],
+    "correctAnswer": 2,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/iq.svg",
+      "alt": "Drapeau : Irak",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-il",
+    "conceptId": "flag-il",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Russia",
+      "Ireland",
+      "Israel",
+      "Sweden"
+    ],
+    "correctAnswer": 2,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/il.svg",
+      "alt": "Drapeau : Israël",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "flag-pk",
+    "conceptId": "flag-pk",
+    "familyId": "flag-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does this flag belong to?",
+    "answers": [
+      "Malaysia",
+      "Mexico",
+      "Ireland",
+      "Pakistan"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "svg",
+      "url": "https://flagcdn.com/pk.svg",
+      "alt": "Drapeau : Pakistan",
+      "attribution": "FlagCDN"
+    },
+    "category": "geographie",
+    "subcategory": "Drapeaux du Monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "drapeau",
+      "visuel",
+      "pays"
+    ],
+    "source": {
+      "provider": "flagcdn"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  }
+]

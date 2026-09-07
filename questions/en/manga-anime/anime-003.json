@@ -1,0 +1,901 @@
+[
+  {
+    "id": "anime-op-luffy-gear-5-god",
+    "conceptId": "one-piece-luffy-gear-5-nika",
+    "familyId": "one-piece-luffy-powers",
+    "type": "mcq",
+    "question": "In One Piece, under the name of which legendary deity is the true power of Luffy's Devil Fruit (Gear 5) revealed?",
+    "answers": [
+      "Nika, the Sun God",
+      "Kamusari, the God of Lightning",
+      "Ryujin, the God of the Seas",
+      "Amaterasu, the Goddess of Fire"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "one-piece",
+      "luffy",
+      "gear-5",
+      "nika",
+      "shonen",
+      "manga-culte"
+    ],
+    "explanation": "The Gomu Gomu no Mi is actually the Hito Hito no Mi, Model: Mythical, Nika, embodying the Warrior of Liberation Joy Boy.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-one-piece"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-op-zoro-enma-blade",
+    "conceptId": "one-piece-zoro-enma-oden",
+    "familyId": "one-piece-zoro-swords",
+    "type": "mcq",
+    "question": "In One Piece, which legendary sword that belonged to Kozuki Oden and is capable of injuring Kaido is entrusted to Roronoa Zoro in Wano?",
+    "answers": [
+      "Enma",
+      "Shusui",
+      "Wado Ichimonji",
+      "Sandai Kitetsu"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "one-piece",
+      "zoro",
+      "sabres",
+      "wano",
+      "shonen",
+      "manga-culte"
+    ],
+    "explanation": "Zoro exchanges the national treasure Shusui for Enma, one of the few blades that left an indelible scar on Kaido's body.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-one-piece"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-naruto-pain-real-leader",
+    "conceptId": "naruto-pain-nagato-rinnegan",
+    "familyId": "naruto-akatsuki-lore",
+    "type": "mcq",
+    "question": "In Naruto Shippuden, which ninja from the Hidden Rain Village remotely controls the six bodies of Pain using his Rinnegan?",
+    "answers": [
+      "Nagato Uzumaki",
+      "Yahiko",
+      "Konan",
+      "Obito Uchiha"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "naruto",
+      "pain",
+      "nagato",
+      "akatsuki",
+      "rinnegan",
+      "manga-culte"
+    ],
+    "explanation": "Nagato, physically weakened, uses chakra receivers to animate the Six Paths of Pain, whose main body is that of his deceased friend Yahiko.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-naruto"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-naruto-minato-technique-hiraishin",
+    "conceptId": "naruto-minato-flying-thunder-god",
+    "familyId": "naruto-hokage-techniques",
+    "type": "mcq",
+    "question": "Which spacetime teleportation technique earned Minato Namikaze the nickname of Konoha's Yellow Flash?",
+    "answers": [
+      "Flying Thunder God Technique (Hiraishin no Jutsu)",
+      "Kamui",
+      "Shadow Substitution (Kawarimi)",
+      "Instantaneous Movement (Shunshin)"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "naruto",
+      "minato",
+      "hokage",
+      "techniques",
+      "manga-culte"
+    ],
+    "explanation": "The Hiraishin no Jutsu, invented by Tobirama Senju and perfected by Minato, allows him to instantly teleport to any marked beacon.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-naruto"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-snk-rumbling-eren",
+    "conceptId": "snk-rumbling-colossal-titans-eren",
+    "familyId": "snk-eren-titans",
+    "type": "mcq",
+    "question": "In Attack on Titan (SnK), what apocalyptic event does Eren Jäger trigger by awakening the millions of Titans within the walls?",
+    "answers": [
+      "The Rumbling",
+      "The Great Night of Eldia",
+      "The Underground Eclipse",
+      "The March of Destiny"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "seinen-shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "snk",
+      "attaque-des-titans",
+      "eren",
+      "manga-culte"
+    ],
+    "explanation": "The Rumbling releases the Colossal Titans from the Walls Maria, Rose, and Sina to crush all life outside the island of Paradis.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "kodansha-snk"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.99,
+    "version": 1
+  },
+  {
+    "id": "anime-snk-captain-levi-clan",
+    "conceptId": "snk-levi-ackerman-clan",
+    "familyId": "snk-ackerman-lore",
+    "type": "mcq",
+    "question": "In Attack on Titan, to which legendary clan with superhuman physical abilities do Levi and Mikasa belong?",
+    "answers": [
+      "The Ackerman clan",
+      "The Tybur clan",
+      "The Reiss clan",
+      "The Braun clan"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "seinen-shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "snk",
+      "livai",
+      "mikasa",
+      "ackerman",
+      "manga-culte"
+    ],
+    "explanation": "The Ackermans are the result of experiments on Titan science, granting them the strength of Titans in human form.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "kodansha-snk"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-jjk-gojo-domain-expansion",
+    "conceptId": "jjk-gojo-infinite-void-domain",
+    "familyId": "jjk-gojo-satoru-techniques",
+    "type": "mcq",
+    "question": "In Jujutsu Kaisen, what is the name of Satoru Gojo's Domain Expansion?",
+    "answers": [
+      "Unlimited Void (Muryokusho)",
+      "Demon Altar (Fukuma Mizushi)",
+      "Garden of Shadows (Kango An'eite)",
+      "Steel Tomb (Tekken Ryōiki)"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jujutsu-kaisen",
+      "gojo",
+      "territoire",
+      "manga-culte"
+    ],
+    "explanation": "The Unlimited Void floods the target's brain with an infinite amount of information, completely paralyzing them.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-jjk"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-jjk-sukuna-fingers-count",
+    "conceptId": "jjk-sukuna-20-fingers-relics",
+    "familyId": "jjk-sukuna-lore",
+    "type": "mcq",
+    "question": "In Jujutsu Kaisen, how many cursed fingers of Ryomen Sukuna are scattered across the world?",
+    "answers": [
+      "20",
+      "10",
+      "12",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jujutsu-kaisen",
+      "sukuna",
+      "itadori",
+      "manga-culte"
+    ],
+    "explanation": "Sukuna had four arms in the Heian era, making a total of 20 indestructible fingers that became S-class relics.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-jjk"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-demon-slayer-muzan-weakness",
+    "conceptId": "demon-slayer-blue-spider-lily-muzan",
+    "familyId": "demon-slayer-muzan-flower",
+    "type": "mcq",
+    "question": "In Demon Slayer (Kimetsu no Yaiba), which mystical flower has Muzan Kibutsuji been desperately searching for a millennium to conquer the Sun?",
+    "answers": [
+      "The Blue Spider Lily",
+      "The Twilight Rose",
+      "The Solar Orchid",
+      "The Blood Lotus"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "demon-slayer",
+      "muzan",
+      "tanjiro",
+      "fleur",
+      "manga-culte"
+    ],
+    "explanation": "The Blue Spider Lily is the original ingredient of the medicine that transformed Muzan into a demon without granting him immunity to the sun.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-demon-slayer"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-demon-slayer-rengoku-breath",
+    "conceptId": "demon-slayer-rengoku-flame-breathing",
+    "familyId": "demon-slayer-hashira-pillars",
+    "type": "mcq",
+    "question": "In Demon Slayer, of which element is Kyojuro Rengoku the proud Pillar (Hashira) in the film Mugen Train?",
+    "answers": [
+      "Flame",
+      "Water",
+      "Lightning",
+      "Wind"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "demon-slayer",
+      "rengoku",
+      "piliers",
+      "manga-culte"
+    ],
+    "explanation": "Kyojuro Rengoku is the Flame Pillar (Flame Hashira) and uses the Flame Breathing inherited from his ancestors.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-demon-slayer"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-dbz-ultra-instinct-form",
+    "conceptId": "dragon-ball-goku-ultra-instinct",
+    "familyId": "dragon-ball-transformations",
+    "type": "mcq",
+    "question": "In Dragon Ball Super, which ultimate form that allows the body to react without thought does Son Goku master against Jiren?",
+    "answers": [
+      "Ultra Instinct (Migatte no Gokui)",
+      "Ultra Ego (Wagami no Gokui)",
+      "Super Saiyan Rosé",
+      "Super Saiyan God"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "dragon-ball",
+      "goku",
+      "ultra-instinct",
+      "shonen",
+      "manga-culte"
+    ],
+    "explanation": "Ultra Instinct is a divine technique taught by Whis where the body moves and dodges automatically by pure reflex.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-dragon-ball"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-death-note-l-real-name",
+    "conceptId": "death-note-l-lawliet-name",
+    "familyId": "death-note-detective-l",
+    "type": "mcq",
+    "question": "In Death Note, what is the real full name of the genius detective L?",
+    "answers": [
+      "L Lawliet",
+      "Light Yagami",
+      "Nate River",
+      "Mihael Keehl"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "thriller",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "death-note",
+      "l",
+      "light",
+      "shinigami",
+      "manga-culte"
+    ],
+    "explanation": "L's real name, revealed in the official guide 'Death Note 13: How to Read', is L Lawliet.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-death-note"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-fma-brotherhood-taboo",
+    "conceptId": "fma-human-transmutation-taboo",
+    "familyId": "fma-brotherhood-alchemy",
+    "type": "mcq",
+    "question": "In Fullmetal Alchemist: Brotherhood, which supreme taboo of alchemy did Edward and Alphonse Elric transgress to try to bring their mother back?",
+    "answers": [
+      "Human Transmutation",
+      "The creation of the Philosopher's Stone",
+      "The fusion of human chimeras",
+      "The forced opening of the Gate of Truth"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "fullmetal-alchemist",
+      "edward-elric",
+      "alchimie",
+      "manga-culte"
+    ],
+    "explanation": "Human transmutation is strictly forbidden because the life of a human soul cannot be exchanged according to the principle of Equivalent Exchange.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "square-enix-fma"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-hxh-gon-nen-category",
+    "conceptId": "hxh-gon-enhancer-nen",
+    "familyId": "hxh-nen-types",
+    "type": "mcq",
+    "question": "In Hunter x Hunter, to which Nen category (Jajanken technique) does Gon Freecss natively belong?",
+    "answers": [
+      "Enhancement",
+      "Transmutation",
+      "Conjuration",
+      "Specialization"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "hunter-x-hunter",
+      "gon",
+      "nen",
+      "jajanken",
+      "manga-culte"
+    ],
+    "explanation": "Gon is a natural Enhancer, which amplifies the raw power of his fist during the 'Rock' attack of Jajanken.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-hxh"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-chainsaw-man-pochita-devil",
+    "conceptId": "chainsaw-man-pochita-chainsaw-devil",
+    "familyId": "chainsaw-man-devils",
+    "type": "mcq",
+    "question": "In Chainsaw Man, what is the name of the small chainsaw dog devil that merges with Denji's heart?",
+    "answers": [
+      "Pochita",
+      "Power",
+      "Beam",
+      "Kon"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen-sombre",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "chainsaw-man",
+      "denji",
+      "pochita",
+      "makima",
+      "manga-culte"
+    ],
+    "explanation": "Pochita, the Chainsaw Devil, offers his heart to Denji to save his life under the promise that he will show him his dreams.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-csm"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-solo-leveling-arise-phrase",
+    "conceptId": "solo-leveling-jinwoo-arise-command",
+    "familyId": "solo-leveling-shadows",
+    "type": "mcq",
+    "question": "In Solo Leveling, what iconic command does Sung Jinwoo utter to resurrect monsters as Shadows?",
+    "answers": [
+      "Arise! (Il-eonala)",
+      "Kneel!",
+      "Obey!",
+      "Resurrection!"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "manhwa-anime",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "solo-leveling",
+      "sung-jinwoo",
+      "ombres",
+      "manhwa",
+      "manga-culte"
+    ],
+    "explanation": "'Arise' (Debout) is the command for the Shadow Extraction skill of the Monarch of Shadows.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "d-and-c-solo-leveling"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-bleach-ichigo-bankai-name",
+    "conceptId": "bleach-ichigo-tensa-zangetsu-bankai",
+    "familyId": "bleach-ichigo-powers",
+    "type": "mcq",
+    "question": "In Bleach, what is the name of Ichigo Kurosaki's ultra-fast Bankai in the form of a sleek black katana?",
+    "answers": [
+      "Tensa Zangetsu",
+      "Senbonzakura Kageyoshi",
+      "Daiguren Hyorinmaru",
+      "Kyoka Suigetsu"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "bleach",
+      "ichigo",
+      "bankai",
+      "zangetsu",
+      "manga-culte"
+    ],
+    "explanation": "Tensa Zangetsu compresses all of Ichigo's spiritual power into a thin black blade to grant him superhuman speed.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-bleach"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-spy-family-anya-secret-power",
+    "conceptId": "spy-family-anya-telepathy-power",
+    "familyId": "spy-family-anya-abilities",
+    "type": "mcq",
+    "question": "In Spy x Family, what extraordinary secret power does little Anya Forger possess unbeknownst to her adoptive parents?",
+    "answers": [
+      "She is a telepath and can read minds",
+      "She can predict the future with accuracy",
+      "She can become invisible",
+      "She understands the language of animals"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "comedie-shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "spy-x-family",
+      "anya",
+      "loid",
+      "yor",
+      "manga-culte"
+    ],
+    "explanation": "Anya is the result of the 'Subject 007' experiment, which gave her the gift of telepathy, allowing her to know the secrets of Loid (spy) and Yor (assassin).",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-spy-family"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-mha-all-might-quirk",
+    "conceptId": "mha-all-might-one-for-all-quirk",
+    "familyId": "mha-quirks-lore",
+    "type": "mcq",
+    "question": "In My Hero Academia, which Quirk passed down from generation to generation does All Might pass on to Izuku Midoriya (Deku)?",
+    "answers": [
+      "One For All",
+      "All For One",
+      "Explosion",
+      "Celestial Blaze"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "super-heros-shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "my-hero-academia",
+      "deku",
+      "all-might",
+      "one-for-all",
+      "manga-culte"
+    ],
+    "explanation": "One For All accumulates the physical power of its successive users and is passed on voluntarily through the ingestion of DNA.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-mha"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-one-punch-man-saitama-routine",
+    "conceptId": "opm-saitama-workout-routine",
+    "familyId": "opm-saitama-workout",
+    "type": "mcq",
+    "question": "In One Punch Man, what 'intense' daily training did Saitama follow for 3 years to become invincible?",
+    "answers": [
+      "100 push-ups, 100 sit-ups, 100 squats, and a 10 km run",
+      "500 pull-ups, 500 push-ups, and a 20 km run",
+      "Meditating under a freezing waterfall for 10 hours",
+      "Lifting giant rocks without eating or drinking"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen-parodie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "one-punch-man",
+      "saitama",
+      "entrainement",
+      "manga-culte"
+    ],
+    "explanation": "Saitama simply did 100 push-ups, 100 sit-ups, 100 squats, and ran 10 km every day (never turning on the air conditioning in summer), which broke his 'limiter'.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "shueisha-opm"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-berserk-guts-dragonslayer",
+    "conceptId": "berserk-guts-dragonslayer-sword",
+    "familyId": "berserk-guts-weapons",
+    "type": "mcq",
+    "question": "In Berserk, what is the name of the colossal and disproportionate giant sword wielded by Guts the Black Swordsman?",
+    "answers": [
+      "The Dragon Slayer",
+      "The Behelit Blade",
+      "Griffith's Sword",
+      "The Cursed Excalibur"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "dark-fantasy-seinen",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "berserk",
+      "guts",
+      "dragonslayer",
+      "dark-fantasy",
+      "manga-culte"
+    ],
+    "explanation": "Forged by the blacksmith Godot, the Dragon Slayer is a mass of raw steel too heavy and thick to be called a simple sword.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "hakusensha-berserk"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "anime-blue-lock-ego-philosophy",
+    "conceptId": "blue-lock-ego-jinpachi-striker",
+    "familyId": "blue-lock-football-ego",
+    "type": "mcq",
+    "question": "In Blue Lock, what type of unique player does the eccentric mentor Jinpachi Ego seek to create to make Japan win the World Cup?",
+    "answers": [
+      "The most selfish striker in the world",
+      "The perfect collective strategist",
+      "The impenetrable goalkeeper",
+      "The most aggressive defender"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "sport-shonen",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "blue-lock",
+      "isagi",
+      "football",
+      "ego",
+      "manga-culte"
+    ],
+    "explanation": "Ego claims that Japan needs the greatest 'egoist' capable of scoring goals out of pure individual thirst for glory.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "kodansha-blue-lock"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  }
+]

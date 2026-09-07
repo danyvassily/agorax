@@ -1,0 +1,197 @@
+[
+  {
+    "id": "multi-theme-0001",
+    "conceptId": "concept-multi-theme-0001",
+    "familyId": "family-multi-theme-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans le jeu de société 7 Wonders Duel, quelles sont les trois manières différentes de remporter la victoire ?",
+    "answers": [
+      "Victoire militaire, scientifique ou aux points civils",
+      "Victoire technologique, commerciale ou d'espionnage",
+      "Victoire maritime, religieuse ou culturelle",
+      "Victoire économique, militaire ou diplomatique"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "strategie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "strategie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0002",
+    "conceptId": "concept-multi-theme-0002",
+    "familyId": "family-multi-theme-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel jeu de cartes d'ambiance rapide consiste à repérer le seul et unique symbole identique entre deux cartes rondes ?",
+    "answers": [
+      "Bazar Bizarre",
+      "Ghost Blitz",
+      "Jungle Speed",
+      "Dobble"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "ambiance",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "ambiance"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0003",
+    "conceptId": "concept-multi-theme-0003",
+    "familyId": "family-multi-theme-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel jeu d'ambiance avec un totem en bois au centre les joueurs doivent-ils attraper le totem dès que deux cartes ont le même symbole ?",
+    "answers": [
+      "Jungle Speed",
+      "Ligretto",
+      "Dobble",
+      "Punto"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "ambiance",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "ambiance"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0004",
+    "conceptId": "concept-multi-theme-0004",
+    "familyId": "family-multi-theme-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel jeu de société coopératif invite les joueurs à composer des feux d'artifice en ne voyant que les cartes de leurs partenaires ?",
+    "answers": [
+      "The Crew",
+      "The Mind",
+      "Magic Maze",
+      "Hanabi"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "cooperatif",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "cooperatif"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0005",
+    "conceptId": "concept-multi-theme-0005",
+    "familyId": "family-multi-theme-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel jeu de cartes et d'enchères spatiales de plis coopératif les joueurs communiquent-ils sous silence vers la 9e planète ?",
+    "answers": [
+      "The Crew",
+      "Galaxy Trucker",
+      "Space Hulk",
+      "Terraforming Mars"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "cartes",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "cartes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

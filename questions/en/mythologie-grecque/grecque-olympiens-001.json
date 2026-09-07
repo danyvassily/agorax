@@ -1,0 +1,1598 @@
+[
+  {
+    "id": "greek-zeus-king-of-gods",
+    "conceptId": "zeus-king-of-gods",
+    "familyId": "zeus-king",
+    "type": "mcq",
+    "question": "Who is the king of the gods in Greek mythology?",
+    "answers": [
+      "Zeus",
+      "Poseidon",
+      "Hades",
+      "Ares"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "zeus"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q34201",
+      "url": "https://www.wikidata.org/wiki/Q34201",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-zeus-thunderbolt-attribute",
+    "conceptId": "zeus-thunderbolt-attribute",
+    "familyId": "zeus-attributes",
+    "type": "mcq",
+    "question": "What is Zeus's most famous attribute?",
+    "answers": [
+      "The lyre",
+      "The thunderbolt",
+      "The trident",
+      "The caduceus"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "zeus"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q34201",
+      "url": "https://www.wikidata.org/wiki/Q34201",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-zeus-wife-hera",
+    "conceptId": "zeus-wife-hera",
+    "familyId": "zeus-family",
+    "type": "mcq",
+    "question": "Who is Zeus's wife?",
+    "answers": [
+      "Aphrodite",
+      "Demeter",
+      "Hera",
+      "Athena"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "zeus"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q34201",
+      "url": "https://www.wikidata.org/wiki/Q34201",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-zeus-son-of-cronos",
+    "conceptId": "zeus-son-of-cronos",
+    "familyId": "zeus-family",
+    "type": "mcq",
+    "question": "Of which Titan is Zeus the son?",
+    "answers": [
+      "Ouranos",
+      "Oceanus",
+      "Iapetus",
+      "Cronus"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "zeus"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q34201",
+      "url": "https://www.wikidata.org/wiki/Q34201",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-zeus-twins-leto",
+    "conceptId": "zeus-twins-leto",
+    "familyId": "zeus-children",
+    "type": "mcq",
+    "question": "Who are the parents of Zeus and Leto?",
+    "answers": [
+      "Apollo and Artemis",
+      "Ares and Hephaestus",
+      "Hermes and Dionysus",
+      "Athena and Persephone"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "zeus"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q34201",
+      "url": "https://www.wikidata.org/wiki/Q34201",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-olympus-home-of-gods",
+    "conceptId": "olympus-home-of-gods",
+    "familyId": "olympus",
+    "type": "mcq",
+    "question": "Where do the gods of Olympus reside?",
+    "answers": [
+      "On Mount Etna",
+      "On Mount Olympus",
+      "On Mount Parnassus",
+      "On Mount Ida"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "olympe"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q131148",
+      "url": "https://www.wikidata.org/wiki/Q131148",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-hera-goddess-of-marriage",
+    "conceptId": "hera-goddess-of-marriage",
+    "familyId": "hera-functions",
+    "type": "mcq",
+    "question": "What is the main function of the goddess Hera?",
+    "answers": [
+      "Watching over the harvests",
+      "Guiding travelers",
+      "Protecting marriage and married women",
+      "Presiding over war"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hera"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47602",
+      "url": "https://www.wikidata.org/wiki/Q47602",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-hera-attribute-peacock",
+    "conceptId": "hera-attribute-peacock",
+    "familyId": "hera-attributes",
+    "type": "mcq",
+    "question": "Which animal is traditionally associated with Hera?",
+    "answers": [
+      "The dolphin",
+      "The raven",
+      "The lion",
+      "The peacock"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hera"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47602",
+      "url": "https://www.wikidata.org/wiki/Q47602",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-hera-jealousy-myths",
+    "conceptId": "hera-jealousy-myths",
+    "familyId": "hera-myths",
+    "type": "mcq",
+    "question": "Why is Hera often depicted as jealous in the myths?",
+    "answers": [
+      "Because of Zeus's infidelities",
+      "Because she lost a beauty contest",
+      "Because she is the goddess of envy",
+      "Because she was banished from Olympus"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hera"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47602",
+      "url": "https://www.wikidata.org/wiki/Q47602",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-poseidon-god-of-the-sea",
+    "conceptId": "poseidon-god-of-the-sea",
+    "familyId": "poseidon-functions",
+    "type": "mcq",
+    "question": "Who is the god of the sea in Greek mythology?",
+    "answers": [
+      "Ares",
+      "Poseidon",
+      "Hades",
+      "Apollo"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "poseidon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41127",
+      "url": "https://www.wikidata.org/wiki/Q41127",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-poseidon-trident-attribute",
+    "conceptId": "poseidon-trident-attribute",
+    "familyId": "poseidon-attributes",
+    "type": "mcq",
+    "question": "What is Poseidon's attribute?",
+    "answers": [
+      "The bow",
+      "The caduceus",
+      "The trident",
+      "The lightning bolt"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "poseidon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41127",
+      "url": "https://www.wikidata.org/wiki/Q41127",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-poseidon-earthquakes-horses",
+    "conceptId": "poseidon-earthquakes-horses",
+    "familyId": "poseidon-functions",
+    "type": "mcq",
+    "question": "Besides the sea, what else is Poseidon associated with?",
+    "answers": [
+      "Music and poetry",
+      "Wine and banquets",
+      "War and blood",
+      "Earthquakes and horses"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "poseidon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41127",
+      "url": "https://www.wikidata.org/wiki/Q41127",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-hades-god-of-underworld",
+    "conceptId": "hades-god-of-underworld",
+    "familyId": "hades-functions",
+    "type": "mcq",
+    "question": "Which god rules over the Underworld?",
+    "answers": [
+      "Hades",
+      "Thanatos",
+      "Charon",
+      "Zeus"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hades"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41410",
+      "url": "https://www.wikidata.org/wiki/Q41410",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-hades-wife-persephone",
+    "conceptId": "hades-wife-persephone",
+    "familyId": "hades-family",
+    "type": "mcq",
+    "question": "Who is the wife of Hades?",
+    "answers": [
+      "Andromeda",
+      "Persephone",
+      "Helen",
+      "Eurydice"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hades"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41410",
+      "url": "https://www.wikidata.org/wiki/Q41410",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-hades-helm-of-darkness",
+    "conceptId": "hades-helm-of-darkness",
+    "familyId": "hades-attributes",
+    "type": "mcq",
+    "question": "What magical object does Hades possess?",
+    "answers": [
+      "An enchanted lyre",
+      "A bronze shield",
+      "A helmet that makes one invisible",
+      "Winged sandals"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hades"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41410",
+      "url": "https://www.wikidata.org/wiki/Q41410",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-thanatos-personification-of-death",
+    "conceptId": "thanatos-personification-of-death",
+    "familyId": "hades-vs-thanatos",
+    "type": "mcq",
+    "question": "Who is the personification of death in Greek mythology?",
+    "answers": [
+      "Hades",
+      "Charon",
+      "Hypnos",
+      "Thanatos"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hades"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q134959",
+      "url": "https://www.wikidata.org/wiki/Q134959",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.95,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "greek-athena-goddess-of-wisdom",
+    "conceptId": "athena-goddess-of-wisdom",
+    "familyId": "athena-functions",
+    "type": "mcq",
+    "question": "Which Greek goddess is associated with wisdom?",
+    "answers": [
+      "Athena",
+      "Aphrodite",
+      "Artemis",
+      "Hestia"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "athena"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37122",
+      "url": "https://www.wikidata.org/wiki/Q37122",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-athena-born-from-zeus-head",
+    "conceptId": "athena-born-from-zeus-head",
+    "familyId": "athena-birth",
+    "type": "mcq",
+    "question": "According to the most widespread tradition, how was Athena born?",
+    "answers": [
+      "Born from a swan's egg",
+      "Came out fully armed from Zeus's head",
+      "Born from the foam of the sea",
+      "Created by Hephaestus"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "athena"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37122",
+      "url": "https://www.wikidata.org/wiki/Q37122",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-athena-patron-of-athens",
+    "conceptId": "athena-patron-of-athens",
+    "familyId": "athena-myths",
+    "type": "mcq",
+    "question": "Which city was placed under the protection of Athena?",
+    "answers": [
+      "Thebes",
+      "Corinth",
+      "Athens",
+      "Sparta"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "athena"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37122",
+      "url": "https://www.wikidata.org/wiki/Q37122",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-athena-owl-attribute",
+    "conceptId": "athena-owl-attribute",
+    "familyId": "athena-attributes",
+    "type": "mcq",
+    "question": "Which animal is the symbol of Athena?",
+    "answers": [
+      "The peacock",
+      "The eagle",
+      "The raven",
+      "The owl"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "athena"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37122",
+      "url": "https://www.wikidata.org/wiki/Q37122",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-apollo-god-of-arts",
+    "conceptId": "apollo-god-of-arts",
+    "familyId": "apollo-functions",
+    "type": "mcq",
+    "question": "Which god is the patron of music and poetry?",
+    "answers": [
+      "Apollo",
+      "Ares",
+      "Hephaestus",
+      "Poseidon"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "apollon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37340",
+      "url": "https://www.wikidata.org/wiki/Q37340",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-apollo-oracle-of-delphi",
+    "conceptId": "apollo-oracle-of-delphi",
+    "familyId": "apollo-functions",
+    "type": "mcq",
+    "question": "Which god is honored by the oracle of Delphi?",
+    "answers": [
+      "Dionysus",
+      "Apollo",
+      "Zeus",
+      "Hermes"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "apollon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37340",
+      "url": "https://www.wikidata.org/wiki/Q37340",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-apollo-twin-of-artemis",
+    "conceptId": "apollo-twin-of-artemis",
+    "familyId": "apollo-family",
+    "type": "mcq",
+    "question": "Who is Apollo's twin sister?",
+    "answers": [
+      "Aphrodite",
+      "Helen",
+      "Artemis",
+      "Athena"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "apollon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37340",
+      "url": "https://www.wikidata.org/wiki/Q37340",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-apollo-lyre-attribute",
+    "conceptId": "apollo-lyre-attribute",
+    "familyId": "apollo-attributes",
+    "type": "mcq",
+    "question": "Which musical instrument is the attribute of Apollo?",
+    "answers": [
+      "The Pan flute",
+      "The trumpet",
+      "The tambourine",
+      "The lyre"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "apollon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37340",
+      "url": "https://www.wikidata.org/wiki/Q37340",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-artemis-goddess-of-hunting",
+    "conceptId": "artemis-goddess-of-hunting",
+    "familyId": "artemis-functions",
+    "type": "mcq",
+    "question": "Which goddess is the goddess of the hunt?",
+    "answers": [
+      "Artemis",
+      "Athena",
+      "Aphrodite",
+      "Demeter"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "artemis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q39503",
+      "url": "https://www.wikidata.org/wiki/Q39503",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-artemis-moon-goddess",
+    "conceptId": "artemis-moon-goddess",
+    "familyId": "artemis-functions",
+    "type": "mcq",
+    "question": "To which celestial body is Artemis also associated?",
+    "answers": [
+      "To a comet",
+      "To the Moon",
+      "To the Sun",
+      "To the stars"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "artemis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q39503",
+      "url": "https://www.wikidata.org/wiki/Q39503",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-ares-god-of-war",
+    "conceptId": "ares-god-of-war",
+    "familyId": "ares-functions",
+    "type": "mcq",
+    "question": "Who is the god of war in Greek mythology?",
+    "answers": [
+      "Hermes",
+      "Hephaestus",
+      "Ares",
+      "Apollo"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "ares"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q107639",
+      "url": "https://www.wikidata.org/wiki/Q107639",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-ares-aphrodite-affair",
+    "conceptId": "ares-aphrodite-affair",
+    "familyId": "ares-myths",
+    "type": "mcq",
+    "question": "Which goddess is the most famous companion of Ares?",
+    "answers": [
+      "Hera",
+      "Athena",
+      "Artemis",
+      "Aphrodite"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "ares"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q107639",
+      "url": "https://www.wikidata.org/wiki/Q107639",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-aphrodite-goddess-of-love",
+    "conceptId": "aphrodite-goddess-of-love",
+    "familyId": "aphrodite-functions",
+    "type": "mcq",
+    "question": "Which goddess embodies love and beauty?",
+    "answers": [
+      "Aphrodite",
+      "Hera",
+      "Demeter",
+      "Hestia"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "aphrodite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q35500",
+      "url": "https://www.wikidata.org/wiki/Q35500",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-aphrodite-born-from-sea-foam",
+    "conceptId": "aphrodite-born-from-sea-foam",
+    "familyId": "aphrodite-birth",
+    "type": "mcq",
+    "question": "According to the most widespread tradition, where does Aphrodite come from?",
+    "answers": [
+      "From a cosmic egg",
+      "From the foam of the sea",
+      "From the head of Zeus",
+      "From a drop of Cronus's blood that fell to earth"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "aphrodite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q35500",
+      "url": "https://www.wikidata.org/wiki/Q35500",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-aphrodite-wife-of-hephaestus",
+    "conceptId": "aphrodite-wife-of-hephaestus",
+    "familyId": "aphrodite-family",
+    "type": "mcq",
+    "question": "Who is the lawful husband of Aphrodite?",
+    "answers": [
+      "Apollo",
+      "Hermes",
+      "Hephaestus",
+      "Ares"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "aphrodite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q35500",
+      "url": "https://www.wikidata.org/wiki/Q35500",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-aphrodite-dove-attribute",
+    "conceptId": "aphrodite-dove-attribute",
+    "familyId": "aphrodite-attributes",
+    "type": "mcq",
+    "question": "Which bird is associated with Aphrodite?",
+    "answers": [
+      "The eagle",
+      "The falcon",
+      "The magpie",
+      "The dove"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "aphrodite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q35500",
+      "url": "https://www.wikidata.org/wiki/Q35500",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-hermes-messenger-of-the-gods",
+    "conceptId": "hermes-messenger-of-the-gods",
+    "familyId": "hermes-functions",
+    "type": "mcq",
+    "question": "Who is the messenger of the Greek gods?",
+    "answers": [
+      "Hermes",
+      "Apollo",
+      "Ares",
+      "Dionysus"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hermes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41492",
+      "url": "https://www.wikidata.org/wiki/Q41492",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-hermes-caduceus-attribute",
+    "conceptId": "hermes-caduceus-attribute",
+    "familyId": "hermes-attributes",
+    "type": "mcq",
+    "question": "What is Hermès' attribute?",
+    "answers": [
+      "The thyrsus",
+      "The caduceus",
+      "The trident",
+      "The club"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hermes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41492",
+      "url": "https://www.wikidata.org/wiki/Q41492",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-hermes-psychopomp",
+    "conceptId": "hermes-psychopomp",
+    "familyId": "hermes-functions",
+    "type": "mcq",
+    "question": "What role does Hermes play with the dead?",
+    "answers": [
+      "He guards the gates of the Underworld",
+      "He punishes criminals",
+      "He leads souls to the Underworld",
+      "He judges souls"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hermes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41492",
+      "url": "https://www.wikidata.org/wiki/Q41492",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.91,
+    "version": 1
+  },
+  {
+    "id": "greek-hephaestus-god-of-forge",
+    "conceptId": "hephaestus-god-of-forge",
+    "familyId": "hephaestus-functions",
+    "type": "mcq",
+    "question": "Which god is the blacksmith of Olympus?",
+    "answers": [
+      "Zeus",
+      "Ares",
+      "Apollo",
+      "Hephaestus"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hephaistos"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q130303",
+      "url": "https://www.wikidata.org/wiki/Q130303",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-hephaestus-lame",
+    "conceptId": "hephaestus-lame",
+    "familyId": "hephaestus-myths",
+    "type": "mcq",
+    "question": "What physical peculiarity does Hephaestus have?",
+    "answers": [
+      "He limps",
+      "He is blind",
+      "He is mute",
+      "He is deaf"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hephaistos"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q130303",
+      "url": "https://www.wikidata.org/wiki/Q130303",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-demeter-goddess-of-agriculture",
+    "conceptId": "demeter-goddess-of-agriculture",
+    "familyId": "demeter-functions",
+    "type": "mcq",
+    "question": "Which goddess presides over agriculture and harvests?",
+    "answers": [
+      "Artemis",
+      "Demeter",
+      "Athena",
+      "Hera"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "demeter"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q40714",
+      "url": "https://www.wikidata.org/wiki/Q40714",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-dionysus-god-of-wine",
+    "conceptId": "dionysus-god-of-wine",
+    "familyId": "dionysus-functions",
+    "type": "mcq",
+    "question": "Who is the god of wine and celebration?",
+    "answers": [
+      "Hermes",
+      "Poseidon",
+      "Dionysus",
+      "Apollo"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "dionysos"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q44212",
+      "url": "https://www.wikidata.org/wiki/Q44212",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-dionysus-born-from-zeus-thigh",
+    "conceptId": "dionysus-born-from-zeus-thigh",
+    "familyId": "dionysus-birth",
+    "type": "mcq",
+    "question": "According to the most widespread myth, from where did Zeus make Dionysus be born?",
+    "answers": [
+      "From his head",
+      "From his ear",
+      "From his foot",
+      "From his thigh"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "dionysos"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q44212",
+      "url": "https://www.wikidata.org/wiki/Q44212",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-hestia-goddess-of-hearth",
+    "conceptId": "hestia-goddess-of-hearth",
+    "familyId": "hestia-functions",
+    "type": "mcq",
+    "question": "What is the function of the goddess Hestia?",
+    "answers": [
+      "Guardian of the hearth and sacred fire",
+      "Goddess of the hunt",
+      "Goddess of the harvest",
+      "Goddess of wisdom"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "hestia"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41669",
+      "url": "https://www.wikidata.org/wiki/Q41669",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-persephone-queen-of-underworld",
+    "conceptId": "persephone-queen-of-underworld",
+    "familyId": "persephone-functions",
+    "type": "mcq",
+    "question": "Which goddess is the queen of the Underworld alongside Hades?",
+    "answers": [
+      "Cassandra",
+      "Persephone",
+      "Helen",
+      "Eurydice"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "olympiens",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "persephone"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q43120",
+      "url": "https://www.wikidata.org/wiki/Q43120",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

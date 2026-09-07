@@ -1,0 +1,322 @@
+[
+  {
+    "id": "animaux-final-0805",
+    "conceptId": "concept-animaux-0805",
+    "familyId": "family-animaux-0403",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Where are the gliding membranes of the Draco lizard species positioned?",
+    "answers": [
+      "Between its front and hind legs",
+      "Between their fingers and toes",
+      "They do not have a gliding membrane",
+      "On their elongated ribs"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0805",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0811",
+    "conceptId": "concept-animaux-0811",
+    "familyId": "family-animaux-0406",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Adult Goliath beetles, found in Africas tropical forests, feed on what?",
+    "answers": [
+      "Carrion",
+      "Leaves and grasses",
+      "Insects and other invertebrates",
+      "Fruits and tree sap"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0811",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0816",
+    "conceptId": "concept-animaux-0816",
+    "familyId": "family-animaux-0408",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which whale expels a reddish-brown fluid when threatened, much like an octopus?",
+    "answers": [
+      "Andrew’s beaked whale",
+      "Pygmy sperm whale",
+      "Fin whale",
+      "Dwarf sperm whale"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0816",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0819",
+    "conceptId": "concept-animaux-0819",
+    "familyId": "family-animaux-0410",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "The family “delphinidae” include which kind of cetacean?",
+    "answers": [
+      "Dolphins",
+      "Southern right whales",
+      "Porpoises",
+      "Rorqual whales"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0819",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0820",
+    "conceptId": "concept-animaux-0820",
+    "familyId": "family-animaux-0410",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "The family “phocoenidae” describe which group of cetacean?",
+    "answers": [
+      "Dolphins",
+      "Beaked whales",
+      "Porpoises",
+      "Indus and Ganges river dolphins"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0820",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0829",
+    "conceptId": "concept-animaux-0829",
+    "familyId": "family-animaux-0415",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "The Microraptor, the smallest known non-avian dinosaur, inhabited this modern day area during the early Cretaceous Period 130-125.5 million years ago. ?",
+    "answers": [
+      "Canada",
+      "China",
+      "Australia",
+      "Madagascar"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0829",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0844",
+    "conceptId": "concept-animaux-0844",
+    "familyId": "family-animaux-0422",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "The sound of what musical instrument does the call of the Macaroni Penguin resemble?",
+    "answers": [
+      "Saxophone",
+      "Ocarina",
+      "Trumpet",
+      "Flute"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0844",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0845",
+    "conceptId": "concept-animaux-0845",
+    "familyId": "family-animaux-0423",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Most penguin species are piscivorous, meaning what?",
+    "answers": [
+      "An aquatic animal",
+      "They feed primarily on fish",
+      "They have a tubular body shape",
+      "They do not drink water"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0845",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

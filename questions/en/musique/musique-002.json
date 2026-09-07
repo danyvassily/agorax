@@ -1,0 +1,1712 @@
+[
+  {
+    "id": "music-piano-88",
+    "conceptId": "piano-88-keys",
+    "familyId": "instruments",
+    "type": "mcq",
+    "question": "How many keys does a classic piano have?",
+    "answers": [
+      "88",
+      "76",
+      "92",
+      "108"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "instruments",
+      "musique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-guitar-strings",
+    "conceptId": "guitar-6-strings",
+    "familyId": "instruments",
+    "type": "mcq",
+    "question": "How many strings does a classical guitar have?",
+    "answers": [
+      "4",
+      "5",
+      "7",
+      "6"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "instruments",
+      "musique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "Wikipedia: guitare 6 cordes"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-violin-bow",
+    "conceptId": "violin-bow",
+    "familyId": "instruments",
+    "type": "mcq",
+    "question": "What accessory is used to play the violin?",
+    "answers": [
+      "A plectrum",
+      "A pick",
+      "A bow",
+      "A baton"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "instruments",
+      "musique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-saxophone-inventor",
+    "conceptId": "saxophone-adolphe-sax",
+    "familyId": "instruments",
+    "type": "mcq",
+    "question": "Who invented the saxophone?",
+    "answers": [
+      "Denis Papin",
+      "Adolphe Sax",
+      "Antoine Courtois",
+      "Théobald Boehm"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "instruments",
+      "inventions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Adolphe_Sax"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-turntable",
+    "conceptId": "turntable-vinyl",
+    "familyId": "instruments",
+    "type": "mcq",
+    "question": "What is the device called that spins vinyl records?",
+    "answers": [
+      "A turntable",
+      "An amplifier",
+      "An equalizer",
+      "A compressor"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "instruments",
+      "dj"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-rap-bronx",
+    "conceptId": "rap-bronx",
+    "familyId": "genres",
+    "type": "mcq",
+    "question": "In which New York neighborhood was hip-hop born in the 1970s?",
+    "answers": [
+      "Harlem",
+      "Brooklyn",
+      "Queens",
+      "The Bronx"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "genres",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "genres",
+      "rap"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Bronx"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-jazz-origin",
+    "conceptId": "jazz-new-orleans",
+    "familyId": "genres",
+    "type": "mcq",
+    "question": "In which American city was jazz born?",
+    "answers": [
+      "Detroit",
+      "Memphis",
+      "New Orleans",
+      "Chicago"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "genres",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "genres",
+      "jazz"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-reggae-origin",
+    "conceptId": "reggae-jamaica",
+    "familyId": "genres",
+    "type": "mcq",
+    "question": "Which country is reggae originally from?",
+    "answers": [
+      "Haiti",
+      "Jamaica",
+      "Cuba",
+      "Brazil"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "genres",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "genres",
+      "reggae"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Jama%C3%AFque"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-bob-marley",
+    "conceptId": "bob-marley-reggae",
+    "familyId": "reggae",
+    "type": "mcq",
+    "question": "Which artist is nicknamed the \"King of Reggae\"?",
+    "answers": [
+      "Bob Marley",
+      "Peter Tosh",
+      "Jimmy Cliff",
+      "Burning Spear"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "reggae"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-fado-country",
+    "conceptId": "fado-portugal",
+    "familyId": "genres",
+    "type": "mcq",
+    "question": "From which country is fado the traditional music?",
+    "answers": [
+      "Spain",
+      "Italy",
+      "Greece",
+      "Portugal"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "genres",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "genres",
+      "traditions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Portugal"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-flamenco-country",
+    "conceptId": "flamenco-spain",
+    "familyId": "genres",
+    "type": "mcq",
+    "question": "In which country was flamenco born?",
+    "answers": [
+      "Argentina",
+      "Brazil",
+      "Spain",
+      "Mexico"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "genres",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "genres",
+      "traditions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-tango-country",
+    "conceptId": "tango-argentina",
+    "familyId": "genres",
+    "type": "mcq",
+    "question": "From which country does the tango originate?",
+    "answers": [
+      "Colombia",
+      "Argentina",
+      "Chile",
+      "Peru"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "genres",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "genres",
+      "traditions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Argentine"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-opera-country",
+    "conceptId": "opera-italy",
+    "familyId": "genres",
+    "type": "mcq",
+    "question": "In which country was opera born at the beginning of the 17th century?",
+    "answers": [
+      "Italy",
+      "France",
+      "Germany",
+      "Austria"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "genres",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "genres",
+      "classique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-pavarotti-nessun",
+    "conceptId": "pavarotti-nessun-dorma",
+    "familyId": "opera",
+    "type": "mcq",
+    "question": "Which Italian tenor is famous for his rendition of Nessun Dorma?",
+    "answers": [
+      "Placido Domingo",
+      "José Carreras",
+      "Enrico Caruso",
+      "Luciano Pavarotti"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "classique",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "classique",
+      "artistes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Luciano_Pavarotti"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-three-tenors",
+    "conceptId": "three-tenors",
+    "familyId": "opera",
+    "type": "mcq",
+    "question": "What is the name of the trio formed by Pavarotti, Domingo, and Carreras?",
+    "answers": [
+      "The Three Maestros",
+      "The Three Voices",
+      "The Three Tenors",
+      "The Three Sopranos"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "classique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "classique",
+      "groupes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-iam-marseille",
+    "conceptId": "iam-marseille",
+    "familyId": "rap-francais",
+    "type": "mcq",
+    "question": "From which city is the rap group IAM originally from?",
+    "answers": [
+      "Toulouse",
+      "Marseille",
+      "Paris",
+      "Lyon"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "groupes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "groupes",
+      "rap"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Marseille"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-ntm-origin",
+    "conceptId": "ntm-seine-saint-denis",
+    "familyId": "rap-francais",
+    "type": "mcq",
+    "question": "Where do JoeyStarr and Kool Shen, members of NTM, come from?",
+    "answers": [
+      "From Seine-Saint-Denis",
+      "From Marseille",
+      "From Lyon",
+      "From Bordeaux"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "groupes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "groupes",
+      "rap"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-mc-solaar",
+    "conceptId": "mc-solaar",
+    "familyId": "rap-francais",
+    "type": "mcq",
+    "question": "Which French rapper started his career as a DJ alongside Jimmy Jay?",
+    "answers": [
+      "Oxmo Puccino",
+      "Doc Gynéco",
+      "Passi",
+      "MC Solaar"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "rap"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/MC_Solaar"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-stromae-formidable",
+    "conceptId": "stromae-formidable",
+    "familyId": "stromae",
+    "type": "mcq",
+    "question": "Which Stromae song evokes a romantic breakup?",
+    "answers": [
+      "Papaoutai",
+      "Tous les mêmes",
+      "Formidable",
+      "Alors on danse"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "chansons",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "chansons",
+      "pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-indila-derniere",
+    "conceptId": "indila-derniere-danse",
+    "familyId": "indila",
+    "type": "mcq",
+    "question": "Which French singer achieved worldwide success with Dernière Danse?",
+    "answers": [
+      "Zaz",
+      "Indila",
+      "Tal",
+      "Shy'm"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Indila"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-zaz-je-veux",
+    "conceptId": "zaz-je-veux",
+    "familyId": "zaz",
+    "type": "mcq",
+    "question": "Which Zaz song became a worldwide hit in 2010?",
+    "answers": [
+      "Je veux",
+      "Elle me dit",
+      "Dernière danse",
+      "Formidable"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "chansons",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "chansons",
+      "pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-gims-sap",
+    "conceptId": "gims-sap",
+    "familyId": "rap-francais",
+    "type": "mcq",
+    "question": "Which French rapper performed Sapés comme jamais?",
+    "answers": [
+      "Booba",
+      "La Fouine",
+      "Rohff",
+      "Maître Gims"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "rap"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Ma%C3%AEtre_Gims"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-booba-92i",
+    "conceptId": "booba-92i",
+    "familyId": "rap-francais",
+    "type": "mcq",
+    "question": "Which French rapper is the founder of the 92i collective?",
+    "answers": [
+      "Nekfeu",
+      "Damso",
+      "Booba",
+      "Kaaris"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "rap"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-vianney-beau-papa",
+    "conceptId": "vianney-beau-papa",
+    "familyId": "vianney",
+    "type": "mcq",
+    "question": "Which French singer performed Beau-papa?",
+    "answers": [
+      "Julien Doré",
+      "Vianney",
+      "Kendji Girac",
+      "Louane"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Vianney"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-louane-avenir",
+    "conceptId": "louane-avenir",
+    "familyId": "louane",
+    "type": "mcq",
+    "question": "Which French artist, discovered by The Voice, sang Avenir?",
+    "answers": [
+      "Louane",
+      "Amir",
+      "Kendji Girac",
+      "Nadya"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-kendji-the-voice",
+    "conceptId": "kendji-girac-the-voice",
+    "familyId": "kendji",
+    "type": "mcq",
+    "question": "Which French artist won season 3 of The Voice in 2014?",
+    "answers": [
+      "Amir",
+      "Louane",
+      "Slimane",
+      "Kendji Girac"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Kendji_Girac"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-mika-grace-kelly",
+    "conceptId": "mika-grace-kelly",
+    "familyId": "mika",
+    "type": "mcq",
+    "question": "Which singer performed Grace Kelly?",
+    "answers": [
+      "Robbie Williams",
+      "Elton John",
+      "Mika",
+      "James Blunt"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-adele-rolling",
+    "conceptId": "adele-rolling-in-the-deep",
+    "familyId": "adele",
+    "type": "mcq",
+    "question": "Which British singer performed Rolling in the Deep?",
+    "answers": [
+      "Jessie J",
+      "Adele",
+      "Amy Winehouse",
+      "Duffy"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Adele"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-taylor-swift-country",
+    "conceptId": "taylor-swift-country",
+    "familyId": "taylor-swift",
+    "type": "mcq",
+    "question": "In which country was Taylor Swift born?",
+    "answers": [
+      "The United States",
+      "The United Kingdom",
+      "Canada",
+      "Australia"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-bts-country",
+    "conceptId": "bts-south-korea",
+    "familyId": "kpop",
+    "type": "mcq",
+    "question": "Which country is the group BTS from?",
+    "answers": [
+      "Japan",
+      "China",
+      "Taiwan",
+      "South Korea"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "groupes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "groupes",
+      "kpop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Cor%C3%A9e_du_Sud"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-psy-gangnam",
+    "conceptId": "gangnam-style-psy",
+    "familyId": "kpop",
+    "type": "mcq",
+    "question": "Which artist performed Gangnam Style, the first video to surpass one billion views?",
+    "answers": [
+      "G-Dragon",
+      "CL",
+      "Psy",
+      "BTS"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "records"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-eurovision-record",
+    "conceptId": "eurovision-most-wins",
+    "familyId": "eurovision",
+    "type": "mcq",
+    "question": "Which country holds the record for most wins at Eurovision?",
+    "answers": [
+      "The United Kingdom",
+      "Ireland",
+      "France",
+      "Sweden"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "records",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "records",
+      "eurovision"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Irlande"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-white-christmas",
+    "conceptId": "white-christmas-best-seller",
+    "familyId": "records",
+    "type": "mcq",
+    "question": "Which Bing Crosby song is the best-selling single in history?",
+    "answers": [
+      "White Christmas",
+      "Yesterday",
+      "Candle in the Wind 1997",
+      "I Will Always Love You"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "records",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "records",
+      "chansons"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-candle-in-the-wind",
+    "conceptId": "candle-in-the-wind-elton",
+    "familyId": "records",
+    "type": "mcq",
+    "question": "Which artist rewrote Candle in the Wind as a tribute to Lady Diana?",
+    "answers": [
+      "George Michael",
+      "Sting",
+      "Paul McCartney",
+      "Elton John"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "records"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Elton_John"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-nina-simone",
+    "conceptId": "nina-simone-feeling-good",
+    "familyId": "nina-simone",
+    "type": "mcq",
+    "question": "Which singer performed Feeling Good?",
+    "answers": [
+      "Etta James",
+      "Billie Holiday",
+      "Nina Simone",
+      "Aretha Franklin"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "jazz"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-aretha-soul",
+    "conceptId": "aretha-queen-of-soul",
+    "familyId": "soul",
+    "type": "mcq",
+    "question": "Who is nicknamed the 'Queen of Soul'?",
+    "answers": [
+      "Gladys Knight",
+      "Aretha Franklin",
+      "Tina Turner",
+      "Diana Ross"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "soul"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Aretha_Franklin"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-tina-turner-country",
+    "conceptId": "tina-turner-origin",
+    "familyId": "tina-turner",
+    "type": "mcq",
+    "question": "In which country was Tina Turner born?",
+    "answers": [
+      "The United States",
+      "The United Kingdom",
+      "Jamaica",
+      "South Africa"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "soul"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-johnny-cash-ring",
+    "conceptId": "johnny-cash-ring-of-fire",
+    "familyId": "country",
+    "type": "mcq",
+    "question": "Which country legend sang Ring of Fire?",
+    "answers": [
+      "Willie Nelson",
+      "Dolly Parton",
+      "Kris Kristofferson",
+      "Johnny Cash"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "country"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Johnny_Cash"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-dolly-parton",
+    "conceptId": "dolly-parton-i-will",
+    "familyId": "country",
+    "type": "mcq",
+    "question": "Which country singer wrote I Will Always Love You, covered by Whitney Houston?",
+    "answers": [
+      "Reba McEntire",
+      "Carrie Underwood",
+      "Dolly Parton",
+      "Shania Twain"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "country"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-bob-dylan-nobel",
+    "conceptId": "bob-dylan-nobel",
+    "familyId": "bob-dylan",
+    "type": "mcq",
+    "question": "Which singer received the Nobel Prize in Literature in 2016?",
+    "answers": [
+      "Paul Simon",
+      "Bob Dylan",
+      "Leonard Cohen",
+      "Bruce Springsteen"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "records",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "records"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Bob_Dylan"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-springsteen-boss",
+    "conceptId": "the-boss-springsteen",
+    "familyId": "springsteen",
+    "type": "mcq",
+    "question": "What is Bruce Springsteen's nickname?",
+    "answers": [
+      "The Boss",
+      "The King",
+      "The Duke",
+      "The Chief"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "rock"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-u2-bono",
+    "conceptId": "bono-u2",
+    "familyId": "u2",
+    "type": "mcq",
+    "question": "What is the name of the singer of the Irish band U2?",
+    "answers": [
+      "Sting",
+      "Bryan Ferry",
+      "Robert Smith",
+      "Bono"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "groupes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "groupes",
+      "rock"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Bono"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-coldplay-yellow",
+    "conceptId": "coldplay-yellow",
+    "familyId": "coldplay",
+    "type": "mcq",
+    "question": "Which group performed Yellow and Viva la Vida?",
+    "answers": [
+      "Keane",
+      "The Killers",
+      "Coldplay",
+      "Muse"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "groupes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "groupes",
+      "rock"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-green-day",
+    "conceptId": "green-day-american-idiot",
+    "familyId": "green-day",
+    "type": "mcq",
+    "question": "Which punk-rock band released American Idiot in 2004?",
+    "answers": [
+      "Sum 41",
+      "Green Day",
+      "The Offspring",
+      "Blink-182"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "groupes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "groupes",
+      "rock"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Green_Day"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "music-ed-sheeran-shape",
+    "conceptId": "ed-sheeran-shape-of-you",
+    "familyId": "ed-sheeran",
+    "type": "mcq",
+    "question": "Which artist performed Shape of You?",
+    "answers": [
+      "Ed Sheeran",
+      "Sam Smith",
+      "Justin Bieber",
+      "Shawn Mendes"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "artistes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "artistes",
+      "pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

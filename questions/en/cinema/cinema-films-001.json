@@ -1,0 +1,782 @@
+[
+  {
+    "id": "cine-films-0001",
+    "conceptId": "concept-cine-films-0001",
+    "familyId": "family-cine-films-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"Taxi Driver\" (1976)?",
+    "answers": [
+      "Francis Ford Coppola",
+      "Martin Scorsese",
+      "Brian De Palma",
+      "Michael Cimino"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0002",
+    "conceptId": "concept-cine-films-0002",
+    "familyId": "family-cine-films-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"Apocalypse Now\" (1979)?",
+    "answers": [
+      "Martin Scorsese",
+      "Francis Ford Coppola",
+      "Oliver Stone",
+      "Stanley Kubrick"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0003",
+    "conceptId": "concept-cine-films-0003",
+    "familyId": "family-cine-films-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"Fight Club\" (1999)?",
+    "answers": [
+      "Danny Boyle",
+      "David Fincher",
+      "Darren Aronofsky",
+      "Christopher Nolan"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0004",
+    "conceptId": "concept-cine-films-0004",
+    "familyId": "family-cine-films-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"Gladiator\" (2000)?",
+    "answers": [
+      "Ridley Scott",
+      "Mel Gibson",
+      "Wolfgang Petersen",
+      "James Cameron"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0005",
+    "conceptId": "concept-cine-films-0005",
+    "familyId": "family-cine-films-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"The Lord of the Rings: The Fellowship of the Ring\" (2001)?",
+    "answers": [
+      "Guillermo del Toro",
+      "Peter Jackson",
+      "George Lucas",
+      "Alfonso Cuarón"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0006",
+    "conceptId": "concept-cine-films-0006",
+    "familyId": "family-cine-films-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film 'The Big Lebowski' (1998)?",
+    "answers": [
+      "Joel and Ethan Coen",
+      "Jim Jarmusch",
+      "Quentin Tarantino",
+      "Paul Thomas Anderson"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0007",
+    "conceptId": "concept-cine-films-0007",
+    "familyId": "family-cine-films-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"Psycho\" (1960)?",
+    "answers": [
+      "Billy Wilder",
+      "Orson Welles",
+      "Howard Hawks",
+      "Alfred Hitchcock"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0008",
+    "conceptId": "concept-cine-films-0008",
+    "familyId": "family-cine-films-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"The Good, the Bad and the Ugly\" (1966)?",
+    "answers": [
+      "Sam Peckinpah",
+      "Federico Fellini",
+      "Bernardo Bertolucci",
+      "Sergio Leone"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0009",
+    "conceptId": "concept-cine-films-0009",
+    "familyId": "family-cine-films-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"Mad Max: Fury Road\" (2015)?",
+    "answers": [
+      "Zack Snyder",
+      "George Miller",
+      "James Cameron",
+      "Guillermo del Toro"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0010",
+    "conceptId": "concept-cine-films-0010",
+    "familyId": "family-cine-films-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director helmed the cult film \"Pan's Labyrinth\" (2006)?",
+    "answers": [
+      "Guillermo del Toro",
+      "Alfonso Cuarón",
+      "Alejandro González Iñárritu",
+      "Pedro Almodóvar"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0011",
+    "conceptId": "concept-cine-films-0011",
+    "familyId": "family-cine-films-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"All About My Mother\" (1999)?",
+    "answers": [
+      "Pedro Almodóvar",
+      "Luis Buñuel",
+      "Carlos Saura",
+      "Alejandro Amenábar"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0012",
+    "conceptId": "concept-cine-films-0012",
+    "familyId": "family-cine-films-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"La Dolce Vita\" (1960)?",
+    "answers": [
+      "Federico Fellini",
+      "Luchino Visconti",
+      "Michelangelo Antonioni",
+      "Pier Paolo Pasolini"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0013",
+    "conceptId": "concept-cine-films-0013",
+    "familyId": "family-cine-films-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"Seven Samurai\" (1954)?",
+    "answers": [
+      "Akira Kurosawa",
+      "Kenji Mizoguchi",
+      "Masaki Kobayashi",
+      "Yasujirō Ozu"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0014",
+    "conceptId": "concept-cine-films-0014",
+    "familyId": "family-cine-films-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"In the Mood for Love\" (2000)?",
+    "answers": [
+      "Edward Yang",
+      "Wong Kar-wai",
+      "Ang Lee",
+      "Hou Hsiao-hsien"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0015",
+    "conceptId": "concept-cine-films-0015",
+    "familyId": "family-cine-films-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"Memories of Murder\" (2003)?",
+    "answers": [
+      "Bong Joon-ho",
+      "Kim Jee-woon",
+      "Park Chan-wook",
+      "Lee Chang-dong"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0016",
+    "conceptId": "concept-cine-films-0016",
+    "familyId": "family-cine-films-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"Old Boy\" (2003)?",
+    "answers": [
+      "Na Hong-jin",
+      "Park Chan-wook",
+      "Kim Ki-duk",
+      "Bong Joon-ho"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0017",
+    "conceptId": "concept-cine-films-0017",
+    "familyId": "family-cine-films-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"Amélie\" (2001)?",
+    "answers": [
+      "Jean-Pierre Jeunet",
+      "Michel Gondry",
+      "Luc Besson",
+      "Mathieu Kassovitz"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0018",
+    "conceptId": "concept-cine-films-0018",
+    "familyId": "family-cine-films-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"La Haine\" (1995)?",
+    "answers": [
+      "Jacques Audiard",
+      "Luc Besson",
+      "Gilles Lellouche",
+      "Mathieu Kassovitz"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0019",
+    "conceptId": "concept-cine-films-0019",
+    "familyId": "family-cine-films-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"Léon\" (1994)?",
+    "answers": [
+      "Jean-Jacques Annaud",
+      "Patrice Leconte",
+      "Jean-Pierre Jeunet",
+      "Luc Besson"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cine-films-0020",
+    "conceptId": "concept-cine-films-0020",
+    "familyId": "family-cine-films-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director directed the cult film \"A Prophet\" (2009)?",
+    "answers": [
+      "Olivier Marchal",
+      "Jacques Audiard",
+      "Guillaume Canet",
+      "Arnaud Desplechin"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-films-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

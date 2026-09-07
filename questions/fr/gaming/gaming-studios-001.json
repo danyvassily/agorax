@@ -1,0 +1,587 @@
+[
+  {
+    "id": "game-studios-0001",
+    "conceptId": "concept-game-studios-0001",
+    "familyId": "family-game-studios-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel studio japonais dirigé par Hidetaka Miyazaki a développé Dark Souls, Bloodborne et Elden Ring ?",
+    "answers": [
+      "Square Enix",
+      "Kojima Productions",
+      "Capcom",
+      "FromSoftware"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0002",
+    "conceptId": "concept-game-studios-0002",
+    "familyId": "family-game-studios-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle console de salon sortie par Sony en 1994 au Japon a popularisé la 3D et le support CD-ROM ?",
+    "answers": [
+      "La Sega Saturn",
+      "La 3DO",
+      "La PlayStation (PS1)",
+      "La Nintendo 64"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0003",
+    "conceptId": "concept-game-studios-0003",
+    "familyId": "family-game-studios-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel créateur de jeu vidéo japonais est le père de la série d'espionnage tactique Metal Gear Solid ?",
+    "answers": [
+      "Hideki Kamiya",
+      "Keiji Inafune",
+      "Shinji Mikami",
+      "Hideo Kojima"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0004",
+    "conceptId": "concept-game-studios-0004",
+    "familyId": "family-game-studios-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans The Legend of Zelda, quel est le nom du royaume fantastique gouverné par la princesse Zelda ?",
+    "answers": [
+      "Lorule",
+      "Hyrule",
+      "Cocolint",
+      "Termina"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0005",
+    "conceptId": "concept-game-studios-0005",
+    "familyId": "family-game-studios-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel jeu vidéo de rôle en ligne massivement multijoueur (MMORPG) lancé par Blizzard en 2004 a dominé le genre pendant des décennies ?",
+    "answers": [
+      "EverQuest",
+      "Lineage II",
+      "Guild Wars",
+      "World of Warcraft"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0006",
+    "conceptId": "concept-game-studios-0006",
+    "familyId": "family-game-studios-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel jeu de tir à la première personne révolutionnaire sorti par Valve en 1998 met en scène le docteur Gordon Freeman ?",
+    "answers": [
+      "Quake",
+      "Half-Life",
+      "Doom",
+      "Unreal"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0007",
+    "conceptId": "concept-game-studios-0007",
+    "familyId": "family-game-studios-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le nom de la console portable lancée par Nintendo en 1989, vendue avec le jeu Tetris ?",
+    "answers": [
+      "La Game Boy",
+      "L'Atari Lynx",
+      "La Game Gear",
+      "La Neo-Geo Pocket"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0008",
+    "conceptId": "concept-game-studios-0008",
+    "familyId": "family-game-studios-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle saga culte de Rockstar Games incarne-t-on des criminels dans des villes comme Liberty City ou Los Santos ?",
+    "answers": [
+      "Grand Theft Auto (GTA)",
+      "Mafia",
+      "Max Payne",
+      "Red Dead Redemption"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0009",
+    "conceptId": "concept-game-studios-0009",
+    "familyId": "family-game-studios-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel studio polonais a développé la trilogie The Witcher et Cyberpunk 2077 ?",
+    "answers": [
+      "CD Projekt Red",
+      "Techland",
+      "Bloober Team",
+      "People Can Fly"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0010",
+    "conceptId": "concept-game-studios-0010",
+    "familyId": "family-game-studios-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans Pokémon, quel Pokémon électrique portant le numéro 25 du Pokédex est la mascotte officielle de la franchise ?",
+    "answers": [
+      "Pikachu",
+      "Raichu",
+      "Pichu",
+      "Évoli"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0011",
+    "conceptId": "concept-game-studios-0011",
+    "familyId": "family-game-studios-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle console innovante de Nintendo sortie fin 2006 a démocratisé la détection de mouvement auprès du grand public ?",
+    "answers": [
+      "La GameCube",
+      "La Nintendo Switch",
+      "La Wii U",
+      "La Wii"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0012",
+    "conceptId": "concept-game-studios-0012",
+    "familyId": "family-game-studios-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel créateur suédois, connu sous le pseudonyme de Notch, a créé Minecraft en 2009 ?",
+    "answers": [
+      "PewDiePie",
+      "Markus Persson",
+      "Jens Bergensten",
+      "Johan Andersson"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0013",
+    "conceptId": "concept-game-studios-0013",
+    "familyId": "family-game-studios-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la saga Resident Evil de Capcom, quelle multinationale pharmaceutique secrète est à l'origine du virus T ?",
+    "answers": [
+      "Umbrella Corporation",
+      "Aperture Science",
+      "Vault-Tec",
+      "Shinra"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0014",
+    "conceptId": "concept-game-studios-0014",
+    "familyId": "family-game-studios-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel jeu de plateforme créé par Alexey Pajitnov en 1984 consiste à empiler des tétraminos géométriques ?",
+    "answers": [
+      "Puyo Puyo",
+      "Columns",
+      "Tetris",
+      "Dr. Mario"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-studios-0015",
+    "conceptId": "concept-game-studios-0015",
+    "familyId": "family-game-studios-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel héros de jeu vidéo est un hérisson bleu ultra-rapide créé par Sega pour concurrencer Mario ?",
+    "answers": [
+      "Tails",
+      "Knuckles",
+      "Shadow",
+      "Sonic"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "game-studios-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "id": "animaux-opentrivia-001",
+    "conceptId": "concept-animaux-001",
+    "familyId": "family-animaux-001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Three of these animals hibernate. Which one does not hibernate?",
+    "answers": [
+      "Mouse",
+      "Frog",
+      "Sloth",
+      "Snake"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-001",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-002",
+    "conceptId": "concept-animaux-002",
+    "familyId": "family-animaux-001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "All these animals are omnivores, except one. ?",
+    "answers": [
+      "Fox",
+      "Snail",
+      "Mouse",
+      "Opossum"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-002",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-003",
+    "conceptId": "concept-animaux-003",
+    "familyId": "family-animaux-002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Three of these Latin names are names of bears. Which one is the odd one out?",
+    "answers": [
+      "Felis silvestris catus",
+      "Ursus minimus",
+      "Helarctos malayanus",
+      "Melursus ursinus"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-003",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-004",
+    "conceptId": "concept-animaux-004",
+    "familyId": "family-animaux-002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "These are typically Australian animals, with the exception of one. ?",
+    "answers": [
+      "Dingo",
+      "Sloth",
+      "Platypus",
+      "Echidna"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-004",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-005",
+    "conceptId": "concept-animaux-005",
+    "familyId": "family-animaux-003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Representatives of three of these species produce their own venom. Which one is the odd one out?",
+    "answers": [
+      "Frogs",
+      "Mosquitoes",
+      "Lizards",
+      "Scorpions"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-005",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-006",
+    "conceptId": "concept-animaux-006",
+    "familyId": "family-animaux-003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Three of these species shed their skin. Which one does not?",
+    "answers": [
+      "Crustaceans",
+      "Snakes",
+      "Penguins",
+      "Insects"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-006",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-007",
+    "conceptId": "concept-animaux-007",
+    "familyId": "family-animaux-004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "All these animals have big ears (relative to their size), except one. ?",
+    "answers": [
+      "Foxes",
+      "Polar bear",
+      "Bat",
+      "Elephants"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-007",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-008",
+    "conceptId": "concept-animaux-008",
+    "familyId": "family-animaux-004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What percentage of all snakes on the planet are deadly to humans?",
+    "answers": [
+      "25%",
+      "10%",
+      "15%",
+      "20%"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-008",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-009",
+    "conceptId": "concept-animaux-009",
+    "familyId": "family-animaux-005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Snakes are animals of this type. ?",
+    "answers": [
+      "Herbivores",
+      "Vegetarian",
+      "Omnivores",
+      "Carnivores"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-009",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-010",
+    "conceptId": "concept-animaux-010",
+    "familyId": "family-animaux-005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Snakes consume their food through this process. ?",
+    "answers": [
+      "Absorb",
+      "Swallow",
+      "Chew",
+      "Breathe"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-010",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-011",
+    "conceptId": "concept-animaux-011",
+    "familyId": "family-animaux-006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Snakes belong to which of the following categories?",
+    "answers": [
+      "Invertebrates",
+      "Lizards",
+      "Reptiles",
+      "Mammals"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-011",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-014",
+    "conceptId": "concept-animaux-014",
+    "familyId": "family-animaux-007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Cobras are venomous snakes of family Elapidae, that generally inhabit regions of these two continents. ?",
+    "answers": [
+      "Asia and Australia",
+      "South America and Asia",
+      "South America and Australia",
+      "Asia and Africa"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-014",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-035",
+    "conceptId": "concept-animaux-035",
+    "familyId": "family-animaux-018",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Ancient Japanese thought this animal caused earthquakes. ?",
+    "answers": [
+      "Frogs",
+      "Birds",
+      "Spiders",
+      "Snakes"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-035",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-037",
+    "conceptId": "concept-animaux-037",
+    "familyId": "family-animaux-019",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "This animal can clean its own ears with its 21-inch tongue.",
+    "answers": [
+      "Lion",
+      "Lizard",
+      "Giraffe",
+      "Elephant"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-037",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

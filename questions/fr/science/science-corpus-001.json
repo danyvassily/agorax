@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "sci-bulk-0001",
+    "conceptId": "concept-sci-bulk-0001",
+    "familyId": "family-sci-bulk-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est la planète la plus proche du Soleil dans notre système solaire ?",
+    "answers": [
+      "Mars",
+      "Mercure",
+      "la Terre",
+      "Vénus"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0002",
+    "conceptId": "concept-sci-bulk-0002",
+    "familyId": "family-sci-bulk-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle planète géante gazeuse possède la plus grande masse et la fameuse « Grande Tache Rouge » ?",
+    "answers": [
+      "Neptune",
+      "Uranus",
+      "Saturne",
+      "Jupiter"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0003",
+    "conceptId": "concept-sci-bulk-0003",
+    "familyId": "family-sci-bulk-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle planète du système solaire est surnommée la « planète rouge » en raison de l'oxyde de fer à sa surface ?",
+    "answers": [
+      "Jupiter",
+      "Mercure",
+      "Mars",
+      "Vénus"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0004",
+    "conceptId": "concept-sci-bulk-0004",
+    "familyId": "family-sci-bulk-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle planète est entourée du système d'anneaux de glace et de poussière le plus spectaculaire et visible ?",
+    "answers": [
+      "Uranus",
+      "Jupiter",
+      "Neptune",
+      "Saturne"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0005",
+    "conceptId": "concept-sci-bulk-0005",
+    "familyId": "family-sci-bulk-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "À quelle vitesse approximative la lumière se propage-t-elle dans le vide absolu ?",
+    "answers": [
+      "150 000 km/s",
+      "500 000 km/s",
+      "1 000 000 km/s",
+      "300 000 km/s"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "physique",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "physique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0006",
+    "conceptId": "concept-sci-bulk-0006",
+    "familyId": "family-sci-bulk-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel physicien a formulé les lois de la relativité restreinte (1905) et générale (1915) ?",
+    "answers": [
+      "Isaac Newton",
+      "Niels Bohr",
+      "Albert Einstein",
+      "Max Planck"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "physique",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "physique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0007",
+    "conceptId": "concept-sci-bulk-0007",
+    "familyId": "family-sci-bulk-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel scientifique britannique a énoncé la loi de la gravitation universelle après avoir observé la chute d'une pomme ?",
+    "answers": [
+      "Robert Hooke",
+      "Isaac Newton",
+      "Galilée",
+      "Johannes Kepler"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "physique",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "physique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0008",
+    "conceptId": "concept-sci-bulk-0008",
+    "familyId": "family-sci-bulk-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel gaz représente environ 78 % de l'atmosphère terrestre ?",
+    "answers": [
+      "Le diazote",
+      "Le dioxyde de carbone",
+      "Le dioxygène",
+      "L'argon"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0009",
+    "conceptId": "concept-sci-bulk-0009",
+    "familyId": "family-sci-bulk-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique du sodium dans le tableau périodique des éléments ?",
+    "answers": [
+      "So",
+      "Sd",
+      "K",
+      "Na"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0010",
+    "conceptId": "concept-sci-bulk-0010",
+    "familyId": "family-sci-bulk-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de l'or dans la classification périodique ?",
+    "answers": [
+      "Au",
+      "Or",
+      "Fe",
+      "Ag"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0011",
+    "conceptId": "concept-sci-bulk-0011",
+    "familyId": "family-sci-bulk-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien d'os composent le squelette d'un être humain adulte en moyenne ?",
+    "answers": [
+      "312",
+      "180",
+      "250",
+      "206"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "anatomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "anatomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0012",
+    "conceptId": "concept-sci-bulk-0012",
+    "familyId": "family-sci-bulk-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le plus grand organe du corps humain en superficie et en poids ?",
+    "answers": [
+      "Le foie",
+      "Les poumons",
+      "L'intestin grêle",
+      "La peau"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "anatomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "anatomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0013",
+    "conceptId": "concept-sci-bulk-0013",
+    "familyId": "family-sci-bulk-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le groupe sanguin considéré comme « donneur universel » de globules rouges ?",
+    "answers": [
+      "O négatif",
+      "AB positif",
+      "A positif",
+      "O positif"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "medecine",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "medecine"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0014",
+    "conceptId": "concept-sci-bulk-0014",
+    "familyId": "family-sci-bulk-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle molécule en double hélice porte l'information génétique de tous les organismes vivants ?",
+    "answers": [
+      "L'ATP",
+      "L'ADN",
+      "La protéine C",
+      "L'ARN"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "biologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "biologie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0015",
+    "conceptId": "concept-sci-bulk-0015",
+    "familyId": "family-sci-bulk-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de paires de chromosomes une cellule humaine normale possède-t-elle ?",
+    "answers": [
+      "24 paires",
+      "22 paires",
+      "23 paires",
+      "46 paires"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "biologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "biologie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0016",
+    "conceptId": "concept-sci-bulk-0016",
+    "familyId": "family-sci-bulk-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel médecin écossais a découvert le premier antibiotique, la pénicilline, en 1928 ?",
+    "answers": [
+      "Louis Pasteur",
+      "Robert Koch",
+      "Alexander Fleming",
+      "Edward Jenner"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "medecine",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "medecine"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0017",
+    "conceptId": "concept-sci-bulk-0017",
+    "familyId": "family-sci-bulk-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel savant français a développé le vaccin contre la rage et le procédé de pasteurisation ?",
+    "answers": [
+      "Louis Pasteur",
+      "Antoine Lavoisier",
+      "René Laennec",
+      "Claude Bernard"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "medecine",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "medecine"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0018",
+    "conceptId": "concept-sci-bulk-0018",
+    "familyId": "family-sci-bulk-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle scientifique d'origine polonaise a reçu deux prix Nobel dans deux disciplines différentes (Physique et Chimie) ?",
+    "answers": [
+      "Lise Meitner",
+      "Marie Curie",
+      "Rosalind Franklin",
+      "Irène Joliot-Curie"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0019",
+    "conceptId": "concept-sci-bulk-0019",
+    "familyId": "family-sci-bulk-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel astronome polonais du XVIe siècle a développé le modèle héliocentrique plaçant le Soleil au centre de l'univers ?",
+    "answers": [
+      "Galilée",
+      "Nicolas Copernic",
+      "Giordano Bruno",
+      "Tycho Brahe"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0020",
+    "conceptId": "concept-sci-bulk-0020",
+    "familyId": "family-sci-bulk-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle force fondamentale maintient les électrons en orbite autour du noyau atomique ?",
+    "answers": [
+      "La gravité",
+      "La force électromagnétique",
+      "L'interaction forte",
+      "L'interaction faible"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "physique",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "physique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0021",
+    "conceptId": "concept-sci-bulk-0021",
+    "familyId": "family-sci-bulk-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle particule subatomique de charge électrique neutre compose le noyau atomique avec le proton ?",
+    "answers": [
+      "L'électron",
+      "Le neutron",
+      "Le photon",
+      "Le positron"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "physique",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "physique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0021",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0022",
+    "conceptId": "concept-sci-bulk-0022",
+    "familyId": "family-sci-bulk-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle échelle logarithmique mesure la magnitude de l'énergie libérée lors d'un séisme ?",
+    "answers": [
+      "L'échelle de Mercalli",
+      "L'échelle de Richter",
+      "L'échelle de Beaufort",
+      "L'échelle de Mohs"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "geologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "geologie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0022",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0023",
+    "conceptId": "concept-sci-bulk-0023",
+    "familyId": "family-sci-bulk-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel minéral se situe au sommet de l'échelle de dureté de Mohs avec une valeur maximale de 10 ?",
+    "answers": [
+      "Le topaze",
+      "Le diamant",
+      "Le corindon",
+      "Le quartz"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "geologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "geologie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0023",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0024",
+    "conceptId": "concept-sci-bulk-0024",
+    "familyId": "family-sci-bulk-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle particule élémentaire de masse nulle est le quantum d'énergie associé au rayonnement lumineux ?",
+    "answers": [
+      "Le photon",
+      "Le neutrino",
+      "Le boson",
+      "Le gluon"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "physique",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "physique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0024",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0025",
+    "conceptId": "concept-sci-bulk-0025",
+    "familyId": "family-sci-bulk-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel naturaliste anglais a posé les bases de la théorie de l'évolution par sélection naturelle dans L'Origine des espèces (1859) ?",
+    "answers": [
+      "Gregor Mendel",
+      "Alfred Russel Wallace",
+      "Jean-Baptiste de Lamarck",
+      "Charles Darwin"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "biologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "biologie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0025",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0026",
+    "conceptId": "concept-sci-bulk-0026",
+    "familyId": "family-sci-bulk-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel moine autrichien est considéré comme le père de la génétique moderne grâce à ses expériences sur les petits pois ?",
+    "answers": [
+      "Louis Pasteur",
+      "Gregor Mendel",
+      "Carl Linnaeus",
+      "Thomas Morgan"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "biologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "biologie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0026",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0027",
+    "conceptId": "concept-sci-bulk-0027",
+    "familyId": "family-sci-bulk-0014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel télescope spatial lancé en décembre 2021 étudie l'univers dans l'infrarouge depuis le point de Lagrange L2 ?",
+    "answers": [
+      "Le James Webb (JWST)",
+      "Hubble",
+      "Kepler",
+      "Spitzer"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0027",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0028",
+    "conceptId": "concept-sci-bulk-0028",
+    "familyId": "family-sci-bulk-0014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle planète naine découverte en 1930 a été déclassée de son statut de planète principale par l'UAI en 2006 ?",
+    "answers": [
+      "Éris",
+      "Cérès",
+      "Makémaké",
+      "Pluton"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0028",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0029",
+    "conceptId": "concept-sci-bulk-0029",
+    "familyId": "family-sci-bulk-0015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est l'élément chimique le plus abondant dans l'univers observable ?",
+    "answers": [
+      "L'hydrogène",
+      "Le carbone",
+      "L'oxygène",
+      "L'hélium"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0029",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sci-bulk-0030",
+    "conceptId": "concept-sci-bulk-0030",
+    "familyId": "family-sci-bulk-0015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle glande située à la base du cou sécrète des hormones régulant le métabolisme de base (T3 et T4) ?",
+    "answers": [
+      "Le pancréas",
+      "L'hypophyse",
+      "La thyroïde",
+      "La surrénale"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "anatomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "anatomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sci-bulk-0030",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

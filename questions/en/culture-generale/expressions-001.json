@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "cg-exp-foudre",
+    "conceptId": "exp-foudre",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does 'avoir un coup de foudre' mean?",
+    "answers": [
+      "To suddenly fall in love",
+      "To be struck by lightning",
+      "To be very hungry",
+      "To get angry suddenly"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-31",
+    "conceptId": "exp-31",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"se mettre sur son 31\" mean?",
+    "answers": [
+      "To rest",
+      "To get up very early",
+      "To get angry",
+      "To dress elegantly"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/S'habiller_avec_%C3%A9l%C3%A9gance"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-lapin",
+    "conceptId": "exp-lapin",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does it mean to \"stand someone up\"?",
+    "answers": [
+      "Invite to dinner",
+      "Arrive late",
+      "Not show up for a date",
+      "Offer a gift"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-chair-poule",
+    "conceptId": "exp-chair-poule",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does 'to have goosebumps' mean?",
+    "answers": [
+      "To be sleepy",
+      "To have one's skin bristle from cold or emotion",
+      "To be very hungry",
+      "To be angry"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Avoir_la_peau_qui_se_h%C3%A9risse_de_froid_ou_d'%C3%A9motion"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-chat",
+    "conceptId": "exp-chat",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"to give one's tongue to the cat\" mean?",
+    "answers": [
+      "To give up guessing",
+      "To chatter endlessly",
+      "To lie",
+      "To tell a secret"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-yeux-tete",
+    "conceptId": "exp-yeux-tete",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"to cost an arm and a leg\" mean?",
+    "answers": [
+      "To be useless",
+      "To be dangerous",
+      "To be free",
+      "To be very expensive"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%8Atre_tr%C3%A8s_cher"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-lune",
+    "conceptId": "exp-lune",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"to be in the moon\" mean?",
+    "answers": [
+      "To be very intelligent",
+      "To be sad",
+      "To be distracted, dreamy",
+      "To be an astronaut"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-fromage",
+    "conceptId": "exp-fromage",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"to make a big deal out of something\" mean?",
+    "answers": [
+      "To enjoy oneself",
+      "To exaggerate the importance of something",
+      "To make cheese",
+      "To cook well"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Exag%C3%A9rer_l'importance_d'une_chose"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-poil-main",
+    "conceptId": "exp-poil-main",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"to have a hair in the hand\" mean?",
+    "answers": [
+      "To be lazy",
+      "To be brave",
+      "To be afraid",
+      "To be fast"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-taureau",
+    "conceptId": "exp-taureau",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does 'taking the bull by the horns' mean?",
+    "answers": [
+      "Fleeing from danger",
+      "Hunting animals",
+      "Taking a nap",
+      "Facing a problem with courage"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Affronter_un_probl%C3%A8me_avec_courage"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-plat",
+    "conceptId": "exp-plat",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does 'to put one's feet in the dish' mean?",
+    "answers": [
+      "To eat well",
+      "To arrive late",
+      "To tackle a delicate subject directly",
+      "To step on a dish"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-sellette",
+    "conceptId": "exp-sellette",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"to be on the hot seat\" mean?",
+    "answers": [
+      "To be hidden",
+      "To be questioned or criticized",
+      "To be comfortably seated",
+      "To have won"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%8Atre_interrog%C3%A9_ou_critiqu%C3%A9"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-pot",
+    "conceptId": "exp-pot",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"beat around the bush\" mean?",
+    "answers": [
+      "Avoid addressing the subject",
+      "Do gardening",
+      "Dance",
+      "Repeat endlessly"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-cafard",
+    "conceptId": "exp-cafard",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"avoir le cafard\" mean?",
+    "answers": [
+      "To be hungry",
+      "To be afraid of insects",
+      "To be cheerful",
+      "To be sad, depressed"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%8Atre_triste%2C_d%C3%A9prim%C3%A9"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-canard",
+    "conceptId": "exp-canard",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"un froid de canard\" mean?",
+    "answers": [
+      "Mild temperature",
+      "Fine rain",
+      "Very sharp cold",
+      "Pleasant cold"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-mouron",
+    "conceptId": "exp-mouron",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"se faire du mouron\" mean?",
+    "answers": [
+      "To make friends",
+      "To worry",
+      "To get a haircut",
+      "To gain weight"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Se_faire_du_souci"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-chat-gorge",
+    "conceptId": "exp-chat-gorge",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does 'to have a cat in the throat' mean?",
+    "answers": [
+      "To have a hoarse voice",
+      "To be hungry",
+      "To be angry",
+      "To be cold"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-pommes",
+    "conceptId": "exp-pommes",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"tomber dans les pommes\" mean?",
+    "answers": [
+      "Eating fruits",
+      "Getting hurt",
+      "Failing",
+      "Fainting"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/S'%C3%A9vanouir"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-7e-ciel",
+    "conceptId": "exp-7e-ciel",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"to be in seventh heaven\" mean?",
+    "answers": [
+      "To be sad",
+      "To sleep",
+      "To be very happy",
+      "To be very high"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-coup-main",
+    "conceptId": "exp-coup-main",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"to give a hand\" mean?",
+    "answers": [
+      "To fall",
+      "To help someone",
+      "To punch",
+      "To hit"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Aider_quelqu'un"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-pate",
+    "conceptId": "exp-pate",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does 'mettre la main à la pâte' mean?",
+    "answers": [
+      "To participate in the work",
+      "To cook",
+      "To steal",
+      "To give up"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-chaussettes",
+    "conceptId": "exp-chaussettes",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"to have one's morale in one's socks\" mean?",
+    "answers": [
+      "To have cold feet",
+      "To be in a hurry",
+      "To be cheerful",
+      "To be depressed"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%8Atre_d%C3%A9prim%C3%A9"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-cordon-bleu",
+    "conceptId": "exp-cordon-bleu",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does it mean to be a \"cordon bleu\"?",
+    "answers": [
+      "To be a military person",
+      "To be an artist",
+      "To be an excellent cook",
+      "To be a sailor"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-grasse-matinee",
+    "conceptId": "exp-grasse-matinee",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"faire la grasse matinée\" mean?",
+    "answers": [
+      "Getting up early",
+      "Staying in bed late in the morning",
+      "Eating a lot",
+      "Sleeping little"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Rester_au_lit_tard_le_matin"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-pipe",
+    "conceptId": "exp-pipe",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does 'casser sa pipe' mean?",
+    "answers": [
+      "To die",
+      "To smoke",
+      "To break an object",
+      "To get angry"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-pain-planche",
+    "conceptId": "exp-pain-planche",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"avoir du pain sur la planche\" mean?",
+    "answers": [
+      "To be hungry",
+      "To be rich",
+      "To be late",
+      "To have a lot of work"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Avoir_beaucoup_de_travail"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-singe",
+    "conceptId": "exp-singe",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"being as cunning as a monkey\" mean?",
+    "answers": [
+      "Being strong",
+      "Being talkative",
+      "Being very crafty",
+      "Being fast"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-temps-chien",
+    "conceptId": "exp-temps-chien",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"un temps de chien\" mean?",
+    "answers": [
+      "Hot weather",
+      "Very bad weather",
+      "Very nice weather",
+      "Mild weather"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/tr%C3%A8s_mauvais_temps"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-exp-chien-chat",
+    "conceptId": "exp-chien-chat",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does \"to get along like cat and dog\" mean?",
+    "answers": [
+      "To argue constantly",
+      "To be inseparable",
+      "To look alike",
+      "To ignore each other"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-exp-vache",
+    "conceptId": "exp-vache",
+    "familyId": "french-expressions",
+    "type": "mcq",
+    "question": "What does 'speaking French like a Spanish cow' mean?",
+    "answers": [
+      "Speaking several languages",
+      "Speaking very fast",
+      "Keeping silent",
+      "Speaking a language poorly"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "expressions",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "expressions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q150",
+      "url": "https://www.wikidata.org/wiki/Q150",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Parler_mal_une_langue"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  }
+]

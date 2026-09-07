@@ -1,0 +1,392 @@
+[
+  {
+    "id": "music-legend-0001",
+    "conceptId": "concept-music-legend-0001",
+    "familyId": "family-music-legend-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel groupe de rock britannique originaire de Liverpool était formé par John Lennon, Paul McCartney, George Harrison et Ringo Starr ?",
+    "answers": [
+      "The Who",
+      "The Kinks",
+      "The Rolling Stones",
+      "The Beatles"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "rock-pop",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rock-pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "music-legend-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-legend-0002",
+    "conceptId": "concept-music-legend-0002",
+    "familyId": "family-music-legend-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel chanteur charismatique et virtuose était le leader du groupe Queen jusqu'à sa disparition en 1991 ?",
+    "answers": [
+      "Freddie Mercury",
+      "Brian May",
+      "John Deacon",
+      "Roger Taylor"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "rock-pop",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rock-pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "music-legend-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-legend-0003",
+    "conceptId": "concept-music-legend-0003",
+    "familyId": "family-music-legend-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel album mythique de Michael Jackson sorti en 1982 est l'album le plus vendu de tous les temps ?",
+    "answers": [
+      "Dangerous",
+      "Bad",
+      "Thriller",
+      "Off the Wall"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "rock-pop",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rock-pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "music-legend-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-legend-0004",
+    "conceptId": "concept-music-legend-0004",
+    "familyId": "family-music-legend-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel groupe de musique électronique français casqué a composé les tubes Around the World et Get Lucky ?",
+    "answers": [
+      "Cassius",
+      "Justice",
+      "Daft Punk",
+      "Air"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "rock-pop",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rock-pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "music-legend-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-legend-0005",
+    "conceptId": "concept-music-legend-0005",
+    "familyId": "family-music-legend-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel compositeur autrichien prodige a composé La Flûte enchantée et le Requiem avant de mourir à 35 ans ?",
+    "answers": [
+      "Franz Schubert",
+      "Joseph Haydn",
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "rock-pop",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rock-pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "music-legend-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-legend-0006",
+    "conceptId": "concept-music-legend-0006",
+    "familyId": "family-music-legend-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel compositeur allemand sourd à la fin de sa vie a composé la célèbre 9e Symphonie intégrant l'Ode à la joie ?",
+    "answers": [
+      "Johann Sebastian Bach",
+      "Ludwig van Beethoven",
+      "Johannes Brahms",
+      "Richard Wagner"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "rock-pop",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rock-pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "music-legend-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-legend-0007",
+    "conceptId": "concept-music-legend-0007",
+    "familyId": "family-music-legend-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel groupe de rock progressif britannique a sorti l'album culte The Dark Side of the Moon en 1973 ?",
+    "answers": [
+      "Genesis",
+      "Pink Floyd",
+      "Led Zeppelin",
+      "King Crimson"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "rock-pop",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rock-pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "music-legend-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-legend-0008",
+    "conceptId": "concept-music-legend-0008",
+    "familyId": "family-music-legend-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel chanteur de reggae jamaïcain légendaire a popularisé le mouvement rastafari avec des titres comme No Woman No Cry ?",
+    "answers": [
+      "Burning Spear",
+      "Jimmy Cliff",
+      "Bob Marley",
+      "Peter Tosh"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "rock-pop",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rock-pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "music-legend-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-legend-0009",
+    "conceptId": "concept-music-legend-0009",
+    "familyId": "family-music-legend-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de cordes une guitare classique standard possède-t-elle ?",
+    "answers": [
+      "8 cordes",
+      "4 cordes",
+      "5 cordes",
+      "6 cordes"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "rock-pop",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rock-pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "music-legend-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "music-legend-0010",
+    "conceptId": "concept-music-legend-0010",
+    "familyId": "family-music-legend-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel instrument à vent en cuivre possède une coulisse mobile pour faire varier la hauteur des sons ?",
+    "answers": [
+      "Le cor d'harmonie",
+      "Le trombone",
+      "La trompette",
+      "Le tuba"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "rock-pop",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rock-pop"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "music-legend-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

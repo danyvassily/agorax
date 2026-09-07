@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "vehicules-opentdb-001",
+    "conceptId": "concept-vehicules-001",
+    "familyId": "family-vehicules-001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Italian car manufacturer has a prancing horse on a yellow background as its emblem?",
+    "answers": [
+      "Lamborghini",
+      "Maserati",
+      "Ferrari",
+      "Alfa Romeo"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "automobile"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-001",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-002",
+    "conceptId": "concept-vehicules-002",
+    "familyId": "family-vehicules-001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Franco-British supersonic airliner made its last commercial flight in 2003?",
+    "answers": [
+      "The Tupolev Tu-144",
+      "The Concorde",
+      "The Boeing 747",
+      "The Airbus A380"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "aviation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "aviation"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-002",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-003",
+    "conceptId": "concept-vehicules-003",
+    "familyId": "family-vehicules-002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American manufacturer revolutionized the industry with the first mass-produced car on an assembly line, the Model T?",
+    "answers": [
+      "Chrysler",
+      "Ford",
+      "Cadillac",
+      "Chevrolet"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "histoire-auto",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "histoire-auto"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-003",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-004",
+    "conceptId": "concept-vehicules-004",
+    "familyId": "family-vehicules-002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which Scandinavian country was the automobile manufacturer Volvo founded in 1927?",
+    "answers": [
+      "Finland",
+      "Denmark",
+      "Sweden",
+      "Norway"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "automobile"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-004",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-005",
+    "conceptId": "concept-vehicules-005",
+    "familyId": "family-vehicules-003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What legendary speed record did the TGV set on rails in France on April 3, 2007?",
+    "answers": [
+      "574.8 km/h",
+      "515.3 km/h",
+      "450.2 km/h",
+      "603.0 km/h"
+    ],
+    "correctAnswer": 0,
+    "category": "vehicules",
+    "subcategory": "ferroviaire",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "ferroviaire"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-005",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-006",
+    "conceptId": "concept-vehicules-006",
+    "familyId": "family-vehicules-003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which famous British transatlantic ocean liner sank on its maiden voyage in April 1912?",
+    "answers": [
+      "The Lusitania",
+      "The Olympic",
+      "The Britannic",
+      "The Titanic"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "maritime",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "maritime"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-006",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-007",
+    "conceptId": "concept-vehicules-007",
+    "familyId": "family-vehicules-004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which German automobile brand uses a logo made of four interlocking rings?",
+    "answers": [
+      "BMW",
+      "Opel",
+      "Mercedes-Benz",
+      "Audi"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "automobile"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-007",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-008",
+    "conceptId": "concept-vehicules-008",
+    "familyId": "family-vehicules-004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American bomber from World War II was nicknamed the \"Flying Fortress\"?",
+    "answers": [
+      "The Spitfire",
+      "The B-17",
+      "The B-29",
+      "The P-51"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "aviation",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "aviation"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-008",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-009",
+    "conceptId": "concept-vehicules-009",
+    "familyId": "family-vehicules-005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which British driver holds the record for the most F1 titles, tied with Michael Schumacher (7 crowns)?",
+    "answers": [
+      "Sebastian Vettel",
+      "Lewis Hamilton",
+      "Ayrton Senna",
+      "Max Verstappen"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "sport-auto",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "sport-auto"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-009",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-010",
+    "conceptId": "concept-vehicules-010",
+    "familyId": "family-vehicules-005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the main technical feature of the Japanese high-speed train Shinkansen?",
+    "answers": [
+      "It uses magnetic levitation on all its lines",
+      "It runs on dedicated tracks with no level crossings",
+      "It has no driver on board",
+      "It operates solely on solar energy"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "ferroviaire",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "ferroviaire"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-010",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-011",
+    "conceptId": "concept-vehicules-011",
+    "familyId": "family-vehicules-006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which manufacturer launched the world's first mass-produced hybrid car, the Prius, in 1997?",
+    "answers": [
+      "Nissan",
+      "Hyundai",
+      "Toyota",
+      "Honda"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "automobile"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-011",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-012",
+    "conceptId": "concept-vehicules-012",
+    "familyId": "family-vehicules-006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French nuclear-powered submarine was the first ballistic missile submarine (SSBN) to enter service in 1971?",
+    "answers": [
+      "Le Téméraire",
+      "Le Vigilant",
+      "Le Triomphant",
+      "Le Redoutable"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "maritime",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "maritime"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-012",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-013",
+    "conceptId": "concept-vehicules-013",
+    "familyId": "family-vehicules-007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which historic American two-wheeler brand is renowned for its V-twin engines and its seat in Milwaukee?",
+    "answers": [
+      "Indian Motorcycle",
+      "Victory",
+      "Buell",
+      "Harley-Davidson"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "deux-roues",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "deux-roues"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-013",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-014",
+    "conceptId": "concept-vehicules-014",
+    "familyId": "family-vehicules-007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which European aircraft manufacturer designed the A380, the largest civil airliner in history?",
+    "answers": [
+      "Embraer",
+      "Boeing",
+      "Bombardier",
+      "Airbus"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "aviation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "aviation"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-014",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-015",
+    "conceptId": "concept-vehicules-015",
+    "familyId": "family-vehicules-008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What emblem sits atop the grille of the British luxury cars Rolls-Royce?",
+    "answers": [
+      "The Royal Eagle",
+      "The Silver Star",
+      "The Leaping Jaguar",
+      "The Spirit of Ecstasy"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "automobile"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-015",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-016",
+    "conceptId": "concept-vehicules-016",
+    "familyId": "family-vehicules-008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which mythical day-and-night endurance race do prototypes compete every June in the Sarthe?",
+    "answers": [
+      "The 24 Hours of Spa",
+      "The 24 Hours of Le Mans",
+      "The 24 Hours of Daytona",
+      "The 24 Hours of Nürburgring"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "sport-auto",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "sport-auto"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-016",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-017",
+    "conceptId": "concept-vehicules-017",
+    "familyId": "family-vehicules-009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In space history, which inhabited spacecraft allowed the American crew to land on the Moon in July 1969?",
+    "answers": [
+      "Gemini 4",
+      "Soyuz 11",
+      "The Apollo 11 module (Eagle)",
+      "Vostok 1"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "spatial",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "spatial"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-017",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-018",
+    "conceptId": "concept-vehicules-018",
+    "familyId": "family-vehicules-009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which legendary model created in 1963 retains its flat-six engine at the rear at the Stuttgart firm?",
+    "answers": [
+      "The Porsche Panamera",
+      "The Porsche Cayman",
+      "The Porsche Boxster",
+      "The Porsche 911"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "automobile"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-018",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-019",
+    "conceptId": "concept-vehicules-019",
+    "familyId": "family-vehicules-010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which cable transport mode connects several stations suspended in the air, such as in Medellín or Grenoble?",
+    "answers": [
+      "The monorail",
+      "The funicular",
+      "The cable car",
+      "The aerotrain"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "transport-urbain",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "transport-urbain"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-019",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-020",
+    "conceptId": "concept-vehicules-020",
+    "familyId": "family-vehicules-010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Californian brand marketed the 100% electric Model S sedan from 2012?",
+    "answers": [
+      "Rivian",
+      "Tesla",
+      "Polestar",
+      "Lucid Motors"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "automobile"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-020",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-021",
+    "conceptId": "concept-vehicules-021",
+    "familyId": "family-vehicules-011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American tandem-rotor military helicopter is renowned for the heavy transport of equipment?",
+    "answers": [
+      "The Bell UH-1 Iroquois",
+      "The CH-47 Chinook",
+      "The AH-64 Apache",
+      "The UH-60 Black Hawk"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "aviation",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "aviation"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-021",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-022",
+    "conceptId": "concept-vehicules-022",
+    "familyId": "family-vehicules-011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which famous luxury train connected Paris to Constantinople at the end of the 19th century?",
+    "answers": [
+      "The Trans-Siberian",
+      "The Mistral",
+      "The Orient Express",
+      "The Blue Train"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "ferroviaire",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "ferroviaire"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-022",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-023",
+    "conceptId": "concept-vehicules-023",
+    "familyId": "family-vehicules-012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French manufacturer produced the popular 2CV from 1948 to 1990?",
+    "answers": [
+      "Simca",
+      "Peugeot",
+      "Citroën",
+      "Renault"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "histoire-auto",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "histoire-auto"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-023",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-024",
+    "conceptId": "concept-vehicules-024",
+    "familyId": "family-vehicules-012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which scientific and oceanographic exploration vessel was commanded by Commander Jacques-Yves Cousteau?",
+    "answers": [
+      "Calypso",
+      "Alcyon",
+      "Nautilus",
+      "Astrolabe"
+    ],
+    "correctAnswer": 0,
+    "category": "vehicules",
+    "subcategory": "maritime",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "maritime"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-024",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-025",
+    "conceptId": "concept-vehicules-025",
+    "familyId": "family-vehicules-013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which major African off-road rally-raid event was created in 1978 by Thierry Sabine?",
+    "answers": [
+      "The Baja 1000",
+      "The Thousand Lakes Rally",
+      "The Paris-Dakar",
+      "The Safari Rally"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "sport-auto",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "sport-auto"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-025",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-026",
+    "conceptId": "concept-vehicules-026",
+    "familyId": "family-vehicules-013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What propulsion principle allows hovercrafts to glide equally well over water and solid ground?",
+    "answers": [
+      "An underwater hydrojet",
+      "Watertight bow propellers",
+      "A pressurized air cushion",
+      "Lifting foils"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "maritime",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "maritime"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-026",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-027",
+    "conceptId": "concept-vehicules-027",
+    "familyId": "family-vehicules-014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Italian manufacturer adorns its supercars with a golden fighting bull?",
+    "answers": [
+      "Bugatti",
+      "Lamborghini",
+      "Pagani",
+      "Ferrari"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "automobile"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-027",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-028",
+    "conceptId": "concept-vehicules-028",
+    "familyId": "family-vehicules-014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which triangular, faceted American attack aircraft, the first operational stealth aircraft, flew as early as the 1980s?",
+    "answers": [
+      "The SR-71 Blackbird",
+      "The F-117 Nighthawk",
+      "The B-2 Spirit",
+      "The F-22 Raptor"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "aviation",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "aviation"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-028",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-029",
+    "conceptId": "concept-vehicules-029",
+    "familyId": "family-vehicules-015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which European country is the Spa-Francorchamps circuit, famous for the Eau Rouge corner, located?",
+    "answers": [
+      "Belgium",
+      "Germany",
+      "France",
+      "Luxembourg"
+    ],
+    "correctAnswer": 0,
+    "category": "vehicules",
+    "subcategory": "sport-auto",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "sport-auto"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-029",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "vehicules-opentdb-030",
+    "conceptId": "concept-vehicules-030",
+    "familyId": "family-vehicules-015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Japanese manufacturer created the legendary Hayabusa sport motorcycle, capable of reaching over 300 km/h?",
+    "answers": [
+      "Yamaha",
+      "Honda",
+      "Kawasaki",
+      "Suzuki"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "deux-roues",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile",
+      "deux-roues"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "vehicules-opentdb-030",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  }
+]

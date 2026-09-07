@@ -1,0 +1,392 @@
+[
+  {
+    "id": "tech-web-0001",
+    "conceptId": "concept-tech-web-0001",
+    "familyId": "family-tech-web-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel moteur de recherche en ligne a été fondé par Larry Page et Sergey Brin en 1998 à l'université Stanford ?",
+    "answers": [
+      "AltaVista",
+      "Google",
+      "Yahoo!",
+      "Bing"
+    ],
+    "correctAnswer": 1,
+    "category": "internet",
+    "subcategory": "moteurs-de-recherche",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "internet",
+      "moteurs-de-recherche"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-web-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-web-0002",
+    "conceptId": "concept-tech-web-0002",
+    "familyId": "family-tech-web-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle encyclopédie collaborative en ligne gratuite et multilingue a été lancée par Jimmy Wales et Larry Sanger en 2001 ?",
+    "answers": [
+      "Wikipédia",
+      "Larousse en ligne",
+      "Encarta",
+      "Britannica"
+    ],
+    "correctAnswer": 0,
+    "category": "internet",
+    "subcategory": "encyclopedies",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "internet",
+      "encyclopedies"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-web-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-web-0003",
+    "conceptId": "concept-tech-web-0003",
+    "familyId": "family-tech-web-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle plateforme d'hébergement de vidéos en ligne rachetée par Google en 2006 a vu sa première vidéo intitulée Me at the zoo ?",
+    "answers": [
+      "Vimeo",
+      "YouTube",
+      "Dailymotion",
+      "Twitch"
+    ],
+    "correctAnswer": 1,
+    "category": "internet",
+    "subcategory": "video",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "internet",
+      "video"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-web-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-web-0004",
+    "conceptId": "concept-tech-web-0004",
+    "familyId": "family-tech-web-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel réseau social axé sur les formats vidéo courts et la créativité musicale a été créé par l'entreprise chinoise ByteDance ?",
+    "answers": [
+      "Instagram",
+      "Snapchat",
+      "TikTok",
+      "Vine"
+    ],
+    "correctAnswer": 2,
+    "category": "internet",
+    "subcategory": "reseaux-sociaux",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "internet",
+      "reseaux-sociaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-web-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-web-0005",
+    "conceptId": "concept-tech-web-0005",
+    "familyId": "family-tech-web-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel protocole de communication sécurisé précédé d'un cadenas vert chiffre les échanges entre un navigateur et un site web ?",
+    "answers": [
+      "HTTP",
+      "SMTP",
+      "FTP",
+      "HTTPS"
+    ],
+    "correctAnswer": 3,
+    "category": "technologie",
+    "subcategory": "securite",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "securite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-web-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-web-0006",
+    "conceptId": "concept-tech-web-0006",
+    "familyId": "family-tech-web-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel composant électronique semi-conducteur fondamental inventé aux laboratoires Bell en 1947 sert d'interrupteur et d'amplificateur ?",
+    "answers": [
+      "La résistance",
+      "La diode",
+      "Le transistor",
+      "Le condensateur"
+    ],
+    "correctAnswer": 2,
+    "category": "technologie",
+    "subcategory": "electronique",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "electronique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-web-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-web-0007",
+    "conceptId": "concept-tech-web-0007",
+    "familyId": "family-tech-web-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel système d'exploitation mobile open-source développé par Google équipe la majorité des smartphones dans le monde ?",
+    "answers": [
+      "Android",
+      "Symbian",
+      "iOS",
+      "Windows Phone"
+    ],
+    "correctAnswer": 0,
+    "category": "technologie",
+    "subcategory": "smartphones",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "smartphones"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-web-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-web-0008",
+    "conceptId": "concept-tech-web-0008",
+    "familyId": "family-tech-web-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel format de données textuel léger et universel basé sur des paires clé-valeur est couramment utilisé dans les API web ?",
+    "answers": [
+      "JSON",
+      "YAML",
+      "CSV",
+      "XML"
+    ],
+    "correctAnswer": 0,
+    "category": "technologie",
+    "subcategory": "programmation",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "programmation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-web-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-web-0009",
+    "conceptId": "concept-tech-web-0009",
+    "familyId": "family-tech-web-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le nom de l'entreprise d'intelligence artificielle qui a lancé le modèle de langage conversationnel ChatGPT fin 2022 ?",
+    "answers": [
+      "Mistral AI",
+      "Anthropic",
+      "OpenAI",
+      "DeepMind"
+    ],
+    "correctAnswer": 2,
+    "category": "technologie",
+    "subcategory": "intelligence-artificielle",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "intelligence-artificielle"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-web-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-web-0010",
+    "conceptId": "concept-tech-web-0010",
+    "familyId": "family-tech-web-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel dispositif de stockage numérique de masse sans pièce mécanique mobile a progressivement remplacé les disques durs traditionnels (HDD) ?",
+    "answers": [
+      "La bande magnétique",
+      "La disquette",
+      "Le CD-ROM",
+      "Le disque SSD"
+    ],
+    "correctAnswer": 3,
+    "category": "technologie",
+    "subcategory": "materiel",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "materiel"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-web-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

@@ -1,0 +1,802 @@
+[
+  {
+    "id": "fin-manga-anime-0001",
+    "conceptId": "concept-fin-manga-anime-0001",
+    "familyId": "family-fin-manga-anime-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mangaka légendaire a créé la saga d'aventure et de combats 'Dragon Ball' et les aventures de Son Goku ?",
+    "answers": [
+      "Hirohiko Araki",
+      "Akira Toriyama",
+      "Eiichiro Oda",
+      "Masashi Kishimoto"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Akira Toriyama a marqué des générations entières avec Dragon Ball, Dr. Slump et ses designs pour la série de jeux Dragon Quest."
+  },
+  {
+    "id": "fin-manga-anime-0002",
+    "conceptId": "concept-fin-manga-anime-0002",
+    "familyId": "family-fin-manga-anime-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mangaka japonais est l'auteur du manga le plus vendu de tous les temps intitulé 'One Piece' ?",
+    "answers": [
+      "Yoshihiro Togashi",
+      "Tite Kubo",
+      "Masashi Kishimoto",
+      "Eiichiro Oda"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Eiichiro Oda publie les aventures de Monkey D. Luffy dans le Weekly Shōnen Jump depuis juillet 1997."
+  },
+  {
+    "id": "fin-manga-anime-0003",
+    "conceptId": "concept-fin-manga-anime-0003",
+    "familyId": "family-fin-manga-anime-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mangaka a créé le manga 'Naruto' racontant le parcours d'un jeune ninja rejeté rêvant de devenir Hokage ?",
+    "answers": [
+      "Yoshihiro Togashi",
+      "Ken Wakui",
+      "Masashi Kishimoto",
+      "Tite Kubo"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Masashi Kishimoto a séduit des millions de lecteurs à travers le monde avec son univers de ninjas et son village de Konoha."
+  },
+  {
+    "id": "fin-manga-anime-0004",
+    "conceptId": "concept-fin-manga-anime-0004",
+    "familyId": "family-fin-manga-anime-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel auteur a créé le sombre manga de dark fantasy 'Berserk' et son héros manchot armé d'une épée géante nommé Guts ?",
+    "answers": [
+      "Tsutomu Nihei",
+      "Takehiko Inoue",
+      "Kentaro Miura",
+      "Hiroaki Samura"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "seinen",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "seinen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Kentaro Miura a dessiné Berserk avec un niveau de détail graphique et une intensité dramatique hors du commun."
+  },
+  {
+    "id": "fin-manga-anime-0005",
+    "conceptId": "concept-fin-manga-anime-0005",
+    "familyId": "family-fin-manga-anime-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mangaka virtuose a signé le manga d'anticipation post-apocalyptique 'Akira' situé dans Neo-Tokyo en 2019 ?",
+    "answers": [
+      "Katsuhiro Otomo",
+      "Satoshi Kon",
+      "Mamoru Oshii",
+      "Masamune Shirow"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "seinen",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "seinen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Katsuhiro Otomo a réalisé à la fois le manga monumental et le film d'animation révolutionnaire sorti en 1988."
+  },
+  {
+    "id": "fin-manga-anime-0006",
+    "conceptId": "concept-fin-manga-anime-0006",
+    "familyId": "family-fin-manga-anime-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mangaka a signé à la fois le manga sur le basketball 'Slam Dunk' et le chef-d'œuvre historique 'Vagabond' ?",
+    "answers": [
+      "Naoki Urasawa",
+      "Tadatoshi Fujimaki",
+      "Mitsuru Adachi",
+      "Takehiko Inoue"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "sport-manga",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "sport-manga"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Takehiko Inoue est réputé pour son trait réaliste virtuose au pinceau et son sens du mouvement."
+  },
+  {
+    "id": "fin-manga-anime-0007",
+    "conceptId": "concept-fin-manga-anime-0007",
+    "familyId": "family-fin-manga-anime-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mangaka est l'auteur des thrillers psychologiques captivants 'Monster' et '20th Century Boys' ?",
+    "answers": [
+      "Inio Asano",
+      "Jiro Taniguchi",
+      "Shuzo Oshimi",
+      "Naoki Urasawa"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "seinen",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "seinen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Naoki Urasawa excelle dans les intrigues policières à suspense et les récits choraux complexes."
+  },
+  {
+    "id": "fin-manga-anime-0008",
+    "conceptId": "concept-fin-manga-anime-0008",
+    "familyId": "family-fin-manga-anime-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel manga scénarisé par Tsugumi Ohba un lycéen brillant nommé Light Yagami trouve-t-il un carnet provoquant la mort ?",
+    "answers": [
+      "Tokyo Ghoul",
+      "Psycho-Pass",
+      "Code Geass",
+      "Death Note"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Death Note met en scène un duel intellectuel fascinant entre Light Yagami et le détective prodige L."
+  },
+  {
+    "id": "fin-manga-anime-0009",
+    "conceptId": "concept-fin-manga-anime-0009",
+    "familyId": "family-fin-manga-anime-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mangaka est le créateur de la saga multigénérationnelle 'JoJo's Bizarre Adventure' et du concept de 'Stands' ?",
+    "answers": [
+      "Go Nagai",
+      "Yoshihiro Togashi",
+      "Hirohiko Araki",
+      "Kazuki Takahashi"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hirohiko Araki publie la saga JoJo depuis 1987, célèbre pour ses poses théâtrales et ses références au monde de la mode et du rock."
+  },
+  {
+    "id": "fin-manga-anime-0010",
+    "conceptId": "concept-fin-manga-anime-0010",
+    "familyId": "family-fin-manga-anime-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mangaka marié à Naoko Takeuchi (créatrice de Sailor Moon) a créé les séries cultes 'Yū Yū Hakusho' et 'Hunter × Hunter' ?",
+    "answers": [
+      "Tite Kubo",
+      "Yoshihiro Togashi",
+      "Masashi Kishimoto",
+      "Katsura Hoshino"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Yoshihiro Togashi est réputé pour son système complexe d'énergie du Nen et ses scénarios imprévisibles."
+  },
+  {
+    "id": "fin-manga-anime-0011",
+    "conceptId": "concept-fin-manga-anime-0011",
+    "familyId": "family-fin-manga-anime-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle mangaka japonaise a créé le manga d'aventure alchimique 'Fullmetal Alchemist' mettant en scène les frères Elric ?",
+    "answers": [
+      "CLAMP",
+      "Rumiko Takahashi",
+      "Mizuho Kusanagi",
+      "Hiromu Arakawa"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hiromu Arakawa a imaginé la quête d'Edward et Alphonse Elric pour retrouver leurs corps grâce à la pierre philosophale."
+  },
+  {
+    "id": "fin-manga-anime-0012",
+    "conceptId": "concept-fin-manga-anime-0012",
+    "familyId": "family-fin-manga-anime-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle mangaka prolifique est l'autrice de mangas populaires tels que 'Ranma ½', 'Inu-Yasha' et 'Urusei Yatsura' (Lamu) ?",
+    "answers": [
+      "Ai Yazawa",
+      "Riyoko Ikeda",
+      "Hiromu Arakawa",
+      "Rumiko Takahashi"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "comedie-romance",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "comedie-romance"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Rumiko Takahashi a reçu le Grand Prix de la ville d'Angoulême en 2019 pour l'ensemble de sa carrière exceptionnelle."
+  },
+  {
+    "id": "fin-manga-anime-0013",
+    "conceptId": "concept-fin-manga-anime-0013",
+    "familyId": "family-fin-manga-anime-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel grand réalisateur japonais cofondateur du Studio Ghibli a signé 'Le Voyage de Chihiro' et 'Mon voisin Totoro' ?",
+    "answers": [
+      "Mamoru Hosoda",
+      "Isao Takahata",
+      "Hayao Miyazaki",
+      "Makoto Shinkai"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "animation-ghibli",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "animation-ghibli"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hayao Miyazaki est une légende vivante de l'animation mondiale, récompensé par deux Oscars du meilleur film d'animation."
+  },
+  {
+    "id": "fin-manga-anime-0014",
+    "conceptId": "concept-fin-manga-anime-0014",
+    "familyId": "family-fin-manga-anime-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel film d'animation poignant réalisé par Isao Takahata en 1988 raconte le destin tragique de Seita et sa petite sœur Setsuko ?",
+    "answers": [
+      "Le Vent se lève",
+      "Princesse Mononoké",
+      "Souvenirs goutte à goutte",
+      "Le Tombeau des lucioles"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "animation-ghibli",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "animation-ghibli"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Tombeau des lucioles est un drame déchirant sur les ravages de la Seconde Guerre mondiale au Japon."
+  },
+  {
+    "id": "fin-manga-anime-0015",
+    "conceptId": "concept-fin-manga-anime-0015",
+    "familyId": "family-fin-manga-anime-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel manga de dark fantasy créé par Hajime Isayama l'humanité vit-elle retranchée derrière trois immenses murs protecteurs ?",
+    "answers": [
+      "Chainsaw Man",
+      "L'Attaque des Titans",
+      "Tokyo Ghoul",
+      "Jujutsu Kaisen"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Attaque des Titans (Shingeki no Kyojin) raconte le combat d'Eren Jäger contre de monstrueux humanoïdes mangeurs d'hommes."
+  },
+  {
+    "id": "fin-manga-anime-0016",
+    "conceptId": "concept-fin-manga-anime-0016",
+    "familyId": "family-fin-manga-anime-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mangaka est considéré comme le 'Dieu du manga' ('Manga no Kamisama') pour avoir créé 'Astro Boy' et 'Black Jack' ?",
+    "answers": [
+      "Go Nagai",
+      "Leiji Matsumoto",
+      "Osamu Tezuka",
+      "Shotaro Ishinomori"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "pionniers",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "pionniers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Osamu Tezuka a codifié le manga moderne au sortir de la Seconde Guerre mondiale avec son découpage cinématographique novateur."
+  },
+  {
+    "id": "fin-manga-anime-0017",
+    "conceptId": "concept-fin-manga-anime-0017",
+    "familyId": "family-fin-manga-anime-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mangaka a créé le manga policier à succès 'Détective Conan' mettant en scène un lycéen rajeuni dans un corps d'enfant ?",
+    "answers": [
+      "Shinichi Ishizuka",
+      "Boichi",
+      "Gosho Aoyama",
+      "Yusei Matsui"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Gosho Aoyama publie les enquêtes de Shinichi Kudo sous le nom d'emprunt de Conan Edogawa depuis 1994."
+  },
+  {
+    "id": "fin-manga-anime-0018",
+    "conceptId": "concept-fin-manga-anime-0018",
+    "familyId": "family-fin-manga-anime-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel manga culte de football de Yōichi Takahashi suit-on l'ascension sportive du jeune Tsubasa Ozora (Olivier Atton) ?",
+    "answers": [
+      "Whistle!",
+      "Inazuma Eleven",
+      "Captain Tsubasa",
+      "Blue Lock"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "sport-manga",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "sport-manga"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Captain Tsubasa (Olive et Tom en France) a suscité des vocations de footballeurs professionnels à travers le monde."
+  },
+  {
+    "id": "fin-manga-anime-0019",
+    "conceptId": "concept-fin-manga-anime-0019",
+    "familyId": "family-fin-manga-anime-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel réalisateur japonais virtuose du film d'animation a signé 'Your Name' (Kimi no Na wa) et 'Les Enfants du Temps' ?",
+    "answers": [
+      "Sunao Katabuchi",
+      "Satoshi Kon",
+      "Makoto Shinkai",
+      "Mamoru Hosoda"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "animation",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "animation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Your Name de Makoto Shinkai a battu des records historiques au box-office mondial en 2016."
+  },
+  {
+    "id": "fin-manga-anime-0020",
+    "conceptId": "concept-fin-manga-anime-0020",
+    "familyId": "family-fin-manga-anime-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel créateur a imaginé le robot géant 'Goldorak' (UFO Robot Grendizer) ainsi que 'Mazinger Z' et 'Devilman' ?",
+    "answers": [
+      "Shotaro Ishinomori",
+      "Go Nagai",
+      "Yoshiyuki Tomino",
+      "Leiji Matsumoto"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "mecha",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "mecha"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-manga-anime-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Go Nagai est le pionnier des séries de mécha géants pilotés de l'intérieur par des héros humains."
+  }
+]

@@ -1,0 +1,496 @@
+[
+  {
+    "id": "greek-symbol-lightning-zeus",
+    "conceptId": "symbol-lightning-zeus",
+    "familyId": "zeus-attributes",
+    "type": "mcq",
+    "question": "Which god is depicted with lightning?",
+    "answers": [
+      "Zeus",
+      "Poseidon",
+      "Hades",
+      "Apollo"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q34201",
+      "url": "https://www.wikidata.org/wiki/Q34201",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-symbol-trident-poseidon",
+    "conceptId": "symbol-trident-poseidon",
+    "familyId": "poseidon-attributes",
+    "type": "mcq",
+    "question": "Which god holds a trident?",
+    "answers": [
+      "Ares",
+      "Poseidon",
+      "Zeus",
+      "Hermes"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41127",
+      "url": "https://www.wikidata.org/wiki/Q41127",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-symbol-caduceus-hermes",
+    "conceptId": "symbol-caduceus-hermes",
+    "familyId": "hermes-attributes",
+    "type": "mcq",
+    "question": "The caduceus, a staff entwined with two serpents, is the attribute of which god?",
+    "answers": [
+      "Apollo",
+      "Dionysus",
+      "Hermes",
+      "Asclepius"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41492",
+      "url": "https://www.wikidata.org/wiki/Q41492",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-symbol-owl-athena",
+    "conceptId": "symbol-owl-athena",
+    "familyId": "athena-attributes",
+    "type": "mcq",
+    "question": "The owl is the symbol of which goddess?",
+    "answers": [
+      "Hera",
+      "Artemis",
+      "Aphrodite",
+      "Athena"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37122",
+      "url": "https://www.wikidata.org/wiki/Q37122",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-symbol-peacock-hera",
+    "conceptId": "symbol-peacock-hera",
+    "familyId": "hera-attributes",
+    "type": "mcq",
+    "question": "The peacock is the attribute of which goddess?",
+    "answers": [
+      "Hera",
+      "Athena",
+      "Demeter",
+      "Hestia"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47602",
+      "url": "https://www.wikidata.org/wiki/Q47602",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-symbol-lyre-apollo",
+    "conceptId": "symbol-lyre-apollo",
+    "familyId": "apollo-attributes",
+    "type": "mcq",
+    "question": "The lyre is the attribute of which god?",
+    "answers": [
+      "Ares",
+      "Apollo",
+      "Hermes",
+      "Dionysus"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37340",
+      "url": "https://www.wikidata.org/wiki/Q37340",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-symbol-aegis-zeus-athena",
+    "conceptId": "symbol-aegis-zeus-athena",
+    "familyId": "aegis-attribute",
+    "type": "mcq",
+    "question": "The aegis, a magical shield or breastplate, belongs to which gods?",
+    "answers": [
+      "Apollo and Artemis",
+      "Ares and Aphrodite",
+      "Zeus and Athena",
+      "Poseidon and Amphitrite"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q34201",
+      "url": "https://www.wikidata.org/wiki/Q34201",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-symbol-dove-aphrodite",
+    "conceptId": "symbol-dove-aphrodite",
+    "familyId": "aphrodite-attributes",
+    "type": "mcq",
+    "question": "The dove is the attribute of which goddess?",
+    "answers": [
+      "Athena",
+      "Artemis",
+      "Hera",
+      "Aphrodite"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q35500",
+      "url": "https://www.wikidata.org/wiki/Q35500",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-symbol-grapes-dionysus",
+    "conceptId": "symbol-grapes-dionysus",
+    "familyId": "dionysus-attributes",
+    "type": "mcq",
+    "question": "The grape cluster is the attribute of which god?",
+    "answers": [
+      "Dionysos",
+      "Apollon",
+      "Hermès",
+      "Héphaïstos"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q44212",
+      "url": "https://www.wikidata.org/wiki/Q44212",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-symbol-wheat-demeter",
+    "conceptId": "symbol-wheat-demeter",
+    "familyId": "demeter-attributes",
+    "type": "mcq",
+    "question": "The sheaf of wheat is the attribute of which goddess?",
+    "answers": [
+      "Aphrodite",
+      "Demeter",
+      "Hera",
+      "Athena"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q40714",
+      "url": "https://www.wikidata.org/wiki/Q40714",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-symbol-winged-sandals-hermes",
+    "conceptId": "symbol-winged-sandals-hermes",
+    "familyId": "hermes-attributes",
+    "type": "mcq",
+    "question": "Which god wears winged sandals?",
+    "answers": [
+      "Ares",
+      "Poseidon",
+      "Hermes",
+      "Apollo"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41492",
+      "url": "https://www.wikidata.org/wiki/Q41492",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-symbol-laurel-apollo",
+    "conceptId": "symbol-laurel-apollo",
+    "familyId": "apollo-attributes",
+    "type": "mcq",
+    "question": "Which tree, symbol of victory, is dedicated to Apollo?",
+    "answers": [
+      "The oak",
+      "The olive tree",
+      "The cypress",
+      "The laurel"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37340",
+      "url": "https://www.wikidata.org/wiki/Q37340",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-symbol-silver-bow-artemis",
+    "conceptId": "symbol-silver-bow-artemis",
+    "familyId": "artemis-attributes",
+    "type": "mcq",
+    "question": "The bow and silver arrows are the attributes of which goddess?",
+    "answers": [
+      "Artemis",
+      "Athena",
+      "Aphrodite",
+      "Hera"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "symboles",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "symboles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q39503",
+      "url": "https://www.wikidata.org/wiki/Q39503",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "sport-ext-0001",
+    "conceptId": "concept-sport-ext-0001",
+    "familyId": "family-sport-ext-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Serbian tennis player holds the absolute record for the number of Grand Slam titles in men's singles (24 titles)?",
+    "answers": [
+      "Novak Djokovic",
+      "Pete Sampras",
+      "Roger Federer",
+      "Rafael Nadal"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-ext-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-ext-0002",
+    "conceptId": "concept-sport-ext-0002",
+    "familyId": "family-sport-ext-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American tennis player has won 23 Grand Slam singles titles in the Open Era?",
+    "answers": [
+      "Martina Navratilova",
+      "Serena Williams",
+      "Venus Williams",
+      "Steffi Graf"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-ext-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-ext-0003",
+    "conceptId": "concept-sport-ext-0003",
+    "familyId": "family-sport-ext-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "On which mythical road running distance of 42.195 km do long-distance runners compete?",
+    "answers": [
+      "The marathon",
+      "The ultra-trail",
+      "The half-marathon",
+      "The 10,000 meters"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-ext-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-ext-0004",
+    "conceptId": "concept-sport-ext-0004",
+    "familyId": "family-sport-ext-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Swedish pole vaulter repeatedly broke the world record in the discipline by clearing over 6.20 meters?",
+    "answers": [
+      "Renaud Lavillenie",
+      "Armand Duplantis",
+      "Thiago Braz",
+      "Sergey Bubka"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-ext-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-ext-0005",
+    "conceptId": "concept-sport-ext-0005",
+    "familyId": "family-sport-ext-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which Australian city does the first Grand Slam tennis tournament of the year take place every January?",
+    "answers": [
+      "Perth",
+      "Brisbane",
+      "Sydney",
+      "Melbourne"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-ext-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-ext-0006",
+    "conceptId": "concept-sport-ext-0006",
+    "familyId": "family-sport-ext-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which athletics event combines ten different disciplines spread over two days to crown the most complete athlete?",
+    "answers": [
+      "The heptathlon",
+      "The decathlon",
+      "The pentathlon",
+      "The triathlon"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-ext-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-ext-0007",
+    "conceptId": "concept-sport-ext-0007",
+    "familyId": "family-sport-ext-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Belgian cyclist, a five-time winner of the Tour de France, was nicknamed 'The Cannibal'?",
+    "answers": [
+      "Bernard Hinault",
+      "Miguel Indurain",
+      "Jacques Anquetil",
+      "Eddy Merckx"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "cyclisme",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "cyclisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-ext-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-ext-0008",
+    "conceptId": "concept-sport-ext-0008",
+    "familyId": "family-sport-ext-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which combat sport is the traditional uniform (gi) used to throw one's opponent to the ground and score the decisive point \"ippon\"?",
+    "answers": [
+      "Karate",
+      "English boxing",
+      "Judo",
+      "Taekwondo"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "arts-martiaux",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "arts-martiaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-ext-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-ext-0009",
+    "conceptId": "concept-sport-ext-0009",
+    "familyId": "family-sport-ext-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many holes does a standard full-size regulation golf course have?",
+    "answers": [
+      "24 holes",
+      "18 holes",
+      "9 holes",
+      "12 holes"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "golf",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "golf"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-ext-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-ext-0010",
+    "conceptId": "concept-sport-ext-0010",
+    "familyId": "family-sport-ext-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French skier won three gold medals at the Grenoble Winter Olympics in 1968?",
+    "answers": [
+      "Luc Alphand",
+      "Jean-Claude Killy",
+      "Alexis Pinturault",
+      "Henri Oreiller"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "ski",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "ski"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-ext-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

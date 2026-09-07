@@ -1,0 +1,197 @@
+[
+  {
+    "id": "multi-theme-0006",
+    "conceptId": "concept-multi-theme-0006",
+    "familyId": "family-multi-theme-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Belgian cartoonist and writer created the comic strip Gaston Lagaffe, who works at the Journal de Spirou?",
+    "answers": [
+      "Peyo",
+      "Hergé",
+      "André Franquin",
+      "Morris"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0007",
+    "conceptId": "concept-multi-theme-0007",
+    "familyId": "family-multi-theme-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which humorous comic strip by Alain Chabat and René Goscinny does Caliph Haroun El Poussah suffer the plots of an evil vizier?",
+    "answers": [
+      "Cubitus",
+      "Boule et Bill",
+      "Iznogoud",
+      "Achille Talon"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0008",
+    "conceptId": "concept-multi-theme-0008",
+    "familyId": "family-multi-theme-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which little boy with a blond cowlick was created by Zep in 1992?",
+    "answers": [
+      "Cédric",
+      "Kid Paddle",
+      "Boule",
+      "Titeuf"
+    ],
+    "correctAnswer": 3,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0009",
+    "conceptId": "concept-multi-theme-0009",
+    "familyId": "family-multi-theme-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which romantic adventurer sailor created by Hugo Pratt wears an earring in his left ear and a naval officer's cap?",
+    "answers": [
+      "Gulliver",
+      "Captain Haddock",
+      "Corto Maltese",
+      "Bernard Prince"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "romans-graphiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics-bd",
+      "romans-graphiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0010",
+    "conceptId": "concept-multi-theme-0010",
+    "familyId": "family-multi-theme-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which adventure and science-fiction comic series by Pierre Christin and Jean-Claude Mézières do we follow two space-time agents?",
+    "answers": [
+      "Sillage",
+      "Yoko Tsuno",
+      "Valérian and Laureline",
+      "The Worlds of Aldébaran"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "sci-fi",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics-bd",
+      "sci-fi"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

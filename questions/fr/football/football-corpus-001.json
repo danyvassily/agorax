@@ -1,0 +1,158 @@
+[
+  {
+    "id": "sport-bulk-0001",
+    "conceptId": "concept-sport-bulk-0001",
+    "familyId": "family-sport-bulk-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel pays a remporté la Coupe du Monde de football masculin en 1998 et en 2018 ?",
+    "answers": [
+      "L'Italie",
+      "L'Allemagne",
+      "Le Brésil",
+      "La France"
+    ],
+    "correctAnswer": 3,
+    "category": "football",
+    "subcategory": "coupe-du-monde",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "coupe-du-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0002",
+    "conceptId": "concept-sport-bulk-0002",
+    "familyId": "family-sport-bulk-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel joueur argentin a remporté 8 Ballons d'Or et la Coupe du Monde 2022 au Qatar ?",
+    "answers": [
+      "Cristiano Ronaldo",
+      "Kylian Mbappé",
+      "Diego Maradona",
+      "Lionel Messi"
+    ],
+    "correctAnswer": 3,
+    "category": "football",
+    "subcategory": "joueurs",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "joueurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0003",
+    "conceptId": "concept-sport-bulk-0003",
+    "familyId": "family-sport-bulk-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel club espagnol détient le record absolu du plus grand nombre de victoires en Ligue des Champions de l'UEFA (15 titres) ?",
+    "answers": [
+      "L'AC Milan",
+      "Le Real Madrid",
+      "Le FC Barcelone",
+      "Le Bayern Munich"
+    ],
+    "correctAnswer": 1,
+    "category": "football",
+    "subcategory": "clubs",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "clubs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0004",
+    "conceptId": "concept-sport-bulk-0004",
+    "familyId": "family-sport-bulk-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel joueur brésilien de légende est le seul footballeur de l'histoire à avoir remporté trois Coupes du Monde (1958, 1962, 1970) ?",
+    "answers": [
+      "Garrincha",
+      "Pelé",
+      "Ronaldo Nazário",
+      "Zico"
+    ],
+    "correctAnswer": 1,
+    "category": "football",
+    "subcategory": "legendes",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "legendes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

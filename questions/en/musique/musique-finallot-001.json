@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "fin-musique-0001",
+    "conceptId": "concept-fin-musique-0001",
+    "familyId": "family-fin-musique-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Italian Baroque composer composed the famous set of four violin concertos known as 'The Four Seasons'?",
+    "answers": [
+      "Claudio Monteverdi",
+      "Antonio Vivaldi",
+      "Arcangelo Corelli",
+      "Tomaso Albinoni"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "classique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "musique",
+      "classique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Vivaldi, nicknamed the red priest, published The Four Seasons in 1725 in his collection Il cimento dell'armonia e dell'inventione."
+  },
+  {
+    "id": "fin-musique-0002",
+    "conceptId": "concept-fin-musique-0002",
+    "familyId": "family-fin-musique-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Austrian child prodigy composer, born in Salzburg, composed 'The Magic Flute' and 'Don Giovanni'?",
+    "answers": [
+      "Franz Schubert",
+      "Joseph Haydn",
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "classique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "musique",
+      "classique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mozart composed more than 600 musical works before his untimely death at the age of 35 in 1791."
+  },
+  {
+    "id": "fin-musique-0003",
+    "conceptId": "concept-fin-musique-0003",
+    "familyId": "family-fin-musique-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which German composer who became deaf composed Symphony No. 9, whose finale uses 'Ode to Joy'?",
+    "answers": [
+      "Johannes Brahms",
+      "Robert Schumann",
+      "Ludwig van Beethoven",
+      "Johann Sebastian Bach"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "classique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "musique",
+      "classique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Beethoven completed his 9th symphony in 1824 when he was completely deaf."
+  },
+  {
+    "id": "fin-musique-0004",
+    "conceptId": "concept-fin-musique-0004",
+    "familyId": "family-fin-musique-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which German Baroque-era master composed 'The Art of Fugue' and the six Brandenburg Concertos?",
+    "answers": [
+      "Heinrich Schütz",
+      "Johann Sebastian Bach",
+      "Georg Philipp Telemann",
+      "Georg Friedrich Haendel"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "classique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "musique",
+      "classique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Johann Sebastian Bach is considered one of the greatest geniuses of counterpoint and in the history of Western music."
+  },
+  {
+    "id": "fin-musique-0005",
+    "conceptId": "concept-fin-musique-0005",
+    "familyId": "family-fin-musique-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Russian composer created the music for the fairy-tale ballets 'Swan Lake', 'The Nutcracker', and 'The Sleeping Beauty'?",
+    "answers": [
+      "Igor Stravinsky",
+      "Sergei Prokofiev",
+      "Pyotr Ilyich Tchaikovsky",
+      "Nikolai Rimsky-Korsakov"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "classique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "classique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Tchaikovsky gave romantic ballet some of its most moving and universally performed scores."
+  },
+  {
+    "id": "fin-musique-0006",
+    "conceptId": "concept-fin-musique-0006",
+    "familyId": "family-fin-musique-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Polish virtuoso pianist and composer, naturalized French, is the undisputed master of Nocturnes and Mazurkas?",
+    "answers": [
+      "Franz Liszt",
+      "Frédéric Chopin",
+      "Félix Mendelssohn",
+      "Robert Schumann"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "classique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "classique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Chopin devoted almost all of his piano work to elevating romantic expressiveness."
+  },
+  {
+    "id": "fin-musique-0007",
+    "conceptId": "concept-fin-musique-0007",
+    "familyId": "family-fin-musique-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French composer created the famous 'Boléro' in 1928, based on a continuous orchestral crescendo?",
+    "answers": [
+      "Gabriel Fauré",
+      "Claude Debussy",
+      "Camille Saint-Saëns",
+      "Maurice Ravel"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "classique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "classique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Ravel's Boléro is one of the most performed symphonic works in the world, built on a theme repeated in a loop."
+  },
+  {
+    "id": "fin-musique-0008",
+    "conceptId": "concept-fin-musique-0008",
+    "familyId": "family-fin-musique-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French Impressionist composer composed 'Clair de lune' and 'La Mer'?",
+    "answers": [
+      "Claude Debussy",
+      "Maurice Ravel",
+      "Hector Berlioz",
+      "Erik Satie"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "classique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "classique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Debussy revolutionized harmony and musical timbres at the turn of the 20th century."
+  },
+  {
+    "id": "fin-musique-0009",
+    "conceptId": "concept-fin-musique-0009",
+    "familyId": "family-fin-musique-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which famous opera composed by Georges Bizet features a seductive gypsy woman in the city of Seville?",
+    "answers": [
+      "Carmen",
+      "La Traviata",
+      "Madame Butterfly",
+      "Tosca"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "opera",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "opera"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Premiered in 1875 at the Opéra-Comique in Paris, Carmen is one of the most performed operas on world stages."
+  },
+  {
+    "id": "fin-musique-0010",
+    "conceptId": "concept-fin-musique-0010",
+    "familyId": "family-fin-musique-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Italian composer created many famous 19th-century operas including 'Rigoletto', 'La Traviata', and 'Aida'?",
+    "answers": [
+      "Giacomo Puccini",
+      "Gioachino Rossini",
+      "Gaetano Donizetti",
+      "Giuseppe Verdi"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "opera",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "opera"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Verdi is the dominant figure of Italian romantic opera and a hero of the Risorgimento unification movement."
+  },
+  {
+    "id": "fin-musique-0011",
+    "conceptId": "concept-fin-musique-0011",
+    "familyId": "family-fin-musique-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Italian composer composed 'La Bohème', 'Tosca', and 'Turandot', which contains the virtuosic aria 'Nessun dorma'?",
+    "answers": [
+      "Vincenzo Bellini",
+      "Gioachino Rossini",
+      "Giuseppe Verdi",
+      "Giacomo Puccini"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "opera",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "opera"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Puccini is the master of Italian verismo opera at the turn of the 19th and 20th centuries."
+  },
+  {
+    "id": "fin-musique-0012",
+    "conceptId": "concept-fin-musique-0012",
+    "familyId": "family-fin-musique-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which German composer imagined the concept of the total work of art ('Gesamtkunstwerk') and the tetralogy of 'The Ring of the Nibelung'?",
+    "answers": [
+      "Johannes Brahms",
+      "Gustav Mahler",
+      "Richard Strauss",
+      "Richard Wagner"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "opera",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "musique",
+      "opera"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Wagner revolutionized the conception of opera with his Bayreuth Festival and the systematic use of the leitmotif."
+  },
+  {
+    "id": "fin-musique-0013",
+    "conceptId": "concept-fin-musique-0013",
+    "familyId": "family-fin-musique-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "To which family of musical instruments do the transverse flute, the clarinet, and the oboe belong?",
+    "answers": [
+      "Woodwinds",
+      "Strings",
+      "Percussion",
+      "Brass"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Although the modern flute is often made of metal, it historically belongs to the woodwind family due to its sound production method."
+  },
+  {
+    "id": "fin-musique-0014",
+    "conceptId": "concept-fin-musique-0014",
+    "familyId": "family-fin-musique-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "To which family of orchestral instruments do the trumpet, trombone, and tuba belong?",
+    "answers": [
+      "Strings",
+      "Woodwinds",
+      "Brass",
+      "Keyboards"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Brass instruments produce sound through the vibration of the player's lips against a metal mouthpiece."
+  },
+  {
+    "id": "fin-musique-0015",
+    "conceptId": "concept-fin-musique-0015",
+    "familyId": "family-fin-musique-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the smallest and highest-pitched instrument in the bowed string family of the symphony orchestra?",
+    "answers": [
+      "The cello",
+      "The double bass",
+      "The violin",
+      "The viola"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The violin has four strings tuned in fifths (G, D, A, E) and plays in the highest register of the strings."
+  },
+  {
+    "id": "fin-musique-0016",
+    "conceptId": "concept-fin-musique-0016",
+    "familyId": "family-fin-musique-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which instrument of the bowed string family is played while seated, holding the body of the instrument between the knees?",
+    "answers": [
+      "The violin",
+      "The cello",
+      "The viola",
+      "The harp"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The cello rests on the ground via a retractable metal spike and produces a warm, deep tone."
+  },
+  {
+    "id": "fin-musique-0017",
+    "conceptId": "concept-fin-musique-0017",
+    "familyId": "family-fin-musique-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the largest and deepest of all instruments in the bowed string family?",
+    "answers": [
+      "The double bass",
+      "The tuba",
+      "The bassoon",
+      "The cello"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The double bass measures nearly two meters tall and plays the fundamental low register of the orchestra or jazz."
+  },
+  {
+    "id": "fin-musique-0018",
+    "conceptId": "concept-fin-musique-0018",
+    "familyId": "family-fin-musique-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What large mechanical wind instrument is equipped with thousands of pipes, multiple keyboards, and a pedalboard in churches?",
+    "answers": [
+      "The grand piano",
+      "The harpsichord",
+      "The harmonium",
+      "The organ"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The pipe organ is often nicknamed the 'king of instruments' due to its monumental sonic scope."
+  },
+  {
+    "id": "fin-musique-0019",
+    "conceptId": "concept-fin-musique-0019",
+    "familyId": "family-fin-musique-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which plucked-string keyboard instrument with keys and jacks was the king of keyboard instruments in the Baroque era before the piano?",
+    "answers": [
+      "The harpsichord",
+      "The clavichord",
+      "The organ",
+      "The spinet"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "In the harpsichord, strings are plucked by quills carried by jacks, unlike the hammers of the piano."
+  },
+  {
+    "id": "fin-musique-0020",
+    "conceptId": "concept-fin-musique-0020",
+    "familyId": "family-fin-musique-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many white and black keys are traditionally found on the keyboard of a modern full piano?",
+    "answers": [
+      "92",
+      "84",
+      "76",
+      "88"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "A standard piano has 88 keys: 52 white diatonic keys and 36 black chromatic keys."
+  },
+  {
+    "id": "fin-musique-0021",
+    "conceptId": "concept-fin-musique-0021",
+    "familyId": "family-fin-musique-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which percussion instrument of the symphony orchestra consists of large copper kettles covered with a skin and tunable with pedals?",
+    "answers": [
+      "The gong",
+      "The bass drum",
+      "The timpani",
+      "The cymbals"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0021",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Timpani are percussion instruments with a definite pitch, allowing precise notes to be played in the key of the work."
+  },
+  {
+    "id": "fin-musique-0022",
+    "conceptId": "concept-fin-musique-0022",
+    "familyId": "family-fin-musique-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which traditional Scottish musical instrument is equipped with a leather bag and pipes called drones and a chanter?",
+    "answers": [
+      "The biniou",
+      "The bombard",
+      "The accordion",
+      "The bagpipe"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0022",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The bagpipe (Great Highland Bagpipe) is the iconic national instrument of the Scottish Highlands."
+  },
+  {
+    "id": "fin-musique-0023",
+    "conceptId": "concept-fin-musique-0023",
+    "familyId": "family-fin-musique-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many strings does a standard classical acoustic or electric guitar typically have?",
+    "answers": [
+      "7",
+      "6",
+      "5",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0023",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The standard guitar has six strings tuned to E, A, D, G, B, E."
+  },
+  {
+    "id": "fin-musique-0024",
+    "conceptId": "concept-fin-musique-0024",
+    "familyId": "family-fin-musique-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which bowed string instrument with a short neck and no frets is the legendary specialty of luthier Antonio Stradivari?",
+    "answers": [
+      "The mandolin",
+      "The guitar",
+      "The violin",
+      "The lute"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0024",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Antonio Stradivari (Stradivarius) made the most prized and expensive violins in the world in Cremona during the 17th-18th centuries."
+  },
+  {
+    "id": "fin-musique-0025",
+    "conceptId": "concept-fin-musique-0025",
+    "familyId": "family-fin-musique-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which metal wind instrument invented by Adolphe Sax in Belgium in the 19th century became central to jazz music?",
+    "answers": [
+      "The trumpet",
+      "The saxophone",
+      "The clarinet",
+      "The trombone"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "instruments",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "musique",
+      "instruments"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-musique-0025",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Adolphe Sax patented the saxophone in 1846, combining a clarinet's single-reed mouthpiece with a conical brass body."
+  }
+]

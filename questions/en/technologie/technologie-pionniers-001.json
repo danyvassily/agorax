@@ -1,0 +1,392 @@
+[
+  {
+    "id": "tech-pionniers-0001",
+    "conceptId": "concept-tech-pionniers-0001",
+    "familyId": "family-tech-pionniers-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which British mathematician broke the code of the German Enigma encryption machine during World War II?",
+    "answers": [
+      "Claude Shannon",
+      "Charles Babbage",
+      "Alan Turing",
+      "John von Neumann"
+    ],
+    "correctAnswer": 2,
+    "category": "technologie",
+    "subcategory": "pionniers",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "pionniers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-pionniers-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-pionniers-0002",
+    "conceptId": "concept-tech-pionniers-0002",
+    "familyId": "family-tech-pionniers-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which 19th-century British mathematician is considered the very first programmer in history?",
+    "answers": [
+      "Katherine Johnson",
+      "Grace Hopper",
+      "Margaret Hamilton",
+      "Ada Lovelace"
+    ],
+    "correctAnswer": 3,
+    "category": "technologie",
+    "subcategory": "pionniers",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "pionniers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-pionniers-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-pionniers-0003",
+    "conceptId": "concept-tech-pionniers-0003",
+    "familyId": "family-tech-pionniers-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which British computer scientist invented the World Wide Web (WWW) at CERN in 1989?",
+    "answers": [
+      "Vint Cerf",
+      "Tim Berners-Lee",
+      "Robert Kahn",
+      "Marc Andreessen"
+    ],
+    "correctAnswer": 1,
+    "category": "technologie",
+    "subcategory": "pionniers",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "pionniers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-pionniers-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-pionniers-0004",
+    "conceptId": "concept-tech-pionniers-0004",
+    "familyId": "family-tech-pionniers-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Finnish-American computer scientist created the free operating system kernel Linux in 1991?",
+    "answers": [
+      "Richard Stallman",
+      "Linus Torvalds",
+      "Ken Thompson",
+      "Dennis Ritchie"
+    ],
+    "correctAnswer": 1,
+    "category": "technologie",
+    "subcategory": "pionniers",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "pionniers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-pionniers-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-pionniers-0005",
+    "conceptId": "concept-tech-pionniers-0005",
+    "familyId": "family-tech-pionniers-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which visionary co-founder of Apple introduced the very first iPhone in January 2007?",
+    "answers": [
+      "Tim Cook",
+      "Steve Jobs",
+      "Bill Gates",
+      "Steve Wozniak"
+    ],
+    "correctAnswer": 1,
+    "category": "technologie",
+    "subcategory": "pionniers",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "pionniers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-pionniers-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-pionniers-0006",
+    "conceptId": "concept-tech-pionniers-0006",
+    "familyId": "family-tech-pionniers-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which programming language created by Brendan Eich in May 1995 has become the universal language of web browsers?",
+    "answers": [
+      "PHP",
+      "JavaScript",
+      "Python",
+      "Java"
+    ],
+    "correctAnswer": 1,
+    "category": "technologie",
+    "subcategory": "pionniers",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "pionniers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-pionniers-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-pionniers-0007",
+    "conceptId": "concept-tech-pionniers-0007",
+    "familyId": "family-tech-pionniers-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which telecommunications company laid the first transatlantic telegraph cable connecting Europe and America in 1858?",
+    "answers": [
+      "AT&T",
+      "The Atlantic Telegraph Company",
+      "Bell Telephone",
+      "Western Union"
+    ],
+    "correctAnswer": 1,
+    "category": "technologie",
+    "subcategory": "pionniers",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "pionniers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-pionniers-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-pionniers-0008",
+    "conceptId": "concept-tech-pionniers-0008",
+    "familyId": "family-tech-pionniers-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which physicist invented the first electric battery by stacking copper and zinc discs in 1800?",
+    "answers": [
+      "Michael Faraday",
+      "André-Marie Ampère",
+      "Luigi Galvani",
+      "Alessandro Volta"
+    ],
+    "correctAnswer": 3,
+    "category": "technologie",
+    "subcategory": "pionniers",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "pionniers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-pionniers-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-pionniers-0009",
+    "conceptId": "concept-tech-pionniers-0009",
+    "familyId": "family-tech-pionniers-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which German engineer patented the first automobile vehicle with an internal combustion engine (the Tricycle) in 1886?",
+    "answers": [
+      "Wilhelm Maybach",
+      "Gottlieb Daimler",
+      "Carl Benz",
+      "Rudolf Diesel"
+    ],
+    "correctAnswer": 2,
+    "category": "technologie",
+    "subcategory": "pionniers",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "pionniers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-pionniers-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tech-pionniers-0010",
+    "conceptId": "concept-tech-pionniers-0010",
+    "familyId": "family-tech-pionniers-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American space agency was created in 1958 in response to the Soviet launch of Sputnik 1?",
+    "answers": [
+      "DARPA",
+      "CIA",
+      "ESA",
+      "NASA"
+    ],
+    "correctAnswer": 3,
+    "category": "technologie",
+    "subcategory": "pionniers",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "pionniers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "tech-pionniers-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

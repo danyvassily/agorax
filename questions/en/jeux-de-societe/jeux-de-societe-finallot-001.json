@@ -1,0 +1,602 @@
+[
+  {
+    "id": "fin-jeux-de-societe-0001",
+    "conceptId": "concept-fin-jeux-de-societe-0001",
+    "familyId": "family-fin-jeux-de-societe-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many squares does the traditional chessboard have?",
+    "answers": [
+      "64 squares",
+      "50 squares",
+      "100 squares",
+      "81 squares"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The chessboard, or checkerboard, consists of 64 squares alternating between light and dark (8x8)."
+  },
+  {
+    "id": "fin-jeux-de-societe-0002",
+    "conceptId": "concept-fin-jeux-de-societe-0002",
+    "familyId": "family-fin-jeux-de-societe-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which piece in the game of chess can jump over other pieces while moving in an 'L' shape?",
+    "answers": [
+      "The queen",
+      "The knight",
+      "The rook",
+      "The bishop"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The knight is the only chess piece capable of jumping over friendly or enemy pieces."
+  },
+  {
+    "id": "fin-jeux-de-societe-0003",
+    "conceptId": "concept-fin-jeux-de-societe-0003",
+    "familyId": "family-fin-jeux-de-societe-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many pieces does each player have at the start of a game of international draughts?",
+    "answers": [
+      "24 pieces",
+      "20 pieces",
+      "12 pieces",
+      "16 pieces"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "On a 100-square board (international French game), each player has 20 pieces."
+  },
+  {
+    "id": "fin-jeux-de-societe-0004",
+    "conceptId": "concept-fin-jeux-de-societe-0004",
+    "familyId": "family-fin-jeux-de-societe-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which board game by Klaus Teuber do players colonize an island by collecting clay, wood, wheat, ore, and wool?",
+    "answers": [
+      "Ticket to Ride",
+      "Carcassonne",
+      "The Settlers of Catan",
+      "Pandemic"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Catan, created in 1995 in Germany, inaugurated the golden age of modern resource management board games."
+  },
+  {
+    "id": "fin-jeux-de-societe-0005",
+    "conceptId": "concept-fin-jeux-de-societe-0005",
+    "familyId": "family-fin-jeux-de-societe-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which tile-laying game by Klaus-Jürgen Wrede do players build medieval roads, cities, and monasteries?",
+    "answers": [
+      "Dixit",
+      "Carcassonne",
+      "Splendor",
+      "7 Wonders"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Carcassonne won the prestigious Spiel des Jahres in 2001 and popularized the figurines called 'meeples'."
+  },
+  {
+    "id": "fin-jeux-de-societe-0006",
+    "conceptId": "concept-fin-jeux-de-societe-0006",
+    "familyId": "family-fin-jeux-de-societe-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which Alan R. Moon railway board game do players connect cities with colored train lines?",
+    "answers": [
+      "Ticket to Ride",
+      "Colt Express",
+      "Steam",
+      "Les Aventuriers du Rail"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Ticket to Ride is a modern classic that won the Spiel des Jahres award in 2004."
+  },
+  {
+    "id": "fin-jeux-de-societe-0007",
+    "conceptId": "concept-fin-jeux-de-societe-0007",
+    "familyId": "family-fin-jeux-de-societe-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which cooperative card game by Matt Leacock do players play as specialists fighting against 4 global epidemics?",
+    "answers": [
+      "Ghost Stories",
+      "Arkham Horror",
+      "Pandemic",
+      "The Island"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Pandemic is the archetype of cooperative games where players win or lose together against the board."
+  },
+  {
+    "id": "fin-jeux-de-societe-0008",
+    "conceptId": "concept-fin-jeux-de-societe-0008",
+    "familyId": "family-fin-jeux-de-societe-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which award-winning party and poetic deduction game by Jean-Louis Roubira must players guess an illustrated card based on an enigmatic phrase?",
+    "answers": [
+      "Concept",
+      "Codenames",
+      "Dixit",
+      "Mysterium"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Dixit uses large dreamlike cards drawn by Marie Cardouat and won the Spiel des Jahres in 2010."
+  },
+  {
+    "id": "fin-jeux-de-societe-0009",
+    "conceptId": "concept-fin-jeux-de-societe-0009",
+    "familyId": "family-fin-jeux-de-societe-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which word association game by Vlaada Chvátil must two spymasters get their teammates to guess words using a one-word clue and a number?",
+    "answers": [
+      "Just One",
+      "Codenames",
+      "Decrypto",
+      "Time's Up!"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Codenames was awarded the Spiel des Jahres in 2016 and has sold millions of copies."
+  },
+  {
+    "id": "fin-jeux-de-societe-0010",
+    "conceptId": "concept-fin-jeux-de-societe-0010",
+    "familyId": "family-fin-jeux-de-societe-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which draft game by Antoine Bauza do players develop an ancient city around a grandiose monument over 3 ages?",
+    "answers": [
+      "Terraforming Mars",
+      "Tapestry",
+      "7 Wonders",
+      "Civilization"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "7 Wonders is one of the most award-winning games in the world, famous for its smooth simultaneous card drafting mechanism."
+  },
+  {
+    "id": "fin-jeux-de-societe-0011",
+    "conceptId": "concept-fin-jeux-de-societe-0011",
+    "familyId": "family-fin-jeux-de-societe-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the classic French Monopoly game, which is the most expensive street or avenue on the board?",
+    "answers": [
+      "Champs-Élysées",
+      "Boulevard Saint-Michel",
+      "Avenue Foch",
+      "Rue de la Paix"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Rue de la Paix (dark blue) costs 400 francs/euros to purchase and imposes the highest rents in the game."
+  },
+  {
+    "id": "fin-jeux-de-societe-0012",
+    "conceptId": "concept-fin-jeux-de-societe-0012",
+    "familyId": "family-fin-jeux-de-societe-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many letters does a player have on their rack at the start of their turn in the game of Scrabble?",
+    "answers": [
+      "7 letters",
+      "8 letters",
+      "6 letters",
+      "9 letters"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Each player keeps 7 letters on their rack, and playing a word using all 7 letters is called a 'Scrabble'."
+  },
+  {
+    "id": "fin-jeux-de-societe-0013",
+    "conceptId": "concept-fin-jeux-de-societe-0013",
+    "familyId": "family-fin-jeux-de-societe-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the detective game Cluedo, which male suspect dressed in yellow holds a military rank?",
+    "answers": [
+      "Colonel Mustard",
+      "Professor Plum",
+      "Reverend Green",
+      "Doctor Orchid"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Colonel Mustard is one of the six traditional suspects in the Tudor mansion."
+  },
+  {
+    "id": "fin-jeux-de-societe-0014",
+    "conceptId": "concept-fin-jeux-de-societe-0014",
+    "familyId": "family-fin-jeux-de-societe-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many dominoes make up a standard 'double-six' domino set?",
+    "answers": [
+      "36 dominoes",
+      "32 dominoes",
+      "28 dominoes",
+      "24 dominoes"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "A standard double-six domino set contains 28 rectangular tiles numbered from 0 (blank) to 6."
+  },
+  {
+    "id": "fin-jeux-de-societe-0015",
+    "conceptId": "concept-fin-jeux-de-societe-0015",
+    "familyId": "family-fin-jeux-de-societe-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which fast-paced card game of observation and reflexes must players spot the unique common symbol between two round cards?",
+    "answers": [
+      "Taco Cat",
+      "Dobble",
+      "Bazar Bizarre",
+      "Jungle Speed"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Dobble is based on a geometric theorem ensuring that there is always one and only one symbol shared between two cards."
+  }
+]

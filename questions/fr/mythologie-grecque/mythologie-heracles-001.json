@@ -1,0 +1,506 @@
+[
+  {
+    "id": "myth-heracles-0001",
+    "conceptId": "concept-myth-heracles-0001",
+    "familyId": "family-myth-heracles-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie grecque, que doit capturer, vaincre ou accomplir Héraclès lors de le tout premier de ses douze travaux ?",
+    "answers": [
+      "Le Lion de Némée",
+      "L'Hydre de Lerne",
+      "Le Taureau crétois",
+      "Le Sanglier d'Érymanthe"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héraclès affronte Le Lion de Némée lors de le tout premier de ses douze travaux."
+  },
+  {
+    "id": "myth-heracles-0002",
+    "conceptId": "concept-myth-heracles-0002",
+    "familyId": "family-myth-heracles-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie grecque, que doit capturer, vaincre ou accomplir Héraclès lors de le monstre aquatique à têtes multiples qui repoussaient en double ?",
+    "answers": [
+      "Le Basilic",
+      "L'Hydre de Lerne",
+      "La Gorgone",
+      "La Chimère"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héraclès affronte L'Hydre de Lerne lors de le monstre aquatique à têtes multiples qui repoussaient en double."
+  },
+  {
+    "id": "myth-heracles-0003",
+    "conceptId": "concept-myth-heracles-0003",
+    "familyId": "family-myth-heracles-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie grecque, que doit capturer, vaincre ou accomplir Héraclès lors de l'animal aux sabots d'airain et cornes d'or consacré à la déesse Artémis ?",
+    "answers": [
+      "Le Sanglier d'Érymanthe",
+      "La Biche de Cérynie",
+      "Le Taureau de Marathon",
+      "La Truie de Crommyon"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héraclès affronte La Biche de Cérynie lors de l'animal aux sabots d'airain et cornes d'or consacré à la déesse Artémis."
+  },
+  {
+    "id": "myth-heracles-0004",
+    "conceptId": "concept-myth-heracles-0004",
+    "familyId": "family-myth-heracles-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie grecque, que doit capturer, vaincre ou accomplir Héraclès lors de la bête féroce du mont Érymanthe capturée vivante dans la neige ?",
+    "answers": [
+      "Le Sanglier d'Érymanthe",
+      "Le Loup du Cithéron",
+      "Le Lion de Némée",
+      "Le Taureau crétois"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héraclès affronte Le Sanglier d'Érymanthe lors de la bête féroce du mont Érymanthe capturée vivante dans la neige."
+  },
+  {
+    "id": "myth-heracles-0005",
+    "conceptId": "concept-myth-heracles-0005",
+    "familyId": "family-myth-heracles-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie grecque, que doit capturer, vaincre ou accomplir Héraclès lors de les étables géantes nettoyées en un jour en détournant deux fleuves ?",
+    "answers": [
+      "Le Labyrinthe de Dédale",
+      "Le Palais de Minos",
+      "Les Écuries d'Augias",
+      "Les Caves de Priam"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héraclès affronte Les Écuries d'Augias lors de les étables géantes nettoyées en un jour en détournant deux fleuves."
+  },
+  {
+    "id": "myth-heracles-0006",
+    "conceptId": "concept-myth-heracles-0006",
+    "familyId": "family-myth-heracles-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie grecque, que doit capturer, vaincre ou accomplir Héraclès lors de les volatiles carnassiers aux ailes d'airain qui infestaient les marais d'Arcadie ?",
+    "answers": [
+      "Les Harpies",
+      "Les Stryges",
+      "Les Sirènes",
+      "Les Oiseaux du lac Stymphale"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héraclès affronte Les Oiseaux du lac Stymphale lors de les volatiles carnassiers aux ailes d'airain qui infestaient les marais d'Arcadie."
+  },
+  {
+    "id": "myth-heracles-0007",
+    "conceptId": "concept-myth-heracles-0007",
+    "familyId": "family-myth-heracles-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie grecque, que doit capturer, vaincre ou accomplir Héraclès lors de la créature furieuse que le roi Minos avait refusé de sacrifier à Poséidon ?",
+    "answers": [
+      "Le Minotaure",
+      "Le Lion de Némée",
+      "Le Cheval de Troie",
+      "Le Taureau crétois"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héraclès affronte Le Taureau crétois lors de la créature furieuse que le roi Minos avait refusé de sacrifier à Poséidon."
+  },
+  {
+    "id": "myth-heracles-0008",
+    "conceptId": "concept-myth-heracles-0008",
+    "familyId": "family-myth-heracles-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie grecque, que doit capturer, vaincre ou accomplir Héraclès lors de les féroces équidés carnivores nourris de chair humaine par le roi de Thrace ?",
+    "answers": [
+      "Les Chevaux d'Apollon",
+      "Les Pégases du Caucase",
+      "Les Centaures du Pélion",
+      "Les Juments de Diomède"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héraclès affronte Les Juments de Diomède lors de les féroces équidés carnivores nourris de chair humaine par le roi de Thrace."
+  },
+  {
+    "id": "myth-heracles-0009",
+    "conceptId": "concept-myth-heracles-0009",
+    "familyId": "family-myth-heracles-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie grecque, que doit capturer, vaincre ou accomplir Héraclès lors de l'ornement convoité porté par la reine des Amazones ?",
+    "answers": [
+      "Le Bouclier d'Antiope",
+      "Le Diadème d'Hélène",
+      "Le Voile d'Ariane",
+      "La Ceinture d'Hippolyte"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héraclès affronte La Ceinture d'Hippolyte lors de l'ornement convoité porté par la reine des Amazones."
+  },
+  {
+    "id": "myth-heracles-0010",
+    "conceptId": "concept-myth-heracles-0010",
+    "familyId": "family-myth-heracles-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie grecque, que doit capturer, vaincre ou accomplir Héraclès lors de le gigantesque troupeau de bœufs rouges gardé par un géant à trois corps ?",
+    "answers": [
+      "Les Moutons de Polyphème",
+      "Les Génisses d'Argos",
+      "Les Bœufs de Géryon",
+      "Les Taureaux du Soleil"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héraclès affronte Les Bœufs de Géryon lors de le gigantesque troupeau de bœufs rouges gardé par un géant à trois corps."
+  },
+  {
+    "id": "myth-heracles-0011",
+    "conceptId": "concept-myth-heracles-0011",
+    "familyId": "family-myth-heracles-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie grecque, que doit capturer, vaincre ou accomplir Héraclès lors de les fruits précieux de l'immortalité gardés par le dragon Ladon ?",
+    "answers": [
+      "Les Figues du Tartare",
+      "Les Grenades de Perséphone",
+      "La Toison d'or",
+      "Les Pommes d'or des Hespérides"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héraclès affronte Les Pommes d'or des Hespérides lors de les fruits précieux de l'immortalité gardés par le dragon Ladon."
+  },
+  {
+    "id": "myth-heracles-0012",
+    "conceptId": "concept-myth-heracles-0012",
+    "familyId": "family-myth-heracles-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie grecque, que doit capturer, vaincre ou accomplir Héraclès lors de le gardien canin tricéphale des Enfers ramené à la surface sans arme ?",
+    "answers": [
+      "Anubis",
+      "Le Sphinx",
+      "Le chien Cerbère",
+      "Orthos"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héraclès affronte Le chien Cerbère lors de le gardien canin tricéphale des Enfers ramené à la surface sans arme."
+  }
+]

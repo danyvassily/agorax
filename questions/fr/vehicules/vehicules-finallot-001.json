@@ -1,0 +1,602 @@
+[
+  {
+    "id": "fin-vehicules-0001",
+    "conceptId": "concept-fin-vehicules-0001",
+    "familyId": "family-fin-vehicules-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel constructeur automobile allemand basé à Wolfsburg a produit la célèbre 'Coccinelle' (Käfer) ?",
+    "answers": [
+      "Opel",
+      "BMW",
+      "Mercedes-Benz",
+      "Volkswagen"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "automobile"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Coccinelle de Volkswagen s'est écoulée à plus de 21 millions d'exemplaires à travers le monde."
+  },
+  {
+    "id": "fin-vehicules-0002",
+    "conceptId": "concept-fin-vehicules-0002",
+    "familyId": "family-fin-vehicules-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle entreprise américaine fondée par Henry Ford a révolutionné l'industrie avec la chaîne de montage de la Ford T en 1908 ?",
+    "answers": [
+      "Chrysler",
+      "Ford Motor Company",
+      "General Motors",
+      "Chevrolet"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "automobile"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le fordisme et le travail à la chaîne ont permis de fabriquer la première automobile de masse abordable."
+  },
+  {
+    "id": "fin-vehicules-0003",
+    "conceptId": "concept-fin-vehicules-0003",
+    "familyId": "family-fin-vehicules-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel avion de ligne supersonique franco-britannique reliait Paris ou Londres à New York en environ 3 heures et demie jusqu'en 2003 ?",
+    "answers": [
+      "Le Boeing 747",
+      "Le Tupolev Tu-144",
+      "L'Airbus A380",
+      "Le Concorde"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "aviation",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "aviation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Concorde volait à Mach 2 (plus de 2 100 km/h) à 18 000 mètres d'altitude, à la frontière de la stratosphère."
+  },
+  {
+    "id": "fin-vehicules-0004",
+    "conceptId": "concept-fin-vehicules-0004",
+    "familyId": "family-fin-vehicules-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel avion de ligne très gros porteur européen conçu par Airbus est le plus grand avion de transport civil de passagers au monde ?",
+    "answers": [
+      "L'Airbus A380",
+      "L'Airbus A350",
+      "Le Boeing 747",
+      "Le Boeing 777"
+    ],
+    "correctAnswer": 0,
+    "category": "vehicules",
+    "subcategory": "aviation",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "aviation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'A380 est un avion à deux ponts complets pouvant accueillir plus de 500 à 800 passagers selon la configuration."
+  },
+  {
+    "id": "fin-vehicules-0005",
+    "conceptId": "concept-fin-vehicules-0005",
+    "familyId": "family-fin-vehicules-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel avion américain légendaire surnommé la 'Reine des ciels' (Queen of the Skies) a inauguré l'ère des gros-porteurs en 1969 ?",
+    "answers": [
+      "Le Douglas DC-10",
+      "Le Lockheed L-1011",
+      "Le Boeing 747",
+      "Le Boeing 707"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "aviation",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "aviation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Boeing 747 reconnaissable à sa bosse avant a démocratisé les vols long-courriers internationaux."
+  },
+  {
+    "id": "fin-vehicules-0006",
+    "conceptId": "concept-fin-vehicules-0006",
+    "familyId": "family-fin-vehicules-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel train à grande vitesse japonais célèbre est surnommé le 'train balle' (bullet train) pour sa rapidité et son nez aérodynamique ?",
+    "answers": [
+      "L'ICE",
+      "Le TGV",
+      "Le Maglev",
+      "Le Shinkansen"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "ferroviaire",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "ferroviaire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Shinkansen a été inauguré en 1964 pour les JO de Tokyo entre Tokyo et Osaka avec une ponctualité légendaire."
+  },
+  {
+    "id": "fin-vehicules-0007",
+    "conceptId": "concept-fin-vehicules-0007",
+    "familyId": "family-fin-vehicules-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel train à grande vitesse français a battu le record du monde de vitesse sur rail conventionnel à 574,8 km/h en avril 2007 ?",
+    "answers": [
+      "Le TGV",
+      "L'ICE allemand",
+      "L'AVE espagnol",
+      "L'Eurostar"
+    ],
+    "correctAnswer": 0,
+    "category": "vehicules",
+    "subcategory": "ferroviaire",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "ferroviaire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La rame TGV V150 d'Alstom et de la SNCF a atteint 574,8 km/h sur la ligne LGV Est européenne."
+  },
+  {
+    "id": "fin-vehicules-0008",
+    "conceptId": "concept-fin-vehicules-0008",
+    "familyId": "family-fin-vehicules-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel train de luxe historique inauguré en 1883 reliait Paris à Constantinople (Istanbul) à travers l'Europe ?",
+    "answers": [
+      "Le Mistral",
+      "Le Transsibérien",
+      "Le Flèche d'Or",
+      "L'Orient-Express"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "ferroviaire",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "ferroviaire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Orient-Express est le symbole du romantisme ferroviaire et le cadre du célèbre roman policier d'Agatha Christie."
+  },
+  {
+    "id": "fin-vehicules-0009",
+    "conceptId": "concept-fin-vehicules-0009",
+    "familyId": "family-fin-vehicules-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel paquebot transatlantique britannique réputé 'insubmersible' a sombré lors de son voyage inaugural en avril 1912 après avoir heurté un iceberg ?",
+    "answers": [
+      "L'Olympic",
+      "Le Britannic",
+      "Le Titanic",
+      "Le Lusitania"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "maritime",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "maritime"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le naufrage du RMS Titanic a causé la mort de plus de 1 500 personnes dans les eaux glacées de l'Atlantique Nord."
+  },
+  {
+    "id": "fin-vehicules-0010",
+    "conceptId": "concept-fin-vehicules-0010",
+    "familyId": "family-fin-vehicules-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Comment appelle-t-on le sous-marin d'exploration scientifique piloté par le cinéaste James Cameron qui est descendu au fond de la fosse des Mariannes en 2012 ?",
+    "answers": [
+      "Le Shinkai 6500",
+      "Le Deepsea Challenger",
+      "L'Alvin",
+      "Le Nautile"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "maritime",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "maritime"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "James Cameron a atteint le Challenger Deep à près de 11 000 mètres sous les mers à bord du Deepsea Challenger."
+  },
+  {
+    "id": "fin-vehicules-0011",
+    "conceptId": "concept-fin-vehicules-0011",
+    "familyId": "family-fin-vehicules-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle fusée lunaire géante haute de 110 mètres a transporté les astronautes des missions Apollo de la NASA vers la Lune ?",
+    "answers": [
+      "Atlas V",
+      "Titan II",
+      "Saturn V",
+      "Falcon Heavy"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "spatial",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "spatial"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Conçue sous la direction de Wernher von Braun, Saturn V reste l'une des fusées les plus puissantes jamais construites."
+  },
+  {
+    "id": "fin-vehicules-0012",
+    "conceptId": "concept-fin-vehicules-0012",
+    "familyId": "family-fin-vehicules-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle entreprise aérospatiale fondée par Elon Musk a mis au point la fusée réutilisable Falcon 9 ?",
+    "answers": [
+      "SpaceX",
+      "Virgin Galactic",
+      "Rocket Lab",
+      "Blue Origin"
+    ],
+    "correctAnswer": 0,
+    "category": "vehicules",
+    "subcategory": "spatial",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "spatial"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "SpaceX a révolutionné l'accès à l'espace en réussissant à faire atterrir à la verticale le premier étage de ses fusées."
+  },
+  {
+    "id": "fin-vehicules-0013",
+    "conceptId": "concept-fin-vehicules-0013",
+    "familyId": "family-fin-vehicules-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel constructeur italien au cheval cabré basé à Maranello est la plus ancienne écurie de Formule 1 ?",
+    "answers": [
+      "Lamborghini",
+      "Scuderia Ferrari",
+      "Alfa Romeo",
+      "Maserati"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "automobile"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Fondée par Enzo Ferrari, la Scuderia Ferrari est l'équipe la plus victorieuse et titrée de l'histoire de la F1."
+  },
+  {
+    "id": "fin-vehicules-0014",
+    "conceptId": "concept-fin-vehicules-0014",
+    "familyId": "family-fin-vehicules-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel célèbre scooter italien à carrosserie galbée a été lancé par la firme Piaggio en 1946 ?",
+    "answers": [
+      "La Vespa",
+      "La Solex",
+      "L'Italjet",
+      "La Lambretta"
+    ],
+    "correctAnswer": 0,
+    "category": "vehicules",
+    "subcategory": "deux-roues",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "deux-roues"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Vespa (qui signifie 'guêpe' en italien) est devenue une icône du design et du mode de vie méditerranéen."
+  },
+  {
+    "id": "fin-vehicules-0015",
+    "conceptId": "concept-fin-vehicules-0015",
+    "familyId": "family-fin-vehicules-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle voiture française emblématique de Citroën produite de 1948 à 1990 était surnommée la 'Deuche' ?",
+    "answers": [
+      "La Traction Avant",
+      "La 2 CV",
+      "L'Ami 6",
+      "La DS"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "automobile"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Citroën 2 CV a été conçue comme une voiture économique capable de traverser un champ labouré avec un panier d'œufs sans les casser."
+  }
+]

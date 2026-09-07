@@ -1,0 +1,990 @@
+[
+  {
+    "id": "greek-trojan-war-cause-helen",
+    "conceptId": "trojan-war-cause-helen",
+    "familyId": "trojan-war-causes",
+    "type": "mcq",
+    "question": "What event triggers the Trojan War?",
+    "answers": [
+      "The abduction of Helen by Paris",
+      "The theft of the Golden Fleece",
+      "The death of Patroclus",
+      "The kidnapping of Persephone"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q207360",
+      "url": "https://www.wikidata.org/wiki/Q207360",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-helen-wife-of-menelaus",
+    "conceptId": "helen-wife-of-menelaus",
+    "familyId": "trojan-war-causes",
+    "type": "mcq",
+    "question": "Who is Helen's lawful husband before her abduction?",
+    "answers": [
+      "Achilles",
+      "Menelaus",
+      "Agamemnon",
+      "Paris"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q131596",
+      "url": "https://www.wikidata.org/wiki/Q131596",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-judgment-of-paris-apple",
+    "conceptId": "judgment-of-paris-apple",
+    "familyId": "trojan-war-causes",
+    "type": "mcq",
+    "question": "Which goddess does Paris designate as the most beautiful, incurring the hatred of the other two?",
+    "answers": [
+      "Athena",
+      "Artemis",
+      "Aphrodite",
+      "Hera"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q130543",
+      "url": "https://www.wikidata.org/wiki/Q130543",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-trojan-war-ten-years",
+    "conceptId": "trojan-war-ten-years",
+    "familyId": "trojan-war",
+    "type": "mcq",
+    "question": "How long does the Trojan War last?",
+    "answers": [
+      "Three years",
+      "One year",
+      "Twenty years",
+      "Ten years"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q207360",
+      "url": "https://www.wikidata.org/wiki/Q207360",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-trojan-horse-odysseus-idea",
+    "conceptId": "trojan-horse-odysseus-idea",
+    "familyId": "trojan-horse",
+    "type": "mcq",
+    "question": "Who came up with the trick of the Trojan horse?",
+    "answers": [
+      "Ulysses",
+      "Achilles",
+      "Agamemnon",
+      "Nestor"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47220",
+      "url": "https://www.wikidata.org/wiki/Q47220",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-iliad-author-homer",
+    "conceptId": "iliad-author-homer",
+    "familyId": "homer-iliad",
+    "type": "mcq",
+    "question": "Who is the author of the Iliad?",
+    "answers": [
+      "Sophocles",
+      "Homer",
+      "Hesiod",
+      "Aeschylus"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q6691",
+      "url": "https://www.wikidata.org/wiki/Q6691",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-iliad-theme-achilles-wrath",
+    "conceptId": "iliad-theme-achilles-wrath",
+    "familyId": "homer-iliad",
+    "type": "mcq",
+    "question": "What is the main subject of the Iliad?",
+    "answers": [
+      "The return of Ulysses",
+      "The death of Heracles",
+      "The wrath of Achilles",
+      "The founding of Rome"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q8275",
+      "url": "https://www.wikidata.org/wiki/Q8275",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-odyssey-odysseus-return",
+    "conceptId": "odyssey-odysseus-return",
+    "familyId": "homer-odyssey",
+    "type": "mcq",
+    "question": "Which poem by Homer tells the story of Ulysses' return to Ithaca?",
+    "answers": [
+      "The Iliad",
+      "The Theogony",
+      "Works and Days",
+      "The Odyssey"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q40175",
+      "url": "https://www.wikidata.org/wiki/Q40175",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-hector-prince-of-troy",
+    "conceptId": "hector-prince-of-troy",
+    "familyId": "trojan-war-heroes",
+    "type": "mcq",
+    "question": "Which Trojan prince is Achilles' main adversary?",
+    "answers": [
+      "Hector",
+      "Paris",
+      "Aeneas",
+      "Priam"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q44252",
+      "url": "https://www.wikidata.org/wiki/Q44252",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-achilles-drags-hector-body",
+    "conceptId": "achilles-drags-hector-body",
+    "familyId": "trojan-war-events",
+    "type": "mcq",
+    "question": "What does Achilles do with Hector's body after killing him?",
+    "answers": [
+      "He throws it into the sea",
+      "He drags it behind his chariot around Troy",
+      "He burns it",
+      "He returns it to Priam immediately"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41746",
+      "url": "https://www.wikidata.org/wiki/Q41746",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-achilles-killed-by-paris",
+    "conceptId": "achilles-killed-by-paris",
+    "familyId": "trojan-war-events",
+    "type": "mcq",
+    "question": "Who kills Achilles during the Trojan War?",
+    "answers": [
+      "Aeneas",
+      "Sarpedon",
+      "Paris",
+      "Hector"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41746",
+      "url": "https://www.wikidata.org/wiki/Q41746",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-agamemnon-commander-of-greeks",
+    "conceptId": "agamemnon-commander-of-greeks",
+    "familyId": "trojan-war-heroes",
+    "type": "mcq",
+    "question": "Which king commands the Greek expedition against Troy?",
+    "answers": [
+      "Menelaus",
+      "Odysseus",
+      "Nestor",
+      "Agamemnon"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q128176",
+      "url": "https://www.wikidata.org/wiki/Q128176",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-odysseus-king-of-ithaca",
+    "conceptId": "odysseus-king-of-ithaca",
+    "familyId": "trojan-war-heroes",
+    "type": "mcq",
+    "question": "Of which island is Ulysses the king?",
+    "answers": [
+      "Ithaca",
+      "Cyprus",
+      "Crete",
+      "Rhodes"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47220",
+      "url": "https://www.wikidata.org/wiki/Q47220",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-odysseus-tricks-polyphemus-nobody",
+    "conceptId": "odysseus-tricks-polyphemus-nobody",
+    "familyId": "odyssey-episodes",
+    "type": "mcq",
+    "question": "What name does Ulysses give to the Cyclops Polyphemus to deceive him?",
+    "answers": [
+      "Stranger",
+      "Nobody",
+      "Zeus",
+      "Hero"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47220",
+      "url": "https://www.wikidata.org/wiki/Q47220",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-circe-turns-men-into-pigs",
+    "conceptId": "circe-turns-men-into-pigs",
+    "familyId": "odyssey-episodes",
+    "type": "mcq",
+    "question": "What does the sorceress Circe do to Ulysses' companions?",
+    "answers": [
+      "She puts them to sleep for a hundred years",
+      "She blinds them",
+      "She turns them into pigs",
+      "She turns them into stone"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47220",
+      "url": "https://www.wikidata.org/wiki/Q47220",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-odysseus-resists-sirens-mast",
+    "conceptId": "odysseus-resists-sirens-mast",
+    "familyId": "odyssey-episodes",
+    "type": "mcq",
+    "question": "How does Ulysses resist the Sirens' song?",
+    "answers": [
+      "He plugs his ears with wax",
+      "He sings louder than them",
+      "He turns back",
+      "He has himself tied to the ship's mast"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47220",
+      "url": "https://www.wikidata.org/wiki/Q47220",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-scylla-and-charybdis",
+    "conceptId": "scylla-and-charybdis",
+    "familyId": "odyssey-episodes",
+    "type": "mcq",
+    "question": "Which two monsters guard the strait that Ulysses must cross?",
+    "answers": [
+      "Charybdis and Scylla",
+      "Circe and Calypso",
+      "Polyphemus and Antiphates",
+      "Aeolus and Boreas"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47220",
+      "url": "https://www.wikidata.org/wiki/Q47220",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-calypso-detains-odysseus",
+    "conceptId": "calypso-detains-odysseus",
+    "familyId": "odyssey-episodes",
+    "type": "mcq",
+    "question": "Which nymph keeps Odysseus on her island for seven years?",
+    "answers": [
+      "Penelope",
+      "Calypso",
+      "Circe",
+      "Nausicaa"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47220",
+      "url": "https://www.wikidata.org/wiki/Q47220",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-penelope-weaves-and-unweaves",
+    "conceptId": "penelope-weaves-and-unweaves",
+    "familyId": "odyssey-episodes",
+    "type": "mcq",
+    "question": "What trick does Penelope use to fend off her suitors?",
+    "answers": [
+      "She flees the palace",
+      "She makes the suitors swear to wait",
+      "She weaves a shroud that she unravels every night",
+      "She pretends to be ill"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47220",
+      "url": "https://www.wikidata.org/wiki/Q47220",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-telemachus-son-of-odysseus",
+    "conceptId": "telemachus-son-of-odysseus",
+    "familyId": "odyssey-family",
+    "type": "mcq",
+    "question": "Who is Telemachus?",
+    "answers": [
+      "Helen's brother",
+      "Achilles' charioteer",
+      "The seer of the Greeks",
+      "The son of Ulysses and Penelope"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47220",
+      "url": "https://www.wikidata.org/wiki/Q47220",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-aeneas-flees-troy",
+    "conceptId": "aeneas-flees-troy",
+    "familyId": "aeneas",
+    "type": "mcq",
+    "question": "Which Trojan hero fled burning Troy with his father Anchises, becoming the legendary ancestor of the Romans?",
+    "answers": [
+      "Aeneas",
+      "Hector",
+      "Paris",
+      "Antenor"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47047",
+      "url": "https://www.wikidata.org/wiki/Q47047",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-troy-location-asia-minor",
+    "conceptId": "troy-location-asia-minor",
+    "familyId": "trojan-war-geography",
+    "type": "mcq",
+    "question": "Where was the city of Troy located?",
+    "answers": [
+      "In the Peloponnese",
+      "In Asia Minor, on the coast of present-day Turkey",
+      "In Italy",
+      "In Crete"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q207360",
+      "url": "https://www.wikidata.org/wiki/Q207360",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-homer-blind-aoidos",
+    "conceptId": "homer-blind-aoidos",
+    "familyId": "homer-identity",
+    "type": "mcq",
+    "question": "According to tradition, what particularity did Homer have?",
+    "answers": [
+      "He was mute",
+      "He was lame",
+      "He was blind",
+      "He was deaf"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q6691",
+      "url": "https://www.wikidata.org/wiki/Q6691",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-iphigenia-sacrificed-by-agamemnon",
+    "conceptId": "iphigenia-sacrificed-by-agamemnon",
+    "familyId": "trojan-war-events",
+    "type": "mcq",
+    "question": "Whom does Agamemnon sacrifice to obtain favorable winds?",
+    "answers": [
+      "His son Orestes",
+      "His nephew Achilles",
+      "A priestess of Artemis",
+      "His daughter Iphigenia"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q128176",
+      "url": "https://www.wikidata.org/wiki/Q128176",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.91,
+    "version": 1
+  },
+  {
+    "id": "greek-patroclus-killed-by-hector",
+    "conceptId": "patroclus-killed-by-hector",
+    "familyId": "trojan-war-heroes",
+    "type": "mcq",
+    "question": "Which friend of Achilles is killed by Hector, causing Achilles to return to battle?",
+    "answers": [
+      "Patroclus",
+      "Antilochus",
+      "Ajax",
+      "Diomedes"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41746",
+      "url": "https://www.wikidata.org/wiki/Q41746",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-odyssey-ten-years-return",
+    "conceptId": "odyssey-ten-years-return",
+    "familyId": "homer-odyssey",
+    "type": "mcq",
+    "question": "How long does Ulysses' return journey to Ithaca last?",
+    "answers": [
+      "Twenty years",
+      "Ten years",
+      "One year",
+      "Five years"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "guerre-de-troie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "troie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q40175",
+      "url": "https://www.wikidata.org/wiki/Q40175",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "geo-continents-0001",
+    "conceptId": "concept-geo-continents-0001",
+    "familyId": "family-geo-continents-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : France ?",
+    "answers": [
+      "Afrique",
+      "Asie",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "france"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "France est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0002",
+    "conceptId": "concept-geo-continents-0002",
+    "familyId": "family-geo-continents-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Espagne ?",
+    "answers": [
+      "Amérique du Sud",
+      "Asie",
+      "Océanie",
+      "Europe"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "espagne"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Espagne est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0003",
+    "conceptId": "concept-geo-continents-0003",
+    "familyId": "family-geo-continents-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Italie ?",
+    "answers": [
+      "Afrique",
+      "Europe",
+      "Océanie",
+      "Amérique du Nord"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "italie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Italie est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0004",
+    "conceptId": "concept-geo-continents-0004",
+    "familyId": "family-geo-continents-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Allemagne ?",
+    "answers": [
+      "Europe",
+      "Amérique du Nord",
+      "Asie",
+      "Afrique"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "allemagne"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Allemagne est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0005",
+    "conceptId": "concept-geo-continents-0005",
+    "familyId": "family-geo-continents-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Portugal ?",
+    "answers": [
+      "Europe",
+      "Océanie",
+      "Afrique",
+      "Amérique du Sud"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "portugal"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Portugal est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0006",
+    "conceptId": "concept-geo-continents-0006",
+    "familyId": "family-geo-continents-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Belgique ?",
+    "answers": [
+      "Amérique du Sud",
+      "Europe",
+      "Amérique du Nord",
+      "Afrique"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "belgique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Belgique est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0007",
+    "conceptId": "concept-geo-continents-0007",
+    "familyId": "family-geo-continents-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Suisse ?",
+    "answers": [
+      "Europe",
+      "Asie",
+      "Afrique",
+      "Océanie"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "suisse"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Suisse est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0008",
+    "conceptId": "concept-geo-continents-0008",
+    "familyId": "family-geo-continents-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Grèce ?",
+    "answers": [
+      "Amérique du Sud",
+      "Amérique du Nord",
+      "Asie",
+      "Europe"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "grèce"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Grèce est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0009",
+    "conceptId": "concept-geo-continents-0009",
+    "familyId": "family-geo-continents-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Suède ?",
+    "answers": [
+      "Amérique du Sud",
+      "Europe",
+      "Afrique",
+      "Asie"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "suède"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Suède est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0010",
+    "conceptId": "concept-geo-continents-0010",
+    "familyId": "family-geo-continents-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Norvège ?",
+    "answers": [
+      "Europe",
+      "Amérique du Nord",
+      "Afrique",
+      "Amérique du Sud"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "norvège"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Norvège est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0011",
+    "conceptId": "concept-geo-continents-0011",
+    "familyId": "family-geo-continents-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Finlande ?",
+    "answers": [
+      "Asie",
+      "Amérique du Nord",
+      "Europe",
+      "Afrique"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "finlande"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Finlande est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0012",
+    "conceptId": "concept-geo-continents-0012",
+    "familyId": "family-geo-continents-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Danemark ?",
+    "answers": [
+      "Europe",
+      "Amérique du Sud",
+      "Afrique",
+      "Amérique du Nord"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "danemark"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Danemark est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0013",
+    "conceptId": "concept-geo-continents-0013",
+    "familyId": "family-geo-continents-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Pologne ?",
+    "answers": [
+      "Asie",
+      "Amérique du Nord",
+      "Europe",
+      "Océanie"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "pologne"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Pologne est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0014",
+    "conceptId": "concept-geo-continents-0014",
+    "familyId": "family-geo-continents-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Autriche ?",
+    "answers": [
+      "Asie",
+      "Europe",
+      "Amérique du Nord",
+      "Amérique du Sud"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "autriche"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Autriche est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0015",
+    "conceptId": "concept-geo-continents-0015",
+    "familyId": "family-geo-continents-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Irlande ?",
+    "answers": [
+      "Asie",
+      "Afrique",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "irlande"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Irlande est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0016",
+    "conceptId": "concept-geo-continents-0016",
+    "familyId": "family-geo-continents-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Islande ?",
+    "answers": [
+      "Afrique",
+      "Asie",
+      "Amérique du Sud",
+      "Europe"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "islande"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Islande est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0017",
+    "conceptId": "concept-geo-continents-0017",
+    "familyId": "family-geo-continents-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Pays Bas ?",
+    "answers": [
+      "Europe",
+      "Amérique du Nord",
+      "Amérique du Sud",
+      "Asie"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "pays bas"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Pays Bas est situé sur le continent Europe."
+  },
+  {
+    "id": "geo-continents-0018",
+    "conceptId": "concept-geo-continents-0018",
+    "familyId": "family-geo-continents-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Brésil ?",
+    "answers": [
+      "Asie",
+      "Afrique",
+      "Océanie",
+      "Amérique du Sud"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "brésil"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Brésil est situé sur le continent Amérique du Sud."
+  },
+  {
+    "id": "geo-continents-0019",
+    "conceptId": "concept-geo-continents-0019",
+    "familyId": "family-geo-continents-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Argentine ?",
+    "answers": [
+      "Asie",
+      "Europe",
+      "Amérique du Nord",
+      "Amérique du Sud"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "argentine"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Argentine est situé sur le continent Amérique du Sud."
+  },
+  {
+    "id": "geo-continents-0020",
+    "conceptId": "concept-geo-continents-0020",
+    "familyId": "family-geo-continents-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Chili ?",
+    "answers": [
+      "Océanie",
+      "Europe",
+      "Amérique du Sud",
+      "Asie"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "chili"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Chili est situé sur le continent Amérique du Sud."
+  },
+  {
+    "id": "geo-continents-0021",
+    "conceptId": "concept-geo-continents-0021",
+    "familyId": "family-geo-continents-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Colombie ?",
+    "answers": [
+      "Asie",
+      "Amérique du Sud",
+      "Amérique du Nord",
+      "Europe"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "colombie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0021",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Colombie est situé sur le continent Amérique du Sud."
+  },
+  {
+    "id": "geo-continents-0022",
+    "conceptId": "concept-geo-continents-0022",
+    "familyId": "family-geo-continents-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Pérou ?",
+    "answers": [
+      "Asie",
+      "Amérique du Sud",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "pérou"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0022",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Pérou est situé sur le continent Amérique du Sud."
+  },
+  {
+    "id": "geo-continents-0023",
+    "conceptId": "concept-geo-continents-0023",
+    "familyId": "family-geo-continents-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Bolivie ?",
+    "answers": [
+      "Océanie",
+      "Amérique du Sud",
+      "Afrique",
+      "Asie"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "bolivie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0023",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Bolivie est situé sur le continent Amérique du Sud."
+  },
+  {
+    "id": "geo-continents-0024",
+    "conceptId": "concept-geo-continents-0024",
+    "familyId": "family-geo-continents-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Uruguay ?",
+    "answers": [
+      "Amérique du Sud",
+      "Amérique du Nord",
+      "Asie",
+      "Europe"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "uruguay"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0024",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Uruguay est situé sur le continent Amérique du Sud."
+  },
+  {
+    "id": "geo-continents-0025",
+    "conceptId": "concept-geo-continents-0025",
+    "familyId": "family-geo-continents-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Équateur ?",
+    "answers": [
+      "Asie",
+      "Amérique du Sud",
+      "Afrique",
+      "Amérique du Nord"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "équateur"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0025",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Équateur est situé sur le continent Amérique du Sud."
+  },
+  {
+    "id": "geo-continents-0026",
+    "conceptId": "concept-geo-continents-0026",
+    "familyId": "family-geo-continents-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Venezuela ?",
+    "answers": [
+      "Europe",
+      "Amérique du Sud",
+      "Océanie",
+      "Afrique"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "venezuela"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0026",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Venezuela est situé sur le continent Amérique du Sud."
+  },
+  {
+    "id": "geo-continents-0027",
+    "conceptId": "concept-geo-continents-0027",
+    "familyId": "family-geo-continents-0014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Canada ?",
+    "answers": [
+      "Asie",
+      "Amérique du Nord",
+      "Océanie",
+      "Amérique du Sud"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "canada"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0027",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Canada est situé sur le continent Amérique du Nord."
+  },
+  {
+    "id": "geo-continents-0028",
+    "conceptId": "concept-geo-continents-0028",
+    "familyId": "family-geo-continents-0014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Mexique ?",
+    "answers": [
+      "Amérique du Nord",
+      "Afrique",
+      "Europe",
+      "Asie"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "mexique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0028",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mexique est situé sur le continent Amérique du Nord."
+  },
+  {
+    "id": "geo-continents-0029",
+    "conceptId": "concept-geo-continents-0029",
+    "familyId": "family-geo-continents-0015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Cuba ?",
+    "answers": [
+      "Amérique du Nord",
+      "Amérique du Sud",
+      "Afrique",
+      "Europe"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "cuba"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0029",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Cuba est situé sur le continent Amérique du Nord."
+  },
+  {
+    "id": "geo-continents-0030",
+    "conceptId": "concept-geo-continents-0030",
+    "familyId": "family-geo-continents-0015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Japon ?",
+    "answers": [
+      "Europe",
+      "Océanie",
+      "Amérique du Nord",
+      "Asie"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "japon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0030",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Japon est situé sur le continent Asie."
+  },
+  {
+    "id": "geo-continents-0031",
+    "conceptId": "concept-geo-continents-0031",
+    "familyId": "family-geo-continents-0016",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Chine ?",
+    "answers": [
+      "Afrique",
+      "Asie",
+      "Europe",
+      "Amérique du Sud"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "chine"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0031",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Chine est situé sur le continent Asie."
+  },
+  {
+    "id": "geo-continents-0032",
+    "conceptId": "concept-geo-continents-0032",
+    "familyId": "family-geo-continents-0016",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Inde ?",
+    "answers": [
+      "Amérique du Nord",
+      "Océanie",
+      "Afrique",
+      "Asie"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "inde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0032",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Inde est situé sur le continent Asie."
+  },
+  {
+    "id": "geo-continents-0033",
+    "conceptId": "concept-geo-continents-0033",
+    "familyId": "family-geo-continents-0017",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Corée du Sud ?",
+    "answers": [
+      "Amérique du Nord",
+      "Asie",
+      "Afrique",
+      "Europe"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "corée du sud"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0033",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Corée du Sud est situé sur le continent Asie."
+  },
+  {
+    "id": "geo-continents-0034",
+    "conceptId": "concept-geo-continents-0034",
+    "familyId": "family-geo-continents-0017",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Thaïlande ?",
+    "answers": [
+      "Asie",
+      "Océanie",
+      "Amérique du Sud",
+      "Afrique"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "thaïlande"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0034",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Thaïlande est situé sur le continent Asie."
+  },
+  {
+    "id": "geo-continents-0035",
+    "conceptId": "concept-geo-continents-0035",
+    "familyId": "family-geo-continents-0018",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Vietnam ?",
+    "answers": [
+      "Amérique du Sud",
+      "Asie",
+      "Afrique",
+      "Océanie"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "vietnam"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0035",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Vietnam est situé sur le continent Asie."
+  },
+  {
+    "id": "geo-continents-0036",
+    "conceptId": "concept-geo-continents-0036",
+    "familyId": "family-geo-continents-0018",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Indonésie ?",
+    "answers": [
+      "Afrique",
+      "Océanie",
+      "Asie",
+      "Europe"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "indonésie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0036",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Indonésie est situé sur le continent Asie."
+  },
+  {
+    "id": "geo-continents-0037",
+    "conceptId": "concept-geo-continents-0037",
+    "familyId": "family-geo-continents-0019",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Philippines ?",
+    "answers": [
+      "Océanie",
+      "Amérique du Sud",
+      "Asie",
+      "Afrique"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "philippines"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0037",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Philippines est situé sur le continent Asie."
+  },
+  {
+    "id": "geo-continents-0038",
+    "conceptId": "concept-geo-continents-0038",
+    "familyId": "family-geo-continents-0019",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Malaisie ?",
+    "answers": [
+      "Océanie",
+      "Afrique",
+      "Asie",
+      "Amérique du Sud"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "malaisie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0038",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Malaisie est situé sur le continent Asie."
+  },
+  {
+    "id": "geo-continents-0039",
+    "conceptId": "concept-geo-continents-0039",
+    "familyId": "family-geo-continents-0020",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Singapour ?",
+    "answers": [
+      "Asie",
+      "Afrique",
+      "Amérique du Nord",
+      "Europe"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "singapour"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0039",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Singapour est situé sur le continent Asie."
+  },
+  {
+    "id": "geo-continents-0040",
+    "conceptId": "concept-geo-continents-0040",
+    "familyId": "family-geo-continents-0020",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Maroc ?",
+    "answers": [
+      "Afrique",
+      "Amérique du Nord",
+      "Europe",
+      "Asie"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "maroc"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0040",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Maroc est situé sur le continent Afrique."
+  },
+  {
+    "id": "geo-continents-0041",
+    "conceptId": "concept-geo-continents-0041",
+    "familyId": "family-geo-continents-0021",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Algérie ?",
+    "answers": [
+      "Europe",
+      "Océanie",
+      "Amérique du Nord",
+      "Afrique"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "algérie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0041",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Algérie est situé sur le continent Afrique."
+  },
+  {
+    "id": "geo-continents-0042",
+    "conceptId": "concept-geo-continents-0042",
+    "familyId": "family-geo-continents-0021",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Tunisie ?",
+    "answers": [
+      "Amérique du Sud",
+      "Afrique",
+      "Europe",
+      "Asie"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "tunisie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0042",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Tunisie est situé sur le continent Afrique."
+  },
+  {
+    "id": "geo-continents-0043",
+    "conceptId": "concept-geo-continents-0043",
+    "familyId": "family-geo-continents-0022",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Égypte ?",
+    "answers": [
+      "Asie",
+      "Europe",
+      "Afrique",
+      "Amérique du Sud"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "égypte"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0043",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Égypte est situé sur le continent Afrique."
+  },
+  {
+    "id": "geo-continents-0044",
+    "conceptId": "concept-geo-continents-0044",
+    "familyId": "family-geo-continents-0022",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Sénégal ?",
+    "answers": [
+      "Océanie",
+      "Amérique du Sud",
+      "Afrique",
+      "Amérique du Nord"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "sénégal"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0044",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Sénégal est situé sur le continent Afrique."
+  },
+  {
+    "id": "geo-continents-0045",
+    "conceptId": "concept-geo-continents-0045",
+    "familyId": "family-geo-continents-0023",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Côte d Ivoire ?",
+    "answers": [
+      "Océanie",
+      "Amérique du Sud",
+      "Afrique",
+      "Amérique du Nord"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "côte d ivoire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0045",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Côte d Ivoire est situé sur le continent Afrique."
+  },
+  {
+    "id": "geo-continents-0046",
+    "conceptId": "concept-geo-continents-0046",
+    "familyId": "family-geo-continents-0023",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Cameroun ?",
+    "answers": [
+      "Asie",
+      "Océanie",
+      "Amérique du Nord",
+      "Afrique"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "cameroun"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0046",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Cameroun est situé sur le continent Afrique."
+  },
+  {
+    "id": "geo-continents-0047",
+    "conceptId": "concept-geo-continents-0047",
+    "familyId": "family-geo-continents-0024",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Nigeria ?",
+    "answers": [
+      "Amérique du Nord",
+      "Océanie",
+      "Asie",
+      "Afrique"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "nigeria"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0047",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Nigeria est situé sur le continent Afrique."
+  },
+  {
+    "id": "geo-continents-0048",
+    "conceptId": "concept-geo-continents-0048",
+    "familyId": "family-geo-continents-0024",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Kenya ?",
+    "answers": [
+      "Afrique",
+      "Amérique du Nord",
+      "Océanie",
+      "Amérique du Sud"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "kenya"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0048",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Kenya est situé sur le continent Afrique."
+  },
+  {
+    "id": "geo-continents-0049",
+    "conceptId": "concept-geo-continents-0049",
+    "familyId": "family-geo-continents-0025",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Tanzanie ?",
+    "answers": [
+      "Afrique",
+      "Asie",
+      "Océanie",
+      "Amérique du Sud"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "tanzanie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0049",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Tanzanie est situé sur le continent Afrique."
+  },
+  {
+    "id": "geo-continents-0050",
+    "conceptId": "concept-geo-continents-0050",
+    "familyId": "family-geo-continents-0025",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel continent se trouve le pays suivant : Madagascar ?",
+    "answers": [
+      "Océanie",
+      "Afrique",
+      "Europe",
+      "Amérique du Nord"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "continents",
+      "madagascar"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0050",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Madagascar est situé sur le continent Afrique."
+  }
+]

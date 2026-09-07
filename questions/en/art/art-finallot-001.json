@@ -1,0 +1,802 @@
+[
+  {
+    "id": "fin-art-0001",
+    "conceptId": "concept-fin-art-0001",
+    "familyId": "family-fin-art-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which famous Parisian museum can one admire Leonardo da Vinci's 'Mona Lisa'?",
+    "answers": [
+      "The Centre Pompidou",
+      "The Musée d'Orsay",
+      "The Louvre Museum",
+      "The Rodin Museum"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "musees",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "art",
+      "musees"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Mona Lisa is displayed in the Salle des États of the Louvre Museum, the most visited museum in the world."
+  },
+  {
+    "id": "fin-art-0002",
+    "conceptId": "concept-fin-art-0002",
+    "familyId": "family-fin-art-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which former Parisian railway station, now renovated, can one admire the masterpieces of the Impressionist painters?",
+    "answers": [
+      "The Musée de l'Orangerie",
+      "The Petit Palais",
+      "The Louvre Museum",
+      "The Musée d'Orsay"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "musees",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "art",
+      "musees"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Musée d'Orsay houses the world's largest collection of Impressionist and Post-Impressionist paintings."
+  },
+  {
+    "id": "fin-art-0003",
+    "conceptId": "concept-fin-art-0003",
+    "familyId": "family-fin-art-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which large museum in Madrid, Spain, can one admire 'Las Meninas' by Diego Velázquez?",
+    "answers": [
+      "The Thyssen-Bornemisza Museum",
+      "El Escorial",
+      "The Prado Museum",
+      "The Reina Sofía Museum"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "musees",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "musees"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Prado Museum houses one of the most exceptional collections of European masters (Goya, Velázquez, El Greco, Bosch)."
+  },
+  {
+    "id": "fin-art-0004",
+    "conceptId": "concept-fin-art-0004",
+    "familyId": "family-fin-art-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which Madrid museum is the monumental anti-fascist canvas 'Guernica', painted by Pablo Picasso in 1937, exhibited?",
+    "answers": [
+      "The Prado Museum",
+      "The Thyssen Museum",
+      "The Royal Palace",
+      "The Reina Sofía Museum"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "musees",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "musees"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Museo Nacional Centro de Arte Reina Sofía is dedicated to Spanish and international modern and contemporary art."
+  },
+  {
+    "id": "fin-art-0005",
+    "conceptId": "concept-fin-art-0005",
+    "familyId": "family-fin-art-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which renowned Florentine gallery can one see Sandro Botticelli's 'The Birth of Venus' and 'Primavera'?",
+    "answers": [
+      "The Bargello Palace",
+      "The Academy Gallery",
+      "The Pitti Palace",
+      "The Uffizi Gallery"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "musees",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "musees"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Uffizi Gallery in Florence is one of the oldest and most prestigious museums of Renaissance art in the world."
+  },
+  {
+    "id": "fin-art-0006",
+    "conceptId": "concept-fin-art-0006",
+    "familyId": "family-fin-art-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which famous museum in Amsterdam can one admire Rembrandt's 'The Night Watch'?",
+    "answers": [
+      "The Stedelijk Museum",
+      "The Anne Frank House",
+      "The Van Gogh Museum",
+      "The Rijksmuseum"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "musees",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "musees"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Rijksmuseum is the national museum of the Netherlands dedicated to fine arts and the Dutch Golden Age."
+  },
+  {
+    "id": "fin-art-0007",
+    "conceptId": "concept-fin-art-0007",
+    "familyId": "family-fin-art-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which New York museum founded in 1870 is often abbreviated by the acronym 'Met' and borders 5th Avenue near Central Park?",
+    "answers": [
+      "The MoMA",
+      "The Metropolitan Museum of Art",
+      "The Guggenheim Museum",
+      "The Whitney Museum"
+    ],
+    "correctAnswer": 1,
+    "category": "art",
+    "subcategory": "musees",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "art",
+      "musees"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Metropolitan Museum of Art is the largest art museum in the United States."
+  },
+  {
+    "id": "fin-art-0008",
+    "conceptId": "concept-fin-art-0008",
+    "familyId": "family-fin-art-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which New York modern art museum is famous for its collection of paintings such as Van Gogh's 'The Starry Night'?",
+    "answers": [
+      "The New Museum",
+      "The Guggenheim",
+      "The Met",
+      "The MoMA"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "musees",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "musees"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Museum of Modern Art (MoMA) in Manhattan is one of the most influential modern art museums in the world."
+  },
+  {
+    "id": "fin-art-0009",
+    "conceptId": "concept-fin-art-0009",
+    "familyId": "family-fin-art-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which spectacular art museum designed by Frank Gehry and located in Bilbao can one contemplate contemporary art sculptures?",
+    "answers": [
+      "The Reina Sofía Museum",
+      "The Miró Foundation",
+      "The Guggenheim Museum",
+      "The MACBA Museum"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "musees",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "musees"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Guggenheim Museum Bilbao revitalized the Basque city thanks to its postmodern architecture of titanium and glass."
+  },
+  {
+    "id": "fin-art-0010",
+    "conceptId": "concept-fin-art-0010",
+    "familyId": "family-fin-art-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which immense art and history museum located on the banks of the Neva in Saint Petersburg can one admire the collections of the tsars?",
+    "answers": [
+      "The Tretyakov Gallery",
+      "The Hermitage",
+      "The Winter Palace",
+      "The Pushkin Museum"
+    ],
+    "correctAnswer": 1,
+    "category": "art",
+    "subcategory": "musees",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "art",
+      "musees"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Hermitage Museum notably occupies the former Winter Palace of the Russian tsars and houses more than 3 million works of art."
+  },
+  {
+    "id": "fin-art-0011",
+    "conceptId": "concept-fin-art-0011",
+    "familyId": "family-fin-art-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which pictorial movement born in France in the 1870s is characterized by small fragmented touches capturing ephemeral light?",
+    "answers": [
+      "Romanticism",
+      "Fauvism",
+      "Cubism",
+      "Impressionism"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "mouvements",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "mouvements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Impressionism got its name from Claude Monet's painting 'Impression, Sunrise' presented in 1874."
+  },
+  {
+    "id": "fin-art-0012",
+    "conceptId": "concept-fin-art-0012",
+    "familyId": "family-fin-art-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which artistic movement initiated by Georges Braque and Pablo Picasso around 1907 deconstructs objects into multifaceted geometric shapes?",
+    "answers": [
+      "Cubism",
+      "Fauvism",
+      "Surrealism",
+      "Futurism"
+    ],
+    "correctAnswer": 0,
+    "category": "art",
+    "subcategory": "mouvements",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "mouvements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Cubism broke with classical perspective by depicting objects from multiple angles at once."
+  },
+  {
+    "id": "fin-art-0013",
+    "conceptId": "concept-fin-art-0013",
+    "familyId": "family-fin-art-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which artistic and literary movement founded by André Breton in 1924 explored the unconscious, dreams, and psychic automatism?",
+    "answers": [
+      "Surrealism",
+      "Realism",
+      "Dadaism",
+      "Expressionism"
+    ],
+    "correctAnswer": 0,
+    "category": "art",
+    "subcategory": "mouvements",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "art",
+      "mouvements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "André Breton's Manifesto of Surrealism paved the way for painters such as Salvador Dalí, René Magritte, and Max Ernst."
+  },
+  {
+    "id": "fin-art-0014",
+    "conceptId": "concept-fin-art-0014",
+    "familyId": "family-fin-art-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Spanish painter is famous for his melting watches in the surrealist painting 'The Persistence of Memory' (1931)?",
+    "answers": [
+      "Salvador Dalí",
+      "Antoni Tàpies",
+      "Joan Miró",
+      "Pablo Picasso"
+    ],
+    "correctAnswer": 0,
+    "category": "art",
+    "subcategory": "peinture",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "peinture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Salvador Dalí painted this famous canvas illustrating the concept of the relativity of time and unconscious memory."
+  },
+  {
+    "id": "fin-art-0015",
+    "conceptId": "concept-fin-art-0015",
+    "familyId": "family-fin-art-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Belgian surrealist painter is the author of the famous canvas 'The Treachery of Images' bearing the caption 'This is not a pipe'?",
+    "answers": [
+      "Paul Delvaux",
+      "René Magritte",
+      "James Ensor",
+      "Félicien Rops"
+    ],
+    "correctAnswer": 1,
+    "category": "art",
+    "subcategory": "peinture",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "peinture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "René Magritte questioned the relationship between words, objects, and their pictorial representation."
+  },
+  {
+    "id": "fin-art-0016",
+    "conceptId": "concept-fin-art-0016",
+    "familyId": "family-fin-art-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which tormented Dutch painter painted 'The Starry Night', 'Sunflowers', and 'The Bedroom' in Arles?",
+    "answers": [
+      "Vincent van Gogh",
+      "Paul Gauguin",
+      "Paul Cézanne",
+      "Henri de Toulouse-Lautrec"
+    ],
+    "correctAnswer": 0,
+    "category": "art",
+    "subcategory": "peinture",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "art",
+      "peinture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Vincent van Gogh is a tutelary figure of modern art with more than 2,000 works created in a decade."
+  },
+  {
+    "id": "fin-art-0017",
+    "conceptId": "concept-fin-art-0017",
+    "familyId": "family-fin-art-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French sculptor created bronze and marble masterpieces such as 'The Thinker', 'The Kiss', and 'The Burghers of Calais'?",
+    "answers": [
+      "Aristide Maillol",
+      "Antoine Bourdelle",
+      "Auguste Rodin",
+      "Camille Claudel"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "sculpture",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "sculpture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Auguste Rodin is considered the father of modern Western sculpture."
+  },
+  {
+    "id": "fin-art-0018",
+    "conceptId": "concept-fin-art-0018",
+    "familyId": "family-fin-art-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Norwegian painter painted in 1893 the famous expressionist masterpiece 'The Scream' depicting an anguished figure under a red sky?",
+    "answers": [
+      "Wassily Kandinsky",
+      "Edvard Munch",
+      "Egon Schiele",
+      "Gustav Klimt"
+    ],
+    "correctAnswer": 1,
+    "category": "art",
+    "subcategory": "peinture",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "peinture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Scream by Edvard Munch is one of the most universally recognized artistic images of modern human anguish."
+  },
+  {
+    "id": "fin-art-0019",
+    "conceptId": "concept-fin-art-0019",
+    "familyId": "family-fin-art-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Austrian painter of the Vienna Secession is the author of the sumptuous painting covered with gold leaves entitled 'The Kiss' (1907-1908)?",
+    "answers": [
+      "Oskar Kokoschka",
+      "Otto Wagner",
+      "Gustav Klimt",
+      "Egon Schiele"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "peinture",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "art",
+      "peinture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Gustav Klimt created 'The Kiss' during his golden period, now exhibited at the Belvedere Palace in Vienna."
+  },
+  {
+    "id": "fin-art-0020",
+    "conceptId": "concept-fin-art-0020",
+    "familyId": "family-fin-art-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American artist is the pope of Pop Art, famous for his silkscreen prints of Coca-Cola bottles and Campbell's soup cans?",
+    "answers": [
+      "Jean-Michel Basquiat",
+      "Roy Lichtenstein",
+      "Andy Warhol",
+      "Keith Haring"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "pop-art",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "art",
+      "pop-art"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-art-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Andy Warhol explored mass culture and consumer society from his New York studio, The Factory."
+  }
+]

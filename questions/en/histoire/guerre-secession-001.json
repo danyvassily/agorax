@@ -1,0 +1,610 @@
+[
+  {
+    "id": "war-cs-debut-1861",
+    "conceptId": "cs-debut-1861",
+    "familyId": "civil-war-start",
+    "type": "mcq",
+    "question": "In what year did the American Civil War begin?",
+    "answers": [
+      "1861",
+      "1859",
+      "1865",
+      "1870"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q8676",
+      "url": "https://www.wikidata.org/wiki/Q8676",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-cs-sud",
+    "conceptId": "cs-sud",
+    "familyId": "civil-war-start",
+    "type": "mcq",
+    "question": "Which American states seceded in 1860-1861?",
+    "answers": [
+      "The Western states",
+      "The New England states",
+      "The Northern states",
+      "The Southern states"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q8676",
+      "url": "https://www.wikidata.org/wiki/Q8676",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%89tats_du_Sud"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-cs-confederation",
+    "conceptId": "cs-confederation",
+    "familyId": "civil-war-start",
+    "type": "mcq",
+    "question": "What was the official name of the confederation of Southern states?",
+    "answers": [
+      "The American Federation",
+      "The North American Union",
+      "The Confederate States of America",
+      "The United States of America"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q81931",
+      "url": "https://www.wikidata.org/wiki/Q81931",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-cs-davis",
+    "conceptId": "cs-davis",
+    "familyId": "civil-war-leaders",
+    "type": "mcq",
+    "question": "Who was the first and only president of the Confederate States?",
+    "answers": [
+      "Ulysses Grant",
+      "Jefferson Davis",
+      "Abraham Lincoln",
+      "Robert E. Lee"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q162269",
+      "url": "https://www.wikidata.org/wiki/Q162269",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Jefferson_Davis"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-cs-lincoln",
+    "conceptId": "cs-lincoln",
+    "familyId": "civil-war-leaders",
+    "type": "mcq",
+    "question": "Which American president led the Union during the Civil War?",
+    "answers": [
+      "Abraham Lincoln",
+      "Andrew Johnson",
+      "James Buchanan",
+      "Theodore Roosevelt"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q91",
+      "url": "https://www.wikidata.org/wiki/Q91",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-cs-gettysburg",
+    "conceptId": "cs-gettysburg",
+    "familyId": "civil-war-battles",
+    "type": "mcq",
+    "question": "Which battle of July 1863, in Pennsylvania, marked the turning point of the war?",
+    "answers": [
+      "Antietam",
+      "Bull Run",
+      "Shiloh",
+      "Gettysburg"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q33132",
+      "url": "https://www.wikidata.org/wiki/Q33132",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Gettysburg"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-cs-lee",
+    "conceptId": "cs-lee",
+    "familyId": "civil-war-leaders",
+    "type": "mcq",
+    "question": "Which general commanded the Confederate Army of Northern Virginia?",
+    "answers": [
+      "J. E. B. Stuart",
+      "Braxton Bragg",
+      "Robert E. Lee",
+      "Stonewall Jackson"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q165557",
+      "url": "https://www.wikidata.org/wiki/Q165557",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-cs-antietam",
+    "conceptId": "cs-antietam",
+    "familyId": "civil-war-battles",
+    "type": "mcq",
+    "question": "Which September 1862 battle, the bloodiest single day, allowed Lincoln to proclaim emancipation?",
+    "answers": [
+      "Fredericksburg",
+      "Antietam",
+      "Gettysburg",
+      "Bull Run"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q719252",
+      "url": "https://www.wikidata.org/wiki/Q719252",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Antietam"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-cs-discours",
+    "conceptId": "cs-discours",
+    "familyId": "civil-war-battles",
+    "type": "mcq",
+    "question": "Which famous speech did Lincoln deliver in November 1863?",
+    "answers": [
+      "The Gettysburg Address",
+      "The Inaugural Address",
+      "The Philadelphia Address",
+      "The Emancipation Proclamation"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q33132",
+      "url": "https://www.wikidata.org/wiki/Q33132",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-cs-grant",
+    "conceptId": "cs-grant",
+    "familyId": "civil-war-end",
+    "type": "mcq",
+    "question": "Which Union general received Lee's surrender at Appomattox?",
+    "answers": [
+      "George McClellan",
+      "George Meade",
+      "Philip Sheridan",
+      "Ulysses S. Grant"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q34836",
+      "url": "https://www.wikidata.org/wiki/Q34836",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Ulysses_S._Grant"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-cs-appomattox-annee",
+    "conceptId": "cs-appomattox-annee",
+    "familyId": "civil-war-end",
+    "type": "mcq",
+    "question": "In what year did Robert E. Lee surrender at Appomattox?",
+    "answers": [
+      "1864",
+      "1866",
+      "1865",
+      "1863"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q165557",
+      "url": "https://www.wikidata.org/wiki/Q165557",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-cs-sherman",
+    "conceptId": "cs-sherman",
+    "familyId": "civil-war-end",
+    "type": "mcq",
+    "question": "Which Union general led the famous 'March to the Sea' through Georgia?",
+    "answers": [
+      "Joseph Hooker",
+      "William Tecumseh Sherman",
+      "Ulysses Grant",
+      "George McClellan"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q188936",
+      "url": "https://www.wikidata.org/wiki/Q188936",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/William_Tecumseh_Sherman"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-cs-lincoln-mort",
+    "conceptId": "cs-lincoln-mort",
+    "familyId": "civil-war-end",
+    "type": "mcq",
+    "question": "In what year was Abraham Lincoln assassinated?",
+    "answers": [
+      "1865",
+      "1863",
+      "1864",
+      "1869"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q91",
+      "url": "https://www.wikidata.org/wiki/Q91",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-cs-ford",
+    "conceptId": "cs-ford",
+    "familyId": "civil-war-end",
+    "type": "mcq",
+    "question": "Where was Abraham Lincoln assassinated on April 14, 1865?",
+    "answers": [
+      "At the White House",
+      "At the Capitol",
+      "At Gettysburg",
+      "At Ford's Theatre"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q180914",
+      "url": "https://www.wikidata.org/wiki/Q180914",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Au_th%C3%A9%C3%A2tre_Ford"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-cs-booth",
+    "conceptId": "cs-booth",
+    "familyId": "civil-war-end",
+    "type": "mcq",
+    "question": "Who assassinated Abraham Lincoln?",
+    "answers": [
+      "John Hinckley",
+      "Leon Czolgosz",
+      "John Wilkes Booth",
+      "Lee Harvey Oswald"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q180914",
+      "url": "https://www.wikidata.org/wiki/Q180914",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-cs-13e",
+    "conceptId": "cs-13e",
+    "familyId": "civil-war-legacy",
+    "type": "mcq",
+    "question": "Which amendment to the U.S. Constitution abolished slavery?",
+    "answers": [
+      "The 12th Amendment",
+      "The 13th Amendment",
+      "The 14th Amendment",
+      "The 15th Amendment"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "guerre-secession",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-secession"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q175613",
+      "url": "https://www.wikidata.org/wiki/Q175613",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/13e_amendement"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  }
+]

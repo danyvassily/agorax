@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "tv-breaking-bad-walter",
+    "conceptId": "walter-white-heisenberg",
+    "familyId": "breaking-bad",
+    "type": "mcq",
+    "question": "In Breaking Bad, what code name does professor Walter White adopt?",
+    "answers": [
+      "Heisenberg",
+      "Fring",
+      "Saul",
+      "Gus"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-breaking-bad-actor",
+    "conceptId": "bryan-cranston-walter",
+    "familyId": "breaking-bad",
+    "type": "mcq",
+    "question": "Which actor plays Walter White in Breaking Bad?",
+    "answers": [
+      "Aaron Paul",
+      "Bob Odenkirk",
+      "Kevin Spacey",
+      "Bryan Cranston"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "acteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "Wikipedia: Bryan Cranston joue Walter White"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-got-targaryen",
+    "conceptId": "house-targaryen",
+    "familyId": "game-of-thrones",
+    "type": "mcq",
+    "question": "In Game of Thrones, to which house does Daenerys belong?",
+    "answers": [
+      "Lannister",
+      "Baratheon",
+      "Targaryen",
+      "Stark"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "univers",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "univers",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-got-valar",
+    "conceptId": "valar-morghulis",
+    "familyId": "game-of-thrones",
+    "type": "mcq",
+    "question": "What phrase in High Valyrian does Arya Stark repeat before falling asleep in Game of Thrones?",
+    "answers": [
+      "Hodor",
+      "Valar morghulis",
+      "Valar dohaeris",
+      "Dracarys"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "univers",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "univers",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "Wikipedia: Valar morghulis, phrase-clé de GoT"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-friends-coffeehouse",
+    "conceptId": "central-perk",
+    "familyId": "friends",
+    "type": "mcq",
+    "question": "What is the name of the coffee shop where the friends meet in Friends?",
+    "answers": [
+      "Central Perk",
+      "The Lounge",
+      "Java Joe's",
+      "Café Gustave"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "univers",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "univers",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-friends-city",
+    "conceptId": "friends-new-york",
+    "familyId": "friends",
+    "type": "mcq",
+    "question": "In which city does Friends take place?",
+    "answers": [
+      "Los Angeles",
+      "Chicago",
+      "Boston",
+      "New York"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "Wikipedia: Friends se déroule à New York"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-friends-theme",
+    "conceptId": "friends-theme-song",
+    "familyId": "friends",
+    "type": "mcq",
+    "question": "What is the title of the cult theme song from Friends?",
+    "answers": [
+      "Don't Stop Believin'",
+      "Livin' on a Prayer",
+      "I'll Be There for You",
+      "With or Without You"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "musique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-simpsons-homer",
+    "conceptId": "homer-simpson",
+    "familyId": "simpsons",
+    "type": "mcq",
+    "question": "What is the first name of the father in The Simpsons?",
+    "answers": [
+      "Barney",
+      "Homer",
+      "Ned",
+      "Moe"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "animation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "Wikipedia: Homer Simpson, père de la famille"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-simpsons-donut",
+    "conceptId": "homer-donut",
+    "familyId": "simpsons",
+    "type": "mcq",
+    "question": "What is Homer Simpson's favorite food?",
+    "answers": [
+      "Donuts",
+      "Pizzas",
+      "Hamburgers",
+      "Tacos"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "animation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-simpsons-creator",
+    "conceptId": "matt-groening-simpsons",
+    "familyId": "simpsons",
+    "type": "mcq",
+    "question": "Who created The Simpsons?",
+    "answers": [
+      "Seth MacFarlane",
+      "Trey Parker",
+      "Mike Judge",
+      "Matt Groening"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "animation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "Wikipedia: Matt Groening crée Les Simpson"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-sopranos-tony",
+    "conceptId": "tony-soprano",
+    "familyId": "sopranos",
+    "type": "mcq",
+    "question": "Which actor plays Tony Soprano in the series The Sopranos?",
+    "answers": [
+      "Joe Pesci",
+      "Michael Imperioli",
+      "James Gandolfini",
+      "Ray Liotta"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "acteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-stranger-things-town",
+    "conceptId": "hawkins",
+    "familyId": "stranger-things",
+    "type": "mcq",
+    "question": "In which fictional town in Indiana does Stranger Things take place?",
+    "answers": [
+      "Riverdale",
+      "Hawkins",
+      "Derry",
+      "Mystic Falls"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "univers",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "univers",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "Wikipedia: Hawkins, ville de Stranger Things"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-stranger-things-upside-down",
+    "conceptId": "upside-down",
+    "familyId": "stranger-things",
+    "type": "mcq",
+    "question": "What is the name of the parallel world in Stranger Things?",
+    "answers": [
+      "The Upside Down",
+      "Dimension X",
+      "The Void",
+      "The Zone"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "univers",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "univers",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-stranger-things-11",
+    "conceptId": "eleven-stranger-things",
+    "familyId": "stranger-things",
+    "type": "mcq",
+    "question": "What is the first name of the young girl with psychic powers in Stranger Things?",
+    "answers": [
+      "Max",
+      "Robin",
+      "Nancy",
+      "Eleven"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Onze"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-office-dwight",
+    "conceptId": "dwight-schrute",
+    "familyId": "the-office",
+    "type": "mcq",
+    "question": "In The Office, what is Dwight Schrute's role at Dunder Mifflin?",
+    "answers": [
+      "Human Resources Manager",
+      "Receptionist",
+      "Salesman",
+      "Accountant"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-sherlock-baker-street",
+    "conceptId": "221b-baker-street",
+    "familyId": "sherlock-holmes",
+    "type": "mcq",
+    "question": "At which London address does Sherlock Holmes live?",
+    "answers": [
+      "Abbey Road",
+      "221B Baker Street",
+      "10 Downing Street",
+      "84 Charing Cross Road"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "univers",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "univers",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/221B_Baker_Street"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-sherlock-watson",
+    "conceptId": "watson-sherlock",
+    "familyId": "sherlock-holmes",
+    "type": "mcq",
+    "question": "What is the name of Sherlock Holmes's faithful companion?",
+    "answers": [
+      "Watson",
+      "Moriarty",
+      "Lestrade",
+      "Mycroft"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-doctor-who-species",
+    "conceptId": "doctor-who-time-lord",
+    "familyId": "doctor-who",
+    "type": "mcq",
+    "question": "To which extraterrestrial species does the Doctor belong in Doctor Who?",
+    "answers": [
+      "The Kryptonians",
+      "The Vulcans",
+      "The Daleks",
+      "The Time Lords"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "univers",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "univers",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Seigneurs_du_Temps"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-south-park-creator",
+    "conceptId": "parker-stone-south-park",
+    "familyId": "south-park",
+    "type": "mcq",
+    "question": "Who created South Park?",
+    "answers": [
+      "Seth MacFarlane",
+      "Mike Judge",
+      "Trey Parker and Matt Stone",
+      "Matt Groening"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "animation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-family-guy-creator",
+    "conceptId": "macfarlane-family-guy",
+    "familyId": "family-guy",
+    "type": "mcq",
+    "question": "Who created Family Guy?",
+    "answers": [
+      "Justin Roiland",
+      "Seth MacFarlane",
+      "Matt Groening",
+      "Dan Harmon"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "animation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "Wikipedia: Seth MacFarlane crée Family Guy"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-casa-de-papel-mint",
+    "conceptId": "casa-de-papel-mint",
+    "familyId": "casa-de-papel",
+    "type": "mcq",
+    "question": "In Money Heist, which institution do the Professor and his team rob in the first part?",
+    "answers": [
+      "The Royal Mint of Spain",
+      "The Bank of Spain",
+      "The Prado Museum",
+      "The European Central Bank"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "intrigues"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-casa-de-papel-cities",
+    "conceptId": "casa-de-papel-cities",
+    "familyId": "casa-de-papel",
+    "type": "mcq",
+    "question": "Which city names serve as code names for the robbers in La Casa de Papel?",
+    "answers": [
+      "London, Rome, Vienna",
+      "Paris, Prague, Madrid",
+      "Lisbon, Oslo, Warsaw",
+      "Tokyo, Berlin, Nairobi"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Tokyo%2C_Berlin%2C_Nairobi"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-squid-game-first-game",
+    "conceptId": "squid-game-red-light",
+    "familyId": "squid-game",
+    "type": "mcq",
+    "question": "Which children's game opens the competition in Squid Game?",
+    "answers": [
+      "Hopscotch",
+      "Hide and seek",
+      "Red light, green light",
+      "Jump rope"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "intrigues"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-squid-game-456",
+    "conceptId": "squid-game-456",
+    "familyId": "squid-game",
+    "type": "mcq",
+    "question": "What number does the main character of Squid Game, Seong Gi-hun, wear?",
+    "answers": [
+      "218",
+      "456",
+      "001",
+      "067"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/456"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-luther-actor",
+    "conceptId": "idris-elba-luther",
+    "familyId": "luther",
+    "type": "mcq",
+    "question": "Which actor plays Inspector Luther in the series of the same name?",
+    "answers": [
+      "Idris Elba",
+      "Chiwetel Ejiofor",
+      "David Oyelowo",
+      "John Boyega"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "series",
+      "acteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-pokemon-sacha",
+    "conceptId": "ash-ketchum",
+    "familyId": "pokemon-anime",
+    "type": "mcq",
+    "question": "What is the name of the main trainer in the Pokémon animated series?",
+    "answers": [
+      "Pierre",
+      "Misty",
+      "Regis",
+      "Ash"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "animation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Sacha"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-walking-dead-rick",
+    "conceptId": "rick-grimes",
+    "familyId": "walking-dead",
+    "type": "mcq",
+    "question": "Which actor plays Rick Grimes in The Walking Dead?",
+    "answers": [
+      "Jeffrey Dean Morgan",
+      "Steven Yeun",
+      "Andrew Lincoln",
+      "Norman Reedus"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "acteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-true-detective-cohle",
+    "conceptId": "true-detective-season1",
+    "familyId": "true-detective",
+    "type": "mcq",
+    "question": "Which actor plays Rust Cohle in the first season of True Detective?",
+    "answers": [
+      "Mahershala Ali",
+      "Matthew McConaughey",
+      "Woody Harrelson",
+      "Colin Farrell"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "series",
+      "acteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Matthew_McConaughey"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-house-specialty",
+    "conceptId": "house-md-diagnostic",
+    "familyId": "house",
+    "type": "mcq",
+    "question": "In the TV series House, what is Dr. House's specialty?",
+    "answers": [
+      "Diagnostics",
+      "Cardiology",
+      "Neurology",
+      "Surgery"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-house-cane",
+    "conceptId": "house-cane",
+    "familyId": "house",
+    "type": "mcq",
+    "question": "Why does Dr. House limp in the TV series House?",
+    "answers": [
+      "A car accident",
+      "A skiing fall",
+      "A war injury",
+      "Muscle necrosis in the leg"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/n%C3%A9crose_musculaire_%C3%A0_la_jambe"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  }
+]

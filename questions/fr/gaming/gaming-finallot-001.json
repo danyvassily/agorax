@@ -1,0 +1,802 @@
+[
+  {
+    "id": "fin-gaming-0001",
+    "conceptId": "concept-fin-gaming-0001",
+    "familyId": "family-fin-gaming-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle console de jeu portable révolutionnaire lancée par Nintendo en 1989 était vendue avec le jeu de puzzle Tetris ?",
+    "answers": [
+      "La PlayStation Portable",
+      "L'Atari Lynx",
+      "La Game Boy",
+      "La Game Gear"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "consoles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Conçue par Gunpei Yokoi, la Game Boy s'est écoulée à plus de 118 millions d'exemplaires avec sa version Color."
+  },
+  {
+    "id": "fin-gaming-0002",
+    "conceptId": "concept-fin-gaming-0002",
+    "familyId": "family-fin-gaming-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel constructeur japonais a lancé la première console de jeux PlayStation en 1994 au Japon ?",
+    "answers": [
+      "Sony",
+      "Panasonic",
+      "Sega",
+      "Nintendo"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "consoles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Sony Computer Entertainment est entré sur le marché du jeu vidéo avec la PlayStation de salon dotée d'un lecteur CD-ROM."
+  },
+  {
+    "id": "fin-gaming-0003",
+    "conceptId": "concept-fin-gaming-0003",
+    "familyId": "family-fin-gaming-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle console de salon sortie en 2000 par Sony est devenue la console la plus vendue de tous les temps avec plus de 155 millions d'exemplaires ?",
+    "answers": [
+      "La Nintendo Wii",
+      "La PlayStation 2",
+      "La PlayStation",
+      "La Xbox 360"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "consoles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La PS2 a dominé sa génération grâce à son imposante ludothèque et son lecteur de DVD intégré abordable."
+  },
+  {
+    "id": "fin-gaming-0004",
+    "conceptId": "concept-fin-gaming-0004",
+    "familyId": "family-fin-gaming-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle console de salon lancée par Nintendo en 2006 a démocratisé les jeux vidéo auprès du grand public grâce à sa télécommande gyroscopique ?",
+    "answers": [
+      "La Nintendo 64",
+      "La Wii U",
+      "La GameCube",
+      "La Wii"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "consoles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Nintendo Wii et sa Wiimote ont séduit des millions de familles et joueurs occasionnels notamment avec le jeu Wii Sports."
+  },
+  {
+    "id": "fin-gaming-0005",
+    "conceptId": "concept-fin-gaming-0005",
+    "familyId": "family-fin-gaming-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel était le nom de la toute première console de jeux vidéo de salon commercialisée pour le grand public en 1972 par Ralph Baer ?",
+    "answers": [
+      "L'Atari 2600",
+      "L'Intellivision",
+      "La Magnavox Odyssey",
+      "La ColecoVision"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "consoles-histoire",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "consoles-histoire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Magnavox Odyssey fonctionnait avec des calques transparents de couleur à plaquer sur l'écran du téléviseur."
+  },
+  {
+    "id": "fin-gaming-0006",
+    "conceptId": "concept-fin-gaming-0006",
+    "familyId": "family-fin-gaming-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle console de salon sortie par Sega en 1998 au Japon était équipée d'un modem intégré et de cartes mémoire à écran appelées VMU ?",
+    "answers": [
+      "La Master System",
+      "La Mega Drive",
+      "La Sega Saturn",
+      "La Dreamcast"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "consoles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Dreamcast était la première console 128 bits mais fut la dernière machine de salon produite par la firme Sega."
+  },
+  {
+    "id": "fin-gaming-0007",
+    "conceptId": "concept-fin-gaming-0007",
+    "familyId": "family-fin-gaming-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle entreprise américaine a fait son entrée sur le marché des consoles de salon en novembre 2001 avec la Xbox ?",
+    "answers": [
+      "IBM",
+      "Commodore",
+      "Microsoft",
+      "Apple"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "consoles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Microsoft a lancé la Xbox avec un disque dur intégré et le jeu de tir culte Halo: Combat Evolved."
+  },
+  {
+    "id": "fin-gaming-0008",
+    "conceptId": "concept-fin-gaming-0008",
+    "familyId": "family-fin-gaming-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle console hybride salon/portable lancée par Nintendo en mars 2017 utilise des manettes détachables appelées Joy-Con ?",
+    "answers": [
+      "La Wii U",
+      "La Nintendo Switch",
+      "La Nintendo 3DS",
+      "La PlayStation Vita"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "consoles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Nintendo Switch permet de jouer aussi bien sur un téléviseur que de manière nomade en mode portable."
+  },
+  {
+    "id": "fin-gaming-0009",
+    "conceptId": "concept-fin-gaming-0009",
+    "familyId": "family-fin-gaming-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel jeu d'arcade historique sorti en 1980 met en scène une créature jaune circulaire mangeant des pac-gommes dans un labyrinthe ?",
+    "answers": [
+      "Space Invaders",
+      "Galaga",
+      "Donkey Kong",
+      "Pac-Man"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "arcade-retro",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "arcade-retro"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Créé par Toru Iwatani pour Namco, Pac-Man est devenu l'une des icônes les plus reconnaissables de la culture populaire."
+  },
+  {
+    "id": "fin-gaming-0010",
+    "conceptId": "concept-fin-gaming-0010",
+    "familyId": "family-fin-gaming-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel créateur de génie japonais chez Nintendo a conçu les franchises universelles Mario, The Legend of Zelda et Donkey Kong ?",
+    "answers": [
+      "Hideo Kojima",
+      "Satoru Iwata",
+      "Shinji Mikami",
+      "Shigeru Miyamoto"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "createurs",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "createurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Shigeru Miyamoto est considéré comme le père du jeu vidéo moderne et des plateformes en 2D et 3D."
+  },
+  {
+    "id": "fin-gaming-0011",
+    "conceptId": "concept-fin-gaming-0011",
+    "familyId": "family-fin-gaming-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel jeu vidéo de survie et de construction sorti en 2011 les joueurs évoluent-ils dans un monde infini composé de blocs 3D cubiques ?",
+    "answers": [
+      "Terraria",
+      "Minecraft",
+      "Lego Worlds",
+      "Roblox"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "jeux-cultes",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-cultes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Créé par Markus Persson ('Notch'), Minecraft est le jeu vidéo le plus vendu de tous les temps avec plus de 300 millions d'exemplaires."
+  },
+  {
+    "id": "fin-gaming-0012",
+    "conceptId": "concept-fin-gaming-0012",
+    "familyId": "family-fin-gaming-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle série de jeux vidéo d'action-aventure cinématique met en scène l'archéologue intrépide Lara Croft ?",
+    "answers": [
+      "Tomb Raider",
+      "Assassin's Creed",
+      "Prince of Persia",
+      "Uncharted"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-cultes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-cultes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Tomb Raider a débuté en 1996 sur PlayStation, Saturn et PC avec son héroïne britannique devenue une icône du média."
+  },
+  {
+    "id": "fin-gaming-0013",
+    "conceptId": "concept-fin-gaming-0013",
+    "familyId": "family-fin-gaming-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel concepteur de jeux japonais a créé la saga d'espionnage tactique 'Metal Gear' et son héros Solid Snake ?",
+    "answers": [
+      "Tetsuya Nomura",
+      "Hideo Kojima",
+      "Shinji Mikami",
+      "Hideki Kamiya"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "createurs",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "createurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hideo Kojima est réputé pour sa mise en scène cinématographique et ses intrigues géopolitiques complexes."
+  },
+  {
+    "id": "fin-gaming-0014",
+    "conceptId": "concept-fin-gaming-0014",
+    "familyId": "family-fin-gaming-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel jeu de tir multijoueur de type Battle Royale développé par Epic Games 100 joueurs s'affrontent-ils sur une île en construisant des abris ?",
+    "answers": [
+      "Fortnite",
+      "Call of Duty: Warzone",
+      "Apex Legends",
+      "PUBG"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-cultes",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-cultes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le mode Battle Royale de Fortnite lancé en 2017 a connu un succès planétaire massif auprès des jeunes générations."
+  },
+  {
+    "id": "fin-gaming-0015",
+    "conceptId": "concept-fin-gaming-0015",
+    "familyId": "family-fin-gaming-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle console de salon 16 bits de Nintendo sortie en 1990 proposait le 'Mode 7' permettant des rotations et zooms spectaculaires de décors ?",
+    "answers": [
+      "La Mega Drive",
+      "La Nintendo 64",
+      "La PC-Engine",
+      "La Super Nintendo"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "consoles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Super Nintendo (SNES / Super Famicom) utilisait le Mode 7 pour des jeux cultes comme Super Mario Kart ou F-Zero."
+  },
+  {
+    "id": "fin-gaming-0016",
+    "conceptId": "concept-fin-gaming-0016",
+    "familyId": "family-fin-gaming-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel hérisson bleu ultra-rapide portant des baskets rouges est la mascotte historique créée par Sega en 1991 ?",
+    "answers": [
+      "Sonic",
+      "Tails",
+      "Knuckles",
+      "Shadow"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "mascottes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "mascottes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Sonic the Hedgehog a été imaginé par Yuji Naka et Naoto Ohshima pour rivaliser directement avec la mascotte Mario de Nintendo."
+  },
+  {
+    "id": "fin-gaming-0017",
+    "conceptId": "concept-fin-gaming-0017",
+    "familyId": "family-fin-gaming-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel RPG monumental développé par CD Projekt Red en 2015 met en scène le sorceleur Geralt de Riv à la recherche de Ciri ?",
+    "answers": [
+      "Dark Souls III",
+      "Dragon Age: Inquisition",
+      "The Witcher 3: Wild Hunt",
+      "Skyrim"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "jeux-cultes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "jeux-cultes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Witcher 3 est l'un des jeux de rôle les plus primés de l'histoire, adapté des romans de l'auteur polonais Andrzej Sapkowski."
+  },
+  {
+    "id": "fin-gaming-0018",
+    "conceptId": "concept-fin-gaming-0018",
+    "familyId": "family-fin-gaming-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel studio japonais dirigé par Hidetaka Miyazaki est célèbre pour ses jeux d'action impitoyables comme Dark Souls, Bloodborne et Elden Ring ?",
+    "answers": [
+      "FromSoftware",
+      "Koei Tecmo",
+      "Square Enix",
+      "Capcom"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "studios",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "studios"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "FromSoftware a instauré le genre des 'Souls-like', caractérisé par son exigence de gameplay et son univers de dark fantasy."
+  },
+  {
+    "id": "fin-gaming-0019",
+    "conceptId": "concept-fin-gaming-0019",
+    "familyId": "family-fin-gaming-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle saga de RPG de Square Enix retrouve-t-on le personnage emblématique de Cloud Strife et son épée géante Buster Sword ?",
+    "answers": [
+      "Final Fantasy VII",
+      "Dragon Quest VIII",
+      "Kingdom Hearts",
+      "Chrono Trigger"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "rpg",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "rpg"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Final Fantasy VII sorti en 1997 sur PlayStation a popularisé les J-RPG dans le monde occidental avec un succès critique colossal."
+  },
+  {
+    "id": "fin-gaming-0020",
+    "conceptId": "concept-fin-gaming-0020",
+    "familyId": "family-fin-gaming-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel plombier moustachu vêtu d'une salopette bleue et d'une casquette rouge est le personnage emblématique de Nintendo ?",
+    "answers": [
+      "Toad",
+      "Luigi",
+      "Mario",
+      "Wario"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "mascottes",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gaming",
+      "mascottes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-gaming-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mario est apparu pour la première fois sous le nom de Jumpman dans le jeu d'arcade Donkey Kong en 1981."
+  }
+]

@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "tv-got-ned-stark",
+    "conceptId": "ned-stark-execution",
+    "familyId": "game-of-thrones",
+    "type": "mcq",
+    "question": "Who orders the beheading of Ned Stark at the end of the first season of Game of Thrones?",
+    "answers": [
+      "Joffrey Baratheon",
+      "Tywin Lannister",
+      "Cersei Lannister",
+      "Ramsay Bolton"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "series",
+      "intrigues"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-got-dracarys",
+    "conceptId": "dracarys",
+    "familyId": "game-of-thrones",
+    "type": "mcq",
+    "question": "What Valyrian word does Daenerys use to command her dragons to breathe fire?",
+    "answers": [
+      "Valar morghulis",
+      "Khaleesi",
+      "Hodor",
+      "Dracarys"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "univers",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "univers",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Dracarys"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-friends-ross-paleo",
+    "conceptId": "ross-paleontologist",
+    "familyId": "friends",
+    "type": "mcq",
+    "question": "What is Ross's job in Friends?",
+    "answers": [
+      "Dance teacher",
+      "Architect",
+      "Paleontologist",
+      "Doctor"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-friends-monica-chef",
+    "conceptId": "monica-chef",
+    "familyId": "friends",
+    "type": "mcq",
+    "question": "What is Monica's job in Friends?",
+    "answers": [
+      "Yoga teacher",
+      "Chef",
+      "Hairdresser",
+      "Florist"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Chef_cuisini%C3%A8re"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-friends-smelly-cat",
+    "conceptId": "phoebe-smelly-cat",
+    "familyId": "friends",
+    "type": "mcq",
+    "question": "What cult song does Phoebe perform in Friends?",
+    "answers": [
+      "Smelly Cat",
+      "Stinky Dog",
+      "Funky Monkey",
+      "Crazy Cat"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "musique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-simpsons-maggie",
+    "conceptId": "maggie-simpson",
+    "familyId": "simpsons",
+    "type": "mcq",
+    "question": "What is the name of the baby in The Simpsons?",
+    "answers": [
+      "Lisa",
+      "Marge",
+      "Patty",
+      "Maggie"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "animation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Maggie"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-simpsons-voix-fr",
+    "conceptId": "simpsons-voix-fr",
+    "familyId": "simpsons",
+    "type": "mcq",
+    "question": "Which actor voices Homer Simpson in the French version of The Simpsons?",
+    "answers": [
+      "Richard Darbois",
+      "Roger Carel",
+      "Philippe Peythieu",
+      "Patrick Poivey"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "series",
+      "doublage"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-twin-peaks-cooper",
+    "conceptId": "twin-peaks-dale-cooper",
+    "familyId": "twin-peaks",
+    "type": "mcq",
+    "question": "Which FBI agent investigates the death of Laura Palmer in Twin Peaks?",
+    "answers": [
+      "Jack Bauer",
+      "Dale Cooper",
+      "Fox Mulder",
+      "Dana Scully"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Dale_Cooper"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-xfiles-motto",
+    "conceptId": "x-files-truth",
+    "familyId": "x-files",
+    "type": "mcq",
+    "question": "What is the cult motto of the X-Files series?",
+    "answers": [
+      "The truth is out there",
+      "Doubt is everywhere",
+      "Facts are stubborn",
+      "To believe or not to believe"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "repliques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-xfiles-mulder",
+    "conceptId": "david-duchovny-mulder",
+    "familyId": "x-files",
+    "type": "mcq",
+    "question": "Which actor plays Fox Mulder in The X-Files?",
+    "answers": [
+      "Mark Ruffalo",
+      "John Krasinski",
+      "Charlie Sheen",
+      "David Duchovny"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "acteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/David_Duchovny"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-grey-anatomy-city",
+    "conceptId": "grey-anatomy-seattle",
+    "familyId": "grey-sloan",
+    "type": "mcq",
+    "question": "In which city does Grey's Anatomy take place?",
+    "answers": [
+      "Boston",
+      "San Francisco",
+      "Seattle",
+      "Chicago"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-grey-anatomy-heroine",
+    "conceptId": "meredith-grey",
+    "familyId": "grey-sloan",
+    "type": "mcq",
+    "question": "What is the name of the heroine of Grey's Anatomy?",
+    "answers": [
+      "Izzie Stevens",
+      "Meredith Grey",
+      "Miranda Bailey",
+      "Cristina Yang"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Meredith_Grey"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-seinfeld-larry-david",
+    "conceptId": "seinfeld-larry-david",
+    "familyId": "seinfeld",
+    "type": "mcq",
+    "question": "Who co-created Seinfeld with Jerry Seinfeld?",
+    "answers": [
+      "Larry David",
+      "Woody Allen",
+      "Garry Shandling",
+      "Louis C.K."
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "series",
+      "creation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-himym-barney",
+    "conceptId": "barney-stinson",
+    "familyId": "how-i-met",
+    "type": "mcq",
+    "question": "In How I Met Your Mother, which character wears a suit every day?",
+    "answers": [
+      "Ted",
+      "Marshall",
+      "Robin",
+      "Barney"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Barney"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-himym-ted-horn",
+    "conceptId": "ted-french-horn",
+    "familyId": "how-i-met",
+    "type": "mcq",
+    "question": "What instrument does Ted Mosby play in How I Met Your Mother?",
+    "answers": [
+      "The piano",
+      "The trumpet",
+      "The French horn",
+      "The guitar"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-prison-break-scofield",
+    "conceptId": "michael-scofield",
+    "familyId": "prison-break",
+    "type": "mcq",
+    "question": "In Prison Break, who organizes the escape of his brother Lincoln from prison?",
+    "answers": [
+      "John Abruzzi",
+      "Michael Scofield",
+      "Sara Tancredi",
+      "T-Bag"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Michael_Scofield"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-prison-break-tattoo",
+    "conceptId": "michael-scofield-tattoo",
+    "familyId": "prison-break",
+    "type": "mcq",
+    "question": "How does Michael Scofield hide the prison plans in Prison Break?",
+    "answers": [
+      "In his tattoo",
+      "In a book",
+      "In his shoe",
+      "In a postcard"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "intrigues"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-mentalist-jane",
+    "conceptId": "mentalist-patrick-jane",
+    "familyId": "mentalist",
+    "type": "mcq",
+    "question": "Which actor plays Patrick Jane in The Mentalist?",
+    "answers": [
+      "Nathan Fillion",
+      "David Boreanaz",
+      "Hugh Laurie",
+      "Simon Baker"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "series",
+      "acteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Simon_Baker"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-mentalist-red-john",
+    "conceptId": "red-john",
+    "familyId": "mentalist",
+    "type": "mcq",
+    "question": "In The Mentalist, what is the name of the serial killer that Patrick Jane is tracking?",
+    "answers": [
+      "The Sphinx",
+      "The Sacramento Ripper",
+      "Red John",
+      "Jack the Slicer"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "intrigues"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-lost-flight",
+    "conceptId": "lost-flight-815",
+    "familyId": "lost",
+    "type": "mcq",
+    "question": "What is the flight number of Oceanic Airlines that crashes in the series Lost?",
+    "answers": [
+      "999",
+      "815",
+      "747",
+      "246"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "series",
+      "intrigues"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/815"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-lost-numbers",
+    "conceptId": "lost-numbers",
+    "familyId": "lost",
+    "type": "mcq",
+    "question": "Which sequence of numbers keeps recurring in Lost?",
+    "answers": [
+      "4 8 15 16 23 42",
+      "1 2 3 5 8 13",
+      "7 13 21 34 55 89",
+      "3 6 9 12 15 18"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "mystere"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-community-greendale",
+    "conceptId": "greendale-community",
+    "familyId": "community",
+    "type": "mcq",
+    "question": "In Community, what is the name of the university where the group studies?",
+    "answers": [
+      "Riverside Community College",
+      "Westbrook College",
+      "Lincoln University",
+      "Greendale Community College"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "univers",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "univers",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Greendale_Community_College"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-office-pam",
+    "conceptId": "pam-beesly",
+    "familyId": "the-office",
+    "type": "mcq",
+    "question": "What is Pam's job in The Office?",
+    "answers": [
+      "Saleswoman",
+      "Human Resources Director",
+      "Receptionist",
+      "Accountant"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-office-jim-pranks",
+    "conceptId": "jim-dwight-pranks",
+    "familyId": "the-office",
+    "type": "mcq",
+    "question": "Which character from The Office is known for his pranks on Dwight?",
+    "answers": [
+      "Kevin",
+      "Jim",
+      "Ryan",
+      "Oscar"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Jim"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-malcolm-hal",
+    "conceptId": "hal-malcolm",
+    "familyId": "malcolm",
+    "type": "mcq",
+    "question": "In Malcolm, what is the name of the father played by Bryan Cranston?",
+    "answers": [
+      "Hal",
+      "Dewey",
+      "Francis",
+      "Reese"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-dexter-miami",
+    "conceptId": "dexter-miami",
+    "familyId": "dexter",
+    "type": "mcq",
+    "question": "In which city does Dexter Morgan practice his profession as a forensic expert?",
+    "answers": [
+      "Los Angeles",
+      "New York",
+      "New Orleans",
+      "Miami"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "series",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Miami"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-hannibal-actor",
+    "conceptId": "hannibal-mads",
+    "familyId": "hannibal",
+    "type": "mcq",
+    "question": "Which actor plays Hannibal Lecter in the series Hannibal?",
+    "answers": [
+      "Gaspard Ulliel",
+      "Hugh Dancy",
+      "Mads Mikkelsen",
+      "Anthony Hopkins"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "series",
+      "acteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-got-hodor",
+    "conceptId": "hodor-name",
+    "familyId": "game-of-thrones",
+    "type": "mcq",
+    "question": "In Game of Thrones, what is the only word spoken by the Starks' giant and devoted servant?",
+    "answers": [
+      "Dracarys",
+      "Hodor",
+      "Wun Wun",
+      "Valar"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "series"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Hodor"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "tv-south-park-kenny",
+    "conceptId": "kenny-parka",
+    "familyId": "south-park",
+    "type": "mcq",
+    "question": "Which South Park character wears an orange parka that hides their face?",
+    "answers": [
+      "Kenny",
+      "Cartman",
+      "Kyle",
+      "Butters"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "personnages",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "animation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "tv-supernatural-brothers",
+    "conceptId": "supernatural-winchesters",
+    "familyId": "supernatural",
+    "type": "mcq",
+    "question": "What are the first names of the two monster-hunting brothers in Supernatural?",
+    "answers": [
+      "Luke and John",
+      "Jesse and James",
+      "Max and Charlie",
+      "Dean and Sam"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "series",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Dean_et_Sam"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  }
+]

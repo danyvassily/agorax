@@ -1,0 +1,602 @@
+[
+  {
+    "id": "fin-vehicules-0001",
+    "conceptId": "concept-fin-vehicules-0001",
+    "familyId": "family-fin-vehicules-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which German car manufacturer based in Wolfsburg produced the famous 'Beetle' (Käfer)?",
+    "answers": [
+      "Opel",
+      "BMW",
+      "Mercedes-Benz",
+      "Volkswagen"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Volkswagen's Beetle sold over 21 million units worldwide."
+  },
+  {
+    "id": "fin-vehicules-0002",
+    "conceptId": "concept-fin-vehicules-0002",
+    "familyId": "family-fin-vehicules-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American company founded by Henry Ford revolutionized the industry with the assembly line for the Model T in 1908?",
+    "answers": [
+      "Chrysler",
+      "Ford Motor Company",
+      "General Motors",
+      "Chevrolet"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Fordism and the assembly line made it possible to produce the first affordable mass-market automobile."
+  },
+  {
+    "id": "fin-vehicules-0003",
+    "conceptId": "concept-fin-vehicules-0003",
+    "familyId": "family-fin-vehicules-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Franco-British supersonic airliner connected Paris or London to New York in about three and a half hours until 2003?",
+    "answers": [
+      "The Boeing 747",
+      "The Tupolev Tu-144",
+      "The Airbus A380",
+      "The Concorde"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "aviation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "aviation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Concorde flew at Mach 2 (over 2,100 km/h) at an altitude of 18,000 meters, at the edge of the stratosphere."
+  },
+  {
+    "id": "fin-vehicules-0004",
+    "conceptId": "concept-fin-vehicules-0004",
+    "familyId": "family-fin-vehicules-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which very large European airliner designed by Airbus is the world's largest civil passenger transport aircraft?",
+    "answers": [
+      "The Airbus A380",
+      "The Airbus A350",
+      "The Boeing 747",
+      "The Boeing 777"
+    ],
+    "correctAnswer": 0,
+    "category": "vehicules",
+    "subcategory": "aviation",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "aviation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The A380 is a double-deck aircraft that can accommodate more than 500 to 800 passengers depending on the configuration."
+  },
+  {
+    "id": "fin-vehicules-0005",
+    "conceptId": "concept-fin-vehicules-0005",
+    "familyId": "family-fin-vehicules-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which legendary American airplane nicknamed the 'Queen of the Skies' inaugurated the era of wide-body aircraft in 1969?",
+    "answers": [
+      "The Douglas DC-10",
+      "The Lockheed L-1011",
+      "The Boeing 747",
+      "The Boeing 707"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "aviation",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "aviation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Boeing 747, recognizable by its forward hump, democratized international long-haul flights."
+  },
+  {
+    "id": "fin-vehicules-0006",
+    "conceptId": "concept-fin-vehicules-0006",
+    "familyId": "family-fin-vehicules-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What famous Japanese high-speed train is nicknamed the 'bullet train' for its speed and aerodynamic nose?",
+    "answers": [
+      "The ICE",
+      "The TGV",
+      "The Maglev",
+      "The Shinkansen"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "ferroviaire",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "ferroviaire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Shinkansen was inaugurated in 1964 for the Tokyo Olympics between Tokyo and Osaka with legendary punctuality."
+  },
+  {
+    "id": "fin-vehicules-0007",
+    "conceptId": "concept-fin-vehicules-0007",
+    "familyId": "family-fin-vehicules-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French high-speed train broke the world speed record on conventional rails at 574.8 km/h in April 2007?",
+    "answers": [
+      "The TGV",
+      "The German ICE",
+      "The Spanish AVE",
+      "The Eurostar"
+    ],
+    "correctAnswer": 0,
+    "category": "vehicules",
+    "subcategory": "ferroviaire",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "ferroviaire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The TGV V150 train from Alstom and SNCF reached 574.8 km/h on the LGV Est européenne line."
+  },
+  {
+    "id": "fin-vehicules-0008",
+    "conceptId": "concept-fin-vehicules-0008",
+    "familyId": "family-fin-vehicules-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which historic luxury train, inaugurated in 1883, connected Paris to Constantinople (Istanbul) across Europe?",
+    "answers": [
+      "Le Mistral",
+      "The Trans-Siberian",
+      "The Golden Arrow",
+      "The Orient-Express"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "ferroviaire",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "ferroviaire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Orient-Express is the symbol of railway romanticism and the setting of Agatha Christie's famous detective novel."
+  },
+  {
+    "id": "fin-vehicules-0009",
+    "conceptId": "concept-fin-vehicules-0009",
+    "familyId": "family-fin-vehicules-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which British transatlantic ocean liner, reputed to be 'unsinkable', sank during its maiden voyage in April 1912 after hitting an iceberg?",
+    "answers": [
+      "L'Olympic",
+      "Le Britannic",
+      "Le Titanic",
+      "Le Lusitania"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "maritime",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "maritime"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The sinking of the RMS Titanic caused the deaths of more than 1,500 people in the icy waters of the North Atlantic."
+  },
+  {
+    "id": "fin-vehicules-0010",
+    "conceptId": "concept-fin-vehicules-0010",
+    "familyId": "family-fin-vehicules-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of the scientific exploration submarine piloted by filmmaker James Cameron that descended to the bottom of the Mariana Trench in 2012?",
+    "answers": [
+      "Le Shinkai 6500",
+      "Le Deepsea Challenger",
+      "L'Alvin",
+      "Le Nautile"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "maritime",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "maritime"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "James Cameron reached the Challenger Deep at nearly 11,000 meters below the sea aboard the Deepsea Challenger."
+  },
+  {
+    "id": "fin-vehicules-0011",
+    "conceptId": "concept-fin-vehicules-0011",
+    "familyId": "family-fin-vehicules-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which giant lunar rocket, 110 meters high, carried NASA's Apollo mission astronauts to the Moon?",
+    "answers": [
+      "Atlas V",
+      "Titan II",
+      "Saturn V",
+      "Falcon Heavy"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "spatial",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "spatial"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Designed under the direction of Wernher von Braun, the Saturn V remains one of the most powerful rockets ever built."
+  },
+  {
+    "id": "fin-vehicules-0012",
+    "conceptId": "concept-fin-vehicules-0012",
+    "familyId": "family-fin-vehicules-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which aerospace company founded by Elon Musk developed the reusable Falcon 9 rocket?",
+    "answers": [
+      "SpaceX",
+      "Virgin Galactic",
+      "Rocket Lab",
+      "Blue Origin"
+    ],
+    "correctAnswer": 0,
+    "category": "vehicules",
+    "subcategory": "spatial",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "spatial"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "SpaceX revolutionized access to space by successfully landing the first stage of its rockets vertically."
+  },
+  {
+    "id": "fin-vehicules-0013",
+    "conceptId": "concept-fin-vehicules-0013",
+    "familyId": "family-fin-vehicules-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Italian manufacturer with a prancing horse, based in Maranello, is the oldest Formula 1 team?",
+    "answers": [
+      "Lamborghini",
+      "Scuderia Ferrari",
+      "Alfa Romeo",
+      "Maserati"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Founded by Enzo Ferrari, Scuderia Ferrari is the most successful and titled team in F1 history."
+  },
+  {
+    "id": "fin-vehicules-0014",
+    "conceptId": "concept-fin-vehicules-0014",
+    "familyId": "family-fin-vehicules-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which famous Italian scooter with a curved body was launched by the Piaggio company in 1946?",
+    "answers": [
+      "La Vespa",
+      "La Solex",
+      "L'Italjet",
+      "La Lambretta"
+    ],
+    "correctAnswer": 0,
+    "category": "vehicules",
+    "subcategory": "deux-roues",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "deux-roues"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Vespa (which means 'wasp' in Italian) became an icon of design and the Mediterranean lifestyle."
+  },
+  {
+    "id": "fin-vehicules-0015",
+    "conceptId": "concept-fin-vehicules-0015",
+    "familyId": "family-fin-vehicules-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which iconic French Citroën car, produced from 1948 to 1990, was nicknamed the 'Deuche'?",
+    "answers": [
+      "La Traction Avant",
+      "La 2 CV",
+      "L'Ami 6",
+      "La DS"
+    ],
+    "correctAnswer": 1,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "vehicules",
+      "automobile"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-vehicules-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Citroën 2 CV was designed as an economical car capable of crossing a plowed field with a basket of eggs without breaking them."
+  }
+]

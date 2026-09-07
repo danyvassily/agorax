@@ -1,0 +1,470 @@
+[
+  {
+    "id": "art-bulk-0001",
+    "conceptId": "concept-art-bulk-0001",
+    "familyId": "family-art-bulk-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel génie de la Renaissance italienne a peint La Joconde et La Cène ?",
+    "answers": [
+      "Raphaël",
+      "Botticelli",
+      "Léonard de Vinci",
+      "Michel-Ange"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "renaissance",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "renaissance"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-bulk-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-bulk-0002",
+    "conceptId": "concept-art-bulk-0002",
+    "familyId": "family-art-bulk-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel peintre et sculpteur florentin a peint le plafond de la chapelle Sixtine au Vatican ?",
+    "answers": [
+      "Donatello",
+      "Le Caravage",
+      "Michel-Ange",
+      "Le Bernin"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "renaissance",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "renaissance"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-bulk-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-bulk-0003",
+    "conceptId": "concept-art-bulk-0003",
+    "familyId": "family-art-bulk-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel peintre postimpressionniste hollandais a réalisé La Nuit étoilée et Les Tournesols ?",
+    "answers": [
+      "Paul Gauguin",
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Paul Cézanne"
+    ],
+    "correctAnswer": 1,
+    "category": "art",
+    "subcategory": "postimpressionnisme",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "postimpressionnisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-bulk-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-bulk-0004",
+    "conceptId": "concept-art-bulk-0004",
+    "familyId": "family-art-bulk-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel peintre espagnol est le maître incontesté du surréalisme avec sa toile La Persistance de la mémoire (les montres molles) ?",
+    "answers": [
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Joan Miró",
+      "René Magritte"
+    ],
+    "correctAnswer": 0,
+    "category": "art",
+    "subcategory": "surrealisme",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "surrealisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-bulk-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-bulk-0005",
+    "conceptId": "concept-art-bulk-0005",
+    "familyId": "family-art-bulk-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel chef de file de l'impressionnisme français a peint la série des Nymphéas dans sa maison de Giverny ?",
+    "answers": [
+      "Auguste Renoir",
+      "Claude Monet",
+      "Edgar Degas",
+      "Édouard Manet"
+    ],
+    "correctAnswer": 1,
+    "category": "art",
+    "subcategory": "impressionnisme",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "impressionnisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-bulk-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-bulk-0006",
+    "conceptId": "concept-art-bulk-0006",
+    "familyId": "family-art-bulk-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel artiste peintre espagnol a cofondé le cubisme et peint le gigantesque réquisitoire contre la guerre Guernica en 1937 ?",
+    "answers": [
+      "Pablo Picasso",
+      "Fernand Léger",
+      "Georges Braque",
+      "Juan Gris"
+    ],
+    "correctAnswer": 0,
+    "category": "art",
+    "subcategory": "cubisme",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "cubisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-bulk-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-bulk-0007",
+    "conceptId": "concept-art-bulk-0007",
+    "familyId": "family-art-bulk-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel sculpteur français du XIXe siècle a sculpté Le Penseur et Le Baiser ?",
+    "answers": [
+      "Antoine Bourdelle",
+      "Auguste Rodin",
+      "Camille Claudel",
+      "Jean-Baptiste Carpeaux"
+    ],
+    "correctAnswer": 1,
+    "category": "art",
+    "subcategory": "sculpture",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "sculpture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-bulk-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-bulk-0008",
+    "conceptId": "concept-art-bulk-0008",
+    "familyId": "family-art-bulk-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel célèbre musée parisien, ancienne gare ferroviaire, peut-on admirer les plus grands chefs-d'œuvre impressionnistes ?",
+    "answers": [
+      "Le centre Pompidou",
+      "Le musée du Louvre",
+      "Le musée d'Orsay",
+      "Le musée de l'Orangerie"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "musees",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "musees"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-bulk-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-bulk-0009",
+    "conceptId": "concept-art-bulk-0009",
+    "familyId": "family-art-bulk-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel peintre norvégien est l'auteur du tableau expressionniste angoissant Le Cri (1893) ?",
+    "answers": [
+      "Wassily Kandinsky",
+      "Gustav Klimt",
+      "Egon Schiele",
+      "Edvard Munch"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "expressionnisme",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "expressionnisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-bulk-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-bulk-0010",
+    "conceptId": "concept-art-bulk-0010",
+    "familyId": "family-art-bulk-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel peintre autrichien de l'Art nouveau a peint la somptueuse toile dorée Le Baiser (1907-1908) ?",
+    "answers": [
+      "Egon Schiele",
+      "Alphonse Mucha",
+      "Gustav Klimt",
+      "Oskar Kokoschka"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "art-nouveau",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "art-nouveau"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-bulk-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-bulk-0011",
+    "conceptId": "concept-art-bulk-0011",
+    "familyId": "family-art-bulk-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel peintre maître du clair-obscur baroque a réalisé La Ronde de nuit au Siècle d'or hollandais ?",
+    "answers": [
+      "Jan Steen",
+      "Johannes Vermeer",
+      "Frans Hals",
+      "Rembrandt"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "baroque",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "baroque"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-bulk-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-bulk-0012",
+    "conceptId": "concept-art-bulk-0012",
+    "familyId": "family-art-bulk-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel peintre de Delft a peint la célèbre toile intimiste La Jeune Fille à la perle ?",
+    "answers": [
+      "Pieter de Hooch",
+      "Carel Fabritius",
+      "Rembrandt",
+      "Johannes Vermeer"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "baroque",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "baroque"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-bulk-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

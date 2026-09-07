@@ -1,0 +1,686 @@
+[
+  {
+    "id": "greek-titans-parents-ouranos-gaia",
+    "conceptId": "titans-parents-ouranos-gaia",
+    "familyId": "titans-genealogy",
+    "type": "mcq",
+    "question": "Who are the parents of the Titans?",
+    "answers": [
+      "Zeus and Hera",
+      "Oceanus and Tethys",
+      "Uranus and Gaia",
+      "Cronus and Rhea"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q159367",
+      "url": "https://www.wikidata.org/wiki/Q159367",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-cronos-overthrows-ouranos",
+    "conceptId": "cronos-overthrows-ouranos",
+    "familyId": "titanomachy-origins",
+    "type": "mcq",
+    "question": "Who dethroned Ouranos, the god of the Sky?",
+    "answers": [
+      "Zeus",
+      "Prometheus",
+      "Atlas",
+      "Cronos"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q159367",
+      "url": "https://www.wikidata.org/wiki/Q159367",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-cronos-devours-children",
+    "conceptId": "cronos-devours-children",
+    "familyId": "cronos-myth",
+    "type": "mcq",
+    "question": "What did Cronus do to his children at their birth?",
+    "answers": [
+      "He devoured them",
+      "He threw them into Tartarus",
+      "He turned them into stones",
+      "He abandoned them on Mount Ida"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q159367",
+      "url": "https://www.wikidata.org/wiki/Q159367",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-rhea-saves-zeus",
+    "conceptId": "rhea-saves-zeus",
+    "familyId": "cronos-myth",
+    "type": "mcq",
+    "question": "How did Rhea save Zeus from Cronus?",
+    "answers": [
+      "By making him disappear into Tartarus",
+      "By giving Cronus a swaddled stone instead of the baby",
+      "By hiding him in a jar",
+      "By entrusting him to the Nymphs of the sea"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q159367",
+      "url": "https://www.wikidata.org/wiki/Q159367",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-titanomachy-war",
+    "conceptId": "titanomachy-war",
+    "familyId": "titanomachy",
+    "type": "mcq",
+    "question": "What is the name of the war between the Olympian gods and the Titans?",
+    "answers": [
+      "The Trojan War",
+      "Theomachy",
+      "Titanomachy",
+      "Gigantomachy"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q34201",
+      "url": "https://www.wikidata.org/wiki/Q34201",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-prometheus-steals-fire",
+    "conceptId": "prometheus-steals-fire",
+    "familyId": "prometheus-myth",
+    "type": "mcq",
+    "question": "Which Titan stole fire from the gods to give it to humans?",
+    "answers": [
+      "Atlas",
+      "Cronos",
+      "Epimetheus",
+      "Prometheus"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q50613",
+      "url": "https://www.wikidata.org/wiki/Q50613",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-prometheus-punishment-eagle",
+    "conceptId": "prometheus-punishment-eagle",
+    "familyId": "prometheus-punishment",
+    "type": "mcq",
+    "question": "What is Prometheus's punishment?",
+    "answers": [
+      "An eagle devours his liver every day",
+      "He is turned into a rock",
+      "He is hurled into Tartarus",
+      "He pulls the Sun's chariot"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q50613",
+      "url": "https://www.wikidata.org/wiki/Q50613",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-prometheus-freed-by-heracles",
+    "conceptId": "prometheus-freed-by-heracles",
+    "familyId": "prometheus-punishment",
+    "type": "mcq",
+    "question": "Who eventually freed Prometheus from his torment?",
+    "answers": [
+      "Ulysses",
+      "Heracles",
+      "Theseus",
+      "Orpheus"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q50613",
+      "url": "https://www.wikidata.org/wiki/Q50613",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.91,
+    "version": 1
+  },
+  {
+    "id": "greek-atlas-holds-up-the-sky",
+    "conceptId": "atlas-holds-up-the-sky",
+    "familyId": "atlas-punishment",
+    "type": "mcq",
+    "question": "Which Titan is condemned to hold up the sky on his shoulders?",
+    "answers": [
+      "Cronos",
+      "Iapetus",
+      "Atlas",
+      "Prometheus"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q131983",
+      "url": "https://www.wikidata.org/wiki/Q131983",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-atlas-heracles-hesperides",
+    "conceptId": "atlas-heracles-hesperides",
+    "familyId": "atlas-myth",
+    "type": "mcq",
+    "question": "In the myth of the golden apples, what trick does Atlas attempt against Heracles?",
+    "answers": [
+      "He offers him a potion of forgetfulness",
+      "He makes him fall into a trap",
+      "He gives him poisoned apples",
+      "He offers to carry the apples himself while Heracles holds up the sky"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q131983",
+      "url": "https://www.wikidata.org/wiki/Q131983",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.95,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "greek-pandora-opens-jar",
+    "conceptId": "pandora-opens-jar",
+    "familyId": "pandora-myth",
+    "type": "mcq",
+    "question": "What did Pandora, the first woman according to myth, open?",
+    "answers": [
+      "A jar containing all evils",
+      "A chest filled with gold",
+      "An enchanted music box",
+      "A barrel of wine"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q14522",
+      "url": "https://www.wikidata.org/wiki/Q14522",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-pandora-elpis-remains",
+    "conceptId": "pandora-elpis-remains",
+    "familyId": "pandora-myth",
+    "type": "mcq",
+    "question": "According to the myth, what remains at the bottom of Pandora's jar?",
+    "answers": [
+      "Fortune",
+      "Hope",
+      "Wisdom",
+      "Love"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q14522",
+      "url": "https://www.wikidata.org/wiki/Q14522",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-gaia-goddess-of-earth",
+    "conceptId": "gaia-goddess-of-earth",
+    "familyId": "gaia-identity",
+    "type": "mcq",
+    "question": "Gaia is the goddess of what?",
+    "answers": [
+      "The sea",
+      "War",
+      "The Earth",
+      "The Moon"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q8422",
+      "url": "https://www.wikidata.org/wiki/Q8422",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-ouranos-god-of-sky",
+    "conceptId": "ouranos-god-of-sky",
+    "familyId": "ouranos-identity",
+    "type": "mcq",
+    "question": "Uranus is the personification of what?",
+    "answers": [
+      "The Earth",
+      "The Underworld",
+      "The Sea",
+      "The Sky"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q105715",
+      "url": "https://www.wikidata.org/wiki/Q105715",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-cronos-vs-chronos",
+    "conceptId": "cronos-vs-chronos",
+    "familyId": "cronos-chronos",
+    "type": "mcq",
+    "question": "Which god is often confused with Cronos although he personifies time?",
+    "answers": [
+      "Chronos",
+      "Kairos",
+      "Aion",
+      "Horus"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q159367",
+      "url": "https://www.wikidata.org/wiki/Q159367",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.95,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "greek-cyclopes-children-of-ouranos",
+    "conceptId": "cyclopes-children-of-ouranos",
+    "familyId": "cyclopes-genealogy",
+    "type": "mcq",
+    "question": "Which one-eyed creatures did Uranus and Gaia engender?",
+    "answers": [
+      "The Harpies",
+      "The Cyclopes",
+      "The Centaurs",
+      "The Gorgons"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q128740",
+      "url": "https://www.wikidata.org/wiki/Q128740",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-mnemosyne-mother-of-muses",
+    "conceptId": "mnemosyne-mother-of-muses",
+    "familyId": "titans-genealogy",
+    "type": "mcq",
+    "question": "Which Titanide is the mother of the nine Muses?",
+    "answers": [
+      "Tethys",
+      "Phoebe",
+      "Mnemosyne",
+      "Themis"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q105976",
+      "url": "https://www.wikidata.org/wiki/Q105976",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.95,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "greek-iapetus-father-of-prometheus",
+    "conceptId": "iapetus-father-of-prometheus",
+    "familyId": "titans-genealogy",
+    "type": "mcq",
+    "question": "Which Titan is the father of Prometheus?",
+    "answers": [
+      "Oceanus",
+      "Hyperion",
+      "Crius",
+      "Iapetus"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "titans",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "titans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q50613",
+      "url": "https://www.wikidata.org/wiki/Q50613",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.91,
+    "version": 1
+  }
+]

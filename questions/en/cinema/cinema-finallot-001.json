@@ -1,0 +1,802 @@
+[
+  {
+    "id": "fin-cinema-0001",
+    "conceptId": "concept-fin-cinema-0001",
+    "familyId": "family-fin-cinema-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American filmmaker directed 'Jaws', 'E.T. the Extra-Terrestrial', 'Jurassic Park', and 'Schindler's List'?",
+    "answers": [
+      "James Cameron",
+      "Robert Zemeckis",
+      "Steven Spielberg",
+      "George Lucas"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Steven Spielberg is the most prolific and profitable director in the history of Hollywood cinema."
+  },
+  {
+    "id": "fin-cinema-0002",
+    "conceptId": "concept-fin-cinema-0002",
+    "familyId": "family-fin-cinema-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which British director nicknamed the 'Master of Suspense' created masterpieces such as 'Psycho', 'Rear Window', and 'Vertigo'?",
+    "answers": [
+      "Alfred Hitchcock",
+      "Stanley Kubrick",
+      "Orson Welles",
+      "Billy Wilder"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Alfred Hitchcock invented many modern editing and framing techniques in cinema."
+  },
+  {
+    "id": "fin-cinema-0003",
+    "conceptId": "concept-fin-cinema-0003",
+    "familyId": "family-fin-cinema-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which perfectionist filmmaker directed '2001: A Space Odyssey', 'A Clockwork Orange', and 'The Shining'?",
+    "answers": [
+      "David Lynch",
+      "Ridley Scott",
+      "Stanley Kubrick",
+      "Francis Ford Coppola"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Stanley Kubrick was renowned for his obsessive attention to geometric framing and technical precision."
+  },
+  {
+    "id": "fin-cinema-0004",
+    "conceptId": "concept-fin-cinema-0004",
+    "familyId": "family-fin-cinema-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which director adapted Mario Puzo's novel trilogy 'The Godfather' and directed the Dante-esque film 'Apocalypse Now'?",
+    "answers": [
+      "Michael Cimino",
+      "Francis Ford Coppola",
+      "Martin Scorsese",
+      "Brian De Palma"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Francis Ford Coppola was one of the leading figures of the New Hollywood movement in the 1970s."
+  },
+  {
+    "id": "fin-cinema-0005",
+    "conceptId": "concept-fin-cinema-0005",
+    "familyId": "family-fin-cinema-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American film-buff director directed the cult films 'Pulp Fiction', 'Reservoir Dogs', and 'Kill Bill'?",
+    "answers": [
+      "Robert Rodriguez",
+      "David Fincher",
+      "Paul Thomas Anderson",
+      "Quentin Tarantino"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Quentin Tarantino is famous for his sharp dialogue, non-linear storytelling, and cinematic homages."
+  },
+  {
+    "id": "fin-cinema-0006",
+    "conceptId": "concept-fin-cinema-0006",
+    "familyId": "family-fin-cinema-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Canadian filmmaker directed the two most-watched films in world cinema history, 'Titanic' and 'Avatar'?",
+    "answers": [
+      "Denis Villeneuve",
+      "James Cameron",
+      "Christopher Nolan",
+      "Peter Jackson"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "James Cameron is a pioneer of digital special effects and 3D relief technology in cinema."
+  },
+  {
+    "id": "fin-cinema-0007",
+    "conceptId": "concept-fin-cinema-0007",
+    "familyId": "family-fin-cinema-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Italian-American director, a favorite of Robert De Niro and Leonardo DiCaprio, directed 'Taxi Driver', 'Goodfellas', and 'Casino'?",
+    "answers": [
+      "Michael Mann",
+      "Francis Ford Coppola",
+      "Brian De Palma",
+      "Martin Scorsese"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Martin Scorsese is one of the greatest masters of American cinema, exploring guilt and the world of crime."
+  },
+  {
+    "id": "fin-cinema-0008",
+    "conceptId": "concept-fin-cinema-0008",
+    "familyId": "family-fin-cinema-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which British filmmaker directed the 'The Dark Knight' trilogy as well as the conceptual films 'Inception', 'Interstellar', and 'Oppenheimer'?",
+    "answers": [
+      "Christopher Nolan",
+      "Sam Mendes",
+      "David Fincher",
+      "Denis Villeneuve"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Christopher Nolan favors practical special effects, the large IMAX format, and temporal distortions."
+  },
+  {
+    "id": "fin-cinema-0009",
+    "conceptId": "concept-fin-cinema-0009",
+    "familyId": "family-fin-cinema-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Quebec filmmaker directed notable science fiction works such as 'Arrival', 'Blade Runner 2049', and 'Dune'?",
+    "answers": [
+      "David Cronenberg",
+      "Denis Villeneuve",
+      "Jean-Marc Vallée",
+      "Xavier Dolan"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Denis Villeneuve has established himself as one of the most visionary science fiction directors of his generation."
+  },
+  {
+    "id": "fin-cinema-0010",
+    "conceptId": "concept-fin-cinema-0010",
+    "familyId": "family-fin-cinema-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which New Zealand director successfully adapted J.R.R. Tolkien's monumental literary trilogy 'The Lord of the Rings' for the cinema?",
+    "answers": [
+      "Peter Jackson",
+      "George Lucas",
+      "James Wan",
+      "Guillermo del Toro"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Lord of the Rings trilogy, filmed in New Zealand, won 17 Oscars, including 11 for The Return of the King."
+  },
+  {
+    "id": "fin-cinema-0011",
+    "conceptId": "concept-fin-cinema-0011",
+    "familyId": "family-fin-cinema-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Italian filmmaker invented the spaghetti western genre with his Dollars Trilogy starring Clint Eastwood?",
+    "answers": [
+      "Sergio Leone",
+      "Luchino Visconti",
+      "Federico Fellini",
+      "Michelangelo Antonioni"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Sergio Leone transcended the western with A Fistful of Dollars, For a Few Dollars More, and The Good, the Bad and the Ugly."
+  },
+  {
+    "id": "fin-cinema-0012",
+    "conceptId": "concept-fin-cinema-0012",
+    "familyId": "family-fin-cinema-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Italian baroque and dreamlike filmmaker directed 'La dolce vita', '8½' and 'Amarcord'?",
+    "answers": [
+      "Pier Paolo Pasolini",
+      "Federico Fellini",
+      "Roberto Rossellini",
+      "Vittorio De Sica"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Federico Fellini won the Oscar for Best Foreign Language Film four times during his career."
+  },
+  {
+    "id": "fin-cinema-0013",
+    "conceptId": "concept-fin-cinema-0013",
+    "familyId": "family-fin-cinema-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker created the galactic saga of 'Star Wars' as well as the character of the rugged archaeologist Indiana Jones?",
+    "answers": [
+      "Lawrence Kasdan",
+      "George Lucas",
+      "Irvin Kershner",
+      "Steven Spielberg"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "George Lucas founded the production company Lucasfilm and revolutionized special effects with Industrial Light & Magic (ILM)."
+  },
+  {
+    "id": "fin-cinema-0014",
+    "conceptId": "concept-fin-cinema-0014",
+    "familyId": "family-fin-cinema-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which legendary Japanese director created humanist masterpieces such as 'Seven Samurai', 'Rashomon', and 'Ran'?",
+    "answers": [
+      "Yasujiro Ozu",
+      "Kenji Mizoguchi",
+      "Akira Kurosawa",
+      "Masaki Kobayashi"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Akira Kurosawa profoundly influenced world cinema, inspiring directors like George Lucas and Sergio Leone."
+  },
+  {
+    "id": "fin-cinema-0015",
+    "conceptId": "concept-fin-cinema-0015",
+    "familyId": "family-fin-cinema-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which British director directed the major dystopian and space films 'Alien', 'Blade Runner', and 'Gladiator'?",
+    "answers": [
+      "Paul Verhoeven",
+      "Tony Scott",
+      "James Cameron",
+      "Ridley Scott"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Ridley Scott is renowned for his visual power and the creation of foundational science fiction universes."
+  },
+  {
+    "id": "fin-cinema-0016",
+    "conceptId": "concept-fin-cinema-0016",
+    "familyId": "family-fin-cinema-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American filmmaker directed the meticulous psychological thrillers 'Seven', 'Fight Club', 'Zodiac', and 'Gone Girl'?",
+    "answers": [
+      "Christopher Nolan",
+      "Darren Aronofsky",
+      "David Fincher",
+      "Denis Villeneuve"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "David Fincher is renowned for his absolute technical perfectionism and his dark, clinical aesthetic."
+  },
+  {
+    "id": "fin-cinema-0017",
+    "conceptId": "concept-fin-cinema-0017",
+    "familyId": "family-fin-cinema-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Mexican director, fond of poetic monsters, directed 'Pan's Labyrinth' and the Oscar-winning film 'The Shape of Water'?",
+    "answers": [
+      "Guillermo del Toro",
+      "Robert Rodriguez",
+      "Alejandro González Iñárritu",
+      "Alfonso Cuarón"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Guillermo del Toro blends the macabre fairy tale, gothic horror, and the antifascist political fable."
+  },
+  {
+    "id": "fin-cinema-0018",
+    "conceptId": "concept-fin-cinema-0018",
+    "familyId": "family-fin-cinema-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Swedish filmmaker created metaphysical masterpieces about faith and anguish such as 'The Seventh Seal' and 'Persona'?",
+    "answers": [
+      "Lars von Trier",
+      "Carl Theodor Dreyer",
+      "Roy Andersson",
+      "Ingmar Bergman"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Ingmar Bergman immortalized the iconic chess game with Death in The Seventh Seal in 1957."
+  },
+  {
+    "id": "fin-cinema-0019",
+    "conceptId": "concept-fin-cinema-0019",
+    "familyId": "family-fin-cinema-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Russian filmmaker directed contemplative cinematic poems of mystical beauty such as 'Solaris', 'The Mirror', and 'Stalker'?",
+    "answers": [
+      "Andrei Tarkovsky",
+      "Sergei Eisenstein",
+      "Elem Klimov",
+      "Dziga Vertov"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Andrei Tarkovsky considered cinema as sculpting in time ('sculpting in time')."
+  },
+  {
+    "id": "fin-cinema-0020",
+    "conceptId": "concept-fin-cinema-0020",
+    "familyId": "family-fin-cinema-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which actor and genius director played the world-famous character of Charlot with cane and bowler hat in silent cinema?",
+    "answers": [
+      "Charlie Chaplin",
+      "Harold Lloyd",
+      "Stan Laurel",
+      "Buster Keaton"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "cinema-muet",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cinema-muet"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-cinema-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Charlie Chaplin directed and performed timeless masterpieces such as Modern Times and The Great Dictator."
+  }
+]

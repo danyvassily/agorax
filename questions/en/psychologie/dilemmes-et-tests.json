@@ -1,0 +1,362 @@
+[
+  {
+    "id": "psycho-dilemme-tramway",
+    "type": "mcq",
+    "question": "What is the name of the famous ethical thought experiment where one must choose to divert a runaway trolley to kill one person instead of five?",
+    "answers": [
+      "The prisoner's dilemma",
+      "The trolley problem",
+      "The Fermi paradox",
+      "The Milgram experiment"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "dilemmes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "éthique",
+      "dilemme"
+    ],
+    "conceptId": "psycho-dilemme-tramway",
+    "familyId": "psycho-dilemme-tramway",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-dilemme-prisonnier",
+    "type": "mcq",
+    "question": "In the prisoner's dilemma (game theory), what is the most frequent paradoxical outcome if both suspects act in their own self-interest?",
+    "answers": [
+      "They cooperate and go free",
+      "One betrays and the other stays silent",
+      "They both betray and receive a heavy sentence",
+      "They refuse to talk and the game is canceled"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "dilemmes",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "théorie-des-jeux",
+      "dilemme"
+    ],
+    "conceptId": "psycho-dilemme-prisonnier",
+    "familyId": "psycho-dilemme-prisonnier",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-test-rorschach",
+    "type": "mcq",
+    "question": "What is shown to the patient during a Rorschach test?",
+    "answers": [
+      "Photographs of faces with ambiguous emotions",
+      "Symmetrical inkblots",
+      "Sequences of colors to memorize",
+      "Unrelated words to freely associate"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "tests",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "test",
+      "psychanalyse"
+    ],
+    "conceptId": "psycho-test-rorschach",
+    "familyId": "psycho-test-rorschach",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-test-marshmallow",
+    "type": "mcq",
+    "question": "What did the famous marshmallow experiment conducted at Stanford measure in children?",
+    "answers": [
+      "Spatial intelligence",
+      "The ability to delay gratification (deferred gratification)",
+      "Empathy in the face of others' deprivation",
+      "Resistance to sugar"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "experiences",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "enfance",
+      "test"
+    ],
+    "conceptId": "psycho-test-marshmallow",
+    "familyId": "psycho-test-marshmallow",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-stade-miroir",
+    "type": "mcq",
+    "question": "Which psychoanalytic concept refers to the moment when the infant recognizes its own image?",
+    "answers": [
+      "The Oedipus complex",
+      "The mirror stage",
+      "Catharsis",
+      "Individuation"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "psychanalyse",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "lacan",
+      "psychanalyse"
+    ],
+    "conceptId": "psycho-stade-miroir",
+    "familyId": "psycho-stade-miroir",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-mbti",
+    "type": "mcq",
+    "question": "On the work of which psychologist is the very famous MBTI (Myers-Briggs Type Indicator) personality test based?",
+    "answers": [
+      "Sigmund Freud",
+      "Carl Rogers",
+      "Carl Jung",
+      "Abraham Maslow"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "tests",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "personnalité",
+      "test"
+    ],
+    "conceptId": "psycho-mbti",
+    "familyId": "psycho-mbti",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-pyramide-maslow",
+    "type": "mcq",
+    "question": "In Maslow's pyramid, which need is at the very base, as the absolute foundation?",
+    "answers": [
+      "The need for belonging",
+      "Physiological needs (eating, drinking, sleeping)",
+      "Safety needs",
+      "The need for self-actualization"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "theorie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "maslow",
+      "besoins"
+    ],
+    "conceptId": "psycho-pyramide-maslow",
+    "familyId": "psycho-pyramide-maslow",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-effet-nocebo",
+    "type": "mcq",
+    "question": "What is the name of the psychological effect where a harmless treatment causes adverse effects simply because the patient expects them?",
+    "answers": [
+      "The Placebo effect",
+      "The Nocebo effect",
+      "The Hawthorne effect",
+      "The Pygmalion effect"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "phenomenes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "médecine",
+      "croyance"
+    ],
+    "conceptId": "psycho-effet-nocebo",
+    "familyId": "psycho-effet-nocebo",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-effet-pygmalion",
+    "type": "mcq",
+    "question": "The Pygmalion effect refers to the fact that...",
+    "answers": [
+      "Tall people have better salaries",
+      "The expectations one has of a person influence their actual performance",
+      "One ends up falling in love with the person one has helped",
+      "One works less hard when in a group"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "phenomenes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "social",
+      "éducation"
+    ],
+    "conceptId": "psycho-effet-pygmalion",
+    "familyId": "psycho-effet-pygmalion",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-lapsus",
+    "type": "mcq",
+    "question": "What do you call an involuntary verbal error supposedly revealing an unconscious desire?",
+    "answers": [
+      "A dissonance",
+      "A paranoia",
+      "A Freudian slip (or slip of the tongue)",
+      "An omission bias"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "psychanalyse",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "freud",
+      "langage"
+    ],
+    "conceptId": "psycho-lapsus",
+    "familyId": "psycho-lapsus",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  }
+]

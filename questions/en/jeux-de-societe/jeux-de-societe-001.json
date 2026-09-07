@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "jeux-societe-001",
+    "conceptId": "concept-boardgame-001",
+    "familyId": "family-boardgame-001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the game Monopoly, which square is located immediately before the Go square?",
+    "answers": [
+      "Rue de la Paix",
+      "Boulevard Saint-Michel",
+      "Montparnasse Station",
+      "Champs-Élysées"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "classiques"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-001",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-002",
+    "conceptId": "concept-boardgame-002",
+    "familyId": "family-boardgame-001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the game Catan (Settlers of Catan), which resource does NOT exist?",
+    "answers": [
+      "Wheat",
+      "Gold",
+      "Clay",
+      "Ore"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "strategie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "strategie"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-002",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-003",
+    "conceptId": "concept-boardgame-003",
+    "familyId": "family-boardgame-002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In chess, which piece can only move diagonally?",
+    "answers": [
+      "The rook",
+      "The knight",
+      "The king",
+      "The bishop"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "echecs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "echecs"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-003",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-004",
+    "conceptId": "concept-boardgame-004",
+    "familyId": "family-boardgame-002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the game Carcassonne, which landscape element is NOT present in the base game?",
+    "answers": [
+      "Mountains",
+      "Roads",
+      "Cities",
+      "Abbeys"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "strategie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "strategie"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-004",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-005",
+    "conceptId": "concept-boardgame-005",
+    "familyId": "family-boardgame-003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In classic French Scrabble, how many points is the letter Z worth?",
+    "answers": [
+      "8 points",
+      "12 points",
+      "9 points",
+      "10 points"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "lettres",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "lettres"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-005",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-006",
+    "conceptId": "concept-boardgame-006",
+    "familyId": "family-boardgame-003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the game Werewolves of Millers Hollow, who wakes up every night before the wolves?",
+    "answers": [
+      "The seer",
+      "The little girl",
+      "The hunter",
+      "The witch"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "ambiance",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "ambiance"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-006",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-007",
+    "conceptId": "concept-boardgame-007",
+    "familyId": "family-boardgame-004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many dice are used in a classic game of Yahtzee?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "des",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "des"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-007",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-008",
+    "conceptId": "concept-boardgame-008",
+    "familyId": "family-boardgame-004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the card game 7 Wonders, which color of cards represents scientific buildings?",
+    "answers": [
+      "Blue",
+      "Green",
+      "Red",
+      "Yellow"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "strategie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "strategie"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-008",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-009",
+    "conceptId": "concept-boardgame-009",
+    "familyId": "family-boardgame-005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the game of Clue, which of the following weapons is part of the original version?",
+    "answers": [
+      "The candlestick",
+      "The axe",
+      "The crossbow",
+      "The poison"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "enquetes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "enquetes"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-009",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-010",
+    "conceptId": "concept-boardgame-010",
+    "familyId": "family-boardgame-005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the game Dixit, what is the main role of the active player each turn?",
+    "answers": [
+      "The narrator",
+      "The storyteller",
+      "The oracle",
+      "The master"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "ambiance",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "ambiance"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-010",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-011",
+    "conceptId": "concept-boardgame-011",
+    "familyId": "family-boardgame-006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many squares does a classic chessboard have?",
+    "answers": [
+      "64",
+      "49",
+      "72",
+      "81"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "echecs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "echecs"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-011",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-012",
+    "conceptId": "concept-boardgame-012",
+    "familyId": "family-boardgame-006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the game Codenames, what happens if a team selects the Assassin's word?",
+    "answers": [
+      "The captain is eliminated",
+      "The other team gets 3 points",
+      "The turn simply passes",
+      "They immediately lose the game"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "ambiance",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "ambiance"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-012",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-013",
+    "conceptId": "concept-boardgame-013",
+    "familyId": "family-boardgame-007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Ticket to Ride, what is the main objective?",
+    "answers": [
+      "Connect cities with railway routes",
+      "Build locomotives",
+      "Destroy opponents' tracks",
+      "Buy stations at auction"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "strategie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "strategie"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-013",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-014",
+    "conceptId": "concept-boardgame-014",
+    "familyId": "family-boardgame-007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the game Risk, which continent provides the most reinforcements per turn if it is fully controlled?",
+    "answers": [
+      "Africa",
+      "North America",
+      "Asia",
+      "Europe"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "strategie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "strategie"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-014",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-015",
+    "conceptId": "concept-boardgame-015",
+    "familyId": "family-boardgame-008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What ancient board game originating from East Asia is played with black and white stones on a 19×19 grid?",
+    "answers": [
+      "Go",
+      "Mahjong",
+      "Xiangqi",
+      "Shogi"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "classiques"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-015",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-016",
+    "conceptId": "concept-boardgame-016",
+    "familyId": "family-boardgame-008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the game Pandemic, how many different diseases must players eradicate or cure?",
+    "answers": [
+      "5",
+      "3",
+      "6",
+      "4"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "cooperatif",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "cooperatif"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-016",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-017",
+    "conceptId": "concept-boardgame-017",
+    "familyId": "family-boardgame-009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Time's Up!, what must players do during the third round?",
+    "answers": [
+      "Mime only",
+      "Say a single word",
+      "Draw a picture",
+      "Hum a tune"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "ambiance",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "ambiance"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-017",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-018",
+    "conceptId": "concept-boardgame-018",
+    "familyId": "family-boardgame-009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the French tarot game, how many cards does the complete deck contain?",
+    "answers": [
+      "78",
+      "80",
+      "64",
+      "52"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "cartes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "cartes"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-018",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-019",
+    "conceptId": "concept-boardgame-019",
+    "familyId": "family-boardgame-010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the card game Magic: The Gathering, how many fundamental colors of mana are there?",
+    "answers": [
+      "5",
+      "6",
+      "4",
+      "7"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "cartes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "cartes"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-019",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-020",
+    "conceptId": "concept-boardgame-020",
+    "familyId": "family-boardgame-010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which party card game has the iconic rule of announcing the game's name out loud when only one card remains in hand?",
+    "answers": [
+      "Rami",
+      "Skip-Bo",
+      "Dos",
+      "Uno"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "ambiance",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "ambiance"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-020",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-021",
+    "conceptId": "concept-boardgame-021",
+    "familyId": "family-boardgame-011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In The Builders (Middle Ages), what main resources do workers need to build?",
+    "answers": [
+      "Gold, silver, copper, and brick",
+      "Cloth, glass, lime, and straw",
+      "Stone, wood, iron, and knowledge",
+      "Wheat, water, fire, and earth"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "strategie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "strategie"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-021",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-022",
+    "conceptId": "concept-boardgame-022",
+    "familyId": "family-boardgame-011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which cooperative investigation game do players play detectives assisting Sherlock Holmes in the streets of London?",
+    "answers": [
+      "Chronicles of Crime",
+      "Watson & Holmes",
+      "Sherlock Holmes Consulting Detective",
+      "Mister Jack"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "enquetes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "enquetes"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-022",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-023",
+    "conceptId": "concept-boardgame-023",
+    "familyId": "family-boardgame-012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which domino game of Mexican origin is played with a central train?",
+    "answers": [
+      "Mexican Train",
+      "Mahjong",
+      "Rummikub",
+      "Triominos"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "classiques"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-023",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-024",
+    "conceptId": "concept-boardgame-024",
+    "familyId": "family-boardgame-012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Splendor, what do players primarily collect to acquire development cards?",
+    "answers": [
+      "Artisan scrolls",
+      "Gemstone tokens",
+      "Silver coins",
+      "Iron ingots"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "strategie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "strategie"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-024",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-025",
+    "conceptId": "concept-boardgame-025",
+    "familyId": "family-boardgame-013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the classic international game of checkers, how many squares does the board have?",
+    "answers": [
+      "81",
+      "121",
+      "64",
+      "100"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "classiques"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-025",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-026",
+    "conceptId": "concept-boardgame-026",
+    "familyId": "family-boardgame-013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the game Skull (or Skull & Roses), what is the other motif present on the coasters besides the skull?",
+    "answers": [
+      "The snake",
+      "The star",
+      "The dagger",
+      "The flower"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "bluff",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "bluff"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-026",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-027",
+    "conceptId": "concept-boardgame-027",
+    "familyId": "family-boardgame-014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the game Azul, what do players place on their board to decorate the royal palace of Évora?",
+    "answers": [
+      "Tapestries",
+      "Golden mosaics",
+      "Azulejos",
+      "Stained glass"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "strategie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "strategie"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-027",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-028",
+    "conceptId": "concept-boardgame-028",
+    "familyId": "family-boardgame-014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Texas Hold'em poker, how many community cards (the board) are revealed in total in the center of the table?",
+    "answers": [
+      "4",
+      "3",
+      "6",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "cartes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "cartes"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-028",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-029",
+    "conceptId": "concept-boardgame-029",
+    "familyId": "family-boardgame-015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the game Unlock!, which digital tool is essential for timing the game and validating codes?",
+    "answers": [
+      "A website with webcam",
+      "A programmable calculator",
+      "A dedicated mobile app",
+      "A connected watch"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "escape-game",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "escape-game"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-029",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "jeux-societe-030",
+    "conceptId": "concept-boardgame-030",
+    "familyId": "family-boardgame-015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which famous puzzle game involves placing numbers from 1 to 9 in a grid without repetition in each row, column, and region?",
+    "answers": [
+      "Picross",
+      "Sudoku",
+      "Hanjie",
+      "Kakuro"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "reflexion",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "plateau",
+      "reflexion"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "jeux-societe-030",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "animaux-final-1002",
+    "conceptId": "concept-animaux-1002",
+    "familyId": "family-animaux-0501",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Ammonites became extinct at the end of what geological period?",
+    "answers": [
+      "Triassic",
+      "Permian",
+      "Cretaceous",
+      "Jurassic"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-1002",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-1020",
+    "conceptId": "concept-animaux-1020",
+    "familyId": "family-animaux-0510",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What interesting characteristic do all amphibians called caecilians share?",
+    "answers": [
+      "They have external ears.",
+      "They are hermaphrodites.",
+      "They have four eyes.",
+      "They have no legs."
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-1020",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-1021",
+    "conceptId": "concept-animaux-1021",
+    "familyId": "family-animaux-0511",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What animal does the greater siren, a nocturnal amphibian, resemble externally?",
+    "answers": [
+      "An eel",
+      "A lizard",
+      "A frog",
+      "A gecko"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-1021",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-1026",
+    "conceptId": "concept-animaux-1026",
+    "familyId": "family-animaux-0513",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Where does the female Suriname Toad keep its eggs until they develop into young frogs?",
+    "answers": [
+      "In its stomach",
+      "Between its hind legs",
+      "On its back",
+      "In its vocal sac"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-1026",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-1036",
+    "conceptId": "concept-animaux-1036",
+    "familyId": "family-animaux-0518",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What unusual physical characteristic does the lemur Aye-aye possess?",
+    "answers": [
+      "It has 4 nipples.",
+      "All of these",
+      "Its pupils are constantly dilated.",
+      "It has extremely long fingers."
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-1036",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-1037",
+    "conceptId": "concept-animaux-1037",
+    "familyId": "family-animaux-0519",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In what places does the nocturnal Aye-aye sleep during the daytime?",
+    "answers": [
+      "On trees",
+      "Hanging from a branch.",
+      "On a branch, covering its body with a big leaf",
+      "In holes in the ground"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-1037",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-1049",
+    "conceptId": "concept-animaux-1049",
+    "familyId": "family-animaux-0525",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What unusual anatomical characteristic does the koala possess?",
+    "answers": [
+      "The female has two vaginas.",
+      "The female has two uteri.",
+      "All of these",
+      "The make has a bifurcated penis."
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-1049",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

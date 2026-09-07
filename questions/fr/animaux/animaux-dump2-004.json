@@ -1,0 +1,282 @@
+[
+  {
+    "id": "animaux-dump2-0559",
+    "conceptId": "concept-animaux-0559",
+    "familyId": "family-animaux-0280",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What phylum do jellyfish belong to?",
+    "answers": [
+      "Mollusca",
+      "Chordata",
+      "Arthropoda",
+      "Cnidaria"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0559",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0564",
+    "conceptId": "concept-animaux-0564",
+    "familyId": "family-animaux-0282",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "According to statistics, how are wolves killed today?",
+    "answers": [
+      "By hunters and poachers",
+      "All of these",
+      "By people",
+      "By poison and areal hunters"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0564",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0568",
+    "conceptId": "concept-animaux-0568",
+    "familyId": "family-animaux-0284",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "At what age does a wolf usually leave its pack?",
+    "answers": [
+      "2-3 years",
+      "5-6 years",
+      "1-2 years",
+      "3-4 years"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0568",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0573",
+    "conceptId": "concept-animaux-0573",
+    "familyId": "family-animaux-0287",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Name the largest mollusk and the largest invertebrate in the world?",
+    "answers": [
+      "Colossal squid",
+      "Giant squid",
+      "North Pacific Giant Octopus",
+      "Giant African snail"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0573",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0578",
+    "conceptId": "concept-animaux-0578",
+    "familyId": "family-animaux-0289",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Where are vampire bats mostly found?",
+    "answers": [
+      "Mexico, Central America and South America",
+      "Africa",
+      "Asia",
+      "Australia"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0578",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0580",
+    "conceptId": "concept-animaux-0580",
+    "familyId": "family-animaux-0290",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How do wolves mark their territory?",
+    "answers": [
+      "By urinating",
+      "By defecating",
+      "All of these",
+      "By rubbing against objects"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0580",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0597",
+    "conceptId": "concept-animaux-0597",
+    "familyId": "family-animaux-0299",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How did the Black Mamba snake get its name?",
+    "answers": [
+      "Because its venom is black",
+      "Because its eggs are black",
+      "Because its mouth is black",
+      "Because of its color"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0597",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

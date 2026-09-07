@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "fin-science-0001",
+    "conceptId": "concept-fin-science-0001",
+    "familyId": "family-fin-science-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the lightest and most abundant chemical element in the universe (atomic number 1)?",
+    "answers": [
+      "Helium",
+      "Hydrogen",
+      "Carbon",
+      "Oxygen"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hydrogen (H) accounts for about 75% of the baryonic mass of the observable universe."
+  },
+  {
+    "id": "fin-science-0002",
+    "conceptId": "concept-fin-science-0002",
+    "familyId": "family-fin-science-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which noble gas is the second most abundant element in the universe and is used to inflate blimps?",
+    "answers": [
+      "Neon",
+      "Argon",
+      "Helium",
+      "Xenon"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Helium (He) is an inert gas that is much lighter than air and non-flammable."
+  },
+  {
+    "id": "fin-science-0003",
+    "conceptId": "concept-fin-science-0003",
+    "familyId": "family-fin-science-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which chemical element with the symbol 'C' constitutes the fundamental basis of all organic chemistry and life on Earth?",
+    "answers": [
+      "Silicon",
+      "Sulfur",
+      "Carbon",
+      "Nitrogen"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Carbon has 4 valence electrons, allowing it to form an infinite variety of complex molecules."
+  },
+  {
+    "id": "fin-science-0004",
+    "conceptId": "concept-fin-science-0004",
+    "familyId": "family-fin-science-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which gas makes up about 78% of the volume of Earth's atmosphere?",
+    "answers": [
+      "Argon",
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Nitrogen (N2) makes up nearly 78% of dry air, ahead of oxygen (21%) and argon (0.93%)."
+  },
+  {
+    "id": "fin-science-0005",
+    "conceptId": "concept-fin-science-0005",
+    "familyId": "family-fin-science-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the chemical symbol for gold in the periodic table of elements?",
+    "answers": [
+      "Fe",
+      "Au",
+      "Ag",
+      "Or"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The symbol Au comes from the Latin 'aurum' which means 'shining dawn' or 'gold'."
+  },
+  {
+    "id": "fin-science-0006",
+    "conceptId": "concept-fin-science-0006",
+    "familyId": "family-fin-science-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the chemical symbol for silver in the periodic table?",
+    "answers": [
+      "Ag",
+      "Au",
+      "Ar",
+      "Al"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The symbol Ag comes from the Latin word 'argentum'."
+  },
+  {
+    "id": "fin-science-0007",
+    "conceptId": "concept-fin-science-0007",
+    "familyId": "family-fin-science-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which transition metal has the chemical symbol 'Fe' and atomic number 26?",
+    "answers": [
+      "Fluorine",
+      "Phosphorus",
+      "Francium",
+      "Iron"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The symbol Fe comes from the Latin 'ferrum'."
+  },
+  {
+    "id": "fin-science-0008",
+    "conceptId": "concept-fin-science-0008",
+    "familyId": "family-fin-science-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which toxic heavy metal has the chemical symbol 'Hg' and is in a liquid state at room temperature?",
+    "answers": [
+      "Bismuth",
+      "Tin",
+      "Mercury",
+      "Lead"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The symbol Hg comes from the ancient Greek 'hydrargyrum' meaning 'liquid silver' or 'quicksilver'."
+  },
+  {
+    "id": "fin-science-0009",
+    "conceptId": "concept-fin-science-0009",
+    "familyId": "family-fin-science-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the chemical symbol for potassium in the periodic table?",
+    "answers": [
+      "K",
+      "Pt",
+      "P",
+      "Po"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The symbol K comes from Neo-Latin 'kalium', derived from Arabic 'al-qalyah'."
+  },
+  {
+    "id": "fin-science-0010",
+    "conceptId": "concept-fin-science-0010",
+    "familyId": "family-fin-science-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the chemical symbol for sodium in the periodic table of elements?",
+    "answers": [
+      "Na",
+      "S",
+      "So",
+      "Sd"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The symbol Na derives from the Latin 'natrium', related to natural soda salts."
+  },
+  {
+    "id": "fin-science-0011",
+    "conceptId": "concept-fin-science-0011",
+    "familyId": "family-fin-science-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the chemical symbol for lead in the periodic table?",
+    "answers": [
+      "Pl",
+      "Pb",
+      "Po",
+      "Pd"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The symbol Pb comes from the Latin 'plumbum', which also gave rise to the word plumbing."
+  },
+  {
+    "id": "fin-science-0012",
+    "conceptId": "concept-fin-science-0012",
+    "familyId": "family-fin-science-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the chemical symbol for copper in Mendeleev's classification?",
+    "answers": [
+      "Cp",
+      "Co",
+      "Cr",
+      "Cu"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The symbol Cu derives from the Latin 'cuprum', referring to the island of Cyprus where it was mined in antiquity."
+  },
+  {
+    "id": "fin-science-0013",
+    "conceptId": "concept-fin-science-0013",
+    "familyId": "family-fin-science-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Russian chemist published in 1869 the first modern version of the periodic table of elements?",
+    "answers": [
+      "John Dalton",
+      "Dmitri Mendeleev",
+      "Antoine Lavoisier",
+      "Mikhail Lomonosov"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mendeleev ordered the elements by atomic mass and recurring chemical properties, predicting elements still unknown."
+  },
+  {
+    "id": "fin-science-0014",
+    "conceptId": "concept-fin-science-0014",
+    "familyId": "family-fin-science-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which precious metal has the atomic number 78 and is commonly used in catalytic converters and jewelry?",
+    "answers": [
+      "Platinum",
+      "Rhodium",
+      "Palladium",
+      "Iridium"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Platinum (Pt) is a noble metal resistant to corrosion and an exceptional chemical catalyst."
+  },
+  {
+    "id": "fin-science-0015",
+    "conceptId": "concept-fin-science-0015",
+    "familyId": "family-fin-science-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which natural radioactive element with atomic number 92 was discovered by Martin Heinrich Klaproth in 1789?",
+    "answers": [
+      "Polonium",
+      "Radium",
+      "Thorium",
+      "Uranium"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Klaproth named uranium (U) in honor of the planet Uranus, which had been discovered eight years earlier by William Herschel."
+  },
+  {
+    "id": "fin-science-0016",
+    "conceptId": "concept-fin-science-0016",
+    "familyId": "family-fin-science-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the exact chemical formula of the water molecule?",
+    "answers": [
+      "O2",
+      "CO2",
+      "H2O",
+      "H2O2"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Water is composed of two hydrogen atoms bonded to one oxygen atom by covalent bonds."
+  },
+  {
+    "id": "fin-science-0017",
+    "conceptId": "concept-fin-science-0017",
+    "familyId": "family-fin-science-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which colorless and odorless gas is designated by the chemical formula CO2?",
+    "answers": [
+      "Methane",
+      "Carbon dioxide",
+      "Carbon monoxide",
+      "Ozone"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "CO2 is carbon dioxide, a greenhouse gas produced notably by respiration and combustion."
+  },
+  {
+    "id": "fin-science-0018",
+    "conceptId": "concept-fin-science-0018",
+    "familyId": "family-fin-science-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which greenhouse gas, and main component of natural gas, has the chemical formula CH4?",
+    "answers": [
+      "Methane",
+      "Butane",
+      "Ethane",
+      "Propane"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Methane (CH4) is a hydrocarbon of the alkane family with a high global warming potential."
+  },
+  {
+    "id": "fin-science-0019",
+    "conceptId": "concept-fin-science-0019",
+    "familyId": "family-fin-science-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which gas composed of three oxygen atoms (O3) forms a protective layer in the upper atmosphere against ultraviolet rays?",
+    "answers": [
+      "Ozone",
+      "Dinitrogen",
+      "Liquid oxygen",
+      "Peroxide"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The stratospheric ozone layer absorbs most of the harmful ultraviolet solar radiation."
+  },
+  {
+    "id": "fin-science-0020",
+    "conceptId": "concept-fin-science-0020",
+    "familyId": "family-fin-science-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French scientist is considered the father of modern chemistry and formulated the maxim 'Nothing is lost, nothing is created, everything is transformed'?",
+    "answers": [
+      "Claude Bernard",
+      "Louis Pasteur",
+      "Antoine Lavoisier",
+      "Joseph Proust"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie-histoire",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-histoire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Antoine de Lavoisier established the law of conservation of mass during chemical reactions."
+  },
+  {
+    "id": "fin-science-0021",
+    "conceptId": "concept-fin-science-0021",
+    "familyId": "family-fin-science-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which subatomic particle with a negative electric charge orbits the atomic nucleus?",
+    "answers": [
+      "The electron",
+      "The photon",
+      "The proton",
+      "The neutron"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "physique-particules",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "science",
+      "physique-particules"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0021",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Electrons have a negative charge (-e) and orbit in the electron cloud around the nucleus."
+  },
+  {
+    "id": "fin-science-0022",
+    "conceptId": "concept-fin-science-0022",
+    "familyId": "family-fin-science-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which subatomic particle with a positive electric charge composes the nucleus of the atom along with the neutron?",
+    "answers": [
+      "The proton",
+      "The neutrino",
+      "The positron",
+      "The electron"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "physique-particules",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "science",
+      "physique-particules"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0022",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The proton has a positive charge and determines the atomic number (Z) of the element."
+  },
+  {
+    "id": "fin-science-0023",
+    "conceptId": "concept-fin-science-0023",
+    "familyId": "family-fin-science-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which British physicist discovered the existence of the neutron in 1932, earning him the Nobel Prize in 1935?",
+    "answers": [
+      "James Chadwick",
+      "Ernest Rutherford",
+      "J.J. Thomson",
+      "Niels Bohr"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "physique-particules",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "science",
+      "physique-particules"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0023",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "James Chadwick proved the existence of neutrons, particles with no electric charge at the heart of atomic nuclei."
+  },
+  {
+    "id": "fin-science-0024",
+    "conceptId": "concept-fin-science-0024",
+    "familyId": "family-fin-science-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which alkaline earth metal with the symbol 'Ca' is the major mineral component of bones and teeth in vertebrates?",
+    "answers": [
+      "Magnesium",
+      "Potassium",
+      "Calcium",
+      "Sodium"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0024",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Calcium (Ca) is an essential element for bone mineralization and muscle contraction."
+  },
+  {
+    "id": "fin-science-0025",
+    "conceptId": "concept-fin-science-0025",
+    "familyId": "family-fin-science-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which metalloid with the symbol 'Si' and atomic number 14 is the basic component of electronic chips and semiconductors?",
+    "answers": [
+      "Selenium",
+      "Germanium",
+      "Silicon",
+      "Arsenic"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie-elements",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "science",
+      "chimie-elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-science-0025",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Silicon is the second most abundant element in the Earth's crust after oxygen and the pillar of electronics."
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "insolite-curiosites-0001",
+    "conceptId": "concept-insolite-curiosites-0001",
+    "familyId": "family-insolite-curiosites-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many hearts does an octopus have to circulate its blue blood?",
+    "answers": [
+      "2 hearts",
+      "3 hearts",
+      "1 heart",
+      "4 hearts"
+    ],
+    "correctAnswer": 1,
+    "category": "insolite",
+    "subcategory": "nature",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "insolite",
+      "nature"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0002",
+    "conceptId": "concept-insolite-curiosites-0002",
+    "familyId": "family-insolite-curiosites-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What color are flamingos at birth before their diet of shrimp colors them?",
+    "answers": [
+      "Gray",
+      "Pale pink",
+      "Black",
+      "White"
+    ],
+    "correctAnswer": 0,
+    "category": "insolite",
+    "subcategory": "nature",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "insolite",
+      "nature"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0003",
+    "conceptId": "concept-insolite-curiosites-0003",
+    "familyId": "family-insolite-curiosites-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which mammal is the only animal capable of true self-powered flight in the air?",
+    "answers": [
+      "The flying squirrel",
+      "The platypus",
+      "The bat",
+      "The lemur"
+    ],
+    "correctAnswer": 2,
+    "category": "insolite",
+    "subcategory": "nature",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "insolite",
+      "nature"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0004",
+    "conceptId": "concept-insolite-curiosites-0004",
+    "familyId": "family-insolite-curiosites-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which aquatic animal lays eggs while nursing its young with milk and has a duck's bill?",
+    "answers": [
+      "The giant otter",
+      "The platypus",
+      "The beaver",
+      "The echidna"
+    ],
+    "correctAnswer": 1,
+    "category": "insolite",
+    "subcategory": "nature",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "insolite",
+      "nature"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0005",
+    "conceptId": "concept-insolite-curiosites-0005",
+    "familyId": "family-insolite-curiosites-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many eyes do most species of spiders have?",
+    "answers": [
+      "6 eyes",
+      "4 eyes",
+      "2 eyes",
+      "8 eyes"
+    ],
+    "correctAnswer": 3,
+    "category": "insolite",
+    "subcategory": "nature",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "insolite",
+      "nature"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0006",
+    "conceptId": "concept-insolite-curiosites-0006",
+    "familyId": "family-insolite-curiosites-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the average gestation period of a female Asian or African elephant?",
+    "answers": [
+      "About 12 months",
+      "About 16 months",
+      "About 22 months",
+      "About 30 months"
+    ],
+    "correctAnswer": 2,
+    "category": "insolite",
+    "subcategory": "nature",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "insolite",
+      "nature"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0007",
+    "conceptId": "concept-insolite-curiosites-0007",
+    "familyId": "family-insolite-curiosites-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which bone in the human body is the longest and strongest?",
+    "answers": [
+      "The humerus",
+      "The femur",
+      "The tibia",
+      "The fibula"
+    ],
+    "correctAnswer": 1,
+    "category": "insolite",
+    "subcategory": "corps-humain",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "insolite",
+      "corps-humain"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0008",
+    "conceptId": "concept-insolite-curiosites-0008",
+    "familyId": "family-insolite-curiosites-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the only continent on planet Earth that has no hot or cold deserts?",
+    "answers": [
+      "South America",
+      "Oceania",
+      "Europe",
+      "Africa"
+    ],
+    "correctAnswer": 2,
+    "category": "insolite",
+    "subcategory": "geographie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "insolite",
+      "geographie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0009",
+    "conceptId": "concept-insolite-curiosites-0009",
+    "familyId": "family-insolite-curiosites-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American state is the largest in area, alone exceeding the size of France and Spain combined?",
+    "answers": [
+      "Alaska",
+      "Texas",
+      "California",
+      "Montana"
+    ],
+    "correctAnswer": 0,
+    "category": "insolite",
+    "subcategory": "geographie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "insolite",
+      "geographie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0010",
+    "conceptId": "concept-insolite-curiosites-0010",
+    "familyId": "family-insolite-curiosites-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many faces does a regular icosahedron have in geometry?",
+    "answers": [
+      "30 faces",
+      "12 faces",
+      "24 faces",
+      "20 faces"
+    ],
+    "correctAnswer": 3,
+    "category": "insolite",
+    "subcategory": "mathematiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "insolite",
+      "mathematiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

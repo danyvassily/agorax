@@ -1,0 +1,242 @@
+[
+  {
+    "id": "animaux-dump-0151",
+    "conceptId": "concept-animaux-0151",
+    "familyId": "family-animaux-0076",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "No lizard species live on which continent?",
+    "answers": [
+      "South America",
+      "Asia",
+      "Europe",
+      "Antarctica"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0151",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0156",
+    "conceptId": "concept-animaux-0156",
+    "familyId": "family-animaux-0078",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which shark is the fastest swimmer?",
+    "answers": [
+      "goblin shark",
+      "sandtiger shark",
+      "mako shark",
+      "nurse shark"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0156",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0160",
+    "conceptId": "concept-animaux-0160",
+    "familyId": "family-animaux-0080",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How long is a giraffes gestation period?",
+    "answers": [
+      "14- 15 months",
+      "18 - 20 months",
+      "10 months",
+      "9 months"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0160",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0169",
+    "conceptId": "concept-animaux-0169",
+    "familyId": "family-animaux-0085",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How long can a goldfish live in optimal conditions?",
+    "answers": [
+      "8 years",
+      "20 years",
+      "5 years",
+      "10 years"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0169",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0172",
+    "conceptId": "concept-animaux-0172",
+    "familyId": "family-animaux-0086",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What color are wild goldfish?",
+    "answers": [
+      "Green",
+      "Silver",
+      "Yellow",
+      "Orange"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0172",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0192",
+    "conceptId": "concept-animaux-0192",
+    "familyId": "family-animaux-0096",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Approximately how long is a Red Foxs gestation period?",
+    "answers": [
+      "40 days",
+      "89 days",
+      "34 days",
+      "55 days"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0192",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

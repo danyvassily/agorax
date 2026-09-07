@@ -1,0 +1,952 @@
+[
+  {
+    "id": "anime-dbz-saiyan",
+    "conceptId": "goku-saiyan",
+    "familyId": "dragon-ball",
+    "type": "mcq",
+    "question": "In Dragon Ball, which race does Goku belong to?",
+    "answers": [
+      "The Saiyans",
+      "The Namekians",
+      "The Earthlings",
+      "The Kaioshins"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "personnages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "dragon-ball"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "anime-dbz-kamehameha",
+    "conceptId": "kamehameha",
+    "familyId": "dragon-ball",
+    "type": "mcq",
+    "question": "What is Goku's signature attack in Dragon Ball?",
+    "answers": [
+      "The Rasengan",
+      "The Getsuga Tensho",
+      "The Mangekyō",
+      "The Kamehameha"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "anime",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "anime",
+      "dragon-ball"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Kamehameha"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "anime-dbz-shenron",
+    "conceptId": "shenron-dragon",
+    "familyId": "dragon-ball",
+    "type": "mcq",
+    "question": "How many crystal balls must be gathered to summon Shenron in Dragon Ball?",
+    "answers": [
+      "6",
+      "8",
+      "7",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "anime",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "anime",
+      "dragon-ball"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "anime-dbz-author",
+    "conceptId": "akira-toriyama",
+    "familyId": "dragon-ball",
+    "type": "mcq",
+    "question": "Who created Dragon Ball?",
+    "answers": [
+      "Osamu Tezuka",
+      "Akira Toriyama",
+      "Eiichirō Oda",
+      "Masashi Kishimoto"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "manga",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "manga",
+      "auteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Akira_Toriyama"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "anime-one-piece-author",
+    "conceptId": "eiichiro-oda",
+    "familyId": "one-piece",
+    "type": "mcq",
+    "question": "Who is the author of the manga One Piece?",
+    "answers": [
+      "Eiichirō Oda",
+      "Akira Toriyama",
+      "Yoshihiro Togashi",
+      "Tite Kubo"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "manga",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "manga",
+      "auteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "anime-one-piece-fruit",
+    "conceptId": "gomu-gomu",
+    "familyId": "one-piece",
+    "type": "mcq",
+    "question": "Which devil fruit did Luffy eat in One Piece?",
+    "answers": [
+      "The Mera-Mera Fruit",
+      "The Yami-Yami Fruit",
+      "The Hito-Hito Fruit",
+      "The Gomu-Gomu Fruit"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "anime",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "anime",
+      "one-piece"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/fruit_Gomu-Gomu"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "anime-one-piece-roger",
+    "conceptId": "gold-roger",
+    "familyId": "one-piece",
+    "type": "mcq",
+    "question": "What is the name of the Pirate King in One Piece?",
+    "answers": [
+      "Blackbeard",
+      "Shanks",
+      "Gol D. Roger",
+      "Whitebeard"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "personnages",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "one-piece"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "anime-one-piece-record",
+    "conceptId": "one-piece-record",
+    "familyId": "one-piece",
+    "type": "mcq",
+    "question": "Which manga holds the record for the highest circulation in history?",
+    "answers": [
+      "Detective Conan",
+      "One Piece",
+      "Naruto",
+      "Dragon Ball"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "records",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "manga",
+      "records"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/One_Piece"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "anime-naruto-village",
+    "conceptId": "konoha",
+    "familyId": "naruto",
+    "type": "mcq",
+    "question": "In Naruto, what is the name of Naruto's hidden village?",
+    "answers": [
+      "Konoha",
+      "Suna",
+      "Kiri",
+      "Iwa"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "anime",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "anime",
+      "naruto"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "anime-naruto-kyubi",
+    "conceptId": "kyubi-naruto",
+    "familyId": "naruto",
+    "type": "mcq",
+    "question": "Which nine-tailed fox demon is sealed inside Naruto's body?",
+    "answers": [
+      "Shukaku",
+      "Ichibi",
+      "Nibi",
+      "Kyūbi"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "anime",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "anime",
+      "naruto"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Ky%C5%ABbi"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "anime-naruto-rasengan",
+    "conceptId": "rasengan",
+    "familyId": "naruto",
+    "type": "mcq",
+    "question": "Which technique is Naruto's signature?",
+    "answers": [
+      "Getsuga Tensho",
+      "Gomu Gomu no Pistol",
+      "Rasengan",
+      "Chidori"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "anime",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "anime",
+      "naruto"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "anime-naruto-author",
+    "conceptId": "kishimoto-naruto",
+    "familyId": "naruto",
+    "type": "mcq",
+    "question": "Who wrote the manga Naruto?",
+    "answers": [
+      "Hiro Mashima",
+      "Masashi Kishimoto",
+      "Eiichirō Oda",
+      "Akira Toriyama"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "manga",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "manga",
+      "auteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Masashi_Kishimoto"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "anime-akira-year",
+    "conceptId": "akira-1988",
+    "familyId": "akira",
+    "type": "mcq",
+    "question": "In what year was the animated film Akira released?",
+    "answers": [
+      "1988",
+      "1982",
+      "1995",
+      "1991"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "anime",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "anime",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "anime-akira-kaneda",
+    "conceptId": "kaneda-akira",
+    "familyId": "akira",
+    "type": "mcq",
+    "question": "What is the name of the biker hero in Akira?",
+    "answers": [
+      "Tetsuo",
+      "Kei",
+      "Akira",
+      "Kaneda"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "personnages",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "akira"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Kaneda"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "anime-ghibli-founder",
+    "conceptId": "ghibli-founder-miyazaki",
+    "familyId": "studio-ghibli",
+    "type": "mcq",
+    "question": "Who founded Studio Ghibli with Isao Takahata?",
+    "answers": [
+      "Mamoru Hosoda",
+      "Makoto Shinkai",
+      "Hayao Miyazaki",
+      "Osamu Tezuka"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "studio-ghibli",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "studio-ghibli",
+      "auteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "anime-totoro",
+    "conceptId": "totoro-creature",
+    "familyId": "studio-ghibli",
+    "type": "mcq",
+    "question": "Which furry creature became the symbol of Studio Ghibli?",
+    "answers": [
+      "Appa",
+      "Totoro",
+      "Pikachu",
+      "Kirby"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "studio-ghibli",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "studio-ghibli",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Totoro"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "anime-ghibli-oscar",
+    "conceptId": "spirited-away-oscar",
+    "familyId": "studio-ghibli",
+    "type": "mcq",
+    "question": "Which Miyazaki film won the Oscar for Best Animated Feature in 2003?",
+    "answers": [
+      "Spirited Away",
+      "My Neighbor Totoro",
+      "Princess Mononoke",
+      "Howl's Moving Castle"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "studio-ghibli",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "studio-ghibli",
+      "oscars"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "anime-porco-rosso",
+    "conceptId": "porco-rosso",
+    "familyId": "studio-ghibli",
+    "type": "mcq",
+    "question": "In which Miyazaki film is the hero a pilot transformed into a pig?",
+    "answers": [
+      "Kiki's Delivery Service",
+      "Nausicaä",
+      "The Wind Rises",
+      "Porco Rosso"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "studio-ghibli",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "studio-ghibli",
+      "films"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Porco_Rosso"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "anime-attack-on-titan",
+    "conceptId": "attack-on-titan-titans",
+    "familyId": "attack-on-titan",
+    "type": "mcq",
+    "question": "In Attack on Titan, what is the particularity of the Titans?",
+    "answers": [
+      "They spit fire",
+      "They live underground",
+      "They devour humans",
+      "They speak all languages"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "anime",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "anime",
+      "intrigues"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "anime-attack-on-titan-eren",
+    "conceptId": "eren-jaeger",
+    "familyId": "attack-on-titan",
+    "type": "mcq",
+    "question": "What is the name of the hero of Attack on Titan?",
+    "answers": [
+      "Erwin Smith",
+      "Eren Jäger",
+      "Levi Ackerman",
+      "Armin Arlert"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "personnages",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "anime"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Eren_J%C3%A4ger"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "anime-pokemon-pikachu",
+    "conceptId": "pikachu-pokemon",
+    "familyId": "pokemon",
+    "type": "mcq",
+    "question": "Which electric yellow Pokémon is the mascot of the franchise?",
+    "answers": [
+      "Pikachu",
+      "Eevee",
+      "Jigglypuff",
+      "Mewtwo"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "anime",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "anime",
+      "pokemon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "anime-sailor-moon-usagi",
+    "conceptId": "sailor-moon-usagi",
+    "familyId": "sailor-moon",
+    "type": "mcq",
+    "question": "What is the first name of the main warrior in Sailor Moon?",
+    "answers": [
+      "Ami",
+      "Rei",
+      "Makoto",
+      "Usagi"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "personnages",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "anime"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Usagi"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "anime-death-note-rule",
+    "conceptId": "death-note-rules",
+    "familyId": "death-note",
+    "type": "mcq",
+    "question": "In Death Note, what happens if you write a person's name in the notebook?",
+    "answers": [
+      "She becomes immortal",
+      "She gains a wish",
+      "She dies",
+      "She loses her memory"
+    ],
+    "correctAnswer": 2,
+    "category": "manga-anime",
+    "subcategory": "anime",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "anime",
+      "intrigues"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "anime-death-note-ryuk",
+    "conceptId": "ryuk-shinigami",
+    "familyId": "death-note",
+    "type": "mcq",
+    "question": "What is the name of the god of death who accompanies Light in Death Note?",
+    "answers": [
+      "Gelus",
+      "Ryuk",
+      "Rem",
+      "Sidoh"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "personnages",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "death-note"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Ryuk"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "anime-saint-seiya-pegasus",
+    "conceptId": "saint-seiya-knights",
+    "familyId": "saint-seiya",
+    "type": "mcq",
+    "question": "In Knights of the Zodiac, which celestial sign does the hero Seiya bear?",
+    "answers": [
+      "Pegasus",
+      "Dragon",
+      "Swan",
+      "Andromeda"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "anime",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "anime",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

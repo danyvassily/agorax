@@ -1,0 +1,392 @@
+[
+  {
+    "id": "sport-champions-0001",
+    "conceptId": "concept-sport-champions-0001",
+    "familyId": "family-sport-champions-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel pays détient le record du plus grand nombre de victoires en Coupe du Monde de football masculin (5 étoiles) ?",
+    "answers": [
+      "Le Brésil",
+      "L'Allemagne",
+      "L'Italie",
+      "L'Argentine"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "champions",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "champions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-champions-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-champions-0002",
+    "conceptId": "concept-sport-champions-0002",
+    "familyId": "family-sport-champions-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel joueur de tennis suisse aux 20 titres du Grand Chelem a disputé le dernier match de sa carrière en 2022 ?",
+    "answers": [
+      "Roger Federer",
+      "Rafael Nadal",
+      "Novak Djokovic",
+      "Stan Wawrinka"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "champions",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "champions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-champions-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-champions-0003",
+    "conceptId": "concept-sport-champions-0003",
+    "familyId": "family-sport-champions-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel nageur américain est l'athlète le plus médaillé de l'histoire des Jeux Olympiques avec 28 médailles, dont 23 en or ?",
+    "answers": [
+      "Ryan Lochte",
+      "Mark Spitz",
+      "Michael Phelps",
+      "Ian Thorpe"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "champions",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "champions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-champions-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-champions-0004",
+    "conceptId": "concept-sport-champions-0004",
+    "familyId": "family-sport-champions-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quelle surface les tennismen s'affrontent-ils lors du prestigieux tournoi de Wimbledon à Londres ?",
+    "answers": [
+      "Le synthétique",
+      "Le béton",
+      "Le gazon",
+      "La terre battue"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "champions",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "champions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-champions-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-champions-0005",
+    "conceptId": "concept-sport-champions-0005",
+    "familyId": "family-sport-champions-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle compétition cycliste masculine par étapes, créée en 1903 par Henri Desgrange, a pour symbole le Maillot Jaune ?",
+    "answers": [
+      "Paris-Roubaix",
+      "Le Tour de France",
+      "La Vuelta a España",
+      "Le Giro d'Italia"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "champions",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "champions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-champions-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-champions-0006",
+    "conceptId": "concept-sport-champions-0006",
+    "familyId": "family-sport-champions-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de joueurs composent une équipe de basket-ball sur le terrain ?",
+    "answers": [
+      "4",
+      "7",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "champions",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "champions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-champions-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-champions-0007",
+    "conceptId": "concept-sport-champions-0007",
+    "familyId": "family-sport-champions-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le temps réglementaire d'un match de football classique hors prolongations ?",
+    "answers": [
+      "90 minutes",
+      "100 minutes",
+      "60 minutes",
+      "80 minutes"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "champions",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "champions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-champions-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-champions-0008",
+    "conceptId": "concept-sport-champions-0008",
+    "familyId": "family-sport-champions-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel pilote brésilien triple champion du monde de F1 est tragiquement décédé au Grand Prix de Saint-Marin en 1994 ?",
+    "answers": [
+      "Nelson Piquet",
+      "Nigel Mansell",
+      "Alain Prost",
+      "Ayrton Senna"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "champions",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "champions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-champions-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-champions-0009",
+    "conceptId": "concept-sport-champions-0009",
+    "familyId": "family-sport-champions-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle nation de l'hémisphère sud, célèbre pour son haka avant chaque rencontre, porte le surnom des All Blacks en rugby ?",
+    "answers": [
+      "Les Fidji",
+      "L'Afrique du Sud",
+      "L'Australie",
+      "La Nouvelle-Zélande"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "champions",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "champions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-champions-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-champions-0010",
+    "conceptId": "concept-sport-champions-0010",
+    "familyId": "family-sport-champions-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de quilles sont disposées au bout de la piste dans une partie de bowling américain classique ?",
+    "answers": [
+      "8",
+      "12",
+      "10",
+      "9"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "champions",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "champions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-champions-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

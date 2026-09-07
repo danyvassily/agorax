@@ -1,0 +1,890 @@
+[
+  {
+    "id": "tv-got-iron-throne-swords",
+    "conceptId": "got-iron-throne-aegon",
+    "familyId": "game-of-thrones-lore",
+    "type": "mcq",
+    "question": "In Game of Thrones, who forged the Iron Throne from the swords of his defeated enemies?",
+    "answers": [
+      "Aegon I Targaryen",
+      "Robert Baratheon",
+      "Rhaegar Targaryen",
+      "Viserys Targaryen"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "fantastique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "game-of-thrones",
+      "westeros",
+      "targaryen",
+      "series-cultes"
+    ],
+    "explanation": "Aegon the Conqueror melted down the 1000 swords of his enemies using the breath of his dragon Balerion the Black Dread.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "hbo-game-of-thrones"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "tv-got-valyrian-steel-jon-snow",
+    "conceptId": "got-longclaw-mormont-jon",
+    "familyId": "game-of-thrones-weapons",
+    "type": "mcq",
+    "question": "What is the name of the Valyrian steel sword given to Jon Snow by Jeor Mormont?",
+    "answers": [
+      "Longclaw",
+      "Needle",
+      "Ice",
+      "Blackfyre"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "fantastique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "game-of-thrones",
+      "jon-snow",
+      "armes",
+      "series-cultes"
+    ],
+    "explanation": "Jeor Mormont bequeaths the ancestral sword of House Mormont, Longclaw, to Jon Snow after he saves his life.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "hbo-game-of-thrones"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "tv-hotd-daemon-dragon",
+    "conceptId": "hotd-caraxes-daemon-dragon",
+    "familyId": "house-of-the-dragon-dragons",
+    "type": "mcq",
+    "question": "In House of the Dragon, what is the name of the red dragon ridden by Prince Daemon Targaryen?",
+    "answers": [
+      "Caraxes",
+      "Vhagar",
+      "Syrax",
+      "Meleys"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "fantastique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "house-of-the-dragon",
+      "dragons",
+      "daemon",
+      "series-cultes"
+    ],
+    "explanation": "Caraxes, nicknamed the 'Blood Wyrm' due to its bright red color and ferocity, is the dragon ridden by Daemon Targaryen.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "hbo-house-of-the-dragon"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "tv-hotd-rhaenyra-heir",
+    "conceptId": "hotd-viserys-heir-rhaenyra",
+    "familyId": "house-of-the-dragon-succession",
+    "type": "mcq",
+    "question": "In House of the Dragon, who does King Viserys I officially designate as his rightful heir to the Throne?",
+    "answers": [
+      "Rhaenyra Targaryen",
+      "Alicent Hightower",
+      "Aegon II Targaryen",
+      "Daemon Targaryen"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "fantastique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "house-of-the-dragon",
+      "rhaenyra",
+      "trone",
+      "series-cultes"
+    ],
+    "explanation": "King Viserys I breaks tradition by naming his eldest daughter Rhaenyra as his direct heir before the lords of Westeros.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "hbo-house-of-the-dragon"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "tv-stranger-things-hawkins-lab",
+    "conceptId": "stranger-things-eleven-powers",
+    "familyId": "stranger-things-eleven",
+    "type": "mcq",
+    "question": "In Stranger Things, what is the real first name of the young girl with telekinetic powers nicknamed 'Eleven'?",
+    "answers": [
+      "Jane",
+      "Max",
+      "Nancy",
+      "Sara"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "science-fiction",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "stranger-things",
+      "eleven",
+      "netflix",
+      "series-cultes"
+    ],
+    "explanation": "Eleven was named Jane Ives by her biological mother, Terry Ives, before being taken by Dr. Brenner at Hawkins laboratory.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "netflix-stranger-things"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "tv-stranger-things-vecna-song",
+    "conceptId": "stranger-things-max-kate-bush",
+    "familyId": "stranger-things-music-vecna",
+    "type": "mcq",
+    "question": "In season 4 of Stranger Things, which cult Kate Bush song allows Max to escape Vecna's grip?",
+    "answers": [
+      "Running Up That Hill",
+      "Wuthering Heights",
+      "Babooshka",
+      "Cloudbusting"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "science-fiction",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "stranger-things",
+      "musique",
+      "vecna",
+      "max",
+      "series-cultes"
+    ],
+    "explanation": "Kate Bush's 'Running Up That Hill' is played on Max's Walkman to break Vecna's mental spell.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "netflix-stranger-things"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.97,
+    "version": 1
+  },
+  {
+    "id": "tv-squid-game-number-gi-hun",
+    "conceptId": "squid-game-gihun-456",
+    "familyId": "squid-game-characters",
+    "type": "mcq",
+    "question": "In Squid Game, what participant number does the protagonist Seong Gi-hun wear?",
+    "answers": [
+      "456",
+      "001",
+      "218",
+      "067"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "thriller",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "squid-game",
+      "netflix",
+      "coree",
+      "series-cultes"
+    ],
+    "explanation": "Seong Gi-hun is the 456th and last player registered for the survival games.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "netflix-squid-game"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "tv-squid-game-first-game-korean-name",
+    "conceptId": "squid-game-red-light",
+    "familyId": "squid-game",
+    "type": "mcq",
+    "question": "In Squid Game, which traditional Korean children's game (equivalent to 'Red Light, Green Light') opens the competition?",
+    "answers": [
+      "Mugunghwa kkochi pieotseumnida",
+      "The squid game",
+      "Tug of war",
+      "Marbles (Gganbu)"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "thriller",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "squid-game",
+      "jeux",
+      "netflix",
+      "series-cultes"
+    ],
+    "explanation": "The giant doll Young-hee recites 'Mugunghwa kkochi pieotseumnida' (The hibiscus flower has bloomed) during the terrible first challenge.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "netflix-squid-game"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "tv-peaky-blinders-razor-caps",
+    "conceptId": "peaky-blinders-weapons-cap",
+    "familyId": "peaky-blinders-lore",
+    "type": "mcq",
+    "question": "In Peaky Blinders, where do members of Thomas Shelby's gang traditionally hide their razor blades?",
+    "answers": [
+      "In the visor of their cap",
+      "In the sole of their boots",
+      "In the lapel of their jacket",
+      "In the buckle of their belt"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "drame-historique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "peaky-blinders",
+      "shelby",
+      "birmingham",
+      "series-cultes"
+    ],
+    "explanation": "The gang's name 'Peaky Blinders' comes from these razor blades sewn into the visors of their flat caps ('peaked caps').",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "bbc-peaky-blinders"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.97,
+    "version": 1
+  },
+  {
+    "id": "tv-the-last-of-us-fungus",
+    "conceptId": "the-last-of-us-cordyceps-infection",
+    "familyId": "the-last-of-us-lore",
+    "type": "mcq",
+    "question": "In the series The Last of Us, which real fungus is at the origin of the terrible infection that ravages humanity?",
+    "answers": [
+      "Cordyceps",
+      "Death cap (Amanita phalloides)",
+      "Claviceps (Ergot)",
+      "Candida auris"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "post-apocalyptique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "the-last-of-us",
+      "joel",
+      "ellie",
+      "hbo",
+      "series-cultes"
+    ],
+    "explanation": "The brain infection by Cordyceps mutates and infects humans by controlling their nervous system and turning victims into clickers.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "hbo-the-last-of-us"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "tv-wednesday-nevermore-school",
+    "conceptId": "wednesday-nevermore-poe-school",
+    "familyId": "wednesday-addams-lore",
+    "type": "mcq",
+    "question": "In the series 'Wednesday', what is the name of the academy for outcasts where Wednesday Addams is sent?",
+    "answers": [
+      "Nevermore",
+      "Brakebills",
+      "Ravenswood",
+      "Halloweave"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "fantastique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mercredi",
+      "wednesday",
+      "addams",
+      "netflix",
+      "series-cultes"
+    ],
+    "explanation": "Nevermore Academy is named after the poem 'The Raven' by Edgar Allan Poe, one of the school's most famous alumni.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "netflix-wednesday"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "tv-the-boys-vought-compound",
+    "conceptId": "the-boys-compound-v-substance",
+    "familyId": "the-boys-lore",
+    "type": "mcq",
+    "question": "In The Boys, what chemical substance created by Vought International gives the 'Supes' their superpowers?",
+    "answers": [
+      "Compound V",
+      "Eclipse Serum",
+      "Storm Virus",
+      "Prime Elixir"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "super-heros",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "the-boys",
+      "homelander",
+      "vought",
+      "amazon-prime",
+      "series-cultes"
+    ],
+    "explanation": "Compound V is secretly administered to babies to grant them superhuman powers.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "amazon-the-boys"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.97,
+    "version": 1
+  },
+  {
+    "id": "tv-casa-de-papel-hymn",
+    "conceptId": "casa-de-papel-bella-ciao-song",
+    "familyId": "casa-de-papel-music",
+    "type": "mcq",
+    "question": "Which Italian resistance song is adopted as the emblematic anthem by the robbers in Money Heist?",
+    "answers": [
+      "Bella Ciao",
+      "Bandiera Rossa",
+      "Fischia il Vento",
+      "O Sole Mio"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "braquage",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "casa-de-papel",
+      "netflix",
+      "espagne",
+      "series-cultes"
+    ],
+    "explanation": "Bella Ciao is sung by the Professor and Berlin before inspiring the entire resistance movement of the robbers wearing Salvador Dalí masks.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "netflix-casa-de-papel"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "tv-the-witcher-law-of-surprise",
+    "conceptId": "the-witcher-ciri-law-of-surprise",
+    "familyId": "the-witcher-lore",
+    "type": "mcq",
+    "question": "In The Witcher, by which ancient sacred custom does Geralt of Rivia bind his destiny to that of Princess Ciri?",
+    "answers": [
+      "The Law of Surprise",
+      "The Pact of Kaer Morhen",
+      "The Oath of Cintra",
+      "The Law of the Elder Blood"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "fantastique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "the-witcher",
+      "geralt",
+      "ciri",
+      "netflix",
+      "series-cultes"
+    ],
+    "explanation": "Geralt invokes the Law of Surprise after saving Duny, claiming 'that which you already possess without knowing it', namely Ciri, whom Pavetta was pregnant with.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "netflix-the-witcher"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "tv-dark-time-cycle-years",
+    "conceptId": "dark-winden-33-years-cycle",
+    "familyId": "dark-netflix-lore",
+    "type": "mcq",
+    "question": "In the German series 'Dark', how many years is the time cycle linking the passages of the Winden cave?",
+    "answers": [
+      "33 years",
+      "25 years",
+      "50 years",
+      "12 years"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "science-fiction",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "dark",
+      "netflix",
+      "voyage-temporel",
+      "series-cultes"
+    ],
+    "explanation": "The time faults of Winden connect eras separated by a strict interval of 33 years (1953, 1986, 2019, etc.).",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "netflix-dark"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.97,
+    "version": 1
+  },
+  {
+    "id": "tv-succession-waystar-ceo",
+    "conceptId": "succession-logan-roy-waystar",
+    "familyId": "succession-hbo-lore",
+    "type": "mcq",
+    "question": "In the series Succession, what is the name of the ruthless patriarch at the helm of the media empire Waystar Royco?",
+    "answers": [
+      "Logan Roy",
+      "Kendall Roy",
+      "Roman Roy",
+      "Connor Roy"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "drame",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "succession",
+      "hbo",
+      "logan-roy",
+      "series-cultes"
+    ],
+    "explanation": "Logan Roy, played by Brian Cox, is the all-powerful founder and CEO whose children are vying for the succession.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "hbo-succession"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "tv-better-call-saul-real-name",
+    "conceptId": "better-call-saul-jimmy-mcgill",
+    "familyId": "better-call-saul-lore",
+    "type": "mcq",
+    "question": "In Better Call Saul, what is the real name of the shady lawyer Saul Goodman before he adopts his pseudonym?",
+    "answers": [
+      "James 'Jimmy' McGill",
+      "Howard Hamlin",
+      "Chuck McGill",
+      "Kim Wexler"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "drame-judiciaire",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "better-call-saul",
+      "breaking-bad",
+      "saul-goodman",
+      "series-cultes"
+    ],
+    "explanation": "Jimmy McGill starts his career as a small-time public defender before transforming into Saul Goodman ('S'all good, man!').",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "amc-better-call-saul"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "tv-mandalorian-metal-armor",
+    "conceptId": "mandalorian-beskar-armor-metal",
+    "familyId": "mandalorian-star-wars-lore",
+    "type": "mcq",
+    "question": "In The Mandalorian, what nearly indestructible metal is used to forge the legendary armor of the Mandalorians?",
+    "answers": [
+      "Beskar",
+      "Cortosis",
+      "Adamantium",
+      "Phrik"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "science-fiction",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "the-mandalorian",
+      "star-wars",
+      "disney",
+      "grogu",
+      "series-cultes"
+    ],
+    "explanation": "Beskar (Mandalorian iron) is a metal capable of withstanding blaster fire and even direct hits from a lightsaber.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "disney-mandalorian"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  },
+  {
+    "id": "tv-queens-gambit-beth-rival",
+    "conceptId": "queens-gambit-borgov-russian-champion",
+    "familyId": "queens-gambit-lore",
+    "type": "mcq",
+    "question": "In The Queen's Gambit, which Soviet world champion is Beth Harmon's ultimate great rival?",
+    "answers": [
+      "Vasily Borgov",
+      "Garry Kasparov",
+      "Benny Watts",
+      "Harry Beltik"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "drame",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "queens-gambit",
+      "echecs",
+      "netflix",
+      "beth-harmon",
+      "series-cultes"
+    ],
+    "explanation": "Vasily Borgov is the undefeated Soviet chess grandmaster whom Beth faces in a memorable final in Moscow.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "netflix-queens-gambit"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "tv-chernobyl-scientist-lead",
+    "conceptId": "chernobyl-valery-legasov-scientist",
+    "familyId": "chernobyl-hbo-history",
+    "type": "mcq",
+    "question": "In the miniseries Chernobyl (HBO), which Soviet scientist leads the investigation into the nuclear disaster of reactor 4?",
+    "answers": [
+      "Valery Legasov",
+      "Boris Shcherbina",
+      "Anatoly Dyatlov",
+      "Viktor Bryukhanov"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "drame-historique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "chernobyl",
+      "hbo",
+      "histoire",
+      "series-cultes"
+    ],
+    "explanation": "Valery Legasov, played by Jared Harris, fought to bring the truth to light about the design flaws of the RBMK reactors.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "hbo-chernobyl"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.97,
+    "version": 1
+  },
+  {
+    "id": "tv-severance-lumon-procedure",
+    "conceptId": "severance-lumon-memory-split",
+    "familyId": "severance-apple-lore",
+    "type": "mcq",
+    "question": "In the series Severance, what does the surgical medical procedure imposed on Lumon Industries employees consist of?",
+    "answers": [
+      "Surgically separating work memory from personal memory",
+      "Uploading their thoughts to quantum servers",
+      "Completely removing their emotions",
+      "Preventing their bodies from aging during working hours"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "thriller-sci-fi",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "severance",
+      "apple-tv",
+      "science-fiction",
+      "series-cultes"
+    ],
+    "explanation": "The 'severance' creates two watertight personalities: the 'Innie' at work and the 'Outie' in private life.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "apple-tv-severance"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "tv-lupin-necklace-louvre",
+    "conceptId": "lupin-marie-antoinette-necklace",
+    "familyId": "lupin-netflix-lore",
+    "type": "mcq",
+    "question": "In the series Lupin with Omar Sy, what invaluable object does Assane Diop steal from the Louvre Museum in the first episode?",
+    "answers": [
+      "The necklace of Queen Marie Antoinette",
+      "The Mona Lisa by Leonardo da Vinci",
+      "The Regent Diamond",
+      "Napoleon's crown"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "policier",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "lupin",
+      "omar-sy",
+      "netflix",
+      "france",
+      "series-cultes"
+    ],
+    "explanation": "Assane orchestrates an auction at the Louvre to seize the necklace that belonged to the Pellegrini family.",
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "netflix-lupin"
+      ]
+    },
+    "confidence": 0.99,
+    "qualityScore": 0.98,
+    "version": 1
+  }
+]

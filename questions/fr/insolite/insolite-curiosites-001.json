@@ -1,0 +1,392 @@
+[
+  {
+    "id": "insolite-curiosites-0001",
+    "conceptId": "concept-insolite-curiosites-0001",
+    "familyId": "family-insolite-curiosites-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de cœurs le poulpe possède-t-il pour faire circuler son sang bleu ?",
+    "answers": [
+      "2 cœurs",
+      "3 cœurs",
+      "1 cœur",
+      "4 cœurs"
+    ],
+    "correctAnswer": 1,
+    "category": "insolite",
+    "subcategory": "nature",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "insolite",
+      "nature"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0002",
+    "conceptId": "concept-insolite-curiosites-0002",
+    "familyId": "family-insolite-curiosites-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle couleur ont les flamants roses à leur naissance avant que leur alimentation en crevettes ne les colore ?",
+    "answers": [
+      "Gris",
+      "Rose pâle",
+      "Noir",
+      "Blanc"
+    ],
+    "correctAnswer": 0,
+    "category": "insolite",
+    "subcategory": "nature",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "insolite",
+      "nature"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0003",
+    "conceptId": "concept-insolite-curiosites-0003",
+    "familyId": "family-insolite-curiosites-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mammifère est le seul animal capable d'un vol battu autonome dans les airs ?",
+    "answers": [
+      "L'écureuil volant",
+      "L'ornithorynque",
+      "La chauve-souris",
+      "Le lémurien"
+    ],
+    "correctAnswer": 2,
+    "category": "insolite",
+    "subcategory": "nature",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "insolite",
+      "nature"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0004",
+    "conceptId": "concept-insolite-curiosites-0004",
+    "familyId": "family-insolite-curiosites-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel animal aquatique pond des œufs tout en allaitant ses petits avec du lait et possède un bec de canard ?",
+    "answers": [
+      "La loutre géante",
+      "L'ornithorynque",
+      "Le castor",
+      "L'échidné"
+    ],
+    "correctAnswer": 1,
+    "category": "insolite",
+    "subcategory": "nature",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "insolite",
+      "nature"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0005",
+    "conceptId": "concept-insolite-curiosites-0005",
+    "familyId": "family-insolite-curiosites-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien d'yeux la plupart des espèces d'araignées possèdent-elles ?",
+    "answers": [
+      "6 yeux",
+      "4 yeux",
+      "2 yeux",
+      "8 yeux"
+    ],
+    "correctAnswer": 3,
+    "category": "insolite",
+    "subcategory": "nature",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "insolite",
+      "nature"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0006",
+    "conceptId": "concept-insolite-curiosites-0006",
+    "familyId": "family-insolite-curiosites-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est la durée de gestation moyenne d'une femelle éléphant d'Asie ou d'Afrique ?",
+    "answers": [
+      "Environ 12 mois",
+      "Environ 16 mois",
+      "Environ 22 mois",
+      "Environ 30 mois"
+    ],
+    "correctAnswer": 2,
+    "category": "insolite",
+    "subcategory": "nature",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "insolite",
+      "nature"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0007",
+    "conceptId": "concept-insolite-curiosites-0007",
+    "familyId": "family-insolite-curiosites-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel os du corps humain est le plus long et le plus résistant ?",
+    "answers": [
+      "L'humérus",
+      "Le fémur",
+      "Le tibia",
+      "Le péroné"
+    ],
+    "correctAnswer": 1,
+    "category": "insolite",
+    "subcategory": "corps-humain",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "insolite",
+      "corps-humain"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0008",
+    "conceptId": "concept-insolite-curiosites-0008",
+    "familyId": "family-insolite-curiosites-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le seul continent de la planète Terre qui ne possède aucun désert chaud ou froid ?",
+    "answers": [
+      "L'Amérique du Sud",
+      "L'Océanie",
+      "L'Europe",
+      "L'Afrique"
+    ],
+    "correctAnswer": 2,
+    "category": "insolite",
+    "subcategory": "geographie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "insolite",
+      "geographie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0009",
+    "conceptId": "concept-insolite-curiosites-0009",
+    "familyId": "family-insolite-curiosites-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel état américain est le plus grand en superficie, dépassant à lui seul la taille de la France et de l'Espagne réunies ?",
+    "answers": [
+      "L'Alaska",
+      "Le Texas",
+      "La Californie",
+      "Le Montana"
+    ],
+    "correctAnswer": 0,
+    "category": "insolite",
+    "subcategory": "geographie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "insolite",
+      "geographie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "insolite-curiosites-0010",
+    "conceptId": "concept-insolite-curiosites-0010",
+    "familyId": "family-insolite-curiosites-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de faces possède un icosaèdre régulier en géométrie ?",
+    "answers": [
+      "30 faces",
+      "12 faces",
+      "24 faces",
+      "20 faces"
+    ],
+    "correctAnswer": 3,
+    "category": "insolite",
+    "subcategory": "mathematiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "insolite",
+      "mathematiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "insolite-curiosites-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

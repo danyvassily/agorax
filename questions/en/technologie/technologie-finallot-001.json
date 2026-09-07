@@ -1,0 +1,362 @@
+[
+  {
+    "id": "fin-technologie-0001",
+    "conceptId": "concept-fin-technologie-0001",
+    "familyId": "family-fin-technologie-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which open-source operating system, whose mascot is the penguin Tux, was created by Linus Torvalds in 1991?",
+    "answers": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "FreeBSD"
+    ],
+    "correctAnswer": 2,
+    "category": "technologie",
+    "subcategory": "informatique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "informatique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Linus Torvalds developed the Linux kernel as a personal project at the University of Helsinki before it powered the global web."
+  },
+  {
+    "id": "fin-technologie-0002",
+    "conceptId": "concept-fin-technologie-0002",
+    "familyId": "family-fin-technologie-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which British researcher invented the World Wide Web at CERN in 1989 by creating the HTTP and HTML protocols?",
+    "answers": [
+      "Tim Berners-Lee",
+      "Alan Turing",
+      "Marc Andreessen",
+      "Vint Cerf"
+    ],
+    "correctAnswer": 0,
+    "category": "technologie",
+    "subcategory": "web",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "web"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Tim Berners-Lee designed the Web to facilitate data sharing among scientists without filing a lucrative patent."
+  },
+  {
+    "id": "fin-technologie-0003",
+    "conceptId": "concept-fin-technologie-0003",
+    "familyId": "family-fin-technologie-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which universal scripting language was created in just 10 days in 1995 by Brendan Eich for the Netscape browser?",
+    "answers": [
+      "PHP",
+      "Java",
+      "JavaScript",
+      "Python"
+    ],
+    "correctAnswer": 2,
+    "category": "technologie",
+    "subcategory": "programmation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "programmation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Initially called Mocha and then LiveScript, JavaScript became the fundamental and essential language of the interactive web."
+  },
+  {
+    "id": "fin-technologie-0004",
+    "conceptId": "concept-fin-technologie-0004",
+    "familyId": "family-fin-technologie-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which 19th-century British mathematician, daughter of Lord Byron, is considered the first programmer in history?",
+    "answers": [
+      "Ada Lovelace",
+      "Hedy Lamarr",
+      "Margaret Hamilton",
+      "Grace Hopper"
+    ],
+    "correctAnswer": 0,
+    "category": "technologie",
+    "subcategory": "histoire-informatique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "histoire-informatique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Ada Lovelace wrote in 1843 the first algorithm intended to be executed by Charles Babbage's analytical engine."
+  },
+  {
+    "id": "fin-technologie-0005",
+    "conceptId": "concept-fin-technologie-0005",
+    "familyId": "family-fin-technologie-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which British mathematician and cryptologist designed the concept of the universal machine and broke the code of the Enigma machine?",
+    "answers": [
+      "Norbert Wiener",
+      "Alan Turing",
+      "Claude Shannon",
+      "John von Neumann"
+    ],
+    "correctAnswer": 1,
+    "category": "technologie",
+    "subcategory": "histoire-informatique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "histoire-informatique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Alan Turing is one of the founding fathers of theoretical computer science and artificial intelligence (Turing test)."
+  },
+  {
+    "id": "fin-technologie-0006",
+    "conceptId": "concept-fin-technologie-0006",
+    "familyId": "family-fin-technologie-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In what year did Steve Jobs present Apple's very first touchscreen iPhone smartphone during a famous keynote?",
+    "answers": [
+      "2007",
+      "2005",
+      "2008",
+      "2010"
+    ],
+    "correctAnswer": 0,
+    "category": "technologie",
+    "subcategory": "smartphones",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "smartphones"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "On January 9, 2007 in San Francisco, Steve Jobs unveiled the iPhone, combining an iPod, a phone, and an internet terminal."
+  },
+  {
+    "id": "fin-technologie-0007",
+    "conceptId": "concept-fin-technologie-0007",
+    "familyId": "family-fin-technologie-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which mobile operating system, bought by Google in 2005, powers the majority of smartphones on the planet?",
+    "answers": [
+      "Windows Phone",
+      "iOS",
+      "Symbian",
+      "Android"
+    ],
+    "correctAnswer": 3,
+    "category": "technologie",
+    "subcategory": "systemes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "systemes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Android is an open-source operating system based on the Linux kernel, used by billions of mobile devices."
+  },
+  {
+    "id": "fin-technologie-0008",
+    "conceptId": "concept-fin-technologie-0008",
+    "familyId": "family-fin-technologie-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which type of volatile memory loses all its stored data when the computer is turned off?",
+    "answers": [
+      "RAM",
+      "Hard disk",
+      "ROM",
+      "SSD"
+    ],
+    "correctAnswer": 0,
+    "category": "technologie",
+    "subcategory": "materiel",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "materiel"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "RAM (Random Access Memory) allows the processor to instantly access active instructions."
+  },
+  {
+    "id": "fin-technologie-0009",
+    "conceptId": "concept-fin-technologie-0009",
+    "familyId": "family-fin-technologie-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What type of fast electronic storage medium with no moving mechanical parts has gradually replaced the classic magnetic hard disk drive?",
+    "answers": [
+      "The CD-ROM",
+      "The SSD drive",
+      "The floppy disk",
+      "The magnetic tape"
+    ],
+    "correctAnswer": 1,
+    "category": "technologie",
+    "subcategory": "materiel",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "technologie",
+      "materiel"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "SSDs (Solid-State Drives) rely on flash memory, offering tenfold faster read and write speeds."
+  }
+]

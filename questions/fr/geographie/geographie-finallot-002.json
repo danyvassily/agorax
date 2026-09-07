@@ -1,0 +1,802 @@
+[
+  {
+    "id": "fin-geographie-0051",
+    "conceptId": "concept-fin-geographie-0051",
+    "familyId": "family-fin-geographie-0026",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est la plus grande île de la planète en superficie, appartenant géopolitiquement au royaume du Danemark ?",
+    "answers": [
+      "La Nouvelle-Guinée",
+      "Le Groenland",
+      "Bornéo",
+      "Madagascar"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0051",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Groenland s'étend sur plus de 2,1 millions de km², ce qui en fait la plus vaste île non continentale du monde."
+  },
+  {
+    "id": "fin-geographie-0052",
+    "conceptId": "concept-fin-geographie-0052",
+    "familyId": "family-fin-geographie-0026",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est la deuxième plus grande île du monde par sa superficie, située au nord de l'Australie ?",
+    "answers": [
+      "Bornéo",
+      "La Nouvelle-Guinée",
+      "Sumatra",
+      "Madagascar"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0052",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Nouvelle-Guinée est partagée entre l'Indonésie à l'ouest et l'État indépendant de Papouasie-Nouvelle-Guinée à l'est."
+  },
+  {
+    "id": "fin-geographie-0053",
+    "conceptId": "concept-fin-geographie-0053",
+    "familyId": "family-fin-geographie-0027",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle grande île d'Asie du Sud-Est est politiquement partagée entre l'Indonésie, la Malaisie et le sultanat de Brunei ?",
+    "answers": [
+      "Sumatra",
+      "Célèbes",
+      "Java",
+      "Bornéo"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0053",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Bornéo est la troisième plus grande île au monde et la seule partagée entre trois pays souverains distincts."
+  },
+  {
+    "id": "fin-geographie-0054",
+    "conceptId": "concept-fin-geographie-0054",
+    "familyId": "family-fin-geographie-0027",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle grande île de l'océan Indien est réputée pour sa biodiversité exceptionnelle et ses nombreuses espèces de lémuriens ?",
+    "answers": [
+      "Madagascar",
+      "La Réunion",
+      "Mayotte",
+      "L'île Maurice"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0054",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Madagascar s'est séparée du continent africain il y a des dizaines de millions d'années, créant un écosystème unique."
+  },
+  {
+    "id": "fin-geographie-0055",
+    "conceptId": "concept-fin-geographie-0055",
+    "familyId": "family-fin-geographie-0028",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est la plus grande et la plus peuplée des quatre îles principales qui composent le Japon ?",
+    "answers": [
+      "Hokkaido",
+      "Shikoku",
+      "Honshu",
+      "Kyushu"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0055",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Honshu abrite les grandes métropoles japonaises comme Tokyo, Osaka, Kyoto et Nagoya."
+  },
+  {
+    "id": "fin-geographie-0056",
+    "conceptId": "concept-fin-geographie-0056",
+    "familyId": "family-fin-geographie-0028",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle île septentrionale du Japon est connue pour ses hivers rigoureux et sa grande ville de Sapporo ?",
+    "answers": [
+      "Honshu",
+      "Shikoku",
+      "Hokkaido",
+      "Okinawa"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0056",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hokkaido est la deuxième plus grande île de l'archipel nippon, réputée pour ses stations de ski et ses parcs naturels."
+  },
+  {
+    "id": "fin-geographie-0057",
+    "conceptId": "concept-fin-geographie-0057",
+    "familyId": "family-fin-geographie-0029",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est la plus grande île de la mer Méditerranée en superficie ?",
+    "answers": [
+      "La Corse",
+      "Chypre",
+      "La Sicile",
+      "La Sardaigne"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0057",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Sicile est la plus grande île méditerranéenne avec plus de 25 700 km² de surface."
+  },
+  {
+    "id": "fin-geographie-0058",
+    "conceptId": "concept-fin-geographie-0058",
+    "familyId": "family-fin-geographie-0029",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle île méditerranéenne italienne est située immédiatement au sud de la Corse française ?",
+    "answers": [
+      "La Sardaigne",
+      "La Sicile",
+      "L'île d'Elbe",
+      "Capri"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0058",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Sardaigne est séparée de la Corse par les bouches de Bonifacio, un détroit maritime de seulement 11 km."
+  },
+  {
+    "id": "fin-geographie-0059",
+    "conceptId": "concept-fin-geographie-0059",
+    "familyId": "family-fin-geographie-0030",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle région insulaire française trouve-t-on les villes d'Ajaccio et de Bastia ?",
+    "answers": [
+      "La Guadeloupe",
+      "La Martinique",
+      "La Corse",
+      "La Réunion"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0059",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Corse est une collectivité territoriale insulaire surnommée l'île de Beauté."
+  },
+  {
+    "id": "fin-geographie-0060",
+    "conceptId": "concept-fin-geographie-0060",
+    "familyId": "family-fin-geographie-0030",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel archipel espagnol de l'océan Atlantique se compose notamment de Tenerife, Grande Canarie et Lanzarote ?",
+    "answers": [
+      "Les îles Canaries",
+      "Madère",
+      "Les Baléares",
+      "Les Açores"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0060",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les îles Canaries sont une communauté autonome espagnole située au large des côtes du Maroc."
+  },
+  {
+    "id": "fin-geographie-0061",
+    "conceptId": "concept-fin-geographie-0061",
+    "familyId": "family-fin-geographie-0031",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel archipel espagnol situé en Méditerranée occidentale regroupe Majorque, Minorque, Ibiza et Formentera ?",
+    "answers": [
+      "Les Cyclades",
+      "Les îles Baléares",
+      "Les îles Éoliennes",
+      "Les îles Canaries"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0061",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les îles Baléares forment une communauté autonome espagnole dont la capitale est Palma de Majorque."
+  },
+  {
+    "id": "fin-geographie-0062",
+    "conceptId": "concept-fin-geographie-0062",
+    "familyId": "family-fin-geographie-0031",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel archipel volcanique portugais de l'Atlantique comprend les îles de São Miguel, Terceira et Pico ?",
+    "answers": [
+      "Les Açores",
+      "Madère",
+      "Le Cap-Vert",
+      "Les Canaries"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0062",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les Açores sont une région autonome du Portugal située à environ 1 500 km des côtes de Lisbonne."
+  },
+  {
+    "id": "fin-geographie-0063",
+    "conceptId": "concept-fin-geographie-0063",
+    "familyId": "family-fin-geographie-0032",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel archipel équatorien de l'océan Pacifique a inspiré à Charles Darwin sa théorie de l'évolution par sélection naturelle ?",
+    "answers": [
+      "Les îles Malouines",
+      "Les îles Galápagos",
+      "L'île de Pâques",
+      "L'archipel Juan Fernández"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0063",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les îles Galápagos abritent une faune endémique singulière (tortues géantes, iguanes marins, pinsons)."
+  },
+  {
+    "id": "fin-geographie-0064",
+    "conceptId": "concept-fin-geographie-0064",
+    "familyId": "family-fin-geographie-0032",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "À quel pays appartient l'île de Pâques (Rapa Nui), célèbre pour ses monumentales statues Moaï ?",
+    "answers": [
+      "L'Équateur",
+      "Le Pérou",
+      "Le Chili",
+      "L'Argentine"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0064",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'île de Pâques est une province spéciale rattachée à la région de Valparaíso au Chili."
+  },
+  {
+    "id": "fin-geographie-0065",
+    "conceptId": "concept-fin-geographie-0065",
+    "familyId": "family-fin-geographie-0033",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle île grecque célèbre de la mer Égée est réputée pour ses maisons blanches aux dômes bleus perchées sur une caldeira ?",
+    "answers": [
+      "Santorin",
+      "Corfou",
+      "Rhodes",
+      "Mykonos"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0065",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Santorin (Thíra) est le vestige d'une île volcanique détruite par une éruption colossale vers 1600 avant notre ère."
+  },
+  {
+    "id": "fin-geographie-0066",
+    "conceptId": "concept-fin-geographie-0066",
+    "familyId": "family-fin-geographie-0033",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est la plus grande île de l'archipel des Antilles et des Caraïbes avec La Havane pour capitale ?",
+    "answers": [
+      "Cuba",
+      "Hispaniola",
+      "Porto Rico",
+      "La Jamaïque"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0066",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Cuba est la plus vaste île des Caraïbes avec une superficie d'environ 109 884 km²."
+  },
+  {
+    "id": "fin-geographie-0067",
+    "conceptId": "concept-fin-geographie-0067",
+    "familyId": "family-fin-geographie-0034",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quelle île des Caraïbes cohabitent la république d'Haïti et la République dominicaine ?",
+    "answers": [
+      "Cuba",
+      "Porto Rico",
+      "La Jamaïque",
+      "Hispaniola"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0067",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hispaniola a été nommée ainsi par Christophe Colomb lors de son débarquement en 1492."
+  },
+  {
+    "id": "fin-geographie-0068",
+    "conceptId": "concept-fin-geographie-0068",
+    "familyId": "family-fin-geographie-0034",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel archipel norvégien de l'océan Arctique abrite la réserve mondiale de semences du Svalbard ?",
+    "answers": [
+      "Les Lofoten",
+      "Les Shetland",
+      "Le Svalbard",
+      "Les îles Féroé"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0068",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Svalbard (dont l'île principale est le Spitzberg) conserve des millions d'échantillons de graines sous le pergélisol."
+  },
+  {
+    "id": "fin-geographie-0069",
+    "conceptId": "concept-fin-geographie-0069",
+    "familyId": "family-fin-geographie-0035",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "À quel pays appartient l'archipel des îles Féroé situé dans l'Atlantique Nord entre l'Écosse et l'Islande ?",
+    "answers": [
+      "Le Danemark",
+      "L'Islande",
+      "Le Royaume-Uni",
+      "La Norvège"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0069",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les îles Féroé constituent un pays constitutif autonome du royaume du Danemark."
+  },
+  {
+    "id": "fin-geographie-0070",
+    "conceptId": "concept-fin-geographie-0070",
+    "familyId": "family-fin-geographie-0035",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle île italienne de la baie de Naples est célèbre pour sa 'Grotte bleue' et ses falaises de calcaire ?",
+    "answers": [
+      "Capri",
+      "Procida",
+      "Elbe",
+      "Ischia"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0070",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Capri est une île réputée depuis l'Antiquité romaine, où l'empereur Tibère s'était retiré à la Villa Jovis."
+  }
+]

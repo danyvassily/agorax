@@ -1,0 +1,202 @@
+[
+  {
+    "id": "animaux-dump2-0616",
+    "conceptId": "concept-animaux-0616",
+    "familyId": "family-animaux-0308",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which is the wrong statement about chinchilla breeding?",
+    "answers": [
+      "Chinchilla litters predominately consist of twins.",
+      "Little chinchillas are born furred and with eyes open.",
+      "Chinchillas can breed any time of the year.",
+      "Chinchillas have a 45-day gestation period."
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0616",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0621",
+    "conceptId": "concept-animaux-0621",
+    "familyId": "family-animaux-0311",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Name the two types of Chinese Crested dogs.",
+    "answers": [
+      "Hairless and Hound",
+      "Sporty and Spotted",
+      "Hairless and Powderpuff",
+      "Water and Runner"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0621",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0622",
+    "conceptId": "concept-animaux-0622",
+    "familyId": "family-animaux-0311",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which breed group does the Chinese Crested dog belong to?",
+    "answers": [
+      "Toy",
+      "Hound",
+      "Non-Sporting",
+      "Sporting"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0622",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0635",
+    "conceptId": "concept-animaux-0635",
+    "familyId": "family-animaux-0318",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which famous musician released his album The Fox in 1981?",
+    "answers": [
+      "Julio Iglesias",
+      "Barry White",
+      "Elton John",
+      "Tom Jones"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0635",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0647",
+    "conceptId": "concept-animaux-0647",
+    "familyId": "family-animaux-0324",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How did hummingbirds get their interesting name?",
+    "answers": [
+      "Because of their singing",
+      "Because of the noise they produce when they fly",
+      "They are named after their discoverer, Michael Hummings.",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0647",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

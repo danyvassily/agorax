@@ -1,0 +1,322 @@
+[
+  {
+    "id": "animaux-final-0963",
+    "conceptId": "concept-animaux-0963",
+    "familyId": "family-animaux-0482",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What kangaroo species set a record by moving with 64 kilometers per hour (40 mph)?",
+    "answers": [
+      "All of these",
+      "Eastern Grey Kangaroo",
+      "Forester Kangaroo",
+      "Great Grey Kangaroo"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0963",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0967",
+    "conceptId": "concept-animaux-0967",
+    "familyId": "family-animaux-0484",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What other common name is used for a mudpuppy?",
+    "answers": [
+      "Waterdog",
+      "Water Canine",
+      "Salamander",
+      "Mud Dog"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0967",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0968",
+    "conceptId": "concept-animaux-0968",
+    "familyId": "family-animaux-0484",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What type of animal is a mudpuppy?",
+    "answers": [
+      "skink",
+      "fish",
+      "salamander",
+      "eel"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0968",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0972",
+    "conceptId": "concept-animaux-0972",
+    "familyId": "family-animaux-0486",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How long is the average mudpuppy?",
+    "answers": [
+      "12 inches",
+      "5-7 inches",
+      "1 1/2 -3 inches",
+      "13-16 inches"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0972",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0973",
+    "conceptId": "concept-animaux-0973",
+    "familyId": "family-animaux-0487",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Wombats are endemic to this geographical area. ?",
+    "answers": [
+      "Australia and Tasmania",
+      "Indonesia and the Philippines",
+      "Madagascar",
+      "South America"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0973",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0976",
+    "conceptId": "concept-animaux-0976",
+    "familyId": "family-animaux-0488",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What unusual anatomical feature do wombats possess?",
+    "answers": [
+      "They dont have eyelids.",
+      "Their pouch faces backwards.",
+      "They dont have a spleen.",
+      "All of these"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0976",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0991",
+    "conceptId": "concept-animaux-0991",
+    "familyId": "family-animaux-0496",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How do most bat species spend the cold winter months?",
+    "answers": [
+      "None of these",
+      "They migrate south to to regions with warmer climates.",
+      "They do not change their behavior in the winter.",
+      "They hibernate."
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0991",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0998",
+    "conceptId": "concept-animaux-0998",
+    "familyId": "family-animaux-0499",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "During what geological time period did the ammonites evolve?",
+    "answers": [
+      "The Devonian period",
+      "The Silurian period",
+      "The Carboniferous period",
+      "The Triassic period"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0998",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

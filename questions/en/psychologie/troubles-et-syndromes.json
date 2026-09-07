@@ -1,0 +1,361 @@
+[
+  {
+    "id": "psycho-syndrome-stockholm",
+    "type": "mcq",
+    "question": "Which syndrome refers to the psychological phenomenon where hostages develop empathy or sympathy for their captors?",
+    "answers": [
+      "Lima syndrome",
+      "Stockholm syndrome",
+      "Stendhal syndrome",
+      "Jerusalem syndrome"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "criminologie"
+    ],
+    "conceptId": "psycho-syndrome-stockholm",
+    "familyId": "psycho-syndrome-stockholm",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-lima",
+    "type": "mcq",
+    "question": "Unlike Stockholm syndrome, what is the situation called where it is the captors who develop empathy for their hostages?",
+    "answers": [
+      "Lima syndrome",
+      "Florence syndrome",
+      "The mirror effect",
+      "Empathic dissonance"
+    ],
+    "correctAnswer": 0,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "syndrome"
+    ],
+    "conceptId": "psycho-syndrome-lima",
+    "familyId": "psycho-syndrome-lima",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-capgras",
+    "type": "mcq",
+    "question": "A person suffering from the dizzying Capgras syndrome is intimately convinced that...",
+    "answers": [
+      "They are dead and their body is decomposing",
+      "Their loved ones have been replaced by perfect doubles or impostors",
+      "One can read their thoughts",
+      "They are the reincarnation of a historical figure"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "psychiatrie"
+    ],
+    "conceptId": "psycho-syndrome-capgras",
+    "familyId": "psycho-syndrome-capgras",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-stendhal",
+    "type": "mcq",
+    "question": "Stendhal syndrome often occurs in tourists (especially in Florence). It causes dizziness and hallucinations in the face of...",
+    "answers": [
+      "Crowds and noise",
+      "An abundance of extremely beautiful works of art",
+      "Religious architecture",
+      "Lack of sleep due to jet lag"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "art"
+    ],
+    "conceptId": "psycho-syndrome-stendhal",
+    "familyId": "psycho-syndrome-stendhal",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-jerusalem",
+    "type": "mcq",
+    "question": "What is the main symptom of Jerusalem syndrome, which affects some tourists visiting the holy city?",
+    "answers": [
+      "Total temporary amnesia",
+      "Loss of one's mother tongue",
+      "Mystical delusions, believing oneself to be a biblical figure (like Moses or Jesus)",
+      "A sudden phobia of religious buildings"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "religion"
+    ],
+    "conceptId": "psycho-syndrome-jerusalem",
+    "familyId": "psycho-syndrome-jerusalem",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-imposteur",
+    "type": "mcq",
+    "question": "A person suffering from impostor syndrome tends to...",
+    "answers": [
+      "Lie on their resume to get a job",
+      "Steal someone else's identity",
+      "Attribute their successes to luck and fear being exposed as incompetent",
+      "Fake illnesses to attract attention"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "travail"
+    ],
+    "conceptId": "psycho-syndrome-imposteur",
+    "familyId": "psycho-syndrome-imposteur",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-munchausen",
+    "type": "mcq",
+    "question": "What does Münchhausen syndrome involve?",
+    "answers": [
+      "Simulating or inducing medical symptoms in oneself to attract attention",
+      "Compulsively lying without reason",
+      "Believing that one has been abducted by aliens",
+      "Compulsively buying useless objects"
+    ],
+    "correctAnswer": 0,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "médecine"
+    ],
+    "conceptId": "psycho-syndrome-munchausen",
+    "familyId": "psycho-syndrome-munchausen",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-fregoli",
+    "type": "mcq",
+    "question": "What rare delusion causes a person to believe that different people they encounter are actually the same person in disguise?",
+    "answers": [
+      "Capgras syndrome",
+      "Fregoli syndrome",
+      "Multiple personality disorder",
+      "Prosopagnosia"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "délire"
+    ],
+    "conceptId": "psycho-syndrome-fregoli",
+    "familyId": "psycho-syndrome-fregoli",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-prosopagnosie",
+    "type": "mcq",
+    "question": "If you have prosopagnosia, what is your major difficulty in daily life?",
+    "answers": [
+      "You cannot feel pain",
+      "You are unable to recognize familiar faces, even your own",
+      "You completely lose your sense of direction",
+      "You can no longer read or write"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "troubles",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "troubles",
+      "cerveau"
+    ],
+    "conceptId": "psycho-prosopagnosie",
+    "familyId": "psycho-prosopagnosie",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-cotard",
+    "type": "mcq",
+    "question": "The chilling Cotard syndrome is a psychiatric delusion where the patient is convinced that...",
+    "answers": [
+      "The whole world is a simulation",
+      "He is immortal",
+      "His organs are rotten or that he is already dead (delusion of negation)",
+      "All his loved ones want to poison him"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "psychiatrie"
+    ],
+    "conceptId": "psycho-syndrome-cotard",
+    "familyId": "psycho-syndrome-cotard",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  }
+]

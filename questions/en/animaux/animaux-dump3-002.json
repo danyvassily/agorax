@@ -1,0 +1,562 @@
+[
+  {
+    "id": "animaux-final-0852",
+    "conceptId": "concept-animaux-0852",
+    "familyId": "family-animaux-0426",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What interesting resting posture does the Indian Treeshrew, a.k.a. Madras Treeshrew, have?",
+    "answers": [
+      "Hanging upside down from a branch",
+      "Cuddling its rear legs",
+      "With its tail resting on its head",
+      "Sprawling on the ground as if its dead"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0852",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0855",
+    "conceptId": "concept-animaux-0855",
+    "familyId": "family-animaux-0428",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How do platypuses reproduce?",
+    "answers": [
+      "Platypuses reproduce asexually.",
+      "Platypuses lay eggs.",
+      "Platypuses are metatherian.",
+      "None of these"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0855",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0862",
+    "conceptId": "concept-animaux-0862",
+    "familyId": "family-animaux-0431",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What geographical region are chinchillas native to?",
+    "answers": [
+      "North America",
+      "Asia",
+      "South America",
+      "Africa"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0862",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0866",
+    "conceptId": "concept-animaux-0866",
+    "familyId": "family-animaux-0433",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which chinchilla species has become extinct as a result of fur hunting?",
+    "answers": [
+      "Giant Chinchilla",
+      "Long-tailed Chinchilla",
+      "Red-nosed Chinchilla",
+      "All of these"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0866",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0876",
+    "conceptId": "concept-animaux-0876",
+    "familyId": "family-animaux-0438",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "This hairless cat breed originated in Russia. ?",
+    "answers": [
+      "Don Sphynx",
+      "Donskoy",
+      "All of these",
+      "Don Hairless"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0876",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0877",
+    "conceptId": "concept-animaux-0877",
+    "familyId": "family-animaux-0439",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "This cat breed originated in Thailand, has a very slender elongated body, short fur, and very large ears.",
+    "answers": [
+      "Oriental Shorthair",
+      "Selkirk Rex",
+      "Singapura",
+      "Siamese"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0877",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0884",
+    "conceptId": "concept-animaux-0884",
+    "familyId": "family-animaux-0442",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What important internal organ does the ostrich lack?",
+    "answers": [
+      "Liver",
+      "Spleen",
+      "Gallbladder",
+      "All of these"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0884",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0887",
+    "conceptId": "concept-animaux-0887",
+    "familyId": "family-animaux-0444",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What unusual anatomical feature does the male ostrich possess?",
+    "answers": [
+      "It has four testicles.",
+      "All of these",
+      "It has a copulatory organ.",
+      "It has a very small horn on its head."
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0887",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0889",
+    "conceptId": "concept-animaux-0889",
+    "familyId": "family-animaux-0445",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Unlike other ostriches, this subspecies of ostrich has small feathers on its head.",
+    "answers": [
+      "North African Ostrich",
+      "Somali Ostrich",
+      "Arabian Ostrich",
+      "Masai Ostrich"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0889",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0890",
+    "conceptId": "concept-animaux-0890",
+    "familyId": "family-animaux-0445",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which subspecies of ostrich became extinct around 1966?",
+    "answers": [
+      "Somali Ostrich",
+      "Middle Eastern Ostrich",
+      "Red-necked Ostrich",
+      "Southern Ostrich"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0890",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0894",
+    "conceptId": "concept-animaux-0894",
+    "familyId": "family-animaux-0447",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What elephant species has two fingerlike projections at the end of its trunk?",
+    "answers": [
+      "Asian Elephant",
+      "Sri Lankan Elephant",
+      "African Elephant",
+      "All of these"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0894",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0896",
+    "conceptId": "concept-animaux-0896",
+    "familyId": "family-animaux-0448",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What statement is true about elephants' mammary glands?",
+    "answers": [
+      "They have only one mammary gland.",
+      "They have two pairs of mammary glands.",
+      "They have one pair of mammary glands.",
+      "None of these"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0896",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0897",
+    "conceptId": "concept-animaux-0897",
+    "familyId": "family-animaux-0449",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How long does the gestation period of elephants last?",
+    "answers": [
+      "12 months",
+      "30 months",
+      "22 months",
+      "18 months"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0897",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0899",
+    "conceptId": "concept-animaux-0899",
+    "familyId": "family-animaux-0450",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Why isn't the baby elephant able to control its trunk?",
+    "answers": [
+      "Because it is too heavy for it",
+      "Because it lacks muscle tone",
+      "Because it cannot feel it",
+      "All of these"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0899",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

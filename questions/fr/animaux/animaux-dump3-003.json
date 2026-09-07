@@ -1,0 +1,322 @@
+[
+  {
+    "id": "animaux-final-0921",
+    "conceptId": "concept-animaux-0921",
+    "familyId": "family-animaux-0461",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What geographic area did the guinea pig originate from?",
+    "answers": [
+      "South America",
+      "Australia and New Guinea",
+      "North America",
+      "Africa"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0921",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0927",
+    "conceptId": "concept-animaux-0927",
+    "familyId": "family-animaux-0464",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What actor voiced the guinea pig character called Rodney in the 1998 comedy movie Dr. Dolittle?",
+    "answers": [
+      "Eddie Murphy",
+      "Chris Rock",
+      "Jim Carrey",
+      "Chris Tucker"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0927",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0929",
+    "conceptId": "concept-animaux-0929",
+    "familyId": "family-animaux-0465",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "To what continent are raccoons native?",
+    "answers": [
+      "Both Americas",
+      "North America",
+      "South America",
+      "Australia"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0929",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0930",
+    "conceptId": "concept-animaux-0930",
+    "familyId": "family-animaux-0465",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Captive raccoons are known for performing this vacuum activity. ?",
+    "answers": [
+      "All of these",
+      "Scratching their belly",
+      "Dousing their food",
+      "Playing dead"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0930",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0932",
+    "conceptId": "concept-animaux-0932",
+    "familyId": "family-animaux-0466",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What animal is a major predator for wild raccoons?",
+    "answers": [
+      "All of these",
+      "Bald eagle",
+      "Coyote",
+      "Bobcat"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0932",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0936",
+    "conceptId": "concept-animaux-0936",
+    "familyId": "family-animaux-0468",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What have raccoons been mostly hunted for throughout history?",
+    "answers": [
+      "Their fat",
+      "Their meat",
+      "Their fur",
+      "Their bones"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0936",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0937",
+    "conceptId": "concept-animaux-0937",
+    "familyId": "family-animaux-0469",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What popular cartoon character from a 1995 animated movie keeps a raccoon as a pet?",
+    "answers": [
+      "Simba",
+      "Mulan",
+      "Shrek",
+      "Pocahontas"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0937",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-final-0942",
+    "conceptId": "concept-animaux-0942",
+    "familyId": "family-animaux-0471",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How did the glass lizard, also known as glass snake, get its interesting name?",
+    "answers": [
+      "Its eyes are glass-like.",
+      "It is almost transparent.",
+      "It can climb on glass.",
+      "It breaks easily."
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-final-0942",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

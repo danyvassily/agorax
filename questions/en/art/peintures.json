@@ -1,0 +1,202 @@
+[
+  {
+    "id": "art-joconde",
+    "conceptId": "art-joconde",
+    "familyId": "art-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Who painted this famous painting, known as the Mona Lisa?",
+    "answers": [
+      "Leonardo da Vinci",
+      "Michelangelo",
+      "Raphael",
+      "Sandro Botticelli"
+    ],
+    "correctAnswer": 0,
+    "media": {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/687px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+      "alt": "La Joconde par Léonard de Vinci",
+      "attribution": "Domaine public (Wikimedia)"
+    },
+    "category": "art",
+    "subcategory": "Peinture classique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "peinture",
+      "renaissance",
+      "visuel"
+    ],
+    "source": {
+      "provider": "wikimedia"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "art-nuit-etoilee",
+    "conceptId": "art-nuit-etoilee",
+    "familyId": "art-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which post-impressionist artist is the author of 'The Starry Night'?",
+    "answers": [
+      "Claude Monet",
+      "Vincent van Gogh",
+      "Paul Cézanne",
+      "Auguste Renoir"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/757px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      "alt": "La Nuit étoilée par Vincent van Gogh",
+      "attribution": "Domaine public (Wikimedia)"
+    },
+    "category": "art",
+    "subcategory": "Peinture moderne",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "peinture",
+      "post-impressionnisme",
+      "visuel"
+    ],
+    "source": {
+      "provider": "wikimedia"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "art-cri",
+    "conceptId": "art-cri",
+    "familyId": "art-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Who painted this expressionist work titled 'The Scream'?",
+    "answers": [
+      "Gustav Klimt",
+      "Pablo Picasso",
+      "Edvard Munch",
+      "Salvador Dalí"
+    ],
+    "correctAnswer": 2,
+    "media": {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/614px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
+      "alt": "Le Cri par Edvard Munch",
+      "attribution": "Domaine public (Wikimedia)"
+    },
+    "category": "art",
+    "subcategory": "Peinture moderne",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "peinture",
+      "expressionnisme",
+      "visuel"
+    ],
+    "source": {
+      "provider": "wikimedia"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "art-jeune-fille-perle",
+    "conceptId": "art-jeune-fille-perle",
+    "familyId": "art-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Dutch painter created this masterpiece, 'Girl with a Pearl Earring'?",
+    "answers": [
+      "Rembrandt",
+      "Johannes Vermeer",
+      "Frans Hals",
+      "Jan van Eyck"
+    ],
+    "correctAnswer": 1,
+    "media": {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Meisje_met_de_parel.jpg/663px-Meisje_met_de_parel.jpg",
+      "alt": "La Jeune Fille à la perle par Johannes Vermeer",
+      "attribution": "Domaine public (Wikimedia)"
+    },
+    "category": "art",
+    "subcategory": "Peinture classique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "peinture",
+      "baroque",
+      "visuel"
+    ],
+    "source": {
+      "provider": "wikimedia"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "art-persistance-memoire",
+    "conceptId": "art-persistance-memoire",
+    "familyId": "art-recognition",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Who painted 'The Persistence of Memory', famous for its melting clocks?",
+    "answers": [
+      "René Magritte",
+      "Joan Miró",
+      "Max Ernst",
+      "Salvador Dalí"
+    ],
+    "correctAnswer": 3,
+    "media": {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/The_Persistence_of_Memory.jpg/800px-The_Persistence_of_Memory.jpg",
+      "alt": "La Persistance de la mémoire par Salvador Dalí",
+      "attribution": "Fair use (Wikimedia)"
+    },
+    "category": "art",
+    "subcategory": "Peinture moderne",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "peinture",
+      "surréalisme",
+      "visuel"
+    ],
+    "source": {
+      "provider": "wikimedia"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  }
+]

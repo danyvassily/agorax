@@ -1,0 +1,402 @@
+[
+  {
+    "id": "hist-traites-0001",
+    "conceptId": "concept-hist-traites-0001",
+    "familyId": "family-hist-traites-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which historical treaty signed in 1494 between Spain and Portugal divided the New World?",
+    "answers": [
+      "The Treaty of Utrecht",
+      "The Treaty of Tordesillas",
+      "The Treaty of Zaragoza",
+      "The Treaty of Madrid"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "traites-mondiaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "traites",
+      "geopolitique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "hist-traites-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "hist-traites-0002",
+    "conceptId": "concept-hist-traites-0002",
+    "familyId": "family-hist-traites-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which peace signed in 1648 ended the devastating Thirty Years' War in Europe?",
+    "answers": [
+      "The Peace of Augsburg",
+      "The Peace of Nijmegen",
+      "The Treaties of Westphalia",
+      "The Treaty of the Pyrenees"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "traites-mondiaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "traites",
+      "geopolitique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "hist-traites-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "hist-traites-0003",
+    "conceptId": "concept-hist-traites-0003",
+    "familyId": "family-hist-traites-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which treaty signed in 1659 between France and Spain fixed the Pyrenean border?",
+    "answers": [
+      "The Treaty of Cateau-Cambrésis",
+      "The Treaty of the Pyrenees",
+      "The Treaty of Ryswick",
+      "The Treaty of Vervins"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "traites-mondiaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "traites",
+      "geopolitique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "hist-traites-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "hist-traites-0004",
+    "conceptId": "concept-hist-traites-0004",
+    "familyId": "family-hist-traites-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which famous international conference of 1814-1815 redrew the map of Europe after the fall of Napoleon I?",
+    "answers": [
+      "The Congress of Paris",
+      "The Congress of Vienna",
+      "The Diet of Frankfurt",
+      "The Congress of Berlin"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "traites-mondiaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "traites",
+      "geopolitique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "hist-traites-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "hist-traites-0005",
+    "conceptId": "concept-hist-traites-0005",
+    "familyId": "family-hist-traites-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which treaty signed in 1957 by six European countries founded the European Economic Community (EEC)?",
+    "answers": [
+      "The Treaty of Rome",
+      "The Treaty of Paris",
+      "The Treaty of Brussels",
+      "The Treaty of Maastricht"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "traites-mondiaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "traites",
+      "geopolitique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "hist-traites-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "hist-traites-0006",
+    "conceptId": "concept-hist-traites-0006",
+    "familyId": "family-hist-traites-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In what year did Christopher Columbus land in the Americas during his first transatlantic expedition?",
+    "answers": [
+      "1492",
+      "1498",
+      "1488",
+      "1504"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "traites-mondiaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "traites",
+      "geopolitique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "hist-traites-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "hist-traites-0007",
+    "conceptId": "concept-hist-traites-0007",
+    "familyId": "family-hist-traites-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Portuguese navigator accomplished the very first circumnavigation of the globe by sea (completed by Elcano in 1522)?",
+    "answers": [
+      "Amerigo Vespucci",
+      "Bartolomeu Dias",
+      "Ferdinand Magellan",
+      "Vasco da Gama"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "traites-mondiaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "traites",
+      "geopolitique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "hist-traites-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "hist-traites-0008",
+    "conceptId": "concept-hist-traites-0008",
+    "familyId": "family-hist-traites-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Portuguese navigator opened the sea route to India by rounding the Cape of Good Hope in 1498?",
+    "answers": [
+      "Vasco da Gama",
+      "Pedro Álvares Cabral",
+      "Ferdinand Magellan",
+      "Afonso de Albuquerque"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "traites-mondiaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "traites",
+      "geopolitique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "hist-traites-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "hist-traites-0009",
+    "conceptId": "concept-hist-traites-0009",
+    "familyId": "family-hist-traites-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which Swiss city did Henri Dunant found the International Red Cross in 1863?",
+    "answers": [
+      "Geneva",
+      "Basel",
+      "Bern",
+      "Lausanne"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "traites-mondiaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "traites",
+      "geopolitique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "hist-traites-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "hist-traites-0010",
+    "conceptId": "concept-hist-traites-0010",
+    "familyId": "family-hist-traites-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In what year was slavery definitively abolished in the French colonies under the action of Victor Schœlcher?",
+    "answers": [
+      "1802",
+      "1848",
+      "1794",
+      "1833"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "traites-mondiaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "traites",
+      "geopolitique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "hist-traites-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

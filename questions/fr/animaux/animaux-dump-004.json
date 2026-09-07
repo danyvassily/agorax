@@ -1,0 +1,402 @@
+[
+  {
+    "id": "animaux-dump-0254",
+    "conceptId": "concept-animaux-0254",
+    "familyId": "family-animaux-0127",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "The does “cheetah” mean translated from Sanskrit?",
+    "answers": [
+      "Fast",
+      "Lightning",
+      "Stealth cat",
+      "Spotted One"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0254",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0260",
+    "conceptId": "concept-animaux-0260",
+    "familyId": "family-animaux-0130",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What frog is the most poisonous?",
+    "answers": [
+      "Red-Eyed tree frog",
+      "Dart Frog",
+      "Corroboree Frog",
+      "Cane Toad"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0260",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0265",
+    "conceptId": "concept-animaux-0265",
+    "familyId": "family-animaux-0133",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How tall is a typical zebra at the shoulder?",
+    "answers": [
+      "5 1/2 feet (1.6 m)",
+      "4 feet (1.2 m)",
+      "6 feet (1.8 m)",
+      "3 feet (0.9 m)"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0265",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0266",
+    "conceptId": "concept-animaux-0266",
+    "familyId": "family-animaux-0133",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How fast can a zebra run?",
+    "answers": [
+      "30 mph (50 km/h)",
+      "50 mph (80 km/h)",
+      "40 mph (65 km/h)",
+      "25 mph (40 km/h)"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0266",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0268",
+    "conceptId": "concept-animaux-0268",
+    "familyId": "family-animaux-0134",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How long can a zebra live in captivity?",
+    "answers": [
+      "30 years",
+      "20 years",
+      "40 years",
+      "15 years"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0268",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0271",
+    "conceptId": "concept-animaux-0271",
+    "familyId": "family-animaux-0136",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "About how long have ants been around on Earth?",
+    "answers": [
+      "8 million years",
+      "60 million years",
+      "45 milllion years",
+      "25 million years"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0271",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0278",
+    "conceptId": "concept-animaux-0278",
+    "familyId": "family-animaux-0139",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which statement about ants is untrue?",
+    "answers": [
+      "Ants are sometimes put into Thai salads.",
+      "Bullet ants are considered to have the most painful sting.",
+      "An ant colony will eat its own larvae if there is no other food around.",
+      "Anteaters prefer ants to any other type of food."
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0278",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0283",
+    "conceptId": "concept-animaux-0283",
+    "familyId": "family-animaux-0142",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Why do flamingos often stand on one leg?",
+    "answers": [
+      "Noone knows for sure.",
+      "To keep their feet from becoming waterlogged.",
+      "To keep feet from getting tired.",
+      "To stir up as little silt from bottom as possible."
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0283",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0284",
+    "conceptId": "concept-animaux-0284",
+    "familyId": "family-animaux-0142",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What decade did the pop culture icon the plastic lawn flamingo come into existence?",
+    "answers": [
+      "60s",
+      "40s",
+      "30s",
+      "80s"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0284",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0287",
+    "conceptId": "concept-animaux-0287",
+    "familyId": "family-animaux-0144",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Why were Thylacines called Tigers?",
+    "answers": [
+      "because they looked like cats",
+      "because of their mean disposition",
+      "because of the stripes on their back",
+      "because of the vicious way in which they killed their prey"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0287",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

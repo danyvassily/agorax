@@ -1,0 +1,1027 @@
+[
+  {
+    "id": "cine-cannes-0001",
+    "conceptId": "concept-cine-cannes-0001",
+    "familyId": "family-cine-cannes-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film \"Anatomy of a Fall\" (2023)?",
+    "answers": [
+      "Céline Sciamma",
+      "Rebecca Zlotowski",
+      "Claire Denis",
+      "Justine Triet"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Justine Triet won the Palme d'Or in 2023 with \"Anatomy of a Fall\"."
+  },
+  {
+    "id": "cine-cannes-0002",
+    "conceptId": "concept-cine-cannes-0002",
+    "familyId": "family-cine-cannes-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film \"Triangle of Sadness\" (2022)?",
+    "answers": [
+      "Yorgos Lanthimos",
+      "Lars von Trier",
+      "Thomas Vinterberg",
+      "Ruben Östlund"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Ruben Östlund won the Palme d'Or in 2022 for \"Triangle of Sadness\"."
+  },
+  {
+    "id": "cine-cannes-0003",
+    "conceptId": "concept-cine-cannes-0003",
+    "familyId": "family-cine-cannes-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film \"Titane\" (2021)?",
+    "answers": [
+      "Mia Hansen-Løve",
+      "Coralie Fargeat",
+      "Julia Ducournau",
+      "Alice Diop"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Julia Ducournau won the Palme d'Or in 2021 with \"Titane\"."
+  },
+  {
+    "id": "cine-cannes-0004",
+    "conceptId": "concept-cine-cannes-0004",
+    "familyId": "family-cine-cannes-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film \"Parasite\" (2019)?",
+    "answers": [
+      "Kim Ki-duk",
+      "Lee Chang-dong",
+      "Bong Joon-ho",
+      "Park Chan-wook"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Bong Joon-ho won the Palme d'Or in 2019 with \"Parasite\"."
+  },
+  {
+    "id": "cine-cannes-0005",
+    "conceptId": "concept-cine-cannes-0005",
+    "familyId": "family-cine-cannes-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film 'Shoplifters' (2018)?",
+    "answers": [
+      "Takashi Miike",
+      "Kiyoshi Kurosawa",
+      "Hirokazu Kore-eda",
+      "Takeshi Kitano"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hirokazu Kore-eda won the Palme d'Or in 2018 with 'Shoplifters'."
+  },
+  {
+    "id": "cine-cannes-0006",
+    "conceptId": "concept-cine-cannes-0006",
+    "familyId": "family-cine-cannes-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film \"The Square\" (2017)?",
+    "answers": [
+      "Nicolas Winding Refn",
+      "Ruben Östlund",
+      "Lukas Moodysson",
+      "Roy Andersson"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Ruben Östlund won the Palme d'Or in 2017 for \"The Square\"."
+  },
+  {
+    "id": "cine-cannes-0007",
+    "conceptId": "concept-cine-cannes-0007",
+    "familyId": "family-cine-cannes-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film 'I, Daniel Blake' (2016)?",
+    "answers": [
+      "Stephen Frears",
+      "Danny Boyle",
+      "Mike Leigh",
+      "Ken Loach"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Ken Loach won the Palme d'Or in 2016 with 'I, Daniel Blake'."
+  },
+  {
+    "id": "cine-cannes-0008",
+    "conceptId": "concept-cine-cannes-0008",
+    "familyId": "family-cine-cannes-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film 'Dheepan' (2015)?",
+    "answers": [
+      "Olivier Assayas",
+      "Stéphane Brizé",
+      "Jacques Audiard",
+      "Arnaud Desplechin"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Jacques Audiard won the Palme d'Or in 2015 with 'Dheepan'."
+  },
+  {
+    "id": "cine-cannes-0009",
+    "conceptId": "concept-cine-cannes-0009",
+    "familyId": "family-cine-cannes-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film 'Winter Sleep' (2014)?",
+    "answers": [
+      "Fatih Akin",
+      "Nuri Bilge Ceylan",
+      "Semih Kaplanoğlu",
+      "Ferzan Özpetek"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Nuri Bilge Ceylan won the Palme d'Or in 2014 with 'Winter Sleep'."
+  },
+  {
+    "id": "cine-cannes-0010",
+    "conceptId": "concept-cine-cannes-0010",
+    "familyId": "family-cine-cannes-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film 'Blue Is the Warmest Color' (2013)?",
+    "answers": [
+      "Abdellatif Kechiche",
+      "Jacques Audiard",
+      "Xavier Dolan",
+      "François Ozon"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Abdellatif Kechiche won the Palme d'Or in 2013 with 'Blue Is the Warmest Color'."
+  },
+  {
+    "id": "cine-cannes-0011",
+    "conceptId": "concept-cine-cannes-0011",
+    "familyId": "family-cine-cannes-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film \"Amour\" (2012)?",
+    "answers": [
+      "Ulrich Seidl",
+      "Florian Henckel von Donnersmarck",
+      "Michael Haneke",
+      "Wim Wenders"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Michael Haneke won the Palme d'Or in 2012 with \"Amour\"."
+  },
+  {
+    "id": "cine-cannes-0012",
+    "conceptId": "concept-cine-cannes-0012",
+    "familyId": "family-cine-cannes-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film 'The Tree of Life' (2011)?",
+    "answers": [
+      "Terrence Malick",
+      "David Fincher",
+      "Wes Anderson",
+      "Paul Thomas Anderson"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Terrence Malick won the Palme d'Or in 2011 for 'The Tree of Life'."
+  },
+  {
+    "id": "cine-cannes-0013",
+    "conceptId": "concept-cine-cannes-0013",
+    "familyId": "family-cine-cannes-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film 'The White Ribbon' (2009)?",
+    "answers": [
+      "Tom Tykwer",
+      "Christian Petzold",
+      "Michael Haneke",
+      "Fatih Akin"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Michael Haneke won the Palme d'Or in 2009 with 'The White Ribbon'."
+  },
+  {
+    "id": "cine-cannes-0014",
+    "conceptId": "concept-cine-cannes-0014",
+    "familyId": "family-cine-cannes-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film \"The Class\" (2008)?",
+    "answers": [
+      "Olivier Assayas",
+      "Laurent Cantet",
+      "Robin Campillo",
+      "Arnaud Desplechin"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Laurent Cantet won the Palme d'Or in 2008 with \"The Class\"."
+  },
+  {
+    "id": "cine-cannes-0015",
+    "conceptId": "concept-cine-cannes-0015",
+    "familyId": "family-cine-cannes-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film '4 Months, 3 Weeks and 2 Days' (2007)?",
+    "answers": [
+      "Corneliu Porumboiu",
+      "Cristian Mungiu",
+      "Cristi Puiu",
+      "Radu Jude"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Cristian Mungiu won the Palme d'Or in 2007 with '4 Months, 3 Weeks and 2 Days'."
+  },
+  {
+    "id": "cine-cannes-0016",
+    "conceptId": "concept-cine-cannes-0016",
+    "familyId": "family-cine-cannes-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film 'The Wind That Shakes the Barley' (2006)?",
+    "answers": [
+      "Steve McQueen",
+      "Jim Sheridan",
+      "Ken Loach",
+      "Neil Jordan"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Ken Loach won the Palme d'Or in 2006 with 'The Wind That Shakes the Barley'."
+  },
+  {
+    "id": "cine-cannes-0017",
+    "conceptId": "concept-cine-cannes-0017",
+    "familyId": "family-cine-cannes-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film \"L'Enfant\" (2005)?",
+    "answers": [
+      "Jacques Audiard",
+      "Jean-Pierre and Luc Dardenne",
+      "Lucas Belvaux",
+      "Philippe Lioret"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Jean-Pierre and Luc Dardenne won the Palme d'Or in 2005 with \"L'Enfant\"."
+  },
+  {
+    "id": "cine-cannes-0018",
+    "conceptId": "concept-cine-cannes-0018",
+    "familyId": "family-cine-cannes-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film 'Fahrenheit 9/11' (2004)?",
+    "answers": [
+      "Spike Lee",
+      "Michael Moore",
+      "Errol Morris",
+      "Oliver Stone"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Michael Moore won the Palme d'Or in 2004 with 'Fahrenheit 9/11'."
+  },
+  {
+    "id": "cine-cannes-0019",
+    "conceptId": "concept-cine-cannes-0019",
+    "familyId": "family-cine-cannes-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film \"Elephant\" (2003)?",
+    "answers": [
+      "Richard Linklater",
+      "Gus Van Sant",
+      "Larry Clark",
+      "Harmony Korine"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Gus Van Sant won the Palme d'Or in 2003 with \"Elephant\"."
+  },
+  {
+    "id": "cine-cannes-0020",
+    "conceptId": "concept-cine-cannes-0020",
+    "familyId": "family-cine-cannes-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film 'The Pianist' (2002)?",
+    "answers": [
+      "Krzysztof Kieślowski",
+      "Paweł Pawlikowski",
+      "Andrzej Wajda",
+      "Roman Polanski"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Roman Polanski won the Palme d'Or in 2002 for 'The Pianist'."
+  },
+  {
+    "id": "cine-cannes-0021",
+    "conceptId": "concept-cine-cannes-0021",
+    "familyId": "family-cine-cannes-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film \"Dancer in the Dark\" (2000)?",
+    "answers": [
+      "Bille August",
+      "Nicolas Winding Refn",
+      "Lars von Trier",
+      "Thomas Vinterberg"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0021",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Lars von Trier won the Palme d'Or in 2000 with \"Dancer in the Dark\"."
+  },
+  {
+    "id": "cine-cannes-0022",
+    "conceptId": "concept-cine-cannes-0022",
+    "familyId": "family-cine-cannes-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film \"Rosetta\" (1999)?",
+    "answers": [
+      "Benoît Jacquot",
+      "Bruno Dumont",
+      "Chantal Akerman",
+      "Jean-Pierre and Luc Dardenne"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0022",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Jean-Pierre and Luc Dardenne won the Palme d'Or in 1999 with \"Rosetta\"."
+  },
+  {
+    "id": "cine-cannes-0023",
+    "conceptId": "concept-cine-cannes-0023",
+    "familyId": "family-cine-cannes-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film \"Eternity and a Day\" (1998)?",
+    "answers": [
+      "Michael Cacoyannis",
+      "Costa-Gavras",
+      "Theo Angelopoulos",
+      "Yorgos Lanthimos"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0023",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Theo Angelopoulos won the Palme d'Or in 1998 with \"Eternity and a Day\"."
+  },
+  {
+    "id": "cine-cannes-0024",
+    "conceptId": "concept-cine-cannes-0024",
+    "familyId": "family-cine-cannes-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film 'Taste of Cherry' (1997)?",
+    "answers": [
+      "Mohsen Makhmalbaf",
+      "Jafar Panahi",
+      "Abbas Kiarostami",
+      "Asghar Farhadi"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0024",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Abbas Kiarostami won the Palme d'Or in 1997 with 'Taste of Cherry'."
+  },
+  {
+    "id": "cine-cannes-0025",
+    "conceptId": "concept-cine-cannes-0025",
+    "familyId": "family-cine-cannes-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which filmmaker won the Palme d'Or at the Cannes Film Festival for the film 'Secrets & Lies' (1996)?",
+    "answers": [
+      "Ken Loach",
+      "Mike Leigh",
+      "Stephen Frears",
+      "Terence Davies"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "palme-d-or",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "cinema",
+      "cannes",
+      "palme-d-or"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "cine-cannes-0025",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mike Leigh won the Palme d'Or in 1996 with 'Secrets & Lies'."
+  }
+]

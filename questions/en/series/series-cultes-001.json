@@ -1,0 +1,392 @@
+[
+  {
+    "id": "series-culte-0001",
+    "conceptId": "concept-series-culte-0001",
+    "familyId": "family-series-culte-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which fantasy television series adapted from the novels by George R.R. Martin do we follow the struggle for the Iron Throne?",
+    "answers": [
+      "The Witcher",
+      "Game of Thrones",
+      "Outlander",
+      "The Lord of the Rings"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "fantasy",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "fantasy"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "series-culte-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "series-culte-0002",
+    "conceptId": "concept-series-culte-0002",
+    "familyId": "family-series-culte-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Breaking Bad, what criminal alias does Walter White adopt in the drug world?",
+    "answers": [
+      "Heisenberg",
+      "Einstein",
+      "Schrödinger",
+      "Oppenheimer"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "drames",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "drames"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "series-culte-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "series-culte-0003",
+    "conceptId": "concept-series-culte-0003",
+    "familyId": "family-series-culte-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which Netflix fantasy series do we follow Eleven, Mike, and Dustin facing the Upside Down?",
+    "answers": [
+      "Stranger Things",
+      "The Umbrella Academy",
+      "Dark",
+      "Locke & Key"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "fantastique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "fantastique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "series-culte-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "series-culte-0004",
+    "conceptId": "concept-series-culte-0004",
+    "familyId": "family-series-culte-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which cult comedy series does a group of six buddies gather at the Central Perk café in New York?",
+    "answers": [
+      "Friends",
+      "How I Met Your Mother",
+      "The Big Bang Theory",
+      "New Girl"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "comedie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "comedie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "series-culte-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "series-culte-0005",
+    "conceptId": "concept-series-culte-0005",
+    "familyId": "family-series-culte-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which actor plays King Arthur in the French comedy series Kaamelott, which he created himself?",
+    "answers": [
+      "Alain Chabat",
+      "Alexandre Astier",
+      "Lionnel Astier",
+      "Franck Pitiot"
+    ],
+    "correctAnswer": 1,
+    "category": "series",
+    "subcategory": "comedie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "comedie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "series-culte-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "series-culte-0006",
+    "conceptId": "concept-series-culte-0006",
+    "familyId": "family-series-culte-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the French series The Bureau, what is the clandestine agent code name of Guillaume Debailly (Mathieu Kassovitz)?",
+    "answers": [
+      "Fly",
+      "Phenomenon",
+      "Cyclone",
+      "Malotru"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "espionnage",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "espionnage"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "series-culte-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "series-culte-0007",
+    "conceptId": "concept-series-culte-0007",
+    "familyId": "family-series-culte-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Money Heist, which Spanish city serves as the setting for the heist on the Royal Mint of Spain led by The Professor?",
+    "answers": [
+      "Barcelona",
+      "Seville",
+      "Madrid",
+      "Valencia"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "action",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "action"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "series-culte-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "series-culte-0008",
+    "conceptId": "concept-series-culte-0008",
+    "familyId": "family-series-culte-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which British dystopian series does each episode explore the disturbing excesses of new technologies?",
+    "answers": [
+      "Black Mirror",
+      "Utopia",
+      "Years and Years",
+      "Humans"
+    ],
+    "correctAnswer": 0,
+    "category": "series",
+    "subcategory": "sci-fi",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "sci-fi"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "series-culte-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "series-culte-0009",
+    "conceptId": "concept-series-culte-0009",
+    "familyId": "family-series-culte-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of the criminal gang from Birmingham led by Tommy Shelby in the series Peaky Blinders?",
+    "answers": [
+      "The Sabini Family",
+      "The Birmingham Boys",
+      "The Peaky Blinders",
+      "The White Blinders"
+    ],
+    "correctAnswer": 2,
+    "category": "series",
+    "subcategory": "drames",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "drames"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "series-culte-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "series-culte-0010",
+    "conceptId": "concept-series-culte-0010",
+    "familyId": "family-series-culte-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the TV series The Office (US), who plays the quirky and blundering boss Michael Scott at the head of Dunder Mifflin Scranton?",
+    "answers": [
+      "John Krasinski",
+      "Rainn Wilson",
+      "Ed Helms",
+      "Steve Carell"
+    ],
+    "correctAnswer": 3,
+    "category": "series",
+    "subcategory": "comedie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "series",
+      "comedie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "series-culte-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

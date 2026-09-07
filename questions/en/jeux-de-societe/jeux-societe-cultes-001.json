@@ -1,0 +1,197 @@
+[
+  {
+    "id": "multi-theme-0001",
+    "conceptId": "concept-multi-theme-0001",
+    "familyId": "family-multi-theme-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the board game 7 Wonders Duel, what are the three different ways to achieve victory?",
+    "answers": [
+      "Military, scientific, or civilian points victory",
+      "Technological, commercial, or espionage victory",
+      "Maritime, religious, or cultural victory",
+      "Economic, military, or diplomatic victory"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "strategie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "strategie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0002",
+    "conceptId": "concept-multi-theme-0002",
+    "familyId": "family-multi-theme-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which fast-paced party card game involves spotting the one and only identical symbol between two round cards?",
+    "answers": [
+      "Bazar Bizarre",
+      "Ghost Blitz",
+      "Jungle Speed",
+      "Dobble"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "ambiance",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "ambiance"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0003",
+    "conceptId": "concept-multi-theme-0003",
+    "familyId": "family-multi-theme-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which party game with a wooden totem in the center must players grab the totem as soon as two cards have the same symbol?",
+    "answers": [
+      "Jungle Speed",
+      "Ligretto",
+      "Dobble",
+      "Punto"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "ambiance",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "ambiance"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0004",
+    "conceptId": "concept-multi-theme-0004",
+    "familyId": "family-multi-theme-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which cooperative board game invites players to create fireworks while only seeing their partners' cards?",
+    "answers": [
+      "The Crew",
+      "The Mind",
+      "Magic Maze",
+      "Hanabi"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "cooperatif",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "cooperatif"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0005",
+    "conceptId": "concept-multi-theme-0005",
+    "familyId": "family-multi-theme-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which cooperative trick-taking card game set in space do players communicate in silence towards the 9th planet?",
+    "answers": [
+      "The Crew",
+      "Galaxy Trucker",
+      "Space Hulk",
+      "Terraforming Mars"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "cartes",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-de-societe",
+      "cartes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

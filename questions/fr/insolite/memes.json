@@ -1,0 +1,258 @@
+[
+  {
+    "id": "meme-thisisfine",
+    "category": "insolite",
+    "subcategory": "memes",
+    "language": "fr",
+    "conceptId": "meme-thisisfine",
+    "familyId": "memes-internet",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "De quelle bande dessinée web provient ce célèbre mème ?",
+    "media": {
+      "type": "image",
+      "url": "https://media.giphy.com/media/NTur7XlVDUdqM/giphy.gif"
+    },
+    "answers": [
+      "Gunshow",
+      "Cyanide & Happiness",
+      "XKCD",
+      "The Oatmeal"
+    ],
+    "correctAnswer": 0,
+    "source": {
+      "provider": "internet-culture"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "meme-michaeljackson-popcorn",
+    "category": "insolite",
+    "subcategory": "memes",
+    "language": "fr",
+    "conceptId": "meme-michaeljackson-popcorn",
+    "familyId": "memes-internet",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "De quel célèbre clip musical de Michael Jackson provient ce GIF où il mange du popcorn ?",
+    "media": {
+      "type": "image",
+      "url": "https://media.giphy.com/media/guufsZAQYVNvnx958J/giphy.gif"
+    },
+    "answers": [
+      "Thriller",
+      "Bad",
+      "Beat It",
+      "Smooth Criminal"
+    ],
+    "correctAnswer": 0,
+    "source": {
+      "provider": "internet-culture"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "meme-homer-bush",
+    "category": "insolite",
+    "subcategory": "memes",
+    "language": "fr",
+    "conceptId": "meme-homer-bush",
+    "familyId": "memes-internet",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel contexte Homer disparaît-il dans les buissons dans cet épisode original ?",
+    "media": {
+      "type": "image",
+      "url": "https://media.giphy.com/media/jUwpNzg9IcyrK/giphy.gif"
+    },
+    "answers": [
+      "Il vient de se faire rejeter par Flanders",
+      "Il se cache de Marge",
+      "Il fuit la police",
+      "Il évite M. Burns"
+    ],
+    "correctAnswer": 0,
+    "source": {
+      "provider": "internet-culture"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "meme-distracted-bf",
+    "category": "insolite",
+    "subcategory": "memes",
+    "language": "fr",
+    "conceptId": "meme-distracted-bf",
+    "familyId": "memes-internet",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Ce mème ultra connu est à l'origine une photo stock. Comment s'appelle le photographe espagnol qui l'a capturée ?",
+    "media": {
+      "type": "image",
+      "url": "https://media.giphy.com/media/RMkX6xzhFS5vn973dZ/giphy.gif"
+    },
+    "answers": [
+      "Antonio Guillem",
+      "Pablo Iglesias",
+      "Carlos Ruiz",
+      "Fernando Torres"
+    ],
+    "correctAnswer": 0,
+    "source": {
+      "provider": "internet-culture"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "meme-roll-safe",
+    "category": "insolite",
+    "subcategory": "memes",
+    "language": "fr",
+    "conceptId": "meme-roll-safe",
+    "familyId": "memes-internet",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "De quelle série documentaire parodique vient cet acteur qui se tapote la tempe ?",
+    "media": {
+      "type": "image",
+      "url": "https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif"
+    },
+    "answers": [
+      "Hood Documentary",
+      "The Office UK",
+      "People Just Do Nothing",
+      "Trailer Park Boys"
+    ],
+    "correctAnswer": 0,
+    "source": {
+      "provider": "internet-culture"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "meme-math-lady",
+    "category": "insolite",
+    "subcategory": "memes",
+    "language": "fr",
+    "conceptId": "meme-math-lady",
+    "familyId": "memes-internet",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'actrice brésilienne au centre de ce célèbre mème de la 'Math Lady' (Femme qui calcule) ?",
+    "media": {
+      "type": "image",
+      "url": "https://media.giphy.com/media/3owzW5c1tPqL8awYRe/giphy.gif"
+    },
+    "answers": [
+      "Renata Sorrah",
+      "Sônia Braga",
+      "Alice Braga",
+      "Giovanna Antonelli"
+    ],
+    "correctAnswer": 0,
+    "source": {
+      "provider": "internet-culture"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "meme-spiderman-pointing",
+    "category": "insolite",
+    "subcategory": "memes",
+    "language": "fr",
+    "conceptId": "meme-spiderman-pointing",
+    "familyId": "memes-internet",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "De quelle année date la série animée d'où est tirée cette célèbre scène des Spider-Men qui se pointent du doigt ?",
+    "media": {
+      "type": "image",
+      "url": "https://media.giphy.com/media/l36kU80xPf0ojG0Erg/giphy.gif"
+    },
+    "answers": [
+      "1967",
+      "1978",
+      "1981",
+      "1994"
+    ],
+    "correctAnswer": 0,
+    "source": {
+      "provider": "internet-culture"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "meme-leo-toast",
+    "category": "insolite",
+    "subcategory": "memes",
+    "language": "fr",
+    "conceptId": "meme-leo-toast",
+    "familyId": "memes-internet",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel film Leonardo DiCaprio porte-t-il ce toast devenu un GIF légendaire ?",
+    "media": {
+      "type": "image",
+      "url": "https://media.giphy.com/media/8Iv5lqKwKsZ2g/giphy.gif"
+    },
+    "answers": [
+      "Gatsby le Magnifique",
+      "Le Loup de Wall Street",
+      "Django Unchained",
+      "Titanic"
+    ],
+    "correctAnswer": 0,
+    "source": {
+      "provider": "internet-culture"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  }
+]

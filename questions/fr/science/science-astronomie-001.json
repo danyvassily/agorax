@@ -1,0 +1,587 @@
+[
+  {
+    "id": "astro-elem-0001",
+    "conceptId": "concept-astro-elem-0001",
+    "familyId": "family-astro-elem-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est la plus grande lune de Saturne, dotée d'une atmosphère dense d'azote et de lacs de méthane liquide ?",
+    "answers": [
+      "Mimas",
+      "Encelade",
+      "Titan",
+      "Rhéa"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0002",
+    "conceptId": "concept-astro-elem-0002",
+    "familyId": "family-astro-elem-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle lune glacée de Jupiter abrite un vaste océan souterrain d'eau liquide sous sa croûte ?",
+    "answers": [
+      "Ganymède",
+      "Io",
+      "Europe",
+      "Callisto"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0003",
+    "conceptId": "concept-astro-elem-0003",
+    "familyId": "family-astro-elem-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle lune de Jupiter est l'objet géologiquement le plus actif du système solaire avec des centaines de volcans ?",
+    "answers": [
+      "Europe",
+      "Ganymède",
+      "Titan",
+      "Io"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0004",
+    "conceptId": "concept-astro-elem-0004",
+    "familyId": "family-astro-elem-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est la plus grande lune de tout le système solaire, plus grande même que la planète Mercure ?",
+    "answers": [
+      "Ganymède",
+      "Triton",
+      "Titan",
+      "Callisto"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0005",
+    "conceptId": "concept-astro-elem-0005",
+    "familyId": "family-astro-elem-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est la plus grande lune de la planète Neptune, caractérisée par une orbite rétrograde ?",
+    "answers": [
+      "Larissa",
+      "Protée",
+      "Triton",
+      "Néréide"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0006",
+    "conceptId": "concept-astro-elem-0006",
+    "familyId": "family-astro-elem-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le nom de la galaxie spirale la plus proche de notre Voie lactée, située à environ 2,5 millions d'années-lumière ?",
+    "answers": [
+      "Andromède (M31)",
+      "Le Tourbillon",
+      "Le Sombrero",
+      "Le Triangle"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0007",
+    "conceptId": "concept-astro-elem-0007",
+    "familyId": "family-astro-elem-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle étoile supergéante rouge marque l'épaule de la constellation d'Orion ?",
+    "answers": [
+      "Antarès",
+      "Rigel",
+      "Bételgeuse",
+      "Aldébaran"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0008",
+    "conceptId": "concept-astro-elem-0008",
+    "familyId": "family-astro-elem-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est l'étoile la plus brillante du ciel nocturne visible depuis la Terre ?",
+    "answers": [
+      "Véga",
+      "Sirius",
+      "Arcturus",
+      "Canopus"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0009",
+    "conceptId": "concept-astro-elem-0009",
+    "familyId": "family-astro-elem-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "À quelle distance moyenne la Terre se trouve-t-elle du Soleil (une Unité Astronomique) ?",
+    "answers": [
+      "Environ 300 millions de kilomètres",
+      "Environ 150 millions de kilomètres",
+      "Environ 500 millions de kilomètres",
+      "Environ 50 millions de kilomètres"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0010",
+    "conceptId": "concept-astro-elem-0010",
+    "familyId": "family-astro-elem-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de temps met la lumière du Soleil pour parvenir jusqu'à la Terre en moyenne ?",
+    "answers": [
+      "Instantanément",
+      "Environ 1 minute et 10 secondes",
+      "Environ 8 minutes et 20 secondes",
+      "Environ 15 minutes et 40 secondes"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0011",
+    "conceptId": "concept-astro-elem-0011",
+    "familyId": "family-astro-elem-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le nom du plus haut volcan connu du système solaire, situé sur la planète Mars ?",
+    "answers": [
+      "Olympus Mons",
+      "Pavonis Mons",
+      "Arsia Mons",
+      "Ascraeus Mons"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0012",
+    "conceptId": "concept-astro-elem-0012",
+    "familyId": "family-astro-elem-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle mission spatiale de l'ESA s'est posée sur la comète Tchouri en novembre 2014 grâce à l'atterrisseur Philae ?",
+    "answers": [
+      "Cassini",
+      "Voyager",
+      "Rosetta",
+      "Giotto"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0013",
+    "conceptId": "concept-astro-elem-0013",
+    "familyId": "family-astro-elem-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle sonde spatiale de la NASA, lancée en 1977, est devenue le premier objet humain à entrer dans l'espace interstellaire ?",
+    "answers": [
+      "Pioneer 10",
+      "New Horizons",
+      "Galileo",
+      "Voyager 1"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0014",
+    "conceptId": "concept-astro-elem-0014",
+    "familyId": "family-astro-elem-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel type d'astre extrêmement dense résulte de l'effondrement gravitationnel du cœur d'une étoile massive après une supernova ?",
+    "answers": [
+      "Une naine brune",
+      "Une géante rouge",
+      "Une naine blanche",
+      "Une étoile à neutrons"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "astro-elem-0015",
+    "conceptId": "concept-astro-elem-0015",
+    "familyId": "family-astro-elem-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle frontière théorique délimite la région d'un trou noir d'où rien, pas même la lumière, ne peut s'échapper ?",
+    "answers": [
+      "La sphère de Dyson",
+      "Le disque d'accrétion",
+      "Le rayon de Chandrasekhar",
+      "L'horizon des événements"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "astro-elem-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

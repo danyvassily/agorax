@@ -1,0 +1,392 @@
+[
+  {
+    "id": "musique-fr-0001",
+    "conceptId": "concept-musique-fr-0001",
+    "familyId": "family-musique-fr-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel chanteur et poète belge a interprété des chefs-d'œuvre immortels comme Ne me quitte pas et Amsterdam ?",
+    "answers": [
+      "Georges Brassens",
+      "Jacques Brel",
+      "Léo Ferré",
+      "Charles Aznavour"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "chanson-francaise",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "chanson-francaise"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "musique-fr-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "musique-fr-0002",
+    "conceptId": "concept-musique-fr-0002",
+    "familyId": "family-musique-fr-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel auteur-compositeur français originaire de Sète est célèbre pour ses chansons à la guitare comme Les Copains d'abord ?",
+    "answers": [
+      "Jacques Brel",
+      "Georges Brassens",
+      "Léo Ferré",
+      "Boris Vian"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "chanson-francaise",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "chanson-francaise"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "musique-fr-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "musique-fr-0003",
+    "conceptId": "concept-musique-fr-0003",
+    "familyId": "family-musique-fr-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle chanteuse française surnommée « La Môme » a chanté La Vie en rose, L'Hymne à l'amour et Non, je ne regrette rien ?",
+    "answers": [
+      "Mistinguett",
+      "Barbara",
+      "Édith Piaf",
+      "Juliette Gréco"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "chanson-francaise",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "chanson-francaise"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "musique-fr-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "musique-fr-0004",
+    "conceptId": "concept-musique-fr-0004",
+    "familyId": "family-musique-fr-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel auteur-compositeur visionnaire a composé Le Poinçonneur des Lilas, La Javanaise et l'album concept Histoire de Melody Nelson ?",
+    "answers": [
+      "Alain Bashung",
+      "Jacques Dutronc",
+      "Serge Gainsbourg",
+      "Michel Polnareff"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "chanson-francaise",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "chanson-francaise"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "musique-fr-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "musique-fr-0005",
+    "conceptId": "concept-musique-fr-0005",
+    "familyId": "family-musique-fr-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel chanteur français a composé et interprété des hymnes générationnels comme Il suffira d'un signe, Envole-moi et Quand la musique est bonne ?",
+    "answers": [
+      "Francis Cabrel",
+      "Jean-Jacques Goldman",
+      "Daniel Balavoine",
+      "Michel Berger"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "chanson-francaise",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "chanson-francaise"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "musique-fr-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "musique-fr-0006",
+    "conceptId": "concept-musique-fr-0006",
+    "familyId": "family-musique-fr-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel chanteur franco-arménien à la carrière internationale de 70 ans est l'interprète de La Bohème et d'Emmenez-moi ?",
+    "answers": [
+      "Yves Montand",
+      "Charles Aznavour",
+      "Gilbert Bécaud",
+      "Henri Salvador"
+    ],
+    "correctAnswer": 1,
+    "category": "musique",
+    "subcategory": "chanson-francaise",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "chanson-francaise"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "musique-fr-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "musique-fr-0007",
+    "conceptId": "concept-musique-fr-0007",
+    "familyId": "family-musique-fr-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel chanteur de rock français surnommé « L'Idole des jeunes » a enflammé les foules avec Que je t'aime et Allumer le feu ?",
+    "answers": [
+      "Alain Bashung",
+      "Eddy Mitchell",
+      "Dick Rivers",
+      "Johnny Hallyday"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "rock-francais",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rock-francais"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "musique-fr-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "musique-fr-0008",
+    "conceptId": "concept-musique-fr-0008",
+    "familyId": "family-musique-fr-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel groupe de rap marseillais légendaire composé d'Akhenaton et Shurik'n a sorti l'album culte L'École du micro d'argent en 1997 ?",
+    "answers": [
+      "Fonky Family",
+      "Suprême NTM",
+      "Sniper",
+      "IAM"
+    ],
+    "correctAnswer": 3,
+    "category": "musique",
+    "subcategory": "rap-francais",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rap-francais"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "musique-fr-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "musique-fr-0009",
+    "conceptId": "concept-musique-fr-0009",
+    "familyId": "family-musique-fr-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel duo de frères rappeurs originaires des Tarterêts à Corbeil-Essonnes a révolutionné le rap avec les albums Deux frères et Dans la légende ?",
+    "answers": [
+      "Bigflo et Oli",
+      "DTF",
+      "PNL",
+      "Djadja & Dinaz"
+    ],
+    "correctAnswer": 2,
+    "category": "musique",
+    "subcategory": "rap-francais",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rap-francais"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "musique-fr-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "musique-fr-0010",
+    "conceptId": "concept-musique-fr-0010",
+    "familyId": "family-musique-fr-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel rappeur normand a connu un immense succès critique et populaire avec ses albums Perdu d'avance, Le Chant des sirènes et Civilisation ?",
+    "answers": [
+      "Orelsan",
+      "Nekfeu",
+      "Lomepal",
+      "Gringe"
+    ],
+    "correctAnswer": 0,
+    "category": "musique",
+    "subcategory": "rap-francais",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "musique",
+      "rap-francais"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "musique-fr-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

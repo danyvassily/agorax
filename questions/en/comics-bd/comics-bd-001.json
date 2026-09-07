@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "comics-bd-001",
+    "conceptId": "concept-comics-001",
+    "familyId": "family-comics-001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is Batman's true secret identity?",
+    "answers": [
+      "Clark Kent",
+      "Bruce Wayne",
+      "Peter Parker",
+      "Barry Allen"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "dc-comics",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "dc-comics"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-001",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-002",
+    "conceptId": "concept-comics-002",
+    "familyId": "family-comics-001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the Marvel universe, which indestructible fictional metal makes up Captain America's shield?",
+    "answers": [
+      "Uru",
+      "Vibranium",
+      "Mithril",
+      "Adamantium"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "marvel",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "marvel"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-002",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-003",
+    "conceptId": "concept-comics-003",
+    "familyId": "family-comics-002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of Tintin's faithful white dog?",
+    "answers": [
+      "Rantanplan",
+      "Milou",
+      "Bill",
+      "Idéfix"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-003",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-004",
+    "conceptId": "concept-comics-004",
+    "familyId": "family-comics-002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the Asterix comic strip, which plant ingredient is essential for Panoramix to make his magic potion?",
+    "answers": [
+      "Mistletoe",
+      "Fern",
+      "Clover",
+      "Thyme"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-004",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-005",
+    "conceptId": "concept-comics-005",
+    "familyId": "family-comics-003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which DC Comics heroine is an Amazon princess from the island of Themyscira?",
+    "answers": [
+      "Batgirl",
+      "Supergirl",
+      "Wonder Woman",
+      "Zatanna"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "dc-comics",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "dc-comics"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-005",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-006",
+    "conceptId": "concept-comics-006",
+    "familyId": "family-comics-003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which comic book character is nicknamed the \"Merc with a Mouth\"?",
+    "answers": [
+      "Deadpool",
+      "Wolverine",
+      "Punisher",
+      "Deathstroke"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "marvel",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "marvel"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-006",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-007",
+    "conceptId": "concept-comics-007",
+    "familyId": "family-comics-004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Lucky Luke, what is the first name of the smallest and most hot-tempered of the four Dalton brothers?",
+    "answers": [
+      "Joe",
+      "Jack",
+      "William",
+      "Averell"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-007",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-008",
+    "conceptId": "concept-comics-008",
+    "familyId": "family-comics-004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which cult comic by Alan Moore and Dave Gibbons do we follow the characters of Rorschach and Dr. Manhattan?",
+    "answers": [
+      "From Hell",
+      "V for Vendetta",
+      "The Killing Joke",
+      "Watchmen"
+    ],
+    "correctAnswer": 3,
+    "category": "comics-bd",
+    "subcategory": "romans-graphiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "romans-graphiques"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-008",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-009",
+    "conceptId": "concept-comics-009",
+    "familyId": "family-comics-005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Marvel superhero becomes blind as a result of a chemical accident but develops superhuman senses?",
+    "answers": [
+      "Moon Knight",
+      "Hawkeye",
+      "Cyclops",
+      "Daredevil"
+    ],
+    "correctAnswer": 3,
+    "category": "comics-bd",
+    "subcategory": "marvel",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "marvel"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-009",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-010",
+    "conceptId": "concept-comics-010",
+    "familyId": "family-comics-005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which imaginary city does Superman primarily operate?",
+    "answers": [
+      "Star City",
+      "Metropolis",
+      "Gotham City",
+      "Central City"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "dc-comics",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "dc-comics"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-010",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-011",
+    "conceptId": "concept-comics-011",
+    "familyId": "family-comics-006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Belgian cartoonist and scriptwriter created the series Gaston Lagaffe and the Marsupilami?",
+    "answers": [
+      "Morris",
+      "André Franquin",
+      "Hergé",
+      "Peyo"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-011",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-012",
+    "conceptId": "concept-comics-012",
+    "familyId": "family-comics-006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What green substance from his home planet fatally weakens Superman?",
+    "answers": [
+      "Kryptonite",
+      "Cavorite",
+      "Cosmic emerald",
+      "Serum Z"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "dc-comics",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "dc-comics"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-012",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-013",
+    "conceptId": "concept-comics-013",
+    "familyId": "family-comics-007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the X-Men universe, which mutant has the power to manipulate magnetic fields and metals?",
+    "answers": [
+      "Professor X",
+      "Colossus",
+      "Wolverine",
+      "Magneto"
+    ],
+    "correctAnswer": 3,
+    "category": "comics-bd",
+    "subcategory": "marvel",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "marvel"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-013",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-014",
+    "conceptId": "concept-comics-014",
+    "familyId": "family-comics-007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Who is the creator of the comic strip Black and Mortimer?",
+    "answers": [
+      "Jean Van Hamme",
+      "Hergé",
+      "Jacques Martin",
+      "Edgar P. Jacobs"
+    ],
+    "correctAnswer": 3,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-014",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-015",
+    "conceptId": "concept-comics-015",
+    "familyId": "family-comics-008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Daily Bugle photographer hides under Spider-Man's mask?",
+    "answers": [
+      "Miles Morales",
+      "Harry Osborn",
+      "Peter Parker",
+      "Eddie Brock"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "marvel",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "marvel"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-015",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-016",
+    "conceptId": "concept-comics-016",
+    "familyId": "family-comics-008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the comic book XIII, what is the only clue that the amnesiac hero has tattooed on him?",
+    "answers": [
+      "The Roman numeral XIII on his collarbone",
+      "An eagle on his back",
+      "A compass on his forearm",
+      "A scar in the shape of an anchor"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-016",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-017",
+    "conceptId": "concept-comics-017",
+    "familyId": "family-comics-009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Scandinavian god of thunder wields the mystical hammer Mjöllnir in Marvel comics?",
+    "answers": [
+      "Thor",
+      "Loki",
+      "Odin",
+      "Heimdall"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "marvel",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "marvel"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-017",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-018",
+    "conceptId": "concept-comics-018",
+    "familyId": "family-comics-009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which little blue animal living in mushrooms was created by the author Peyo?",
+    "answers": [
+      "The Smurfs",
+      "The Snorks",
+      "The Popples",
+      "The Minipouss"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-018",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-019",
+    "conceptId": "concept-comics-019",
+    "familyId": "family-comics-010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which famous fictional newspaper does Clark Kent work as a journalist?",
+    "answers": [
+      "The Gotham Gazette",
+      "The Daily Planet",
+      "The Daily Bugle",
+      "The Metropolis Tribune"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "dc-comics",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "dc-comics"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-019",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-020",
+    "conceptId": "concept-comics-020",
+    "familyId": "family-comics-010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Marvel anti-hero, a former marine traumatized by the murder of his family, wages a ruthless war against the underworld?",
+    "answers": [
+      "Venom",
+      "Ghost Rider",
+      "Blade",
+      "The Punisher"
+    ],
+    "correctAnswer": 3,
+    "category": "comics-bd",
+    "subcategory": "marvel",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "marvel"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-020",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-021",
+    "conceptId": "concept-comics-021",
+    "familyId": "family-comics-011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the Batman universe, what was Doctor Harleen Quinzel's original profession before becoming Harley Quinn?",
+    "answers": [
+      "Journalist",
+      "Lawyer",
+      "Psychiatrist",
+      "Surgeon"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "dc-comics",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "dc-comics"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-021",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-022",
+    "conceptId": "concept-comics-022",
+    "familyId": "family-comics-011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French comic book author is the author of the autobiographical graphic novel The Arab of the Future?",
+    "answers": [
+      "Manu Larcenet",
+      "Marjane Satrapi",
+      "Riad Sattouf",
+      "Joann Sfar"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "romans-graphiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "romans-graphiques"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-022",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-023",
+    "conceptId": "concept-comics-023",
+    "familyId": "family-comics-012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which alien super-villain seeks to gather the six Infinity Stones in the Marvel universe?",
+    "answers": [
+      "Apocalypse",
+      "Thanos",
+      "Galactus",
+      "Kang the Conqueror"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "marvel",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "marvel"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-023",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-024",
+    "conceptId": "concept-comics-024",
+    "familyId": "family-comics-012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the comic book Thorgal, from which legendary people does the hero originate?",
+    "answers": [
+      "The Dark Elves",
+      "The Hyperboreans",
+      "The Star People",
+      "The Atlanteans"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-024",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-025",
+    "conceptId": "concept-comics-025",
+    "familyId": "family-comics-013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Marvel superhero team includes Reed Richards, Sue Storm, Johnny Storm, and Ben Grimm?",
+    "answers": [
+      "The Defenders",
+      "The Fantastic Four",
+      "The Guardians of the Galaxy",
+      "The Avengers"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "marvel",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "marvel"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-025",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-026",
+    "conceptId": "concept-comics-026",
+    "familyId": "family-comics-013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which Robert Kirkman comic do we follow Rick Grimes in a world overrun by walkers?",
+    "answers": [
+      "Outcast",
+      "Y: The Last Man",
+      "Invincible",
+      "The Walking Dead"
+    ],
+    "correctAnswer": 3,
+    "category": "comics-bd",
+    "subcategory": "comics-us",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "comics-us"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-026",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-027",
+    "conceptId": "concept-comics-027",
+    "familyId": "family-comics-014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which animal accompanies the feline private detective John Blacksad in his investigations?",
+    "answers": [
+      "A crow",
+      "A bulldog",
+      "A weasel (Weekly)",
+      "A raccoon"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "polar",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "polar"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-027",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-028",
+    "conceptId": "concept-comics-028",
+    "familyId": "family-comics-014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the DC Comics universe, which secret organization controls the assassins trained by Ra's al Ghul?",
+    "answers": [
+      "The Order of St. Dumas",
+      "The League of Assassins",
+      "The Cult of Kobra",
+      "The Court of Owls"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "dc-comics",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "dc-comics"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-028",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-029",
+    "conceptId": "concept-comics-029",
+    "familyId": "family-comics-015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which famous comic by Marjane Satrapi tells the story of her childhood during the Iranian Islamic revolution?",
+    "answers": [
+      "Persepolis",
+      "Chicken with Plums",
+      "Embroideries",
+      "The Notebooks of Esther"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "romans-graphiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "romans-graphiques"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-029",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  },
+  {
+    "id": "comics-bd-030",
+    "conceptId": "concept-comics-030",
+    "familyId": "family-comics-015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which clawed mutant has a skeleton covered in adamantium and an accelerated healing factor?",
+    "answers": [
+      "Wolverine",
+      "Gambit",
+      "Beast",
+      "Sabretooth"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "marvel",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "comics",
+      "bande-dessinee",
+      "marvel"
+    ],
+    "source": {
+      "provider": "opentdb",
+      "sourceId": "comics-bd-030",
+      "url": "https://opentdb.com",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentdb"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.96,
+    "version": 1
+  }
+]

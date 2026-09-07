@@ -1,0 +1,392 @@
+[
+  {
+    "id": "food-cuisine-0001",
+    "conceptId": "concept-food-cuisine-0001",
+    "familyId": "family-food-cuisine-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel ingrédient fondamental donne sa couleur jaune éclatante et son parfum au risotto à la milanaise et à la paella ?",
+    "answers": [
+      "Le curry",
+      "Le curcuma",
+      "Le safran",
+      "Le paprika"
+    ],
+    "correctAnswer": 2,
+    "category": "food",
+    "subcategory": "epices",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "epices"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0002",
+    "conceptId": "concept-food-cuisine-0002",
+    "familyId": "family-food-cuisine-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "De quel pays européen le fromage Parmigiano Reggiano (parmesan) est-il originaire ?",
+    "answers": [
+      "La France",
+      "L'Italie",
+      "La Suisse",
+      "L'Espagne"
+    ],
+    "correctAnswer": 1,
+    "category": "food",
+    "subcategory": "fromages",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "fromages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0003",
+    "conceptId": "concept-food-cuisine-0003",
+    "familyId": "family-food-cuisine-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel champignon souterrain précieux et parfumé est récolté en hiver à l'aide de chiens ou de cochons truffiers ?",
+    "answers": [
+      "Le cèpe de Bordeaux",
+      "La truffe noire (du Périgord)",
+      "La girolle",
+      "La morille"
+    ],
+    "correctAnswer": 1,
+    "category": "food",
+    "subcategory": "gastronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "gastronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0004",
+    "conceptId": "concept-food-cuisine-0004",
+    "familyId": "family-food-cuisine-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel alcool d'agave mexicain est l'ingrédient principal du cocktail Margarita ?",
+    "answers": [
+      "La tequila",
+      "Le rhum",
+      "Le mezcal",
+      "Le gin"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "boissons",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "boissons"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0005",
+    "conceptId": "concept-food-cuisine-0005",
+    "familyId": "family-food-cuisine-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la pâtisserie française, quelle pâte cuite sert de base aux éclairs, aux choux à la crème et aux gougères ?",
+    "answers": [
+      "La pâte brisée",
+      "La pâte feuilletée",
+      "La pâte sablée",
+      "La pâte à choux"
+    ],
+    "correctAnswer": 3,
+    "category": "food",
+    "subcategory": "patisserie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "patisserie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0006",
+    "conceptId": "concept-food-cuisine-0006",
+    "familyId": "family-food-cuisine-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle sauce émulsionnée froide est traditionnellement composée de jaune d'œuf, de moutarde, d'huile et de vinaigre ?",
+    "answers": [
+      "La sauce béarnaise",
+      "La sauce hollandaise",
+      "La mayonnaise",
+      "La vinaigrette"
+    ],
+    "correctAnswer": 2,
+    "category": "food",
+    "subcategory": "sauces",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "sauces"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0007",
+    "conceptId": "concept-food-cuisine-0007",
+    "familyId": "family-food-cuisine-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel alcool de genièvre aromatique est le composant incontournable du cocktail Gin Tonic ?",
+    "answers": [
+      "Le gin",
+      "Le rhum blanc",
+      "Le schnaps",
+      "La vodka"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "boissons",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "boissons"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0008",
+    "conceptId": "concept-food-cuisine-0008",
+    "familyId": "family-food-cuisine-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle région française le cassoulet traditionnel (aux haricots lingots et confit de canard) a-t-il vu le jour ?",
+    "answers": [
+      "Le Sud-Ouest (Occitanie)",
+      "La Bretagne",
+      "La Bourgogne",
+      "L'Alsace"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "plats-traditionnels",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "plats-traditionnels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0009",
+    "conceptId": "concept-food-cuisine-0009",
+    "familyId": "family-food-cuisine-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fromage savoyard au lait cru est la vedette fondue de la tartiflette ?",
+    "answers": [
+      "Le reblochon",
+      "L'emmental",
+      "L'abondance",
+      "Le beaufort"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "fromages",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "fromages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0010",
+    "conceptId": "concept-food-cuisine-0010",
+    "familyId": "family-food-cuisine-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle boisson chaude fermentée d'origine chinoise se décline en variétés noire, verte, blanche et oolong ?",
+    "answers": [
+      "Le thé",
+      "Le maté",
+      "Le rooibos",
+      "Le café"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "boissons",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "boissons"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

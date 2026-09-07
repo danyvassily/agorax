@@ -1,0 +1,162 @@
+[
+  {
+    "id": "animaux-dump-0311",
+    "conceptId": "concept-animaux-0311",
+    "familyId": "family-animaux-0156",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Hyenas are most closely related to what creatures?",
+    "answers": [
+      "Cats",
+      "Bears",
+      "Mongoose",
+      "Badger"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0311",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0325",
+    "conceptId": "concept-animaux-0325",
+    "familyId": "family-animaux-0163",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Why are pigeon nests or eggs rarely seen?",
+    "answers": [
+      "Pigeons don't build nests.",
+      "Pigeons do their best to conceal nests.",
+      "Pigeons are cliff dwellers and build their nests in high places.",
+      "Pigeons are picky and only build nests high up in certain types of trees."
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0325",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0327",
+    "conceptId": "concept-animaux-0327",
+    "familyId": "family-animaux-0164",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dinosaurs lived during which geologic era?",
+    "answers": [
+      "Mesozoic",
+      "Cretazoic",
+      "Holozoic",
+      "Protozoic"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0327",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0337",
+    "conceptId": "concept-animaux-0337",
+    "familyId": "family-animaux-0169",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In the 1980s, who voiced the character of Dino, the pet dinosaur in the animated series The Flintstones?",
+    "answers": [
+      "Mel Blanc",
+      "Frank Welker",
+      "Alan Reed",
+      "Jean Vander Pyl"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0337",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

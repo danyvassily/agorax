@@ -1,0 +1,362 @@
+[
+  {
+    "id": "psycho-dilemme-tramway",
+    "type": "mcq",
+    "question": "Quel est le nom de la célèbre expérience de pensée éthique où l'on doit choisir de dévier un train fou pour tuer une personne au lieu de cinq ?",
+    "answers": [
+      "Le dilemme du prisonnier",
+      "Le problème du tramway",
+      "Le paradoxe de Fermi",
+      "L'expérience de Milgram"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "dilemmes",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "éthique",
+      "dilemme"
+    ],
+    "conceptId": "psycho-dilemme-tramway",
+    "familyId": "psycho-dilemme-tramway",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-dilemme-prisonnier",
+    "type": "mcq",
+    "question": "Dans le dilemme du prisonnier (théorie des jeux), quelle est l'issue paradoxale la plus fréquente si les deux suspects agissent dans leur propre intérêt ?",
+    "answers": [
+      "Ils coopèrent et s'en sortent libres",
+      "L'un trahit et l'autre se tait",
+      "Ils trahissent tous les deux et écopent d'une lourde peine",
+      "Ils refusent de parler et le jeu s'annule"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "dilemmes",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "théorie-des-jeux",
+      "dilemme"
+    ],
+    "conceptId": "psycho-dilemme-prisonnier",
+    "familyId": "psycho-dilemme-prisonnier",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-test-rorschach",
+    "type": "mcq",
+    "question": "Que montre-t-on au patient lors d'un test de Rorschach ?",
+    "answers": [
+      "Des photographies de visages aux émotions ambiguës",
+      "Des taches d'encre symétriques",
+      "Des séquences de couleurs à mémoriser",
+      "Des mots sans rapport à associer librement"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "tests",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "test",
+      "psychanalyse"
+    ],
+    "conceptId": "psycho-test-rorschach",
+    "familyId": "psycho-test-rorschach",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-test-marshmallow",
+    "type": "mcq",
+    "question": "Que mesurait la célèbre expérience du marshmallow menée à Stanford sur des enfants ?",
+    "answers": [
+      "L'intelligence spatiale",
+      "La capacité à différer la récompense (gratification différée)",
+      "L'empathie face à la privation des autres",
+      "La résistance au sucre"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "experiences",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "enfance",
+      "test"
+    ],
+    "conceptId": "psycho-test-marshmallow",
+    "familyId": "psycho-test-marshmallow",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-stade-miroir",
+    "type": "mcq",
+    "question": "Quel concept psychanalytique désigne le moment où le nourrisson reconnaît sa propre image ?",
+    "answers": [
+      "Le complexe d'Oedipe",
+      "Le stade du miroir",
+      "La catharsis",
+      "L'individuation"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "psychanalyse",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "lacan",
+      "psychanalyse"
+    ],
+    "conceptId": "psycho-stade-miroir",
+    "familyId": "psycho-stade-miroir",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-mbti",
+    "type": "mcq",
+    "question": "Sur les travaux de quel psychologue est fondé le très célèbre test de personnalité MBTI (Myers-Briggs Type Indicator) ?",
+    "answers": [
+      "Sigmund Freud",
+      "Carl Rogers",
+      "Carl Jung",
+      "Abraham Maslow"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "tests",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "personnalité",
+      "test"
+    ],
+    "conceptId": "psycho-mbti",
+    "familyId": "psycho-mbti",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-pyramide-maslow",
+    "type": "mcq",
+    "question": "Dans la pyramide de Maslow, quel besoin se trouve tout à la base, comme fondement absolu ?",
+    "answers": [
+      "Les besoins d'appartenance",
+      "Les besoins physiologiques (manger, boire, dormir)",
+      "Les besoins de sécurité",
+      "Le besoin d'accomplissement de soi"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "theorie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "maslow",
+      "besoins"
+    ],
+    "conceptId": "psycho-pyramide-maslow",
+    "familyId": "psycho-pyramide-maslow",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-effet-nocebo",
+    "type": "mcq",
+    "question": "Quel est le nom de l'effet psychologique où un traitement inoffensif provoque des effets indésirables simplement parce que le patient s'y attend ?",
+    "answers": [
+      "L'effet Placebo",
+      "L'effet Nocebo",
+      "L'effet Hawthorne",
+      "L'effet Pygmalion"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "phenomenes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "médecine",
+      "croyance"
+    ],
+    "conceptId": "psycho-effet-nocebo",
+    "familyId": "psycho-effet-nocebo",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-effet-pygmalion",
+    "type": "mcq",
+    "question": "L'effet Pygmalion désigne le fait que...",
+    "answers": [
+      "Les personnes grandes ont de meilleurs salaires",
+      "Les attentes que l'on a envers une personne influencent ses performances réelles",
+      "On finit par tomber amoureux de la personne qu'on a aidée",
+      "On travaille moins dur quand on est en groupe"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "phenomenes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "social",
+      "éducation"
+    ],
+    "conceptId": "psycho-effet-pygmalion",
+    "familyId": "psycho-effet-pygmalion",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-lapsus",
+    "type": "mcq",
+    "question": "Comment appelle-t-on une erreur verbale involontaire révélant supposément un désir inconscient ?",
+    "answers": [
+      "Une dissonance",
+      "Une paranoïa",
+      "Un acte manqué (ou lapsus)",
+      "Un biais d'omission"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "psychanalyse",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "freud",
+      "langage"
+    ],
+    "conceptId": "psycho-lapsus",
+    "familyId": "psycho-lapsus",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "animaux-dump2-0655",
+    "conceptId": "concept-animaux-0655",
+    "familyId": "family-animaux-0328",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How did the smallest bird in the world, the Bee Hummingbird, get its name?",
+    "answers": [
+      "Because of its black-and-yellow plumage",
+      "Because it is approximately the size of a large bee",
+      "Because of the sound it makes with its wings",
+      "Because it feeds on bees"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0655",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0656",
+    "conceptId": "concept-animaux-0656",
+    "familyId": "family-animaux-0328",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Where does the Giant Cowbird, a passerine bird found in South America, lay its eggs?",
+    "answers": [
+      "On the ground",
+      "In other birds' nests",
+      "On balconies",
+      "On rocks"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0656",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0667",
+    "conceptId": "concept-animaux-0667",
+    "familyId": "family-animaux-0334",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What time of day does the tiger shark usually hunt?",
+    "answers": [
+      "Nighttime",
+      "Mid morning",
+      "Early morning",
+      "They hunt at different times throughout the day"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0667",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0676",
+    "conceptId": "concept-animaux-0676",
+    "familyId": "family-animaux-0338",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What bizarre food would pigs occasionally eat, being omnivores?",
+    "answers": [
+      "Their young",
+      "Tree bark",
+      "All of these",
+      "Rotting carcasses"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0676",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

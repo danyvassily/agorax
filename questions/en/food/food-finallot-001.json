@@ -1,0 +1,562 @@
+[
+  {
+    "id": "fin-food-0001",
+    "conceptId": "concept-fin-food-0001",
+    "familyId": "family-fin-food-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which blue-veined cheese made from raw sheep's milk is aged in the natural caves of Mount Combalou in Aveyron?",
+    "answers": [
+      "Roquefort",
+      "Bleu d'Auvergne",
+      "Gorgonzola",
+      "Fourme d'Ambert"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "fromages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "fromages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Roquefort was the first appellation d'origine contrôlée recognized in France in 1925."
+  },
+  {
+    "id": "fin-food-0002",
+    "conceptId": "concept-fin-food-0002",
+    "familyId": "family-fin-food-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Savoyard cheese, a cooked pressed cheese made from raw cow's milk, is molded into giant wheels with a concave heel?",
+    "answers": [
+      "Beaufort",
+      "Comté",
+      "Emmental",
+      "Abondance"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "fromages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "fromages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Beaufort is nicknamed the 'Prince of Gruyères' and is produced in the high mountains of the Savoy Alps."
+  },
+  {
+    "id": "fin-food-0003",
+    "conceptId": "concept-fin-food-0003",
+    "familyId": "family-fin-food-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which traditional French pastry consists of three layers of puff pastry and two layers of pastry cream?",
+    "answers": [
+      "Paris-Brest",
+      "Éclair",
+      "Opéra",
+      "Mille-feuille"
+    ],
+    "correctAnswer": 3,
+    "category": "food",
+    "subcategory": "patisserie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "patisserie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The mille-feuille is traditionally glazed with fondant and has a characteristic chocolate marbling."
+  },
+  {
+    "id": "fin-food-0004",
+    "conceptId": "concept-fin-food-0004",
+    "familyId": "family-fin-food-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What crown-shaped pastry created in 1910 commemorates a famous bicycle race between the capital and Brittany?",
+    "answers": [
+      "Le Paris-Brest",
+      "La Tropézienne",
+      "Le Saint-Honoré",
+      "Le Baba au rhum"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "patisserie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "food",
+      "patisserie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Created by Louis Durand in Maisons-Laffitte, the Paris-Brest is filled with praline mousseline cream and topped with slivered almonds."
+  },
+  {
+    "id": "fin-food-0005",
+    "conceptId": "concept-fin-food-0005",
+    "familyId": "family-fin-food-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Moroccan and Maghrebi culinary specialty is cooked slowly in a clay pot with a conical lid?",
+    "answers": [
+      "Couscous",
+      "Pastilla",
+      "Shakshouka",
+      "Tajine"
+    ],
+    "correctAnswer": 3,
+    "category": "food",
+    "subcategory": "plats-traditionnels",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "plats-traditionnels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The clay tajine pot allows slow cooking that preserves all the flavors and juices."
+  },
+  {
+    "id": "fin-food-0006",
+    "conceptId": "concept-fin-food-0006",
+    "familyId": "family-fin-food-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which traditional Provençal fisherman's soup from Marseille consists of rock fish served with croutons and rouille?",
+    "answers": [
+      "Bouillabaisse",
+      "Cotriade",
+      "Soup au pistou",
+      "Bourride"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "plats-traditionnels",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "plats-traditionnels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Authentic Marseille bouillabaisse traditionally includes scorpionfish, weever, conger, gurnard, and John Dory."
+  },
+  {
+    "id": "fin-food-0007",
+    "conceptId": "concept-fin-food-0007",
+    "familyId": "family-fin-food-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the most expensive spice in the world, manually extracted from the three dried stigmas of the crocus flower?",
+    "answers": [
+      "Clove",
+      "Cardamom",
+      "Saffron",
+      "Vanilla"
+    ],
+    "correctAnswer": 2,
+    "category": "food",
+    "subcategory": "epices",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "food",
+      "epices"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "More than 150,000 Crocus sativus flowers must be delicately hand-picked to obtain one kilogram of saffron."
+  },
+  {
+    "id": "fin-food-0008",
+    "conceptId": "concept-fin-food-0008",
+    "familyId": "family-fin-food-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Italian dessert made of coffee-soaked biscuits, mascarpone cream, and dusted with cocoa means 'pick me up'?",
+    "answers": [
+      "Panna cotta",
+      "Panettone",
+      "Tiramisu",
+      "Cannoli"
+    ],
+    "correctAnswer": 2,
+    "category": "food",
+    "subcategory": "patisserie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "patisserie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Tiramisu derives its etymology from the Venetian phrase 'tiramesù' ('pull me up' or 'give me back my strength')."
+  },
+  {
+    "id": "fin-food-0009",
+    "conceptId": "concept-fin-food-0009",
+    "familyId": "family-fin-food-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which iconic Spanish dish, originally from Valencia, is made with saffron rice cooked in a large round pan?",
+    "answers": [
+      "Risotto",
+      "Tortilla",
+      "Paella",
+      "Gazpacho"
+    ],
+    "correctAnswer": 2,
+    "category": "food",
+    "subcategory": "cuisine-monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "cuisine-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The traditional Valencian paella combines round rice from Albufera, chicken, rabbit, beans, and saffron."
+  },
+  {
+    "id": "fin-food-0010",
+    "conceptId": "concept-fin-food-0010",
+    "familyId": "family-fin-food-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What traditional Japanese dish consists of vinegared rice topped with or wrapped around a slice of raw fish or seafood?",
+    "answers": [
+      "Sushi",
+      "Tempura",
+      "Gyoza",
+      "Ramen"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "cuisine-monde",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "cuisine-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Sushi derives from an ancient method of preserving fish by fermenting rice in Japan."
+  },
+  {
+    "id": "fin-food-0011",
+    "conceptId": "concept-fin-food-0011",
+    "familyId": "family-fin-food-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What traditional Mexican dish consists of a folded or rolled corn tortilla filled with meats, cilantro, and onions?",
+    "answers": [
+      "The taco",
+      "The empanada",
+      "The arepa",
+      "The tamale"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "cuisine-monde",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "food",
+      "cuisine-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The taco is a universal symbol of Mexican street food, inscribed on UNESCO's Intangible Cultural Heritage list."
+  },
+  {
+    "id": "fin-food-0012",
+    "conceptId": "concept-fin-food-0012",
+    "familyId": "family-fin-food-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which world-famous Italian raw ham is slowly aged in dry air in the Emilia-Romagna region?",
+    "answers": [
+      "Serrano ham",
+      "Bayonne ham",
+      "Ibérico ham",
+      "Parma ham"
+    ],
+    "correctAnswer": 3,
+    "category": "food",
+    "subcategory": "charcuterie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "charcuterie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Prosciutto di Parma benefits from a strict PDO requiring pigs born and raised in northern Italy."
+  },
+  {
+    "id": "fin-food-0013",
+    "conceptId": "concept-fin-food-0013",
+    "familyId": "family-fin-food-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which sparkling wine with controlled designation of origin is produced in northeastern France using the traditional method?",
+    "answers": [
+      "Prosecco",
+      "Cava",
+      "Crémant",
+      "Champagne"
+    ],
+    "correctAnswer": 3,
+    "category": "food",
+    "subcategory": "boissons",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "boissons"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Only wines produced and bottled in the delimited Champagne region have the legal right to bear its name."
+  },
+  {
+    "id": "fin-food-0014",
+    "conceptId": "concept-fin-food-0014",
+    "familyId": "family-fin-food-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which prestigious French double-distilled wine brandy is produced in Charente and Charente-Maritime?",
+    "answers": [
+      "Armagnac",
+      "Calvados",
+      "Cognac",
+      "Marc de Bourgogne"
+    ],
+    "correctAnswer": 2,
+    "category": "food",
+    "subcategory": "boissons",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "food",
+      "boissons"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Cognac is distilled twice in a copper Charentais still before prolonged aging in oak barrels."
+  }
+]

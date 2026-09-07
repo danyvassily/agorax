@@ -1,0 +1,802 @@
+[
+  {
+    "id": "fin-geographie-0051",
+    "conceptId": "concept-fin-geographie-0051",
+    "familyId": "family-fin-geographie-0026",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the largest island in the world by area, geopolitically belonging to the Kingdom of Denmark?",
+    "answers": [
+      "New Guinea",
+      "Greenland",
+      "Borneo",
+      "Madagascar"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0051",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Greenland spans over 2.1 million km², making it the largest non-continental island in the world."
+  },
+  {
+    "id": "fin-geographie-0052",
+    "conceptId": "concept-fin-geographie-0052",
+    "familyId": "family-fin-geographie-0026",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the second largest island in the world by area, located north of Australia?",
+    "answers": [
+      "Borneo",
+      "New Guinea",
+      "Sumatra",
+      "Madagascar"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0052",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "New Guinea is divided between Indonesia in the west and the independent state of Papua New Guinea in the east."
+  },
+  {
+    "id": "fin-geographie-0053",
+    "conceptId": "concept-fin-geographie-0053",
+    "familyId": "family-fin-geographie-0027",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which large island in Southeast Asia is politically divided between Indonesia, Malaysia, and the Sultanate of Brunei?",
+    "answers": [
+      "Sumatra",
+      "Celebes",
+      "Java",
+      "Borneo"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0053",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Borneo is the third-largest island in the world and the only one shared by three distinct sovereign countries."
+  },
+  {
+    "id": "fin-geographie-0054",
+    "conceptId": "concept-fin-geographie-0054",
+    "familyId": "family-fin-geographie-0027",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which large island in the Indian Ocean is renowned for its exceptional biodiversity and numerous lemur species?",
+    "answers": [
+      "Madagascar",
+      "Réunion",
+      "Mayotte",
+      "Mauritius"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0054",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Madagascar separated from the African continent tens of millions of years ago, creating a unique ecosystem."
+  },
+  {
+    "id": "fin-geographie-0055",
+    "conceptId": "concept-fin-geographie-0055",
+    "familyId": "family-fin-geographie-0028",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the largest and most populous of the four main islands that make up Japan?",
+    "answers": [
+      "Hokkaido",
+      "Shikoku",
+      "Honshu",
+      "Kyushu"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0055",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Honshu is home to Japan's major metropolises such as Tokyo, Osaka, Kyoto, and Nagoya."
+  },
+  {
+    "id": "fin-geographie-0056",
+    "conceptId": "concept-fin-geographie-0056",
+    "familyId": "family-fin-geographie-0028",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which northern Japanese island is known for its harsh winters and its large city of Sapporo?",
+    "answers": [
+      "Honshu",
+      "Shikoku",
+      "Hokkaido",
+      "Okinawa"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0056",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hokkaido is the second largest island of the Japanese archipelago, renowned for its ski resorts and natural parks."
+  },
+  {
+    "id": "fin-geographie-0057",
+    "conceptId": "concept-fin-geographie-0057",
+    "familyId": "family-fin-geographie-0029",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the largest island in the Mediterranean Sea by area?",
+    "answers": [
+      "Corsica",
+      "Cyprus",
+      "Sicily",
+      "Sardinia"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0057",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Sicily is the largest Mediterranean island with an area of over 25,700 km²."
+  },
+  {
+    "id": "fin-geographie-0058",
+    "conceptId": "concept-fin-geographie-0058",
+    "familyId": "family-fin-geographie-0029",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Italian Mediterranean island is located immediately south of the French island of Corsica?",
+    "answers": [
+      "Sardinia",
+      "Sicily",
+      "Elba",
+      "Capri"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0058",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Sardinia is separated from Corsica by the Strait of Bonifacio, a maritime strait only 11 km wide."
+  },
+  {
+    "id": "fin-geographie-0059",
+    "conceptId": "concept-fin-geographie-0059",
+    "familyId": "family-fin-geographie-0030",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which French island region are the cities of Ajaccio and Bastia located?",
+    "answers": [
+      "Guadeloupe",
+      "Martinique",
+      "Corsica",
+      "Réunion"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0059",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Corsica is an insular territorial collectivity nicknamed the Isle of Beauty."
+  },
+  {
+    "id": "fin-geographie-0060",
+    "conceptId": "concept-fin-geographie-0060",
+    "familyId": "family-fin-geographie-0030",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Spanish archipelago in the Atlantic Ocean is made up of, among others, Tenerife, Gran Canaria, and Lanzarote?",
+    "answers": [
+      "The Canary Islands",
+      "Madeira",
+      "The Balearic Islands",
+      "The Azores"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0060",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Canary Islands are a Spanish autonomous community located off the coast of Morocco."
+  },
+  {
+    "id": "fin-geographie-0061",
+    "conceptId": "concept-fin-geographie-0061",
+    "familyId": "family-fin-geographie-0031",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Spanish archipelago located in the western Mediterranean includes Majorca, Minorca, Ibiza, and Formentera?",
+    "answers": [
+      "The Cyclades",
+      "The Balearic Islands",
+      "The Aeolian Islands",
+      "The Canary Islands"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0061",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Balearic Islands form a Spanish autonomous community whose capital is Palma de Majorca."
+  },
+  {
+    "id": "fin-geographie-0062",
+    "conceptId": "concept-fin-geographie-0062",
+    "familyId": "family-fin-geographie-0031",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Portuguese volcanic archipelago in the Atlantic includes the islands of São Miguel, Terceira, and Pico?",
+    "answers": [
+      "The Azores",
+      "Madeira",
+      "Cape Verde",
+      "The Canary Islands"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0062",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Azores are an autonomous region of Portugal located about 1,500 km from the coast of Lisbon."
+  },
+  {
+    "id": "fin-geographie-0063",
+    "conceptId": "concept-fin-geographie-0063",
+    "familyId": "family-fin-geographie-0032",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Ecuadorian archipelago in the Pacific Ocean inspired Charles Darwin's theory of evolution by natural selection?",
+    "answers": [
+      "The Falkland Islands",
+      "The Galápagos Islands",
+      "Easter Island",
+      "The Juan Fernández Archipelago"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0063",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Galápagos Islands are home to unique endemic fauna (giant tortoises, marine iguanas, finches)."
+  },
+  {
+    "id": "fin-geographie-0064",
+    "conceptId": "concept-fin-geographie-0064",
+    "familyId": "family-fin-geographie-0032",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does Easter Island (Rapa Nui), famous for its monumental Moai statues, belong to?",
+    "answers": [
+      "Ecuador",
+      "Peru",
+      "Chile",
+      "Argentina"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0064",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Easter Island is a special province attached to the Valparaíso region in Chile."
+  },
+  {
+    "id": "fin-geographie-0065",
+    "conceptId": "concept-fin-geographie-0065",
+    "familyId": "family-fin-geographie-0033",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which famous Greek island in the Aegean Sea is renowned for its white houses with blue domes perched on a caldera?",
+    "answers": [
+      "Santorini",
+      "Corfu",
+      "Rhodes",
+      "Mykonos"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0065",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Santorini (Thira) is the remnant of a volcanic island destroyed by a colossal eruption around 1600 BCE."
+  },
+  {
+    "id": "fin-geographie-0066",
+    "conceptId": "concept-fin-geographie-0066",
+    "familyId": "family-fin-geographie-0033",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the largest island in the West Indies and Caribbean archipelago with Havana as its capital?",
+    "answers": [
+      "Cuba",
+      "Hispaniola",
+      "Puerto Rico",
+      "Jamaica"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0066",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Cuba is the largest island in the Caribbean with an area of approximately 109,884 km²."
+  },
+  {
+    "id": "fin-geographie-0067",
+    "conceptId": "concept-fin-geographie-0067",
+    "familyId": "family-fin-geographie-0034",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "On which Caribbean island do the Republic of Haiti and the Dominican Republic coexist?",
+    "answers": [
+      "Cuba",
+      "Puerto Rico",
+      "Jamaica",
+      "Hispaniola"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0067",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hispaniola was named thus by Christopher Columbus upon his landing in 1492."
+  },
+  {
+    "id": "fin-geographie-0068",
+    "conceptId": "concept-fin-geographie-0068",
+    "familyId": "family-fin-geographie-0034",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Norwegian archipelago in the Arctic Ocean is home to the famous Global Seed Vault?",
+    "answers": [
+      "The Lofoten",
+      "The Shetland",
+      "Svalbard",
+      "The Faroe Islands"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0068",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Svalbard (whose main island is Spitsbergen) stores millions of seed samples under the permafrost."
+  },
+  {
+    "id": "fin-geographie-0069",
+    "conceptId": "concept-fin-geographie-0069",
+    "familyId": "family-fin-geographie-0035",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "To which country does the archipelago of the Faroe Islands belong, located in the North Atlantic between Scotland and Iceland?",
+    "answers": [
+      "Denmark",
+      "Iceland",
+      "United Kingdom",
+      "Norway"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0069",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Faroe Islands constitute an autonomous constituent country of the Kingdom of Denmark."
+  },
+  {
+    "id": "fin-geographie-0070",
+    "conceptId": "concept-fin-geographie-0070",
+    "familyId": "family-fin-geographie-0035",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Italian island in the Bay of Naples is famous for its 'Blue Grotto' and limestone cliffs?",
+    "answers": [
+      "Capri",
+      "Procida",
+      "Elba",
+      "Ischia"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "iles-archipels",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "iles-archipels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0070",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Capri is an island renowned since Roman antiquity, where Emperor Tiberius retired to the Villa Jovis."
+  }
+]

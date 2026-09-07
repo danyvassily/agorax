@@ -1,0 +1,442 @@
+[
+  {
+    "id": "animaux-dump-0202",
+    "conceptId": "concept-animaux-0202",
+    "familyId": "family-animaux-0101",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Approximately what amount of meat does an adult male lion’s diet require per day?",
+    "answers": [
+      "10 lbs. (4.5 kg)",
+      "15 lbs. (6.8 kg)",
+      "5 lbs. (2.2 kg)",
+      "25 lbs. (11 kg)"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0202",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0203",
+    "conceptId": "concept-animaux-0203",
+    "familyId": "family-animaux-0102",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Approximately how long is a lion's gestation period?",
+    "answers": [
+      "30 days",
+      "200 days",
+      "120 days",
+      "60 days"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0203",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0208",
+    "conceptId": "concept-animaux-0208",
+    "familyId": "family-animaux-0104",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Where can the polar bear be found?",
+    "answers": [
+      "South Pole",
+      "Arctic",
+      "Antarctica",
+      "All of these"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0208",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0209",
+    "conceptId": "concept-animaux-0209",
+    "familyId": "family-animaux-0105",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What color is a polar bear's skin?",
+    "answers": [
+      "Pink",
+      "Yellow",
+      "Black",
+      "White"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0209",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0223",
+    "conceptId": "concept-animaux-0223",
+    "familyId": "family-animaux-0112",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Butterflies taste their food through this organ. ?",
+    "answers": [
+      "The legs",
+      "Their faceted eyes",
+      "The wings",
+      "The proboscis"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0223",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0229",
+    "conceptId": "concept-animaux-0229",
+    "familyId": "family-animaux-0115",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Why do cats suddenly race through the house?",
+    "answers": [
+      "They want to get your attention.",
+      "They feel the presence of a ghost.",
+      "They feel a change in the weather.",
+      "They have an overflow of pent-up energy."
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0229",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0230",
+    "conceptId": "concept-animaux-0230",
+    "familyId": "family-animaux-0115",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Why does a cat rub against your leg?",
+    "answers": [
+      "To mark you by depositing its scent",
+      "Because it really likes you.",
+      "To show it trusts you",
+      "Because it feels good."
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0230",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0231",
+    "conceptId": "concept-animaux-0231",
+    "familyId": "family-animaux-0116",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Why does a cat bury its waste?",
+    "answers": [
+      "To show their dominance",
+      "To protect their trail from predators",
+      "Because they are very clean animals.",
+      "Because they are so territorial."
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0231",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0234",
+    "conceptId": "concept-animaux-0234",
+    "familyId": "family-animaux-0117",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Why do cats go crazy over catnip?",
+    "answers": [
+      "Because it smells like tasty food",
+      "Because it smells like a cat in heat",
+      "Because it smells like prey",
+      "Because it is an aphrodisiac"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0234",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0237",
+    "conceptId": "concept-animaux-0237",
+    "familyId": "family-animaux-0119",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Why do earthworms come to the surface after rainstorms?",
+    "answers": [
+      "No one knows for sure but there are four theories trying to explain this behaviour.",
+      "They can drown if their holes fill up.",
+      "They can't take the acid rain.",
+      "The temperature on the surface is cooler."
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0237",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0240",
+    "conceptId": "concept-animaux-0240",
+    "familyId": "family-animaux-0120",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "To which animal class do octopuses belong?",
+    "answers": [
+      "Mollusk",
+      "Coleoid",
+      "Cephalopod",
+      "Nautiloid"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0240",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

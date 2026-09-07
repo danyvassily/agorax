@@ -1,0 +1,572 @@
+[
+  {
+    "id": "war-dec-dias",
+    "conceptId": "dec-dias",
+    "familyId": "age-of-discovery",
+    "type": "mcq",
+    "question": "Which Portuguese navigator rounded the Cape of Good Hope in 1488?",
+    "answers": [
+      "Bartolomeu Dias",
+      "Vasco de Gama",
+      "Christopher Columbus",
+      "Ferdinand Magellan"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "grandes-decouvertes",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "grandes-decouvertes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q130377",
+      "url": "https://www.wikidata.org/wiki/Q130377",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-dec-gama",
+    "conceptId": "dec-gama",
+    "familyId": "age-of-discovery",
+    "type": "mcq",
+    "question": "Which Portuguese navigator reached the Indies by sea in 1498?",
+    "answers": [
+      "Bartolomeu Dias",
+      "Pedro Álvares Cabral",
+      "Fernand de Magellan",
+      "Vasco de Gama"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "grandes-decouvertes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "grandes-decouvertes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q7328",
+      "url": "https://www.wikidata.org/wiki/Q7328",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Vasco_de_Gama"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-dec-cortes",
+    "conceptId": "dec-cortes",
+    "familyId": "age-of-discovery",
+    "type": "mcq",
+    "question": "Which Spanish conquistador overthrew the Aztec Empire?",
+    "answers": [
+      "Vasco Núñez de Balboa",
+      "Juan Ponce de León",
+      "Hernán Cortés",
+      "Francisco Pizarro"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "grandes-decouvertes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "grandes-decouvertes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q7326",
+      "url": "https://www.wikidata.org/wiki/Q7326",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-dec-pizarro",
+    "conceptId": "dec-pizarro",
+    "familyId": "age-of-discovery",
+    "type": "mcq",
+    "question": "Which conquistador conquered the Inca Empire?",
+    "answers": [
+      "Hernando de Soto",
+      "Francisco Pizarro",
+      "Hernán Cortés",
+      "Vasco Núñez de Balboa"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "grandes-decouvertes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "grandes-decouvertes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q44741",
+      "url": "https://www.wikidata.org/wiki/Q44741",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Francisco_Pizarro"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-dec-magellan",
+    "conceptId": "dec-magellan",
+    "familyId": "age-of-discovery",
+    "type": "mcq",
+    "question": "Which expedition completed the first circumnavigation of the globe between 1519 and 1522?",
+    "answers": [
+      "That of Magellan",
+      "That of Columbus",
+      "That of Vasco da Gama",
+      "That of James Cook"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "grandes-decouvertes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "grandes-decouvertes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1496",
+      "url": "https://www.wikidata.org/wiki/Q1496",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-dec-cook",
+    "conceptId": "dec-cook",
+    "familyId": "age-of-discovery",
+    "type": "mcq",
+    "question": "Which British navigator explored the Pacific in the 18th century and died in Hawaii?",
+    "answers": [
+      "Francis Drake",
+      "Henry Hudson",
+      "John Cabot",
+      "James Cook"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "grandes-decouvertes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "grandes-decouvertes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q7324",
+      "url": "https://www.wikidata.org/wiki/Q7324",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/James_Cook"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-indus-vapeur",
+    "conceptId": "indus-vapeur",
+    "familyId": "industrial-revolution",
+    "type": "mcq",
+    "question": "Which machine, perfected by James Watt in 1769, revolutionized industry?",
+    "answers": [
+      "The locomotive",
+      "The internal combustion engine",
+      "The steam engine",
+      "The mechanical loom"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "revolution-industrielle",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "revolution-industrielle"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q9041",
+      "url": "https://www.wikidata.org/wiki/Q9041",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-indus-rail-1827",
+    "conceptId": "indus-rail-1827",
+    "familyId": "industrial-revolution",
+    "type": "mcq",
+    "question": "In what year did the first French railway line open, between Saint-Étienne and Andrézieux?",
+    "answers": [
+      "1870",
+      "1827",
+      "1804",
+      "1848"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "revolution-industrielle",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "revolution-industrielle"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q133614",
+      "url": "https://www.wikidata.org/wiki/Q133614",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/1827"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-indus-telephone-annee",
+    "conceptId": "indus-telephone-annee",
+    "familyId": "industrial-revolution",
+    "type": "mcq",
+    "question": "Which 1876 invention revolutionized communications?",
+    "answers": [
+      "The telephone",
+      "The telegraph",
+      "The radio",
+      "The phonograph"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "revolution-industrielle",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "revolution-industrielle"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q34286",
+      "url": "https://www.wikidata.org/wiki/Q34286",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-indus-bell",
+    "conceptId": "indus-bell",
+    "familyId": "industrial-revolution",
+    "type": "mcq",
+    "question": "Who patented the telephone in 1876?",
+    "answers": [
+      "Thomas Edison",
+      "Nikola Tesla",
+      "Guglielmo Marconi",
+      "Alexander Graham Bell"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "revolution-industrielle",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "revolution-industrielle"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q34286",
+      "url": "https://www.wikidata.org/wiki/Q34286",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Alexander_Graham_Bell"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-indus-ampoule",
+    "conceptId": "indus-ampoule",
+    "familyId": "industrial-revolution",
+    "type": "mcq",
+    "question": "Which invention by Thomas Edison, in 1879, made it possible to light up cities?",
+    "answers": [
+      "The phonograph",
+      "The movie projector",
+      "The electric light bulb",
+      "The dynamo"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "revolution-industrielle",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "revolution-industrielle"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q8743",
+      "url": "https://www.wikidata.org/wiki/Q8743",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-indus-rocket",
+    "conceptId": "indus-rocket",
+    "familyId": "industrial-revolution",
+    "type": "mcq",
+    "question": "Which British engineer built the locomotive 'Rocket', winner of the Rainhill trials in 1829?",
+    "answers": [
+      "James Watt",
+      "George Stephenson",
+      "Isambard Kingdom Brunel",
+      "Richard Trevithick"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "revolution-industrielle",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "revolution-industrielle"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q133614",
+      "url": "https://www.wikidata.org/wiki/Q133614",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/George_Stephenson"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-indus-expo-1889",
+    "conceptId": "indus-expo-1889",
+    "familyId": "industrial-revolution",
+    "type": "mcq",
+    "question": "Which Paris World's Fair celebrated the peak of the industrial era in 1889?",
+    "answers": [
+      "The 1889 World's Fair",
+      "The 1855 World's Fair",
+      "The 1878 World's Fair",
+      "The 1900 World's Fair"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "revolution-industrielle",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "revolution-industrielle"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q957317",
+      "url": "https://www.wikidata.org/wiki/Q957317",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-indus-benz",
+    "conceptId": "indus-benz",
+    "familyId": "industrial-revolution",
+    "type": "mcq",
+    "question": "Which German engineer built the first gasoline-powered automobile in 1886?",
+    "answers": [
+      "Gottlieb Daimler",
+      "Rudolf Diesel",
+      "Ferdinand Porsche",
+      "Carl Benz"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "revolution-industrielle",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "revolution-industrielle"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q40224",
+      "url": "https://www.wikidata.org/wiki/Q40224",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Carl_Benz"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-indus-seconde",
+    "conceptId": "indus-seconde",
+    "familyId": "industrial-revolution",
+    "type": "mcq",
+    "question": "Which period at the end of the 19th century introduced steel, electricity, and chemistry on a large scale?",
+    "answers": [
+      "The digital revolution",
+      "The agricultural revolution",
+      "The second industrial revolution",
+      "The first industrial revolution"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "revolution-industrielle",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "revolution-industrielle"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q8743",
+      "url": "https://www.wikidata.org/wiki/Q8743",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

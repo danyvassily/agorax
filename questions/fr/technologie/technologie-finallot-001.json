@@ -1,0 +1,362 @@
+[
+  {
+    "id": "fin-technologie-0001",
+    "conceptId": "concept-fin-technologie-0001",
+    "familyId": "family-fin-technologie-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel système d'exploitation open source dont la mascotte est le manchot Tux a été créé par Linus Torvalds en 1991 ?",
+    "answers": [
+      "Windows",
+      "macOS",
+      "Linux",
+      "FreeBSD"
+    ],
+    "correctAnswer": 2,
+    "category": "technologie",
+    "subcategory": "informatique",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "informatique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Linus Torvalds a développé le noyau Linux comme un projet personnel à l'université d'Helsinki avant qu'il n'alimente le Web mondial."
+  },
+  {
+    "id": "fin-technologie-0002",
+    "conceptId": "concept-fin-technologie-0002",
+    "familyId": "family-fin-technologie-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel chercheur britannique a inventé le World Wide Web au CERN en 1989 en créant les protocoles HTTP et HTML ?",
+    "answers": [
+      "Tim Berners-Lee",
+      "Alan Turing",
+      "Marc Andreessen",
+      "Vint Cerf"
+    ],
+    "correctAnswer": 0,
+    "category": "technologie",
+    "subcategory": "web",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "web"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Tim Berners-Lee a conçu le Web pour faciliter le partage de données entre scientifiques sans déposer de brevet lucratif."
+  },
+  {
+    "id": "fin-technologie-0003",
+    "conceptId": "concept-fin-technologie-0003",
+    "familyId": "family-fin-technologie-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel langage de script universel a été créé en seulement 10 jours en 1995 par Brendan Eich pour le navigateur Netscape ?",
+    "answers": [
+      "PHP",
+      "Java",
+      "JavaScript",
+      "Python"
+    ],
+    "correctAnswer": 2,
+    "category": "technologie",
+    "subcategory": "programmation",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "programmation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Initialement appelé Mocha puis LiveScript, JavaScript est devenu le langage fondamental et incontournable du web interactif."
+  },
+  {
+    "id": "fin-technologie-0004",
+    "conceptId": "concept-fin-technologie-0004",
+    "familyId": "family-fin-technologie-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle mathématicienne britannique du XIXe siècle fille de Lord Byron est considérée comme la première programmeuse de l'histoire ?",
+    "answers": [
+      "Ada Lovelace",
+      "Hedy Lamarr",
+      "Margaret Hamilton",
+      "Grace Hopper"
+    ],
+    "correctAnswer": 0,
+    "category": "technologie",
+    "subcategory": "histoire-informatique",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "histoire-informatique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Ada Lovelace a rédigé en 1843 le premier algorithme destiné à être exécuté par la machine analytique de Charles Babbage."
+  },
+  {
+    "id": "fin-technologie-0005",
+    "conceptId": "concept-fin-technologie-0005",
+    "familyId": "family-fin-technologie-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mathématicien et cryptologue britannique a conçu le concept de machine universelle et brisé le code de la machine Enigma ?",
+    "answers": [
+      "Norbert Wiener",
+      "Alan Turing",
+      "Claude Shannon",
+      "John von Neumann"
+    ],
+    "correctAnswer": 1,
+    "category": "technologie",
+    "subcategory": "histoire-informatique",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "histoire-informatique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Alan Turing est l'un des pères fondateurs de l'informatique théorique et de l'intelligence artificielle (test de Turing)."
+  },
+  {
+    "id": "fin-technologie-0006",
+    "conceptId": "concept-fin-technologie-0006",
+    "familyId": "family-fin-technologie-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "En quelle année Steve Jobs a-t-il présenté le tout premier smartphone tactile iPhone d'Apple lors d'une célèbre keynote ?",
+    "answers": [
+      "2007",
+      "2005",
+      "2008",
+      "2010"
+    ],
+    "correctAnswer": 0,
+    "category": "technologie",
+    "subcategory": "smartphones",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "smartphones"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le 9 janvier 2007 à San Francisco, Steve Jobs a dévoilé l'iPhone combinant un iPod, un téléphone et un terminal internet."
+  },
+  {
+    "id": "fin-technologie-0007",
+    "conceptId": "concept-fin-technologie-0007",
+    "familyId": "family-fin-technologie-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel système d'exploitation mobile racheté par Google en 2005 équipe la majorité des téléphones intelligents de la planète ?",
+    "answers": [
+      "Windows Phone",
+      "iOS",
+      "Symbian",
+      "Android"
+    ],
+    "correctAnswer": 3,
+    "category": "technologie",
+    "subcategory": "systemes",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "systemes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Android est un système d'exploitation open source basé sur le noyau Linux utilisé par des milliards d'appareils mobiles."
+  },
+  {
+    "id": "fin-technologie-0008",
+    "conceptId": "concept-fin-technologie-0008",
+    "familyId": "family-fin-technologie-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle unité de mémoire vive volatile perd l'intégralité de ses données enregistrées lorsque l'ordinateur est éteint ?",
+    "answers": [
+      "La mémoire RAM",
+      "Le disque dur",
+      "La mémoire ROM",
+      "Le SSD"
+    ],
+    "correctAnswer": 0,
+    "category": "technologie",
+    "subcategory": "materiel",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "materiel"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La mémoire vive (RAM, Random Access Memory) permet au processeur d'accéder instantanément aux instructions actives."
+  },
+  {
+    "id": "fin-technologie-0009",
+    "conceptId": "concept-fin-technologie-0009",
+    "familyId": "family-fin-technologie-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel type de support de stockage électronique rapide sans pièces mécaniques mobiles a progressivement remplacé le disque dur magnétique classique ?",
+    "answers": [
+      "Le CD-ROM",
+      "Le disque SSD",
+      "La disquette",
+      "La bande magnétique"
+    ],
+    "correctAnswer": 1,
+    "category": "technologie",
+    "subcategory": "materiel",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "technologie",
+      "materiel"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-technologie-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les SSD (Solid-State Drive) reposent sur de la mémoire flash offrant des débits de lecture et d'écriture décuplés."
+  }
+]

@@ -1,0 +1,838 @@
+[
+  {
+    "id": "war-gf-definition",
+    "conceptId": "gf-definition",
+    "familyId": "cold-war-beginnings",
+    "type": "mcq",
+    "question": "What is the period of tension between the United States and the USSR after 1945 called?",
+    "answers": [
+      "The Cold War",
+      "The Phoney War",
+      "Total War",
+      "The Hundred Years' War"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q8683",
+      "url": "https://www.wikidata.org/wiki/Q8683",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-gf-rideau-fer",
+    "conceptId": "gf-rideau-fer",
+    "familyId": "cold-war-beginnings",
+    "type": "mcq",
+    "question": "Who used the expression \"Iron Curtain\" in 1946?",
+    "answers": [
+      "Joseph Stalin",
+      "Harry Truman",
+      "Dwight Eisenhower",
+      "Winston Churchill"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q124425",
+      "url": "https://www.wikidata.org/wiki/Q124425",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Winston_Churchill"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-gf-otan",
+    "conceptId": "gf-otan",
+    "familyId": "cold-war-institutions",
+    "type": "mcq",
+    "question": "Which Western military organization was created in 1949?",
+    "answers": [
+      "The Warsaw Pact",
+      "The League of Nations",
+      "NATO",
+      "The United Nations"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q7184",
+      "url": "https://www.wikidata.org/wiki/Q7184",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-gf-varsovie",
+    "conceptId": "gf-varsovie",
+    "familyId": "cold-war-institutions",
+    "type": "mcq",
+    "question": "Which Soviet military alliance was created in 1955?",
+    "answers": [
+      "Comecon",
+      "The Warsaw Pact",
+      "NATO",
+      "Cominform"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41644",
+      "url": "https://www.wikidata.org/wiki/Q41644",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/pacte_de_Varsovie"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-gf-marshall",
+    "conceptId": "gf-marshall",
+    "familyId": "cold-war-institutions",
+    "type": "mcq",
+    "question": "Which American plan of 1947 financed the reconstruction of Europe?",
+    "answers": [
+      "The Marshall Plan",
+      "The Truman Plan",
+      "The New Deal",
+      "The Five-Year Plan"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q4576",
+      "url": "https://www.wikidata.org/wiki/Q4576",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-gf-mur-berlin",
+    "conceptId": "gf-mur-berlin",
+    "familyId": "cold-war-beginnings",
+    "type": "mcq",
+    "question": "Which wall symbolized the division of Europe during the Cold War?",
+    "answers": [
+      "Hadrian's Wall",
+      "The Siegfried Line",
+      "The Great Wall of China",
+      "The Berlin Wall"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q5086",
+      "url": "https://www.wikidata.org/wiki/Q5086",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/mur_de_Berlin"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-gf-cuba",
+    "conceptId": "gf-cuba",
+    "familyId": "cuban-missile-crisis",
+    "type": "mcq",
+    "question": "Which 1962 crisis opposed John Kennedy and Nikita Khrushchev over missiles?",
+    "answers": [
+      "The Suez Crisis",
+      "The U-2 Affair",
+      "The Cuban Missile Crisis",
+      "The Berlin Crisis"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q128160",
+      "url": "https://www.wikidata.org/wiki/Q128160",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-gf-cuba-annee",
+    "conceptId": "gf-cuba-annee",
+    "familyId": "cuban-missile-crisis",
+    "type": "mcq",
+    "question": "In what year did the Cuban Missile Crisis take place?",
+    "answers": [
+      "1968",
+      "1962",
+      "1948",
+      "1956"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q128160",
+      "url": "https://www.wikidata.org/wiki/Q128160",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/1962"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-gf-gagarine",
+    "conceptId": "gf-gagarine",
+    "familyId": "space-race",
+    "type": "mcq",
+    "question": "Which Soviet cosmonaut was the first man in space, in 1961?",
+    "answers": [
+      "Yuri Gagarin",
+      "Alexei Leonov",
+      "Neil Armstrong",
+      "Valentina Tereshkova"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q7327",
+      "url": "https://www.wikidata.org/wiki/Q7327",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-gf-lune-1969",
+    "conceptId": "gf-lune-1969",
+    "familyId": "space-race",
+    "type": "mcq",
+    "question": "In what year did a man first walk on the Moon?",
+    "answers": [
+      "1961",
+      "1965",
+      "1972",
+      "1969"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1615",
+      "url": "https://www.wikidata.org/wiki/Q1615",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/1969"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-gf-armstrong",
+    "conceptId": "gf-armstrong",
+    "familyId": "space-race",
+    "type": "mcq",
+    "question": "Which American astronaut was the first man to walk on the Moon?",
+    "answers": [
+      "John Glenn",
+      "Alan Shepard",
+      "Neil Armstrong",
+      "Buzz Aldrin"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1615",
+      "url": "https://www.wikidata.org/wiki/Q1615",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-gf-reagan",
+    "conceptId": "gf-reagan",
+    "familyId": "cold-war-end",
+    "type": "mcq",
+    "question": "Which American president described the USSR as an 'Evil Empire' in 1983?",
+    "answers": [
+      "George H. W. Bush",
+      "Ronald Reagan",
+      "Jimmy Carter",
+      "Richard Nixon"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q9960",
+      "url": "https://www.wikidata.org/wiki/Q9960",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Ronald_Reagan"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-gf-berlin-1989",
+    "conceptId": "gf-berlin-1989",
+    "familyId": "cold-war-end",
+    "type": "mcq",
+    "question": "In what year did the Berlin Wall fall?",
+    "answers": [
+      "1989",
+      "1985",
+      "1990",
+      "1979"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q5086",
+      "url": "https://www.wikidata.org/wiki/Q5086",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-gf-afghanistan",
+    "conceptId": "gf-afghanistan",
+    "familyId": "cold-war-end",
+    "type": "mcq",
+    "question": "Which country did the USSR invade in 1979, getting bogged down there for ten years?",
+    "answers": [
+      "Poland",
+      "Hungary",
+      "Czechoslovakia",
+      "Afghanistan"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "guerre-froide",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-froide"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q83085",
+      "url": "https://www.wikidata.org/wiki/Q83085",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Afghanistan"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-coree-debut",
+    "conceptId": "coree-debut",
+    "familyId": "korean-war",
+    "type": "mcq",
+    "question": "In what year did the Korean War begin?",
+    "answers": [
+      "1953",
+      "1948",
+      "1950",
+      "1945"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "guerre-coree",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-coree"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q8663",
+      "url": "https://www.wikidata.org/wiki/Q8663",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-coree-parallele",
+    "conceptId": "coree-parallele",
+    "familyId": "korean-war",
+    "type": "mcq",
+    "question": "Which parallel served as the border between the two Koreas?",
+    "answers": [
+      "The 49th parallel",
+      "The 38th parallel",
+      "The 17th parallel",
+      "The 45th parallel"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "guerre-coree",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-coree"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q483102",
+      "url": "https://www.wikidata.org/wiki/Q483102",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/38e_parall%C3%A8le"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-coree-fin",
+    "conceptId": "coree-fin",
+    "familyId": "korean-war",
+    "type": "mcq",
+    "question": "In what year did an armistice end the fighting in Korea?",
+    "answers": [
+      "1953",
+      "1950",
+      "1955",
+      "1960"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "guerre-coree",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-coree"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q8663",
+      "url": "https://www.wikidata.org/wiki/Q8663",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-coree-chine",
+    "conceptId": "coree-chine",
+    "familyId": "korean-war",
+    "type": "mcq",
+    "question": "Which country massively sent \"volunteers\" to fight alongside North Korea?",
+    "answers": [
+      "Japan",
+      "India",
+      "Mongolia",
+      "China"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "guerre-coree",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-coree"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q8663",
+      "url": "https://www.wikidata.org/wiki/Q8663",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Chine"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-vietnam-saigon",
+    "conceptId": "vietnam-saigon",
+    "familyId": "vietnam-war",
+    "type": "mcq",
+    "question": "In what year did the Vietnam War end with the fall of Saigon?",
+    "answers": [
+      "1968",
+      "1973",
+      "1975",
+      "1965"
+    ],
+    "correctAnswer": 2,
+    "category": "histoire",
+    "subcategory": "guerre-vietnam",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-vietnam"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1854",
+      "url": "https://www.wikidata.org/wiki/Q1854",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-vietnam-giap",
+    "conceptId": "vietnam-giap",
+    "familyId": "vietnam-war",
+    "type": "mcq",
+    "question": "Which Vietnamese general won the Battle of Dien Bien Phu in 1954?",
+    "answers": [
+      "Bao Dai",
+      "Võ Nguyên Giáp",
+      "Hô Chi Minh",
+      "Pham Van Dong"
+    ],
+    "correctAnswer": 1,
+    "category": "histoire",
+    "subcategory": "guerre-vietnam",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-vietnam"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q179910",
+      "url": "https://www.wikidata.org/wiki/Q179910",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/V%C3%B5_Nguy%C3%AAn_Gi%C3%A1p"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "war-vietnam-dienbienphu",
+    "conceptId": "vietnam-dienbienphu",
+    "familyId": "vietnam-war",
+    "type": "mcq",
+    "question": "In what year did the Battle of Dien Bien Phu take place?",
+    "answers": [
+      "1954",
+      "1945",
+      "1960",
+      "1968"
+    ],
+    "correctAnswer": 0,
+    "category": "histoire",
+    "subcategory": "guerre-vietnam",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-vietnam"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q604897",
+      "url": "https://www.wikidata.org/wiki/Q604897",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "war-vietnam-tet",
+    "conceptId": "vietnam-tet",
+    "familyId": "vietnam-war",
+    "type": "mcq",
+    "question": "Which 1968 offensive marked a psychological turning point in the Vietnam War?",
+    "answers": [
+      "The Plain of Jars offensive",
+      "Operation Rolling Thunder",
+      "Operation Linebacker",
+      "The Tet Offensive"
+    ],
+    "correctAnswer": 3,
+    "category": "histoire",
+    "subcategory": "guerre-vietnam",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "histoire",
+      "guerre-vietnam"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q82542",
+      "url": "https://www.wikidata.org/wiki/Q82542",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/offensive_du_T%C3%AAt"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  }
+]

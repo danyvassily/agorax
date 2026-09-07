@@ -1,0 +1,197 @@
+[
+  {
+    "id": "multi-theme-0011",
+    "conceptId": "concept-multi-theme-0011",
+    "familyId": "family-multi-theme-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle célèbre marque automobile suédoise d'avions et de voitures a cessé sa production automobile en 2012 ?",
+    "answers": [
+      "Koenigsegg",
+      "Volvo",
+      "Scania",
+      "Saab"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "automobile"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0012",
+    "conceptId": "concept-multi-theme-0012",
+    "familyId": "family-multi-theme-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel avion de chasse français multirôle produit par Dassault Aviation équipe l'Armée de l'Air et la Marine nationale ?",
+    "answers": [
+      "Le Gripen",
+      "Le Typhoon",
+      "Le Mirage 2000",
+      "Le Rafale"
+    ],
+    "correctAnswer": 3,
+    "category": "vehicules",
+    "subcategory": "aviation",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "aviation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0013",
+    "conceptId": "concept-multi-theme-0013",
+    "familyId": "family-multi-theme-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel modèle de voiture tout-terrain emblématique de la Seconde Guerre mondiale est devenu une marque du groupe Stellantis ?",
+    "answers": [
+      "La Jeep",
+      "Le Hummer",
+      "Le Bronco",
+      "Le Land Rover"
+    ],
+    "correctAnswer": 0,
+    "category": "vehicules",
+    "subcategory": "automobile",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "automobile"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0014",
+    "conceptId": "concept-multi-theme-0014",
+    "familyId": "family-multi-theme-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle marque italienne de scooters légendaire, lancée en 1946 par Enrico Piaggio, est devenue le symbole de la Dolce Vita ?",
+    "answers": [
+      "La Lambretta",
+      "L'Aprilia",
+      "La Vespa",
+      "La Ducati"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "deux-roues",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "deux-roues"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0015",
+    "conceptId": "concept-multi-theme-0015",
+    "familyId": "family-multi-theme-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel train de fret ou de passagers d'exception parcourt plus de 9 200 kilomètres entre Moscou et Vladivostok en traversant la Sibérie ?",
+    "answers": [
+      "Le Blue Train",
+      "L'Orient-Express",
+      "Le Transsibérien",
+      "Le Glacier Express"
+    ],
+    "correctAnswer": 2,
+    "category": "vehicules",
+    "subcategory": "ferroviaire",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "vehicules",
+      "ferroviaire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

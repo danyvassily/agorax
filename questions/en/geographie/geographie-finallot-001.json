@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "fin-geographie-0001",
+    "conceptId": "concept-fin-geographie-0001",
+    "familyId": "family-fin-geographie-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the highest point of the Himalayan range and of the Earth, rising to 8,848 meters?",
+    "answers": [
+      "Annapurna",
+      "Makalu",
+      "K2",
+      "Everest"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Everest (or Sagarmatha / Chomolungma) is the highest mountain in the world, located on the Nepal-Tibet border."
+  },
+  {
+    "id": "fin-geographie-0002",
+    "conceptId": "concept-fin-geographie-0002",
+    "familyId": "family-fin-geographie-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the second highest peak on the planet, located in the Karakoram range at 8,611 meters?",
+    "answers": [
+      "Lhotse",
+      "K2",
+      "Cho Oyu",
+      "Kangchenjunga"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "K2, nicknamed the Savage Mountain, peaks at 8,611 meters between Pakistan and China."
+  },
+  {
+    "id": "fin-geographie-0003",
+    "conceptId": "concept-fin-geographie-0003",
+    "familyId": "family-fin-geographie-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the third highest mountain in the world, located on the border between India and Nepal?",
+    "answers": [
+      "Dhaulagiri",
+      "Manaslu",
+      "Kangchenjunga",
+      "Lhotse"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Kangchenjunga peaks at 8,586 meters and is the highest point in India."
+  },
+  {
+    "id": "fin-geographie-0004",
+    "conceptId": "concept-fin-geographie-0004",
+    "familyId": "family-fin-geographie-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the highest peak in the Alps and Western Europe, standing at 4,808 meters?",
+    "answers": [
+      "Mont Blanc",
+      "The Matterhorn",
+      "Monte Rosa",
+      "The Jungfrau"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mont Blanc peaks at approximately 4,808 meters in the Alps on the Franco-Italian border."
+  },
+  {
+    "id": "fin-geographie-0005",
+    "conceptId": "concept-fin-geographie-0005",
+    "familyId": "family-fin-geographie-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which recognizable pyramid-shaped peak rises to 4,478 m between Switzerland and Italy?",
+    "answers": [
+      "Mont Blanc",
+      "The Eiger",
+      "Dent Blanche",
+      "The Matterhorn"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Matterhorn (Cervin in French) is one of the most famous mountain silhouettes in the world."
+  },
+  {
+    "id": "fin-geographie-0006",
+    "conceptId": "concept-fin-geographie-0006",
+    "familyId": "family-fin-geographie-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which East African country is Mount Kilimanjaro, the highest point on the African continent, located?",
+    "answers": [
+      "Tanzania",
+      "Uganda",
+      "Kenya",
+      "Ethiopia"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mount Kilimanjaro rises to 5,895 meters at Uhuru Peak in Tanzania, near the Kenyan border."
+  },
+  {
+    "id": "fin-geographie-0007",
+    "conceptId": "concept-fin-geographie-0007",
+    "familyId": "family-fin-geographie-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the highest point of the Andes mountain range and the entire American continent at 6,961 meters?",
+    "answers": [
+      "Chimborazo",
+      "Aconcagua",
+      "Ojos del Salado",
+      "Huascarán"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Aconcagua, located in Argentina near the Chilean border, is the highest peak outside of Asia."
+  },
+  {
+    "id": "fin-geographie-0008",
+    "conceptId": "concept-fin-geographie-0008",
+    "familyId": "family-fin-geographie-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the highest point in North America, located in Alaska at an altitude of 6,190 meters?",
+    "answers": [
+      "Denali",
+      "Mount Logan",
+      "Mount Rainier",
+      "Mount Saint Elias"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Denali (formerly Mount McKinley) is the highest peak in North America."
+  },
+  {
+    "id": "fin-geographie-0009",
+    "conceptId": "concept-fin-geographie-0009",
+    "familyId": "family-fin-geographie-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which peak in the Russian Caucasus is considered the geographical highest point of the European continent (5,642 m)?",
+    "answers": [
+      "Elbrus",
+      "Dykh-Tau",
+      "Mont Blanc",
+      "Kazbek"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mount Elbrus is an extinct stratovolcano in the Caucasus whose western summit reaches 5,642 m."
+  },
+  {
+    "id": "fin-geographie-0010",
+    "conceptId": "concept-fin-geographie-0010",
+    "familyId": "family-fin-geographie-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the highest peak on the Antarctic continent, rising to 4,892 meters in the Ellsworth Mountains?",
+    "answers": [
+      "Mount Erebus",
+      "Mount Tyree",
+      "Mount Terror",
+      "Vinson Massif"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Vinson Massif (or Mount Vinson) is the highest point in Antarctica at 4,892 meters."
+  },
+  {
+    "id": "fin-geographie-0011",
+    "conceptId": "concept-fin-geographie-0011",
+    "familyId": "family-fin-geographie-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the highest point of mainland Australia, with its 2,228 meters of altitude?",
+    "answers": [
+      "Mount Bartle Frere",
+      "Mount Bogong",
+      "Mount Kosciuszko",
+      "Mount Townsend"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mount Kosciuszko is located in the Snowy Mountains in New South Wales."
+  },
+  {
+    "id": "fin-geographie-0012",
+    "conceptId": "concept-fin-geographie-0012",
+    "familyId": "family-fin-geographie-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which sacred conical volcano is the highest point of the Japanese archipelago at 3,776 meters?",
+    "answers": [
+      "Mount Hiei",
+      "Mount Ontake",
+      "Mount Fuji",
+      "Mount Aso"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mount Fuji (Fujisan) is the most iconic and highest mountain in Japan."
+  },
+  {
+    "id": "fin-geographie-0013",
+    "conceptId": "concept-fin-geographie-0013",
+    "familyId": "family-fin-geographie-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which permanently active volcano dominates the east coast of Sicily at more than 3,300 meters?",
+    "answers": [
+      "Mount Vesuvius",
+      "Vulcano",
+      "Mount Etna",
+      "Stromboli"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-volcans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-volcans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mount Etna is the highest active volcano in continental and Mediterranean Europe."
+  },
+  {
+    "id": "fin-geographie-0014",
+    "conceptId": "concept-fin-geographie-0014",
+    "familyId": "family-fin-geographie-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which famous volcano overlooks the Bay of Naples and destroyed the ancient city of Pompeii in 79 AD?",
+    "answers": [
+      "Mount Etna",
+      "Stromboli",
+      "Santorini",
+      "Mount Vesuvius"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "relief-volcans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-volcans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Vesuvius is famous for its catastrophic Plinian eruption that buried Pompeii and Herculaneum."
+  },
+  {
+    "id": "fin-geographie-0015",
+    "conceptId": "concept-fin-geographie-0015",
+    "familyId": "family-fin-geographie-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the highest peak of the Pyrenees mountain range, rising to an altitude of 3,404 meters on the Spanish side?",
+    "answers": [
+      "Aneto peak",
+      "Monte Perdido",
+      "Pic du Midi",
+      "Vignemale"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Aneto peak is located in the Maladeta massif in the province of Huesca in Spain."
+  },
+  {
+    "id": "fin-geographie-0016",
+    "conceptId": "concept-fin-geographie-0016",
+    "familyId": "family-fin-geographie-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the highest peak of the Pyrenees mountain range on the French side at 3,298 meters?",
+    "answers": [
+      "Le Canigou",
+      "Le Vignemale",
+      "Le pic du Taillon",
+      "Le pic du Midi d'Ossau"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Pique Longue of the Vignemale massif is the highest summit of the French Pyrenees."
+  },
+  {
+    "id": "fin-geographie-0017",
+    "conceptId": "concept-fin-geographie-0017",
+    "familyId": "family-fin-geographie-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which mountain range traditionally separates France from the Iberian Peninsula?",
+    "answers": [
+      "The Carpathians",
+      "The Pyrenees",
+      "The Jura",
+      "The Alps"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "relief-chaines",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-chaines"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Pyrenees form a continuous natural mountain barrier between France and Spain."
+  },
+  {
+    "id": "fin-geographie-0018",
+    "conceptId": "concept-fin-geographie-0018",
+    "familyId": "family-fin-geographie-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which mountain range, about 2,500 kilometers long, marks the traditional boundary between Europe and Asia?",
+    "answers": [
+      "The Carpathians",
+      "The Caucasus",
+      "The Urals",
+      "The Altai"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-chaines",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-chaines"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Ural Mountains cross Russia from north to south and conventionally delimit the European and Asian continents."
+  },
+  {
+    "id": "fin-geographie-0019",
+    "conceptId": "concept-fin-geographie-0019",
+    "familyId": "family-fin-geographie-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the longest continental mountain range in the world, running along the west of South America?",
+    "answers": [
+      "The Andes",
+      "The Himalayas",
+      "The Rocky Mountains",
+      "The Australian Cordillera"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-chaines",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-chaines"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Andes mountain range stretches over 7,000 km along seven South American countries."
+  },
+  {
+    "id": "fin-geographie-0020",
+    "conceptId": "concept-fin-geographie-0020",
+    "familyId": "family-fin-geographie-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What major mountain range extends from British Columbia to New Mexico in North America?",
+    "answers": [
+      "The Rocky Mountains",
+      "The Appalachians",
+      "The Cascade Range",
+      "The Sierra Nevada"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-chaines",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-chaines"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Rocky Mountains form the backbone of western North America for over 4,800 km."
+  },
+  {
+    "id": "fin-geographie-0021",
+    "conceptId": "concept-fin-geographie-0021",
+    "familyId": "family-fin-geographie-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which ancient mountain range extends along the east coast of the United States and Canada?",
+    "answers": [
+      "The Adirondack Mountains",
+      "The Appalachians",
+      "The Rockies",
+      "The Sierra Nevada"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "relief-chaines",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-chaines"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0021",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Appalachians are a very old and eroded mountain range in eastern North America."
+  },
+  {
+    "id": "fin-geographie-0022",
+    "conceptId": "concept-fin-geographie-0022",
+    "familyId": "family-fin-geographie-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which volcano in Indonesia produced in 1883 one of the most violent volcanic explosions in modern history?",
+    "answers": [
+      "Mount Bromo",
+      "Krakatoa",
+      "Mount Merapi",
+      "Tambora"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "relief-volcans",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-volcans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0022",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The eruption of Krakatoa in 1883 destroyed a large part of the island and caused devastating tsunamis."
+  },
+  {
+    "id": "fin-geographie-0023",
+    "conceptId": "concept-fin-geographie-0023",
+    "familyId": "family-fin-geographie-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which volcano in Indonesia caused in 1815 the most powerful eruption ever recorded, leading to the 'year without a summer' in 1816?",
+    "answers": [
+      "Mount Pinatubo",
+      "Krakatoa",
+      "Mount Tambora",
+      "Mount Saint Helens"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-volcans",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-volcans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0023",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The cataclysmic eruption of Tambora on the island of Sumbawa in 1815 altered the global climate for months."
+  },
+  {
+    "id": "fin-geographie-0024",
+    "conceptId": "concept-fin-geographie-0024",
+    "familyId": "family-fin-geographie-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which volcano in the state of Washington in the United States experienced a spectacular lateral explosion in May 1980?",
+    "answers": [
+      "Mount Rainier",
+      "Mount Shasta",
+      "Mount Hood",
+      "Mount St. Helens"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "relief-volcans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-volcans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0024",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mount St. Helens saw its entire north flank collapse during a gigantic explosive eruption on May 18, 1980."
+  },
+  {
+    "id": "fin-geographie-0025",
+    "conceptId": "concept-fin-geographie-0025",
+    "familyId": "family-fin-geographie-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the highest point on the African continent if we exclude Kilimanjaro (the second highest with 5,199 m)?",
+    "answers": [
+      "Ras Dashen",
+      "Mount Cameroon",
+      "Mount Kenya",
+      "Rwenzori"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0025",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mount Kenya is the second highest peak in Africa after Kilimanjaro."
+  },
+  {
+    "id": "fin-geographie-0026",
+    "conceptId": "concept-fin-geographie-0026",
+    "familyId": "family-fin-geographie-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which South American river has the most powerful average flow in the world and the largest drainage basin?",
+    "answers": [
+      "The Amazon",
+      "The Paraná",
+      "The São Francisco",
+      "The Orinoco"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0026",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Amazon drains about 20% of the fresh water discharged into the oceans by the planet's rivers."
+  },
+  {
+    "id": "fin-geographie-0027",
+    "conceptId": "concept-fin-geographie-0027",
+    "familyId": "family-fin-geographie-0014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which great river of North Africa crosses Egypt before ending its course in the Mediterranean Sea?",
+    "answers": [
+      "The Congo",
+      "The Niger",
+      "The Zambezi",
+      "The Nile"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0027",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Nile stretches over 6,600 km from Lake Victoria to its vast delta on the Mediterranean."
+  },
+  {
+    "id": "fin-geographie-0028",
+    "conceptId": "concept-fin-geographie-0028",
+    "familyId": "family-fin-geographie-0014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the longest river in Asia and the third longest in the world, flowing entirely within China?",
+    "answers": [
+      "The Lena",
+      "The Mekong",
+      "The Yellow River",
+      "The Yangtze"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0028",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Yangtze (or Chang Jiang / Blue River) is approximately 6,300 kilometers long."
+  },
+  {
+    "id": "fin-geographie-0029",
+    "conceptId": "concept-fin-geographie-0029",
+    "familyId": "family-fin-geographie-0015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which famous Chinese river is nicknamed the 'cradle of Chinese civilization' because of the loess silt it carries?",
+    "answers": [
+      "The Yellow River",
+      "The Pearl River",
+      "The Mekong",
+      "The Yangtze"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0029",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Yellow River (Huang He) owes its color and name to the enormous quantities of ochre sediments it transports."
+  },
+  {
+    "id": "fin-geographie-0030",
+    "conceptId": "concept-fin-geographie-0030",
+    "familyId": "family-fin-geographie-0015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which major river in North America crosses the United States from north to south to flow into the Gulf of Mexico?",
+    "answers": [
+      "The Mississippi",
+      "The Rio Grande",
+      "The Colorado",
+      "The Hudson"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0030",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Mississippi, together with its tributary the Missouri, forms one of the world's most important river systems."
+  },
+  {
+    "id": "fin-geographie-0031",
+    "conceptId": "concept-fin-geographie-0031",
+    "familyId": "family-fin-geographie-0016",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which tumultuous river in North America carved the gigantic Grand Canyon in Arizona?",
+    "answers": [
+      "The Mississippi",
+      "The Rio Grande",
+      "The Columbia",
+      "The Colorado"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0031",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Colorado River sculpted the Grand Canyon over several million years of geological erosion."
+  },
+  {
+    "id": "fin-geographie-0032",
+    "conceptId": "concept-fin-geographie-0032",
+    "familyId": "family-fin-geographie-0016",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the longest river in Europe, at 3,530 kilometers, flowing into the Caspian Sea?",
+    "answers": [
+      "The Danube",
+      "The Volga",
+      "The Ural",
+      "The Dnieper"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0032",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Volga is the longest river in Europe and the historical heart of the Russian river network."
+  },
+  {
+    "id": "fin-geographie-0033",
+    "conceptId": "concept-fin-geographie-0033",
+    "familyId": "family-fin-geographie-0017",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which major European river has its source in the Black Forest in Germany and flows through four European capitals?",
+    "answers": [
+      "The Danube",
+      "The Elbe",
+      "The Vistula",
+      "The Rhine"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0033",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Danube flows through Vienna, Bratislava, Budapest, and Belgrade before emptying into the Black Sea."
+  },
+  {
+    "id": "fin-geographie-0034",
+    "conceptId": "concept-fin-geographie-0034",
+    "familyId": "family-fin-geographie-0017",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which European river marks a large part of the Franco-German border and flows into the North Sea?",
+    "answers": [
+      "The Rhine",
+      "The Scheldt",
+      "The Meuse",
+      "The Moselle"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0034",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Rhine is one of the busiest waterways in the world from Basel to Rotterdam."
+  },
+  {
+    "id": "fin-geographie-0035",
+    "conceptId": "concept-fin-geographie-0035",
+    "familyId": "family-fin-geographie-0018",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which river flows through the British capital of London before emptying into the North Sea?",
+    "answers": [
+      "The Severn",
+      "The Mersey",
+      "The Clyde",
+      "The Thames"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0035",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Thames flows through the heart of London and passes under the famous Tower Bridge."
+  },
+  {
+    "id": "fin-geographie-0036",
+    "conceptId": "concept-fin-geographie-0036",
+    "familyId": "family-fin-geographie-0018",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which river flows through the city of Rome, the historical cradle of Roman civilization?",
+    "answers": [
+      "The Arno",
+      "The Po",
+      "The Adige",
+      "The Tiber"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0036",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Tiber is the third longest river in Italy and flows through the Italian capital."
+  },
+  {
+    "id": "fin-geographie-0037",
+    "conceptId": "concept-fin-geographie-0037",
+    "familyId": "family-fin-geographie-0019",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which river flows through Florence and Pisa in Tuscany before emptying into the Ligurian Sea?",
+    "answers": [
+      "The Po",
+      "The Tiber",
+      "The Arno",
+      "The Piave"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0037",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Arno passes notably under the famous Ponte Vecchio in the heart of Florence."
+  },
+  {
+    "id": "fin-geographie-0038",
+    "conceptId": "concept-fin-geographie-0038",
+    "familyId": "family-fin-geographie-0019",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the longest river in Italy, flowing from west to east through the rich Po Valley?",
+    "answers": [
+      "The Tiber",
+      "The Adige",
+      "The Po",
+      "The Arno"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0038",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Po is 652 kilometers long from Mount Viso to the Adriatic Sea."
+  },
+  {
+    "id": "fin-geographie-0039",
+    "conceptId": "concept-fin-geographie-0039",
+    "familyId": "family-fin-geographie-0020",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the longest river entirely located in metropolitan France (1,006 km)?",
+    "answers": [
+      "The Loire",
+      "The Garonne",
+      "The Rhône",
+      "The Seine"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0039",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Loire rises at Mont Gerbier-de-Jonc in Ardèche and flows into the Atlantic Ocean at Saint-Nazaire."
+  },
+  {
+    "id": "fin-geographie-0040",
+    "conceptId": "concept-fin-geographie-0040",
+    "familyId": "family-fin-geographie-0020",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which river rises in Switzerland, flows through Lake Geneva and then the city of Lyon before entering the Mediterranean?",
+    "answers": [
+      "The Rhône",
+      "The Rhine",
+      "The Isère",
+      "The Saône"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0040",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Rhône is the most powerful river in France in terms of its freshwater flow into the Mediterranean."
+  },
+  {
+    "id": "fin-geographie-0041",
+    "conceptId": "concept-fin-geographie-0041",
+    "familyId": "family-fin-geographie-0021",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which French river has its source on the Langres plateau, flows through Paris, and empties into the English Channel at Le Havre?",
+    "answers": [
+      "The Oise",
+      "The Marne",
+      "The Somme",
+      "The Seine"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0041",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Seine is the historic river that flows through the French capital."
+  },
+  {
+    "id": "fin-geographie-0042",
+    "conceptId": "concept-fin-geographie-0042",
+    "familyId": "family-fin-geographie-0021",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which river in southwestern France rises in the Spanish Pyrenees and forms the Gironde estuary with the Dordogne?",
+    "answers": [
+      "The Tarn",
+      "The Lot",
+      "The Garonne",
+      "The Adour"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0042",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Garonne flows through Toulouse and Bordeaux before joining the Dordogne in the Gironde estuary."
+  },
+  {
+    "id": "fin-geographie-0043",
+    "conceptId": "concept-fin-geographie-0043",
+    "familyId": "family-fin-geographie-0022",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the longest river of the Iberian Peninsula, which flows through Toledo and then empties into the Atlantic at Lisbon?",
+    "answers": [
+      "The Douro",
+      "The Tagus",
+      "The Ebro",
+      "The Guadalquivir"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0043",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Tagus (Tajo in Spanish, Tejo in Portuguese) is 1,007 km long and crosses Spain and Portugal."
+  },
+  {
+    "id": "fin-geographie-0044",
+    "conceptId": "concept-fin-geographie-0044",
+    "familyId": "family-fin-geographie-0022",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which major Spanish river rises in the Cantabrian Mountains and gave its ancient name to the peninsula?",
+    "answers": [
+      "The Ebro",
+      "The Douro",
+      "The Guadiana",
+      "The Guadalquivir"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0044",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Ebro gave its name to the Iberian Peninsula in the accounts of ancient geographers."
+  },
+  {
+    "id": "fin-geographie-0045",
+    "conceptId": "concept-fin-geographie-0045",
+    "familyId": "family-fin-geographie-0023",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which river in Southeast Asia crosses or borders six countries (China, Myanmar, Laos, Thailand, Cambodia, Vietnam)?",
+    "answers": [
+      "The Mekong",
+      "The Irrawaddy",
+      "The Salween",
+      "The Red River"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0045",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Mekong is the vital artery of the Indochinese Peninsula, with a vast fertile delta in southern Vietnam."
+  },
+  {
+    "id": "fin-geographie-0046",
+    "conceptId": "concept-fin-geographie-0046",
+    "familyId": "family-fin-geographie-0023",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which sacred river of India originates in the Himalayas and is revered as a goddess by Hindus?",
+    "answers": [
+      "The Brahmaputra",
+      "The Yamuna",
+      "The Indus",
+      "The Ganges"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0046",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Ganges (Ganga) is the most sacred river in Hinduism, flowing through the holy city of Varanasi."
+  },
+  {
+    "id": "fin-geographie-0047",
+    "conceptId": "concept-fin-geographie-0047",
+    "familyId": "family-fin-geographie-0024",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which great river gave its historical name to India and Pakistan, flowing into the Arabian Sea?",
+    "answers": [
+      "The Brahmaputra",
+      "The Narmada",
+      "The Ganges",
+      "The Indus"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0047",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Indus hosted the prestigious Indus Valley Civilization as early as the third millennium BCE."
+  },
+  {
+    "id": "fin-geographie-0048",
+    "conceptId": "concept-fin-geographie-0048",
+    "familyId": "family-fin-geographie-0024",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which river in Central Africa is the deepest in the world (over 220 m) and the second most powerful by its flow rate?",
+    "answers": [
+      "The Zambezi",
+      "The Ogooué",
+      "The Niger",
+      "The Congo"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0048",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Congo River is the only major river to cross the Earth's equator twice."
+  },
+  {
+    "id": "fin-geographie-0049",
+    "conceptId": "concept-fin-geographie-0049",
+    "familyId": "family-fin-geographie-0025",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "On which river in southern Africa are the spectacular Victoria Falls located on the Zambia-Zimbabwe border?",
+    "answers": [
+      "The Zambezi",
+      "The Orange River",
+      "The Limpopo",
+      "The Okavango"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0049",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Zambezi plunges more than a hundred meters high at Victoria Falls, called 'the smoke that thunders'."
+  },
+  {
+    "id": "fin-geographie-0050",
+    "conceptId": "concept-fin-geographie-0050",
+    "familyId": "family-fin-geographie-0025",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which majestic river connects the Great Lakes of North America to the Atlantic Ocean, flowing through Quebec?",
+    "answers": [
+      "The Fraser River",
+      "The Mackenzie River",
+      "The Hudson",
+      "The Saint Lawrence"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0050",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Saint Lawrence River is a major navigable waterway in Canada, bordering Montreal and Quebec City."
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "animaux-dump2-0460",
+    "conceptId": "concept-animaux-0460",
+    "familyId": "family-animaux-0230",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Until what age can the female elephant (called a cow) produce offspring?",
+    "answers": [
+      "75 years",
+      "50 years",
+      "15 years",
+      "7 years"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0460",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0469",
+    "conceptId": "concept-animaux-0469",
+    "familyId": "family-animaux-0235",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which is true about elephants?",
+    "answers": [
+      "The elephant is a good swimmer.",
+      "An elephant's skin is 2.5 inches thick.",
+      "The elephant is not a protected species.",
+      "The elephant is a good jumper."
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0469",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0474",
+    "conceptId": "concept-animaux-0474",
+    "familyId": "family-animaux-0237",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "The echidna's diet consists mainly of this group of animals.",
+    "answers": [
+      "Insects",
+      "Mammals",
+      "Fish",
+      "Birds"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0474",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0475",
+    "conceptId": "concept-animaux-0475",
+    "familyId": "family-animaux-0238",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Where does the kookaburra, a common Australian bird, get its name from?",
+    "answers": [
+      "The aboriginal name for it",
+      "Its appearance",
+      "The food it eats",
+      "The sound it makes"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0475",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0493",
+    "conceptId": "concept-animaux-0493",
+    "familyId": "family-animaux-0247",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does the Clydesdale horse originate from?",
+    "answers": [
+      "Scotland",
+      "Spain",
+      "Ireland",
+      "England"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0493",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0494",
+    "conceptId": "concept-animaux-0494",
+    "familyId": "family-animaux-0247",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What famous beer brand uses the Clydesdale horse as its mascot?",
+    "answers": [
+      "Anheuser-Busch",
+      "Upland",
+      "Heineken",
+      "Fosters"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0494",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0495",
+    "conceptId": "concept-animaux-0495",
+    "familyId": "family-animaux-0248",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What year was the Clydesdale Horse Society formally founded?",
+    "answers": [
+      "1925",
+      "1885",
+      "1887",
+      "1901"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0495",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0498",
+    "conceptId": "concept-animaux-0498",
+    "familyId": "family-animaux-0249",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How long does a Clydesdale horse's pregnancy last?",
+    "answers": [
+      "11 Months",
+      "9 months",
+      "15 Months",
+      "24 Months"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0498",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

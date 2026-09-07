@@ -1,0 +1,762 @@
+[
+  {
+    "id": "greek-medusa-petrifying-glance",
+    "conceptId": "medusa-petrifying-glance",
+    "familyId": "gorgons",
+    "type": "mcq",
+    "question": "What is Medusa's power?",
+    "answers": [
+      "Petrify those who meet her gaze",
+      "Put those who listen to her to sleep",
+      "Steal the strength of men",
+      "Turn water into stone"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q160730",
+      "url": "https://www.wikidata.org/wiki/Q160730",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-medusa-only-mortal-gorgon",
+    "conceptId": "medusa-only-mortal-gorgon",
+    "familyId": "gorgons",
+    "type": "mcq",
+    "question": "What particularity distinguishes Medusa from her two sisters?",
+    "answers": [
+      "She is the only one who is immortal",
+      "She is the only mortal one",
+      "She is the only blind one",
+      "She is the only one with wings"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q160730",
+      "url": "https://www.wikidata.org/wiki/Q160730",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-minotaur-half-man-half-bull",
+    "conceptId": "minotaur-half-man-half-bull",
+    "familyId": "minotaur",
+    "type": "mcq",
+    "question": "What does the Minotaur look like?",
+    "answers": [
+      "A man with the body of a horse",
+      "A giant with three heads",
+      "A man with the head of a bull",
+      "A bull with the head of a man"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q42998",
+      "url": "https://www.wikidata.org/wiki/Q42998",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-minotaur-son-of-pasiphae",
+    "conceptId": "minotaur-son-of-pasiphae",
+    "familyId": "minotaur",
+    "type": "mcq",
+    "question": "Who is the mother of the Minotaur?",
+    "answers": [
+      "Ariadne",
+      "Medusa",
+      "Circe",
+      "Pasiphae"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q42998",
+      "url": "https://www.wikidata.org/wiki/Q42998",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-cerberus-three-headed-dog",
+    "conceptId": "cerberus-three-headed-dog",
+    "familyId": "cerberus",
+    "type": "mcq",
+    "question": "Which three-headed dog guards the entrance to the Underworld?",
+    "answers": [
+      "Cerberus",
+      "Orthrus",
+      "Argos",
+      "Sphinx"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q83217",
+      "url": "https://www.wikidata.org/wiki/Q83217",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-cerberus-snake-tail",
+    "conceptId": "cerberus-snake-tail",
+    "familyId": "cerberus",
+    "type": "mcq",
+    "question": "What particularity does Cerberus's tail have?",
+    "answers": [
+      "It is covered in feathers",
+      "It ends with a snake's head",
+      "It is made of bronze",
+      "It spits fire"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q83217",
+      "url": "https://www.wikidata.org/wiki/Q83217",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-chimera-fire-breathing-monster",
+    "conceptId": "chimera-fire-breathing-monster",
+    "familyId": "chimera",
+    "type": "mcq",
+    "question": "Which creature breathes fire and combines the lion, the goat, and the serpent?",
+    "answers": [
+      "The Sphinx",
+      "The Gorgon",
+      "The Chimera",
+      "The Hydra"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q170403",
+      "url": "https://www.wikidata.org/wiki/Q170403",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-pegasus-winged-horse",
+    "conceptId": "pegasus-winged-horse",
+    "familyId": "pegasus",
+    "type": "mcq",
+    "question": "What is the famous winged horse of Greek mythology?",
+    "answers": [
+      "Arion",
+      "Xanthe",
+      "Balios",
+      "Pegasus"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q163901",
+      "url": "https://www.wikidata.org/wiki/Q163901",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-sphinx-riddles-travellers",
+    "conceptId": "sphinx-riddles-travellers",
+    "familyId": "sphinx",
+    "type": "mcq",
+    "question": "Which creature poses a riddle to travelers near Thebes?",
+    "answers": [
+      "The Sphinx",
+      "The Harpy",
+      "The Siren",
+      "The Chimera"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q133071",
+      "url": "https://www.wikidata.org/wiki/Q133071",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-centaurs-half-horse",
+    "conceptId": "centaurs-half-horse",
+    "familyId": "centaurs",
+    "type": "mcq",
+    "question": "What do Centaurs look like?",
+    "answers": [
+      "Half-man, half-fish",
+      "Half-man, half-horse",
+      "Half-man, half-goat",
+      "Half-man, half-bull"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q183600",
+      "url": "https://www.wikidata.org/wiki/Q183600",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-chiron-wise-centaur-tutor",
+    "conceptId": "chiron-wise-centaur-tutor",
+    "familyId": "centaurs",
+    "type": "mcq",
+    "question": "Which centaur, known for being wise and learned, educated Achilles?",
+    "answers": [
+      "Pholos",
+      "Eurysthée",
+      "Chiron",
+      "Nessos"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q183600",
+      "url": "https://www.wikidata.org/wiki/Q183600",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-sirens-enchanting-song",
+    "conceptId": "sirens-enchanting-song",
+    "familyId": "sirens",
+    "type": "mcq",
+    "question": "What danger do Sirens pose to sailors?",
+    "answers": [
+      "Their claws tear the sails",
+      "Their gaze petrifies",
+      "They create storms",
+      "Their song bewitches and causes ships to run aground"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q170960",
+      "url": "https://www.wikidata.org/wiki/Q170960",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-hydra-regrowing-heads",
+    "conceptId": "hydra-regrowing-heads",
+    "familyId": "hydra",
+    "type": "mcq",
+    "question": "Which creature from the Lernean marshes has multiple heads that regrow?",
+    "answers": [
+      "The Hydra",
+      "The Chimera",
+      "The Colchian Dragon",
+      "Echidna"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q170385",
+      "url": "https://www.wikidata.org/wiki/Q170385",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-nemean-lion-invulnerable-hide",
+    "conceptId": "nemean-lion-invulnerable-hide",
+    "familyId": "nemean-lion",
+    "type": "mcq",
+    "question": "Why are arrows ineffective against the Nemean lion?",
+    "answers": [
+      "He is protected by Ares",
+      "His skin is invulnerable",
+      "He is invisible",
+      "He is immortal"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q122319",
+      "url": "https://www.wikidata.org/wiki/Q122319",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-harpies-snatching-creatures",
+    "conceptId": "harpies-snatching-creatures",
+    "familyId": "harpies",
+    "type": "mcq",
+    "question": "Which winged creatures with the face of a woman steal food and people?",
+    "answers": [
+      "The Nymphs",
+      "The Graces",
+      "The Harpies",
+      "The Sirens"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q190508",
+      "url": "https://www.wikidata.org/wiki/Q190508",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-odysseus-blinds-polyphemus",
+    "conceptId": "odysseus-blinds-polyphemus",
+    "familyId": "cyclops",
+    "type": "mcq",
+    "question": "Which Cyclops does Ulysses blind?",
+    "answers": [
+      "Brontes",
+      "Steropes",
+      "Arges",
+      "Polyphemus"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47220",
+      "url": "https://www.wikidata.org/wiki/Q47220",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-odysseus-escapes-under-sheep",
+    "conceptId": "odysseus-escapes-under-sheep",
+    "familyId": "cyclops",
+    "type": "mcq",
+    "question": "How do Ulysses and his men escape from Polyphemus?",
+    "answers": [
+      "By hiding under the Cyclops' sheep",
+      "By digging a tunnel",
+      "By putting him to sleep with a song",
+      "By killing him in his sleep"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47220",
+      "url": "https://www.wikidata.org/wiki/Q47220",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-satyrs-companions-of-dionysus",
+    "conceptId": "satyrs-companions-of-dionysus",
+    "familyId": "satyrs",
+    "type": "mcq",
+    "question": "Which half-human, half-goat creatures accompany Dionysus?",
+    "answers": [
+      "The Fauns",
+      "The Satyrs",
+      "The Centaurs",
+      "The Tritons"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q44212",
+      "url": "https://www.wikidata.org/wiki/Q44212",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-nymphs-nature-spirits",
+    "conceptId": "nymphs-nature-spirits",
+    "familyId": "nymphs",
+    "type": "mcq",
+    "question": "What are the female nature deities in Greek mythology called?",
+    "answers": [
+      "The Graces",
+      "The Hesperides",
+      "The Nymphs",
+      "The Muses"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q130333",
+      "url": "https://www.wikidata.org/wiki/Q130333",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-typhon-giant-monster",
+    "conceptId": "typhon-giant-monster",
+    "familyId": "typhon",
+    "type": "mcq",
+    "question": "Which giant monster, sometimes described with a hundred serpent heads, defies Zeus?",
+    "answers": [
+      "Geryon",
+      "Antaeus",
+      "Briareus",
+      "Typhon"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "creatures",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "creatures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q34201",
+      "url": "https://www.wikidata.org/wiki/Q34201",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "lit-auteurs-0001",
+    "conceptId": "concept-lit-auteurs-0001",
+    "familyId": "family-lit-auteurs-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Père Goriot » ?",
+    "answers": [
+      "Honoré de Balzac",
+      "Stendhal",
+      "Gustave Flaubert",
+      "Émile Zola"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0002",
+    "conceptId": "concept-lit-auteurs-0002",
+    "familyId": "family-lit-auteurs-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Rouge et le Noir » ?",
+    "answers": [
+      "Prosper Mérimée",
+      "Stendhal",
+      "George Sand",
+      "Honoré de Balzac"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0003",
+    "conceptId": "concept-lit-auteurs-0003",
+    "familyId": "family-lit-auteurs-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Germinal » ?",
+    "answers": [
+      "Alphonse Daudet",
+      "Émile Zola",
+      "Jules Vallès",
+      "Guy de Maupassant"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0004",
+    "conceptId": "concept-lit-auteurs-0004",
+    "familyId": "family-lit-auteurs-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Madame Bovary » ?",
+    "answers": [
+      "Gustave Flaubert",
+      "Théophile Gautier",
+      "Stendhal",
+      "Émile Zola"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0005",
+    "conceptId": "concept-lit-auteurs-0005",
+    "familyId": "family-lit-auteurs-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « La Peste » ?",
+    "answers": [
+      "André Malraux",
+      "Boris Vian",
+      "Jean-Paul Sartre",
+      "Albert Camus"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0006",
+    "conceptId": "concept-lit-auteurs-0006",
+    "familyId": "family-lit-auteurs-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « La Nausée » ?",
+    "answers": [
+      "Louis Aragon",
+      "Albert Camus",
+      "Simone de Beauvoir",
+      "Jean-Paul Sartre"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0007",
+    "conceptId": "concept-lit-auteurs-0007",
+    "familyId": "family-lit-auteurs-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Deuxième Sexe » ?",
+    "answers": [
+      "Marguerite Yourcenar",
+      "Simone de Beauvoir",
+      "Françoise Sagan",
+      "Marguerite Duras"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "essais",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "essais"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0008",
+    "conceptId": "concept-lit-auteurs-0008",
+    "familyId": "family-lit-auteurs-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « L'Amant » ?",
+    "answers": [
+      "Françoise Sagan",
+      "Colette",
+      "Nathalie Sarraute",
+      "Marguerite Duras"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0009",
+    "conceptId": "concept-lit-auteurs-0009",
+    "familyId": "family-lit-auteurs-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « La Ferme des animaux » ?",
+    "answers": [
+      "Arthur Koestler",
+      "Aldous Huxley",
+      "George Orwell",
+      "Ray Bradbury"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0010",
+    "conceptId": "concept-lit-auteurs-0010",
+    "familyId": "family-lit-auteurs-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Meilleur des mondes » ?",
+    "answers": [
+      "George Orwell",
+      "Philip K. Dick",
+      "H.G. Wells",
+      "Aldous Huxley"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0011",
+    "conceptId": "concept-lit-auteurs-0011",
+    "familyId": "family-lit-auteurs-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Guerre et Paix » ?",
+    "answers": [
+      "Fiodor Dostoïevski",
+      "Nikolaï Gogol",
+      "Ivan Tourgueniev",
+      "Léon Tolstoï"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0012",
+    "conceptId": "concept-lit-auteurs-0012",
+    "familyId": "family-lit-auteurs-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Procès » ?",
+    "answers": [
+      "Franz Kafka",
+      "Hermann Hesse",
+      "Stefan Zweig",
+      "Thomas Mann"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0013",
+    "conceptId": "concept-lit-auteurs-0013",
+    "familyId": "family-lit-auteurs-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Joueur d'échecs » ?",
+    "answers": [
+      "Stefan Zweig",
+      "Arthur Schnitzler",
+      "Hermann Broch",
+      "Robert Musil"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0014",
+    "conceptId": "concept-lit-auteurs-0014",
+    "familyId": "family-lit-auteurs-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Siddhartha » ?",
+    "answers": [
+      "Heinrich Böll",
+      "Thomas Mann",
+      "Hermann Hesse",
+      "Günter Grass"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0015",
+    "conceptId": "concept-lit-auteurs-0015",
+    "familyId": "family-lit-auteurs-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Portrait de Dorian Gray » ?",
+    "answers": [
+      "Bram Stoker",
+      "Arthur Conan Doyle",
+      "Robert Louis Stevenson",
+      "Oscar Wilde"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0016",
+    "conceptId": "concept-lit-auteurs-0016",
+    "familyId": "family-lit-auteurs-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Frankenstein » ?",
+    "answers": [
+      "Mary Shelley",
+      "Jane Austen",
+      "Charlotte Brontë",
+      "Emily Brontë"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0017",
+    "conceptId": "concept-lit-auteurs-0017",
+    "familyId": "family-lit-auteurs-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Dracula » ?",
+    "answers": [
+      "Edgar Allan Poe",
+      "Bram Stoker",
+      "H.P. Lovecraft",
+      "Mary Shelley"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0018",
+    "conceptId": "concept-lit-auteurs-0018",
+    "familyId": "family-lit-auteurs-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Chien des Baskerville » ?",
+    "answers": [
+      "Maurice Leblanc",
+      "Agatha Christie",
+      "Arthur Conan Doyle",
+      "Edgar Allan Poe"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0019",
+    "conceptId": "concept-lit-auteurs-0019",
+    "familyId": "family-lit-auteurs-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Dix Petits Nègres (Ils étaient dix) » ?",
+    "answers": [
+      "Gaston Leroux",
+      "Arthur Conan Doyle",
+      "Georges Simenon",
+      "Agatha Christie"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "policier",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "policier"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0020",
+    "conceptId": "concept-lit-auteurs-0020",
+    "familyId": "family-lit-auteurs-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « L'Aiguille creuse (Arsène Lupin) » ?",
+    "answers": [
+      "Maurice Leblanc",
+      "Émile Gaboriau",
+      "Gaston Leroux",
+      "Pierre Souvestre"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "policier",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "policier"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0021",
+    "conceptId": "concept-lit-auteurs-0021",
+    "familyId": "family-lit-auteurs-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Vingt Mille Lieues sous les mers » ?",
+    "answers": [
+      "Alphonse Daudet",
+      "Alexandre Dumas",
+      "Jules Verne",
+      "H.G. Wells"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "aventures",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "aventures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0021",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0022",
+    "conceptId": "concept-lit-auteurs-0022",
+    "familyId": "family-lit-auteurs-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Petit Prince » ?",
+    "answers": [
+      "Jean Giono",
+      "Marcel Pagnol",
+      "Jacques Prévert",
+      "Antoine de Saint-Exupéry"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "contes",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "contes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0022",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0023",
+    "conceptId": "concept-lit-auteurs-0023",
+    "familyId": "family-lit-auteurs-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « La Gloire de mon père » ?",
+    "answers": [
+      "Jean Giono",
+      "Alphonse Daudet",
+      "Marcel Pagnol",
+      "Colette"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0023",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0024",
+    "conceptId": "concept-lit-auteurs-0024",
+    "familyId": "family-lit-auteurs-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « L'Insoutenable Légèreté de l'être » ?",
+    "answers": [
+      "Czesław Miłosz",
+      "Bohumil Hrabal",
+      "Milan Kundera",
+      "Václav Havel"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0024",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0025",
+    "conceptId": "concept-lit-auteurs-0025",
+    "familyId": "family-lit-auteurs-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Nom de la rose » ?",
+    "answers": [
+      "Italo Calvino",
+      "Umberto Eco",
+      "Luigi Pirandello",
+      "Dino Buzzati"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0025",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0026",
+    "conceptId": "concept-lit-auteurs-0026",
+    "familyId": "family-lit-auteurs-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Baron perché » ?",
+    "answers": [
+      "Italo Calvino",
+      "Umberto Eco",
+      "Cesare Pavese",
+      "Primo Levi"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0026",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0027",
+    "conceptId": "concept-lit-auteurs-0027",
+    "familyId": "family-lit-auteurs-0014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Kafka sur le rivage » ?",
+    "answers": [
+      "Haruki Murakami",
+      "Kenzaburō Ōe",
+      "Yukio Mishima",
+      "Yasunari Kawabata"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0027",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0028",
+    "conceptId": "concept-lit-auteurs-0028",
+    "familyId": "family-lit-auteurs-0014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Pavillon d'or » ?",
+    "answers": [
+      "Osamu Dazai",
+      "Yukio Mishima",
+      "Jun'ichirō Tanizaki",
+      "Haruki Murakami"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0028",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0029",
+    "conceptId": "concept-lit-auteurs-0029",
+    "familyId": "family-lit-auteurs-0015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Le Vieil Homme et la Mer » ?",
+    "answers": [
+      "William Faulkner",
+      "John Steinbeck",
+      "F. Scott Fitzgerald",
+      "Ernest Hemingway"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0029",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "lit-auteurs-0030",
+    "conceptId": "concept-lit-auteurs-0030",
+    "familyId": "family-lit-auteurs-0015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui est l'auteur du chef-d'œuvre littéraire « Les Raisins de la colère » ?",
+    "answers": [
+      "John Steinbeck",
+      "Truman Capote",
+      "Jack London",
+      "Ernest Hemingway"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "litterature",
+      "auteurs",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-auteurs-0030",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "art-archi-0001",
+    "conceptId": "concept-art-archi-0001",
+    "familyId": "family-art-archi-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle ville espagnole peut-on visiter la célèbre basilique de la Sagrada Família conçue par l'architecte Antoni Gaudí ?",
+    "answers": [
+      "Madrid",
+      "Valence",
+      "Séville",
+      "Barcelone"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "architecture",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "architecture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-archi-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-archi-0002",
+    "conceptId": "concept-art-archi-0002",
+    "familyId": "family-art-archi-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel monument parisien érigé pour l'Exposition universelle de 1889 culmine à 330 mètres de hauteur avec ses antennes ?",
+    "answers": [
+      "La tour Montparnasse",
+      "Le Panthéon",
+      "L'Arc de triomphe",
+      "La tour Eiffel"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "architecture",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "architecture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-archi-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-archi-0003",
+    "conceptId": "concept-art-archi-0003",
+    "familyId": "family-art-archi-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle ville indienne se dresse le majestueux mausolée en marbre blanc du Taj Mahal, commandé par Shah Jahan ?",
+    "answers": [
+      "Agra",
+      "Mumbai",
+      "Jaipur",
+      "Delhi"
+    ],
+    "correctAnswer": 0,
+    "category": "art",
+    "subcategory": "architecture",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "architecture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-archi-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-archi-0004",
+    "conceptId": "concept-art-archi-0004",
+    "familyId": "family-art-archi-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel amphithéâtre géant de la Rome antique pouvait accueillir plus de 50 000 spectateurs pour des combats de gladiateurs ?",
+    "answers": [
+      "Les thermes de Caracalla",
+      "Le Circus Maximus",
+      "Le Colisée",
+      "Le Panthéon de Rome"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "architecture",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "architecture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-archi-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-archi-0005",
+    "conceptId": "concept-art-archi-0005",
+    "familyId": "family-art-archi-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel plateau égyptien s'élèvent les trois grandes pyramides de Khéops, Khéphren et Mykérinos avec le Sphinx ?",
+    "answers": [
+      "Saqqarah",
+      "Louxor",
+      "Karnak",
+      "Le plateau de Gizeh"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "architecture",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "architecture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-archi-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-archi-0006",
+    "conceptId": "concept-art-archi-0006",
+    "familyId": "family-art-archi-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel temple antique dédié à la déesse Athéna couronne l'Acropole d'Athènes en Grèce ?",
+    "answers": [
+      "L'Érechthéion",
+      "Le temple d'Héphaïstos",
+      "Le temple d'Apollon",
+      "Le Parthénon"
+    ],
+    "correctAnswer": 3,
+    "category": "art",
+    "subcategory": "architecture",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "architecture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-archi-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-archi-0007",
+    "conceptId": "concept-art-archi-0007",
+    "familyId": "family-art-archi-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle célèbre tour penchée en marbre blanc de style roman se trouve sur la Piazza dei Miracoli en Toscane ?",
+    "answers": [
+      "La tour de Pise",
+      "La tour des Asinelli",
+      "La tour du Mangia",
+      "Le campanile de Venise"
+    ],
+    "correctAnswer": 0,
+    "category": "art",
+    "subcategory": "architecture",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "architecture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-archi-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-archi-0008",
+    "conceptId": "concept-art-archi-0008",
+    "familyId": "family-art-archi-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel opéra emblématique aux toits en forme de voiles ou de coquillages géants borde la baie de Sydney en Australie ?",
+    "answers": [
+      "L'Arène de Melbourne",
+      "Le Crown Centre",
+      "L'Opéra de Sydney",
+      "Le Harbour Centre"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "architecture",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "architecture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-archi-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-archi-0009",
+    "conceptId": "concept-art-archi-0009",
+    "familyId": "family-art-archi-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel gratte-ciel situé à Dubaï est la plus haute structure humaine jamais construite au monde avec 828 mètres de haut ?",
+    "answers": [
+      "Le Burj Khalifa",
+      "Les tours Petronas",
+      "La tour Shanghai",
+      "Le Taipei 101"
+    ],
+    "correctAnswer": 0,
+    "category": "art",
+    "subcategory": "architecture",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "architecture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-archi-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "art-archi-0010",
+    "conceptId": "concept-art-archi-0010",
+    "familyId": "family-art-archi-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle cité inca du XVe siècle perchée sur un promontoire rocheux dans les Andes péruviennes a été redécouverte par Hiram Bingham en 1911 ?",
+    "answers": [
+      "Tiahuanaco",
+      "Ollantaytambo",
+      "Le Machu Picchu",
+      "Cuzco"
+    ],
+    "correctAnswer": 2,
+    "category": "art",
+    "subcategory": "architecture",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "art",
+      "architecture"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "art-archi-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

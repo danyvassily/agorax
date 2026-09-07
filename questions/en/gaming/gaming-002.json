@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "game-witcher-geralt",
+    "conceptId": "geralt-monster-hunter",
+    "familyId": "witcher",
+    "type": "mcq",
+    "question": "What is Geralt of Rivia's profession in The Witcher?",
+    "answers": [
+      "Monster hunter",
+      "Knight",
+      "Merchant",
+      "Alchemist"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "personnages",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "witcher"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-witcher-author",
+    "conceptId": "witcher-sapkowski",
+    "familyId": "witcher",
+    "type": "mcq",
+    "question": "The Witcher games are adapted from the novels of which Polish author?",
+    "answers": [
+      "Stanisław Lem",
+      "Henryk Sienkiewicz",
+      "Olga Tokarczuk",
+      "Andrzej Sapkowski"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "adaptations"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Andrzej_Sapkowski"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-mario-kart-blue-shell",
+    "conceptId": "mario-kart-shells",
+    "familyId": "mario-kart",
+    "type": "mcq",
+    "question": "In Mario Kart, which shell targets the player in first place?",
+    "answers": [
+      "The green shell",
+      "The star",
+      "The blue shell",
+      "The red shell"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "mario-kart"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-zelda-ocarina",
+    "conceptId": "ocarina-of-time",
+    "familyId": "zelda",
+    "type": "mcq",
+    "question": "What instrument does Link play in Ocarina of Time?",
+    "answers": [
+      "The drum",
+      "The ocarina",
+      "The flute",
+      "The harp"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "zelda"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/ocarina"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-zelda-botw",
+    "conceptId": "breath-of-the-wild",
+    "familyId": "zelda",
+    "type": "mcq",
+    "question": "Which Zelda game released in 2017 takes place in a vast open world?",
+    "answers": [
+      "Breath of the Wild",
+      "Twilight Princess",
+      "Skyward Sword",
+      "Wind Waker"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "zelda"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-halo-chief",
+    "conceptId": "master-chief-halo",
+    "familyId": "halo",
+    "type": "mcq",
+    "question": "What is the name of the super-soldier protagonist of the Halo saga?",
+    "answers": [
+      "The Arbiter",
+      "Cortana",
+      "Captain Keyes",
+      "Master Chief"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "personnages",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "halo"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Master_Chief"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-halo-studio",
+    "conceptId": "bungie-halo",
+    "familyId": "halo",
+    "type": "mcq",
+    "question": "Which studio created the Halo saga?",
+    "answers": [
+      "Blizzard",
+      "Rare",
+      "Bungie",
+      "Valve"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "studios"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-lara-croft",
+    "conceptId": "lara-croft-tomb-raider",
+    "familyId": "tomb-raider",
+    "type": "mcq",
+    "question": "What is Lara Croft's profession?",
+    "answers": [
+      "Journalist",
+      "Archaeologist",
+      "Pilot",
+      "Spy"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "personnages",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "personnages",
+      "tomb-raider"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Arch%C3%A9ologue"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-mgs-kojima",
+    "conceptId": "kojima-metal-gear",
+    "familyId": "metal-gear",
+    "type": "mcq",
+    "question": "Who created Metal Gear Solid?",
+    "answers": [
+      "Hideo Kojima",
+      "Shigeru Miyamoto",
+      "Yuji Naka",
+      "Kazunori Yamauchi"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "creation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-resident-evil-city",
+    "conceptId": "resident-evil-raccoon",
+    "familyId": "resident-evil",
+    "type": "mcq",
+    "question": "In which city does the first Resident Evil take place?",
+    "answers": [
+      "Silent Hill",
+      "Twin Peaks",
+      "Sunnydale",
+      "Raccoon City"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "horreur"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Raccoon_City"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-silent-hill-fog",
+    "conceptId": "silent-hill-fog",
+    "familyId": "silent-hill",
+    "type": "mcq",
+    "question": "What is the atmospheric peculiarity of the city of Silent Hill?",
+    "answers": [
+      "Northern lights",
+      "Sandstorms",
+      "Permanent fog",
+      "Acid rain"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "horreur"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-ryu-hadoken",
+    "conceptId": "hadoken-ryu",
+    "familyId": "street-fighter",
+    "type": "mcq",
+    "question": "What is Ryu's signature attack in Street Fighter?",
+    "answers": [
+      "Getsuga Tensho",
+      "Hadoken",
+      "Kamehameha",
+      "Rasengan"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "combat"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Hadoken"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-mortal-kombat-fatality",
+    "conceptId": "mortal-kombat-fatality",
+    "familyId": "mortal-kombat",
+    "type": "mcq",
+    "question": "What are the spectacular finishing moves in Mortal Kombat called?",
+    "answers": [
+      "Fatalities",
+      "Ultimates",
+      "K.O.s",
+      "Perfects"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "combat"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-tetris-pieces",
+    "conceptId": "tetromino-tetris",
+    "familyId": "tetris",
+    "type": "mcq",
+    "question": "What are the pieces in Tetris called?",
+    "answers": [
+      "Dominoes",
+      "Pentominoes",
+      "Cubes",
+      "Tetrominoes"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/t%C3%A9trominos"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-fifa-editor",
+    "conceptId": "fifa-ea",
+    "familyId": "fifa",
+    "type": "mcq",
+    "question": "Which company publishes the FIFA game series?",
+    "answers": [
+      "Konami",
+      "2K Games",
+      "Electronic Arts",
+      "Ubisoft"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "sport"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-ea-fc",
+    "conceptId": "ea-sports-fc",
+    "familyId": "fifa",
+    "type": "mcq",
+    "question": "Since 2023, under what name does EA Sports publish its football game?",
+    "answers": [
+      "Football Manager",
+      "EA Sports FC",
+      "FIFA World",
+      "PES 24"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "sport"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "Wikipedia: EA Sports FC remplace FIFA"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-roblox-year",
+    "conceptId": "roblox-2006",
+    "familyId": "roblox",
+    "type": "mcq",
+    "question": "In what year was Roblox released?",
+    "answers": [
+      "2006",
+      "2010",
+      "2013",
+      "2016"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "histoire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-roblox-platform",
+    "conceptId": "roblox-user-generated",
+    "familyId": "roblox",
+    "type": "mcq",
+    "question": "What is the particularity of Roblox?",
+    "answers": [
+      "The game is in virtual reality",
+      "There are no graphics",
+      "It is played only in solo",
+      "Players create their own games"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "plateformes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/joueurs_cr%C3%A9ent_leurs_propres_jeux"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-fortnite-emotes",
+    "conceptId": "fortnite-emotes",
+    "familyId": "fortnite",
+    "type": "mcq",
+    "question": "What are the purchasable dances called in Fortnite?",
+    "answers": [
+      "Emoticons",
+      "Stickers",
+      "Emotes",
+      "Sprays"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "fortnite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-sims-creator",
+    "conceptId": "sims-will-wright",
+    "familyId": "sims",
+    "type": "mcq",
+    "question": "Who created The Sims?",
+    "answers": [
+      "John Romero",
+      "Will Wright",
+      "Sid Meier",
+      "Peter Molyneux"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "creation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Will_Wright"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-simlish",
+    "conceptId": "simlish-language",
+    "familyId": "sims",
+    "type": "mcq",
+    "question": "What language do the characters in The Sims speak?",
+    "answers": [
+      "Simlish",
+      "Klingon",
+      "Esperanto",
+      "Na'vi"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "univers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-zelda-first",
+    "conceptId": "zelda-1986",
+    "familyId": "zelda",
+    "type": "mcq",
+    "question": "In what year was the first The Legend of Zelda released?",
+    "answers": [
+      "1983",
+      "1990",
+      "1994",
+      "1986"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "histoire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/1986"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-sega-megadrive",
+    "conceptId": "sega-genesis",
+    "familyId": "sega",
+    "type": "mcq",
+    "question": "Which Sega console rivaled the Super Nintendo?",
+    "answers": [
+      "The Saturn",
+      "The Game Gear",
+      "The Mega Drive",
+      "The Dreamcast"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "consoles",
+      "sega"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-gameboy",
+    "conceptId": "game-boy-1989",
+    "familyId": "nintendo",
+    "type": "mcq",
+    "question": "Which 1989 handheld console launched Nintendo's line of portables?",
+    "answers": [
+      "The WonderSwan",
+      "The Game Boy",
+      "The Lynx",
+      "The Game Gear"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "consoles",
+      "nintendo"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Game_Boy"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-playstation-year",
+    "conceptId": "playstation-1994",
+    "familyId": "playstation",
+    "type": "mcq",
+    "question": "In what year was the first PlayStation released?",
+    "answers": [
+      "1994",
+      "1990",
+      "1996",
+      "1998"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "consoles",
+      "playstation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-xbox-company",
+    "conceptId": "microsoft-xbox",
+    "familyId": "xbox",
+    "type": "mcq",
+    "question": "Which company created the Xbox?",
+    "answers": [
+      "Sony",
+      "Nintendo",
+      "Apple",
+      "Microsoft"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "consoles",
+      "xbox"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Microsoft"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-wii-motion",
+    "conceptId": "wii-remote-motion",
+    "familyId": "nintendo",
+    "type": "mcq",
+    "question": "What is the special feature of the Wii remote?",
+    "answers": [
+      "It connects to the television",
+      "It works on solar energy",
+      "It detects movements",
+      "It has a touch screen"
+    ],
+    "correctAnswer": 2,
+    "category": "gaming",
+    "subcategory": "consoles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "consoles",
+      "nintendo"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-kingdom-hearts",
+    "conceptId": "kingdom-hearts-disney",
+    "familyId": "kingdom-hearts",
+    "type": "mcq",
+    "question": "Which universes cross over in Kingdom Hearts?",
+    "answers": [
+      "Star Wars and Harry Potter",
+      "Disney and Final Fantasy",
+      "Mario and Sonic",
+      "DC and Marvel"
+    ],
+    "correctAnswer": 1,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Disney_et_Final_Fantasy"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "game-elden-ring-studio",
+    "conceptId": "elden-ring-fromsoftware",
+    "familyId": "fromsoftware",
+    "type": "mcq",
+    "question": "Which studio developed Elden Ring and Dark Souls?",
+    "answers": [
+      "FromSoftware",
+      "Square Enix",
+      "Koei Tecmo",
+      "PlatinumGames"
+    ],
+    "correctAnswer": 0,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "studios"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "game-starcraft-rts",
+    "conceptId": "starcraft-rts",
+    "familyId": "esports",
+    "type": "mcq",
+    "question": "Which of these games is a real-time strategy (RTS) game?",
+    "answers": [
+      "FIFA",
+      "Rocket League",
+      "Street Fighter",
+      "StarCraft"
+    ],
+    "correctAnswer": 3,
+    "category": "gaming",
+    "subcategory": "jeux-video",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "jeux-video",
+      "esports"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/StarCraft"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  }
+]

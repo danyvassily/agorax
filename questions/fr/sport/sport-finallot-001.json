@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "fin-sport-0001",
+    "conceptId": "concept-fin-sport-0001",
+    "familyId": "family-fin-sport-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle ville se sont déroulés les premiers Jeux olympiques de l'ère moderne en 1896 ?",
+    "answers": [
+      "Athènes",
+      "Paris",
+      "Rome",
+      "Londres"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les premiers Jeux olympiques modernes ont été organisés à Athènes en 1896 à l'initiative de Pierre de Coubertin."
+  },
+  {
+    "id": "fin-sport-0002",
+    "conceptId": "concept-fin-sport-0002",
+    "familyId": "family-fin-sport-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle ville a accueilli les Jeux olympiques d'été de 2012 ?",
+    "answers": [
+      "Paris",
+      "Pékin",
+      "Londres",
+      "Madrid"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Londres a organisé les Jeux olympiques d'été de 2012, devenant la première ville à les accueillir trois fois (1908, 1948, 2012)."
+  },
+  {
+    "id": "fin-sport-0003",
+    "conceptId": "concept-fin-sport-0003",
+    "familyId": "family-fin-sport-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle ville brésilienne a accueilli les Jeux olympiques d'été en 2016 ?",
+    "answers": [
+      "Brasília",
+      "Salvador",
+      "Rio de Janeiro",
+      "São Paulo"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Rio de Janeiro a été la première ville d'Amérique du Sud à accueillir les Jeux olympiques d'été en 2016."
+  },
+  {
+    "id": "fin-sport-0004",
+    "conceptId": "concept-fin-sport-0004",
+    "familyId": "family-fin-sport-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "En quelle année la ville de Barcelone a-t-elle organisé les Jeux olympiques d'été ?",
+    "answers": [
+      "2000",
+      "1988",
+      "1996",
+      "1992"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les Jeux olympiques de Barcelone se sont déroulés en 1992 et ont marqué la consécration de la Dream Team américaine de basket."
+  },
+  {
+    "id": "fin-sport-0005",
+    "conceptId": "concept-fin-sport-0005",
+    "familyId": "family-fin-sport-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle ville a accueilli les Jeux olympiques d'été du centenaire en 1996 ?",
+    "answers": [
+      "Athènes",
+      "Chicago",
+      "Los Angeles",
+      "Atlanta"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Atlanta aux États-Unis a accueilli les Jeux olympiques du centenaire en 1996, devançant la candidature d'Athènes."
+  },
+  {
+    "id": "fin-sport-0006",
+    "conceptId": "concept-fin-sport-0006",
+    "familyId": "family-fin-sport-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle ville australienne a organisé les Jeux olympiques d'été de l'an 2000 ?",
+    "answers": [
+      "Perth",
+      "Sydney",
+      "Brisbane",
+      "Melbourne"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Sydney a accueilli les Jeux olympiques du millénaire en 2000, réputés pour leur ambiance exceptionnelle."
+  },
+  {
+    "id": "fin-sport-0007",
+    "conceptId": "concept-fin-sport-0007",
+    "familyId": "family-fin-sport-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel pays la ville de Pékin a-t-elle accueilli les Jeux olympiques d'été de 2008 ?",
+    "answers": [
+      "Japon",
+      "Corée du Sud",
+      "Chine",
+      "Singapour"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Pékin en Chine a accueilli les JO d'été en 2008 dans des enceintes emblématiques comme le Nid d'oiseau."
+  },
+  {
+    "id": "fin-sport-0008",
+    "conceptId": "concept-fin-sport-0008",
+    "familyId": "family-fin-sport-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle ville allemande les Jeux olympiques d'été de 1972 ont-ils été organisés ?",
+    "answers": [
+      "Hambourg",
+      "Francfort",
+      "Berlin",
+      "Munich"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Munich a accueilli les Jeux olympiques d'été de 1972, marqués par la prise d'otages d'athlètes israéliens."
+  },
+  {
+    "id": "fin-sport-0009",
+    "conceptId": "concept-fin-sport-0009",
+    "familyId": "family-fin-sport-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle métropole canadienne a été le théâtre des Jeux olympiques d'été de 1976 ?",
+    "answers": [
+      "Calgary",
+      "Toronto",
+      "Montréal",
+      "Vancouver"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Montréal a accueilli les JO d'été de 1976, où Nadia Comăneci a obtenu la première note parfaite de 10 en gymnastique."
+  },
+  {
+    "id": "fin-sport-0010",
+    "conceptId": "concept-fin-sport-0010",
+    "familyId": "family-fin-sport-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle ville a accueilli les Jeux olympiques d'été de 1988 en Asie ?",
+    "answers": [
+      "Bangkok",
+      "Taipei",
+      "Tokyo",
+      "Séoul"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Séoul a organisé les Jeux d'été de 1988, marquant le retour d'une large participation internationale."
+  },
+  {
+    "id": "fin-sport-0011",
+    "conceptId": "concept-fin-sport-0011",
+    "familyId": "family-fin-sport-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle ville finlandaise a été l'hôte des Jeux olympiques d'été de 1952 ?",
+    "answers": [
+      "Tampere",
+      "Turku",
+      "Espoo",
+      "Helsinki"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Helsinki a accueilli les JO en 1952, initialement prévus pour 1940 mais annulés à cause de la Seconde Guerre mondiale."
+  },
+  {
+    "id": "fin-sport-0012",
+    "conceptId": "concept-fin-sport-0012",
+    "familyId": "family-fin-sport-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle ville a accueilli les premiers Jeux olympiques d'hiver de l'histoire en 1924 ?",
+    "answers": [
+      "Grenoble",
+      "Innsbruck",
+      "Chamonix",
+      "Saint-Moritz"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Chamonix-Mont-Blanc en France a accueilli la première édition des Jeux olympiques d'hiver en 1924."
+  },
+  {
+    "id": "fin-sport-0013",
+    "conceptId": "concept-fin-sport-0013",
+    "familyId": "family-fin-sport-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle ville française se sont tenus les Jeux olympiques d'hiver de 1968 ?",
+    "answers": [
+      "Grenoble",
+      "Albertville",
+      "Nice",
+      "Chamonix"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Grenoble a accueilli les Jeux d'hiver en 1968, immortalisés par les exploits de Jean-Claude Killy qui y remporta trois médailles d'or."
+  },
+  {
+    "id": "fin-sport-0014",
+    "conceptId": "concept-fin-sport-0014",
+    "familyId": "family-fin-sport-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle commune de Savoie a accueilli les Jeux olympiques d'hiver en 1992 ?",
+    "answers": [
+      "Chamonix",
+      "Annecy",
+      "Albertville",
+      "Grenoble"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Albertville a accueilli les XVIes Jeux olympiques d'hiver en février 1992 en région Auvergne-Rhône-Alpes."
+  },
+  {
+    "id": "fin-sport-0015",
+    "conceptId": "concept-fin-sport-0015",
+    "familyId": "family-fin-sport-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien d'anneaux entrelacés composent le symbole officiel du mouvement olympique ?",
+    "answers": [
+      "7",
+      "6",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le drapeau olympique comprend 5 anneaux entrelacés représentant l'union des cinq continents du monde."
+  },
+  {
+    "id": "fin-sport-0016",
+    "conceptId": "concept-fin-sport-0016",
+    "familyId": "family-fin-sport-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle épreuve de course à pied de fond mesure traditionnellement 42,195 kilomètres ?",
+    "answers": [
+      "Le semi-marathon",
+      "Le 10 000 mètres",
+      "Le marathon",
+      "Le cross-country"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le marathon mesure officiellement 42,195 km depuis les Jeux olympiques de Londres en 1908."
+  },
+  {
+    "id": "fin-sport-0017",
+    "conceptId": "concept-fin-sport-0017",
+    "familyId": "family-fin-sport-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quelle surface se dispute le tournoi de tennis du Grand Chelem de Roland-Garros ?",
+    "answers": [
+      "Dur synthétique",
+      "Terre battue",
+      "Moquette",
+      "Gazon"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Roland-Garros est le seul tournoi du Grand Chelem disputé sur terre battue ocre."
+  },
+  {
+    "id": "fin-sport-0018",
+    "conceptId": "concept-fin-sport-0018",
+    "familyId": "family-fin-sport-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quelle surface naturelle se joue le tournoi de tennis de Wimbledon à Londres ?",
+    "answers": [
+      "Béton",
+      "Terre battue",
+      "Terre synthétique",
+      "Gazon"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Wimbledon est le plus ancien tournoi de tennis au monde et se joue sur gazon naturel."
+  },
+  {
+    "id": "fin-sport-0019",
+    "conceptId": "concept-fin-sport-0019",
+    "familyId": "family-fin-sport-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle ville australienne se tient chaque année le premier tournoi du Grand Chelem de tennis ?",
+    "answers": [
+      "Melbourne",
+      "Brisbane",
+      "Perth",
+      "Sydney"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Open d'Australie se tient à Melbourne Park au mois de janvier sur court en dur."
+  },
+  {
+    "id": "fin-sport-0020",
+    "conceptId": "concept-fin-sport-0020",
+    "familyId": "family-fin-sport-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel quartier de New York se dispute chaque année le tournoi de tennis de l'US Open ?",
+    "answers": [
+      "Flushing Meadows",
+      "Harlem",
+      "Brooklyn Heights",
+      "Central Park"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'US Open se tient au centre national de tennis Billie Jean King à Flushing Meadows-Corona Park dans le Queens."
+  },
+  {
+    "id": "fin-sport-0021",
+    "conceptId": "concept-fin-sport-0021",
+    "familyId": "family-fin-sport-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel sprinteur jamaïcain détient les records du monde du 100 mètres et du 200 mètres ?",
+    "answers": [
+      "Yohan Blake",
+      "Tyson Gay",
+      "Usain Bolt",
+      "Asafa Powell"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0021",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Usain Bolt a établi les records du monde du 100 m (9s58) et du 200 m (19s19) lors des Mondiaux de Berlin en 2009."
+  },
+  {
+    "id": "fin-sport-0022",
+    "conceptId": "concept-fin-sport-0022",
+    "familyId": "family-fin-sport-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel nageur américain a remporté un record historique de 23 médailles d'or olympiques ?",
+    "answers": [
+      "Michael Phelps",
+      "Ryan Lochte",
+      "Ian Thorpe",
+      "Mark Spitz"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "natation",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "natation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0022",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Michael Phelps est le sportif le plus titré de l'histoire olympique avec 28 médailles dont 23 d'or entre 2004 et 2016."
+  },
+  {
+    "id": "fin-sport-0023",
+    "conceptId": "concept-fin-sport-0023",
+    "familyId": "family-fin-sport-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "À quelle édition des Jeux olympiques d'été le skateboard et le surf ont-ils fait leur entrée inaugurale ?",
+    "answers": [
+      "Tokyo 2020",
+      "Rio 2016",
+      "Londres 2012",
+      "Pékin 2008"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0023",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le skateboard, le surf et l'escalade sportive ont intégré le programme olympique aux Jeux de Tokyo organisés en 2021."
+  },
+  {
+    "id": "fin-sport-0024",
+    "conceptId": "concept-fin-sport-0024",
+    "familyId": "family-fin-sport-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel athlète est monté sur le podium olympique en sautant pour la première fois sur le dos en 1968 ?",
+    "answers": [
+      "Dick Fosbury",
+      "Javier Sotomayor",
+      "Carl Lewis",
+      "Bob Beamon"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0024",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Dick Fosbury a révolutionné le saut en hauteur aux JO de Mexico en 1968 en franchissant la barre sur le dos."
+  },
+  {
+    "id": "fin-sport-0025",
+    "conceptId": "concept-fin-sport-0025",
+    "familyId": "family-fin-sport-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel sauteur en longueur américain a réussi un bond légendaire à 8,90 m aux Jeux olympiques de 1968 ?",
+    "answers": [
+      "Mike Powell",
+      "Bob Beamon",
+      "Jesse Owens",
+      "Carl Lewis"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0025",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Bob Beamon a réalisé un saut historique à 8,90 mètres lors des Jeux de Mexico en 1968."
+  }
+]

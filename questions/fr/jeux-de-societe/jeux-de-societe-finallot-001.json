@@ -1,0 +1,602 @@
+[
+  {
+    "id": "fin-jeux-de-societe-0001",
+    "conceptId": "concept-fin-jeux-de-societe-0001",
+    "familyId": "family-fin-jeux-de-societe-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de cases compte le plateau traditionnel du jeu d'échecs ?",
+    "answers": [
+      "64 cases",
+      "50 cases",
+      "100 cases",
+      "81 cases"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le plateau d'échecs ou échiquier se compose de 64 cases alternant cases claires et sombres (8x8)."
+  },
+  {
+    "id": "fin-jeux-de-societe-0002",
+    "conceptId": "concept-fin-jeux-de-societe-0002",
+    "familyId": "family-fin-jeux-de-societe-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle pièce du jeu d'échecs peut sauter par-dessus d'autres pièces en se déplaçant en forme de 'L' ?",
+    "answers": [
+      "La dame",
+      "Le cavalier",
+      "La tour",
+      "Le fou"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le cavalier est l'unique pièce d'échecs capable de sauter par-dessus les pièces amies ou adverses."
+  },
+  {
+    "id": "fin-jeux-de-societe-0003",
+    "conceptId": "concept-fin-jeux-de-societe-0003",
+    "familyId": "family-fin-jeux-de-societe-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de pions chaque joueur possède-t-il au départ d'une partie de dames internationales ?",
+    "answers": [
+      "24 pions",
+      "20 pions",
+      "12 pions",
+      "16 pions"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Sur un damier de 100 cases (jeu international à la française), chaque joueur dispose de 20 pions."
+  },
+  {
+    "id": "fin-jeux-de-societe-0004",
+    "conceptId": "concept-fin-jeux-de-societe-0004",
+    "familyId": "family-fin-jeux-de-societe-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel jeu de société de Klaus Teuber les joueurs colonisent-ils une île en récoltant argile, bois, blé, minerai et laine ?",
+    "answers": [
+      "Les Aventuriers du Rail",
+      "Carcassonne",
+      "Les Colons de Catane",
+      "Pandemic"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Catane (Catan), créé en 1995 en Allemagne, a inauguré l'âge d'or du jeu de société moderne de gestion."
+  },
+  {
+    "id": "fin-jeux-de-societe-0005",
+    "conceptId": "concept-fin-jeux-de-societe-0005",
+    "familyId": "family-fin-jeux-de-societe-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel jeu de pose de tuiles de Klaus-Jürgen Wrede les joueurs construisent-ils des routes, cités et monastères médiévaux ?",
+    "answers": [
+      "Dixit",
+      "Carcassonne",
+      "Splendor",
+      "7 Wonders"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Carcassonne a remporté le prestigieux Spiel des Jahres en 2001 et popularisé les figurines appelées 'meeples'."
+  },
+  {
+    "id": "fin-jeux-de-societe-0006",
+    "conceptId": "concept-fin-jeux-de-societe-0006",
+    "familyId": "family-fin-jeux-de-societe-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel jeu de plateau ferroviaire d'Alan R. Moon les joueurs relient-ils des villes par des lignes de train de couleur ?",
+    "answers": [
+      "Ticket to Ride",
+      "Colt Express",
+      "Steam",
+      "Les Aventuriers du Rail"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les Aventuriers du Rail (Ticket to Ride) est un classique moderne récompensé par le Spiel des Jahres en 2004."
+  },
+  {
+    "id": "fin-jeux-de-societe-0007",
+    "conceptId": "concept-fin-jeux-de-societe-0007",
+    "familyId": "family-fin-jeux-de-societe-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel jeu de cartes coopératif de Matt Leacock les joueurs incarnent-ils des spécialistes luttant contre 4 épidémies mondiales ?",
+    "answers": [
+      "Ghost Stories",
+      "Horreur à Arkham",
+      "Pandemic",
+      "The Island"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Pandemic est l'archétype du jeu coopératif où les joueurs gagnent ou perdent ensemble contre le plateau."
+  },
+  {
+    "id": "fin-jeux-de-societe-0008",
+    "conceptId": "concept-fin-jeux-de-societe-0008",
+    "familyId": "family-fin-jeux-de-societe-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel jeu d'ambiance et de déduction poétique primé de Jean-Louis Roubira les joueurs doivent-ils deviner une carte illustrée selon une phrase énigmatique ?",
+    "answers": [
+      "Concept",
+      "Codenames",
+      "Dixit",
+      "Mysterium"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Dixit utilise de grandes cartes oniriques dessinées par Marie Cardouat et a remporté le Spiel des Jahres en 2010."
+  },
+  {
+    "id": "fin-jeux-de-societe-0009",
+    "conceptId": "concept-fin-jeux-de-societe-0009",
+    "familyId": "family-fin-jeux-de-societe-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel jeu d'association d'idées de Vlaada Chvátil deux maîtres-espions doivent-ils faire deviner des mots à leurs coéquipiers via un indice et un chiffre ?",
+    "answers": [
+      "Just One",
+      "Codenames",
+      "Decrypto",
+      "Time's Up!"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Codenames a été récompensé par le Spiel des Jahres en 2016 et s'est vendu à des millions d'exemplaires."
+  },
+  {
+    "id": "fin-jeux-de-societe-0010",
+    "conceptId": "concept-fin-jeux-de-societe-0010",
+    "familyId": "family-fin-jeux-de-societe-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel jeu de draft d'Antoine Bauza les joueurs développent-ils une cité antique autour d'un monument grandiose sur 3 âges ?",
+    "answers": [
+      "Terraforming Mars",
+      "Tapestry",
+      "7 Wonders",
+      "Civilization"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "7 Wonders est l'un des jeux les plus primés au monde, célèbre pour son mécanisme fluide de draft de cartes simultané."
+  },
+  {
+    "id": "fin-jeux-de-societe-0011",
+    "conceptId": "concept-fin-jeux-de-societe-0011",
+    "familyId": "family-fin-jeux-de-societe-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans le jeu du Monopoly classique français, quelle est la rue ou avenue la plus chère du plateau ?",
+    "answers": [
+      "Champs-Élysées",
+      "Boulevard Saint-Michel",
+      "Avenue Foch",
+      "Rue de la Paix"
+    ],
+    "correctAnswer": 3,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Rue de la Paix (bleu foncé) coûte 400 francs/euros à l'achat et inflige les loyers les plus élevés du jeu."
+  },
+  {
+    "id": "fin-jeux-de-societe-0012",
+    "conceptId": "concept-fin-jeux-de-societe-0012",
+    "familyId": "family-fin-jeux-de-societe-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de lettres comprend le tirage d'un joueur dans son chevalet au jeu de Scrabble en début de tour ?",
+    "answers": [
+      "7 lettres",
+      "8 lettres",
+      "6 lettres",
+      "9 lettres"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Chaque joueur conserve 7 lettres sur son chevalet et marquer un coup en plaçant ses 7 lettres s'appelle un 'Scrabble'."
+  },
+  {
+    "id": "fin-jeux-de-societe-0013",
+    "conceptId": "concept-fin-jeux-de-societe-0013",
+    "familyId": "family-fin-jeux-de-societe-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans le jeu d'enquête Cluedo, quel suspect masculin vêtu de jaune porte un grade militaire ?",
+    "answers": [
+      "Colonel Moutarde",
+      "Professeur Violet",
+      "Révérend Olive",
+      "Docteur Orchidée"
+    ],
+    "correctAnswer": 0,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Colonel Moutarde (Colonel Mustard) est l'un des six suspects traditionnels du manoir Tudor."
+  },
+  {
+    "id": "fin-jeux-de-societe-0014",
+    "conceptId": "concept-fin-jeux-de-societe-0014",
+    "familyId": "family-fin-jeux-de-societe-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de dominos composent un jeu traditionnel de dominos 'double-six' standard ?",
+    "answers": [
+      "36 dominos",
+      "32 dominos",
+      "28 dominos",
+      "24 dominos"
+    ],
+    "correctAnswer": 2,
+    "category": "jeux-de-societe",
+    "subcategory": "classiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Un jeu de dominos standard double-six comporte 28 tuiles rectangulaires numérotées de 0 (blanc) à 6."
+  },
+  {
+    "id": "fin-jeux-de-societe-0015",
+    "conceptId": "concept-fin-jeux-de-societe-0015",
+    "familyId": "family-fin-jeux-de-societe-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel jeu de cartes rapide d'observation et de réflexes les joueurs doivent-ils repérer le symbole unique commun entre deux cartes rondes ?",
+    "answers": [
+      "Taco Chat",
+      "Dobble",
+      "Bazar Bizarre",
+      "Jungle Speed"
+    ],
+    "correctAnswer": 1,
+    "category": "jeux-de-societe",
+    "subcategory": "modernes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "jeux-de-societe",
+      "modernes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-jeux-de-societe-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Dobble repose sur un théorème géométrique assurant qu'il existe toujours un et un seul symbole partagé entre deux cartes."
+  }
+]

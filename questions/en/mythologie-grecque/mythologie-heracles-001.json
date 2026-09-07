@@ -1,0 +1,506 @@
+[
+  {
+    "id": "myth-heracles-0001",
+    "conceptId": "concept-myth-heracles-0001",
+    "familyId": "family-myth-heracles-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Greek mythology, what must Heracles capture, defeat, or accomplish during the very first of his twelve labors?",
+    "answers": [
+      "The Nemean Lion",
+      "The Lernaean Hydra",
+      "The Cretan Bull",
+      "The Erymanthian Boar"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Heracles faces the Nemean Lion during the very first of his twelve labors."
+  },
+  {
+    "id": "myth-heracles-0002",
+    "conceptId": "concept-myth-heracles-0002",
+    "familyId": "family-myth-heracles-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Greek mythology, what must Heracles capture, defeat, or accomplish regarding the aquatic monster with multiple heads that grew back double?",
+    "answers": [
+      "The Basilisk",
+      "The Lernaean Hydra",
+      "The Gorgon",
+      "The Chimera"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Heracles faces the Lernaean Hydra during the aquatic monster with multiple heads that grew back double."
+  },
+  {
+    "id": "myth-heracles-0003",
+    "conceptId": "concept-myth-heracles-0003",
+    "familyId": "family-myth-heracles-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Greek mythology, what must Heracles capture, defeat, or accomplish regarding the animal with bronze hooves and golden horns sacred to the goddess Artemis?",
+    "answers": [
+      "The Erymanthian Boar",
+      "The Ceryneian Hind",
+      "The Marathonian Bull",
+      "The Crommyonian Sow"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Heracles confronts the Ceryneian Hind during the task involving the animal with bronze hooves and golden horns sacred to the goddess Artemis."
+  },
+  {
+    "id": "myth-heracles-0004",
+    "conceptId": "concept-myth-heracles-0004",
+    "familyId": "family-myth-heracles-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Greek mythology, what must Heracles capture, defeat, or accomplish regarding the fierce beast of Mount Erymanthus captured alive in the snow?",
+    "answers": [
+      "The Erymanthian Boar",
+      "The Cithaeronian Lion",
+      "The Nemean Lion",
+      "The Cretan Bull"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Heracles faces the Erymanthian Boar during the fierce beast of Mount Erymanthus captured alive in the snow."
+  },
+  {
+    "id": "myth-heracles-0005",
+    "conceptId": "concept-myth-heracles-0005",
+    "familyId": "family-myth-heracles-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Greek mythology, what must Heracles capture, defeat, or accomplish in the giant stables cleaned in one day by diverting two rivers?",
+    "answers": [
+      "The Labyrinth of Daedalus",
+      "The Palace of Minos",
+      "The Augean Stables",
+      "The Caves of Priam"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Heracles faces the Augean Stables in the giant stables cleaned in one day by diverting two rivers."
+  },
+  {
+    "id": "myth-heracles-0006",
+    "conceptId": "concept-myth-heracles-0006",
+    "familyId": "family-myth-heracles-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Greek mythology, what must Heracles capture, defeat, or accomplish regarding the carnivorous birds with bronze wings that infested the marshes of Arcadia?",
+    "answers": [
+      "The Harpies",
+      "The Stryges",
+      "The Sirens",
+      "The Stymphalian Birds"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Heracles confronts the Stymphalian Birds during the carnivorous birds with bronze wings that infested the marshes of Arcadia."
+  },
+  {
+    "id": "myth-heracles-0007",
+    "conceptId": "concept-myth-heracles-0007",
+    "familyId": "family-myth-heracles-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Greek mythology, what must Heracles capture, defeat, or accomplish regarding the furious creature that King Minos had refused to sacrifice to Poseidon?",
+    "answers": [
+      "The Minotaur",
+      "The Nemean Lion",
+      "The Trojan Horse",
+      "The Cretan Bull"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Heracles faces the Cretan Bull during the furious creature that King Minos had refused to sacrifice to Poseidon."
+  },
+  {
+    "id": "myth-heracles-0008",
+    "conceptId": "concept-myth-heracles-0008",
+    "familyId": "family-myth-heracles-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Greek mythology, what must Heracles capture, defeat, or accomplish regarding the fierce carnivorous horses fed on human flesh by the king of Thrace?",
+    "answers": [
+      "The Horses of Apollo",
+      "The Pegasi of the Caucasus",
+      "The Centaurs of Pelion",
+      "The Mares of Diomedes"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Heracles confronts the Mares of Diomedes during the fierce carnivorous horses fed on human flesh by the king of Thrace."
+  },
+  {
+    "id": "myth-heracles-0009",
+    "conceptId": "concept-myth-heracles-0009",
+    "familyId": "family-myth-heracles-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Greek mythology, what must Heracles capture, defeat, or accomplish regarding the coveted ornament worn by the queen of the Amazons?",
+    "answers": [
+      "The Shield of Antiope",
+      "The Diadem of Helen",
+      "The Veil of Ariadne",
+      "The Belt of Hippolyta"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Heracles faces the Belt of Hippolyta during the coveted ornament worn by the queen of the Amazons."
+  },
+  {
+    "id": "myth-heracles-0010",
+    "conceptId": "concept-myth-heracles-0010",
+    "familyId": "family-myth-heracles-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Greek mythology, what must Heracles capture, defeat, or accomplish regarding the gigantic herd of red cattle guarded by a three-bodied giant?",
+    "answers": [
+      "The Sheep of Polyphemus",
+      "The Cows of Argos",
+      "The Cattle of Geryon",
+      "The Bulls of the Sun"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Heracles faces the Cattle of Geryon during the gigantic herd of red cattle guarded by a three-bodied giant."
+  },
+  {
+    "id": "myth-heracles-0011",
+    "conceptId": "concept-myth-heracles-0011",
+    "familyId": "family-myth-heracles-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Greek mythology, what must Heracles capture, defeat, or accomplish regarding the precious fruits of immortality guarded by the dragon Ladon?",
+    "answers": [
+      "The Figs of Tartarus",
+      "The Pomegranates of Persephone",
+      "The Golden Fleece",
+      "The Golden Apples of the Hesperides"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Heracles faces the Golden Apples of the Hesperides regarding the precious fruits of immortality guarded by the dragon Ladon."
+  },
+  {
+    "id": "myth-heracles-0012",
+    "conceptId": "concept-myth-heracles-0012",
+    "familyId": "family-myth-heracles-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Greek mythology, what must Heracles capture, defeat, or accomplish regarding the three-headed canine guardian of the Underworld brought to the surface without a weapon?",
+    "answers": [
+      "Anubis",
+      "The Sphinx",
+      "The dog Cerberus",
+      "Orthos"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "heracles",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie",
+      "grece",
+      "heracles",
+      "douze-travaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-heracles-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Heracles faces the dog Cerberus, the three-headed canine guardian of the Underworld brought to the surface without a weapon."
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "animaux-dump2-0501",
+    "conceptId": "concept-animaux-0501",
+    "familyId": "family-animaux-0251",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What common name does the dog breed New Guinea Highland Dog have?",
+    "answers": [
+      "Prowler",
+      "Singer",
+      "Swimmer",
+      "Wrestler"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0501",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0502",
+    "conceptId": "concept-animaux-0502",
+    "familyId": "family-animaux-0251",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In what color does the Pekingese dog breed come?",
+    "answers": [
+      "All of these",
+      "Black",
+      "White",
+      "Light gold"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0502",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0503",
+    "conceptId": "concept-animaux-0503",
+    "familyId": "family-animaux-0252",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In what European country did the Rough Collie dog breed originate?",
+    "answers": [
+      "Ireland",
+      "France",
+      "Scotland",
+      "Germany"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0503",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0504",
+    "conceptId": "concept-animaux-0504",
+    "familyId": "family-animaux-0252",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What dog breed has an elongated body, very short legs, short shiny coat and a long snout?",
+    "answers": [
+      "Dogo Guatemalteco",
+      "Dachshund",
+      "Elo",
+      "English Foxhound"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0504",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0505",
+    "conceptId": "concept-animaux-0505",
+    "familyId": "family-animaux-0253",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "This extremely large and tall German dog breed has a very short shiny coat and strong muscular body with a majestic posture. ?",
+    "answers": [
+      "German Mastiff",
+      "Boarhound",
+      "Great Dane",
+      "All of these"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0505",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0519",
+    "conceptId": "concept-animaux-0519",
+    "familyId": "family-animaux-0260",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What color eyes do male box turtles commonly have?",
+    "answers": [
+      "blue",
+      "green",
+      "black",
+      "red"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0519",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0521",
+    "conceptId": "concept-animaux-0521",
+    "familyId": "family-animaux-0261",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Whiteflies generally feed on what?",
+    "answers": [
+      "Fruit",
+      "Insects",
+      "Leaves",
+      "Carrion"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0521",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0529",
+    "conceptId": "concept-animaux-0529",
+    "familyId": "family-animaux-0265",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In what Latin American country did the Chihuahua dog breed originate?",
+    "answers": [
+      "Cuba",
+      "Mexico",
+      "Nicaragua",
+      "Guatemala"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0529",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0531",
+    "conceptId": "concept-animaux-0531",
+    "familyId": "family-animaux-0266",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In what country did the American Akita dog breed originate?",
+    "answers": [
+      "United States",
+      "Japan",
+      "China",
+      "Canada"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0531",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0533",
+    "conceptId": "concept-animaux-0533",
+    "familyId": "family-animaux-0267",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In what northern country did the Siberian Husky dog breed originate?",
+    "answers": [
+      "Finland",
+      "Russia",
+      "Norway",
+      "Alaska, USA"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0533",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0544",
+    "conceptId": "concept-animaux-0544",
+    "familyId": "family-animaux-0272",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What time of year do nutrias breed?",
+    "answers": [
+      "In the winter months",
+      "In the Fall",
+      "In the spring",
+      "All year round"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0544",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump2-0548",
+    "conceptId": "concept-animaux-0548",
+    "familyId": "family-animaux-0274",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What place did the Yorkshire Terrier take in the AKC registered breed popularity in the USA in 2008?",
+    "answers": [
+      "50th",
+      "2nd",
+      "1st",
+      "79th"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump2-0548",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

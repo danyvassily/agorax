@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "fin-sport-0001",
+    "conceptId": "concept-fin-sport-0001",
+    "familyId": "family-fin-sport-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which city were the first Olympic Games of the modern era held in 1896?",
+    "answers": [
+      "Athens",
+      "Paris",
+      "Rome",
+      "London"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The first modern Olympic Games were organized in Athens in 1896 at the initiative of Pierre de Coubertin."
+  },
+  {
+    "id": "fin-sport-0002",
+    "conceptId": "concept-fin-sport-0002",
+    "familyId": "family-fin-sport-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which city hosted the Summer Olympic Games in 2012?",
+    "answers": [
+      "Paris",
+      "Beijing",
+      "London",
+      "Madrid"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "London hosted the Summer Olympic Games in 2012, becoming the first city to host them three times (1908, 1948, 2012)."
+  },
+  {
+    "id": "fin-sport-0003",
+    "conceptId": "concept-fin-sport-0003",
+    "familyId": "family-fin-sport-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Brazilian city hosted the Summer Olympics in 2016?",
+    "answers": [
+      "Brasília",
+      "Salvador",
+      "Rio de Janeiro",
+      "São Paulo"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Rio de Janeiro was the first South American city to host the Summer Olympics in 2016."
+  },
+  {
+    "id": "fin-sport-0004",
+    "conceptId": "concept-fin-sport-0004",
+    "familyId": "family-fin-sport-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In what year did the city of Barcelona host the Summer Olympic Games?",
+    "answers": [
+      "2000",
+      "1988",
+      "1996",
+      "1992"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Barcelona Olympic Games took place in 1992 and marked the consecration of the American basketball Dream Team."
+  },
+  {
+    "id": "fin-sport-0005",
+    "conceptId": "concept-fin-sport-0005",
+    "familyId": "family-fin-sport-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which city hosted the Centennial Summer Olympic Games in 1996?",
+    "answers": [
+      "Athens",
+      "Chicago",
+      "Los Angeles",
+      "Atlanta"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Atlanta in the United States hosted the Centennial Olympic Games in 1996, beating out Athens' bid."
+  },
+  {
+    "id": "fin-sport-0006",
+    "conceptId": "concept-fin-sport-0006",
+    "familyId": "family-fin-sport-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Australian city hosted the Summer Olympic Games in the year 2000?",
+    "answers": [
+      "Perth",
+      "Sydney",
+      "Brisbane",
+      "Melbourne"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Sydney hosted the Millennium Olympics in 2000, renowned for their exceptional atmosphere."
+  },
+  {
+    "id": "fin-sport-0007",
+    "conceptId": "concept-fin-sport-0007",
+    "familyId": "family-fin-sport-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which country did the city of Beijing host the Summer Olympic Games in 2008?",
+    "answers": [
+      "Japan",
+      "South Korea",
+      "China",
+      "Singapore"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Beijing in China hosted the Summer Olympics in 2008 in iconic venues such as the Bird's Nest."
+  },
+  {
+    "id": "fin-sport-0008",
+    "conceptId": "concept-fin-sport-0008",
+    "familyId": "family-fin-sport-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which German city were the 1972 Summer Olympics held?",
+    "answers": [
+      "Hamburg",
+      "Frankfurt",
+      "Berlin",
+      "Munich"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Munich hosted the 1972 Summer Olympics, which were marked by the hostage-taking of Israeli athletes."
+  },
+  {
+    "id": "fin-sport-0009",
+    "conceptId": "concept-fin-sport-0009",
+    "familyId": "family-fin-sport-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Canadian metropolis hosted the 1976 Summer Olympic Games?",
+    "answers": [
+      "Calgary",
+      "Toronto",
+      "Montreal",
+      "Vancouver"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Montreal hosted the 1976 Summer Olympics, where Nadia Comăneci achieved the first perfect score of 10 in gymnastics."
+  },
+  {
+    "id": "fin-sport-0010",
+    "conceptId": "concept-fin-sport-0010",
+    "familyId": "family-fin-sport-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which city hosted the Summer Olympic Games in 1988 in Asia?",
+    "answers": [
+      "Bangkok",
+      "Taipei",
+      "Tokyo",
+      "Seoul"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Seoul hosted the 1988 Summer Games, marking the return of broad international participation."
+  },
+  {
+    "id": "fin-sport-0011",
+    "conceptId": "concept-fin-sport-0011",
+    "familyId": "family-fin-sport-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Finnish city hosted the Summer Olympic Games in 1952?",
+    "answers": [
+      "Tampere",
+      "Turku",
+      "Espoo",
+      "Helsinki"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Helsinki hosted the Olympics in 1952, originally scheduled for 1940 but canceled due to World War II."
+  },
+  {
+    "id": "fin-sport-0012",
+    "conceptId": "concept-fin-sport-0012",
+    "familyId": "family-fin-sport-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which city hosted the first Winter Olympic Games in history in 1924?",
+    "answers": [
+      "Grenoble",
+      "Innsbruck",
+      "Chamonix",
+      "Saint-Moritz"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Chamonix-Mont-Blanc in France hosted the first edition of the Winter Olympic Games in 1924."
+  },
+  {
+    "id": "fin-sport-0013",
+    "conceptId": "concept-fin-sport-0013",
+    "familyId": "family-fin-sport-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which French city were the 1968 Winter Olympics held?",
+    "answers": [
+      "Grenoble",
+      "Albertville",
+      "Nice",
+      "Chamonix"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Grenoble hosted the Winter Games in 1968, immortalized by the exploits of Jean-Claude Killy, who won three gold medals there."
+  },
+  {
+    "id": "fin-sport-0014",
+    "conceptId": "concept-fin-sport-0014",
+    "familyId": "family-fin-sport-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which commune in Savoie hosted the Winter Olympic Games in 1992?",
+    "answers": [
+      "Chamonix",
+      "Annecy",
+      "Albertville",
+      "Grenoble"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Albertville hosted the XVI Winter Olympic Games in February 1992 in the Auvergne-Rhône-Alpes region."
+  },
+  {
+    "id": "fin-sport-0015",
+    "conceptId": "concept-fin-sport-0015",
+    "familyId": "family-fin-sport-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many interlocking rings make up the official symbol of the Olympic movement?",
+    "answers": [
+      "7",
+      "6",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Olympic flag includes 5 interlocking rings representing the union of the five continents of the world."
+  },
+  {
+    "id": "fin-sport-0016",
+    "conceptId": "concept-fin-sport-0016",
+    "familyId": "family-fin-sport-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which long-distance running event traditionally measures 42.195 kilometers?",
+    "answers": [
+      "The half marathon",
+      "The 10,000 meters",
+      "The marathon",
+      "Cross-country"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The marathon has officially measured 42.195 km since the 1908 London Olympics."
+  },
+  {
+    "id": "fin-sport-0017",
+    "conceptId": "concept-fin-sport-0017",
+    "familyId": "family-fin-sport-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "On what surface is the French Open Grand Slam tennis tournament played?",
+    "answers": [
+      "Hard court",
+      "Clay court",
+      "Carpet",
+      "Grass"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Roland-Garros is the only Grand Slam tournament played on clay court."
+  },
+  {
+    "id": "fin-sport-0018",
+    "conceptId": "concept-fin-sport-0018",
+    "familyId": "family-fin-sport-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "On what natural surface is the Wimbledon tennis tournament in London played?",
+    "answers": [
+      "Concrete",
+      "Clay",
+      "Synthetic clay",
+      "Grass"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Wimbledon is the oldest tennis tournament in the world and is played on natural grass."
+  },
+  {
+    "id": "fin-sport-0019",
+    "conceptId": "concept-fin-sport-0019",
+    "familyId": "family-fin-sport-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which Australian city is the first Grand Slam tennis tournament held each year?",
+    "answers": [
+      "Melbourne",
+      "Brisbane",
+      "Perth",
+      "Sydney"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Australian Open is held at Melbourne Park in January on hard courts."
+  },
+  {
+    "id": "fin-sport-0020",
+    "conceptId": "concept-fin-sport-0020",
+    "familyId": "family-fin-sport-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which neighborhood of New York is the US Open tennis tournament held each year?",
+    "answers": [
+      "Flushing Meadows",
+      "Harlem",
+      "Brooklyn Heights",
+      "Central Park"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The US Open is held at the Billie Jean King National Tennis Center in Flushing Meadows-Corona Park in Queens."
+  },
+  {
+    "id": "fin-sport-0021",
+    "conceptId": "concept-fin-sport-0021",
+    "familyId": "family-fin-sport-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Jamaican sprinter holds the world records for the 100 meters and the 200 meters?",
+    "answers": [
+      "Yohan Blake",
+      "Tyson Gay",
+      "Usain Bolt",
+      "Asafa Powell"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0021",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Usain Bolt set the world records for the 100 m (9.58 seconds) and the 200 m (19.19 seconds) at the 2009 World Championships in Berlin."
+  },
+  {
+    "id": "fin-sport-0022",
+    "conceptId": "concept-fin-sport-0022",
+    "familyId": "family-fin-sport-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American swimmer won a historic record of 23 Olympic gold medals?",
+    "answers": [
+      "Michael Phelps",
+      "Ryan Lochte",
+      "Ian Thorpe",
+      "Mark Spitz"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "natation",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sport",
+      "natation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0022",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Michael Phelps is the most decorated athlete in Olympic history with 28 medals, including 23 gold, between 2004 and 2016."
+  },
+  {
+    "id": "fin-sport-0023",
+    "conceptId": "concept-fin-sport-0023",
+    "familyId": "family-fin-sport-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "At which edition of the Summer Olympic Games did skateboarding and surfing make their inaugural appearance?",
+    "answers": [
+      "Tokyo 2020",
+      "Rio 2016",
+      "London 2012",
+      "Beijing 2008"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0023",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Skateboarding, surfing, and sport climbing were added to the Olympic program at the Tokyo Games held in 2021."
+  },
+  {
+    "id": "fin-sport-0024",
+    "conceptId": "concept-fin-sport-0024",
+    "familyId": "family-fin-sport-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which athlete first jumped over the bar backwards to stand on the Olympic podium in 1968?",
+    "answers": [
+      "Dick Fosbury",
+      "Javier Sotomayor",
+      "Carl Lewis",
+      "Bob Beamon"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0024",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Dick Fosbury revolutionized the high jump at the 1968 Mexico City Olympics by clearing the bar on his back."
+  },
+  {
+    "id": "fin-sport-0025",
+    "conceptId": "concept-fin-sport-0025",
+    "familyId": "family-fin-sport-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American long jumper made a legendary leap of 8.90 m at the 1968 Olympic Games?",
+    "answers": [
+      "Mike Powell",
+      "Bob Beamon",
+      "Jesse Owens",
+      "Carl Lewis"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-sport-0025",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Bob Beamon made a historic jump of 8.90 meters at the Mexico City Games in 1968."
+  }
+]

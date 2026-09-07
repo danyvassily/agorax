@@ -1,0 +1,392 @@
+[
+  {
+    "id": "food-cuisine-0001",
+    "conceptId": "concept-food-cuisine-0001",
+    "familyId": "family-food-cuisine-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which fundamental ingredient gives its bright yellow color and its fragrance to Milanese risotto and paella?",
+    "answers": [
+      "Curry",
+      "Turmeric",
+      "Saffron",
+      "Paprika"
+    ],
+    "correctAnswer": 2,
+    "category": "food",
+    "subcategory": "epices",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "epices"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0002",
+    "conceptId": "concept-food-cuisine-0002",
+    "familyId": "family-food-cuisine-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "From which European country does Parmigiano Reggiano (Parmesan) cheese originate?",
+    "answers": [
+      "France",
+      "Italy",
+      "Switzerland",
+      "Spain"
+    ],
+    "correctAnswer": 1,
+    "category": "food",
+    "subcategory": "fromages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "fromages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0003",
+    "conceptId": "concept-food-cuisine-0003",
+    "familyId": "family-food-cuisine-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which precious and fragrant underground mushroom is harvested in winter with the help of truffle dogs or pigs?",
+    "answers": [
+      "The Bordeaux cep",
+      "The black truffle (from Périgord)",
+      "The chanterelle",
+      "The morel"
+    ],
+    "correctAnswer": 1,
+    "category": "food",
+    "subcategory": "gastronomie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "gastronomie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0004",
+    "conceptId": "concept-food-cuisine-0004",
+    "familyId": "family-food-cuisine-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Mexican agave spirit is the main ingredient in the Margarita cocktail?",
+    "answers": [
+      "Tequila",
+      "Rum",
+      "Mezcal",
+      "Gin"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "boissons",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "boissons"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0005",
+    "conceptId": "concept-food-cuisine-0005",
+    "familyId": "family-food-cuisine-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In French pastry, which cooked dough serves as the base for éclairs, cream puffs, and gougères?",
+    "answers": [
+      "Shortcrust pastry",
+      "Puff pastry",
+      "Sweet shortcrust pastry",
+      "Choux pastry"
+    ],
+    "correctAnswer": 3,
+    "category": "food",
+    "subcategory": "patisserie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "patisserie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0006",
+    "conceptId": "concept-food-cuisine-0006",
+    "familyId": "family-food-cuisine-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which cold emulsified sauce is traditionally made with egg yolk, mustard, oil, and vinegar?",
+    "answers": [
+      "Béarnaise sauce",
+      "Hollandaise sauce",
+      "Mayonnaise",
+      "Vinaigrette"
+    ],
+    "correctAnswer": 2,
+    "category": "food",
+    "subcategory": "sauces",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "sauces"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0007",
+    "conceptId": "concept-food-cuisine-0007",
+    "familyId": "family-food-cuisine-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which aromatic juniper spirit is the essential component of the classic cocktail mixed with tonic?",
+    "answers": [
+      "Gin",
+      "White rum",
+      "Schnapps",
+      "Vodka"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "boissons",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "boissons"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0008",
+    "conceptId": "concept-food-cuisine-0008",
+    "familyId": "family-food-cuisine-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which French region did the traditional cassoulet (with lingot beans and duck confit) originate?",
+    "answers": [
+      "The South-West (Occitanie)",
+      "Brittany",
+      "Burgundy",
+      "Alsace"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "plats-traditionnels",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "plats-traditionnels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0009",
+    "conceptId": "concept-food-cuisine-0009",
+    "familyId": "family-food-cuisine-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Savoyard raw-milk cheese is the star of the melted tartiflette?",
+    "answers": [
+      "Reblochon",
+      "Emmental",
+      "Abondance",
+      "Beaufort"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "fromages",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "fromages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "food-cuisine-0010",
+    "conceptId": "concept-food-cuisine-0010",
+    "familyId": "family-food-cuisine-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which fermented hot beverage of Chinese origin comes in black, green, white, and oolong varieties?",
+    "answers": [
+      "Tea",
+      "Mate",
+      "Rooibos",
+      "Coffee"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "boissons",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "food",
+      "boissons"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "food-cuisine-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

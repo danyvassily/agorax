@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "cg-ani-plus-grand",
+    "conceptId": "ani-plus-grand",
+    "familyId": "animals",
+    "type": "mcq",
+    "question": "What is the largest animal in the world?",
+    "answers": [
+      "The blue whale",
+      "The African elephant",
+      "The giraffe",
+      "The great white shark"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "animaux",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q42196",
+      "url": "https://www.wikidata.org/wiki/Q42196",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-ani-plus-rapide",
+    "conceptId": "ani-plus-rapide",
+    "familyId": "animals",
+    "type": "mcq",
+    "question": "What is the fastest land animal?",
+    "answers": [
+      "The lion",
+      "The antelope",
+      "The horse",
+      "The cheetah"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "animaux",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q23907",
+      "url": "https://www.wikidata.org/wiki/Q23907",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/gu%C3%A9pard"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-ani-manchot",
+    "conceptId": "ani-manchot",
+    "familyId": "animals",
+    "type": "mcq",
+    "question": "Which Antarctic bird is the largest of the penguins?",
+    "answers": [
+      "The macaroni penguin",
+      "The albatross",
+      "The emperor penguin",
+      "The king penguin"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "animaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q161829",
+      "url": "https://www.wikidata.org/wiki/Q161829",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-ani-poulpe",
+    "conceptId": "ani-poulpe",
+    "familyId": "animals",
+    "type": "mcq",
+    "question": "How many hearts does an octopus have?",
+    "answers": [
+      "Four",
+      "Three",
+      "One",
+      "Two"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "animaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q13219075",
+      "url": "https://www.wikidata.org/wiki/Q13219075",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Trois"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-ani-girafe",
+    "conceptId": "ani-girafe",
+    "familyId": "animals",
+    "type": "mcq",
+    "question": "Which animal has the longest neck?",
+    "answers": [
+      "The giraffe",
+      "The ostrich",
+      "The camel",
+      "The alpaca"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "animaux",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q862089",
+      "url": "https://www.wikidata.org/wiki/Q862089",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-ani-ornithorynque",
+    "conceptId": "ani-ornithorynque",
+    "familyId": "animals",
+    "type": "mcq",
+    "question": "Which mammal lays eggs?",
+    "answers": [
+      "The kangaroo",
+      "The koala",
+      "The beaver",
+      "The platypus"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "animaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q15343",
+      "url": "https://www.wikidata.org/wiki/Q15343",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/ornithorynque"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-ani-requin",
+    "conceptId": "ani-requin",
+    "familyId": "animals",
+    "type": "mcq",
+    "question": "What is the largest species of shark?",
+    "answers": [
+      "Tiger shark",
+      "Hammerhead shark",
+      "Whale shark",
+      "Great white shark"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "animaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q80378",
+      "url": "https://www.wikidata.org/wiki/Q80378",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-ani-araignee",
+    "conceptId": "ani-araignee",
+    "familyId": "animals",
+    "type": "mcq",
+    "question": "How many legs does a spider have?",
+    "answers": [
+      "Four",
+      "Eight",
+      "Six",
+      "Ten"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "animaux",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1357",
+      "url": "https://www.wikidata.org/wiki/Q1357",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Huit"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-ani-felin",
+    "conceptId": "ani-felin",
+    "familyId": "animals",
+    "type": "mcq",
+    "question": "What is the largest feline in the world?",
+    "answers": [
+      "The tiger",
+      "The lion",
+      "The jaguar",
+      "The panther"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "animaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q19939",
+      "url": "https://www.wikidata.org/wiki/Q19939",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-ani-colombe",
+    "conceptId": "ani-colombe",
+    "familyId": "animals",
+    "type": "mcq",
+    "question": "Which bird is the universal symbol of peace?",
+    "answers": [
+      "The raven",
+      "The eagle",
+      "The owl",
+      "The dove"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "animaux",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q42326",
+      "url": "https://www.wikidata.org/wiki/Q42326",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/colombe"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-ani-escargot",
+    "conceptId": "ani-escargot",
+    "familyId": "animals",
+    "type": "mcq",
+    "question": "How many teeth does a snail have approximately?",
+    "answers": [
+      "About 100",
+      "About 1,000",
+      "About 25,000",
+      "About 10"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "animaux",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q308841",
+      "url": "https://www.wikidata.org/wiki/Q308841",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-corps-organe",
+    "conceptId": "corps-organe",
+    "familyId": "human-body",
+    "type": "mcq",
+    "question": "What is the largest organ of the human body?",
+    "answers": [
+      "The lungs",
+      "The skin",
+      "The liver",
+      "The brain"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "corps-humain",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "corps-humain"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1074",
+      "url": "https://www.wikidata.org/wiki/Q1074",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/peau"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-corps-os",
+    "conceptId": "corps-os",
+    "familyId": "human-body",
+    "type": "mcq",
+    "question": "How many bones does the adult human body have approximately?",
+    "answers": [
+      "206",
+      "150",
+      "250",
+      "300"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "corps-humain",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "corps-humain"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q9621",
+      "url": "https://www.wikidata.org/wiki/Q9621",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-corps-bebe",
+    "conceptId": "corps-bebe",
+    "familyId": "human-body",
+    "type": "mcq",
+    "question": "How many bones does a newborn have approximately?",
+    "answers": [
+      "About 206",
+      "About 250",
+      "About 150",
+      "About 300"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "corps-humain",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "corps-humain"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q9621",
+      "url": "https://www.wikidata.org/wiki/Q9621",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Environ_300"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-corps-dents",
+    "conceptId": "corps-dents",
+    "familyId": "human-body",
+    "type": "mcq",
+    "question": "How many teeth does an adult have on average?",
+    "answers": [
+      "30",
+      "36",
+      "32",
+      "28"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "corps-humain",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "corps-humain"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q553",
+      "url": "https://www.wikidata.org/wiki/Q553",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-corps-coeur",
+    "conceptId": "corps-coeur",
+    "familyId": "human-body",
+    "type": "mcq",
+    "question": "Which organ pumps blood in the human body?",
+    "answers": [
+      "The spleen",
+      "The heart",
+      "The liver",
+      "The kidneys"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "corps-humain",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "corps-humain"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1072",
+      "url": "https://www.wikidata.org/wiki/Q1072",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/c%C5%93ur"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-corps-cellule",
+    "conceptId": "corps-cellule",
+    "familyId": "human-body",
+    "type": "mcq",
+    "question": "What is the smallest unit of life?",
+    "answers": [
+      "The cell",
+      "The atom",
+      "The molecule",
+      "The gene"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "corps-humain",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "corps-humain"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q7868",
+      "url": "https://www.wikidata.org/wiki/Q7868",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-corps-abo",
+    "conceptId": "corps-abo",
+    "familyId": "human-body",
+    "type": "mcq",
+    "question": "How many main blood groups does the ABO system have?",
+    "answers": [
+      "Three",
+      "Five",
+      "Six",
+      "Four"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "corps-humain",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "corps-humain"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q7873",
+      "url": "https://www.wikidata.org/wiki/Q7873",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Quatre"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-corps-croissance",
+    "conceptId": "corps-croissance",
+    "familyId": "human-body",
+    "type": "mcq",
+    "question": "Which parts of the human body continue to grow throughout life?",
+    "answers": [
+      "Hair",
+      "The skull",
+      "The nose and ears",
+      "The feet and hands"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "corps-humain",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "corps-humain"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q23852",
+      "url": "https://www.wikidata.org/wiki/Q23852",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-corps-donneur",
+    "conceptId": "corps-donneur",
+    "familyId": "human-body",
+    "type": "mcq",
+    "question": "Which blood group is called the 'universal donor'?",
+    "answers": [
+      "B negative",
+      "O negative",
+      "AB positive",
+      "A positive"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "corps-humain",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "corps-humain"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q7873",
+      "url": "https://www.wikidata.org/wiki/Q7873",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/O_n%C3%A9gatif"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-corps-sang",
+    "conceptId": "corps-sang",
+    "familyId": "human-body",
+    "type": "mcq",
+    "question": "How many liters of blood does an adult have approximately?",
+    "answers": [
+      "5 liters",
+      "2 liters",
+      "8 liters",
+      "12 liters"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "corps-humain",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "corps-humain"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q7873",
+      "url": "https://www.wikidata.org/wiki/Q7873",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-alim-pomme",
+    "conceptId": "alim-pomme",
+    "familyId": "food",
+    "type": "mcq",
+    "question": "Which fruit is often called the 'forbidden fruit' in biblical tradition?",
+    "answers": [
+      "The fig",
+      "The pomegranate",
+      "The orange",
+      "The apple"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "alimentation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "alimentation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q89",
+      "url": "https://www.wikidata.org/wiki/Q89",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/pomme"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-alim-chocolat",
+    "conceptId": "alim-chocolat",
+    "familyId": "food",
+    "type": "mcq",
+    "question": "Which food is made from cocoa beans?",
+    "answers": [
+      "Vanilla",
+      "Licorice",
+      "Chocolate",
+      "Caramel"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "alimentation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "alimentation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q195",
+      "url": "https://www.wikidata.org/wiki/Q195",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-alim-guacamole",
+    "conceptId": "alim-guacamole",
+    "familyId": "food",
+    "type": "mcq",
+    "question": "What is the main ingredient of guacamole?",
+    "answers": [
+      "Bell pepper",
+      "Avocado",
+      "Tomato",
+      "Cucumber"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "alimentation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "alimentation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q961769",
+      "url": "https://www.wikidata.org/wiki/Q961769",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/avocat"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-alim-safran",
+    "conceptId": "alim-safran",
+    "familyId": "food",
+    "type": "mcq",
+    "question": "Which spice, the most expensive in the world, comes from a crocus?",
+    "answers": [
+      "Saffron",
+      "Vanilla",
+      "Cinnamon",
+      "Cardamom"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "alimentation",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "alimentation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q25434",
+      "url": "https://www.wikidata.org/wiki/Q25434",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-alim-emmental",
+    "conceptId": "alim-emmental",
+    "familyId": "food",
+    "type": "mcq",
+    "question": "Which cheese is famous for its holes?",
+    "answers": [
+      "Camembert",
+      "Roquefort",
+      "Comté",
+      "Emmental"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "alimentation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "alimentation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q932214",
+      "url": "https://www.wikidata.org/wiki/Q932214",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/emmental"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-alim-houmous",
+    "conceptId": "alim-houmous",
+    "familyId": "food",
+    "type": "mcq",
+    "question": "What is the main ingredient of hummus?",
+    "answers": [
+      "White bean",
+      "Soybean",
+      "Chickpea",
+      "Lentil"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "alimentation",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "alimentation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q241987",
+      "url": "https://www.wikidata.org/wiki/Q241987",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-alim-vin",
+    "conceptId": "alim-vin",
+    "familyId": "food",
+    "type": "mcq",
+    "question": "Which beverage is obtained by fermenting grapes?",
+    "answers": [
+      "Sake",
+      "Wine",
+      "Beer",
+      "Cider"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "alimentation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "alimentation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q282",
+      "url": "https://www.wikidata.org/wiki/Q282",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/vin"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-alim-epinards",
+    "conceptId": "alim-epinards",
+    "familyId": "food",
+    "type": "mcq",
+    "question": "Which vegetable gives Popeye his strength?",
+    "answers": [
+      "Spinach",
+      "Carrots",
+      "Broccoli",
+      "Green beans"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "alimentation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "alimentation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q81464",
+      "url": "https://www.wikidata.org/wiki/Q81464",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-alim-banane",
+    "conceptId": "alim-banane",
+    "familyId": "food",
+    "type": "mcq",
+    "question": "Which yellow fruit is, botanically speaking, a berry?",
+    "answers": [
+      "Apricot",
+      "Peach",
+      "Mango",
+      "Banana"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "alimentation",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "alimentation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q503",
+      "url": "https://www.wikidata.org/wiki/Q503",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/banane"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-alim-curcuma",
+    "conceptId": "alim-curcuma",
+    "familyId": "food",
+    "type": "mcq",
+    "question": "Which spice gives curry its yellow color?",
+    "answers": [
+      "Saffron",
+      "Ginger",
+      "Turmeric",
+      "Paprika"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "alimentation",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "alimentation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q42562",
+      "url": "https://www.wikidata.org/wiki/Q42562",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-alim-yaourt",
+    "conceptId": "alim-yaourt",
+    "familyId": "food",
+    "type": "mcq",
+    "question": "Which food is obtained by fermenting milk?",
+    "answers": [
+      "Honey",
+      "Yogurt",
+      "Sour cream",
+      "Butter"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "alimentation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "alimentation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q13317",
+      "url": "https://www.wikidata.org/wiki/Q13317",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/yaourt"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  }
+]

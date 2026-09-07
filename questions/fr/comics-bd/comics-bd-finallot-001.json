@@ -1,0 +1,602 @@
+[
+  {
+    "id": "fin-comics-bd-0001",
+    "conceptId": "concept-fin-comics-bd-0001",
+    "familyId": "family-fin-comics-bd-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel auteur et dessinateur belge a créé le célèbre reporter Tintin et son fidèle chien Milou en 1929 ?",
+    "answers": [
+      "Peyo",
+      "Morris",
+      "Hergé",
+      "Franquin"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Georges Remi, dit Hergé, est le père de la 'Ligne claire' dans la bande dessinée franco-belge."
+  },
+  {
+    "id": "fin-comics-bd-0002",
+    "conceptId": "concept-fin-comics-bd-0002",
+    "familyId": "family-fin-comics-bd-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel dessinateur belge a créé le gaffeur de rédaction Gaston Lagaffe ainsi que le Marsupilami dans Spirou ?",
+    "answers": [
+      "André Franquin",
+      "Peyo",
+      "Maurice Tillieux",
+      "Jijé"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Franquin a insufflé une expressivité graphique révolutionnaire dans Gaston Lagaffe et Les Idées noires."
+  },
+  {
+    "id": "fin-comics-bd-0003",
+    "conceptId": "concept-fin-comics-bd-0003",
+    "familyId": "family-fin-comics-bd-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel auteur belge a donné naissance aux petits lutins bleus coiffés d'un bonnet blanc appelés les Schtroumpfs en 1958 ?",
+    "answers": [
+      "Peyo",
+      "Derib",
+      "Rob-Vel",
+      "Dupa"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Pierre Culliford, dit Peyo, a introduit les Schtroumpfs dans une aventure de Johan et Pirlouit ('La Flûte à six trous')."
+  },
+  {
+    "id": "fin-comics-bd-0004",
+    "conceptId": "concept-fin-comics-bd-0004",
+    "familyId": "family-fin-comics-bd-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel dessinateur a créé le cow-boy Lucky Luke, 'l'homme qui tire plus vite que son ombre' ?",
+    "answers": [
+      "Morris",
+      "Giraud",
+      "René Goscinny",
+      "Hergé"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Morris (Maurice de Bevere) a créé Lucky Luke en 1946, secondé par le génial scénariste René Goscinny à partir de 1955."
+  },
+  {
+    "id": "fin-comics-bd-0005",
+    "conceptId": "concept-fin-comics-bd-0005",
+    "familyId": "family-fin-comics-bd-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel duo de scénariste et dessinateur a créé en 1959 le petit guerrier gaulois Astérix dans le journal Pilote ?",
+    "answers": [
+      "Morris et Franquin",
+      "Goscinny et Uderzo",
+      "Hergé et Jacobs",
+      "Charlier et Giraud"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "René Goscinny au scénario et Albert Uderzo au dessin ont créé Astérix, traduit dans plus de 110 langues et dialectes."
+  },
+  {
+    "id": "fin-comics-bd-0006",
+    "conceptId": "concept-fin-comics-bd-0006",
+    "familyId": "family-fin-comics-bd-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sous quel pseudonyme d'artiste le créateur graphique de Blueberry a-t-il révolutionné la bande dessinée de science-fiction avec L'Incal ?",
+    "answers": [
+      "Jacques Tardi",
+      "Enki Bilal",
+      "Philippe Druillet",
+      "Mœbius"
+    ],
+    "correctAnswer": 3,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Jean Giraud signait sous le nom de Mœbius ses récits visionnaires de science-fiction (Arzach, Le Garage hermétique, L'Incal)."
+  },
+  {
+    "id": "fin-comics-bd-0007",
+    "conceptId": "concept-fin-comics-bd-0007",
+    "familyId": "family-fin-comics-bd-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel auteur belge a créé les officiers britanniques Francis Blake et Philip Mortimer confrontés au colonel Olrik ?",
+    "answers": [
+      "Bob de Moor",
+      "Hergé",
+      "Edgar P. Jacobs",
+      "Jacques Martin"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Edgar P. Jacobs a publié Le Secret de l'Espadon dès le premier numéro du journal Tintin en 1946."
+  },
+  {
+    "id": "fin-comics-bd-0008",
+    "conceptId": "concept-fin-comics-bd-0008",
+    "familyId": "family-fin-comics-bd-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel éditeur américain de comics a créé les super-héros Spider-Man, Iron Man, Hulk, Thor et les X-Men ?",
+    "answers": [
+      "DC Comics",
+      "Image Comics",
+      "Dark Horse",
+      "Marvel Comics"
+    ],
+    "correctAnswer": 3,
+    "category": "comics-bd",
+    "subcategory": "comics-us",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "comics-us"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Marvel Comics a connu son envol dans les années 1960 sous l'impulsion de Stan Lee et Jack Kirby."
+  },
+  {
+    "id": "fin-comics-bd-0009",
+    "conceptId": "concept-fin-comics-bd-0009",
+    "familyId": "family-fin-comics-bd-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel scénariste de génie chez Marvel Comics a cocréé Spider-Man, les Quatre Fantastiques, les Avengers et Daredevil ?",
+    "answers": [
+      "Alan Moore",
+      "Bob Kane",
+      "Frank Miller",
+      "Stan Lee"
+    ],
+    "correctAnswer": 3,
+    "category": "comics-bd",
+    "subcategory": "comics-us",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "comics-us"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Stan Lee est la figure de proue historique de Marvel, célèbre pour sa devise 'Excelsior!' et ses caméos au cinéma."
+  },
+  {
+    "id": "fin-comics-bd-0010",
+    "conceptId": "concept-fin-comics-bd-0010",
+    "familyId": "family-fin-comics-bd-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel super-héros extraterrestre originaire de la planète Krypton a été créé par Jerry Siegel et Joe Shuster en 1938 chez DC Comics ?",
+    "answers": [
+      "Green Lantern",
+      "Superman",
+      "Batman",
+      "Flash"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "comics-us",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "comics-us"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Superman est apparu dans Action Comics #1 en juin 1938, inaugurant l'âge d'or des super-héros américains."
+  },
+  {
+    "id": "fin-comics-bd-0011",
+    "conceptId": "concept-fin-comics-bd-0011",
+    "familyId": "family-fin-comics-bd-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel justicier masqué milliardaire de Gotham City combat le crime sans super-pouvoirs sous l'identité de Bruce Wayne ?",
+    "answers": [
+      "Batman",
+      "Superman",
+      "Iron Man",
+      "Green Arrow"
+    ],
+    "correctAnswer": 0,
+    "category": "comics-bd",
+    "subcategory": "comics-us",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "comics-us"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Créé par Bob Kane et Bill Finger en 1939, Batman protège Gotham City avec son intelligence, ses arts martiaux et ses gadgets."
+  },
+  {
+    "id": "fin-comics-bd-0012",
+    "conceptId": "concept-fin-comics-bd-0012",
+    "familyId": "family-fin-comics-bd-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel scénariste britannique a écrit les romans graphiques majeurs 'Watchmen', 'V pour Vendetta' et 'Batman: The Killing Joke' ?",
+    "answers": [
+      "Garth Ennis",
+      "Grant Morrison",
+      "Neil Gaiman",
+      "Alan Moore"
+    ],
+    "correctAnswer": 3,
+    "category": "comics-bd",
+    "subcategory": "comics-us",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "comics-us"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Alan Moore a apporté une noirceur psychologique et une densité littéraire inédites au médium du comic book."
+  },
+  {
+    "id": "fin-comics-bd-0013",
+    "conceptId": "concept-fin-comics-bd-0013",
+    "familyId": "family-fin-comics-bd-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel auteur américain a réinventé Batman en 1986 avec le chef-d'œuvre crépusculaire 'The Dark Knight Returns' et créé 'Sin City' ?",
+    "answers": [
+      "Jim Lee",
+      "Todd McFarlane",
+      "Frank Miller",
+      "Mike Mignola"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "comics-us",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "comics-us"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "The Dark Knight Returns de Frank Miller a durablement marqué l'industrie en modernisant l'image de Batman."
+  },
+  {
+    "id": "fin-comics-bd-0014",
+    "conceptId": "concept-fin-comics-bd-0014",
+    "familyId": "family-fin-comics-bd-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel auteur américain a remporté le prix Pulitzer en 1992 pour son roman graphique 'Maus' racontant la Shoah sous forme de souris et de chats ?",
+    "answers": [
+      "Joe Sacco",
+      "Art Spiegelman",
+      "Alison Bechdel",
+      "Will Eisner"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "comics-us",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "comics-us"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Maus est la première bande dessinée de l'histoire à avoir reçu le prestigieux prix Pulitzer."
+  },
+  {
+    "id": "fin-comics-bd-0015",
+    "conceptId": "concept-fin-comics-bd-0015",
+    "familyId": "family-fin-comics-bd-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel dessinateur et scénariste suisse est le créateur du héros d'heroic fantasy amnésique 'Thorgal' né dans les étoiles et élevé par des Vikings ?",
+    "answers": [
+      "Cosey et Derib",
+      "Grzegorz Rosiński et Jean Van Hamme",
+      "Loisel et Le Tendre",
+      "Bourgeon et Lacroix"
+    ],
+    "correctAnswer": 1,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-comics-bd-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Thorgal est né de la collaboration entre le scénariste belge Jean Van Hamme et le peintre polonais Grzegorz Rosiński."
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "id": "myth-pantheon-0001",
+    "conceptId": "concept-myth-pantheon-0001",
+    "familyId": "family-myth-pantheon-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Zeus, qui préside à le roi des dieux et le maître de la foudre ?",
+    "answers": [
+      "Jupiter",
+      "Pluton",
+      "Mars",
+      "Neptune"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "zeus"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Zeus dans la mythologie grecque correspond à Jupiter chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0002",
+    "conceptId": "concept-myth-pantheon-0002",
+    "familyId": "family-myth-pantheon-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Poséidon, qui préside à le dieu des mers et des séismes ?",
+    "answers": [
+      "Pluton",
+      "Jupiter",
+      "Mercure",
+      "Neptune"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "poséidon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Poséidon dans la mythologie grecque correspond à Neptune chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0003",
+    "conceptId": "concept-myth-pantheon-0003",
+    "familyId": "family-myth-pantheon-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Hadès, qui préside à le dieu des Enfers et du royaume souterrain ?",
+    "answers": [
+      "Jupiter",
+      "Pluton",
+      "Mars",
+      "Vulcain"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "hadès"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hadès dans la mythologie grecque correspond à Pluton chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0004",
+    "conceptId": "concept-myth-pantheon-0004",
+    "familyId": "family-myth-pantheon-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Héra, qui préside à la déesse du mariage et reine des dieux ?",
+    "answers": [
+      "Minerve",
+      "Junon",
+      "Vénus",
+      "Cérès"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "héra"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héra dans la mythologie grecque correspond à Junon chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0005",
+    "conceptId": "concept-myth-pantheon-0005",
+    "familyId": "family-myth-pantheon-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Athéna, qui préside à la déesse de la sagesse et de la guerre stratégique ?",
+    "answers": [
+      "Diane",
+      "Vesta",
+      "Junon",
+      "Minerve"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "athéna"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Athéna dans la mythologie grecque correspond à Minerve chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0006",
+    "conceptId": "concept-myth-pantheon-0006",
+    "familyId": "family-myth-pantheon-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Arès, qui préside à le dieu de la guerre brutale et sanglante ?",
+    "answers": [
+      "Vulcain",
+      "Apollon",
+      "Mars",
+      "Mercure"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "arès"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Arès dans la mythologie grecque correspond à Mars chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0007",
+    "conceptId": "concept-myth-pantheon-0007",
+    "familyId": "family-myth-pantheon-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Aphrodite, qui préside à la déesse de la beauté et de l'amour ?",
+    "answers": [
+      "Junon",
+      "Vénus",
+      "Diane",
+      "Minerve"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "aphrodite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Aphrodite dans la mythologie grecque correspond à Vénus chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0008",
+    "conceptId": "concept-myth-pantheon-0008",
+    "familyId": "family-myth-pantheon-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Hermès, qui préside à le messager des dieux et protecteur des voyageurs ?",
+    "answers": [
+      "Mars",
+      "Bacchus",
+      "Vulcain",
+      "Mercure"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "hermès"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hermès dans la mythologie grecque correspond à Mercure chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0009",
+    "conceptId": "concept-myth-pantheon-0009",
+    "familyId": "family-myth-pantheon-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Héphaïstos, qui préside à le dieu forgeron et maître du feu souterrain ?",
+    "answers": [
+      "Mercure",
+      "Vulcain",
+      "Apollon",
+      "Mars"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "héphaïstos"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Héphaïstos dans la mythologie grecque correspond à Vulcain chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0010",
+    "conceptId": "concept-myth-pantheon-0010",
+    "familyId": "family-myth-pantheon-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Artémis, qui préside à la déesse chasseresse et maîtresse de la faune sauvage ?",
+    "answers": [
+      "Vénus",
+      "Minerve",
+      "Cérès",
+      "Diane"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "artémis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Artémis dans la mythologie grecque correspond à Diane chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0011",
+    "conceptId": "concept-myth-pantheon-0011",
+    "familyId": "family-myth-pantheon-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Dionysos, qui préside à le dieu de la vigne, de la fête et du délire mystique ?",
+    "answers": [
+      "Mercure",
+      "Pluton",
+      "Mars",
+      "Bacchus"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "dionysos"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Dionysos dans la mythologie grecque correspond à Bacchus chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0012",
+    "conceptId": "concept-myth-pantheon-0012",
+    "familyId": "family-myth-pantheon-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Déméter, qui préside à la déesse de l'agriculture et des moissons ?",
+    "answers": [
+      "Vesta",
+      "Minerve",
+      "Junon",
+      "Cérès"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "déméter"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Déméter dans la mythologie grecque correspond à Cérès chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0013",
+    "conceptId": "concept-myth-pantheon-0013",
+    "familyId": "family-myth-pantheon-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Hestia, qui préside à la déesse du foyer et de la famille ?",
+    "answers": [
+      "Vénus",
+      "Diane",
+      "Vesta",
+      "Cérès"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "hestia"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Hestia dans la mythologie grecque correspond à Vesta chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0014",
+    "conceptId": "concept-myth-pantheon-0014",
+    "familyId": "family-myth-pantheon-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Éros, qui préside à le dieu ailé de l'amour et du désir ?",
+    "answers": [
+      "Cupidon",
+      "Bacchus",
+      "Mercure",
+      "Pluton"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "éros"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Éros dans la mythologie grecque correspond à Cupidon chez les Romains."
+  },
+  {
+    "id": "myth-pantheon-0015",
+    "conceptId": "concept-myth-pantheon-0015",
+    "familyId": "family-myth-pantheon-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans la mythologie romaine, quel dieu correspond au dieu grec Chronos, qui préside à le titan personnifiant le temps ?",
+    "answers": [
+      "Vulcain",
+      "Saturne",
+      "Uranus",
+      "Jupiter"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "pantheon",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "mythologie",
+      "grece",
+      "rome",
+      "chronos"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "myth-pantheon-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Chronos dans la mythologie grecque correspond à Saturne chez les Romains."
+  }
+]

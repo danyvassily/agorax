@@ -1,0 +1,2052 @@
+[
+  {
+    "id": "geo-prefectures-0001",
+    "conceptId": "concept-geo-prefectures-0001",
+    "familyId": "family-geo-prefectures-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de la Gironde (33) ?",
+    "answers": [
+      "Bordeaux",
+      "Arcachon",
+      "Libourne",
+      "Mérignac"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Bordeaux est la préfecture du département de la Gironde (33)."
+  },
+  {
+    "id": "geo-prefectures-0002",
+    "conceptId": "concept-geo-prefectures-0002",
+    "familyId": "family-geo-prefectures-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Finistère (29) ?",
+    "answers": [
+      "Morlaix",
+      "Concarneau",
+      "Brest",
+      "Quimper"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Quimper est la préfecture du département du Finistère (29)."
+  },
+  {
+    "id": "geo-prefectures-0003",
+    "conceptId": "concept-geo-prefectures-0003",
+    "familyId": "family-geo-prefectures-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département d'Ille-et-Vilaine (35) ?",
+    "answers": [
+      "Saint-Malo",
+      "Redon",
+      "Rennes",
+      "Fougères"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Rennes est la préfecture du département d'Ille-et-Vilaine (35)."
+  },
+  {
+    "id": "geo-prefectures-0004",
+    "conceptId": "concept-geo-prefectures-0004",
+    "familyId": "family-geo-prefectures-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Rhône (69) ?",
+    "answers": [
+      "Villeurbanne",
+      "Lyon",
+      "Villefranche-sur-Saône",
+      "Vénissieux"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Lyon est la préfecture du département du Rhône (69)."
+  },
+  {
+    "id": "geo-prefectures-0005",
+    "conceptId": "concept-geo-prefectures-0005",
+    "familyId": "family-geo-prefectures-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département des Bouches-du-Rhône (13) ?",
+    "answers": [
+      "Marseille",
+      "Martigues",
+      "Aix-en-Provence",
+      "Arles"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Marseille est la préfecture du département des Bouches-du-Rhône (13)."
+  },
+  {
+    "id": "geo-prefectures-0006",
+    "conceptId": "concept-geo-prefectures-0006",
+    "familyId": "family-geo-prefectures-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Bas-Rhin (67) ?",
+    "answers": [
+      "Strasbourg",
+      "Haguenau",
+      "Sélestat",
+      "Molsheim"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Strasbourg est la préfecture du département du Bas-Rhin (67)."
+  },
+  {
+    "id": "geo-prefectures-0007",
+    "conceptId": "concept-geo-prefectures-0007",
+    "familyId": "family-geo-prefectures-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Haut-Rhin (68) ?",
+    "answers": [
+      "Colmar",
+      "Thann",
+      "Guebwiller",
+      "Mulhouse"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Colmar est la préfecture du département du Haut-Rhin (68)."
+  },
+  {
+    "id": "geo-prefectures-0008",
+    "conceptId": "concept-geo-prefectures-0008",
+    "familyId": "family-geo-prefectures-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de la Haute-Garonne (31) ?",
+    "answers": [
+      "Blagnac",
+      "Muret",
+      "Toulouse",
+      "Saint-Gaudens"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Toulouse est la préfecture du département de la Haute-Garonne (31)."
+  },
+  {
+    "id": "geo-prefectures-0009",
+    "conceptId": "concept-geo-prefectures-0009",
+    "familyId": "family-geo-prefectures-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de Loire-Atlantique (44) ?",
+    "answers": [
+      "Saint-Nazaire",
+      "Châteaubriant",
+      "Ancenis",
+      "Nantes"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Nantes est la préfecture du département de Loire-Atlantique (44)."
+  },
+  {
+    "id": "geo-prefectures-0010",
+    "conceptId": "concept-geo-prefectures-0010",
+    "familyId": "family-geo-prefectures-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de Côte-d'Or (21) ?",
+    "answers": [
+      "Dijon",
+      "Chenôve",
+      "Montbard",
+      "Beaune"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Dijon est la préfecture du département de Côte-d'Or (21)."
+  },
+  {
+    "id": "geo-prefectures-0011",
+    "conceptId": "concept-geo-prefectures-0011",
+    "familyId": "family-geo-prefectures-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Doubs (25) ?",
+    "answers": [
+      "Pontarlier",
+      "Morteau",
+      "Besançon",
+      "Montbéliard"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Besançon est la préfecture du département du Doubs (25)."
+  },
+  {
+    "id": "geo-prefectures-0012",
+    "conceptId": "concept-geo-prefectures-0012",
+    "familyId": "family-geo-prefectures-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de l'Hérault (34) ?",
+    "answers": [
+      "Béziers",
+      "Montpellier",
+      "Sète",
+      "Lodève"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Montpellier est la préfecture du département de l'Hérault (34)."
+  },
+  {
+    "id": "geo-prefectures-0013",
+    "conceptId": "concept-geo-prefectures-0013",
+    "familyId": "family-geo-prefectures-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Puy-de-Dôme (63) ?",
+    "answers": [
+      "Riom",
+      "Thiers",
+      "Issoire",
+      "Clermont-Ferrand"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Clermont-Ferrand est la préfecture du département du Puy-de-Dôme (63)."
+  },
+  {
+    "id": "geo-prefectures-0014",
+    "conceptId": "concept-geo-prefectures-0014",
+    "familyId": "family-geo-prefectures-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de l'Isère (38) ?",
+    "answers": [
+      "Grenoble",
+      "Bourgoin-Jallieu",
+      "Vienne",
+      "La Tour-du-Pin"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Grenoble est la préfecture du département de l'Isère (38)."
+  },
+  {
+    "id": "geo-prefectures-0015",
+    "conceptId": "concept-geo-prefectures-0015",
+    "familyId": "family-geo-prefectures-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département d'Indre-et-Loire (37) ?",
+    "answers": [
+      "Chinon",
+      "Loches",
+      "Tours",
+      "Amboise"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Tours est la préfecture du département d'Indre-et-Loire (37)."
+  },
+  {
+    "id": "geo-prefectures-0016",
+    "conceptId": "concept-geo-prefectures-0016",
+    "familyId": "family-geo-prefectures-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Calvados (14) ?",
+    "answers": [
+      "Vire",
+      "Lisieux",
+      "Caen",
+      "Bayeux"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Caen est la préfecture du département du Calvados (14)."
+  },
+  {
+    "id": "geo-prefectures-0017",
+    "conceptId": "concept-geo-prefectures-0017",
+    "familyId": "family-geo-prefectures-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de la Somme (80) ?",
+    "answers": [
+      "Péronne",
+      "Amiens",
+      "Abbeville",
+      "Montdidier"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Amiens est la préfecture du département de la Somme (80)."
+  },
+  {
+    "id": "geo-prefectures-0018",
+    "conceptId": "concept-geo-prefectures-0018",
+    "familyId": "family-geo-prefectures-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de la Marne (51) ?",
+    "answers": [
+      "Châlons-en-Champagne",
+      "Épernay",
+      "Vitry-le-François",
+      "Reims"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Châlons-en-Champagne est la préfecture du département de la Marne (51)."
+  },
+  {
+    "id": "geo-prefectures-0019",
+    "conceptId": "concept-geo-prefectures-0019",
+    "familyId": "family-geo-prefectures-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Var (83) ?",
+    "answers": [
+      "Draguignan",
+      "Toulon",
+      "Hyères",
+      "Fréjus"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Toulon est la préfecture du département du Var (83)."
+  },
+  {
+    "id": "geo-prefectures-0020",
+    "conceptId": "concept-geo-prefectures-0020",
+    "familyId": "family-geo-prefectures-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de Corse-du-Sud (2A) ?",
+    "answers": [
+      "Sartène",
+      "Propriano",
+      "Ajaccio",
+      "Porto-Vecchio"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Ajaccio est la préfecture du département de Corse-du-Sud (2A)."
+  },
+  {
+    "id": "geo-prefectures-0021",
+    "conceptId": "concept-geo-prefectures-0021",
+    "familyId": "family-geo-prefectures-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de Haute-Corse (2B) ?",
+    "answers": [
+      "Cervione",
+      "Corte",
+      "Calvi",
+      "Bastia"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0021",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Bastia est la préfecture du département de Haute-Corse (2B)."
+  },
+  {
+    "id": "geo-prefectures-0022",
+    "conceptId": "concept-geo-prefectures-0022",
+    "familyId": "family-geo-prefectures-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département des Alpes-Maritimes (06) ?",
+    "answers": [
+      "Cannes",
+      "Grasse",
+      "Antibes",
+      "Nice"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0022",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Nice est la préfecture du département des Alpes-Maritimes (06)."
+  },
+  {
+    "id": "geo-prefectures-0023",
+    "conceptId": "concept-geo-prefectures-0023",
+    "familyId": "family-geo-prefectures-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département des Pyrénées-Atlantiques (64) ?",
+    "answers": [
+      "Pau",
+      "Biarritz",
+      "Oloron-Sainte-Marie",
+      "Bayonne"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0023",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Pau est la préfecture du département des Pyrénées-Atlantiques (64)."
+  },
+  {
+    "id": "geo-prefectures-0024",
+    "conceptId": "concept-geo-prefectures-0024",
+    "familyId": "family-geo-prefectures-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Pas-de-Calais (62) ?",
+    "answers": [
+      "Arras",
+      "Lens",
+      "Calais",
+      "Boulogne-sur-Mer"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0024",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Arras est la préfecture du département du Pas-de-Calais (62)."
+  },
+  {
+    "id": "geo-prefectures-0025",
+    "conceptId": "concept-geo-prefectures-0025",
+    "familyId": "family-geo-prefectures-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Nord (59) ?",
+    "answers": [
+      "Valenciennes",
+      "Douai",
+      "Lille",
+      "Dunkerque"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0025",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Lille est la préfecture du département du Nord (59)."
+  },
+  {
+    "id": "geo-prefectures-0026",
+    "conceptId": "concept-geo-prefectures-0026",
+    "familyId": "family-geo-prefectures-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de la Seine-Maritime (76) ?",
+    "answers": [
+      "Rouen",
+      "Fécamp",
+      "Dieppe",
+      "Le Havre"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0026",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Rouen est la préfecture du département de la Seine-Maritime (76)."
+  },
+  {
+    "id": "geo-prefectures-0027",
+    "conceptId": "concept-geo-prefectures-0027",
+    "familyId": "family-geo-prefectures-0014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département d'Eure-et-Loir (28) ?",
+    "answers": [
+      "Chartres",
+      "Dreux",
+      "Châteaudun",
+      "Nogent-le-Rotrou"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0027",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Chartres est la préfecture du département d'Eure-et-Loir (28)."
+  },
+  {
+    "id": "geo-prefectures-0028",
+    "conceptId": "concept-geo-prefectures-0028",
+    "familyId": "family-geo-prefectures-0014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Morbihan (56) ?",
+    "answers": [
+      "Auray",
+      "Pontivy",
+      "Lorient",
+      "Vannes"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0028",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Vannes est la préfecture du département du Morbihan (56)."
+  },
+  {
+    "id": "geo-prefectures-0029",
+    "conceptId": "concept-geo-prefectures-0029",
+    "familyId": "family-geo-prefectures-0015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département des Côtes-d'Armor (22) ?",
+    "answers": [
+      "Lannion",
+      "Dinan",
+      "Saint-Brieuc",
+      "Guingamp"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0029",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Saint-Brieuc est la préfecture du département des Côtes-d'Armor (22)."
+  },
+  {
+    "id": "geo-prefectures-0030",
+    "conceptId": "concept-geo-prefectures-0030",
+    "familyId": "family-geo-prefectures-0015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de la Manche (50) ?",
+    "answers": [
+      "Saint-Lô",
+      "Cherbourg",
+      "Coutances",
+      "Avranches"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0030",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Saint-Lô est la préfecture du département de la Manche (50)."
+  },
+  {
+    "id": "geo-prefectures-0031",
+    "conceptId": "concept-geo-prefectures-0031",
+    "familyId": "family-geo-prefectures-0016",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de Vendée (85) ?",
+    "answers": [
+      "Les Sables-d'Olonne",
+      "Fontenay-le-Comte",
+      "Challans",
+      "La Roche-sur-Yon"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0031",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Roche-sur-Yon est la préfecture du département de Vendée (85)."
+  },
+  {
+    "id": "geo-prefectures-0032",
+    "conceptId": "concept-geo-prefectures-0032",
+    "familyId": "family-geo-prefectures-0016",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de Charente-Maritime (17) ?",
+    "answers": [
+      "Jonzac",
+      "La Rochelle",
+      "Saintes",
+      "Rochefort"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0032",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Rochelle est la préfecture du département de Charente-Maritime (17)."
+  },
+  {
+    "id": "geo-prefectures-0033",
+    "conceptId": "concept-geo-prefectures-0033",
+    "familyId": "family-geo-prefectures-0017",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de la Vienne (86) ?",
+    "answers": [
+      "Châtellerault",
+      "Poitiers",
+      "Montmorillon",
+      "Loudun"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0033",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Poitiers est la préfecture du département de la Vienne (86)."
+  },
+  {
+    "id": "geo-prefectures-0034",
+    "conceptId": "concept-geo-prefectures-0034",
+    "familyId": "family-geo-prefectures-0017",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département des Deux-Sèvres (79) ?",
+    "answers": [
+      "Thouars",
+      "Niort",
+      "Parthenay",
+      "Bressuire"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0034",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Niort est la préfecture du département des Deux-Sèvres (79)."
+  },
+  {
+    "id": "geo-prefectures-0035",
+    "conceptId": "concept-geo-prefectures-0035",
+    "familyId": "family-geo-prefectures-0018",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de Haute-Savoie (74) ?",
+    "answers": [
+      "Annecy",
+      "Chamonix",
+      "Thonon-les-Bains",
+      "Bonneville"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0035",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Annecy est la préfecture du département de Haute-Savoie (74)."
+  },
+  {
+    "id": "geo-prefectures-0036",
+    "conceptId": "concept-geo-prefectures-0036",
+    "familyId": "family-geo-prefectures-0018",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de Savoie (73) ?",
+    "answers": [
+      "Saint-Jean-de-Maurienne",
+      "Albertville",
+      "Chambéry",
+      "Aix-les-Bains"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0036",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Chambéry est la préfecture du département de Savoie (73)."
+  },
+  {
+    "id": "geo-prefectures-0037",
+    "conceptId": "concept-geo-prefectures-0037",
+    "familyId": "family-geo-prefectures-0019",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de l'Ain (01) ?",
+    "answers": [
+      "Oyonnax",
+      "Belley",
+      "Gex",
+      "Bourg-en-Bresse"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0037",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Bourg-en-Bresse est la préfecture du département de l'Ain (01)."
+  },
+  {
+    "id": "geo-prefectures-0038",
+    "conceptId": "concept-geo-prefectures-0038",
+    "familyId": "family-geo-prefectures-0019",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Jura (39) ?",
+    "answers": [
+      "Lons-le-Saunier",
+      "Saint-Claude",
+      "Dole",
+      "Arbois"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0038",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Lons-le-Saunier est la préfecture du département du Jura (39)."
+  },
+  {
+    "id": "geo-prefectures-0039",
+    "conceptId": "concept-geo-prefectures-0039",
+    "familyId": "family-geo-prefectures-0020",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de Saône-et-Loire (71) ?",
+    "answers": [
+      "Autun",
+      "Le Creusot",
+      "Chalon-sur-Saône",
+      "Mâcon"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0039",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Mâcon est la préfecture du département de Saône-et-Loire (71)."
+  },
+  {
+    "id": "geo-prefectures-0040",
+    "conceptId": "concept-geo-prefectures-0040",
+    "familyId": "family-geo-prefectures-0020",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de la Nièvre (58) ?",
+    "answers": [
+      "Cosne-Cours-sur-Loire",
+      "Château-Chinon",
+      "Nevers",
+      "Clamecy"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0040",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Nevers est la préfecture du département de la Nièvre (58)."
+  },
+  {
+    "id": "geo-prefectures-0041",
+    "conceptId": "concept-geo-prefectures-0041",
+    "familyId": "family-geo-prefectures-0021",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de l'Yonne (89) ?",
+    "answers": [
+      "Sens",
+      "Auxerre",
+      "Avallon",
+      "Joigny"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0041",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Auxerre est la préfecture du département de l'Yonne (89)."
+  },
+  {
+    "id": "geo-prefectures-0042",
+    "conceptId": "concept-geo-prefectures-0042",
+    "familyId": "family-geo-prefectures-0021",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de l'Aube (10) ?",
+    "answers": [
+      "Bar-sur-Aube",
+      "Nogent-sur-Seine",
+      "Troyes",
+      "Romilly-sur-Seine"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0042",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Troyes est la préfecture du département de l'Aube (10)."
+  },
+  {
+    "id": "geo-prefectures-0043",
+    "conceptId": "concept-geo-prefectures-0043",
+    "familyId": "family-geo-prefectures-0022",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département des Ardennes (08) ?",
+    "answers": [
+      "Charleville-Mézières",
+      "Sedan",
+      "Rethel",
+      "Vouziers"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0043",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Charleville-Mézières est la préfecture du département des Ardennes (08)."
+  },
+  {
+    "id": "geo-prefectures-0044",
+    "conceptId": "concept-geo-prefectures-0044",
+    "familyId": "family-geo-prefectures-0022",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de Meurthe-et-Moselle (54) ?",
+    "answers": [
+      "Briey",
+      "Lunéville",
+      "Toul",
+      "Nancy"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0044",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Nancy est la préfecture du département de Meurthe-et-Moselle (54)."
+  },
+  {
+    "id": "geo-prefectures-0045",
+    "conceptId": "concept-geo-prefectures-0045",
+    "familyId": "family-geo-prefectures-0023",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de la Moselle (57) ?",
+    "answers": [
+      "Thionville",
+      "Metz",
+      "Forbach",
+      "Sarreguemines"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0045",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Metz est la préfecture du département de la Moselle (57)."
+  },
+  {
+    "id": "geo-prefectures-0046",
+    "conceptId": "concept-geo-prefectures-0046",
+    "familyId": "family-geo-prefectures-0023",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département des Vosges (88) ?",
+    "answers": [
+      "Saint-Dié-des-Vosges",
+      "Épinal",
+      "Remiremont",
+      "Gérardmer"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0046",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Épinal est la préfecture du département des Vosges (88)."
+  },
+  {
+    "id": "geo-prefectures-0047",
+    "conceptId": "concept-geo-prefectures-0047",
+    "familyId": "family-geo-prefectures-0024",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de la Meuse (55) ?",
+    "answers": [
+      "Bar-le-Duc",
+      "Saint-Mihiel",
+      "Commercy",
+      "Verdun"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0047",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Bar-le-Duc est la préfecture du département de la Meuse (55)."
+  },
+  {
+    "id": "geo-prefectures-0048",
+    "conceptId": "concept-geo-prefectures-0048",
+    "familyId": "family-geo-prefectures-0024",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de l'Oise (60) ?",
+    "answers": [
+      "Beauvais",
+      "Creil",
+      "Compiègne",
+      "Senlis"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0048",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Beauvais est la préfecture du département de l'Oise (60)."
+  },
+  {
+    "id": "geo-prefectures-0049",
+    "conceptId": "concept-geo-prefectures-0049",
+    "familyId": "family-geo-prefectures-0025",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département de l'Aisne (02) ?",
+    "answers": [
+      "Château-Thierry",
+      "Saint-Quentin",
+      "Soissons",
+      "Laon"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0049",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Laon est la préfecture du département de l'Aisne (02)."
+  },
+  {
+    "id": "geo-prefectures-0050",
+    "conceptId": "concept-geo-prefectures-0050",
+    "familyId": "family-geo-prefectures-0025",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le chef-lieu (préfecture) du département du Loir-et-Cher (41) ?",
+    "answers": [
+      "Vendôme",
+      "Salbris",
+      "Romorantin-Lanthenay",
+      "Blois"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "france",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "france",
+      "prefectures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-prefectures-0050",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Blois est la préfecture du département du Loir-et-Cher (41)."
+  }
+]

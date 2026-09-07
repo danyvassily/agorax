@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "manga-hxh-nen",
+    "conceptId": "manga-hxh-nen",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Hunter x Hunter, what is Gon Freecss's Nen category?",
+    "answers": [
+      "Enhancement",
+      "Transmutation",
+      "Conjuration",
+      "Specialization"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Hunter x Hunter",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "hxh",
+      "nen"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-hxh-phantom",
+    "conceptId": "manga-hxh-phantom",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of the leader of the Phantom Troupe (the Spider)?",
+    "answers": [
+      "Kuroro Lucilfer",
+      "Hisoka Morow",
+      "Illumi Zoldyck",
+      "Feitan Portor"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Hunter x Hunter",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "hxh",
+      "brigade-fantome"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-hxh-greed-island",
+    "conceptId": "manga-hxh-greed-island",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which arc of Hunter x Hunter do the heroes enter a deadly video game?",
+    "answers": [
+      "Greed Island",
+      "York Shin City",
+      "Chimera Ants",
+      "Hunter Exam"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Hunter x Hunter",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "hxh",
+      "greed-island"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-hxh-netero",
+    "conceptId": "manga-hxh-netero",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What ultimate attack does Isaac Netero use against Meruem?",
+    "answers": [
+      "The Hyakushiki Kannon",
+      "The Jajanken",
+      "The Bungee Gum",
+      "The Godspeed"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Hunter x Hunter",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "hxh",
+      "netero"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-hxh-zoldyck",
+    "conceptId": "manga-hxh-zoldyck",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of the mountain where the Zoldyck family of assassins resides?",
+    "answers": [
+      "Mount Kukuroo",
+      "Mount Myoboku",
+      "Death Mountain",
+      "Heaven's Peak"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Hunter x Hunter",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "hxh",
+      "zoldyck"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-dbz-goku-saiyan",
+    "conceptId": "manga-dbz-goku-saiyan",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is Son Goku's real Saiyan name?",
+    "answers": [
+      "Kakarot",
+      "Raditz",
+      "Vegeta",
+      "Bardock"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Dragon Ball Z",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "dbz",
+      "goku"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-dbz-frieza",
+    "conceptId": "manga-dbz-frieza",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "On which planet does the mythical confrontation between Goku and Frieza take place?",
+    "answers": [
+      "Namek",
+      "Earth",
+      "Vegeta",
+      "Kai"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Dragon Ball Z",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "dbz",
+      "freezer"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-dbz-cell",
+    "conceptId": "manga-dbz-cell",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Who ultimately destroys Cell during the Cell Game?",
+    "answers": [
+      "Son Gohan",
+      "Son Goku",
+      "Vegeta",
+      "Trunks"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Dragon Ball Z",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "dbz",
+      "cell"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-dbz-fusion",
+    "conceptId": "manga-dbz-fusion",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of the fusion of Goku and Vegeta achieved with the Potara earrings?",
+    "answers": [
+      "Vegetto",
+      "Gogeta",
+      "Gotenks",
+      "Veku"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Dragon Ball Z",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "dbz",
+      "fusion"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-dbz-kamehameha",
+    "conceptId": "manga-dbz-kamehameha",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Who is the inventor of the Kamehameha technique?",
+    "answers": [
+      "Master Roshi",
+      "Son Goku",
+      "King Kai",
+      "Son Gohan"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Dragon Ball Z",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "dbz",
+      "technique"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-naruto-hokage",
+    "conceptId": "manga-naruto-hokage",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Who is the Fourth Hokage of Konoha village?",
+    "answers": [
+      "Minato Namikaze",
+      "Hiruzen Sarutobi",
+      "Tsunade",
+      "Kakashi Hatake"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Naruto",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "naruto",
+      "hokage"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-naruto-akatsuki",
+    "conceptId": "manga-naruto-akatsuki",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which member of the Akatsuki uses puppets to fight?",
+    "answers": [
+      "Sasori",
+      "Deidara",
+      "Hidan",
+      "Kakuzu"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Naruto",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "naruto",
+      "akatsuki"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-naruto-bijuu",
+    "conceptId": "manga-naruto-bijuu",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many tails does the sealed fox demon have in Naruto?",
+    "answers": [
+      "Nine",
+      "Eight",
+      "Seven",
+      "Ten"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Naruto",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "naruto",
+      "bijuu"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-naruto-sharingan",
+    "conceptId": "manga-naruto-sharingan",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which clan does the dōjutsu (eye technique) called Sharingan belong to?",
+    "answers": [
+      "Uchiwa",
+      "Hyûga",
+      "Senju",
+      "Uzumaki"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Naruto",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "naruto",
+      "sharingan"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-naruto-jiraiya",
+    "conceptId": "manga-naruto-jiraiya",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How does Naruto nickname Jiraya?",
+    "answers": [
+      "The Not-So-Clean Hermit",
+      "The old fool",
+      "Bushy brows",
+      "Sensei"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Naruto",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "naruto",
+      "jiraiya"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-berserk-guts",
+    "conceptId": "manga-berserk-guts",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of the gigantic sword wielded by Guts in Berserk?",
+    "answers": [
+      "The Dragon Slayer",
+      "The Behelit Sword",
+      "Excalibur",
+      "The Falcon's Blade"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Berserk",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "seinen",
+      "berserk",
+      "guts"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-berserk-griffith",
+    "conceptId": "manga-berserk-griffith",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of the mercenary band led by Griffith?",
+    "answers": [
+      "The Band of the Hawk",
+      "The Black Dogs",
+      "The Hand of God",
+      "The Apostles"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Berserk",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "seinen",
+      "berserk",
+      "griffith"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-berserk-eclipse",
+    "conceptId": "manga-berserk-eclipse",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What tragic event marks the end of the Golden Age in Berserk?",
+    "answers": [
+      "The Eclipse",
+      "The Great Cataclysm",
+      "The Night of Demons",
+      "The Fall of Midland"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Berserk",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "seinen",
+      "berserk",
+      "eclipse"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-berserk-behelit",
+    "conceptId": "manga-berserk-behelit",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What mystical object allows one to summon the God Hand?",
+    "answers": [
+      "A Behelit",
+      "A Black Orb",
+      "A Blood Crystal",
+      "A Demon's Tear"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Berserk",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "seinen",
+      "berserk",
+      "beherit"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-berserk-puck",
+    "conceptId": "manga-berserk-puck",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which creature, companion of Guts, brings a touch of dark humor to the manga?",
+    "answers": [
+      "The elf Puck",
+      "The black dog",
+      "The imp Schierke",
+      "The troll Isidro"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Berserk",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "seinen",
+      "berserk",
+      "puck"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-onepiece-fruit",
+    "conceptId": "manga-onepiece-fruit",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Devil Fruit did Monkey D. Luffy eat?",
+    "answers": [
+      "The Gomu Gomu no Mi",
+      "The Mera Mera no Mi",
+      "The Ope Ope no Mi",
+      "The Hito Hito no Mi"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "One Piece",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "onepiece",
+      "luffy"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-onepiece-zoro",
+    "conceptId": "manga-onepiece-zoro",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many swords does Roronoa Zoro use to fight?",
+    "answers": [
+      "Three",
+      "One",
+      "Two",
+      "Four"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "One Piece",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "onepiece",
+      "zoro"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-onepiece-marineford",
+    "conceptId": "manga-onepiece-marineford",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Who dies tragically during the Battle of Marineford while protecting Luffy?",
+    "answers": [
+      "Portgas D. Ace",
+      "Whitebeard",
+      "Sabo",
+      "Jinbe"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "One Piece",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "onepiece",
+      "marineford"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-onepiece-shanks",
+    "conceptId": "manga-onepiece-shanks",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Who gives Luffy his famous straw hat?",
+    "answers": [
+      "Shanks the Red",
+      "Gol D. Roger",
+      "Monkey D. Garp",
+      "Rayleigh"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "One Piece",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "onepiece",
+      "shanks"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-onepiece-yonko",
+    "conceptId": "manga-onepiece-yonko",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which of these pirates has NEVER been one of the Four Emperors (Yonko)?",
+    "answers": [
+      "Don Quijote Doflamingo",
+      "Buggy the Clown",
+      "Blackbeard",
+      "Shanks"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "One Piece",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "onepiece",
+      "yonko"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-bleach-zanpakuto",
+    "conceptId": "manga-bleach-zanpakuto",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of Ichigo Kurosaki's sword (Zanpakutō)?",
+    "answers": [
+      "Zangetsu",
+      "Senbonzakura",
+      "Kyoka Suigetsu",
+      "Hyorinmaru"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Bleach",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "bleach",
+      "ichigo"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-bleach-bankai",
+    "conceptId": "manga-bleach-bankai",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of the final release of a Zanpakutō in Bleach?",
+    "answers": [
+      "Bankai",
+      "Shikai",
+      "Kido",
+      "Resurrección"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Bleach",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "bleach",
+      "bankai"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-bleach-aizen",
+    "conceptId": "manga-bleach-aizen",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Soul Society captain is revealed to be the main antagonist of the first part of Bleach?",
+    "answers": [
+      "Sōsuke Aizen",
+      "Byakuya Kuchiki",
+      "Kenpachi Zaraki",
+      "Gin Ichimaru"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Bleach",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "bleach",
+      "aizen"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-bleach-espada",
+    "conceptId": "manga-bleach-espada",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of the group of the ten most powerful Arrancars under Aizen's command?",
+    "answers": [
+      "The Espada",
+      "The Sternritters",
+      "The Vizards",
+      "The Fullbringers"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Bleach",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "bleach",
+      "espada"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-bleach-rukia",
+    "conceptId": "manga-bleach-rukia",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Shinigami transmits their powers to Ichigo at the very beginning of the story?",
+    "answers": [
+      "Rukia Kuchiki",
+      "Rangiku Matsumoto",
+      "Yoruichi Shihoin",
+      "Orihime Inoue"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Bleach",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "bleach",
+      "rukia"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-snk-titan",
+    "conceptId": "manga-snk-titan",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of the Titan responsible for the first colossal attack on Wall Maria?",
+    "answers": [
+      "The Colossal Titan",
+      "The Armored Titan",
+      "The Beast Titan",
+      "The Attack Titan"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "L'Attaque des Titans",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "snk",
+      "titans"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-snk-eren",
+    "conceptId": "manga-snk-eren",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is Eren Jäger's goal at the beginning of the story?",
+    "answers": [
+      "Exterminate all Titans",
+      "Become the king of the Walls",
+      "Discover the ocean",
+      "Eat the Founding Titan"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "L'Attaque des Titans",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "snk",
+      "eren"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-snk-levi",
+    "conceptId": "manga-snk-levi",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which character is nicknamed 'Humanity's Strongest Soldier'?",
+    "answers": [
+      "Levi Ackerman",
+      "Erwin Smith",
+      "Mikasa Ackerman",
+      "Reiner Braun"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "L'Attaque des Titans",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "snk",
+      "levi"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-snk-murs",
+    "conceptId": "manga-snk-murs",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What are the names of the three concentric walls protecting humanity?",
+    "answers": [
+      "Maria, Rose, Sina",
+      "Alpha, Beta, Gamma",
+      "Adam, Eve, Eden",
+      "Shiganshina, Trost, Stohess"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "L'Attaque des Titans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "snk",
+      "murs"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-snk-auteur",
+    "conceptId": "manga-snk-auteur",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Who is the author of the manga Attack on Titan?",
+    "answers": [
+      "Hajime Isayama",
+      "Masashi Kishimoto",
+      "Eiichiro Oda",
+      "Koyoharu Gotouge"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "L'Attaque des Titans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "snk",
+      "auteur"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-deathnote-kira",
+    "conceptId": "manga-deathnote-kira",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Under what pseudonym is Light Yagami known to the public?",
+    "answers": [
+      "Kira",
+      "L",
+      "Zero",
+      "Mello"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Death Note",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "deathnote",
+      "kira"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-deathnote-ryuk",
+    "conceptId": "manga-deathnote-ryuk",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which fruit does the God of Death Ryuk love to eat?",
+    "answers": [
+      "Apples",
+      "Pears",
+      "Strawberries",
+      "Peaches"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Death Note",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "deathnote",
+      "ryuk"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-deathnote-regle",
+    "conceptId": "manga-deathnote-regle",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "According to the rules of Death Note, how much time do you have to write the cause of death before the default heart attack?",
+    "answers": [
+      "40 seconds",
+      "1 minute",
+      "5 minutes",
+      "24 hours"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Death Note",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "deathnote",
+      "regle"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-deathnote-l",
+    "conceptId": "manga-deathnote-l",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the strange eating habit of detective L?",
+    "answers": [
+      "He eats a huge amount of sweets",
+      "He only drinks black coffee",
+      "He eats raw meat",
+      "He is a strict vegan"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Death Note",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "deathnote",
+      "l"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-deathnote-misa",
+    "conceptId": "manga-deathnote-misa",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What does Misa Amane accept in exchange for half of her life expectancy?",
+    "answers": [
+      "The eyes of a Death God",
+      "The power to fly",
+      "Invincibility",
+      "The full name of L"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Death Note",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "deathnote",
+      "misa"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-fma-interdit",
+    "conceptId": "manga-fma-interdit",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In Fullmetal Alchemist, what is the ultimate taboo of alchemy?",
+    "answers": [
+      "Human transmutation",
+      "Gold transmutation",
+      "Creation of homunculi",
+      "Use of the Philosopher's Stone"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Fullmetal Alchemist",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "fma",
+      "alchimie"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-fma-alphonse",
+    "conceptId": "manga-fma-alphonse",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Where is Alphonse Elric's soul sealed?",
+    "answers": [
+      "In an armor",
+      "In a dog",
+      "In a sword",
+      "In a philosopher's stone"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Fullmetal Alchemist",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "fma",
+      "alphonse"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-fma-homonculus",
+    "conceptId": "manga-fma-homonculus",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What are the seven Homonculi in Fullmetal Alchemist named after?",
+    "answers": [
+      "The seven deadly sins",
+      "The days of the week",
+      "The planets of the solar system",
+      "The natural elements"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Fullmetal Alchemist",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "fma",
+      "homonculus"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-fma-mustang",
+    "conceptId": "manga-fma-mustang",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the State Alchemist title of Roy Mustang?",
+    "answers": [
+      "The Flame Alchemist",
+      "The Steel Alchemist",
+      "The Crimson Alchemist",
+      "The Blood Alchemist"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Fullmetal Alchemist",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "fma",
+      "mustang"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-fma-tucker",
+    "conceptId": "manga-fma-tucker",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Who does Shou Tucker use to create a talking chimera?",
+    "answers": [
+      "His daughter Nina and his dog",
+      "His wife",
+      "Prisoners from Ishval",
+      "Himself"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "Fullmetal Alchemist",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "fma",
+      "tucker"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-jojo-stand",
+    "conceptId": "manga-jojo-stand",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In JoJo's Bizarre Adventure, what is the name of the manifestation of spiritual energy introduced in Part 3?",
+    "answers": [
+      "A Stand",
+      "The Ripple (Hamon)",
+      "Nen",
+      "The Cosmos"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "JoJo's Bizarre Adventure",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "jojo",
+      "stand"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-jojo-dio",
+    "conceptId": "manga-jojo-dio",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What cry does Dio Brando often let out during his attacks?",
+    "answers": [
+      "Muda Muda Muda!",
+      "Ora Ora Ora!",
+      "Dora Dora Dora!",
+      "Ari Ari Ari!"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "JoJo's Bizarre Adventure",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "jojo",
+      "dio"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-jojo-jotaro",
+    "conceptId": "manga-jojo-jotaro",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What is the name of Jotaro Kujo's Stand?",
+    "answers": [
+      "Star Platinum",
+      "The World",
+      "Crazy Diamond",
+      "Golden Experience"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "JoJo's Bizarre Adventure",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "jojo",
+      "jotaro"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-jojo-partie4",
+    "conceptId": "manga-jojo-partie4",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which fictional Japanese city does Part 4 (Diamond is Unbreakable) take place?",
+    "answers": [
+      "Morioh",
+      "Tokyo",
+      "Karakura",
+      "Fuyuki"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "JoJo's Bizarre Adventure",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "jojo",
+      "morioh"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  },
+  {
+    "id": "manga-jojo-giorno",
+    "conceptId": "manga-jojo-giorno",
+    "familyId": "manga-lore",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Who is Giorno Giovanna (part 5) the biological son of?",
+    "answers": [
+      "Dio Brando",
+      "Jonathan Joestar",
+      "Joseph Joestar",
+      "Jotaro Kujo"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "JoJo's Bizarre Adventure",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "shonen",
+      "jojo",
+      "giorno"
+    ],
+    "source": {
+      "provider": "original"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1
+  }
+]

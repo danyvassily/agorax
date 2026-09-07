@@ -1,0 +1,482 @@
+[
+  {
+    "id": "animaux-dump-0355",
+    "conceptId": "concept-animaux-0355",
+    "familyId": "family-animaux-0178",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Until what age can the female elephant (called a cow) produce offspring?",
+    "answers": [
+      "7 years",
+      "15 years",
+      "75 years",
+      "50 years"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0355",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0364",
+    "conceptId": "concept-animaux-0364",
+    "familyId": "family-animaux-0182",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which is true about elephants?",
+    "answers": [
+      "The elephant is not a protected species.",
+      "The elephant is a good jumper.",
+      "An elephant's skin is 2.5 inches thick.",
+      "The elephant is a good swimmer."
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0364",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0369",
+    "conceptId": "concept-animaux-0369",
+    "familyId": "family-animaux-0185",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "The echidna's diet consists mainly of this group of animals.",
+    "answers": [
+      "Mammals",
+      "Fish",
+      "Insects",
+      "Birds"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0369",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0370",
+    "conceptId": "concept-animaux-0370",
+    "familyId": "family-animaux-0185",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Where does the kookaburra, a common Australian bird, get its name from?",
+    "answers": [
+      "The sound it makes",
+      "The food it eats",
+      "Its appearance",
+      "The aboriginal name for it"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0370",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0388",
+    "conceptId": "concept-animaux-0388",
+    "familyId": "family-animaux-0194",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which country does the Clydesdale horse originate from?",
+    "answers": [
+      "England",
+      "Scotland",
+      "Ireland",
+      "Spain"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0388",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0389",
+    "conceptId": "concept-animaux-0389",
+    "familyId": "family-animaux-0195",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What famous beer brand uses the Clydesdale horse as its mascot?",
+    "answers": [
+      "Fosters",
+      "Heineken",
+      "Upland",
+      "Anheuser-Busch"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0389",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0390",
+    "conceptId": "concept-animaux-0390",
+    "familyId": "family-animaux-0195",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What year was the Clydesdale Horse Society formally founded?",
+    "answers": [
+      "1885",
+      "1887",
+      "1925",
+      "1901"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0390",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0393",
+    "conceptId": "concept-animaux-0393",
+    "familyId": "family-animaux-0197",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How long does a Clydesdale horse's pregnancy last?",
+    "answers": [
+      "15 Months",
+      "11 Months",
+      "9 months",
+      "24 Months"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0393",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0396",
+    "conceptId": "concept-animaux-0396",
+    "familyId": "family-animaux-0198",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What common name does the dog breed New Guinea Highland Dog have?",
+    "answers": [
+      "Swimmer",
+      "Wrestler",
+      "Prowler",
+      "Singer"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0396",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0397",
+    "conceptId": "concept-animaux-0397",
+    "familyId": "family-animaux-0199",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In what color does the Pekingese dog breed come?",
+    "answers": [
+      "All of these",
+      "Black",
+      "White",
+      "Light gold"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0397",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0398",
+    "conceptId": "concept-animaux-0398",
+    "familyId": "family-animaux-0199",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In what European country did the Rough Collie dog breed originate?",
+    "answers": [
+      "Scotland",
+      "France",
+      "Germany",
+      "Ireland"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0398",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0399",
+    "conceptId": "concept-animaux-0399",
+    "familyId": "family-animaux-0200",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What dog breed has an elongated body, very short legs, short shiny coat and a long snout?",
+    "answers": [
+      "Elo",
+      "English Foxhound",
+      "Dachshund",
+      "Dogo Guatemalteco"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0399",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

@@ -1,0 +1,361 @@
+[
+  {
+    "id": "psycho-syndrome-stockholm",
+    "type": "mcq",
+    "question": "Quel syndrome désigne le phénomène psychologique où des otages développent de l'empathie ou de la sympathie pour leurs ravisseurs ?",
+    "answers": [
+      "Le syndrome de Lima",
+      "Le syndrome de Stockholm",
+      "Le syndrome de Stendhal",
+      "Le syndrome de Jérusalem"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "criminologie"
+    ],
+    "conceptId": "psycho-syndrome-stockholm",
+    "familyId": "psycho-syndrome-stockholm",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-lima",
+    "type": "mcq",
+    "question": "À l'inverse du syndrome de Stockholm, comment appelle-t-on la situation où ce sont les ravisseurs qui développent de l'empathie pour leurs otages ?",
+    "answers": [
+      "Le syndrome de Lima",
+      "Le syndrome de Florence",
+      "L'effet miroir",
+      "La dissonance empathique"
+    ],
+    "correctAnswer": 0,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "syndrome"
+    ],
+    "conceptId": "psycho-syndrome-lima",
+    "familyId": "psycho-syndrome-lima",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-capgras",
+    "type": "mcq",
+    "question": "Une personne atteinte du vertigineux syndrome de Capgras est intimement convaincue que...",
+    "answers": [
+      "Elle est morte et que son corps se putréfie",
+      "Ses proches ont été remplacés par des sosies parfaits ou des imposteurs",
+      "On peut lire dans ses pensées",
+      "Elle est la réincarnation d'un personnage historique"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "psychiatrie"
+    ],
+    "conceptId": "psycho-syndrome-capgras",
+    "familyId": "psycho-syndrome-capgras",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-stendhal",
+    "type": "mcq",
+    "question": "Le syndrome de Stendhal se déclenche souvent chez les touristes (notamment à Florence). Il provoque des vertiges et des hallucinations face à...",
+    "answers": [
+      "La foule et le bruit",
+      "Une profusion d'œuvres d'art d'une très grande beauté",
+      "L'architecture religieuse",
+      "Le manque de sommeil dû au décalage horaire"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "art"
+    ],
+    "conceptId": "psycho-syndrome-stendhal",
+    "familyId": "psycho-syndrome-stendhal",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-jerusalem",
+    "type": "mcq",
+    "question": "Quel est le principal symptôme du syndrome de Jérusalem, qui frappe certains touristes visitant la ville sainte ?",
+    "answers": [
+      "Une amnésie temporaire totale",
+      "La perte du langage maternel",
+      "Des délires mystiques, se prenant pour une figure biblique (comme Moïse ou Jésus)",
+      "Une phobie soudaine des édifices religieux"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "religion"
+    ],
+    "conceptId": "psycho-syndrome-jerusalem",
+    "familyId": "psycho-syndrome-jerusalem",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-imposteur",
+    "type": "mcq",
+    "question": "Une personne souffrant du syndrome de l'imposteur a tendance à...",
+    "answers": [
+      "Mentir sur son CV pour obtenir un emploi",
+      "Voler l'identité d'autrui",
+      "Attribuer ses réussites à la chance et craindre d'être démasquée comme incompétente",
+      "Inventer des maladies pour attirer l'attention"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "travail"
+    ],
+    "conceptId": "psycho-syndrome-imposteur",
+    "familyId": "psycho-syndrome-imposteur",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-munchausen",
+    "type": "mcq",
+    "question": "En quoi consiste le syndrome de Münchhausen ?",
+    "answers": [
+      "Simuler ou provoquer des symptômes médicaux chez soi-même pour attirer l'attention",
+      "Mentir de façon compulsive sans raison",
+      "Croire que l'on a été enlevé par des extraterrestres",
+      "Acheter de manière compulsive des objets inutiles"
+    ],
+    "correctAnswer": 0,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "médecine"
+    ],
+    "conceptId": "psycho-syndrome-munchausen",
+    "familyId": "psycho-syndrome-munchausen",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-fregoli",
+    "type": "mcq",
+    "question": "Quel délire rare pousse une personne à croire que différentes personnes qu'elle croise sont en fait une seule et même personne déguisée ?",
+    "answers": [
+      "Le syndrome de Capgras",
+      "Le syndrome de Fregoli",
+      "Le trouble de la personnalité multiple",
+      "La prosopagnosie"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "délire"
+    ],
+    "conceptId": "psycho-syndrome-fregoli",
+    "familyId": "psycho-syndrome-fregoli",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-prosopagnosie",
+    "type": "mcq",
+    "question": "Si vous êtes atteint de prosopagnosie, quelle est votre difficulté majeure au quotidien ?",
+    "answers": [
+      "Vous ne pouvez pas ressentir la douleur",
+      "Vous êtes incapable de reconnaître les visages familiers, même le vôtre",
+      "Vous perdez totalement le sens de l'orientation",
+      "Vous ne pouvez plus lire ou écrire"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "troubles",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "troubles",
+      "cerveau"
+    ],
+    "conceptId": "psycho-prosopagnosie",
+    "familyId": "psycho-prosopagnosie",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-syndrome-cotard",
+    "type": "mcq",
+    "question": "Le glaçant syndrome de Cotard est un délire psychiatrique où le patient est persuadé que...",
+    "answers": [
+      "Le monde entier est une simulation",
+      "Il est immortel",
+      "Ses organes sont pourris ou qu'il est déjà mort (délire de négation)",
+      "Tous ses proches veulent l'empoisonner"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "syndromes",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "psychologie",
+      "syndrome",
+      "psychiatrie"
+    ],
+    "conceptId": "psycho-syndrome-cotard",
+    "familyId": "psycho-syndrome-cotard",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  }
+]

@@ -1,0 +1,359 @@
+[
+  {
+    "id": "psycho-biais-confirmation",
+    "type": "mcq",
+    "question": "What do you call the tendency to favor information that confirms one's own preconceived ideas, while ignoring what contradicts them?",
+    "answers": [
+      "Anchoring bias",
+      "Confirmation bias",
+      "The Dunning-Kruger effect",
+      "Representativeness bias"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "biais-cognitifs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "biais",
+      "cerveau"
+    ],
+    "conceptId": "psycho-biais-confirmation",
+    "familyId": "psycho-biais-confirmation",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-dunning-kruger",
+    "type": "mcq",
+    "question": "What is the Dunning-Kruger effect?",
+    "answers": [
+      "The less competent one is, the more one tends to overestimate one's abilities",
+      "The more competent one is, the more self-confidence one has",
+      "Tendency to imitate the behavior of the group",
+      "Irrational fear of open spaces"
+    ],
+    "correctAnswer": 0,
+    "category": "psychologie",
+    "subcategory": "biais-cognitifs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "biais",
+      "compétence"
+    ],
+    "conceptId": "psycho-dunning-kruger",
+    "familyId": "psycho-dunning-kruger",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-biais-ancrage",
+    "type": "mcq",
+    "question": "In negotiation, the anchoring bias refers to the tendency to...",
+    "answers": [
+      "Refuse any compromise",
+      "Rely excessively on the very first piece of information received",
+      "Get upset when faced with an offer that is too low",
+      "Copy the opponent's strategy"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "biais-cognitifs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "biais",
+      "négociation"
+    ],
+    "conceptId": "psycho-biais-ancrage",
+    "familyId": "psycho-biais-ancrage",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-biais-retrospectif",
+    "type": "mcq",
+    "question": "Which of these biases makes you say \"I knew it all along!\" after an unexpected event has occurred?",
+    "answers": [
+      "The recency bias",
+      "The self-serving bias",
+      "The hindsight bias",
+      "The halo effect"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "biais-cognitifs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "biais"
+    ],
+    "conceptId": "psycho-biais-retrospectif",
+    "familyId": "psycho-biais-retrospectif",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-effet-halo",
+    "type": "mcq",
+    "question": "The halo effect occurs when...",
+    "answers": [
+      "One feels a ghostly presence",
+      "The evaluation of one characteristic of a person influences the judgment of their other traits",
+      "One instantly forgets what one was about to say",
+      "One perceives faces in clouds"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "biais-cognitifs",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "biais",
+      "social"
+    ],
+    "conceptId": "psycho-effet-halo",
+    "familyId": "psycho-effet-halo",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-effet-spectateur",
+    "type": "mcq",
+    "question": "In social psychology, what is the bystander effect (or spectator effect)?",
+    "answers": [
+      "The more witnesses there are, the more we memorize the scene",
+      "The more witnesses there are, the less likely someone is to intervene to help",
+      "Tendency to applaud when others applaud",
+      "Tendency to stare at accidents"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "psychologie-sociale",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "social"
+    ],
+    "conceptId": "psycho-effet-spectateur",
+    "familyId": "psycho-effet-spectateur",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-biais-autocomplaisance",
+    "type": "mcq",
+    "question": "If I attribute my successes to my talent and my failures to bad luck or others, which bias am I suffering from?",
+    "answers": [
+      "Self-serving bias",
+      "Impostor syndrome",
+      "Barnum effect",
+      "Cognitive dissonance"
+    ],
+    "correctAnswer": 0,
+    "category": "psychologie",
+    "subcategory": "biais-cognitifs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "biais",
+      "ego"
+    ],
+    "conceptId": "psycho-biais-autocomplaisance",
+    "familyId": "psycho-biais-autocomplaisance",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-effet-barnum",
+    "type": "mcq",
+    "question": "The Barnum effect, often used in astrology, is the fact of...",
+    "answers": [
+      "Blindly believing an authority figure",
+      "Accepting a very vague description as being specific to oneself",
+      "Paying more for a very famous show",
+      "Remembering only the predictions that come true"
+    ],
+    "correctAnswer": 1,
+    "category": "psychologie",
+    "subcategory": "biais-cognitifs",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "biais",
+      "croyance"
+    ],
+    "conceptId": "psycho-effet-barnum",
+    "familyId": "psycho-effet-barnum",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-dissonance-cognitive",
+    "type": "mcq",
+    "question": "Who theorized the concept of 'cognitive dissonance'?",
+    "answers": [
+      "Sigmund Freud",
+      "B.F. Skinner",
+      "Carl Jung",
+      "Leon Festinger"
+    ],
+    "correctAnswer": 3,
+    "category": "psychologie",
+    "subcategory": "theorie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "théorie"
+    ],
+    "conceptId": "psycho-dissonance-cognitive",
+    "familyId": "psycho-dissonance-cognitive",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  },
+  {
+    "id": "psycho-experience-milgram",
+    "type": "mcq",
+    "question": "What was the famous Milgram experiment (1961), in which fictitious electric shocks were administered, trying to measure?",
+    "answers": [
+      "The pain tolerance threshold",
+      "Emotional intelligence",
+      "Obedience to authority",
+      "Short-term memory under stress"
+    ],
+    "correctAnswer": 2,
+    "category": "psychologie",
+    "subcategory": "experiences",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "psychologie",
+      "histoire",
+      "expérience"
+    ],
+    "conceptId": "psycho-experience-milgram",
+    "familyId": "psycho-experience-milgram",
+    "inputMode": "mcq",
+    "source": {
+      "provider": "manual",
+      "license": "Unspecified"
+    },
+    "verification": {
+      "status": "unverified",
+      "sources": []
+    },
+    "confidence": 1.0,
+    "qualityScore": 1.0,
+    "version": 1,
+    "needsFamilyReview": true
+  }
+]

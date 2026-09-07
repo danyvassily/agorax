@@ -1,0 +1,1750 @@
+[
+  {
+    "id": "film-cameron-titanic-avatar",
+    "conceptId": "james-cameron-avatar-titanic-director",
+    "familyId": "james-cameron-films",
+    "type": "mcq",
+    "question": "Which director directed Titanic and Avatar?",
+    "answers": [
+      "James Cameron",
+      "Steven Spielberg",
+      "Ridley Scott",
+      "Christopher Nolan"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "realisateurs",
+      "films"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-forrest-gump-actor",
+    "conceptId": "tom-hanks-forrest-gump-role",
+    "familyId": "tom-hanks-roles",
+    "type": "mcq",
+    "question": "In which Robert Zemeckis film does Tom Hanks utter the famous line: \"Life is like a box of chocolates\"?",
+    "answers": [
+      "Philadelphia",
+      "Big",
+      "Cast Away",
+      "Forrest Gump"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "films",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "acteurs",
+      "films"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Forrest_Gump"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-jack-sparrow-actor",
+    "conceptId": "johnny-depp-jack-sparrow",
+    "familyId": "pirates-of-caribbean",
+    "type": "mcq",
+    "question": "Which actor plays Jack Sparrow in Pirates of the Caribbean?",
+    "answers": [
+      "Tom Cruise",
+      "Leonardo DiCaprio",
+      "Johnny Depp",
+      "Brad Pitt"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "acteurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "acteurs",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-star-wars-year",
+    "conceptId": "star-wars-1977-release",
+    "familyId": "star-wars-films",
+    "type": "mcq",
+    "question": "In what year was the first Star Wars film, titled A New Hope, released?",
+    "answers": [
+      "1983",
+      "1977",
+      "1975",
+      "1980"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "films",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "films",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/1977"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-star-wars-director",
+    "conceptId": "george-lucas-star-wars-director",
+    "familyId": "star-wars-films",
+    "type": "mcq",
+    "question": "Who created and directed the first Star Wars?",
+    "answers": [
+      "George Lucas",
+      "Steven Spielberg",
+      "Francis Ford Coppola",
+      "Stanley Kubrick"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "realisateurs",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-millennium-falcon",
+    "conceptId": "millennium-falcon-han-solo-ship",
+    "familyId": "star-wars-universe",
+    "type": "mcq",
+    "question": "What is the name of the ship piloted by Han Solo in Star Wars?",
+    "answers": [
+      "The Enterprise",
+      "Serenity",
+      "The Galactica",
+      "The Millennium Falcon"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "franchises",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "franchises",
+      "univers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Faucon_Millenium"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-luke-father",
+    "conceptId": "darth-vader-luke-father",
+    "familyId": "star-wars-universe",
+    "type": "mcq",
+    "question": "In Star Wars, who is Luke Skywalker's father?",
+    "answers": [
+      "Yoda",
+      "Emperor Palpatine",
+      "Darth Vader",
+      "Obi-Wan Kenobi"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "franchises",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "franchises",
+      "univers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-harry-potter-actor",
+    "conceptId": "daniel-radcliffe-harry-potter-role",
+    "familyId": "harry-potter-films",
+    "type": "mcq",
+    "question": "Which actor plays Harry Potter in the eight films of the saga?",
+    "answers": [
+      "Elijah Wood",
+      "Daniel Radcliffe",
+      "Rupert Grint",
+      "Tom Felton"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "acteurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "acteurs",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Daniel_Radcliffe"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-indiana-jones-first",
+    "conceptId": "raiders-of-the-lost-ark-indiana-jones",
+    "familyId": "indiana-jones-films",
+    "type": "mcq",
+    "question": "In which 1981 film does the character Indiana Jones first appear?",
+    "answers": [
+      "Raiders of the Lost Ark",
+      "The Jewel of the Nile",
+      "The Secret of the Pyramid",
+      "The Goonies"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "films",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "films",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-bond-dr-no",
+    "conceptId": "sean-connery-first-bond",
+    "familyId": "james-bond-films",
+    "type": "mcq",
+    "question": "Which actor played James Bond in the very first film of the saga, Dr. No?",
+    "answers": [
+      "Roger Moore",
+      "Pierce Brosnan",
+      "Daniel Craig",
+      "Sean Connery"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "acteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "acteurs",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Sean_Connery"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-bond-first-name",
+    "conceptId": "james-bond-first-name",
+    "familyId": "james-bond-universe",
+    "type": "mcq",
+    "question": "What is the first name of secret agent 007?",
+    "answers": [
+      "Jack",
+      "Peter",
+      "James",
+      "John"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "franchises",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "franchises",
+      "univers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-godfather-vito",
+    "conceptId": "marlon-brando-vito-corleone",
+    "familyId": "godfather-films",
+    "type": "mcq",
+    "question": "In The Godfather, which actor plays the patriarch Vito Corleone?",
+    "answers": [
+      "James Caan",
+      "Marlon Brando",
+      "Al Pacino",
+      "Robert De Niro"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "acteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "acteurs",
+      "films"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Marlon_Brando"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-godfather-director",
+    "conceptId": "coppola-godfather-director",
+    "familyId": "godfather-films",
+    "type": "mcq",
+    "question": "Who directed The Godfather (1972)?",
+    "answers": [
+      "Francis Ford Coppola",
+      "Martin Scorsese",
+      "Brian De Palma",
+      "Sydney Pollack"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "realisateurs",
+      "films"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-jaws-shark",
+    "conceptId": "jaws-spielberg-shark",
+    "familyId": "spielberg-films",
+    "type": "mcq",
+    "question": "Which Steven Spielberg film features a great white shark terrorizing a seaside resort?",
+    "answers": [
+      "Jurassic Park",
+      "E.T. the Extra-Terrestrial",
+      "Close Encounters of the Third Kind",
+      "Jaws"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "films",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "films",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Dents_de_la_mer"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-et-director",
+    "conceptId": "spielberg-et-director",
+    "familyId": "spielberg-films",
+    "type": "mcq",
+    "question": "Who directed E.T. the Extra-Terrestrial?",
+    "answers": [
+      "Tim Burton",
+      "Robert Zemeckis",
+      "Steven Spielberg",
+      "George Lucas"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "realisateurs",
+      "films"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-pulp-fiction-director",
+    "conceptId": "tarantino-pulp-fiction",
+    "familyId": "tarantino-films",
+    "type": "mcq",
+    "question": "Who directed Pulp Fiction?",
+    "answers": [
+      "Guy Ritchie",
+      "Quentin Tarantino",
+      "Robert Rodriguez",
+      "David Fincher"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "realisateurs",
+      "films"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Quentin_Tarantino"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-titanic-oscar-1998",
+    "conceptId": "titanic-best-picture-1998",
+    "familyId": "oscars-best-picture",
+    "type": "mcq",
+    "question": "Which film won the Oscar for Best Picture in 1998?",
+    "answers": [
+      "Titanic",
+      "Good Will Hunting",
+      "L.A. Confidential",
+      "Saving Private Ryan"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "oscars",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "oscars",
+      "films"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-chevre-depardieu-richard",
+    "conceptId": "la-chevre-comedy",
+    "familyId": "depardieu-richard-comedies",
+    "type": "mcq",
+    "question": "In which 1981 French comedy do Gérard Depardieu and Pierre Richard form a clumsy detective duo?",
+    "answers": [
+      "Les Compères",
+      "Les Fugitifs",
+      "Le Pari",
+      "La Chèvre"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "films",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "films",
+      "comedie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Ch%C3%A8vre"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-visiteurs-godefroy",
+    "conceptId": "jean-reno-godefroy",
+    "familyId": "les-visiteurs",
+    "type": "mcq",
+    "question": "In The Visitors, which actor plays the knight Godefroy de Montmirail?",
+    "answers": [
+      "Gérard Jugnot",
+      "Thierry Lhermitte",
+      "Jean Reno",
+      "Christian Clavier"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "acteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "acteurs",
+      "comedie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-bronzes-saga",
+    "conceptId": "bronzes-splash-trio",
+    "familyId": "splanch-comedies",
+    "type": "mcq",
+    "question": "Which French comedy saga features French vacationers at an African holiday resort?",
+    "answers": [
+      "Le Dîner de cons",
+      "Les Bronzés",
+      "Le Père Noël est une ordure",
+      "La Grande Vadrouille"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "films",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "films",
+      "comedie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Bronz%C3%A9s"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-grande-vadrouille-director",
+    "conceptId": "gerard-oury-vadrouille",
+    "familyId": "oury-comedies",
+    "type": "mcq",
+    "question": "Who directed La Grande Vadrouille with Bourvil and Louis de Funès?",
+    "answers": [
+      "Gérard Oury",
+      "Claude Zidi",
+      "Jean Girault",
+      "Jacques Demy"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "realisateurs",
+      "comedie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-gendarme-st-tropez",
+    "conceptId": "cruchot-gendarme",
+    "familyId": "funes-comedies",
+    "type": "mcq",
+    "question": "In which film does Louis de Funès play the role of Chief Warrant Officer Ludovic Cruchot?",
+    "answers": [
+      "Le Corniaud",
+      "La Folie des grandeurs",
+      "L'Aile ou la Cuisse",
+      "Le Gendarme de Saint-Tropez"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "films",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "films",
+      "comedie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Gendarme_de_Saint-Tropez"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-diner-de-cons-villeret",
+    "conceptId": "villeret-francois-pignon",
+    "familyId": "diner-de-cons",
+    "type": "mcq",
+    "question": "Which actor plays François Pignon in The Dinner Game?",
+    "answers": [
+      "Gérard Jugnot",
+      "Michel Blanc",
+      "Jacques Villeret",
+      "Thierry Lhermitte"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "acteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "acteurs",
+      "comedie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-amelie-director",
+    "conceptId": "jeunet-amelie",
+    "familyId": "jeunet-films",
+    "type": "mcq",
+    "question": "Who directed Amélie (Le Fabuleux Destin d'Amélie Poulain)?",
+    "answers": [
+      "Mathieu Kassovitz",
+      "Jean-Pierre Jeunet",
+      "Luc Besson",
+      "Cédric Klapisch"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "realisateurs",
+      "films"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Jean-Pierre_Jeunet"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-nemo-pixar",
+    "conceptId": "finding-nemo-pixar",
+    "familyId": "pixar-films",
+    "type": "mcq",
+    "question": "Which Pixar animated film features the clownfish Nemo?",
+    "answers": [
+      "Finding Nemo",
+      "A Bug's Life",
+      "Monsters, Inc.",
+      "Ratatouille"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "animation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "films",
+      "animation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-walle-eve",
+    "conceptId": "eve-wall-e-robot",
+    "familyId": "wall-e",
+    "type": "mcq",
+    "question": "In Wall-E, what is the name of the white robot sent to Earth to find a plant?",
+    "answers": [
+      "Rosie",
+      "Dot",
+      "V.I.C.I.",
+      "Eve"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "animation",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "films",
+      "animation"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%88ve"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-pixar-studio",
+    "conceptId": "pixar-studios",
+    "familyId": "animation-studios",
+    "type": "mcq",
+    "question": "Which animation studio produced Toy Story, Finding Nemo, and Inside Out?",
+    "answers": [
+      "Blue Sky",
+      "Illumination",
+      "Pixar",
+      "DreamWorks"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "animation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animation",
+      "studios"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-shrek-studio",
+    "conceptId": "dreamworks-shrek",
+    "familyId": "animation-studios",
+    "type": "mcq",
+    "question": "Which animation studio created Shrek?",
+    "answers": [
+      "Aardman",
+      "DreamWorks",
+      "Pixar",
+      "Laika"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "animation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animation",
+      "studios"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/DreamWorks"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-toy-story-woody",
+    "conceptId": "woody-toy-story",
+    "familyId": "toy-story",
+    "type": "mcq",
+    "question": "Which Toy Story character is a cowboy?",
+    "answers": [
+      "Woody",
+      "Buzz Lightyear",
+      "Slinky",
+      "Rex"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "animation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animation",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-toy-story-woody-voice",
+    "conceptId": "tom-hanks-woody-voice",
+    "familyId": "toy-story",
+    "type": "mcq",
+    "question": "Which actor lends his voice to Woody in the original version of Toy Story?",
+    "answers": [
+      "Tim Allen",
+      "Billy Crystal",
+      "John Goodman",
+      "Tom Hanks"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "animation",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "animation",
+      "acteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Tom_Hanks"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-roi-lion-mufasa",
+    "conceptId": "mufasa-simba-father",
+    "familyId": "lion-king",
+    "type": "mcq",
+    "question": "In The Lion King, what is the name of Simba's father?",
+    "answers": [
+      "Rafiki",
+      "Zazu",
+      "Mufasa",
+      "Scar"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "animation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animation",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-reine-neiges-soeurs",
+    "conceptId": "frozen-elsa-anna",
+    "familyId": "frozen",
+    "type": "mcq",
+    "question": "Which 2013 Disney film tells the story of sisters Elsa and Anna?",
+    "answers": [
+      "Brave",
+      "Frozen",
+      "Tangled",
+      "Moana"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "animation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animation",
+      "films"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Reine_des_neiges"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-reine-neiges-olaf",
+    "conceptId": "olaf-snowman",
+    "familyId": "frozen",
+    "type": "mcq",
+    "question": "In Frozen, what is the name of the snowman who dreams of summer?",
+    "answers": [
+      "Olaf",
+      "Sven",
+      "Kristoff",
+      "Marshmallow"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "animation",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "animation",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-inception-nolan",
+    "conceptId": "nolan-inception",
+    "familyId": "nolan-films",
+    "type": "mcq",
+    "question": "Which Christopher Nolan film explores dreams within dreams?",
+    "answers": [
+      "Interstellar",
+      "Tenet",
+      "Memento",
+      "Inception"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "films",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "films",
+      "realisateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Inception"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-dark-knight-batman",
+    "conceptId": "christian-bale-batman",
+    "familyId": "batman-films",
+    "type": "mcq",
+    "question": "Which actor plays Batman in The Dark Knight (2008)?",
+    "answers": [
+      "Ben Affleck",
+      "Robert Pattinson",
+      "Christian Bale",
+      "Michael Keaton"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "acteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "acteurs",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-joker-ledger",
+    "conceptId": "heath-ledger-joker",
+    "familyId": "batman-films",
+    "type": "mcq",
+    "question": "Which actor played the Joker in The Dark Knight?",
+    "answers": [
+      "Joaquin Phoenix",
+      "Heath Ledger",
+      "Jack Nicholson",
+      "Jared Leto"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "acteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "acteurs",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Heath_Ledger"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-lotr-director",
+    "conceptId": "peter-jackson-lotr",
+    "familyId": "lord-of-the-rings-films",
+    "type": "mcq",
+    "question": "Who directed the Lord of the Rings trilogy?",
+    "answers": [
+      "Peter Jackson",
+      "James Cameron",
+      "Guillermo del Toro",
+      "George Lucas"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "realisateurs",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-lotr-ring-bearer",
+    "conceptId": "frodo-ring-bearer",
+    "familyId": "lord-of-the-rings-universe",
+    "type": "mcq",
+    "question": "In The Lord of the Rings, who must destroy the One Ring in the Mountain of Destiny?",
+    "answers": [
+      "Sam",
+      "Bilbo",
+      "Gandalf",
+      "Frodo"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "franchises",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "franchises",
+      "univers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Frodon"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-gandalf-actor",
+    "conceptId": "ian-mckellen-gandalf",
+    "familyId": "lord-of-the-rings-universe",
+    "type": "mcq",
+    "question": "Which actor plays Gandalf in The Lord of the Rings?",
+    "answers": [
+      "Sean Bean",
+      "Viggo Mortensen",
+      "Ian McKellen",
+      "Christopher Lee"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "acteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "acteurs",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-harry-potter-studio",
+    "conceptId": "warner-bros-harry-potter",
+    "familyId": "harry-potter-films",
+    "type": "mcq",
+    "question": "Which studio produces the Harry Potter films?",
+    "answers": [
+      "Disney",
+      "Warner Bros",
+      "Universal",
+      "Paramount"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "franchises",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "franchises",
+      "studios"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Warner_Bros"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-avengers-first",
+    "conceptId": "avengers-2012-assembly",
+    "familyId": "marvel-cinematic-universe",
+    "type": "mcq",
+    "question": "In which 2012 film do Iron Man, Captain America, and Thor first come together on screen?",
+    "answers": [
+      "The Avengers",
+      "Captain America: Civil War",
+      "Avengers: Infinity War",
+      "Avengers: Endgame"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "franchises",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "franchises",
+      "super-heros"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-iron-man-actor",
+    "conceptId": "rdj-iron-man",
+    "familyId": "marvel-cinematic-universe",
+    "type": "mcq",
+    "question": "Which actor portrays Tony Stark, aka Iron Man, in the Marvel films?",
+    "answers": [
+      "Chris Evans",
+      "Chris Hemsworth",
+      "Mark Ruffalo",
+      "Robert Downey Jr."
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "acteurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "acteurs",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Robert_Downey_Jr."
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-thor-hammer",
+    "conceptId": "mjolnir-thor-hammer",
+    "familyId": "marvel-universe",
+    "type": "mcq",
+    "question": "What is the name of Thor's hammer?",
+    "answers": [
+      "Gungnir",
+      "Stormbreaker",
+      "Mjöllnir",
+      "Excalibur"
+    ],
+    "correctAnswer": 2,
+    "category": "cinema",
+    "subcategory": "franchises",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "franchises",
+      "univers"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-matrix-neo",
+    "conceptId": "neo-matrix",
+    "familyId": "matrix-films",
+    "type": "mcq",
+    "question": "In The Matrix, what is the code name of the character played by Keanu Reeves?",
+    "answers": [
+      "Cypher",
+      "Neo",
+      "Morpheus",
+      "Trinity"
+    ],
+    "correctAnswer": 1,
+    "category": "cinema",
+    "subcategory": "films",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "films",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/N%C3%A9o"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "film-matrix-directors",
+    "conceptId": "wachowski-matrix",
+    "familyId": "matrix-films",
+    "type": "mcq",
+    "question": "Who directed The Matrix (1999)?",
+    "answers": [
+      "Lana and Lilly Wachowski",
+      "The Coen brothers",
+      "The Russo brothers",
+      "The Duffer brothers"
+    ],
+    "correctAnswer": 0,
+    "category": "cinema",
+    "subcategory": "realisateurs",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "realisateurs",
+      "franchises"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "film-titanic-famous-line",
+    "conceptId": "jack-dawson-i-am-the-king",
+    "familyId": "titanic-films",
+    "type": "mcq",
+    "question": "What phrase does Jack shout from the front of the Titanic in the 1997 film?",
+    "answers": [
+      "I am invincible",
+      "Long live life",
+      "I am the master of the world",
+      "I am the king of the world"
+    ],
+    "correctAnswer": 3,
+    "category": "cinema",
+    "subcategory": "repliques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "repliques",
+      "films"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Je_suis_le_roi_du_monde"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  }
+]

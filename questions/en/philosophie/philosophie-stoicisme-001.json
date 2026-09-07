@@ -1,0 +1,686 @@
+[
+  {
+    "id": "phil-zeno-of-citium-founder-of-stoicism",
+    "conceptId": "zeno-of-citium-founder-of-stoicism",
+    "familyId": "stoicism-foundation",
+    "type": "mcq",
+    "question": "Who founded Stoicism around 300 BC?",
+    "answers": [
+      "Epicurus",
+      "Socrates",
+      "Diogenes",
+      "Zeno of Citium"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "stoicisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q171315",
+      "url": "https://www.wikidata.org/wiki/Q171315",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-the-porch-stoa-poikile",
+    "conceptId": "the-porch-stoa-poikile",
+    "familyId": "stoicism-foundation",
+    "type": "mcq",
+    "question": "Why is the Stoic school called 'The Porch'?",
+    "answers": [
+      "Zeno taught under a painted porch in Athens",
+      "The building was made of marble from the Portico",
+      "The word comes from the Latin 'portus'",
+      "The Stoics sold fabrics"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "stoicisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q171315",
+      "url": "https://www.wikidata.org/wiki/Q171315",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-stoics-virtue-is-the-only-good",
+    "conceptId": "stoics-virtue-is-the-only-good",
+    "familyId": "stoic-ethics",
+    "type": "mcq",
+    "question": "What is the only true good according to the Stoics?",
+    "answers": [
+      "Wealth",
+      "Virtue",
+      "Pleasure",
+      "Health"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "stoicisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q171315",
+      "url": "https://www.wikidata.org/wiki/Q171315",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-stoics-apatheia-absence-of-passions",
+    "conceptId": "stoics-apatheia-absence-of-passions",
+    "familyId": "stoic-ethics",
+    "type": "mcq",
+    "question": "What is the Stoic ideal of absence of passions called?",
+    "answers": [
+      "Catharsis",
+      "Hybris",
+      "Apathy",
+      "Ataraxia"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "stoicisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q171315",
+      "url": "https://www.wikidata.org/wiki/Q171315",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-stoics-live-in-accordance-with-nature",
+    "conceptId": "stoics-live-in-accordance-with-nature",
+    "familyId": "stoic-ethics",
+    "type": "mcq",
+    "question": "Which precept summarizes Stoic morality?",
+    "answers": [
+      "Enjoy the present moment",
+      "Flee society",
+      "Seek glory",
+      "Live in accordance with nature and reason"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "stoicisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q171315",
+      "url": "https://www.wikidata.org/wiki/Q171315",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-epictetus-dichotomy-of-control",
+    "conceptId": "epictetus-dichotomy-of-control",
+    "familyId": "epictetus-doctrine",
+    "type": "mcq",
+    "question": "What fundamental distinction does Epictetus teach at the beginning of his Enchiridion?",
+    "answers": [
+      "What depends on us and what does not depend on us",
+      "Good and evil",
+      "True and false",
+      "Soul and body"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "epictete"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q177463",
+      "url": "https://www.wikidata.org/wiki/Q177463",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-epictetus-former-slave",
+    "conceptId": "epictetus-former-slave",
+    "familyId": "epictetus-biography",
+    "type": "mcq",
+    "question": "What was Epictetus's status before becoming a philosopher?",
+    "answers": [
+      "He was a soldier",
+      "He was a slave",
+      "He was an emperor",
+      "He was a doctor"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "epictete"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q177463",
+      "url": "https://www.wikidata.org/wiki/Q177463",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "phil-epictetus-enchiridion-manual",
+    "conceptId": "epictetus-enchiridion-manual",
+    "familyId": "epictetus-works",
+    "type": "mcq",
+    "question": "What is the name of Epictetus's practical handbook, compiled by his disciple Arrian?",
+    "answers": [
+      "The Letters",
+      "The Maxims",
+      "The Handbook",
+      "The Discourses"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "epictete"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q177463",
+      "url": "https://www.wikidata.org/wiki/Q177463",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-seneca-letters-to-lucilius",
+    "conceptId": "seneca-letters-to-lucilius",
+    "familyId": "seneca-works",
+    "type": "mcq",
+    "question": "Which famous work does Seneca address to his friend Lucilius?",
+    "answers": [
+      "Meditations",
+      "The Enchiridion",
+      "The Confessions",
+      "Letters to Lucilius"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "seneca"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q2054",
+      "url": "https://www.wikidata.org/wiki/Q2054",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "phil-seneca-tutor-of-nero",
+    "conceptId": "seneca-tutor-of-nero",
+    "familyId": "seneca-biography",
+    "type": "mcq",
+    "question": "Which Roman emperor was Seneca the tutor of?",
+    "answers": [
+      "Nero",
+      "Augustus",
+      "Caligula",
+      "Trajan"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "seneca"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q2054",
+      "url": "https://www.wikidata.org/wiki/Q2054",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "phil-seneca-on-the-brevity-of-life",
+    "conceptId": "seneca-on-the-brevity-of-life",
+    "familyId": "seneca-works",
+    "type": "mcq",
+    "question": "Which treatise by Seneca deals with time slipping away from us?",
+    "answers": [
+      "The Spirit of the Laws",
+      "On the Shortness of Life",
+      "On the Nature of Things",
+      "The Social Contract"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "seneca"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q2054",
+      "url": "https://www.wikidata.org/wiki/Q2054",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-marcus-aurelius-philosopher-emperor",
+    "conceptId": "marcus-aurelius-philosopher-emperor",
+    "familyId": "marcus-aurelius",
+    "type": "mcq",
+    "question": "Which Stoic philosopher is also a Roman emperor?",
+    "answers": [
+      "Hadrian",
+      "Commodus",
+      "Marcus Aurelius",
+      "Nero"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "marc-aurele"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1410",
+      "url": "https://www.wikidata.org/wiki/Q1410",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "phil-marcus-aurelius-meditations-title",
+    "conceptId": "marcus-aurelius-meditations-title",
+    "familyId": "marcus-aurelius-works",
+    "type": "mcq",
+    "question": "What is the title of Marcus Aurelius's personal work?",
+    "answers": [
+      "Letters to Lucilius",
+      "The Manual",
+      "The Confessions",
+      "Thoughts to Myself"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "marc-aurele"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1410",
+      "url": "https://www.wikidata.org/wiki/Q1410",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-marcus-aurelius-successor-commodus",
+    "conceptId": "marcus-aurelius-successor-commodus",
+    "familyId": "marcus-aurelius",
+    "type": "mcq",
+    "question": "Marcus Aurelius is the last of the 'Five Good Emperors'. Who succeeds him?",
+    "answers": [
+      "Commodus",
+      "Septimius Severus",
+      "Caracalla",
+      "Hadrian"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "marc-aurele"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1410",
+      "url": "https://www.wikidata.org/wiki/Q1410",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-stoic-sage-ideal",
+    "conceptId": "stoic-sage-ideal",
+    "familyId": "stoic-ethics",
+    "type": "mcq",
+    "question": "What do the Stoics call the perfect man?",
+    "answers": [
+      "The chosen one",
+      "The sage",
+      "The superman",
+      "The hero"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "stoicisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q171315",
+      "url": "https://www.wikidata.org/wiki/Q171315",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-chrysippus-second-founder",
+    "conceptId": "chrysippus-second-founder",
+    "familyId": "stoicism-history",
+    "type": "mcq",
+    "question": "Which philosopher is sometimes nicknamed the \"second founder\" of Stoicism?",
+    "answers": [
+      "Posidonius",
+      "Panaetius",
+      "Chrysippus",
+      "Cleanthes"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "stoicisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q171315",
+      "url": "https://www.wikidata.org/wiki/Q171315",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.95,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "phil-stoic-three-parts-of-philosophy",
+    "conceptId": "stoic-three-parts-of-philosophy",
+    "familyId": "stoicism-doctrine",
+    "type": "mcq",
+    "question": "What are the three parts of Stoic philosophy?",
+    "answers": [
+      "Rhetoric, grammar, and poetics",
+      "Arithmetic, geometry, and music",
+      "Metaphysics, theology, and astronomy",
+      "Logic, physics, and ethics"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "stoicisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q171315",
+      "url": "https://www.wikidata.org/wiki/Q171315",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.95,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "phil-cleanthes-hymn-to-zeus",
+    "conceptId": "cleanthes-hymn-to-zeus",
+    "familyId": "stoicism-history",
+    "type": "mcq",
+    "question": "Which Stoic, successor of Zeno, composed a Hymn to Zeus?",
+    "answers": [
+      "Cleanthes",
+      "Chrysippus",
+      "Seneca",
+      "Epictetus"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "stoicisme",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "stoicisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q171315",
+      "url": "https://www.wikidata.org/wiki/Q171315",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.95,
+    "qualityScore": 0.9,
+    "version": 1
+  }
+]

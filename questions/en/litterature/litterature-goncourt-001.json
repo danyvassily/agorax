@@ -1,0 +1,1027 @@
+[
+  {
+    "id": "lit-goncourt-0001",
+    "conceptId": "concept-lit-goncourt-0001",
+    "familyId": "family-lit-goncourt-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"L'Anomalie\" in 2020?",
+    "answers": [
+      "Hervé Le Tellier",
+      "Nicolas Mathieu",
+      "Éric Vuillard",
+      "Jean-Paul Dubois"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"L'Anomalie\" earned Hervé Le Tellier the Prix Goncourt in 2020."
+  },
+  {
+    "id": "lit-goncourt-0002",
+    "conceptId": "concept-lit-goncourt-0002",
+    "familyId": "family-lit-goncourt-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"Tous les hommes n'habitent pas le monde de la même façon\" in 2019?",
+    "answers": [
+      "David Diop",
+      "Sylvain Tesson",
+      "Jean-Paul Dubois",
+      "Hervé Le Tellier"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Tous les hommes n'habitent pas le monde de la même façon\" earned Jean-Paul Dubois the Prix Goncourt in 2019."
+  },
+  {
+    "id": "lit-goncourt-0003",
+    "conceptId": "concept-lit-goncourt-0003",
+    "familyId": "family-lit-goncourt-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"Their Children After Them\" in 2018?",
+    "answers": [
+      "Éric Vuillard",
+      "Alain Mabanckou",
+      "Nicolas Mathieu",
+      "Michel Houellebecq"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Their Children After Them\" earned Nicolas Mathieu the Prix Goncourt in 2018."
+  },
+  {
+    "id": "lit-goncourt-0004",
+    "conceptId": "concept-lit-goncourt-0004",
+    "familyId": "family-lit-goncourt-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"The Order of the Day\" in 2017?",
+    "answers": [
+      "Éric Vuillard",
+      "Mathias Énard",
+      "Laurent Binet",
+      "Leïla Slimani"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"The Order of the Day\" earned Éric Vuillard the Prix Goncourt in 2017."
+  },
+  {
+    "id": "lit-goncourt-0005",
+    "conceptId": "concept-lit-goncourt-0005",
+    "familyId": "family-lit-goncourt-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for her novel \"Chanson douce\" in 2016?",
+    "answers": [
+      "Leïla Slimani",
+      "Maylis de Kerangal",
+      "Virginie Despentes",
+      "Delphine de Vigan"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Chanson douce\" earned Leïla Slimani the Prix Goncourt in 2016."
+  },
+  {
+    "id": "lit-goncourt-0006",
+    "conceptId": "concept-lit-goncourt-0006",
+    "familyId": "family-lit-goncourt-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"Compass\" in 2015?",
+    "answers": [
+      "Pierre Lemaitre",
+      "Jérôme Ferrari",
+      "Mathias Énard",
+      "Éric Vuillard"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Compass\" earned Mathias Énard the Prix Goncourt in 2015."
+  },
+  {
+    "id": "lit-goncourt-0007",
+    "conceptId": "concept-lit-goncourt-0007",
+    "familyId": "family-lit-goncourt-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for their novel \"Pas pleurer\" in 2014?",
+    "answers": [
+      "Annie Ernaux",
+      "Marie NDiaye",
+      "Camille Laurens",
+      "Lydie Salvayre"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Pas pleurer\" earned Lydie Salvayre the Prix Goncourt in 2014."
+  },
+  {
+    "id": "lit-goncourt-0008",
+    "conceptId": "concept-lit-goncourt-0008",
+    "familyId": "family-lit-goncourt-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"The Great Swindle\" in 2013?",
+    "answers": [
+      "Jérôme Ferrari",
+      "Sorj Chalandon",
+      "Alexis Jenni",
+      "Pierre Lemaitre"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"The Great Swindle\" earned Pierre Lemaitre the Prix Goncourt in 2013."
+  },
+  {
+    "id": "lit-goncourt-0009",
+    "conceptId": "concept-lit-goncourt-0009",
+    "familyId": "family-lit-goncourt-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"The Sermon on the Fall of Rome\" in 2012?",
+    "answers": [
+      "Laurent Mauvignier",
+      "Jérôme Ferrari",
+      "Pierre Lemaitre",
+      "Jean Echenoz"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"The Sermon on the Fall of Rome\" earned Jérôme Ferrari the Prix Goncourt in 2012."
+  },
+  {
+    "id": "lit-goncourt-0010",
+    "conceptId": "concept-lit-goncourt-0010",
+    "familyId": "family-lit-goncourt-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"The French Art of War\" in 2011?",
+    "answers": [
+      "Alexis Jenni",
+      "Frédéric Beigbeder",
+      "Michel Houellebecq",
+      "Emmanuel Carrère"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"The French Art of War\" earned Alexis Jenni the Prix Goncourt in 2011."
+  },
+  {
+    "id": "lit-goncourt-0011",
+    "conceptId": "concept-lit-goncourt-0011",
+    "familyId": "family-lit-goncourt-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"The Map and the Territory\" in 2010?",
+    "answers": [
+      "Florian Zeller",
+      "Frédéric Beigbeder",
+      "Michel Houellebecq",
+      "Virginie Despentes"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"The Map and the Territory\" earned Michel Houellebecq the Prix Goncourt in 2010."
+  },
+  {
+    "id": "lit-goncourt-0012",
+    "conceptId": "concept-lit-goncourt-0012",
+    "familyId": "family-lit-goncourt-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for their novel \"Three Strong Women\" in 2009?",
+    "answers": [
+      "Fatou Diome",
+      "Marie NDiaye",
+      "Léonora Miano",
+      "Leïla Slimani"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Three Strong Women\" earned Marie NDiaye the Prix Goncourt in 2009."
+  },
+  {
+    "id": "lit-goncourt-0013",
+    "conceptId": "concept-lit-goncourt-0013",
+    "familyId": "family-lit-goncourt-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"Syngué sabour. Pierre de patience\" in 2008?",
+    "answers": [
+      "Khaled Hosseini",
+      "Tahar Ben Jelloun",
+      "Amin Maalouf",
+      "Atiq Rahimi"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Syngué sabour. Pierre de patience\" earned Atiq Rahimi the Prix Goncourt in 2008."
+  },
+  {
+    "id": "lit-goncourt-0014",
+    "conceptId": "concept-lit-goncourt-0014",
+    "familyId": "family-lit-goncourt-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"Alabama Song\" in 2007?",
+    "answers": [
+      "Gilles Leroy",
+      "Patrick Rambaud",
+      "Jean-Christophe Rufin",
+      "Philippe Claudel"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Alabama Song\" earned Gilles Leroy the Prix Goncourt in 2007."
+  },
+  {
+    "id": "lit-goncourt-0015",
+    "conceptId": "concept-lit-goncourt-0015",
+    "familyId": "family-lit-goncourt-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel 'The Kindly Ones' in 2006?",
+    "answers": [
+      "François Weyergans",
+      "Jean-Christophe Rufin",
+      "Laurent Gaudé",
+      "Jonathan Littell"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "'The Kindly Ones' earned Jonathan Littell the Prix Goncourt in 2006."
+  },
+  {
+    "id": "lit-goncourt-0016",
+    "conceptId": "concept-lit-goncourt-0016",
+    "familyId": "family-lit-goncourt-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"Three Days with My Mother\" in 2005?",
+    "answers": [
+      "Jacques Chessex",
+      "François Weyergans",
+      "Jean Echenoz",
+      "Patrick Modiano"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Three Days with My Mother\" earned François Weyergans the Prix Goncourt in 2005."
+  },
+  {
+    "id": "lit-goncourt-0017",
+    "conceptId": "concept-lit-goncourt-0017",
+    "familyId": "family-lit-goncourt-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"The Sun of the Scorta\" in 2004?",
+    "answers": [
+      "Laurent Gaudé",
+      "Gilles Leroy",
+      "Jean-Christophe Rufin",
+      "Sorj Chalandon"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"The Sun of the Scorta\" earned Laurent Gaudé the Prix Goncourt in 2004."
+  },
+  {
+    "id": "lit-goncourt-0018",
+    "conceptId": "concept-lit-goncourt-0018",
+    "familyId": "family-lit-goncourt-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"La Maîtresse de Brecht\" in 2003?",
+    "answers": [
+      "Pascal Quignard",
+      "Jean-Christophe Rufin",
+      "Jacques-Pierre Amette",
+      "Didier Decoin"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"La Maîtresse de Brecht\" earned Jacques-Pierre Amette the Prix Goncourt in 2003."
+  },
+  {
+    "id": "lit-goncourt-0019",
+    "conceptId": "concept-lit-goncourt-0019",
+    "familyId": "family-lit-goncourt-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"Les Ombres errantes\" in 2002?",
+    "answers": [
+      "Pascal Quignard",
+      "Pierre Michon",
+      "Jean Echenoz",
+      "Gérard Macé"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Les Ombres errantes\" earned Pascal Quignard the Prix Goncourt in 2002."
+  },
+  {
+    "id": "lit-goncourt-0020",
+    "conceptId": "concept-lit-goncourt-0020",
+    "familyId": "family-lit-goncourt-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"Red Brazil\" in 2001?",
+    "answers": [
+      "Jean-Christophe Rufin",
+      "Didier van Cauwelaert",
+      "Amin Maalouf",
+      "Erik Orsenna"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Red Brazil\" earned Jean-Christophe Rufin the Prix Goncourt in 2001."
+  },
+  {
+    "id": "lit-goncourt-0021",
+    "conceptId": "concept-lit-goncourt-0021",
+    "familyId": "family-lit-goncourt-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"Ingrid Caven\" in 2000?",
+    "answers": [
+      "Michel Houellebecq",
+      "Patrick Modiano",
+      "Jean-Jacques Schuhl",
+      "Jean Echenoz"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0021",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Ingrid Caven\" earned Jean-Jacques Schuhl the Prix Goncourt in 2000."
+  },
+  {
+    "id": "lit-goncourt-0022",
+    "conceptId": "concept-lit-goncourt-0022",
+    "familyId": "family-lit-goncourt-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"Je m'en vais\" in 1999?",
+    "answers": [
+      "Paule Constant",
+      "Didier van Cauwelaert",
+      "Jean Echenoz",
+      "Patrick Rambaud"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0022",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Je m'en vais\" earned Jean Echenoz the Prix Goncourt in 1999."
+  },
+  {
+    "id": "lit-goncourt-0023",
+    "conceptId": "concept-lit-goncourt-0023",
+    "familyId": "family-lit-goncourt-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"La Bataille\" in 1997?",
+    "answers": [
+      "Patrick Rambaud",
+      "Didier van Cauwelaert",
+      "Tahar Ben Jelloun",
+      "Jean Echenoz"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0023",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"La Bataille\" earned Patrick Rambaud the Prix Goncourt in 1997."
+  },
+  {
+    "id": "lit-goncourt-0024",
+    "conceptId": "concept-lit-goncourt-0024",
+    "familyId": "family-lit-goncourt-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"Un aller simple\" in 1994?",
+    "answers": [
+      "Patrick Modiano",
+      "Pascal Quignard",
+      "Didier van Cauwelaert",
+      "Amin Maalouf"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0024",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Un aller simple\" earned Didier van Cauwelaert the Prix Goncourt in 1994."
+  },
+  {
+    "id": "lit-goncourt-0025",
+    "conceptId": "concept-lit-goncourt-0025",
+    "familyId": "family-lit-goncourt-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which writer won the prestigious Prix Goncourt for his novel \"Le Rocher de Tanios\" in 1993?",
+    "answers": [
+      "Tahar Ben Jelloun",
+      "Jean-Christophe Rufin",
+      "Amin Maalouf",
+      "Patrick Chamoiseau"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "prix-goncourt",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "litterature",
+      "prix-goncourt",
+      "romans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "lit-goncourt-0025",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "\"Le Rocher de Tanios\" earned Amin Maalouf the Prix Goncourt in 1993."
+  }
+]

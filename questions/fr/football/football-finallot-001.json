@@ -1,0 +1,802 @@
+[
+  {
+    "id": "fin-football-0001",
+    "conceptId": "concept-fin-football-0001",
+    "familyId": "family-fin-football-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel pays a accueilli et remporté la toute première Coupe du monde de la FIFA en 1930 ?",
+    "answers": [
+      "L'Argentine",
+      "Le Brésil",
+      "L'Uruguay",
+      "L'Italie"
+    ],
+    "correctAnswer": 2,
+    "category": "football",
+    "subcategory": "coupe-du-monde",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "coupe-du-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Uruguay a organisé et gagné la première édition de la Coupe du monde en battant l'Argentine en finale (4-2)."
+  },
+  {
+    "id": "fin-football-0002",
+    "conceptId": "concept-fin-football-0002",
+    "familyId": "family-fin-football-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel pays détient le record du nombre de victoires en Coupe du monde masculine avec 5 étoiles ?",
+    "answers": [
+      "L'Allemagne",
+      "L'Argentine",
+      "L'Italie",
+      "Le Brésil"
+    ],
+    "correctAnswer": 3,
+    "category": "football",
+    "subcategory": "coupe-du-monde",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "coupe-du-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Seleção brésilienne a remporté le Mondial à cinq reprises (1958, 1962, 1970, 1994, 2002)."
+  },
+  {
+    "id": "fin-football-0003",
+    "conceptId": "concept-fin-football-0003",
+    "familyId": "family-fin-football-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel pays a remporté la Coupe du monde de football 2010 organisée en Afrique du Sud ?",
+    "answers": [
+      "L'Allemagne",
+      "Les Pays-Bas",
+      "L'Espagne",
+      "Le Brésil"
+    ],
+    "correctAnswer": 2,
+    "category": "football",
+    "subcategory": "coupe-du-monde",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "coupe-du-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Espagne a conquis son premier titre mondial en 2010 grâce à un but d'Andrés Iniesta en prolongation face aux Pays-Bas."
+  },
+  {
+    "id": "fin-football-0004",
+    "conceptId": "concept-fin-football-0004",
+    "familyId": "family-fin-football-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel pays a remporté la Coupe du monde de football 2014 en s'imposant au Brésil ?",
+    "answers": [
+      "Le Brésil",
+      "L'Allemagne",
+      "Les Pays-Bas",
+      "L'Argentine"
+    ],
+    "correctAnswer": 1,
+    "category": "football",
+    "subcategory": "coupe-du-monde",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "coupe-du-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Allemagne a remporté son quatrième trophée mondial en 2014 en battant l'Argentine 1-0 en finale au Maracanã."
+  },
+  {
+    "id": "fin-football-0005",
+    "conceptId": "concept-fin-football-0005",
+    "familyId": "family-fin-football-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "En quelle année l'équipe de France a-t-elle remporté sa première Coupe du monde à domicile ?",
+    "answers": [
+      "2018",
+      "2006",
+      "1984",
+      "1998"
+    ],
+    "correctAnswer": 3,
+    "category": "football",
+    "subcategory": "coupe-du-monde",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "coupe-du-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La France a battu le Brésil 3-0 en finale le 12 juillet 1998 au Stade de France avec un doublé de Zidane et un but de Petit."
+  },
+  {
+    "id": "fin-football-0006",
+    "conceptId": "concept-fin-football-0006",
+    "familyId": "family-fin-football-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel pays s'est déroulée la Coupe du monde de football 2018 remportée par la France ?",
+    "answers": [
+      "Brésil",
+      "Qatar",
+      "Afrique du Sud",
+      "Russie"
+    ],
+    "correctAnswer": 3,
+    "category": "football",
+    "subcategory": "coupe-du-monde",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "coupe-du-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'édition 2018 s'est tenue en Russie et la France y a battu la Croatie 4-2 en finale à Moscou."
+  },
+  {
+    "id": "fin-football-0007",
+    "conceptId": "concept-fin-football-0007",
+    "familyId": "family-fin-football-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle nation a remporté la finale de la Coupe du monde de football 2022 au Qatar ?",
+    "answers": [
+      "La France",
+      "La Croatie",
+      "L'Argentine",
+      "Le Maroc"
+    ],
+    "correctAnswer": 2,
+    "category": "football",
+    "subcategory": "coupe-du-monde",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "coupe-du-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Argentine menée par Lionel Messi a remporté le titre mondial 2022 aux tirs au but face à la France."
+  },
+  {
+    "id": "fin-football-0008",
+    "conceptId": "concept-fin-football-0008",
+    "familyId": "family-fin-football-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel pays a accueilli la Coupe du monde en 1966 et y a remporté son unique titre mondial à ce jour ?",
+    "answers": [
+      "L'Angleterre",
+      "Le Chili",
+      "L'Italie",
+      "La Suède"
+    ],
+    "correctAnswer": 0,
+    "category": "football",
+    "subcategory": "coupe-du-monde",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "football",
+      "coupe-du-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Angleterre a triomphé à domicile en 1966 en battant la RFA en finale à Wembley (4-2 a.p.)."
+  },
+  {
+    "id": "fin-football-0009",
+    "conceptId": "concept-fin-football-0009",
+    "familyId": "family-fin-football-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle nation a atteint trois finales de Coupe du monde (1974, 1978, 2010) sans jamais en remporter une ?",
+    "answers": [
+      "La Suède",
+      "La Hongrie",
+      "La Pologne",
+      "Les Pays-Bas"
+    ],
+    "correctAnswer": 3,
+    "category": "football",
+    "subcategory": "coupe-du-monde",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "football",
+      "coupe-du-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les Pays-Bas sont tristement célèbres pour avoir perdu trois finales de Coupe du monde sans jamais décrocher le trophée."
+  },
+  {
+    "id": "fin-football-0010",
+    "conceptId": "concept-fin-football-0010",
+    "familyId": "family-fin-football-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel pays d'Amérique du Sud s'est déroulée la Coupe du monde de football de 1962 ?",
+    "answers": [
+      "Argentine",
+      "Pérou",
+      "Colombie",
+      "Chili"
+    ],
+    "correctAnswer": 3,
+    "category": "football",
+    "subcategory": "coupe-du-monde",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "football",
+      "coupe-du-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La septième édition de la Coupe du monde de football s'est tenue au Chili en 1962, remportée par le Brésil."
+  },
+  {
+    "id": "fin-football-0011",
+    "conceptId": "concept-fin-football-0011",
+    "familyId": "family-fin-football-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel attaquant français détient le record du nombre de buts inscrits en une seule Coupe du monde (13 buts en 1958) ?",
+    "answers": [
+      "Just Fontaine",
+      "Jean-Pierre Papin",
+      "Raymond Kopa",
+      "Michel Platini"
+    ],
+    "correctAnswer": 0,
+    "category": "football",
+    "subcategory": "records",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "football",
+      "records"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Just Fontaine a inscrit un total inégalé de 13 buts en 6 matchs lors de la Coupe du monde 1958 en Suède."
+  },
+  {
+    "id": "fin-football-0012",
+    "conceptId": "concept-fin-football-0012",
+    "familyId": "family-fin-football-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de joueurs d'une même équipe sont présents simultanément sur le terrain au coup d'envoi d'un match ?",
+    "answers": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctAnswer": 2,
+    "category": "football",
+    "subcategory": "regles",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "regles"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Chaque équipe de football aligne 11 joueurs sur le terrain au début de la rencontre, dont un gardien de but."
+  },
+  {
+    "id": "fin-football-0013",
+    "conceptId": "concept-fin-football-0013",
+    "familyId": "family-fin-football-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel club espagnol détient le record absolu de victoires en Ligue des champions de l'UEFA ?",
+    "answers": [
+      "L'Atlético de Madrid",
+      "Le Real Madrid",
+      "Le Séville FC",
+      "Le FC Barcelone"
+    ],
+    "correctAnswer": 1,
+    "category": "football",
+    "subcategory": "ligue-des-champions",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "football",
+      "ligue-des-champions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Real Madrid a conquis plus d'une dizaine de Ligues des champions, devançant tous les autres clubs européens."
+  },
+  {
+    "id": "fin-football-0014",
+    "conceptId": "concept-fin-football-0014",
+    "familyId": "family-fin-football-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel club italien a remporté la Ligue des champions à sept reprises dans son histoire ?",
+    "answers": [
+      "L'AC Milan",
+      "L'AS Rome",
+      "La Juventus",
+      "L'Inter Milan"
+    ],
+    "correctAnswer": 0,
+    "category": "football",
+    "subcategory": "ligue-des-champions",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "football",
+      "ligue-des-champions"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'AC Milan est le deuxième club le plus titré de la compétition derrière le Real Madrid avec 7 sacres européens."
+  },
+  {
+    "id": "fin-football-0015",
+    "conceptId": "concept-fin-football-0015",
+    "familyId": "family-fin-football-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel joueur est le seul de l'histoire à avoir remporté 3 Coupes du monde en tant que joueur (1958, 1962, 1970) ?",
+    "answers": [
+      "Garrincha",
+      "Zidane",
+      "Maradona",
+      "Pelé"
+    ],
+    "correctAnswer": 3,
+    "category": "football",
+    "subcategory": "legendes",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "football",
+      "legendes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le 'Roi' Pelé est l'unique footballeur de l'histoire triple champion du monde avec le Brésil."
+  },
+  {
+    "id": "fin-football-0016",
+    "conceptId": "concept-fin-football-0016",
+    "familyId": "family-fin-football-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "En quelle année l'Euro de football a-t-il été remporté par la Grèce contre toute attente ?",
+    "answers": [
+      "2004",
+      "2000",
+      "2008",
+      "1996"
+    ],
+    "correctAnswer": 0,
+    "category": "football",
+    "subcategory": "euro",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "football",
+      "euro"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Grèce a créé l'une des plus grandes surprises du football moderne en battant le Portugal chez lui en finale de l'Euro 2004."
+  },
+  {
+    "id": "fin-football-0017",
+    "conceptId": "concept-fin-football-0017",
+    "familyId": "family-fin-football-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel trophée individuel prestigieux créé par France Football récompense le meilleur joueur de l'année ?",
+    "answers": [
+      "Le Soulier d'Or",
+      "Le Ballon d'Or",
+      "Le Trophée Kopa",
+      "Le Trophée Yachine"
+    ],
+    "correctAnswer": 1,
+    "category": "football",
+    "subcategory": "recompenses",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "football",
+      "recompenses"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Ballon d'Or est attribué depuis 1956 par le magazine France Football aux meilleurs joueurs de la planète."
+  },
+  {
+    "id": "fin-football-0018",
+    "conceptId": "concept-fin-football-0018",
+    "familyId": "family-fin-football-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui a été le tout premier lauréat du Ballon d'Or en 1956 ?",
+    "answers": [
+      "Raymond Kopa",
+      "Ferenc Puskás",
+      "Stanley Matthews",
+      "Alfredo Di Stéfano"
+    ],
+    "correctAnswer": 2,
+    "category": "football",
+    "subcategory": "recompenses",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "football",
+      "recompenses"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'ailier anglais Stanley Matthews a remporté le premier Ballon d'Or en 1956 sous les couleurs de Blackpool."
+  },
+  {
+    "id": "fin-football-0019",
+    "conceptId": "concept-fin-football-0019",
+    "familyId": "family-fin-football-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel stade mythique de Rio de Janeiro a accueilli les finales de Coupe du monde 1950 et 2014 ?",
+    "answers": [
+      "L'Itaquerão",
+      "L'Allianz Parque",
+      "Le Maracanã",
+      "Le Morumbi"
+    ],
+    "correctAnswer": 2,
+    "category": "football",
+    "subcategory": "stades",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "football",
+      "stades"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le stade Maracanã est l'arène mythique du football brésilien inaugurée pour la Coupe du monde 1950."
+  },
+  {
+    "id": "fin-football-0020",
+    "conceptId": "concept-fin-football-0020",
+    "familyId": "family-fin-football-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel stade londonien célèbre l'équipe d'Angleterre dispute-t-elle traditionnellement ses rencontres à domicile ?",
+    "answers": [
+      "Wembley",
+      "Stamford Bridge",
+      "Old Trafford",
+      "Emirates Stadium"
+    ],
+    "correctAnswer": 0,
+    "category": "football",
+    "subcategory": "stades",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "football",
+      "stades"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-football-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Wembley Stadium est l'enceinte nationale emblématique du football anglais, dotée de son arche caractéristique."
+  }
+]

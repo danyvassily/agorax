@@ -1,0 +1,236 @@
+[
+  {
+    "id": "sport-bulk-0005",
+    "conceptId": "concept-sport-bulk-0005",
+    "familyId": "family-sport-bulk-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Spanish tennis player holds the exceptional record of 14 men's singles titles at the French Open?",
+    "answers": [
+      "Roger Federer",
+      "Carlos Alcaraz",
+      "Novak Djokovic",
+      "Rafael Nadal"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0006",
+    "conceptId": "concept-sport-bulk-0006",
+    "familyId": "family-sport-bulk-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many interlocking rings make up the official symbol of the modern Olympic Games?",
+    "answers": [
+      "4",
+      "6",
+      "7",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0007",
+    "conceptId": "concept-sport-bulk-0007",
+    "familyId": "family-sport-bulk-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which Jamaican sprinter holds the world records for the 100 meters (9.58 s) and the 200 meters (19.19 s)?",
+    "answers": [
+      "Yohan Blake",
+      "Carl Lewis",
+      "Usain Bolt",
+      "Tyson Gay"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0008",
+    "conceptId": "concept-sport-bulk-0008",
+    "familyId": "family-sport-bulk-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "In which city were the 2024 Summer Olympics held?",
+    "answers": [
+      "Paris",
+      "Tokyo",
+      "London",
+      "Los Angeles"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0009",
+    "conceptId": "concept-sport-bulk-0009",
+    "familyId": "family-sport-bulk-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which American basketball player wearing number 23 led the Chicago Bulls to six NBA titles in the 1990s?",
+    "answers": [
+      "LeBron James",
+      "Michael Jordan",
+      "Kobe Bryant",
+      "Magic Johnson"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "basketball",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "basketball"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0010",
+    "conceptId": "concept-sport-bulk-0010",
+    "familyId": "family-sport-bulk-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "How many players make up a rugby union team on the field during play?",
+    "answers": [
+      "11",
+      "15",
+      "17",
+      "13"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "rugby",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "sport",
+      "rugby"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

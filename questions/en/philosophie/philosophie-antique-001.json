@@ -1,0 +1,1446 @@
+[
+  {
+    "id": "phil-thales-first-philosopher-water",
+    "conceptId": "thales-first-philosopher-water",
+    "familyId": "milesian-school",
+    "type": "mcq",
+    "question": "Which thinker from Miletus, often considered the first philosopher, made water the principle of all things?",
+    "answers": [
+      "Pythagoras",
+      "Thales",
+      "Heraclitus",
+      "Democritus"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "antique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37707",
+      "url": "https://www.wikidata.org/wiki/Q37707",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-thales-school-of-miletus",
+    "conceptId": "thales-school-of-miletus",
+    "familyId": "milesian-school",
+    "type": "mcq",
+    "question": "What is the name of the first Greek philosophical school, founded in Miletus?",
+    "answers": [
+      "The Lyceum",
+      "The Stoa",
+      "The Milesian school",
+      "The Academy"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "antique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37707",
+      "url": "https://www.wikidata.org/wiki/Q37707",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-heraclitus-everything-flows",
+    "conceptId": "heraclitus-everything-flows",
+    "familyId": "heraclitus-doctrine",
+    "type": "mcq",
+    "question": "Which philosopher asserts that 'everything flows' and that the world is in perpetual becoming?",
+    "answers": [
+      "Parmenides",
+      "Zeno",
+      "Anaximander",
+      "Heraclitus"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "antique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41155",
+      "url": "https://www.wikidata.org/wiki/Q41155",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-heraclitus-fire-as-principle",
+    "conceptId": "heraclitus-fire-as-principle",
+    "familyId": "heraclitus-doctrine",
+    "type": "mcq",
+    "question": "Which element did Heraclitus make the principle of the world?",
+    "answers": [
+      "Fire",
+      "Water",
+      "Air",
+      "Earth"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "antique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41155",
+      "url": "https://www.wikidata.org/wiki/Q41155",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-democritus-theory-of-atoms",
+    "conceptId": "democritus-theory-of-atoms",
+    "familyId": "atomism",
+    "type": "mcq",
+    "question": "Which Greek philosopher is the father of atomic theory?",
+    "answers": [
+      "Anaxagoras",
+      "Democritus",
+      "Epicurus",
+      "Empedocles"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "antique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q41980",
+      "url": "https://www.wikidata.org/wiki/Q41980",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-pythagoras-everything-is-number",
+    "conceptId": "pythagoras-everything-is-number",
+    "familyId": "pythagoreanism",
+    "type": "mcq",
+    "question": "Which thinker asserts that \"everything is number\"?",
+    "answers": [
+      "Protagoras",
+      "Gorgias",
+      "Pythagoras",
+      "Thales"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "antique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q102174",
+      "url": "https://www.wikidata.org/wiki/Q102174",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-parmenides-being-is-unchanging",
+    "conceptId": "parmenides-being-is-unchanging",
+    "familyId": "eleatic-school",
+    "type": "mcq",
+    "question": "Which philosopher maintains that being is immutable and that change is only an illusion?",
+    "answers": [
+      "Heraclitus",
+      "Democritus",
+      "Empedocles",
+      "Parmenides"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "antique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q173300",
+      "url": "https://www.wikidata.org/wiki/Q173300",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-protagoras-man-is-the-measure",
+    "conceptId": "protagoras-man-is-the-measure",
+    "familyId": "sophists",
+    "type": "mcq",
+    "question": "Which sophist declares that \"man is the measure of all things\"?",
+    "answers": [
+      "Protagoras",
+      "Gorgias",
+      "Antiphon",
+      "Critias"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "antique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q167107",
+      "url": "https://www.wikidata.org/wiki/Q167107",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-socrates-maiutics-method",
+    "conceptId": "socrates-maiutics-method",
+    "familyId": "socratic-method",
+    "type": "mcq",
+    "question": "How does Socrates compare his method of teaching?",
+    "answers": [
+      "To war",
+      "To the art of the midwife who delivers minds",
+      "To sculpture",
+      "To navigation"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "socrate"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q29",
+      "url": "https://www.wikidata.org/wiki/Q29",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-socrates-wrote-nothing",
+    "conceptId": "socrates-wrote-nothing",
+    "familyId": "socrates-identity",
+    "type": "mcq",
+    "question": "What particularity does the written work of Socrates have?",
+    "answers": [
+      "He wrote only one tragedy",
+      "He wrote letters",
+      "He wrote nothing",
+      "He wrote only poems"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "socrate"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q29",
+      "url": "https://www.wikidata.org/wiki/Q29",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "phil-socrates-executed-by-hemlock",
+    "conceptId": "socrates-executed-by-hemlock",
+    "familyId": "socrates-trial",
+    "type": "mcq",
+    "question": "How was Socrates executed?",
+    "answers": [
+      "By being crucified",
+      "By being stoned",
+      "By being drowned",
+      "By drinking hemlock"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "socrate"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q29",
+      "url": "https://www.wikidata.org/wiki/Q29",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "phil-socrates-know-thyself",
+    "conceptId": "socrates-know-thyself",
+    "familyId": "socratic-maxims",
+    "type": "mcq",
+    "question": "Which inscription from the temple of Delphi did Socrates adopt as his own?",
+    "answers": [
+      "Know thyself",
+      "Nothing in excess",
+      "All is vanity",
+      "Carpe diem"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "socrate"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q29",
+      "url": "https://www.wikidata.org/wiki/Q29",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-socrates-i-know-that-i-know-nothing",
+    "conceptId": "socrates-i-know-that-i-know-nothing",
+    "familyId": "socratic-maxims",
+    "type": "mcq",
+    "question": "Which formula summarizes Socrates' position on his own knowledge?",
+    "answers": [
+      "\"Science is in books\"",
+      "\"I know that I know nothing\"",
+      "\"I know everything\"",
+      "\"Knowledge is a divine gift\""
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "socrate"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q29",
+      "url": "https://www.wikidata.org/wiki/Q29",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "phil-socrates-dialogues-in-the-agora",
+    "conceptId": "socrates-dialogues-in-the-agora",
+    "familyId": "socrates-identity",
+    "type": "mcq",
+    "question": "Where does Socrates converse with the Athenians?",
+    "answers": [
+      "At the Lyceum",
+      "At the court of Pericles",
+      "On the agora of Athens",
+      "At the Academy"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "socrate"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q29",
+      "url": "https://www.wikidata.org/wiki/Q29",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-plato-student-of-socrates",
+    "conceptId": "plato-student-of-socrates",
+    "familyId": "socrates-legacy",
+    "type": "mcq",
+    "question": "Who is the most famous student of Socrates?",
+    "answers": [
+      "Aristotle",
+      "Xenophon",
+      "Isocrates",
+      "Plato"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "socrate"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q29",
+      "url": "https://www.wikidata.org/wiki/Q29",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "phil-socrates-accused-of-corrupting-youth",
+    "conceptId": "socrates-accused-of-corrupting-youth",
+    "familyId": "socrates-trial",
+    "type": "mcq",
+    "question": "What was the accusation against Socrates at his trial?",
+    "answers": [
+      "Corrupting the youth and not honoring the city's gods",
+      "Stealing Athens' treasures",
+      "Betraying Athens to Sparta",
+      "Destroying the statues of the gods"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "socrate"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q29",
+      "url": "https://www.wikidata.org/wiki/Q29",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "phil-socratic-irony",
+    "conceptId": "socratic-irony",
+    "familyId": "socratic-method",
+    "type": "mcq",
+    "question": "What is the name of Socrates' attitude of feigning ignorance to lead his interlocutor to recognize their errors?",
+    "answers": [
+      "Sophistry",
+      "Socratic irony",
+      "Cynicism",
+      "Skepticism"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "socrate"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q29",
+      "url": "https://www.wikidata.org/wiki/Q29",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "phil-plato-foundation-of-the-academy",
+    "conceptId": "plato-foundation-of-the-academy",
+    "familyId": "plato-institutions",
+    "type": "mcq",
+    "question": "Which school did Plato found in Athens?",
+    "answers": [
+      "The Garden",
+      "The Porch",
+      "The Academy",
+      "The Lyceum"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "platon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q859",
+      "url": "https://www.wikidata.org/wiki/Q859",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "phil-plato-allegory-of-the-cave",
+    "conceptId": "plato-allegory-of-the-cave",
+    "familyId": "platonic-theory",
+    "type": "mcq",
+    "question": "In which work does Plato tell the allegory of the cave?",
+    "answers": [
+      "The Symposium",
+      "The Phaedo",
+      "The Timaeus",
+      "The Republic"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "platon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q859",
+      "url": "https://www.wikidata.org/wiki/Q859",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "phil-plato-theory-of-forms",
+    "conceptId": "plato-theory-of-forms",
+    "familyId": "platonic-theory",
+    "type": "mcq",
+    "question": "What is the central theory of Plato's philosophy?",
+    "answers": [
+      "The Theory of Ideas",
+      "The theory of atoms",
+      "Dialectical materialism",
+      "Radical empiricism"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "platon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q859",
+      "url": "https://www.wikidata.org/wiki/Q859",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-plato-myth-of-atlantis",
+    "conceptId": "plato-myth-of-atlantis",
+    "familyId": "platonic-myths",
+    "type": "mcq",
+    "question": "Which philosopher tells the myth of Atlantis?",
+    "answers": [
+      "Hesiod",
+      "Plato",
+      "Aristotle",
+      "Homer"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "platon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q859",
+      "url": "https://www.wikidata.org/wiki/Q859",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "phil-plato-philosopher-king",
+    "conceptId": "plato-philosopher-king",
+    "familyId": "platonic-politics",
+    "type": "mcq",
+    "question": "According to Plato, who should govern the ideal city?",
+    "answers": [
+      "The merchants",
+      "The artisans",
+      "The philosophers",
+      "The soldiers"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "platon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q859",
+      "url": "https://www.wikidata.org/wiki/Q859",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-plato-symposium-on-love",
+    "conceptId": "plato-symposium-on-love",
+    "familyId": "platonic-works",
+    "type": "mcq",
+    "question": "Which dialogue by Plato deals with the nature of love?",
+    "answers": [
+      "Crito",
+      "Gorgias",
+      "Meno",
+      "The Symposium"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "platon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q859",
+      "url": "https://www.wikidata.org/wiki/Q859",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-plato-intelligible-world",
+    "conceptId": "plato-intelligible-world",
+    "familyId": "platonic-theory",
+    "type": "mcq",
+    "question": "What does Plato call the world of eternal and perfect realities?",
+    "answers": [
+      "The intelligible world",
+      "The sensible world",
+      "The cosmos",
+      "The hypercosmos"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "platon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q859",
+      "url": "https://www.wikidata.org/wiki/Q859",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-plato-doxa-vs-knowledge",
+    "conceptId": "plato-doxa-vs-knowledge",
+    "familyId": "platonic-epistemology",
+    "type": "mcq",
+    "question": "What Greek term does Plato use to designate opinion, as opposed to knowledge?",
+    "answers": [
+      "Aporia",
+      "Doxa",
+      "Episteme",
+      "Phronesis"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "platon"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q859",
+      "url": "https://www.wikidata.org/wiki/Q859",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-aristotle-foundation-of-the-lyceum",
+    "conceptId": "aristotle-foundation-of-the-lyceum",
+    "familyId": "aristotle-institutions",
+    "type": "mcq",
+    "question": "Which school did Aristotle found?",
+    "answers": [
+      "The Garden",
+      "The Eleatic School",
+      "The Lyceum",
+      "The Academy"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "aristote"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q868",
+      "url": "https://www.wikidata.org/wiki/Q868",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "phil-aristotle-tutor-of-alexander",
+    "conceptId": "aristotle-tutor-of-alexander",
+    "familyId": "aristotle-biography",
+    "type": "mcq",
+    "question": "Which great conqueror did Aristotle have as a student?",
+    "answers": [
+      "Julius Caesar",
+      "Cyrus",
+      "Hannibal",
+      "Alexander the Great"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "aristote"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q868",
+      "url": "https://www.wikidata.org/wiki/Q868",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-aristotle-golden-mean",
+    "conceptId": "aristotle-golden-mean",
+    "familyId": "aristotelian-ethics",
+    "type": "mcq",
+    "question": "According to Aristotle, where is virtue located?",
+    "answers": [
+      "In the golden mean between two extremes",
+      "In the absence of desires",
+      "In submission to the gods",
+      "In wealth"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "aristote"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q868",
+      "url": "https://www.wikidata.org/wiki/Q868",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-aristotle-political-animal",
+    "conceptId": "aristotle-political-animal",
+    "familyId": "aristotelian-politics",
+    "type": "mcq",
+    "question": "Which philosopher wrote that \"man is by nature a political animal\"?",
+    "answers": [
+      "Diogenes",
+      "Aristotle",
+      "Plato",
+      "Epicurus"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "aristote"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q868",
+      "url": "https://www.wikidata.org/wiki/Q868",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "phil-aristotle-syllogism",
+    "conceptId": "aristotle-syllogism",
+    "familyId": "aristotelian-logic",
+    "type": "mcq",
+    "question": "Which philosopher formalized the syllogism?",
+    "answers": [
+      "Thales",
+      "Zeno",
+      "Aristotle",
+      "Socrates"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "aristote"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q868",
+      "url": "https://www.wikidata.org/wiki/Q868",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-aristotle-student-of-plato",
+    "conceptId": "aristotle-student-of-plato",
+    "familyId": "aristotle-biography",
+    "type": "mcq",
+    "question": "Who was Aristotle's teacher?",
+    "answers": [
+      "Socrates",
+      "Anaxagoras",
+      "Democritus",
+      "Plato"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "aristote"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q868",
+      "url": "https://www.wikidata.org/wiki/Q868",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "phil-aristotle-act-and-potency",
+    "conceptId": "aristotle-act-and-potency",
+    "familyId": "aristotelian-metaphysics",
+    "type": "mcq",
+    "question": "Which two concepts does Aristotle contrast to explain change?",
+    "answers": [
+      "Act and potency",
+      "Good and evil",
+      "Soul and body",
+      "Finite and infinite"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "aristote"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q868",
+      "url": "https://www.wikidata.org/wiki/Q868",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-aristotle-final-cause",
+    "conceptId": "aristotle-final-cause",
+    "familyId": "aristotelian-metaphysics",
+    "type": "mcq",
+    "question": "Among Aristotle's four causes, which one designates the end or purpose of a thing?",
+    "answers": [
+      "The formal cause",
+      "The final cause",
+      "The material cause",
+      "The efficient cause"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "aristote"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q868",
+      "url": "https://www.wikidata.org/wiki/Q868",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "phil-aristotle-nicomachean-ethics",
+    "conceptId": "aristotle-nicomachean-ethics",
+    "familyId": "aristotelian-ethics",
+    "type": "mcq",
+    "question": "Who wrote the Nicomachean Ethics?",
+    "answers": [
+      "Epicurus",
+      "Seneca",
+      "Aristotle",
+      "Plato"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "aristote"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q868",
+      "url": "https://www.wikidata.org/wiki/Q868",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-epicurus-the-garden-school",
+    "conceptId": "epicurus-the-garden-school",
+    "familyId": "epicureanism-school",
+    "type": "mcq",
+    "question": "What is the name of the school founded by Epicurus?",
+    "answers": [
+      "The Porch",
+      "The Academy",
+      "The Lyceum",
+      "The Garden"
+    ],
+    "correctAnswer": 3,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "epicure"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q43209",
+      "url": "https://www.wikidata.org/wiki/Q43209",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-epicurus-ataraxia",
+    "conceptId": "epicurus-ataraxia",
+    "familyId": "epicurean-ethics",
+    "type": "mcq",
+    "question": "Which term denotes the absence of disturbance of the soul, the goal of Epicurean wisdom?",
+    "answers": [
+      "Ataraxia",
+      "Apathy",
+      "Asthenia",
+      "Aporia"
+    ],
+    "correctAnswer": 0,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "epicure"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q43209",
+      "url": "https://www.wikidata.org/wiki/Q43209",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-epicurus-pleasure-as-highest-good",
+    "conceptId": "epicurus-pleasure-as-highest-good",
+    "familyId": "epicurean-ethics",
+    "type": "mcq",
+    "question": "What is the supreme good according to Epicurus?",
+    "answers": [
+      "Wealth",
+      "Pleasure",
+      "Virtue",
+      "Glory"
+    ],
+    "correctAnswer": 1,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "epicure"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q43209",
+      "url": "https://www.wikidata.org/wiki/Q43209",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "phil-epicurus-death-is-nothing-to-us",
+    "conceptId": "epicurus-death-is-nothing-to-us",
+    "familyId": "epicurean-ethics",
+    "type": "mcq",
+    "question": "Which formula summarizes Epicurus's position on death?",
+    "answers": [
+      "Death is a passage",
+      "Death is a sacred mystery",
+      "Death is nothing to us",
+      "Death is a deliverance"
+    ],
+    "correctAnswer": 2,
+    "category": "philosophie",
+    "subcategory": "philosophie-antique",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "philosophie",
+      "epicure"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q43209",
+      "url": "https://www.wikidata.org/wiki/Q43209",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  }
+]

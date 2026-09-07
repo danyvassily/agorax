@@ -1,0 +1,236 @@
+[
+  {
+    "id": "sport-bulk-0005",
+    "conceptId": "concept-sport-bulk-0005",
+    "familyId": "family-sport-bulk-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel joueur de tennis espagnol détient le record exceptionnel de 14 victoires en simple messieurs au tournoi de Roland-Garros ?",
+    "answers": [
+      "Roger Federer",
+      "Carlos Alcaraz",
+      "Novak Djokovic",
+      "Rafael Nadal"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "tennis"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0006",
+    "conceptId": "concept-sport-bulk-0006",
+    "familyId": "family-sport-bulk-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien d'anneaux entrelacés composent le symbole officiel des Jeux Olympiques modernes ?",
+    "answers": [
+      "4",
+      "6",
+      "7",
+      "5"
+    ],
+    "correctAnswer": 3,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0007",
+    "conceptId": "concept-sport-bulk-0007",
+    "familyId": "family-sport-bulk-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel sprinteur jamaïcain détient les records du monde du 100 mètres (9,58 s) et du 200 mètres (19,19 s) ?",
+    "answers": [
+      "Yohan Blake",
+      "Carl Lewis",
+      "Usain Bolt",
+      "Tyson Gay"
+    ],
+    "correctAnswer": 2,
+    "category": "sport",
+    "subcategory": "athletisme",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "athletisme"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0008",
+    "conceptId": "concept-sport-bulk-0008",
+    "familyId": "family-sport-bulk-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle ville se sont déroulés les Jeux Olympiques d'été de 2024 ?",
+    "answers": [
+      "Paris",
+      "Tokyo",
+      "Londres",
+      "Los Angeles"
+    ],
+    "correctAnswer": 0,
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0009",
+    "conceptId": "concept-sport-bulk-0009",
+    "familyId": "family-sport-bulk-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel joueur de basket-ball américain portant le numéro 23 a mené les Chicago Bulls à six titres NBA dans les années 1990 ?",
+    "answers": [
+      "LeBron James",
+      "Michael Jordan",
+      "Kobe Bryant",
+      "Magic Johnson"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "basketball",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "basketball"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "sport-bulk-0010",
+    "conceptId": "concept-sport-bulk-0010",
+    "familyId": "family-sport-bulk-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Combien de joueurs composent une équipe de rugby à XV sur le terrain pendant le jeu ?",
+    "answers": [
+      "11",
+      "15",
+      "17",
+      "13"
+    ],
+    "correctAnswer": 1,
+    "category": "sport",
+    "subcategory": "rugby",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "rugby"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "sport-bulk-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

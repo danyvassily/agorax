@@ -1,0 +1,1180 @@
+[
+  {
+    "id": "cg-geo-norvege",
+    "conceptId": "geo-norvege",
+    "familyId": "geography",
+    "type": "mcq",
+    "question": "Which European country has the longest coastline, thanks to its fjords?",
+    "answers": [
+      "Norway",
+      "France",
+      "Italy",
+      "United Kingdom"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "geographie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "geographie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q20",
+      "url": "https://www.wikidata.org/wiki/Q20",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-geo-seychelles",
+    "conceptId": "geo-seychelles",
+    "familyId": "geography",
+    "type": "mcq",
+    "question": "What is the smallest country in Africa?",
+    "answers": [
+      "Burundi",
+      "Rwanda",
+      "Cape Verde",
+      "Seychelles"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "geographie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "geographie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1042",
+      "url": "https://www.wikidata.org/wiki/Q1042",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Seychelles"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-geo-amsterdam",
+    "conceptId": "geo-amsterdam",
+    "familyId": "geography",
+    "type": "mcq",
+    "question": "Which European city is often nicknamed the 'Venice of the North'?",
+    "answers": [
+      "Copenhagen",
+      "Stockholm",
+      "Amsterdam",
+      "Bruges"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "geographie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "geographie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q727",
+      "url": "https://www.wikidata.org/wiki/Q727",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-geo-gibraltar",
+    "conceptId": "geo-gibraltar",
+    "familyId": "geography",
+    "type": "mcq",
+    "question": "Which strait separates Europe from Africa?",
+    "answers": [
+      "The Strait of Dover",
+      "The Strait of Gibraltar",
+      "The Bering Strait",
+      "The Strait of Magellan"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "geographie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "geographie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q36124",
+      "url": "https://www.wikidata.org/wiki/Q36124",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/d%C3%A9troit_de_Gibraltar"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-geo-seine",
+    "conceptId": "geo-seine",
+    "familyId": "geography",
+    "type": "mcq",
+    "question": "Which river flows through Paris?",
+    "answers": [
+      "The Seine",
+      "The Loire",
+      "The Rhône",
+      "The Garonne"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "geographie",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "geographie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1471",
+      "url": "https://www.wikidata.org/wiki/Q1471",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-geo-nigeria",
+    "conceptId": "geo-nigeria",
+    "familyId": "geography",
+    "type": "mcq",
+    "question": "What is the most populous country in Africa?",
+    "answers": [
+      "Egypt",
+      "Ethiopia",
+      "Democratic Republic of the Congo",
+      "Nigeria"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "geographie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "geographie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q1033",
+      "url": "https://www.wikidata.org/wiki/Q1033",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Nigeria"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-sci-eau",
+    "conceptId": "sci-eau",
+    "familyId": "science",
+    "type": "mcq",
+    "question": "What is the chemical formula of water?",
+    "answers": [
+      "O2",
+      "NaCl",
+      "H2O",
+      "CO2"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "sciences",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sciences"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q283",
+      "url": "https://www.wikidata.org/wiki/Q283",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-sci-azote",
+    "conceptId": "sci-azote",
+    "familyId": "science",
+    "type": "mcq",
+    "question": "What is the most abundant gas in Earth's atmosphere?",
+    "answers": [
+      "Argon",
+      "Nitrogen",
+      "Oxygen",
+      "Carbon dioxide"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "sciences",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sciences"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q627",
+      "url": "https://www.wikidata.org/wiki/Q627",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/azote"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-sci-tableau",
+    "conceptId": "sci-tableau",
+    "familyId": "science",
+    "type": "mcq",
+    "question": "How many chemical elements does the periodic table contain?",
+    "answers": [
+      "118",
+      "92",
+      "108",
+      "126"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "sciences",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sciences"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q10693",
+      "url": "https://www.wikidata.org/wiki/Q10693",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-sci-einstein",
+    "conceptId": "sci-einstein",
+    "familyId": "science",
+    "type": "mcq",
+    "question": "Which physicist formulated the theory of relativity?",
+    "answers": [
+      "Isaac Newton",
+      "Niels Bohr",
+      "Max Planck",
+      "Albert Einstein"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "sciences",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sciences"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q937",
+      "url": "https://www.wikidata.org/wiki/Q937",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Albert_Einstein"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-sci-relativite-annee",
+    "conceptId": "sci-relativite-annee",
+    "familyId": "science",
+    "type": "mcq",
+    "question": "In what year did Einstein publish his theory of special relativity?",
+    "answers": [
+      "1895",
+      "1925",
+      "1905",
+      "1915"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "sciences",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sciences"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q937",
+      "url": "https://www.wikidata.org/wiki/Q937",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-sci-mars",
+    "conceptId": "sci-mars",
+    "familyId": "science",
+    "type": "mcq",
+    "question": "Which planet is nicknamed the \"Red Planet\"?",
+    "answers": [
+      "Mercury",
+      "Mars",
+      "Venus",
+      "Jupiter"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "sciences",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sciences"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q111",
+      "url": "https://www.wikidata.org/wiki/Q111",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Mars"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-sci-mercure",
+    "conceptId": "sci-mercure",
+    "familyId": "science",
+    "type": "mcq",
+    "question": "Which metal is liquid at room temperature?",
+    "answers": [
+      "Mercury",
+      "Lead",
+      "Gold",
+      "Copper"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "sciences",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sciences"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q308",
+      "url": "https://www.wikidata.org/wiki/Q308",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-art-velasquez",
+    "conceptId": "art-velasquez",
+    "familyId": "arts",
+    "type": "mcq",
+    "question": "Which Spanish painter created \"Las Meninas\"?",
+    "answers": [
+      "Francisco de Goya",
+      "El Greco",
+      "José de Ribera",
+      "Diego Velázquez"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "arts",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "arts"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q297",
+      "url": "https://www.wikidata.org/wiki/Q297",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Diego_V%C3%A9lasquez"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-art-beethoven",
+    "conceptId": "art-beethoven",
+    "familyId": "arts",
+    "type": "mcq",
+    "question": "Which German composer wrote the Ninth Symphony, with its 'Ode to Joy'?",
+    "answers": [
+      "Johann Sebastian Bach",
+      "Johannes Brahms",
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "arts",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "arts"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q255",
+      "url": "https://www.wikidata.org/wiki/Q255",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-art-hugo",
+    "conceptId": "art-hugo",
+    "familyId": "arts",
+    "type": "mcq",
+    "question": "Which French writer wrote \"Les Misérables\"?",
+    "answers": [
+      "Gustave Flaubert",
+      "Victor Hugo",
+      "Émile Zola",
+      "Alexandre Dumas"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "arts",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "arts"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q535",
+      "url": "https://www.wikidata.org/wiki/Q535",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Victor_Hugo"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-art-van-gogh",
+    "conceptId": "art-van-gogh",
+    "familyId": "arts",
+    "type": "mcq",
+    "question": "Which Dutch painter is the author of \"The Starry Night\"?",
+    "answers": [
+      "Vincent van Gogh",
+      "Rembrandt",
+      "Johannes Vermeer",
+      "Claude Monet"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "arts",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "arts"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q5582",
+      "url": "https://www.wikidata.org/wiki/Q5582",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-art-petit-prince",
+    "conceptId": "art-petit-prince",
+    "familyId": "arts",
+    "type": "mcq",
+    "question": "Who wrote 'The Little Prince', one of the most translated books in the world?",
+    "answers": [
+      "Jules Verne",
+      "Marcel Pagnol",
+      "Albert Camus",
+      "Antoine de Saint-Exupéry"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "arts",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "arts"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q2908",
+      "url": "https://www.wikidata.org/wiki/Q2908",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-art-orsay",
+    "conceptId": "art-orsay",
+    "familyId": "arts",
+    "type": "mcq",
+    "question": "Which Parisian museum is housed in a former railway station?",
+    "answers": [
+      "The Centre Pompidou",
+      "The Grand Palais",
+      "The Musée d'Orsay",
+      "The Louvre"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "arts",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "arts"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q23402",
+      "url": "https://www.wikidata.org/wiki/Q23402",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-sport-hiver",
+    "conceptId": "sport-hiver",
+    "familyId": "sports",
+    "type": "mcq",
+    "question": "Which country has won the most medals at the Winter Olympic Games?",
+    "answers": [
+      "Canada",
+      "Norway",
+      "Russia",
+      "United States"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "sport",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sport"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q20",
+      "url": "https://www.wikidata.org/wiki/Q20",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Norv%C3%A8ge"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-sport-djokovic",
+    "conceptId": "sport-djokovic",
+    "familyId": "sports",
+    "type": "mcq",
+    "question": "Which tennis player holds the men's record for Grand Slam titles (24)?",
+    "answers": [
+      "Novak Djokovic",
+      "Roger Federer",
+      "Rafael Nadal",
+      "Pete Sampras"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "sport",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sport"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q5812",
+      "url": "https://www.wikidata.org/wiki/Q5812",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-sport-foot",
+    "conceptId": "sport-foot",
+    "familyId": "sports",
+    "type": "mcq",
+    "question": "Which sport is played on a field of approximately 105 meters by 68?",
+    "answers": [
+      "Rugby",
+      "Field hockey",
+      "Baseball",
+      "Football"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "sport",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sport"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q2736",
+      "url": "https://www.wikidata.org/wiki/Q2736",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/football"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-sport-tour",
+    "conceptId": "sport-tour",
+    "familyId": "sports",
+    "type": "mcq",
+    "question": "Which cycling race traditionally ends on the Champs-Élysées?",
+    "answers": [
+      "The Tour of Spain",
+      "Paris-Roubaix",
+      "The Tour de France",
+      "The Tour of Italy"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "sport",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sport"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q33881",
+      "url": "https://www.wikidata.org/wiki/Q33881",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-sport-phelps",
+    "conceptId": "sport-phelps",
+    "familyId": "sports",
+    "type": "mcq",
+    "question": "Which American swimmer holds the record for Olympic medals (28)?",
+    "answers": [
+      "Ian Thorpe",
+      "Michael Phelps",
+      "Mark Spitz",
+      "Katie Ledecky"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "sport",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sport"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q39562",
+      "url": "https://www.wikidata.org/wiki/Q39562",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Michael_Phelps"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-sport-rugby",
+    "conceptId": "sport-rugby",
+    "familyId": "sports",
+    "type": "mcq",
+    "question": "Which country has won the most Rugby World Cups?",
+    "answers": [
+      "South Africa",
+      "New Zealand",
+      "England",
+      "France"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "sport",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "sport"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q258",
+      "url": "https://www.wikidata.org/wiki/Q258",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-ins-etoile-mer",
+    "conceptId": "ins-etoile-mer",
+    "familyId": "fun-facts",
+    "type": "mcq",
+    "question": "Which marine animal can regenerate a severed arm?",
+    "answers": [
+      "The crab",
+      "The jellyfish",
+      "The lobster",
+      "The starfish"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "insolite",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "insolite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q18642285",
+      "url": "https://www.wikidata.org/wiki/Q18642285",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%A9toile_de_mer"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-ins-chauve-souris",
+    "conceptId": "ins-chauve-souris",
+    "familyId": "fun-facts",
+    "type": "mcq",
+    "question": "What is the only mammal capable of active flight?",
+    "answers": [
+      "The flying lemur",
+      "The platypus",
+      "The bat",
+      "The flying squirrel"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "insolite",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "insolite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q28425",
+      "url": "https://www.wikidata.org/wiki/Q28425",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-ins-journee-venus",
+    "conceptId": "ins-journee-venus",
+    "familyId": "fun-facts",
+    "type": "mcq",
+    "question": "How long does a day (rotation) on Venus last approximately?",
+    "answers": [
+      "10 hours",
+      "243 Earth days",
+      "24 hours",
+      "365 Earth days"
+    ],
+    "correctAnswer": 1,
+    "category": "culture-generale",
+    "subcategory": "insolite",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "insolite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q313",
+      "url": "https://www.wikidata.org/wiki/Q313",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/243_jours_terrestres"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-ins-papillon",
+    "conceptId": "ins-papillon",
+    "familyId": "fun-facts",
+    "type": "mcq",
+    "question": "How many wings does a butterfly have?",
+    "answers": [
+      "Four",
+      "Two",
+      "Six",
+      "Eight"
+    ],
+    "correctAnswer": 0,
+    "category": "culture-generale",
+    "subcategory": "insolite",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "insolite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q28319",
+      "url": "https://www.wikidata.org/wiki/Q28319",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "cg-ins-saturne",
+    "conceptId": "ins-saturne",
+    "familyId": "fun-facts",
+    "type": "mcq",
+    "question": "Which planet in the solar system has the largest number of known moons?",
+    "answers": [
+      "Jupiter",
+      "Uranus",
+      "Neptune",
+      "Saturn"
+    ],
+    "correctAnswer": 3,
+    "category": "culture-generale",
+    "subcategory": "insolite",
+    "difficulty": "expert",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "insolite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q193",
+      "url": "https://www.wikidata.org/wiki/Q193",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Saturne"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "cg-ins-colibri",
+    "conceptId": "ins-colibri",
+    "familyId": "fun-facts",
+    "type": "mcq",
+    "question": "How many times per second does a hummingbird flap its wings?",
+    "answers": [
+      "About 200 times",
+      "About 500 times",
+      "About 50 times",
+      "About 5 times"
+    ],
+    "correctAnswer": 2,
+    "category": "culture-generale",
+    "subcategory": "insolite",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "culture-generale",
+      "insolite"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q2982547",
+      "url": "https://www.wikidata.org/wiki/Q2982547",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

@@ -1,0 +1,197 @@
+[
+  {
+    "id": "multi-theme-0006",
+    "conceptId": "concept-multi-theme-0006",
+    "familyId": "family-multi-theme-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel dessinateur et scénariste belge a créé la bande dessinée Gaston Lagaffe travaillant au journal de Spirou ?",
+    "answers": [
+      "Peyo",
+      "Hergé",
+      "André Franquin",
+      "Morris"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0007",
+    "conceptId": "concept-multi-theme-0007",
+    "familyId": "family-multi-theme-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle bande dessinée humoristique d'Alain Chabat et René Goscinny le calife Haroun El Poussah subit-il les complots d'un vizir malfaisant ?",
+    "answers": [
+      "Cubitus",
+      "Boule et Bill",
+      "Iznogoud",
+      "Achille Talon"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0008",
+    "conceptId": "concept-multi-theme-0008",
+    "familyId": "family-multi-theme-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel petit garçon à la mèche blonde a été créé par Zep en 1992 ?",
+    "answers": [
+      "Cédric",
+      "Kid Paddle",
+      "Boule",
+      "Titeuf"
+    ],
+    "correctAnswer": 3,
+    "category": "comics-bd",
+    "subcategory": "franco-belge",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "franco-belge"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0009",
+    "conceptId": "concept-multi-theme-0009",
+    "familyId": "family-multi-theme-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel marin aventurier romantique créé par Hugo Pratt porte une boucle à l'oreille gauche et une casquette d'officier de marine ?",
+    "answers": [
+      "Gulliver",
+      "Capitaine Haddock",
+      "Corto Maltese",
+      "Bernard Prince"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "romans-graphiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "romans-graphiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "multi-theme-0010",
+    "conceptId": "concept-multi-theme-0010",
+    "familyId": "family-multi-theme-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle bande dessinée d'aventure et de science-fiction de Pierre Christin et Jean-Claude Mézières suit-on deux agents spatio-temporels ?",
+    "answers": [
+      "Sillage",
+      "Yoko Tsuno",
+      "Valérian et Laureline",
+      "Les Mondes d'Aldébaran"
+    ],
+    "correctAnswer": 2,
+    "category": "comics-bd",
+    "subcategory": "sci-fi",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "comics-bd",
+      "sci-fi"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "multi-theme-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

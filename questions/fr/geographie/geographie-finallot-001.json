@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "fin-geographie-0001",
+    "conceptId": "concept-fin-geographie-0001",
+    "familyId": "family-fin-geographie-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le point culminant de la chaîne de l'Himalaya et de la Terre, s'élevant à 8 848 mètres ?",
+    "answers": [
+      "L'Annapurna",
+      "Le Makalu",
+      "Le K2",
+      "L'Everest"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Everest (ou Sagarmatha / Chomolungma) est la plus haute montagne du monde, située à la frontière népalo-tibétaine."
+  },
+  {
+    "id": "fin-geographie-0002",
+    "conceptId": "concept-fin-geographie-0002",
+    "familyId": "family-fin-geographie-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le deuxième plus haut sommet de la planète, situé dans le massif du Karakoram à 8 611 mètres ?",
+    "answers": [
+      "Le Lhotse",
+      "Le K2",
+      "Le Cho Oyu",
+      "Le Kangchenjunga"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le K2, surnommé la montagne sauvage, culmine à 8 611 mètres entre le Pakistan et la Chine."
+  },
+  {
+    "id": "fin-geographie-0003",
+    "conceptId": "concept-fin-geographie-0003",
+    "familyId": "family-fin-geographie-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le troisième plus haut sommet du monde, situé sur la frontière entre l'Inde et le Népal ?",
+    "answers": [
+      "Le Dhaulagiri",
+      "Le Manaslu",
+      "Le Kangchenjunga",
+      "Le Lhotse"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Kangchenjunga culmine à 8 586 mètres et constitue le point le plus élevé de l'Inde."
+  },
+  {
+    "id": "fin-geographie-0004",
+    "conceptId": "concept-fin-geographie-0004",
+    "familyId": "family-fin-geographie-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le plus haut sommet de la chaîne des Alpes et d'Europe occidentale avec ses 4 808 mètres ?",
+    "answers": [
+      "Le Mont Blanc",
+      "Le Cervin",
+      "Le Mont Rose",
+      "La Jungfrau"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le mont Blanc culmine à environ 4 808 mètres dans les Alpes à la frontière franco-italienne."
+  },
+  {
+    "id": "fin-geographie-0005",
+    "conceptId": "concept-fin-geographie-0005",
+    "familyId": "family-fin-geographie-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel sommet d'aspect pyramidal reconnaissable culmine à 4 478 m entre la Suisse et l'Italie ?",
+    "answers": [
+      "Le Mont Blanc",
+      "L'Eiger",
+      "La Dent Blanche",
+      "Le Cervin"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Cervin (Matterhorn en allemand) est l'une des silhouettes montagneuses les plus célèbres au monde."
+  },
+  {
+    "id": "fin-geographie-0006",
+    "conceptId": "concept-fin-geographie-0006",
+    "familyId": "family-fin-geographie-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel pays d'Afrique de l'Est se dresse le Kilimandjaro, point culminant du continent africain ?",
+    "answers": [
+      "Tanzanie",
+      "Ouganda",
+      "Kenya",
+      "Éthiopie"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Kilimandjaro culmine à 5 895 m au pic Uhuru en Tanzanie près de la frontière kenyane."
+  },
+  {
+    "id": "fin-geographie-0007",
+    "conceptId": "concept-fin-geographie-0007",
+    "familyId": "family-fin-geographie-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le point culminant de la cordillère des Andes et de tout le continent américain à 6 961 mètres ?",
+    "answers": [
+      "Le Chimborazo",
+      "L'Aconcagua",
+      "L'Ojos del Salado",
+      "Le Huascarán"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Aconcagua, situé en Argentine près de la frontière chilienne, est le plus haut sommet en dehors d'Asie."
+  },
+  {
+    "id": "fin-geographie-0008",
+    "conceptId": "concept-fin-geographie-0008",
+    "familyId": "family-fin-geographie-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le point culminant de l'Amérique du Nord, situé en Alaska à 6 190 mètres d'altitude ?",
+    "answers": [
+      "Le Denali",
+      "Le mont Logan",
+      "Le mont Rainier",
+      "Le mont Saint-Élie"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Denali (anciennement mont McKinley) est le plus haut sommet d'Amérique du Nord."
+  },
+  {
+    "id": "fin-geographie-0009",
+    "conceptId": "concept-fin-geographie-0009",
+    "familyId": "family-fin-geographie-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel sommet du Caucase russe est considéré comme le point culminant géographique du continent européen (5 642 m) ?",
+    "answers": [
+      "L'Elbrouz",
+      "Le Dykh-Tau",
+      "Le mont Blanc",
+      "Le Kazbek"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le mont Elbrouz est un stratovolcan éteint du Caucase dont le sommet ouest culmine à 5 642 m."
+  },
+  {
+    "id": "fin-geographie-0010",
+    "conceptId": "concept-fin-geographie-0010",
+    "familyId": "family-fin-geographie-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le plus haut sommet du continent antarctique, s'élevant à 4 892 mètres dans les monts Ellsworth ?",
+    "answers": [
+      "Le mont Erebus",
+      "Le mont Tyree",
+      "Le mont Terror",
+      "Le massif Vinson"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le massif Vinson (ou mont Vinson) est le point culminant de l'Antarctique avec ses 4 892 mètres."
+  },
+  {
+    "id": "fin-geographie-0011",
+    "conceptId": "concept-fin-geographie-0011",
+    "familyId": "family-fin-geographie-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le point culminant de l'Australie continentale avec ses 2 228 mètres d'altitude ?",
+    "answers": [
+      "Le mont Bartle Frere",
+      "Le mont Bogong",
+      "Le mont Kosciuszko",
+      "Le mont Townsend"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le mont Kosciuszko est situé dans les Snowy Mountains en Nouvelle-Galles du Sud."
+  },
+  {
+    "id": "fin-geographie-0012",
+    "conceptId": "concept-fin-geographie-0012",
+    "familyId": "family-fin-geographie-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel volcan conique sacré constitue le point culminant de l'archipel japonais à 3 776 mètres ?",
+    "answers": [
+      "Le mont Hiei",
+      "Le mont Ontake",
+      "Le mont Fuji",
+      "Le mont Aso"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le mont Fuji (Fujisan) est la montagne la plus emblématique et la plus haute du Japon."
+  },
+  {
+    "id": "fin-geographie-0013",
+    "conceptId": "concept-fin-geographie-0013",
+    "familyId": "family-fin-geographie-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel volcan en activité permanente domine la côte est de la Sicile à plus de 3 300 mètres ?",
+    "answers": [
+      "Le Vésuve",
+      "Vulcano",
+      "L'Etna",
+      "Le Stromboli"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-volcans",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-volcans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Etna est le plus haut volcan actif d'Europe continentale et méditerranéenne."
+  },
+  {
+    "id": "fin-geographie-0014",
+    "conceptId": "concept-fin-geographie-0014",
+    "familyId": "family-fin-geographie-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel volcan célèbre domine la baie de Naples et a détruit la cité antique de Pompéi en 79 ap. J.-C. ?",
+    "answers": [
+      "L'Etna",
+      "Le Stromboli",
+      "Le Santorin",
+      "Le Vésuve"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "relief-volcans",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-volcans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Vésuve est célèbre pour son éruption plinienne cataclysmique ayant enseveli Pompéi et Herculanum."
+  },
+  {
+    "id": "fin-geographie-0015",
+    "conceptId": "concept-fin-geographie-0015",
+    "familyId": "family-fin-geographie-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le point culminant de la chaîne des Pyrénées, s'élevant à 3 404 mètres d'altitude côté espagnol ?",
+    "answers": [
+      "Le pic d'Aneto",
+      "Le mont Perdu",
+      "Le pic du Midi",
+      "Le Vignemale"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0015",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le pic d'Aneto est situé dans le massif de la Maladeta dans la province de Huesca en Espagne."
+  },
+  {
+    "id": "fin-geographie-0016",
+    "conceptId": "concept-fin-geographie-0016",
+    "familyId": "family-fin-geographie-0008",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le point culminant de la chaîne des Pyrénées sur le versant français à 3 298 mètres ?",
+    "answers": [
+      "Le Canigou",
+      "Le Vignemale",
+      "Le pic du Taillon",
+      "Le pic du Midi d'Ossau"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0016",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Pique Longue du massif du Vignemale est le sommet le plus élevé des Pyrénées françaises."
+  },
+  {
+    "id": "fin-geographie-0017",
+    "conceptId": "concept-fin-geographie-0017",
+    "familyId": "family-fin-geographie-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle chaîne de montagnes sépare traditionnellement la France de la péninsule Ibérique ?",
+    "answers": [
+      "Les Carpates",
+      "Les Pyrénées",
+      "Le Jura",
+      "Les Alpes"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "relief-chaines",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-chaines"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0017",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les Pyrénées forment une barrière montagneuse naturelle continue entre la France et l'Espagne."
+  },
+  {
+    "id": "fin-geographie-0018",
+    "conceptId": "concept-fin-geographie-0018",
+    "familyId": "family-fin-geographie-0009",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle chaîne de montagnes longue d'environ 2 500 kilomètres marque la limite traditionnelle entre l'Europe et l'Asie ?",
+    "answers": [
+      "Les Carpates",
+      "Le Caucase",
+      "L'Oural",
+      "L'Altaï"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-chaines",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-chaines"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0018",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les monts Oural traversent la Russie du nord au sud et délimitent conventionnellement les continents européen et asiatique."
+  },
+  {
+    "id": "fin-geographie-0019",
+    "conceptId": "concept-fin-geographie-0019",
+    "familyId": "family-fin-geographie-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est la plus longue chaîne de montagnes continentale du monde, longeant l'ouest de l'Amérique du Sud ?",
+    "answers": [
+      "La cordillère des Andes",
+      "L'Himalaya",
+      "Les montagnes Rocheuses",
+      "La cordillère Australienne"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-chaines",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-chaines"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0019",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La cordillère des Andes s'étire sur plus de 7 000 km le long de sept pays sud-américains."
+  },
+  {
+    "id": "fin-geographie-0020",
+    "conceptId": "concept-fin-geographie-0020",
+    "familyId": "family-fin-geographie-0010",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle grande chaîne montagneuse s'étend de la Colombie-Britannique au Nouveau-Mexique en Amérique du Nord ?",
+    "answers": [
+      "Les montagnes Rocheuses",
+      "Les Appalaches",
+      "La chaîne des Cascades",
+      "La Sierra Nevada"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "relief-chaines",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-chaines"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0020",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les Rocheuses (Rocky Mountains) constituent l'épine dorsale de l'ouest nord-américain sur plus de 4 800 km."
+  },
+  {
+    "id": "fin-geographie-0021",
+    "conceptId": "concept-fin-geographie-0021",
+    "familyId": "family-fin-geographie-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel massif montagneux ancien s'étend le long de la côte est des États-Unis et du Canada ?",
+    "answers": [
+      "Les monts Adirondacks",
+      "Les Appalaches",
+      "Les Rocheuses",
+      "La Sierra Nevada"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "relief-chaines",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-chaines"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0021",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Les Appalaches sont une chaîne de montagnes très ancienne et érodée de l'est de l'Amérique du Nord."
+  },
+  {
+    "id": "fin-geographie-0022",
+    "conceptId": "concept-fin-geographie-0022",
+    "familyId": "family-fin-geographie-0011",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel volcan d'Indonésie a produit en 1883 l'une des explosions volcaniques les plus violentes de l'histoire moderne ?",
+    "answers": [
+      "Le mont Bromo",
+      "Le Krakatoa",
+      "Le mont Merapi",
+      "Le Tambora"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "relief-volcans",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-volcans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0022",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'éruption du Krakatoa en 1883 a détruit une grande partie de l'île et provoqué des tsunamis dévastateurs."
+  },
+  {
+    "id": "fin-geographie-0023",
+    "conceptId": "concept-fin-geographie-0023",
+    "familyId": "family-fin-geographie-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel volcan d'Indonésie a provoqué en 1815 la plus puissante éruption enregistrée, causant 'l'année sans été' en 1816 ?",
+    "answers": [
+      "Le mont Pinatubo",
+      "Le Krakatoa",
+      "Le mont Tambora",
+      "Le mont Saint Helens"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-volcans",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-volcans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0023",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'éruption cataclysmique du Tambora sur l'île de Sumbawa en 1815 a altéré le climat mondial pendant des mois."
+  },
+  {
+    "id": "fin-geographie-0024",
+    "conceptId": "concept-fin-geographie-0024",
+    "familyId": "family-fin-geographie-0012",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel volcan de l'État de Washington aux États-Unis a connu une spectaculaire explosion latérale en mai 1980 ?",
+    "answers": [
+      "Le mont Rainier",
+      "Le mont Shasta",
+      "Le mont Hood",
+      "Le mont Saint Helens"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "relief-volcans",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-volcans"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0024",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le mont Saint Helens a vu tout son flanc nord s'effondrer lors d'une gigantesque éruption explosive le 18 mai 1980."
+  },
+  {
+    "id": "fin-geographie-0025",
+    "conceptId": "concept-fin-geographie-0025",
+    "familyId": "family-fin-geographie-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le point culminant du continent africain si l'on exclut le Kilimandjaro (deuxième plus haut avec 5 199 m) ?",
+    "answers": [
+      "Le Ras Dashan",
+      "Le mont Cameroun",
+      "Le mont Kenya",
+      "Le Rwenzori"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "relief-sommets",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "relief-sommets"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0025",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le mont Kenya est le deuxième plus haut sommet d'Afrique après le Kilimandjaro."
+  },
+  {
+    "id": "fin-geographie-0026",
+    "conceptId": "concept-fin-geographie-0026",
+    "familyId": "family-fin-geographie-0013",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve d'Amérique du Sud possède le débit moyen le plus puissant du monde et le plus vaste bassin versant ?",
+    "answers": [
+      "L'Amazone",
+      "Le Paraná",
+      "Le São Francisco",
+      "L'Orénoque"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0026",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Amazone draine environ 20 % de l'eau douce rejetée dans les océans par les fleuves de la planète."
+  },
+  {
+    "id": "fin-geographie-0027",
+    "conceptId": "concept-fin-geographie-0027",
+    "familyId": "family-fin-geographie-0014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel grand fleuve d'Afrique du Nord traverse l'Égypte avant d'achever sa course dans la mer Méditerranée ?",
+    "answers": [
+      "Le Congo",
+      "Le Niger",
+      "Le Zambèze",
+      "Le Nil"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0027",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Nil s'étire sur plus de 6 600 km depuis le lac Victoria jusqu'à son vaste delta sur la Méditerranée."
+  },
+  {
+    "id": "fin-geographie-0028",
+    "conceptId": "concept-fin-geographie-0028",
+    "familyId": "family-fin-geographie-0014",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le plus long fleuve d'Asie et le troisième plus long du monde, coulant intégralement en Chine ?",
+    "answers": [
+      "La Léna",
+      "Le Mékong",
+      "Le fleuve Jaune",
+      "Le Yangtsé"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0028",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Yangtsé (ou Chang Jiang / Fleuve Bleu) mesure environ 6 300 kilomètres de long."
+  },
+  {
+    "id": "fin-geographie-0029",
+    "conceptId": "concept-fin-geographie-0029",
+    "familyId": "family-fin-geographie-0015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve chinois célèbre est surnommé le 'berceau de la civilisation chinoise' en raison des limons de loess qu'il charrie ?",
+    "answers": [
+      "Le fleuve Jaune",
+      "La Rivière des Perles",
+      "Le Mékong",
+      "Le Yangtsé"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0029",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le fleuve Jaune (Huang He) doit sa teinte et son nom aux énormes quantités de sédiments ocre qu'il transporte."
+  },
+  {
+    "id": "fin-geographie-0030",
+    "conceptId": "concept-fin-geographie-0030",
+    "familyId": "family-fin-geographie-0015",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve majeur d'Amérique du Nord traverse les États-Unis du nord au sud pour se jeter dans le golfe du Mexique ?",
+    "answers": [
+      "Le Mississippi",
+      "Le Rio Grande",
+      "Le Colorado",
+      "L'Hudson"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0030",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Mississippi forme avec son affluent le Missouri l'un des plus importants réseaux hydrographiques mondiaux."
+  },
+  {
+    "id": "fin-geographie-0031",
+    "conceptId": "concept-fin-geographie-0031",
+    "familyId": "family-fin-geographie-0016",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve tumultueux d'Amérique du Nord a creusé le gigantesque Grand Canyon en Arizona ?",
+    "answers": [
+      "Le Mississippi",
+      "Le Rio Grande",
+      "Le Columbia",
+      "Le Colorado"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0031",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le fleuve Colorado a sculpté le Grand Canyon sur plusieurs millions d'années d'érosion géologique."
+  },
+  {
+    "id": "fin-geographie-0032",
+    "conceptId": "concept-fin-geographie-0032",
+    "familyId": "family-fin-geographie-0016",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le plus long fleuve d'Europe avec ses 3 530 kilomètres, se jetant dans la mer Caspienne ?",
+    "answers": [
+      "Le Danube",
+      "La Volga",
+      "L'Oural",
+      "Le Dniepr"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0032",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Volga est le fleuve le plus long d'Europe et le cœur historique du réseau fluvial russe."
+  },
+  {
+    "id": "fin-geographie-0033",
+    "conceptId": "concept-fin-geographie-0033",
+    "familyId": "family-fin-geographie-0017",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel grand fleuve européen prend sa source en Forêt-Noire en Allemagne et traverse quatre capitales européennes ?",
+    "answers": [
+      "Le Danube",
+      "L'Elbe",
+      "La Vistule",
+      "Le Rhin"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0033",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Danube traverse Vienne, Bratislava, Budapest et Belgrade avant de déboucher dans la mer Noire."
+  },
+  {
+    "id": "fin-geographie-0034",
+    "conceptId": "concept-fin-geographie-0034",
+    "familyId": "family-fin-geographie-0017",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve européen marque une grande partie de la frontière franco-allemande et se jette dans la mer du Nord ?",
+    "answers": [
+      "Le Rhin",
+      "L'Escaut",
+      "La Meuse",
+      "La Moselle"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0034",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Rhin est l'une des voies navigables les plus fréquentées au monde depuis Bâle jusqu'à Rotterdam."
+  },
+  {
+    "id": "fin-geographie-0035",
+    "conceptId": "concept-fin-geographie-0035",
+    "familyId": "family-fin-geographie-0018",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve traverse la capitale britannique de Londres avant de se jeter dans la mer du Nord ?",
+    "answers": [
+      "La Severn",
+      "La Mersey",
+      "La Clyde",
+      "La Tamise"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0035",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Tamise traverse le cœur de Londres et passe sous le célèbre Tower Bridge."
+  },
+  {
+    "id": "fin-geographie-0036",
+    "conceptId": "concept-fin-geographie-0036",
+    "familyId": "family-fin-geographie-0018",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve traverse la ville de Rome, berceau historique de la civilisation romaine ?",
+    "answers": [
+      "L'Arno",
+      "Le Pô",
+      "L'Adige",
+      "Le Tibre"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0036",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Tibre est le troisième fleuve d'Italie et traverse la capitale italienne."
+  },
+  {
+    "id": "fin-geographie-0037",
+    "conceptId": "concept-fin-geographie-0037",
+    "familyId": "family-fin-geographie-0019",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve traverse Florence et Pise en Toscane avant de se jeter dans la mer Ligure ?",
+    "answers": [
+      "Le Pô",
+      "Le Tibre",
+      "L'Arno",
+      "Le Piave"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0037",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Arno passe notamment sous le célèbre Ponte Vecchio au cœur de Florence."
+  },
+  {
+    "id": "fin-geographie-0038",
+    "conceptId": "concept-fin-geographie-0038",
+    "familyId": "family-fin-geographie-0019",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le plus long fleuve d'Italie, s'écoulant d'ouest en est à travers la riche plaine padane ?",
+    "answers": [
+      "Le Tibre",
+      "L'Adige",
+      "Le Pô",
+      "L'Arno"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0038",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Pô mesure 652 kilomètres de long depuis le mont Viso jusqu'à la mer Adriatique."
+  },
+  {
+    "id": "fin-geographie-0039",
+    "conceptId": "concept-fin-geographie-0039",
+    "familyId": "family-fin-geographie-0020",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le plus long fleuve entièrement situé sur le territoire de la France métropolitaine (1 006 km) ?",
+    "answers": [
+      "La Loire",
+      "La Garonne",
+      "Le Rhône",
+      "La Seine"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0039",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Loire prend sa source au mont Gerbier-de-Jonc en Ardèche et se jette dans l'océan Atlantique à Saint-Nazaire."
+  },
+  {
+    "id": "fin-geographie-0040",
+    "conceptId": "concept-fin-geographie-0040",
+    "familyId": "family-fin-geographie-0020",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve prend sa source en Suisse, traverse le lac Léman puis la ville de Lyon avant d'entrer en Méditerranée ?",
+    "answers": [
+      "Le Rhône",
+      "Le Rhin",
+      "L'Isère",
+      "La Saône"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0040",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Rhône est le fleuve le plus puissant de France par son débit d'eau douce vers la Méditerranée."
+  },
+  {
+    "id": "fin-geographie-0041",
+    "conceptId": "concept-fin-geographie-0041",
+    "familyId": "family-fin-geographie-0021",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve français prend sa source sur le plateau de Langres, arrose Paris et se jette dans la Manche au Havre ?",
+    "answers": [
+      "L'Oise",
+      "La Marne",
+      "La Somme",
+      "La Seine"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0041",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Seine est le fleuve historique qui traverse la capitale française."
+  },
+  {
+    "id": "fin-geographie-0042",
+    "conceptId": "concept-fin-geographie-0042",
+    "familyId": "family-fin-geographie-0021",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve du Sud-Ouest de la France naît dans les Pyrénées espagnoles et forme l'estuaire de la Gironde avec la Dordogne ?",
+    "answers": [
+      "Le Tarn",
+      "Le Lot",
+      "La Garonne",
+      "L'Adour"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0042",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La Garonne arrose notamment Toulouse et Bordeaux avant de rejoindre la Dordogne dans l'estuaire de la Gironde."
+  },
+  {
+    "id": "fin-geographie-0043",
+    "conceptId": "concept-fin-geographie-0043",
+    "familyId": "family-fin-geographie-0022",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le plus long fleuve de la péninsule Ibérique, arrosant Tolède puis se jetant dans l'Atlantique à Lisbonne ?",
+    "answers": [
+      "Le Douro",
+      "Le Tage",
+      "L'Èbre",
+      "Le Guadalquivir"
+    ],
+    "correctAnswer": 1,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0043",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Tage (Tajo en espagnol, Tejo en portugais) mesure 1 007 km et traverse l'Espagne et le Portugal."
+  },
+  {
+    "id": "fin-geographie-0044",
+    "conceptId": "concept-fin-geographie-0044",
+    "familyId": "family-fin-geographie-0022",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve espagnol majeur prend sa source dans les monts Cantabriques et a donné son nom antique à la péninsule ?",
+    "answers": [
+      "L'Èbre",
+      "Le Douro",
+      "Le Guadiana",
+      "Le Guadalquivir"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0044",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Èbre (Ebro) a donné son nom à la péninsule Ibérique dans les récits des géographes de l'Antiquité."
+  },
+  {
+    "id": "fin-geographie-0045",
+    "conceptId": "concept-fin-geographie-0045",
+    "familyId": "family-fin-geographie-0023",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve d'Asie du Sud-Est traverse ou borde six pays (Chine, Myanmar, Laos, Thaïlande, Cambodge, Vietnam) ?",
+    "answers": [
+      "Le Mékong",
+      "L'Irrawaddy",
+      "La Salouen",
+      "Le fleuve Rouge"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0045",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Mékong est l'artère vitale de la péninsule indochinoise, avec un immense delta fertile au sud du Vietnam."
+  },
+  {
+    "id": "fin-geographie-0046",
+    "conceptId": "concept-fin-geographie-0046",
+    "familyId": "family-fin-geographie-0023",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve sacré de l'Inde naît dans l'Himalaya et est vénéré comme une déesse par les hindous ?",
+    "answers": [
+      "Le Brahmapoutre",
+      "La Yamuna",
+      "L'Indus",
+      "Le Gange"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0046",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Gange (Ganga) est le fleuve le plus sacré de l'hindouisme, traversant la ville sainte de Varanasi."
+  },
+  {
+    "id": "fin-geographie-0047",
+    "conceptId": "concept-fin-geographie-0047",
+    "familyId": "family-fin-geographie-0024",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel grand fleuve a donné son nom historique à l'Inde et au Pakistan, débouchant dans la mer d'Arabie ?",
+    "answers": [
+      "Le Brahmapoutre",
+      "La Narmada",
+      "Le Gange",
+      "L'Indus"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0047",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "L'Indus a abrité la prestigieuse civilisation de la vallée de l'Indus dès le troisième millénaire avant notre ère."
+  },
+  {
+    "id": "fin-geographie-0048",
+    "conceptId": "concept-fin-geographie-0048",
+    "familyId": "family-fin-geographie-0024",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve d'Afrique centrale est le plus profond du monde (plus de 220 m) et le deuxième plus puissant par son débit ?",
+    "answers": [
+      "Le Zambèze",
+      "L'Ogooué",
+      "Le Niger",
+      "Le Congo"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0048",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le fleuve Congo est l'unique grand fleuve à traverser deux fois la ligne de l'équateur terrestre."
+  },
+  {
+    "id": "fin-geographie-0049",
+    "conceptId": "concept-fin-geographie-0049",
+    "familyId": "family-fin-geographie-0025",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Sur quel fleuve d'Afrique australe se situent les spectaculaires chutes Victoria à la frontière Zambie-Zimbabwe ?",
+    "answers": [
+      "Le Zambèze",
+      "Le fleuve Orange",
+      "Le Limpopo",
+      "L'Okavango"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0049",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Zambèze plonge de plus de cent mètres de haut aux chutes Victoria, appelées 'la fumée qui gronde'."
+  },
+  {
+    "id": "fin-geographie-0050",
+    "conceptId": "concept-fin-geographie-0050",
+    "familyId": "family-fin-geographie-0025",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fleuve majestueux relie les Grands Lacs d'Amérique du Nord à l'océan Atlantique en traversant le Québec ?",
+    "answers": [
+      "Le fleuve Fraser",
+      "Le fleuve Mackenzie",
+      "L'Hudson",
+      "Le Saint-Laurent"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "hydrographie-fleuves",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "geographie",
+      "hydrographie-fleuves"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-geographie-0050",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le fleuve Saint-Laurent est une voie d'eau navigable majeure du Canada bordant Montréal et la ville de Québec."
+  }
+]

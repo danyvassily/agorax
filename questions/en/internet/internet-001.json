@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "web-facebook-users",
+    "conceptId": "facebook-users",
+    "familyId": "social-networks",
+    "type": "mcq",
+    "question": "Which social network had the most active users in the world?",
+    "answers": [
+      "Facebook",
+      "Instagram",
+      "TikTok",
+      "X (Twitter)"
+    ],
+    "correctAnswer": 0,
+    "category": "internet",
+    "subcategory": "reseaux-sociaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "reseaux-sociaux",
+      "records"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-twitter-bird",
+    "conceptId": "twitter-logo-bird",
+    "familyId": "social-networks",
+    "type": "mcq",
+    "question": "Which bird appeared on Twitter's logo?",
+    "answers": [
+      "A hummingbird",
+      "A dove",
+      "An eagle",
+      "A blue bird"
+    ],
+    "correctAnswer": 3,
+    "category": "internet",
+    "subcategory": "reseaux-sociaux",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "reseaux-sociaux",
+      "logos"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/oiseau_bleu"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-instagram-photos",
+    "conceptId": "instagram-photos",
+    "familyId": "social-networks",
+    "type": "mcq",
+    "question": "What is Instagram's specialty?",
+    "answers": [
+      "Online games",
+      "Online resumes",
+      "Photo and video sharing",
+      "Short messages of 140 characters"
+    ],
+    "correctAnswer": 2,
+    "category": "internet",
+    "subcategory": "reseaux-sociaux",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "reseaux-sociaux",
+      "photos"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-snapchat-ghost",
+    "conceptId": "snapchat-ghost",
+    "familyId": "social-networks",
+    "type": "mcq",
+    "question": "What is the symbol of Snapchat?",
+    "answers": [
+      "An eye",
+      "A ghost",
+      "A bee",
+      "A flame"
+    ],
+    "correctAnswer": 1,
+    "category": "internet",
+    "subcategory": "reseaux-sociaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "reseaux-sociaux",
+      "logos"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/fant%C3%B4me"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-tiktok-china",
+    "conceptId": "tiktok-china",
+    "familyId": "social-networks",
+    "type": "mcq",
+    "question": "Which country is TikTok originally from?",
+    "answers": [
+      "China",
+      "Japan",
+      "South Korea",
+      "United States"
+    ],
+    "correctAnswer": 0,
+    "category": "internet",
+    "subcategory": "reseaux-sociaux",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "reseaux-sociaux",
+      "origines"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-linkedin",
+    "conceptId": "linkedin-professional",
+    "familyId": "social-networks",
+    "type": "mcq",
+    "question": "Which social network is intended for the professional world?",
+    "answers": [
+      "Pinterest",
+      "Twitch",
+      "Reddit",
+      "LinkedIn"
+    ],
+    "correctAnswer": 3,
+    "category": "internet",
+    "subcategory": "reseaux-sociaux",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "reseaux-sociaux",
+      "professionnel"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/LinkedIn"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-wikipedia-english",
+    "conceptId": "wikipedia-english",
+    "familyId": "websites",
+    "type": "mcq",
+    "question": "In which language is the most comprehensive version of Wikipedia written?",
+    "answers": [
+      "German",
+      "Spanish",
+      "English",
+      "French"
+    ],
+    "correctAnswer": 2,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "web",
+      "wikipedia"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-wikipedia-wales",
+    "conceptId": "wikipedia-wales",
+    "familyId": "websites",
+    "type": "mcq",
+    "question": "Who co-founded Wikipedia?",
+    "answers": [
+      "Craig Newmark",
+      "Jimmy Wales",
+      "Larry Page",
+      "Tim Berners-Lee"
+    ],
+    "correctAnswer": 1,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "web",
+      "wikipedia"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Jimmy_Wales"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-google-dominant",
+    "conceptId": "google-dominant",
+    "familyId": "search-engines",
+    "type": "mcq",
+    "question": "Which search engine dominates the global market by a wide margin?",
+    "answers": [
+      "Google",
+      "Bing",
+      "Yahoo",
+      "DuckDuckGo"
+    ],
+    "correctAnswer": 0,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "web",
+      "moteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-first-email",
+    "conceptId": "email-1971",
+    "familyId": "web-history",
+    "type": "mcq",
+    "question": "Who sent the first email in 1971?",
+    "answers": [
+      "Bill Gates",
+      "Steve Jobs",
+      "Vint Cerf",
+      "Ray Tomlinson"
+    ],
+    "correctAnswer": 3,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "web",
+      "histoire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Ray_Tomlinson"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-first-website",
+    "conceptId": "first-website-cern",
+    "familyId": "web-history",
+    "type": "mcq",
+    "question": "On the website of which organization was the very first website hosted?",
+    "answers": [
+      "MIT",
+      "Google",
+      "CERN",
+      "NASA"
+    ],
+    "correctAnswer": 2,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "web",
+      "histoire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-meme-dawkins",
+    "conceptId": "meme-dawkins",
+    "familyId": "memes",
+    "type": "mcq",
+    "question": "Who coined the term \"meme\" in 1976?",
+    "answers": [
+      "Noam Chomsky",
+      "Richard Dawkins",
+      "Tim Berners-Lee",
+      "Ray Kurzweil"
+    ],
+    "correctAnswer": 1,
+    "category": "internet",
+    "subcategory": "memes",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "memes",
+      "culture-web"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "Wikipedia: Dawkins, gène égoïste / mémo"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-doge-shiba",
+    "conceptId": "doge-meme",
+    "familyId": "memes",
+    "type": "mcq",
+    "question": "Which dog breed became famous thanks to the Doge meme?",
+    "answers": [
+      "The Shiba Inu",
+      "The Husky",
+      "The Corgi",
+      "The Bulldog"
+    ],
+    "correctAnswer": 0,
+    "category": "internet",
+    "subcategory": "memes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "memes",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-grumpy-cat",
+    "conceptId": "grumpy-cat",
+    "familyId": "memes",
+    "type": "mcq",
+    "question": "Which meme features a cat with a grumpy face?",
+    "answers": [
+      "Nyan Cat",
+      "Keyboard Cat",
+      "Maru",
+      "Grumpy Cat"
+    ],
+    "correctAnswer": 3,
+    "category": "internet",
+    "subcategory": "memes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "memes",
+      "animaux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Grumpy_Cat"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-rickroll",
+    "conceptId": "rickroll",
+    "familyId": "memes",
+    "type": "mcq",
+    "question": "Which hoax consists of making people believe they are clicking on a link only to end up on a video clip?",
+    "answers": [
+      "DoS",
+      "Trolling",
+      "Rickrolling",
+      "Phishing"
+    ],
+    "correctAnswer": 2,
+    "category": "internet",
+    "subcategory": "memes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "memes",
+      "culture-web"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-rick-astley",
+    "conceptId": "rick-astley",
+    "familyId": "memes",
+    "type": "mcq",
+    "question": "Which singer is associated with the Rickroll meme?",
+    "answers": [
+      "Rick Ross",
+      "Rick Astley",
+      "Rick James",
+      "Ricky Martin"
+    ],
+    "correctAnswer": 1,
+    "category": "internet",
+    "subcategory": "memes",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "memes",
+      "musique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Rick_Astley"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-hashtag-twitter",
+    "conceptId": "hashtag-twitter",
+    "familyId": "web-history",
+    "type": "mcq",
+    "question": "On which social network did the hashtag first appear?",
+    "answers": [
+      "Twitter",
+      "Facebook",
+      "Instagram",
+      "Tumblr"
+    ],
+    "correctAnswer": 0,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "web",
+      "histoire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-emoji-japan",
+    "conceptId": "emoji-japan",
+    "familyId": "web-history",
+    "type": "mcq",
+    "question": "In which country were emojis invented?",
+    "answers": [
+      "The United States",
+      "South Korea",
+      "China",
+      "Japan"
+    ],
+    "correctAnswer": 3,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "web",
+      "histoire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Japon"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-minitel",
+    "conceptId": "minitel-france",
+    "familyId": "web-history",
+    "type": "mcq",
+    "question": "Which French online service preceded the public Internet?",
+    "answers": [
+      "CompuServe",
+      "Prodigy",
+      "Minitel",
+      "ARPA"
+    ],
+    "correctAnswer": 2,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "web",
+      "histoire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-404",
+    "conceptId": "404-error",
+    "familyId": "web-culture",
+    "type": "mcq",
+    "question": "What does error 404 mean on a website?",
+    "answers": [
+      "Connection timed out",
+      "Page not found",
+      "Server down",
+      "Access denied"
+    ],
+    "correctAnswer": 1,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "web",
+      "culture-web"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Page_non_trouv%C3%A9e"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-www",
+    "conceptId": "www-meaning",
+    "familyId": "web-culture",
+    "type": "mcq",
+    "question": "What does the abbreviation WWW stand for?",
+    "answers": [
+      "World Wide Web",
+      "World Web Wide",
+      "Web World Wide",
+      "Wide World Web"
+    ],
+    "correctAnswer": 0,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "web",
+      "culture-web"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-doodles",
+    "conceptId": "google-doodle",
+    "familyId": "web-culture",
+    "type": "mcq",
+    "question": "What are Google's decorated logos called?",
+    "answers": [
+      "Logos",
+      "Skins",
+      "Badges",
+      "Doodles"
+    ],
+    "correctAnswer": 3,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "web",
+      "google"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Doodles"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-emoji-2015",
+    "conceptId": "crying-laughing-emoji",
+    "familyId": "memes",
+    "type": "mcq",
+    "question": "Which emoji was voted 'Word of the Year 2015' by Oxford Dictionaries?",
+    "answers": [
+      "The thumbs up emoji",
+      "The smiley emoji",
+      "The laughing crying emoji (😂)",
+      "The heart emoji"
+    ],
+    "correctAnswer": 2,
+    "category": "internet",
+    "subcategory": "memes",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "memes",
+      "records"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-first-youtube-video",
+    "conceptId": "me-at-the-zoo",
+    "familyId": "web-history",
+    "type": "mcq",
+    "question": "What is the title of the first video published on YouTube?",
+    "answers": [
+      "The beginning",
+      "Me at the zoo",
+      "Hello world",
+      "First video"
+    ],
+    "correctAnswer": 1,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "web",
+      "histoire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Me_at_the_zoo"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-internet-users",
+    "conceptId": "internet-users-billions",
+    "familyId": "web-culture",
+    "type": "mcq",
+    "question": "How many people approximately use the Internet worldwide?",
+    "answers": [
+      "More than 5 billion",
+      "Less than 1 billion",
+      "2 billion",
+      "3 billion"
+    ],
+    "correctAnswer": 0,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "web",
+      "records"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-whatsapp",
+    "conceptId": "whatsapp-most-used",
+    "familyId": "apps",
+    "type": "mcq",
+    "question": "Which messaging application is the most used in the world?",
+    "answers": [
+      "Telegram",
+      "Signal",
+      "Viber",
+      "WhatsApp"
+    ],
+    "correctAnswer": 3,
+    "category": "internet",
+    "subcategory": "reseaux-sociaux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "reseaux-sociaux",
+      "apps"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "Wikipedia: messagerie dominant = WhatsApp"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-wikipedia-donations",
+    "conceptId": "wikipedia-donations",
+    "familyId": "websites",
+    "type": "mcq",
+    "question": "How does Wikipedia primarily finance its costs?",
+    "answers": [
+      "Subscriptions",
+      "Data sales",
+      "Donations",
+      "Advertising"
+    ],
+    "correctAnswer": 2,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "web",
+      "wikipedia"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-deep-web",
+    "conceptId": "deep-web",
+    "familyId": "web-culture",
+    "type": "mcq",
+    "question": "What does the \"deep web\" refer to?",
+    "answers": [
+      "An encrypted version of Google",
+      "Pages not indexed by search engines",
+      "An illegal pirate network",
+      "The very first Internet"
+    ],
+    "correctAnswer": 1,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "web",
+      "culture-web"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/pages_non_index%C3%A9es_par_les_moteurs_de_recherche"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "web-spam-hormel",
+    "conceptId": "spam-hormel",
+    "familyId": "web-history",
+    "type": "mcq",
+    "question": "The term \"spam\" comes from a brand of which product?",
+    "answers": [
+      "Canned ham",
+      "Cereal",
+      "Soda",
+      "Cheese"
+    ],
+    "correctAnswer": 0,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "web",
+      "histoire"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "web-chrome",
+    "conceptId": "chrome-most-used",
+    "familyId": "web-culture",
+    "type": "mcq",
+    "question": "Which web browser is the most used in the world?",
+    "answers": [
+      "Safari",
+      "Firefox",
+      "Edge",
+      "Google Chrome"
+    ],
+    "correctAnswer": 3,
+    "category": "internet",
+    "subcategory": "web",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "web",
+      "navigateurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Google_Chrome"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  }
+]

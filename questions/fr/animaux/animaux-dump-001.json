@@ -1,0 +1,322 @@
+[
+  {
+    "id": "animaux-dump-0110",
+    "conceptId": "concept-animaux-0110",
+    "familyId": "family-animaux-0055",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Which statement about elephants is untrue?",
+    "answers": [
+      "Elephants do not have great memories",
+      "Elephants cry",
+      "Elephants sleep standing up",
+      "There are some pink elephants in India"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0110",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0115",
+    "conceptId": "concept-animaux-0115",
+    "familyId": "family-animaux-0058",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What type of animal is a lamprey?",
+    "answers": [
+      "worm",
+      "insect",
+      "amphibian",
+      "fish"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0115",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0119",
+    "conceptId": "concept-animaux-0119",
+    "familyId": "family-animaux-0060",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "What maximum height at the withers can Chihuahuas reach?",
+    "answers": [
+      "9 inches (22 cm)",
+      "15 inches (38 cm)",
+      "12 inches (30 cm)",
+      "24 inches (60 cm)"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0119",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0131",
+    "conceptId": "concept-animaux-0131",
+    "familyId": "family-animaux-0066",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Also called Sea Biscuit, this animal lives in deeper water half-buried in the sand. ?",
+    "answers": [
+      "Sand Dollar",
+      "Mussel",
+      "Star Fish",
+      "Scallop"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0131",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0135",
+    "conceptId": "concept-animaux-0135",
+    "familyId": "family-animaux-0068",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "The diet of the koala consists mainly of what plant species?",
+    "answers": [
+      "Willow",
+      "Eucalyptus",
+      "Cork Oak",
+      "Bamboo"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0135",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0137",
+    "conceptId": "concept-animaux-0137",
+    "familyId": "family-animaux-0069",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "This Australian monotreme lays eggs and has a remarkable sense of electroception. ?",
+    "answers": [
+      "Platypus",
+      "Emu",
+      "Dingo",
+      "Red kangaroo"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0137",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0139",
+    "conceptId": "concept-animaux-0139",
+    "familyId": "family-animaux-0070",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qantas, Australias largest airline company, has what Australian animal on its red-and-white logo?",
+    "answers": [
+      "Emu",
+      "Koala",
+      "Kangaroo",
+      "Tasmanian devil"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0139",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-dump-0143",
+    "conceptId": "concept-animaux-0143",
+    "familyId": "family-animaux-0072",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "The venomous lizard Gila monster was named after what?",
+    "answers": [
+      "Gilligans Island",
+      "The Gila River basin",
+      "The Gila Expedition 1857",
+      "Alberto Gilardino"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-dump-0143",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

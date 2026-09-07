@@ -1,0 +1,166 @@
+[
+  {
+    "id": "geo-continents-0051",
+    "conceptId": "concept-geo-continents-0051",
+    "familyId": "family-geo-continents-0026",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "On which continent is the following country located: Australia?",
+    "answers": [
+      "Africa",
+      "Europe",
+      "Oceania",
+      "Asia"
+    ],
+    "correctAnswer": 2,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "continents",
+      "australie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0051",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Australia is located on the continent of Oceania."
+  },
+  {
+    "id": "geo-continents-0052",
+    "conceptId": "concept-geo-continents-0052",
+    "familyId": "family-geo-continents-0026",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "On which continent is the following country located: New Zealand?",
+    "answers": [
+      "South America",
+      "Asia",
+      "Africa",
+      "Oceania"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "continents",
+      "nouvelle zélande"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0052",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "New Zealand is located on the continent of Oceania."
+  },
+  {
+    "id": "geo-continents-0053",
+    "conceptId": "concept-geo-continents-0053",
+    "familyId": "family-geo-continents-0027",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "On which continent is the following country located: Fiji?",
+    "answers": [
+      "Oceania",
+      "Europe",
+      "South America",
+      "Asia"
+    ],
+    "correctAnswer": 0,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "continents",
+      "fidji"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0053",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Fiji is located on the continent of Oceania."
+  },
+  {
+    "id": "geo-continents-0054",
+    "conceptId": "concept-geo-continents-0054",
+    "familyId": "family-geo-continents-0027",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "On which continent is the following country located: Samoa?",
+    "answers": [
+      "Europe",
+      "Africa",
+      "Asia",
+      "Oceania"
+    ],
+    "correctAnswer": 3,
+    "category": "geographie",
+    "subcategory": "continents",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "geographie",
+      "continents",
+      "samoa"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "geo-continents-0054",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Samoa is located on the continent of Oceania."
+  }
+]

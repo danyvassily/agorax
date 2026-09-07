@@ -1,0 +1,392 @@
+[
+  {
+    "id": "manga-culte-0001",
+    "conceptId": "concept-manga-culte-0001",
+    "familyId": "family-manga-culte-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans le manga One Piece d'Eiichiro Oda, quel fruit du démon confère à Monkey D. Luffy un corps élastique ?",
+    "answers": [
+      "Le fruit Hito Hito",
+      "Le fruit Mera Mera",
+      "Le fruit Ope Ope",
+      "Le fruit Gomu Gomu (du Caoutchoutier)"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "manga-culte-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "manga-culte-0002",
+    "conceptId": "concept-manga-culte-0002",
+    "familyId": "family-manga-culte-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel démon renard à neuf queues est scellé dans le corps du jeune ninja Naruto Uzumaki ?",
+    "answers": [
+      "Kyûbi (Kurama)",
+      "Hachibi",
+      "Matatabi",
+      "Shukaku"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "manga-culte-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "manga-culte-0003",
+    "conceptId": "concept-manga-culte-0003",
+    "familyId": "family-manga-culte-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans Dragon Ball d'Akira Toriyama, de quelle planète guerrière extraterrestre Son Goku et Vegeta sont-ils originaires ?",
+    "answers": [
+      "La planète Vegeta",
+      "Yardrat",
+      "Beerus",
+      "Namek"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "manga-culte-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "manga-culte-0004",
+    "conceptId": "concept-manga-culte-0004",
+    "familyId": "family-manga-culte-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans L'Attaque des Titans (Shingeki no Kyojin), quel est le nom du jeune héros qui jure d'exterminer tous les titans ?",
+    "answers": [
+      "Livaï Ackerman",
+      "Eren Jäger",
+      "Armin Arlert",
+      "Erwin Smith"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "manga-culte-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "manga-culte-0005",
+    "conceptId": "concept-manga-culte-0005",
+    "familyId": "family-manga-culte-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans Death Note, comment s'appelle le Dieu de la Mort (Shinigami) friand de pommes qui accompagne Light Yagami ?",
+    "answers": [
+      "Ryuk",
+      "Gelus",
+      "Sidoh",
+      "Rem"
+    ],
+    "correctAnswer": 0,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "manga-culte-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "manga-culte-0006",
+    "conceptId": "concept-manga-culte-0006",
+    "familyId": "family-manga-culte-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mangaka est l'auteur des séries cultes Hunter x Hunter et Yu Yu Hakusho ?",
+    "answers": [
+      "Masashi Kishimoto",
+      "Hirohiko Araki",
+      "Tite Kubo",
+      "Yoshihiro Togashi"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "manga-culte-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "manga-culte-0007",
+    "conceptId": "concept-manga-culte-0007",
+    "familyId": "family-manga-culte-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans Demon Slayer (Kimetsu no Yaiba), quel souffle de combat Tanjiro Kamado apprend-il initialement auprès de Sakonji Urokodaki ?",
+    "answers": [
+      "Le souffle de la Flamme",
+      "Le souffle de l'Eau",
+      "Le souffle du Vent",
+      "Le souffle de la Foudre"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "manga-culte-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "manga-culte-0008",
+    "conceptId": "concept-manga-culte-0008",
+    "familyId": "family-manga-culte-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans Jujutsu Kaisen, quel puissant exorciste aux yeux bandés enseigne à l'école d'exorcisme de Tokyo ?",
+    "answers": [
+      "Suguru Geto",
+      "Satoru Gojo",
+      "Megumi Fushiguro",
+      "Kento Nanami"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "manga-culte-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "manga-culte-0009",
+    "conceptId": "concept-manga-culte-0009",
+    "familyId": "family-manga-culte-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans le manga culte Berserk de Kentaro Miura, quel est le nom du guerrier noir maniant l'épée colossale Dragon Slayer ?",
+    "answers": [
+      "Griffith",
+      "Guts",
+      "Casca",
+      "Puck"
+    ],
+    "correctAnswer": 1,
+    "category": "manga-anime",
+    "subcategory": "seinen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "seinen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "manga-culte-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "manga-culte-0010",
+    "conceptId": "concept-manga-culte-0010",
+    "familyId": "family-manga-culte-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel manga de Hiromu Arakawa suit les frères Edward et Alphonse Elric en quête de la Pierre Philosophale ?",
+    "answers": [
+      "Blue Exorcist",
+      "Soul Eater",
+      "D.Gray-man",
+      "Fullmetal Alchemist"
+    ],
+    "correctAnswer": 3,
+    "category": "manga-anime",
+    "subcategory": "shonen",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "manga-anime",
+      "shonen"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "manga-culte-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

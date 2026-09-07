@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "book-hugo-notre-dame",
+    "conceptId": "hugo-notre-dame",
+    "familyId": "victor-hugo",
+    "type": "mcq",
+    "question": "Which French writer wrote Notre-Dame de Paris?",
+    "answers": [
+      "Victor Hugo",
+      "Émile Zola",
+      "Honoré de Balzac",
+      "Gustave Flaubert"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "auteurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "auteurs",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-hugo-miserables",
+    "conceptId": "les-miserables-hugo",
+    "familyId": "victor-hugo",
+    "type": "mcq",
+    "question": "Which novel by Victor Hugo features Jean Valjean?",
+    "answers": [
+      "The Hunchback of Notre-Dame",
+      "Ninety-Three",
+      "The Man Who Laughs",
+      "Les Misérables"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "romans",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Mis%C3%A9rables"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-hugo-javert",
+    "conceptId": "miserables-javert",
+    "familyId": "victor-hugo",
+    "type": "mcq",
+    "question": "Who pursues Jean Valjean throughout Les Misérables?",
+    "answers": [
+      "Inspector Colombo",
+      "Judge Holden",
+      "Inspector Javert",
+      "Commissioner Maigret"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "romans",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-dumas-musketeers",
+    "conceptId": "dumas-3-musketeers",
+    "familyId": "alexandre-dumas",
+    "type": "mcq",
+    "question": "Who wrote The Three Musketeers?",
+    "answers": [
+      "Guy de Maupassant",
+      "Alexandre Dumas",
+      "Jules Verne",
+      "Victor Hugo"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "auteurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "auteurs",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Alexandre_Dumas"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-dumas-monte-cristo",
+    "conceptId": "comte-de-monte-cristo",
+    "familyId": "alexandre-dumas",
+    "type": "mcq",
+    "question": "Which novel by Alexandre Dumas tells the revenge of Edmond Dantès?",
+    "answers": [
+      "The Count of Monte Cristo",
+      "The Three Musketeers",
+      "Twenty Years After",
+      "Queen Margot"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "romans",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-dartagnan",
+    "conceptId": "dartagnan-hero",
+    "familyId": "alexandre-dumas",
+    "type": "mcq",
+    "question": "In The Three Musketeers, what is the name of the Gascon hero?",
+    "answers": [
+      "Porthos",
+      "Athos",
+      "Aramis",
+      "d'Artagnan"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "romans",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Artagnan"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-verne-80-jours",
+    "conceptId": "verne-around-the-world",
+    "familyId": "jules-verne",
+    "type": "mcq",
+    "question": "Which Jules Verne novel tells the story of Phileas Fogg's journey around the world?",
+    "answers": [
+      "From the Earth to the Moon",
+      "The Mysterious Island",
+      "Around the World in Eighty Days",
+      "Twenty Thousand Leagues Under the Seas"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "romans",
+      "aventures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-verne-nautilus",
+    "conceptId": "nautilus-verne",
+    "familyId": "jules-verne",
+    "type": "mcq",
+    "question": "What is the name of Captain Nemo's submarine?",
+    "answers": [
+      "The Swordfish",
+      "The Nautilus",
+      "The Titanic",
+      "The Beagle"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "romans",
+      "aventures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Nautilus"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-verne-bet",
+    "conceptId": "verne-80-days-bet",
+    "familyId": "jules-verne",
+    "type": "mcq",
+    "question": "In how many days does Phileas Fogg bet he can travel around the world?",
+    "answers": [
+      "80",
+      "100",
+      "60",
+      "90"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "romans",
+      "aventures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-verne-nemo",
+    "conceptId": "verne-20000-leagues",
+    "familyId": "jules-verne",
+    "type": "mcq",
+    "question": "Which Jules Verne novel features Captain Nemo?",
+    "answers": [
+      "Five Weeks in a Balloon",
+      "Robur the Conqueror",
+      "Michael Strogoff",
+      "Twenty Thousand Leagues Under the Sea"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "romans",
+      "aventures"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Vingt_mille_lieues_sous_les_mers"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-maupassant",
+    "conceptId": "maupassant-boule-de-suif",
+    "familyId": "maupassant",
+    "type": "mcq",
+    "question": "Who wrote Boule de Suif and Bel-Ami?",
+    "answers": [
+      "Alphonse Daudet",
+      "Stendhal",
+      "Guy de Maupassant",
+      "Émile Zola"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "auteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "auteurs",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-flaubert",
+    "conceptId": "flaubert-madame-bovary",
+    "familyId": "flaubert",
+    "type": "mcq",
+    "question": "Who is the author of Madame Bovary?",
+    "answers": [
+      "Marcel Proust",
+      "Gustave Flaubert",
+      "Honoré de Balzac",
+      "Stendhal"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "auteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "auteurs",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Gustave_Flaubert"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-zola-rougon",
+    "conceptId": "zola-rougon-macquart",
+    "familyId": "zola",
+    "type": "mcq",
+    "question": "Which novel cycle did Émile Zola write?",
+    "answers": [
+      "Les Rougon-Macquart",
+      "La Comédie humaine",
+      "Les Misérables",
+      "À la recherche du temps perdu"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "auteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "auteurs",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-zola-germinal",
+    "conceptId": "zola-germinal-mines",
+    "familyId": "zola",
+    "type": "mcq",
+    "question": "Which novel by Zola is set in a coal mine in the North?",
+    "answers": [
+      "Nana",
+      "L'Assommoir",
+      "La Bête humaine",
+      "Germinal"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "romans",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Germinal"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-balzac",
+    "conceptId": "balzac-comedie-humaine",
+    "familyId": "balzac",
+    "type": "mcq",
+    "question": "What is the name of Balzac's great novel cycle?",
+    "answers": [
+      "In Search of Lost Time",
+      "Les Misérables",
+      "The Human Comedy",
+      "Les Rougon-Macquart"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "auteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "auteurs",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-proust",
+    "conceptId": "proust-recherche",
+    "familyId": "proust",
+    "type": "mcq",
+    "question": "What is the title of Marcel Proust's masterpiece?",
+    "answers": [
+      "Journey to the End of the Night",
+      "In Search of Lost Time",
+      "The Counterfeiters",
+      "The Great Meaulnes"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "romans",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%80_la_recherche_du_temps_perdu"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-camus-etranger",
+    "conceptId": "camus-etranger",
+    "familyId": "camus",
+    "type": "mcq",
+    "question": "Which novel by Albert Camus opens with \"Mother died today\"?",
+    "answers": [
+      "The Stranger",
+      "The Plague",
+      "The Fall",
+      "Caligula"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "romans",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "romans",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-camus-nobel",
+    "conceptId": "camus-nobel-1957",
+    "familyId": "prix-litteraires",
+    "type": "mcq",
+    "question": "Which French writer received the Nobel Prize in Literature in 1957?",
+    "answers": [
+      "Jean-Paul Sartre",
+      "André Gide",
+      "François Mauriac",
+      "Albert Camus"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "prix",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "prix",
+      "nobel"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Albert_Camus"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-sartre-refus",
+    "conceptId": "sartre-nobel-refused",
+    "familyId": "prix-litteraires",
+    "type": "mcq",
+    "question": "Which writer refused the Nobel Prize in Literature in 1964?",
+    "answers": [
+      "Simone de Beauvoir",
+      "André Malraux",
+      "Jean-Paul Sartre",
+      "Albert Camus"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "prix",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "prix",
+      "nobel"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-saint-exupery",
+    "conceptId": "petit-prince",
+    "familyId": "saint-exupery",
+    "type": "mcq",
+    "question": "Who wrote The Little Prince?",
+    "answers": [
+      "Marcel Pagnol",
+      "Antoine de Saint-Exupéry",
+      "Boris Vian",
+      "Jean Giono"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "auteurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "auteurs",
+      "contes"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-petit-prince-record",
+    "conceptId": "petit-prince-translated",
+    "familyId": "saint-exupery",
+    "type": "mcq",
+    "question": "What is the peculiarity of The Little Prince?",
+    "answers": [
+      "It is the most translated French book in the world",
+      "It is written in verse",
+      "It has never been published in France",
+      "It was written in one night"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "records",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "records",
+      "livres"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-pagnol",
+    "conceptId": "pagnol-provence",
+    "familyId": "pagnol",
+    "type": "mcq",
+    "question": "Which French writer immortalized Provence with My Father's Glory?",
+    "answers": [
+      "Jean Giono",
+      "Alphonse Daudet",
+      "Frédéric Mistral",
+      "Marcel Pagnol"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "auteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "auteurs",
+      "souvenirs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Marcel_Pagnol"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-baudelaire",
+    "conceptId": "baudelaire-fleurs-du-mal",
+    "familyId": "poesie",
+    "type": "mcq",
+    "question": "Who wrote Les Fleurs du mal?",
+    "answers": [
+      "Paul Verlaine",
+      "Stéphane Mallarmé",
+      "Charles Baudelaire",
+      "Arthur Rimbaud"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "poesie",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "auteurs",
+      "poesie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-rimbaud-age",
+    "conceptId": "rimbaud-16",
+    "familyId": "poesie",
+    "type": "mcq",
+    "question": "At what age did Arthur Rimbaud write his first major poems?",
+    "answers": [
+      "25 years old",
+      "16 years old",
+      "12 years old",
+      "20 years old"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "poesie",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "poesie",
+      "records"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/16_ans"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-moliere-name",
+    "conceptId": "moliere-poquelin",
+    "familyId": "theatre",
+    "type": "mcq",
+    "question": "What is Molière's real name?",
+    "answers": [
+      "Jean-Baptiste Poquelin",
+      "Jean Racine",
+      "Pierre Corneille",
+      "Jean de La Fontaine"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "theatre",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "theatre",
+      "auteurs"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-moliere-avare",
+    "conceptId": "moliere-avare",
+    "familyId": "theatre",
+    "type": "mcq",
+    "question": "Which play by Molière features the penny-pinching Harpagon?",
+    "answers": [
+      "The Misanthrope",
+      "Tartuffe",
+      "The Scapin's Schemings",
+      "The Miser"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "theatre",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "theatre",
+      "comedies"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Avare"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-tartuffe",
+    "conceptId": "tartuffe-hypocrite",
+    "familyId": "theatre",
+    "type": "mcq",
+    "question": "Which Molière character is a false devotee?",
+    "answers": [
+      "Alceste",
+      "Sganarelle",
+      "Tartuffe",
+      "Dom Juan"
+    ],
+    "correctAnswer": 2,
+    "category": "litterature",
+    "subcategory": "theatre",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "theatre",
+      "personnages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-la-fontaine",
+    "conceptId": "la-fontaine-fables",
+    "familyId": "poesie",
+    "type": "mcq",
+    "question": "Who wrote the Fables featuring the cicada and the ant?",
+    "answers": [
+      "Nicolas Boileau",
+      "Jean de La Fontaine",
+      "Voltaire",
+      "Jean Racine"
+    ],
+    "correctAnswer": 1,
+    "category": "litterature",
+    "subcategory": "auteurs",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "auteurs",
+      "fables"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Jean_de_La_Fontaine"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  },
+  {
+    "id": "book-goethe-werther",
+    "conceptId": "goethe-werther",
+    "familyId": "classiques-europeens",
+    "type": "mcq",
+    "question": "Who wrote The Sorrows of Young Werther?",
+    "answers": [
+      "Johann Wolfgang von Goethe",
+      "Friedrich Schiller",
+      "Thomas Mann",
+      "Hermann Hesse"
+    ],
+    "correctAnswer": 0,
+    "category": "litterature",
+    "subcategory": "auteurs",
+    "difficulty": "hard",
+    "language": "en",
+    "tags": [
+      "auteurs",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "book-tolstoi",
+    "conceptId": "tolstoy-war-and-peace",
+    "familyId": "classiques-europeens",
+    "type": "mcq",
+    "question": "Which Russian writer wrote War and Peace?",
+    "answers": [
+      "Fyodor Dostoevsky",
+      "Anton Chekhov",
+      "Ivan Turgenev",
+      "Leo Tolstoy"
+    ],
+    "correctAnswer": 3,
+    "category": "litterature",
+    "subcategory": "auteurs",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "auteurs",
+      "classiques"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "",
+      "url": "",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "disputed",
+      "verifiedAt": "2026-09-02",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/L%C3%A9on_Tolsto%C3%AF"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 2
+  }
+]

@@ -1,0 +1,496 @@
+[
+  {
+    "id": "greek-mount-olympus-location",
+    "conceptId": "mount-olympus-location",
+    "familyId": "greek-geography",
+    "type": "mcq",
+    "question": "Where is Mount Olympus, home of the gods, located?",
+    "answers": [
+      "In Crete",
+      "In the Peloponnese",
+      "On the island of Delos",
+      "In Greece, on the border between Thessaly and Macedonia"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q131148",
+      "url": "https://www.wikidata.org/wiki/Q131148",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-delphi-oracle-of-apollo",
+    "conceptId": "delphi-oracle-of-apollo",
+    "familyId": "delphi",
+    "type": "mcq",
+    "question": "Which sanctuary houses the famous oracle of Apollo?",
+    "answers": [
+      "Delphi",
+      "Olympia",
+      "Epidaurus",
+      "Delos"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "easy",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37340",
+      "url": "https://www.wikidata.org/wiki/Q37340",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-pythia-prophetess-of-delphi",
+    "conceptId": "pythia-prophetess-of-delphi",
+    "familyId": "delphi",
+    "type": "mcq",
+    "question": "What is the name of the priestess who delivers oracles at Delphi?",
+    "answers": [
+      "The Vestal",
+      "The Pythia",
+      "The Sibyl",
+      "The Maenad"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q37340",
+      "url": "https://www.wikidata.org/wiki/Q37340",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-mount-parnassus-home-of-muses",
+    "conceptId": "mount-parnassus-home-of-muses",
+    "familyId": "greek-geography",
+    "type": "mcq",
+    "question": "Which mountain is the home of the Muses?",
+    "answers": [
+      "Mount Ida",
+      "Mount Etna",
+      "Mount Parnassus",
+      "Mount Olympus"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q66063",
+      "url": "https://www.wikidata.org/wiki/Q66063",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-atlantis-island-of-plato",
+    "conceptId": "atlantis-island-of-plato",
+    "familyId": "legendary-places",
+    "type": "mcq",
+    "question": "Which Greek philosopher tells the myth of Atlantis?",
+    "answers": [
+      "Aristotle",
+      "Homer",
+      "Herodotus",
+      "Plato"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q859",
+      "url": "https://www.wikidata.org/wiki/Q859",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-labyrinth-of-cnossos",
+    "conceptId": "labyrinth-of-cnossos",
+    "familyId": "legendary-places",
+    "type": "mcq",
+    "question": "Where is the Labyrinth of the Minotaur located?",
+    "answers": [
+      "In Crete, at Knossos",
+      "In Athens",
+      "In Thebes",
+      "In Mycenae"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q42998",
+      "url": "https://www.wikidata.org/wiki/Q42998",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-colchis-golden-fleece",
+    "conceptId": "colchis-golden-fleece",
+    "familyId": "legendary-places",
+    "type": "mcq",
+    "question": "In which distant country is the Golden Fleece located?",
+    "answers": [
+      "In Scythia",
+      "In Colchis",
+      "In Egypt",
+      "In India"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q168712",
+      "url": "https://www.wikidata.org/wiki/Q168712",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.93,
+    "version": 1
+  },
+  {
+    "id": "greek-ithaca-kingdom-of-odysseus",
+    "conceptId": "ithaca-kingdom-of-odysseus",
+    "familyId": "greek-geography",
+    "type": "mcq",
+    "question": "Which island is the kingdom of Ulysses?",
+    "answers": [
+      "Lesbos",
+      "Samos",
+      "Ithaca",
+      "Cyprus"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q47220",
+      "url": "https://www.wikidata.org/wiki/Q47220",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-mount-ida-judgment-of-paris",
+    "conceptId": "mount-ida-judgment-of-paris",
+    "familyId": "greek-geography",
+    "type": "mcq",
+    "question": "On which mountain does the Judgment of Paris take place?",
+    "answers": [
+      "Mount Olympus",
+      "Parnassus",
+      "Cithaeron",
+      "Mount Ida"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q130543",
+      "url": "https://www.wikidata.org/wiki/Q130543",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-mycenae-city-of-agamemnon",
+    "conceptId": "mycenae-city-of-agamemnon",
+    "familyId": "greek-geography",
+    "type": "mcq",
+    "question": "Which city is governed by Agamemnon?",
+    "answers": [
+      "Mycenae",
+      "Sparta",
+      "Athens",
+      "Argos"
+    ],
+    "correctAnswer": 0,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q128176",
+      "url": "https://www.wikidata.org/wiki/Q128176",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.94,
+    "version": 1
+  },
+  {
+    "id": "greek-sparta-city-of-menelaus",
+    "conceptId": "sparta-city-of-menelaus",
+    "familyId": "greek-geography",
+    "type": "mcq",
+    "question": "Which king rules over Sparta alongside Helen?",
+    "answers": [
+      "Nestor",
+      "Menelaus",
+      "Agamemnon",
+      "Priam"
+    ],
+    "correctAnswer": 1,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q165988",
+      "url": "https://www.wikidata.org/wiki/Q165988",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  },
+  {
+    "id": "greek-thebes-city-of-oedipus",
+    "conceptId": "thebes-city-of-oedipus",
+    "familyId": "greek-geography",
+    "type": "mcq",
+    "question": "Of which city does Oedipus become the king?",
+    "answers": [
+      "Corinth",
+      "Argos",
+      "Thebes",
+      "Athens"
+    ],
+    "correctAnswer": 2,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q133071",
+      "url": "https://www.wikidata.org/wiki/Q133071",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.98,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "greek-aegean-sea-named-after-aegeus",
+    "conceptId": "aegean-sea-named-after-aegeus",
+    "familyId": "greek-geography",
+    "type": "mcq",
+    "question": "Which legendary king gave his name to the sea that separates Greece from Turkey?",
+    "answers": [
+      "Minos",
+      "Aeolus",
+      "Nereus",
+      "Aegean"
+    ],
+    "correctAnswer": 3,
+    "category": "mythologie-grecque",
+    "subcategory": "lieux",
+    "difficulty": "medium",
+    "language": "en",
+    "tags": [
+      "mythologie-grecque",
+      "lieux"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "Q128962",
+      "url": "https://www.wikidata.org/wiki/Q128962",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-08-15",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.92,
+    "version": 1
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "id": "animaux-opentrivia-001",
+    "conceptId": "concept-animaux-001",
+    "familyId": "family-animaux-001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Trois de ces animaux hibernent. Lequel n'hiberne pas?",
+    "answers": [
+      "Souris",
+      "Grenouille",
+      "Paresseux",
+      "Serpent"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-001",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-002",
+    "conceptId": "concept-animaux-002",
+    "familyId": "family-animaux-001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Tous ces animaux sont omnivores, sauf un. ?",
+    "answers": [
+      "Renard",
+      "Escargot",
+      "Souris",
+      "Opossum"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-002",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-003",
+    "conceptId": "concept-animaux-003",
+    "familyId": "family-animaux-002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Trois de ces noms latins sont des noms d'ours. Lequel est l'intrus ?",
+    "answers": [
+      "Felis silvestris catus",
+      "Ursus minimus",
+      "Helarctos malayanus",
+      "Melursus ursinus"
+    ],
+    "correctAnswer": 0,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-003",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-004",
+    "conceptId": "concept-animaux-004",
+    "familyId": "family-animaux-002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Il s'agit d'animaux typiquement australiens, à l'exception d'un seul. ?",
+    "answers": [
+      "Dingo",
+      "Paresseux",
+      "Ornithorynque",
+      "Echidné"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-004",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-005",
+    "conceptId": "concept-animaux-005",
+    "familyId": "family-animaux-003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Les représentants de trois de ces espèces produisent leur propre venin. Lequel est l'intrus ?",
+    "answers": [
+      "Grenouilles",
+      "Moustiques",
+      "Lézards",
+      "Scorpions"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-005",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-006",
+    "conceptId": "concept-animaux-006",
+    "familyId": "family-animaux-003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Trois de ces espèces perdent leur peau. Laquelle ne le fait pas ?",
+    "answers": [
+      "Crustacés",
+      "Serpents",
+      "Pingouins",
+      "Insectes"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-006",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-007",
+    "conceptId": "concept-animaux-007",
+    "familyId": "family-animaux-004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Tous ces animaux ont de grandes oreilles (par rapport à leur taille), sauf un. ?",
+    "answers": [
+      "Renards",
+      "Ours polaire",
+      "Chauve-souris",
+      "Eléphants"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-007",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-008",
+    "conceptId": "concept-animaux-008",
+    "familyId": "family-animaux-004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Ce pourcentage de tous les serpents de la planète est mortel pour l'homme. ?",
+    "answers": [
+      "25%",
+      "10%",
+      "15%",
+      "20%"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-008",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-009",
+    "conceptId": "concept-animaux-009",
+    "familyId": "family-animaux-005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Les serpents sont des animaux de ce type. ?",
+    "answers": [
+      "Herbivores",
+      "Végétarien",
+      "Omnivores",
+      "Carnivores"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-009",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-010",
+    "conceptId": "concept-animaux-010",
+    "familyId": "family-animaux-005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Les serpents consomment leur nourriture par le biais de ce processus. ?",
+    "answers": [
+      "Absorber",
+      "Avaler",
+      "Mâcher",
+      "Réspirer"
+    ],
+    "correctAnswer": 1,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-010",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-011",
+    "conceptId": "concept-animaux-011",
+    "familyId": "family-animaux-006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Les serpents appartiennent à la catégorie suivante. ?",
+    "answers": [
+      "Invertebrates",
+      "Lizards",
+      "Reptiles",
+      "Mammals"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-011",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-014",
+    "conceptId": "concept-animaux-014",
+    "familyId": "family-animaux-007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Cobras are venomous snakes of family Elapidae, that generally inhabit regions of these two continents. ?",
+    "answers": [
+      "Asia and Australia",
+      "South America and Asia",
+      "South America and Australia",
+      "Asia and Africa"
+    ],
+    "correctAnswer": 3,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-014",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-035",
+    "conceptId": "concept-animaux-035",
+    "familyId": "family-animaux-018",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Ancient Japanese thought this animal caused earthquakes. ?",
+    "answers": [
+      "Frogs",
+      "Birds",
+      "Spiders",
+      "Snakes"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-035",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  },
+  {
+    "id": "animaux-opentrivia-037",
+    "conceptId": "concept-animaux-037",
+    "familyId": "family-animaux-019",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "This animal can clean its own ears with its 21-inch tongue. ?",
+    "answers": [
+      "Lion",
+      "Lizard",
+      "Giraffe",
+      "Elephant"
+    ],
+    "correctAnswer": 2,
+    "category": "animaux",
+    "subcategory": "zoologie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "animaux",
+      "faune",
+      "nature"
+    ],
+    "source": {
+      "provider": "opentriviaqa",
+      "sourceId": "animaux-opentrivia-037",
+      "url": "https://github.com/viorizz/OpenTriviaQA-FR",
+      "license": "CC BY-SA 4.0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "opentriviaqa"
+      ]
+    },
+    "confidence": 0.96,
+    "qualityScore": 0.95,
+    "version": 1
+  }
+]

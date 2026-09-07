@@ -1,0 +1,1232 @@
+[
+  {
+    "id": "chem-elem-0051",
+    "conceptId": "concept-chem-elem-0051",
+    "familyId": "family-chem-elem-0026",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de l'Iode dans la classification périodique ?",
+    "answers": [
+      "Ti",
+      "Ar",
+      "I",
+      "Pt"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0051",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "l'Iode a pour symbole I et pour numéro atomique 53."
+  },
+  {
+    "id": "chem-elem-0052",
+    "conceptId": "concept-chem-elem-0052",
+    "familyId": "family-chem-elem-0026",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 53 ?",
+    "answers": [
+      "le Lithium",
+      "le Krypton",
+      "le Calcium",
+      "l'Iode"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0052",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 53 correspond à l'Iode (I)."
+  },
+  {
+    "id": "chem-elem-0053",
+    "conceptId": "concept-chem-elem-0053",
+    "familyId": "family-chem-elem-0027",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de l'Or dans la classification périodique ?",
+    "answers": [
+      "Au",
+      "Li",
+      "I",
+      "Be"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0053",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "l'Or a pour symbole Au et pour numéro atomique 79."
+  },
+  {
+    "id": "chem-elem-0054",
+    "conceptId": "concept-chem-elem-0054",
+    "familyId": "family-chem-elem-0027",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 79 ?",
+    "answers": [
+      "l'Or",
+      "le Néon",
+      "le Phosphore",
+      "le Fluor"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0054",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 79 correspond à l'Or (Au)."
+  },
+  {
+    "id": "chem-elem-0055",
+    "conceptId": "concept-chem-elem-0055",
+    "familyId": "family-chem-elem-0028",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de le Mercure dans la classification périodique ?",
+    "answers": [
+      "Hg",
+      "Pb",
+      "Rn",
+      "Br"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0055",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "le Mercure a pour symbole Hg et pour numéro atomique 80."
+  },
+  {
+    "id": "chem-elem-0056",
+    "conceptId": "concept-chem-elem-0056",
+    "familyId": "family-chem-elem-0028",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 80 ?",
+    "answers": [
+      "l'Or",
+      "le Fer",
+      "le Titane",
+      "le Mercure"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0056",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 80 correspond à le Mercure (Hg)."
+  },
+  {
+    "id": "chem-elem-0057",
+    "conceptId": "concept-chem-elem-0057",
+    "familyId": "family-chem-elem-0029",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de le Plomb dans la classification périodique ?",
+    "answers": [
+      "Pb",
+      "He",
+      "Bi",
+      "Li"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0057",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "le Plomb a pour symbole Pb et pour numéro atomique 82."
+  },
+  {
+    "id": "chem-elem-0058",
+    "conceptId": "concept-chem-elem-0058",
+    "familyId": "family-chem-elem-0029",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 82 ?",
+    "answers": [
+      "le Radon",
+      "l'Hélium",
+      "le Plomb",
+      "le Chrome"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0058",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 82 correspond à le Plomb (Pb)."
+  },
+  {
+    "id": "chem-elem-0059",
+    "conceptId": "concept-chem-elem-0059",
+    "familyId": "family-chem-elem-0030",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de l'Uranium dans la classification périodique ?",
+    "answers": [
+      "U",
+      "Pb",
+      "Mg",
+      "W"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0059",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "l'Uranium a pour symbole U et pour numéro atomique 92."
+  },
+  {
+    "id": "chem-elem-0060",
+    "conceptId": "concept-chem-elem-0060",
+    "familyId": "family-chem-elem-0030",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 92 ?",
+    "answers": [
+      "l'Uranium",
+      "l'Étain",
+      "le Néon",
+      "le Mercure"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0060",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 92 correspond à l'Uranium (U)."
+  },
+  {
+    "id": "chem-elem-0061",
+    "conceptId": "concept-chem-elem-0061",
+    "familyId": "family-chem-elem-0031",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de le Titane dans la classification périodique ?",
+    "answers": [
+      "Br",
+      "F",
+      "W",
+      "Ti"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0061",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "le Titane a pour symbole Ti et pour numéro atomique 22."
+  },
+  {
+    "id": "chem-elem-0062",
+    "conceptId": "concept-chem-elem-0062",
+    "familyId": "family-chem-elem-0031",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 22 ?",
+    "answers": [
+      "l'Argent",
+      "le Soufre",
+      "le Chlore",
+      "le Titane"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0062",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 22 correspond à le Titane (Ti)."
+  },
+  {
+    "id": "chem-elem-0063",
+    "conceptId": "concept-chem-elem-0063",
+    "familyId": "family-chem-elem-0032",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de le Chrome dans la classification périodique ?",
+    "answers": [
+      "W",
+      "Hg",
+      "Bi",
+      "Cr"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0063",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "le Chrome a pour symbole Cr et pour numéro atomique 24."
+  },
+  {
+    "id": "chem-elem-0064",
+    "conceptId": "concept-chem-elem-0064",
+    "familyId": "family-chem-elem-0032",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 24 ?",
+    "answers": [
+      "l'Oxygène",
+      "le Magnésium",
+      "l'Or",
+      "le Chrome"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0064",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 24 correspond à le Chrome (Cr)."
+  },
+  {
+    "id": "chem-elem-0065",
+    "conceptId": "concept-chem-elem-0065",
+    "familyId": "family-chem-elem-0033",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de le Nickel dans la classification périodique ?",
+    "answers": [
+      "Ti",
+      "Ni",
+      "Ne",
+      "Zn"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0065",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "le Nickel a pour symbole Ni et pour numéro atomique 28."
+  },
+  {
+    "id": "chem-elem-0066",
+    "conceptId": "concept-chem-elem-0066",
+    "familyId": "family-chem-elem-0033",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 28 ?",
+    "answers": [
+      "le Nickel",
+      "l'Azote",
+      "le Plomb",
+      "le Krypton"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0066",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 28 correspond à le Nickel (Ni)."
+  },
+  {
+    "id": "chem-elem-0067",
+    "conceptId": "concept-chem-elem-0067",
+    "familyId": "family-chem-elem-0034",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de le Platine dans la classification périodique ?",
+    "answers": [
+      "Mg",
+      "Br",
+      "Al",
+      "Pt"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0067",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "le Platine a pour symbole Pt et pour numéro atomique 78."
+  },
+  {
+    "id": "chem-elem-0068",
+    "conceptId": "concept-chem-elem-0068",
+    "familyId": "family-chem-elem-0034",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 78 ?",
+    "answers": [
+      "le Platine",
+      "l'Or",
+      "le Calcium",
+      "l'Aluminium"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0068",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 78 correspond à le Platine (Pt)."
+  },
+  {
+    "id": "chem-elem-0069",
+    "conceptId": "concept-chem-elem-0069",
+    "familyId": "family-chem-elem-0035",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de le Krypton dans la classification périodique ?",
+    "answers": [
+      "C",
+      "Kr",
+      "W",
+      "P"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0069",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "le Krypton a pour symbole Kr et pour numéro atomique 36."
+  },
+  {
+    "id": "chem-elem-0070",
+    "conceptId": "concept-chem-elem-0070",
+    "familyId": "family-chem-elem-0035",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 36 ?",
+    "answers": [
+      "le Bismuth",
+      "l'Oxygène",
+      "le Mercure",
+      "le Krypton"
+    ],
+    "correctAnswer": 3,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0070",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 36 correspond à le Krypton (Kr)."
+  },
+  {
+    "id": "chem-elem-0071",
+    "conceptId": "concept-chem-elem-0071",
+    "familyId": "family-chem-elem-0036",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de le Xénon dans la classification périodique ?",
+    "answers": [
+      "Xe",
+      "Pt",
+      "Ca",
+      "Li"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0071",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "le Xénon a pour symbole Xe et pour numéro atomique 54."
+  },
+  {
+    "id": "chem-elem-0072",
+    "conceptId": "concept-chem-elem-0072",
+    "familyId": "family-chem-elem-0036",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 54 ?",
+    "answers": [
+      "le Xénon",
+      "le Bore",
+      "le Nickel",
+      "le Tungstène"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0072",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 54 correspond à le Xénon (Xe)."
+  },
+  {
+    "id": "chem-elem-0073",
+    "conceptId": "concept-chem-elem-0073",
+    "familyId": "family-chem-elem-0037",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de le Radon dans la classification périodique ?",
+    "answers": [
+      "N",
+      "Ti",
+      "Rn",
+      "C"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0073",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "le Radon a pour symbole Rn et pour numéro atomique 86."
+  },
+  {
+    "id": "chem-elem-0074",
+    "conceptId": "concept-chem-elem-0074",
+    "familyId": "family-chem-elem-0037",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 86 ?",
+    "answers": [
+      "le Chrome",
+      "l'Iode",
+      "le Radon",
+      "l'Hydrogène"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0074",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 86 correspond à le Radon (Rn)."
+  },
+  {
+    "id": "chem-elem-0075",
+    "conceptId": "concept-chem-elem-0075",
+    "familyId": "family-chem-elem-0038",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de le Brome dans la classification périodique ?",
+    "answers": [
+      "Br",
+      "Cl",
+      "Si",
+      "Pb"
+    ],
+    "correctAnswer": 0,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0075",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "le Brome a pour symbole Br et pour numéro atomique 35."
+  },
+  {
+    "id": "chem-elem-0076",
+    "conceptId": "concept-chem-elem-0076",
+    "familyId": "family-chem-elem-0038",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 35 ?",
+    "answers": [
+      "le Mercure",
+      "le Brome",
+      "l'Aluminium",
+      "l'Étain"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0076",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 35 correspond à le Brome (Br)."
+  },
+  {
+    "id": "chem-elem-0077",
+    "conceptId": "concept-chem-elem-0077",
+    "familyId": "family-chem-elem-0039",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de le Bismuth dans la classification périodique ?",
+    "answers": [
+      "Rn",
+      "Bi",
+      "Ti",
+      "Na"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0077",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "le Bismuth a pour symbole Bi et pour numéro atomique 83."
+  },
+  {
+    "id": "chem-elem-0078",
+    "conceptId": "concept-chem-elem-0078",
+    "familyId": "family-chem-elem-0039",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 83 ?",
+    "answers": [
+      "l'Aluminium",
+      "le Bismuth",
+      "le Chlore",
+      "le Cuivre"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0078",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 83 correspond à le Bismuth (Bi)."
+  },
+  {
+    "id": "chem-elem-0079",
+    "conceptId": "concept-chem-elem-0079",
+    "familyId": "family-chem-elem-0040",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le symbole chimique de le Tungstène dans la classification périodique ?",
+    "answers": [
+      "C",
+      "W",
+      "F",
+      "Zn"
+    ],
+    "correctAnswer": 1,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "tableau-periodique"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0079",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "le Tungstène a pour symbole W et pour numéro atomique 74."
+  },
+  {
+    "id": "chem-elem-0080",
+    "conceptId": "concept-chem-elem-0080",
+    "familyId": "family-chem-elem-0040",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel élément chimique a pour numéro atomique 74 ?",
+    "answers": [
+      "l'Oxygène",
+      "l'Argent",
+      "le Tungstène",
+      "le Zinc"
+    ],
+    "correctAnswer": 2,
+    "category": "science",
+    "subcategory": "chimie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "chimie",
+      "elements"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "chem-elem-0080",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le numéro atomique 74 correspond à le Tungstène (W)."
+  }
+]

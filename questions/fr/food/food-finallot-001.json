@@ -1,0 +1,562 @@
+[
+  {
+    "id": "fin-food-0001",
+    "conceptId": "concept-fin-food-0001",
+    "familyId": "family-fin-food-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fromage à pâte persillée au lait cru de brebis est affiné dans les caves naturelles du mont Combalou en Aveyron ?",
+    "answers": [
+      "Le Roquefort",
+      "Le Bleu d'Auvergne",
+      "Le Gorgonzola",
+      "La Fourme d'Ambert"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "fromages",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "fromages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0001",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Roquefort bénéficie de la première appellation d'origine protégée reconnue en France en 1925."
+  },
+  {
+    "id": "fin-food-0002",
+    "conceptId": "concept-fin-food-0002",
+    "familyId": "family-fin-food-0001",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel fromage savoyard à pâte pressée cuite au lait cru de vache est moulé en meules géantes au talon concave ?",
+    "answers": [
+      "Le Beaufort",
+      "Le Comté",
+      "L'Emmental",
+      "L'Abondance"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "fromages",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "fromages"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0002",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Beaufort est surnommé le 'Prince des gruyères' et produit en haute montagne dans les Alpes savoyardes."
+  },
+  {
+    "id": "fin-food-0003",
+    "conceptId": "concept-fin-food-0003",
+    "familyId": "family-fin-food-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle pâtisserie française traditionnelle est constituée de trois couches de pâte feuilletée et de deux couches de crème pâtissière ?",
+    "answers": [
+      "Le Paris-Brest",
+      "L'éclair",
+      "L'Opéra",
+      "Le mille-feuille"
+    ],
+    "correctAnswer": 3,
+    "category": "food",
+    "subcategory": "patisserie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "patisserie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0003",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le mille-feuille est traditionnellement glacé au fondant avec un marbrage caractéristique au chocolat."
+  },
+  {
+    "id": "fin-food-0004",
+    "conceptId": "concept-fin-food-0004",
+    "familyId": "family-fin-food-0002",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle pâtisserie en forme de couronne créée en 1910 commémore une célèbre course cycliste entre la capitale et la Bretagne ?",
+    "answers": [
+      "Le Paris-Brest",
+      "La Tropézienne",
+      "Le Saint-Honoré",
+      "Le Baba au rhum"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "patisserie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "food",
+      "patisserie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0004",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Créé par Louis Durand à Maisons-Laffitte, le Paris-Brest est garni d'une crème mousseline pralinée et d'amandes effilées."
+  },
+  {
+    "id": "fin-food-0005",
+    "conceptId": "concept-fin-food-0005",
+    "familyId": "family-fin-food-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle spécialité culinaire marocaine et maghrébine est cuite à l'étouffée dans un plat de terre cuite au couvercle conique ?",
+    "answers": [
+      "Le couscous",
+      "La pastilla",
+      "La chakchouka",
+      "Le tajine"
+    ],
+    "correctAnswer": 3,
+    "category": "food",
+    "subcategory": "plats-traditionnels",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "plats-traditionnels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0005",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le plat à tajine en terre cuite permet une cuisson lente préservant toutes les saveurs et les jus."
+  },
+  {
+    "id": "fin-food-0006",
+    "conceptId": "concept-fin-food-0006",
+    "familyId": "family-fin-food-0003",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle soupe provençale traditionnelle de pêcheurs marseillais se compose de poissons de roche servis avec des croûtons et de la rouille ?",
+    "answers": [
+      "La bouillabaisse",
+      "La cotriade",
+      "La soupe au pistou",
+      "La bourride"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "plats-traditionnels",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "plats-traditionnels"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0006",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La bouillabaisse marseillaise authentique intègre traditionnellement rascasse, vive, congre, grondin et saint-pierre."
+  },
+  {
+    "id": "fin-food-0007",
+    "conceptId": "concept-fin-food-0007",
+    "familyId": "family-fin-food-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est l'épice la plus chère au monde, extraite manuellement des trois stigmates séchés de la fleur de crocus ?",
+    "answers": [
+      "Le clou de girofle",
+      "La cardamome",
+      "Le safran",
+      "La vanille"
+    ],
+    "correctAnswer": 2,
+    "category": "food",
+    "subcategory": "epices",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "food",
+      "epices"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0007",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Il faut récolter délicatement à la main plus de 150 000 fleurs de Crocus sativus pour obtenir un kilogramme de safran."
+  },
+  {
+    "id": "fin-food-0008",
+    "conceptId": "concept-fin-food-0008",
+    "familyId": "family-fin-food-0004",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel dessert italien composé de biscuits imbibés de café, de crème de mascarpone et saupoudré de cacao signifie 'remonte-moi' ?",
+    "answers": [
+      "La panna cotta",
+      "Le panettone",
+      "Le tiramisu",
+      "Le cannoli"
+    ],
+    "correctAnswer": 2,
+    "category": "food",
+    "subcategory": "patisserie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "patisserie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0008",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le tiramisù tire son étymologie de la formule vénitienne 'tiramesù' ('tire-moi vers le haut' ou 'redonne-moi des forces')."
+  },
+  {
+    "id": "fin-food-0009",
+    "conceptId": "concept-fin-food-0009",
+    "familyId": "family-fin-food-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel plat emblématique de la cuisine espagnole originaire de Valence est à base de riz safrané cuit dans une grande poêle ronde ?",
+    "answers": [
+      "Le risotto",
+      "La tortilla",
+      "La paella",
+      "Le gazpacho"
+    ],
+    "correctAnswer": 2,
+    "category": "food",
+    "subcategory": "cuisine-monde",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "cuisine-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0009",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "La paella valencienne traditionnelle associe le riz rond de l'Albufera, du poulet, du lapin, des haricots et du safran."
+  },
+  {
+    "id": "fin-food-0010",
+    "conceptId": "concept-fin-food-0010",
+    "familyId": "family-fin-food-0005",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel mets traditionnel japonais est constitué de riz vinaigré surmonté ou entouré d'une tranche de poisson cru ou de fruits de mer ?",
+    "answers": [
+      "Le sushi",
+      "Le tempura",
+      "Le gyoza",
+      "Le ramen"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "cuisine-monde",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "cuisine-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0010",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le sushi dérive d'une méthode ancestrale de conservation du poisson par la fermentation du riz au Japon."
+  },
+  {
+    "id": "fin-food-0011",
+    "conceptId": "concept-fin-food-0011",
+    "familyId": "family-fin-food-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel plat mexicain traditionnel consiste en une tortilla de maïs pliée ou enroulée garnie de viandes, coriandre et oignons ?",
+    "answers": [
+      "Le taco",
+      "L'empanada",
+      "L'arepa",
+      "Le tamal"
+    ],
+    "correctAnswer": 0,
+    "category": "food",
+    "subcategory": "cuisine-monde",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "food",
+      "cuisine-monde"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0011",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le taco est un symbole universel de la street food mexicaine classée au patrimoine immatériel de l'UNESCO."
+  },
+  {
+    "id": "fin-food-0012",
+    "conceptId": "concept-fin-food-0012",
+    "familyId": "family-fin-food-0006",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel jambon cru italien de renommée mondiale est affiné lentement à l'air sec dans la région d'Émilie-Romagne ?",
+    "answers": [
+      "Le jambon Serrano",
+      "Le jambon de Bayonne",
+      "Le jambon Ibérico",
+      "Le jambon de Parme"
+    ],
+    "correctAnswer": 3,
+    "category": "food",
+    "subcategory": "charcuterie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "charcuterie"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0012",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le Prosciutto di Parma bénéficie d'une AOP stricte exigeant des porcs nés et élevés dans le nord de l'Italie."
+  },
+  {
+    "id": "fin-food-0013",
+    "conceptId": "concept-fin-food-0013",
+    "familyId": "family-fin-food-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel vin effervescent d'appellation d'origine contrôlée est produit dans le nord-est de la France selon la méthode traditionnelle ?",
+    "answers": [
+      "Le prosecco",
+      "Le cava",
+      "Le crémant",
+      "Le champagne"
+    ],
+    "correctAnswer": 3,
+    "category": "food",
+    "subcategory": "boissons",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "food",
+      "boissons"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0013",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Seuls les vins élaborés et mis en bouteille dans la région délimitée de Champagne ont le droit légal d'en porter le nom."
+  },
+  {
+    "id": "fin-food-0014",
+    "conceptId": "concept-fin-food-0014",
+    "familyId": "family-fin-food-0007",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle eau-de-vie de vin française prestigieuse à double distillation est produite en Charente et Charente-Maritime ?",
+    "answers": [
+      "L'armagnac",
+      "Le calvados",
+      "Le cognac",
+      "Le marc de Bourgogne"
+    ],
+    "correctAnswer": 2,
+    "category": "food",
+    "subcategory": "boissons",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "food",
+      "boissons"
+    ],
+    "source": {
+      "provider": "wikidata",
+      "sourceId": "fin-food-0014",
+      "url": "https://www.wikidata.org",
+      "license": "CC0"
+    },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-06",
+      "sources": [
+        "wikidata"
+      ]
+    },
+    "confidence": 0.97,
+    "qualityScore": 0.95,
+    "version": 1,
+    "explanation": "Le cognac est distillé deux fois en alambic charentais de cuivre avant un vieillissement prolongé en fûts de chêne."
+  }
+]
