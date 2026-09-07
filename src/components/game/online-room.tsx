@@ -35,10 +35,12 @@ import {
   finishRoom,
   leaveRoom,
   refreshAnswers,
+  setPlayerReady,
   type OnlineSession,
   type OnlinePlayer,
   type RoomAnswer,
 } from "@/lib/online/room";
+import { makePlayer } from "@/lib/store/game";
 import { MODE_META, QUESTION_COUNT_OPTIONS, modeLabel, categoryLabel } from "@/lib/game/modes";
 import { localizeQuestion } from "@/lib/questions/localize";
 import { useLanguageStore } from "@/lib/store/language";
@@ -239,6 +241,8 @@ export function OnlineRoom() {
       setSession(res.session);
       myPlayerRef.current = res.player;
       setMyPlayer(res.player);
+      setPlayers([res.player]);
+      setReady(true);
       localStorage.setItem("Agorax-last-room", JSON.stringify({ sessionId: res.session.id, playerId: res.player.id }));
       setView("lobby");
     } catch (e) {
@@ -260,6 +264,7 @@ export function OnlineRoom() {
       setSession(res.session);
       myPlayerRef.current = res.player;
       setMyPlayer(res.player);
+      setReady(res.player.ready === true);
       localStorage.setItem("Agorax-last-room", JSON.stringify({ sessionId: res.session.id, playerId: res.player.id }));
       setView("lobby");
     } catch (e) {
@@ -286,21 +291,49 @@ export function OnlineRoom() {
   }
 
   async function startGame(nextMode: GameMode = currentMode) {
-    if (!session || !isHost || players.length < 2 || !players.every(p => presence[p.id]?.ready)) return;
+    if (!session || !isHost || players.length < 1) return;
     setError(null);
     setBusy(true);
     try {
       clearRoundClientState();
-      const resetSession = await resetOnlineRound(session.id, nextMode);
+      let resetSession = session;
+      try {
+        resetSession = await resetOnlineRound(session.id, nextMode);
+      } catch (roundErr) {
+        console.warn("resetOnlineRound fallback direct update:", roundErr);
+        const sb = getSupabaseBrowser();
+        if (sb) {
+          const { data: updated } = await sb
+            .from("game_sessions")
+            .update({
+              phase: "lobby",
+              mode: nextMode,
+              question_index: -1,
+              current_question: null,
+              answers_revealed: false,
+              buzzer_player_id: null,
+              state_version: (session.state_version ?? 0) + 1,
+            })
+            .eq("id", session.id)
+            .select("*")
+            .single();
+          if (updated) resetSession = updated as OnlineSession;
+        }
+      }
+
       sessionRef.current = resetSession;
       setSession(resetSession);
       setCurrentMode(nextMode);
       const requestedCount = nextMode === "rapidfire" ? 20 : resetSession.question_count ?? 10;
       const gameLanguage = useLanguageStore.getState().language === "en" ? "en" : "fr";
+      const effectivePlayers = savedPlayers.length > 0
+        ? savedPlayers.slice(0, 1)
+        : [makePlayer(0, myPlayer?.name ?? pseudo)];
+
       const data = await loadGameQuestions({
         count: requestedCount,
         category: resetSession.category ?? undefined,
-        players: savedPlayers.slice(0, 1),
+        players: effectivePlayers,
         history: entries,
         sessionId: resetSession.id,
         onlineSessionId: resetSession.id,
@@ -318,7 +351,7 @@ export function OnlineRoom() {
         // localStorage non bloquant
       }
 
-      if (qs.length === 0) throw new Error("Aucune question disponible");
+      if (qs.length === 0) throw new Error(en ? "No questions available" : "Aucune question disponible");
       await hostPushQuestion(resetSession.id, qs[0], 0, false, resetSession.state_version ?? 0);
       setView("playing");
     } catch (e) {
@@ -494,7 +527,70 @@ export function OnlineRoom() {
     return () => { presenceChannel.current = null; void sb.removeChannel(channel); };
   }, [sessionId, myId, user?.avatarUrl]);
   useEffect(() => { if (presenceChannel.current) void presenceChannel.current.track({ ready, language: lang, avatarUrl: user?.avatarUrl ?? undefined }); }, [ready, lang, user?.avatarUrl]);
-  const everyoneReady = players.length >= 2 && players.every(p => presence[p.id]?.ready);
+
+  // Restauration de session active au chargement
+  useEffect(() => {
+    if (session || searchParams.get("create") === "1") return;
+    try {
+      const saved = localStorage.getItem("Agorax-last-room");
+      if (!saved) return;
+      const { sessionId: savedId, playerId: savedPid } = JSON.parse(saved);
+      if (!savedId || !savedPid) return;
+      const sb = getSupabaseBrowser();
+      if (!sb) return;
+      void Promise.all([
+        sb.from("game_sessions").select("*").eq("id", savedId).maybeSingle(),
+        sb.from("game_players").select("*").eq("id", savedPid).maybeSingle(),
+      ]).then(([{ data: s }, { data: p }]) => {
+        if (s && p && s.phase !== "finished") {
+          sessionRef.current = s as OnlineSession;
+          setSession(s as OnlineSession);
+          myPlayerRef.current = p as OnlinePlayer;
+          setMyPlayer(p as OnlinePlayer);
+          setReady(p.ready === true);
+          if (s.mode) setCurrentMode(s.mode as GameMode);
+          if (s.phase === "playing") setView("playing");
+          else setView("lobby");
+        }
+      });
+    } catch {
+      // non bloquant
+    }
+  }, [session, searchParams]);
+
+  async function toggleReady() {
+    const nextReady = !ready;
+    setReady(nextReady);
+    if (myPlayer && sessionId) {
+      setPresence((prev) => ({
+        ...prev,
+        [myPlayer.id]: {
+          ...(prev[myPlayer.id] ?? {}),
+          ready: nextReady,
+          language: lang === "en" ? "EN" : "FR",
+          avatarUrl: user?.avatarUrl ?? undefined,
+        },
+      }));
+      void setPlayerReady(sessionId, myPlayer.id, nextReady);
+    }
+    if (presenceChannel.current) {
+      void presenceChannel.current.track({
+        ready: nextReady,
+        language: lang,
+        avatarUrl: user?.avatarUrl ?? undefined,
+      });
+    }
+  }
+
+  const isPlayerReady = (p: OnlinePlayer) => {
+    if (p.id === myPlayer?.id) return ready;
+    return p.ready === true || presence[p.id]?.ready === true;
+  };
+
+  const otherPlayers = players.filter((p) => p.id !== myPlayer?.id);
+  const allOthersReady = otherPlayers.length === 0 || otherPlayers.every((p) => isPlayerReady(p));
+  const everyoneReady = players.length >= 1 && players.every((p) => isPlayerReady(p));
+  const canStart = isHost && players.length >= 1;
 
   // ---------- Vue 1 : Entrée ----------
   if (view === "entry") {
@@ -625,8 +721,141 @@ export function OnlineRoom() {
 
   // ---------- Vue 3 : Lobby Persistant ----------
   if (view === "lobby" && session) {
-    const host = players.find(p=>p.is_host);
-    return <main className="jx-page" style={{maxWidth:700}}><button className="fp-btn-ghost" onClick={()=>void leave()}><ChevronLeft size={20}/>{en?"Leave room":"Quitter le salon"}</button><header className="jx-page-title"><h1>{en?`${host?.name??pseudo}’s room`:`Le salon de ${host?.name??pseudo}`}</h1></header><section className="jx-form-card jx-aqua text-center"><p>{en?"Room code":"Code du salon"}</p><div className="jx-room-code">{session.room_code}</div><div className="jx-room-actions"><button className="fp-btn-secondary" onClick={()=>void copyCode()}>{copied?<Check size={18}/>:<Copy size={18}/>} {copied?(en?"Copied":"Copié"):(en?"Copy":"Copier")}</button><button className="fp-btn-secondary" onClick={()=>void shareRoom()}><Share2 size={18}/>{en?"Invite":"Inviter"}</button></div></section><div className="jx-section-heading"><h2>{en?"Your team":"Ton équipe"}</h2><strong>{players.length} / {session.max_players}</strong></div><div className="space-y-3">{players.map((p,i)=><div className="jx-ready-row" key={p.id}><PlayerDot name={p.name} avatarUrl={presence[p.id]?.avatarUrl??characterImage(CHARACTERS[i%5].id)} size={46}/><div><strong>{p.name}</strong> {p.is_host&&<small>· {en?"Host":"Hôte"}</small>}<br/><small>{presence[p.id]?.language??'—'} {p.id===myPlayer?.id?(en?'· You':'· Toi'):''}</small></div><span className={`jx-ready-status ${presence[p.id]?.ready?'':'waiting'}`}>{presence[p.id]?.ready?(en?'Ready ✓':'Prêt ✓'):presence[p.id]?(en?'Not ready':'Pas encore prêt'):(en?'Reconnecting…':'Reconnexion…')}</span></div>)}</div><p className="my-5 text-sm text-fp-text-dim">{en?"Everyone receives the same question in their own language.":"Chacun reçoit la même question dans sa langue."}</p><section className="jx-form-card"><div className="flex items-center justify-between gap-3"><strong>{currentMode==='agorax'?'Quiz Party · Buzzer':modeLabel(currentMode,lang)}</strong><span>{session.question_count} questions</span></div>{isHost&&<><button className="fp-btn-ghost mt-2" onClick={()=>setShowModeModal(!showModeModal)}>{en?"Change mode":"Modifier le mode"}</button>{showModeModal&&<div className="jx-topics">{AVAILABLE_ONLINE_MODES.map(m=><button key={m} aria-pressed={currentMode===m} onClick={()=>void handleChangeMode(m)}>{m==='agorax'?'Buzzer':modeLabel(m,lang)}</button>)}</div>}</>}</section><button className="fp-btn-secondary w-full" aria-pressed={ready} onClick={()=>setReady(v=>!v)}>{ready?<Check size={18}/>:null}{ready?(en?'Ready! Tap to cancel':'Je suis prêt ! Annuler'):(en?'I’m ready':'Je suis prêt')}</button>{isHost?<button className="fp-btn-primary mt-3 w-full" disabled={!everyoneReady||busy} onClick={()=>void startGame()}>{busy?(en?'Preparing…':'Préparation…'):everyoneReady?(en?'Start game':'Lancer la partie'):(en?'Waiting for players':'En attente des joueurs')}<ArrowRight size={18}/></button>:<p role="status" className="text-center mt-5 text-sm">{en?'The host will start when everyone is ready.':'L’hôte lancera la partie quand tout le monde sera prêt.'}</p>}{error&&<p role="alert" className="jx-error mt-4">{error}</p>}</main>;
+    const host = players.find((p) => p.is_host);
+    return (
+      <main className="jx-page" style={{ maxWidth: 700 }}>
+        <button className="fp-btn-ghost" onClick={() => void leave()}>
+          <ChevronLeft size={20} />
+          {en ? "Leave room" : "Quitter le salon"}
+        </button>
+
+        <header className="jx-page-title">
+          <h1>{en ? `${host?.name ?? pseudo}’s room` : `Le salon de ${host?.name ?? pseudo}`}</h1>
+        </header>
+
+        <section className="jx-form-card jx-aqua text-center">
+          <p>{en ? "Room code" : "Code du salon"}</p>
+          <div className="jx-room-code">{session.room_code}</div>
+          <div className="jx-room-actions">
+            <button className="fp-btn-secondary" onClick={() => void copyCode()}>
+              {copied ? <Check size={18} /> : <Copy size={18} />}
+              {copied ? (en ? "Copied" : "Copié") : (en ? "Copy" : "Copier")}
+            </button>
+            <button className="fp-btn-secondary" onClick={() => void shareRoom()}>
+              <Share2 size={18} />
+              {en ? "Invite" : "Inviter"}
+            </button>
+          </div>
+        </section>
+
+        <div className="jx-section-heading">
+          <h2>{en ? "Your team" : "Ton équipe"}</h2>
+          <strong>{players.length} / {session.max_players}</strong>
+        </div>
+
+        <div className="space-y-3">
+          {players.map((p, i) => {
+            const readyStatus = isPlayerReady(p);
+            return (
+              <div className="jx-ready-row" key={p.id}>
+                <PlayerDot
+                  name={p.name}
+                  avatarUrl={presence[p.id]?.avatarUrl ?? characterImage(CHARACTERS[i % 5].id)}
+                  size={46}
+                />
+                <div>
+                  <strong>{p.name}</strong> {p.is_host && <small>· {en ? "Host" : "Hôte"}</small>}
+                  <br />
+                  <small>
+                    {presence[p.id]?.language ?? "—"} {p.id === myPlayer?.id ? (en ? "· You" : "· Toi") : ""}
+                  </small>
+                </div>
+                <span className={`jx-ready-status ${readyStatus ? "" : "waiting"}`}>
+                  {readyStatus ? (en ? "Ready ✓" : "Prêt ✓") : (en ? "Not ready" : "Pas encore prêt")}
+                </span>
+              </div>
+            );
+          })}
+        </div>
+
+        <p className="my-5 text-sm text-fp-text-dim">
+          {en ? "Everyone receives the same question in their own language." : "Chacun reçoit la même question dans sa langue."}
+        </p>
+
+        <section className="jx-form-card">
+          <div className="flex items-center justify-between gap-3">
+            <strong>{currentMode === "agorax" ? "Quiz Party · Buzzer" : modeLabel(currentMode, lang)}</strong>
+            <span>{session.question_count} questions</span>
+          </div>
+          {isHost && (
+            <>
+              <button className="fp-btn-ghost mt-2" onClick={() => setShowModeModal(!showModeModal)}>
+                {en ? "Change mode" : "Modifier le mode"}
+              </button>
+              {showModeModal && (
+                <div className="jx-topics">
+                  {AVAILABLE_ONLINE_MODES.map((m) => (
+                    <button key={m} aria-pressed={currentMode === m} onClick={() => void handleChangeMode(m)}>
+                      {m === "agorax" ? "Buzzer" : modeLabel(m, lang)}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </>
+          )}
+        </section>
+
+        <button
+          className="fp-btn-secondary w-full"
+          aria-pressed={ready}
+          onClick={() => void toggleReady()}
+        >
+          {ready ? <Check size={18} /> : null}
+          {ready ? (en ? "Ready! Tap to cancel" : "Je suis prêt ! Annuler") : (en ? "I’m ready" : "Je suis prêt")}
+        </button>
+
+        {isHost ? (
+          <div className="mt-3 space-y-2">
+            <button
+              className="fp-btn-primary w-full py-4 text-[16px] font-bold flex items-center justify-center gap-2"
+              disabled={!canStart || busy}
+              onClick={() => void startGame()}
+            >
+              {busy
+                ? (en ? "Preparing…" : "Préparation…")
+                : players.length === 1
+                  ? (en ? "Start game (solo / test)" : "Lancer la partie (solo / test)")
+                  : allOthersReady
+                    ? (en ? "Start game" : "Lancer la partie")
+                    : (en ? "Start game" : "Lancer la partie")}
+              <ArrowRight size={18} />
+            </button>
+            {players.length === 1 && (
+              <p className="text-center text-xs text-fp-text-dim">
+                {en
+                  ? "💡 You can invite friends with the code above or play right away."
+                  : "💡 Tu peux inviter tes amis avec le code ci-dessus ou lancer directement."}
+              </p>
+            )}
+            {players.length > 1 && !allOthersReady && (
+              <p className="text-center text-xs text-fp-text-dim">
+                {en
+                  ? `Waiting for ${otherPlayers.filter((p) => !isPlayerReady(p)).length} player(s) to be ready, but you can start anytime.`
+                  : `En attente de ${otherPlayers.filter((p) => !isPlayerReady(p)).length} joueur(s), mais tu peux lancer à tout moment.`}
+              </p>
+            )}
+          </div>
+        ) : (
+          <p role="status" className="text-center mt-5 text-sm text-fp-text-dim">
+            {isPlayerReady(myPlayer ?? ({} as OnlinePlayer))
+              ? (en ? "You’re ready! The host will start when everyone is set." : "Tu es prêt ! L’hôte va lancer la partie.")
+              : (en ? "The host will start when everyone is ready." : "L’hôte lancera la partie quand tout le monde sera prêt.")}
+          </p>
+        )}
+
+        {error && <p role="alert" className="jx-error mt-4">{error}</p>}
+      </main>
+    );
   }
 
   // ---------- Vue 4 : En Jeu ----------

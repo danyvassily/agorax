@@ -54,6 +54,7 @@ export interface OnlinePlayer {
   name: string;
   is_host: boolean;
   score: number;
+  ready?: boolean;
 }
 
 export interface RoomAnswer {
@@ -167,9 +168,10 @@ export async function createRoom(
     .insert({
       session_id: session.id,
       user_id: identity.userId,
-        name: identity.name,
-        is_host: true,
-        profile_id: identity.profileId,
+      name: identity.name,
+      is_host: true,
+      ready: true,
+      profile_id: identity.profileId,
     });
   if (err2) throw err2;
 
@@ -527,4 +529,16 @@ export async function leaveRoom(sessionId: string, playerId: string): Promise<vo
   if (error) throw new Error(`Impossible de quitter le salon : ${error.message}`);
 }
 
+/** Met à jour l'état prêt d'un joueur dans la base */
+export async function setPlayerReady(sessionId: string, playerId: string, ready: boolean): Promise<void> {
+  const sb = getSupabaseBrowser();
+  if (!sb) return;
+  try {
+    await sb.from("game_players").update({ ready }).eq("id", playerId).eq("session_id", sessionId);
+  } catch (error) {
+    console.warn("[room] setPlayerReady non bloquant:", error);
+  }
+}
+
 export { isSupabaseConfigured };
+
