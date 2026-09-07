@@ -159,6 +159,7 @@ export interface AuthState {
     language?: UILanguage;
   }) => Promise<{ user: AuthUser; message?: string }>;
   signIn: (params: { email: string; password: string }) => Promise<AuthUser>;
+  signInWithGoogle: () => Promise<void>;
   signOut: () => Promise<void>;
   requestPasswordReset: (email: string) => Promise<void>;
   changePassword: (params: { currentPassword: string; newPassword: string }) => Promise<void>;
@@ -447,6 +448,25 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     setCachedProfileId(activeUser.id);
     safeSetStorage(LOCAL_AUTH_KEY, JSON.stringify(activeUser));
     return activeUser;
+  },
+
+  signInWithGoogle: async () => {
+    const sb = getSupabaseBrowser();
+    if (!sb || !isSupabaseConfigured) {
+      throw new Error("Supabase n'est pas configuré");
+    }
+    const redirectTo =
+      typeof window !== "undefined"
+        ? `${window.location.origin}/auth/callback`
+        : undefined;
+
+    const { error } = await sb.auth.signInWithOAuth({
+      provider: "google",
+      options: {
+        redirectTo,
+      },
+    });
+    if (error) throw error;
   },
 
   signOut: async () => {
