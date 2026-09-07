@@ -169,10 +169,30 @@ export interface AuthState {
   updateLanguage: (newLang: UILanguage) => Promise<void>;
 }
 
+function getInitialGuestUser(): AuthUser {
+  if (typeof window !== "undefined") {
+    const cached = safeGetStorage(LOCAL_AUTH_KEY);
+    if (cached) {
+      try {
+        return JSON.parse(cached) as AuthUser;
+      } catch {}
+    }
+  }
+  return {
+    id: "guest",
+    name: "Joueur",
+    isAnonymous: true,
+    avatarColor: 0,
+    avatarUrl: null,
+  };
+}
+
+let isRefreshing = false;
+
 export const useAuthStore = create<AuthState>((set, get) => ({
-  user: null,
-  loading: true,
-  isLoggedIn: false,
+  user: getInitialGuestUser(),
+  loading: false,
+  isLoggedIn: typeof window !== "undefined" && !getInitialGuestUser().isAnonymous,
 
   refreshUser: async () => {
     if (typeof window === "undefined") {
@@ -180,7 +200,8 @@ export const useAuthStore = create<AuthState>((set, get) => ({
       return;
     }
 
-    set({ loading: true });
+    if (isRefreshing) return;
+    isRefreshing = true;
 
     try {
       const sb = getSupabaseBrowser();
@@ -282,6 +303,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     } catch (err) {
       console.error("[useAuth] Erreur lors du chargement:", err);
     } finally {
+      isRefreshing = false;
       set({ loading: false });
     }
   },
@@ -593,9 +615,12 @@ export function AuthHydrator() {
 
     const sb = getSupabaseBrowser();
     if (sb && isSupabaseConfigured) {
-      const { data: sub } = sb.auth.onAuthStateChange((event) => {
+      const { data: sub } = sb.auth.onAuthStateChange((event, session) => {
         if (event === "PASSWORD_RECOVERY" && typeof window !== "undefined") {
           markPasswordRecoveryStarted();
+        }
+        if (event === "SIGNED_IN" && session?.user?.is_anonymous) {
+          return;
         }
         if (
           event === "SIGNED_IN" ||
