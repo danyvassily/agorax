@@ -87,6 +87,7 @@ export function AgoraxGame() {
             id: p.id,
             name: p.name,
             avatarColor: p.color,
+            language: p.language,
           })),
         });
 
@@ -759,7 +760,7 @@ export function AgoraxGame() {
                         uiLanguage: language,
                         gameLanguage: config?.gameLanguage ?? "fr",
                         languageMode: config?.languageMode ?? "shared",
-                        playerLanguage: activePlayer?.id,
+                        playerLanguage: activePlayer?.language,
                         playerId: activePlayer?.id,
                         sourceFile: rawCurrentQ?.source?.provider,
                         timestamp: new Date().toISOString(),

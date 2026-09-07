@@ -41,6 +41,7 @@ export interface AgoraxPlayer {
   wrongAnswers: number;
   stealsCount: number;
   fastBonusTotal: number;
+  language?: "fr" | "en";
 }
 
 export interface LaLigneState {
@@ -93,7 +94,7 @@ export const LALIGNE_TIMER_SECONDS = 90;
 export function createInitialAgoraxState(options: {
   duration?: AgoraxDuration;
   thematicCategory?: QuestionCategory | "mixed";
-  players: Array<{ id: string; name: string; specialtyId?: string; avatarColor?: number; isHost?: boolean }>;
+  players: Array<{ id: string; name: string; specialtyId?: string; avatarColor?: number; isHost?: boolean; language?: "fr" | "en" }>;
 }): AgoraxGameState {
   const duration = options.duration ?? "express";
   const totalRounds = duration === "express" ? 3 : 5;
@@ -112,6 +113,7 @@ export function createInitialAgoraxState(options: {
     wrongAnswers: 0,
     stealsCount: 0,
     fastBonusTotal: 0,
+    language: p.language,
   }));
 
   return {
