@@ -10,7 +10,7 @@ const CHALLENGES = [
   ["Quel nombre manque : 3, 6, 11, 18, ?", "Which number is missing: 3, 6, 11, 18, ?", ["25", "26", "27", "29"], 1],
   ["Un cube a 6 faces. Combien d'arêtes possède-t-il ?", "A cube has 6 faces. How many edges does it have?", ["8", "10", "12", "14"], 2],
   ["Quel mot est différent des autres ?", "Which word is different from the others?", ["Carré / Square", "Triangle", "Cercle / Circle", "Cube / Cube"], 3],
-  ["Si A=1, B=2, combien vaut JOUXTA ?", "If A=1, B=2, what is JOUXTA?", ["75", "76", "77", "78"], 2],
+  ["Si A=1, B=2, combien vaut AGORAX ?", "If A=1, B=2, what is AGORAX?", ["64", "65", "66", "68"], 2],
   ["Un train met 2 h pour parcourir 120 km. Quelle est sa vitesse ?", "A train takes 2 hours to travel 120 km. What is its speed?", ["50 km/h", "60 km/h", "80 km/h", "120 km/h"], 1],
   ["Quel est l'intrus : 1, 3, 5, 8, 9 ?", "Which is the odd one out: 1, 3, 5, 8, 9?", ["1", "3", "8", "9"], 2],
 ] as const;

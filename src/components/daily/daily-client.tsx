@@ -67,10 +67,10 @@ export function DailyClient({ questions, dateString }: DailyClientProps) {
   }
 
   async function handleShare() {
-    const shareText = `🧠 JOUXTA ${dateString}\n${store.lastResultGrid} (${store.lastScore}/${Array.from(store.lastResultGrid).length})\n🔥 ${t("Série", "Streak")}: ${store.currentStreak}\n${window.location.origin}/daily`;
+    const shareText = `🧠 AGORAX ${dateString}\n${store.lastResultGrid} (${store.lastScore}/${Array.from(store.lastResultGrid).length})\n🔥 ${t("Série", "Streak")}: ${store.currentStreak}\n${window.location.origin}/daily`;
     try {
       if (navigator.share) {
-        await navigator.share({ title: "JOUXTA", text: shareText });
+        await navigator.share({ title: "AGORAX", text: shareText });
         return;
       }
       await navigator.clipboard.writeText(shareText);

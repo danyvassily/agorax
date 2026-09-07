@@ -444,7 +444,7 @@ export function OnlineRoom() {
     if (!session) return;
     const url = `${window.location.origin}/play/online?room=${encodeURIComponent(session.room_code)}`;
     try {
-      if (navigator.share) await navigator.share({ title: "JOUXTA", text: en ? "Join my game!" : "Rejoins ma partie !", url });
+      if (navigator.share) await navigator.share({ title: "AGORAX", text: en ? "Join my game!" : "Rejoins ma partie !", url });
       else { await navigator.clipboard.writeText(url); setCopied(true); setTimeout(() => setCopied(false), 1800); }
     } catch (e) { if (!(e instanceof Error && e.name === "AbortError")) setError(en ? "Copy the room code to invite your friends." : "Copie le code du salon pour inviter tes amis."); }
   }

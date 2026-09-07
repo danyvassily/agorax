@@ -165,7 +165,7 @@ export function generatePsychoShareText(profile: PsychoProfileResult, playerName
   const s = profile.secondaryArchetype;
 
   return [
-    `🎭 Profil Psycho (${playerName}) sur JOUXTA`,
+    `🎭 Profil Psycho (${playerName}) sur AGORAX`,
     `Jeu de soirée — résultat ludique, sans valeur diagnostique.`,
     `──────────────────────────`,
     `${p.emoji} Archétype Majeur : ${p.name} (${profile.primaryPercentage}%)`,
@@ -185,6 +185,6 @@ export function generatePsychoShareText(profile: PsychoProfileResult, playerName
     `❤️ Binôme Idéal : ${p.idealPair.name}`,
     `⚡ Némésis Toxique : ${p.nemesisPair.name}`,
     `──────────────────────────`,
-    `Découvre ton profil sur JOUXTA ! 🎮`,
+    `Découvre ton profil sur AGORAX ! 🎮`,
   ].join("\n");
 }

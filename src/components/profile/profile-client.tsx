@@ -97,7 +97,7 @@ function ProfileEditor({ user, character }: { user: AuthUser; character?: string
   return (
     <>
       <header className="jx-page-title">
-        <span className="jx-eyebrow">{en ? 'YOUR CORNER OF JOUXTA' : 'TON COIN À TOI'}</span>
+        <span className="jx-eyebrow">{en ? 'YOUR CORNER OF AGORAX' : 'TON COIN À TOI'}</span>
         <h1>{en ? 'My profile' : 'Mon profil'}</h1>
       </header>
 
@@ -185,7 +185,7 @@ function ProfileEditor({ user, character }: { user: AuthUser; character?: string
           <h2>{name}</h2>
           <p>
             {isLoggedIn
-              ? (en ? 'Your JOUXTA account' : 'Ton compte JOUXTA')
+              ? (en ? 'Your AGORAX account' : 'Ton compte AGORAX')
               : (en ? 'Guest · Saved on this device' : 'Invité · Enregistré sur cet appareil')}
           </p>
           <button disabled={reading || busy} className="fp-btn-secondary" onClick={() => fileInput.current?.click()}>

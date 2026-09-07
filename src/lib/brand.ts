@@ -4,12 +4,12 @@
  */
 
 export const BRAND = {
-  name: "JOUXTA",
-  fullName: "JOUXTA",
+  name: "AGORAX",
+  fullName: "AGORAX",
   tagline: "Joue. Connais. Débats.",
-  shortName: "JOUXTA",
+  shortName: "AGORAX",
   creator: "dany vassiliakos",
-  footerCredits: "JOUXTA designé par dany vassiliakos",
+  footerCredits: "AGORAX designé par dany vassiliakos",
   /** Messages d'attente légers pour les écrans de chargement */
   loadingMessages: [
     "Préparation des questions…",

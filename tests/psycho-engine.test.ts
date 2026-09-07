@@ -124,7 +124,7 @@ describe("Psycho Mode — Moteur de Calcul (Engine)", () => {
     const profile = calculatePsychoProfile(answers);
     const text = generatePsychoShareText(profile, "Alex");
 
-    expect(text).toContain("Profil Psycho (Alex) sur JOUXTA");
+    expect(text).toContain("Profil Psycho (Alex) sur AGORAX");
     expect(text).toContain(profile.primaryArchetype.name);
     expect(text).toContain(profile.secondaryArchetype.name);
     expect(text).toContain("Super-Pouvoir :");

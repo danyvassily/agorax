@@ -7,7 +7,7 @@ import { PlayerDot } from '@/components/ui/primitives';
 import { useLanguageStore } from '@/lib/store/language';
 
 export function BrandMark({compact=false}:{compact?:boolean}) {
-  return <Link href="/" className="jx-wordmark" aria-label="JOUXTA">{compact?'JX':'JOUXTA'}</Link>;
+  return <Link href="/" className="jx-wordmark" aria-label="AGORAX">{compact?'AGX':'AGORAX'}</Link>;
 }
 
 export function AppNavigation() {
