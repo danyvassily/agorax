@@ -7,10 +7,10 @@ import type { Question } from "@/lib/questions/schema";
 describe("Partie multilingue : 1 joueur Anglais + 3 joueurs Français sur 5 questions", () => {
   // Définition des 4 joueurs
   const players: Player[] = [
-    { id: "p1", name: "Alice (EN)", score: 0, streak: 0, bestStreak: 0, language: "en" },
-    { id: "p2", name: "Bob (FR)", score: 0, streak: 0, bestStreak: 0, language: "fr" },
-    { id: "p3", name: "Chloé (FR)", score: 0, streak: 0, bestStreak: 0, language: "fr" },
-    { id: "p4", name: "David (FR)", score: 0, streak: 0, bestStreak: 0, language: "fr" },
+    { id: "p1", profileToken: "tok-1", name: "Alice (EN)", color: 0, score: 0, correct: 0, wrong: 0, language: "en" },
+    { id: "p2", profileToken: "tok-2", name: "Bob (FR)", color: 1, score: 0, correct: 0, wrong: 0, language: "fr" },
+    { id: "p3", profileToken: "tok-3", name: "Chloé (FR)", color: 2, score: 0, correct: 0, wrong: 0, language: "fr" },
+    { id: "p4", profileToken: "tok-4", name: "David (FR)", color: 3, score: 0, correct: 0, wrong: 0, language: "fr" },
   ];
 
   // Chargement des catalogues français et anglais

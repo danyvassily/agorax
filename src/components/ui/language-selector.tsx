@@ -29,35 +29,35 @@ export function LanguageSelector({
   if (variant === "compact") {
     return (
       <div
-        className={`inline-flex items-center rounded-xl bg-black/[0.05] p-0.5 text-xs font-bold ${className}`}
+        className={`inline-flex items-center rounded-xl bg-black/[0.05] p-0.5 text-xs font-bold shrink-0 ${className}`}
         role="group"
         aria-label="Sélection de la langue / Language selection"
       >
         <button
           type="button"
           onClick={() => void handleSelect("fr")}
-          className={`flex items-center gap-1 rounded-lg px-2 py-1 transition-all ${
+          className={`flex items-center gap-0.5 sm:gap-1 rounded-lg px-1.5 sm:px-2 py-1 transition-all shrink-0 ${
             language === "fr"
               ? "bg-white text-fp-text shadow-xs"
               : "text-fp-text-dim hover:text-fp-text"
           }`}
           aria-pressed={language === "fr"}
         >
-          <span className="text-sm">🇫🇷</span>
-          <span>FR</span>
+          <span className="text-xs sm:text-sm">🇫🇷</span>
+          <span className="text-[11px] sm:text-xs">FR</span>
         </button>
         <button
           type="button"
           onClick={() => void handleSelect("en")}
-          className={`flex items-center gap-1 rounded-lg px-2 py-1 transition-all ${
+          className={`flex items-center gap-0.5 sm:gap-1 rounded-lg px-1.5 sm:px-2 py-1 transition-all shrink-0 ${
             language === "en"
               ? "bg-white text-fp-text shadow-xs"
               : "text-fp-text-dim hover:text-fp-text"
           }`}
           aria-pressed={language === "en"}
         >
-          <span className="text-sm">🇬🇧</span>
-          <span>EN</span>
+          <span className="text-xs sm:text-sm">🇬🇧</span>
+          <span className="text-[11px] sm:text-xs">EN</span>
         </button>
       </div>
     );

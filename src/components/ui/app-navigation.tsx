@@ -8,7 +8,7 @@ import { useLanguageStore } from '@/lib/store/language';
 import { LanguageSelector } from '@/components/ui/language-selector';
 
 export function BrandMark({compact=false}:{compact?:boolean}) {
-  return <Link href="/" className="jx-wordmark" aria-label="AGORAX">{compact?'AGX':'AGORAX'}</Link>;
+  return <Link href="/" className="jx-wordmark shrink-0" aria-label="AGORAX">{compact?'AGX':'AGORAX'}</Link>;
 }
 
 export function AppNavigation() {
@@ -75,12 +75,12 @@ export function AppNavigation() {
           <nav aria-label={en ? 'Main navigation' : 'Navigation principale'} className="jx-desktop-nav">
             {links}
           </nav>
-          <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             <LanguageSelector variant="compact" />
             {!isLoggedIn ? (
               <Link
                 href="/auth"
-                className="fp-btn-primary text-xs py-2 px-3.5 flex items-center gap-1.5 shadow-sm"
+                className="hidden sm:flex fp-btn-primary text-xs py-2 px-3.5 items-center gap-1.5 shadow-sm shrink-0"
               >
                 <LogIn size={15} />
                 <span>{en ? 'Sign in' : 'Connexion'}</span>
@@ -89,13 +89,13 @@ export function AppNavigation() {
             <Link
               href="/profile"
               aria-label={en ? 'My profile' : 'Mon profil'}
-              className="jx-profile-link"
+              className="jx-profile-link shrink-0"
               title={isLoggedIn ? (user?.email || user?.name || 'Profil') : (en ? 'Guest profile' : 'Profil invité')}
             >
               <PlayerDot
                 name={user?.name ?? 'J'}
                 avatarUrl={user?.avatarUrl ?? '/images/team/milo.png'}
-                size={40}
+                size={38}
               />
             </Link>
           </div>

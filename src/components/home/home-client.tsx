@@ -27,12 +27,12 @@ export function HomeClient() {
 
         {/* Bannière Connexion / Inscription si non connecté */}
         {!isLoggedIn && (
-          <section className="mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 rounded-3xl border border-black/5 bg-gradient-to-r from-orange-50/70 via-white to-pink-50/50 p-5 shadow-xs">
-            <div className="flex items-center gap-3.5">
+          <section className="mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 rounded-3xl border border-black/5 bg-gradient-to-r from-orange-50/70 via-white to-pink-50/50 p-4 sm:p-5 shadow-xs max-w-full overflow-hidden">
+            <div className="flex items-center gap-3.5 min-w-0">
               <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-orange-100 text-orange-600">
                 <Sparkles size={22} />
               </div>
-              <div>
+              <div className="min-w-0">
                 <h2 className="text-sm font-black text-fp-text">
                   {en ? 'Play online & save your stats' : 'Joue en ligne et sauvegarde tes statistiques'}
                 </h2>
@@ -43,7 +43,7 @@ export function HomeClient() {
                 </p>
               </div>
             </div>
-            <div className="flex items-center gap-2.5 w-full sm:w-auto">
+            <div className="flex flex-wrap sm:flex-nowrap items-center gap-2.5 w-full sm:w-auto shrink-0">
               <button
                 type="button"
                 onClick={() => void signInWithGoogle()}
