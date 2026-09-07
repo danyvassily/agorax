@@ -18,6 +18,7 @@ import {
 } from "@/lib/questions/question-client";
 import { useLanguageStore } from "@/lib/store/language";
 import { localizeQuestion } from "@/lib/questions/localize";
+import { translate } from "@/lib/i18n";
 import { CATEGORY_LABELS } from "@/lib/game/modes";
 import { ProgressRing, TimerBar, Confetti, PlayerDot, PillBadge } from "@/components/ui/primitives";
 import { KawaiiMascot } from "@/components/ui/kawaii-mascot";
@@ -78,11 +79,19 @@ export function QuizGame({ mode }: QuizGameProps) {
   const en = playerLanguage === "en";
   const tr = (fr:string, english:string) => en ? english : fr;
   const currentRaw = questions[index];
-  // Question affichée dans la langue choisie (repli français) ; l'index de
-  // bonne réponse est identique dans toutes les langues.
+
+  // Règle d'or de l'architecture langue :
+  // En mode "shared" (défaut), la question est strictement rendue dans config.gameLanguage.
+  // En mode "per-player", chaque joueur voit sa propre langue préférée (si bilingue/traduit).
+  const effectiveGameLanguage = config?.gameLanguage ?? "fr";
+  const effectiveLanguageMode = config?.languageMode ?? "shared";
+  const renderedQuestionLanguage = effectiveLanguageMode === "per-player"
+    ? (activePlayer?.language ?? effectiveGameLanguage)
+    : effectiveGameLanguage;
+
   const current = useMemo(
-    () => (currentRaw ? { ...currentRaw, ...localizeQuestion(currentRaw, playerLanguage) } : undefined),
-    [currentRaw, playerLanguage],
+    () => (currentRaw ? { ...currentRaw, ...localizeQuestion(currentRaw, renderedQuestionLanguage) } : undefined),
+    [currentRaw, renderedQuestionLanguage],
   );
   const isLast = index >= questions.length - 1;
 
@@ -121,6 +130,10 @@ export function QuizGame({ mode }: QuizGameProps) {
         setReportOpen(false);
         setReportDone(false);
         answeredRef.current = false;
+        const gameLanguage = config?.gameLanguage ?? "fr";
+        const languageMode = config?.languageMode ?? "shared";
+        const requireBilingual = languageMode === "per-player" && players.some(p => (p.language ?? lang) !== (players[0]?.language ?? lang));
+
         const data = await loadGameQuestions({
           count: mode === "rapidfire" ? 20 : mode === "truefalse" ? 10 : config?.questionCount ?? 10,
           category: config?.category,
@@ -128,8 +141,10 @@ export function QuizGame({ mode }: QuizGameProps) {
           players,
           history: entries,
           sessionId,
-          language: players.every(p => (p.language ?? lang) === "en") ? "en" : "fr",
-          requireBilingual: players.some(p => (p.language ?? lang) === "en") && players.some(p => (p.language ?? lang) === "fr"),
+          gameLanguage,
+          languageMode,
+          language: gameLanguage,
+          requireBilingual,
           ai: false,
         });
         if (cancelled) return;
@@ -555,25 +570,40 @@ export function QuizGame({ mode }: QuizGameProps) {
       {reportOpen && (
         <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/30 p-4 sm:items-center" role="dialog" aria-modal="true" aria-label="Signaler la question">
           <div className="fp-card w-full max-w-md p-5 animate-pop">
-            <h3 className="text-[17px] font-semibold text-fp-text">Signaler cette question</h3>
+            <h3 className="text-[17px] font-semibold text-fp-text">{tr("Signaler cette question", "Report this question")}</h3>
             <div className="mt-4 grid grid-cols-1 gap-1.5">
               {REPORT_REASONS.map((r) => (
                 <button
                   key={r}
                   type="button"
                   onClick={() => {
-                    addReport(current.id, r);
+                    if (current) {
+                      addReport(current.id, r, undefined, {
+                        gameId: sessionId,
+                        questionId: current.id,
+                        catalogLanguage: currentRaw?.language,
+                        requestedLanguage: effectiveGameLanguage,
+                        renderedLanguage: renderedQuestionLanguage,
+                        uiLanguage: lang,
+                        gameLanguage: effectiveGameLanguage,
+                        languageMode: effectiveLanguageMode,
+                        playerLanguage: activePlayer?.language,
+                        playerId: activePlayer?.id,
+                        sourceFile: currentRaw?.source?.provider,
+                        timestamp: new Date().toISOString(),
+                      });
+                    }
                     setReportOpen(false);
                     setReportDone(true);
                   }}
                   className="rounded-xl bg-black/[0.03] px-4 py-2.5 text-left text-[14px] font-medium text-fp-text transition-colors hover:bg-black/[0.06]"
                 >
-                  {r.replace(/-/g, " ")}
+                  {translate(en ? "en" : "fr", `report.reason.${r}`)}
                 </button>
               ))}
             </div>
             <button type="button" onClick={() => setReportOpen(false)} className="fp-btn-ghost mt-3 w-full py-2.5 text-[15px]">
-              Annuler
+              {tr("Annuler", "Cancel")}
             </button>
           </div>
         </div>

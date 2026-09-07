@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0308",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Which is the wrong statement about chinchilla breeding?",
+    "question": "Quelle affirmation sur la reproduction du chinchilla est erronée ?",
     "answers": [
-      "Chinchilla litters predominately consist of twins.",
-      "Little chinchillas are born furred and with eyes open.",
-      "Chinchillas can breed any time of the year.",
-      "Chinchillas have a 45-day gestation period."
+      "Les portées se composent majoritairement de jumeaux",
+      "Les petits naissent avec des poils et les yeux ouverts",
+      "Ils peuvent se reproduire à n'importe quelle saison",
+      "La gestation ne dure que 45 jours"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0311",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Name the two types of Chinese Crested dogs. ?",
+    "question": "Quelles sont les deux variétés officielles du chien chinois à crête ?",
     "answers": [
-      "Hairless and Hound",
-      "Sporty and Spotted",
-      "Hairless and Powderpuff",
-      "Water and Runner"
+      "Nu et courant",
+      "Sportif et tacheté",
+      "Nu et houppette à poudre (Powderpuff)",
+      "Aquatique et coureur"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0311",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Which breed group does the Chinese Crested dog belong to?",
+    "question": "À quel groupe canin appartient le chien chinois à crête ?",
     "answers": [
-      "Toy",
-      "Hound",
-      "Non-Sprint",
-      "Sporting"
+      "Chiens de compagnie (Toy)",
+      "Chiens courants",
+      "Chiens de travail",
+      "Chiens de chasse"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0318",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What eminent musician released his album The Fox in 1981?",
+    "question": "Quel chanteur célèbre a sorti l'album 'The Fox' en 1981 ?",
     "answers": [
       "Julio Iglesias",
       "Barry White",
       "Elton John",
-      "Tom Johnes"
+      "Tom Jones"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0324",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How did Hummingbirds get their interesting name?",
+    "question": "Pourquoi les colibris sont-ils appelés 'hummingbirds' en anglais ?",
     "answers": [
-      "Because of their singing",
-      "Because of the noise they produce when they fly",
-      "They are named after their discoverer, Michael Hummings.",
-      "None of these"
+      "Pour la beauté de leur chant",
+      "Pour le bourdonnement produit par leurs battements d'ailes",
+      "En hommage à Michael Hummings",
+      "Aucune de ces réponses"
     ],
     "correctAnswer": 1,
     "category": "animaux",

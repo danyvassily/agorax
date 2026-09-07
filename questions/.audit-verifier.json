@@ -1,55 +1,73 @@
 {
-  "generatedAt": "2026-09-02T17:09:39.605Z",
-  "total": 2081,
+  "generatedAt": "2026-09-07T17:41:55.892Z",
+  "total": 3364,
   "seeds": 29,
-  "corrected": 6,
-  "corrections": [
-    {
-      "id": "tv-breaking-bad-actor",
-      "from": 1,
-      "to": 3,
-      "text": "Bryan Cranston"
-    },
-    {
-      "id": "tv-got-valar",
-      "from": 3,
-      "to": 1,
-      "text": "Valar morghulis"
-    },
-    {
-      "id": "tv-friends-city",
-      "from": 1,
-      "to": 3,
-      "text": "New York"
-    },
-    {
-      "id": "tv-simpsons-homer",
-      "from": 3,
-      "to": 1,
-      "text": "Homer"
-    },
-    {
-      "id": "tv-simpsons-creator",
-      "from": 1,
-      "to": 3,
-      "text": "Matt Groening"
-    },
-    {
-      "id": "tv-stranger-things-town",
-      "from": 3,
-      "to": 1,
-      "text": "Hawkins"
-    }
-  ],
+  "corrected": 0,
+  "corrections": [],
   "notFound": [],
-  "riskyCount": 912,
-  "highRiskCount": 43,
+  "riskyCount": 1554,
+  "highRiskCount": 121,
   "highRisk": [
     {
-      "id": "film-forrest-gump-actor",
+      "id": "animaux-dump2-0656",
+      "category": "animaux",
+      "markedIdx": 1,
+      "marked": "In other birds nests",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "art-archi-0005",
+      "category": "art",
+      "markedIdx": 3,
+      "marked": "Le plateau de Gizeh",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "fin-art-0007",
+      "category": "art",
+      "markedIdx": 1,
+      "marked": "Le Metropolitan Museum of Art",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "film-millennium-falcon",
+      "category": "cinema",
+      "markedIdx": 3,
+      "marked": "Le Faucon Millenium",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "film-reine-neiges-soeurs",
       "category": "cinema",
       "markedIdx": 1,
-      "marked": "Big",
+      "marked": "La Reine des neiges",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "film-matrix-neo",
+      "category": "cinema",
+      "markedIdx": 1,
+      "marked": "Néo",
       "risks": [
         "reponse-trop-courte",
         "position-1ou3"
@@ -57,54 +75,10 @@
       "riskScore": 0.5
     },
     {
-      "id": "film-amelie-arrondissement",
+      "id": "film-oscars-record-11",
       "category": "cinema",
       "markedIdx": 3,
-      "marked": "Saint-Germain-des-Prés",
-      "risks": [
-        "reponse-trop-longue",
-        "position-1ou3"
-      ],
-      "riskScore": 0.5
-    },
-    {
-      "id": "film-bienvenue-chtis-record",
-      "category": "cinema",
-      "markedIdx": 3,
-      "marked": "Astérix et Obélix : Mission Cléopâtre",
-      "risks": [
-        "reponse-trop-longue",
-        "position-1ou3"
-      ],
-      "riskScore": 0.5
-    },
-    {
-      "id": "cg-sci-azote",
-      "category": "culture-generale",
-      "markedIdx": 3,
-      "marked": "Le dioxyde de carbone",
-      "risks": [
-        "reponse-trop-longue",
-        "position-1ou3"
-      ],
-      "riskScore": 0.5
-    },
-    {
-      "id": "cg-sport-foot",
-      "category": "culture-generale",
-      "markedIdx": 1,
-      "marked": "Le hockey sur gazon",
-      "risks": [
-        "reponse-trop-longue",
-        "position-1ou3"
-      ],
-      "riskScore": 0.5
-    },
-    {
-      "id": "cg-rec-groenland",
-      "category": "culture-generale",
-      "markedIdx": 3,
-      "marked": "Bornéo",
+      "marked": "Ben-Hur",
       "risks": [
         "reponse-trop-courte",
         "position-1ou3"
@@ -112,10 +86,153 @@
       "riskScore": 0.5
     },
     {
-      "id": "food-macaron",
+      "id": "film-leon-besson",
+      "category": "cinema",
+      "markedIdx": 3,
+      "marked": "Léon",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "cine-cannes-0017",
+      "category": "cinema",
+      "markedIdx": 1,
+      "marked": "Jean-Pierre et Luc Dardenne",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "cine-cannes-0022",
+      "category": "cinema",
+      "markedIdx": 3,
+      "marked": "Jean-Pierre et Luc Dardenne",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "comics-bd-011",
+      "category": "comics-bd",
+      "markedIdx": 1,
+      "marked": "André Franquin",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "fin-comics-bd-0006",
+      "category": "comics-bd",
+      "markedIdx": 3,
+      "marked": "Mœbius",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "fin-comics-bd-0015",
+      "category": "comics-bd",
+      "markedIdx": 1,
+      "marked": "Grzegorz Rosiński et Jean Van Hamme",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "cg-art-petit-prince",
+      "category": "culture-generale",
+      "markedIdx": 3,
+      "marked": "Antoine de Saint-Exupéry",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "cg-exp-chair-poule",
+      "category": "culture-generale",
+      "markedIdx": 1,
+      "marked": "Avoir la peau qui se hérisse de froid ou d'émotion",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "cg-exp-fromage",
+      "category": "culture-generale",
+      "markedIdx": 1,
+      "marked": "Exagérer l'importance d'une chose",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "cg-exp-taureau",
+      "category": "culture-generale",
+      "markedIdx": 3,
+      "marked": "Affronter un problème avec courage",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "cg-exp-grasse-matinee",
+      "category": "culture-generale",
+      "markedIdx": 1,
+      "marked": "Rester au lit tard le matin",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "cg-exp-pain-planche",
+      "category": "culture-generale",
+      "markedIdx": 3,
+      "marked": "Avoir beaucoup de travail",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "food-sushi-rice",
+      "category": "food",
+      "markedIdx": 3,
+      "marked": "Le riz vinaigré",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "food-cuisine-0003",
       "category": "food",
       "markedIdx": 1,
-      "marked": "Le chou à la crème",
+      "marked": "La truffe noire (du Périgord)",
       "risks": [
         "reponse-trop-longue",
         "position-1ou3"
@@ -123,10 +240,10 @@
       "riskScore": 0.5
     },
     {
-      "id": "foot-ronaldo-record",
+      "id": "sport-bulk-0004",
       "category": "football",
       "markedIdx": 1,
-      "marked": "Neymar",
+      "marked": "Pelé",
       "risks": [
         "reponse-trop-courte",
         "position-1ou3"
@@ -134,10 +251,76 @@
       "riskScore": 0.5
     },
     {
-      "id": "game-sonic-speed",
+      "id": "foot-ext-0008",
+      "category": "football",
+      "markedIdx": 1,
+      "marked": "La Coupe d'Afrique des Nations (CAN)",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "foot-ucl-0004",
+      "category": "football",
+      "markedIdx": 1,
+      "marked": "Chelsea",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "foot-ucl-0013",
+      "category": "football",
+      "markedIdx": 3,
+      "marked": "Chelsea",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "game-minecraft-creator",
+      "category": "gaming",
+      "markedIdx": 1,
+      "marked": "Markus Persson (Notch)",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "game-tetris-origin",
       "category": "gaming",
       "markedIdx": 3,
-      "marked": "Son vol",
+      "marked": "L'Union soviétique (Russie)",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "flag-nz",
+      "category": "geographie",
+      "markedIdx": 3,
+      "marked": "Nouvelle-Zélande",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-continents-0006",
+      "category": "geographie",
+      "markedIdx": 1,
+      "marked": "Europe",
       "risks": [
         "reponse-trop-courte",
         "position-1ou3"
@@ -145,10 +328,10 @@
       "riskScore": 0.5
     },
     {
-      "id": "war-cs-sud",
-      "category": "histoire",
-      "markedIdx": 1,
-      "marked": "Les États de Nouvelle-Angleterre",
+      "id": "geo-continents-0018",
+      "category": "geographie",
+      "markedIdx": 3,
+      "marked": "Amérique du Sud",
       "risks": [
         "reponse-trop-longue",
         "position-1ou3"
@@ -156,10 +339,10 @@
       "riskScore": 0.5
     },
     {
-      "id": "war-ww2-mussolini",
-      "category": "histoire",
+      "id": "geo-continents-0023",
+      "category": "geographie",
       "markedIdx": 1,
-      "marked": "António de Oliveira Salazar",
+      "marked": "Amérique du Sud",
       "risks": [
         "reponse-trop-longue",
         "position-1ou3"
@@ -167,10 +350,241 @@
       "riskScore": 0.5
     },
     {
-      "id": "war-nap-code-civil",
+      "id": "geo-continents-0026",
+      "category": "geographie",
+      "markedIdx": 1,
+      "marked": "Amérique du Sud",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-continents-0027",
+      "category": "geographie",
+      "markedIdx": 1,
+      "marked": "Amérique du Nord",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-continents-0030",
+      "category": "geographie",
+      "markedIdx": 3,
+      "marked": "Asie",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-continents-0031",
+      "category": "geographie",
+      "markedIdx": 1,
+      "marked": "Asie",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-continents-0032",
+      "category": "geographie",
+      "markedIdx": 3,
+      "marked": "Asie",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-continents-0033",
+      "category": "geographie",
+      "markedIdx": 1,
+      "marked": "Asie",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-continents-0035",
+      "category": "geographie",
+      "markedIdx": 1,
+      "marked": "Asie",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "fin-geographie-0002",
+      "category": "geographie",
+      "markedIdx": 1,
+      "marked": "Le K2",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "fin-geographie-0052",
+      "category": "geographie",
+      "markedIdx": 1,
+      "marked": "La Nouvelle-Guinée",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-prefectures-0004",
+      "category": "geographie",
+      "markedIdx": 1,
+      "marked": "Lyon",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-prefectures-0013",
+      "category": "geographie",
+      "markedIdx": 3,
+      "marked": "Clermont-Ferrand",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-prefectures-0037",
+      "category": "geographie",
+      "markedIdx": 3,
+      "marked": "Bourg-en-Bresse",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-prefectures-0045",
+      "category": "geographie",
+      "markedIdx": 1,
+      "marked": "Metz",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-prefectures-0046",
+      "category": "geographie",
+      "markedIdx": 1,
+      "marked": "Épinal",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-prefectures-0049",
+      "category": "geographie",
+      "markedIdx": 3,
+      "marked": "Laon",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "geo-prefectures-0050",
+      "category": "geographie",
+      "markedIdx": 3,
+      "marked": "Blois",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "war-gf-varsovie",
+      "category": "histoire",
+      "markedIdx": 1,
+      "marked": "Le pacte de Varsovie",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "war-cs-sherman",
+      "category": "histoire",
+      "markedIdx": 1,
+      "marked": "William Tecumseh Sherman",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "war-ww1-assassinat",
       "category": "histoire",
       "markedIdx": 3,
-      "marked": "La Charte constitutionnelle",
+      "marked": "Celui de l'archiduc François-Ferdinand",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "hist-bulk-0006",
+      "category": "histoire",
+      "markedIdx": 3,
+      "marked": "Louis IX (Saint Louis)",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "hist-bulk-0040",
+      "category": "histoire",
+      "markedIdx": 3,
+      "marked": "L'Organisation des Nations Unies (ONU)",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "war-rev-jeu-de-paume",
+      "category": "histoire",
+      "markedIdx": 1,
+      "marked": "De ne pas se séparer avant d'avoir donné une Constitution à la France",
       "risks": [
         "reponse-trop-longue",
         "position-1ou3"
@@ -180,8 +594,107 @@
     {
       "id": "war-rev-ddhc",
       "category": "histoire",
+      "markedIdx": 3,
+      "marked": "La Déclaration des droits de l'homme et du citoyen",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "war-rev-brumaire",
+      "category": "histoire",
       "markedIdx": 1,
-      "marked": "Le Code civil",
+      "marked": "Napoléon Bonaparte",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "war-rome-circus",
+      "category": "histoire",
+      "markedIdx": 3,
+      "marked": "Le Circus Maximus",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "odd-honey",
+      "category": "insolite",
+      "markedIdx": 1,
+      "marked": "Des milliers d'années",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "odd-lightning-frequency",
+      "category": "insolite",
+      "markedIdx": 1,
+      "marked": "Environ 100 fois",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "web-deep-web",
+      "category": "internet",
+      "markedIdx": 1,
+      "marked": "Les pages non indexées par les moteurs de recherche",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "web-chrome",
+      "category": "internet",
+      "markedIdx": 3,
+      "marked": "Google Chrome",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "fin-jeux-de-societe-0006",
+      "category": "jeux-de-societe",
+      "markedIdx": 3,
+      "marked": "Les Aventuriers du Rail",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "book-saint-exupery",
+      "category": "litterature",
+      "markedIdx": 1,
+      "marked": "Antoine de Saint-Exupéry",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "book-moliere-avare",
+      "category": "litterature",
+      "markedIdx": 3,
+      "marked": "L'Avare",
       "risks": [
         "reponse-trop-courte",
         "position-1ou3"
@@ -189,10 +702,76 @@
       "riskScore": 0.5
     },
     {
-      "id": "music-candle-in-the-wind",
+      "id": "book-apollinaire",
+      "category": "litterature",
+      "markedIdx": 1,
+      "marked": "Guillaume Apollinaire",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "lit-auteurs-0022",
+      "category": "litterature",
+      "markedIdx": 3,
+      "marked": "Antoine de Saint-Exupéry",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "lit-bulk-0004",
+      "category": "litterature",
+      "markedIdx": 1,
+      "marked": "1984",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "manga-culte-0001",
+      "category": "manga-anime",
+      "markedIdx": 3,
+      "marked": "Le fruit Gomu Gomu (du Caoutchoutier)",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "manga-culte-0010",
+      "category": "manga-anime",
+      "markedIdx": 3,
+      "marked": "Fullmetal Alchemist",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "music-daft-punk-members",
       "category": "musique",
       "markedIdx": 1,
-      "marked": "Sting",
+      "marked": "Thomas Bangalter et Guy-Manuel de Homem-Christo",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "music-gainsbourg-jane",
+      "category": "musique",
+      "markedIdx": 3,
+      "marked": "Jane",
       "risks": [
         "reponse-trop-courte",
         "position-1ou3"
@@ -200,21 +779,10 @@
       "riskScore": 0.5
     },
     {
-      "id": "egyptian-osiris-god-of-vegetation",
-      "category": "mythologie-egyptienne",
-      "markedIdx": 1,
-      "marked": "À la végétation et à la renaissance des récoltes",
-      "risks": [
-        "reponse-trop-longue",
-        "position-1ou3"
-      ],
-      "riskScore": 0.5
-    },
-    {
-      "id": "egyptian-seth-unknown-animal",
-      "category": "mythologie-egyptienne",
+      "id": "music-floyd-dark-side",
+      "category": "musique",
       "markedIdx": 3,
-      "marked": "Un animal imaginaire non identifié",
+      "marked": "The Dark Side of the Moon",
       "risks": [
         "reponse-trop-longue",
         "position-1ou3"
@@ -222,32 +790,21 @@
       "riskScore": 0.5
     },
     {
-      "id": "egyptian-ptah-patron-of-artisans",
-      "category": "mythologie-egyptienne",
+      "id": "music-prince-purple-rain",
+      "category": "musique",
       "markedIdx": 3,
-      "marked": "Les artisans et les forgerons",
+      "marked": "Prince",
       "risks": [
-        "reponse-trop-longue",
+        "reponse-trop-courte",
         "position-1ou3"
       ],
       "riskScore": 0.5
     },
     {
-      "id": "egyptian-ba-the-bird-soul",
-      "category": "mythologie-egyptienne",
-      "markedIdx": 1,
-      "marked": "Un oiseau à tête humaine",
-      "risks": [
-        "reponse-trop-longue",
-        "position-1ou3"
-      ],
-      "riskScore": 0.5
-    },
-    {
-      "id": "egyptian-mummification-seventy-days",
-      "category": "mythologie-egyptienne",
+      "id": "music-beyonce-destinys",
+      "category": "musique",
       "markedIdx": 3,
-      "marked": "Soixante-dix jours",
+      "marked": "Destiny's Child",
       "risks": [
         "reponse-trop-longue",
         "position-1ou3"
@@ -255,12 +812,34 @@
       "riskScore": 0.5
     },
     {
-      "id": "egyptian-heart-scarab",
-      "category": "mythologie-egyptienne",
+      "id": "music-bts-country",
+      "category": "musique",
       "markedIdx": 3,
-      "marked": "Le scarabée du cœur",
+      "marked": "La Corée du Sud",
       "risks": [
         "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "music-u2-bono",
+      "category": "musique",
+      "markedIdx": 3,
+      "marked": "Bono",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "musique-fr-0008",
+      "category": "musique",
+      "markedIdx": 3,
+      "marked": "IAM",
+      "risks": [
+        "reponse-trop-courte",
         "position-1ou3"
       ],
       "riskScore": 0.5
@@ -420,6 +999,17 @@
       "riskScore": 0.5
     },
     {
+      "id": "myth-heracles-0006",
+      "category": "mythologie-grecque",
+      "markedIdx": 3,
+      "marked": "Les Oiseaux du lac Stymphale",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
       "id": "phil-socrates-maiutics-method",
       "category": "philosophie",
       "markedIdx": 1,
@@ -497,10 +1087,10 @@
       "riskScore": 0.5
     },
     {
-      "id": "sci-nitrogen",
-      "category": "science",
+      "id": "psycho-biais-ancrage",
+      "category": "psychologie",
       "markedIdx": 1,
-      "marked": "Le dioxyde de carbone",
+      "marked": "S'appuyer excessivement sur la toute première information reçue",
       "risks": [
         "reponse-trop-longue",
         "position-1ou3"
@@ -508,12 +1098,243 @@
       "riskScore": 0.5
     },
     {
-      "id": "tv-prison-break-scofield",
-      "category": "series",
+      "id": "psycho-effet-halo",
+      "category": "psychologie",
+      "markedIdx": 1,
+      "marked": "L'évaluation d'une caractéristique d'une personne influence le jugement sur ses autres traits",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "psycho-effet-spectateur",
+      "category": "psychologie",
+      "markedIdx": 1,
+      "marked": "Plus il y a de témoins, moins il y a de chances que quelqu'un intervienne pour aider",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "psycho-test-marshmallow",
+      "category": "psychologie",
+      "markedIdx": 1,
+      "marked": "La capacité à différer la récompense (gratification différée)",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "psycho-pyramide-maslow",
+      "category": "psychologie",
+      "markedIdx": 1,
+      "marked": "Les besoins physiologiques (manger, boire, dormir)",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "psycho-syndrome-capgras",
+      "category": "psychologie",
+      "markedIdx": 1,
+      "marked": "Ses proches ont été remplacés par des sosies parfaits ou des imposteurs",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "psycho-syndrome-stendhal",
+      "category": "psychologie",
+      "markedIdx": 1,
+      "marked": "Une profusion d'œuvres d'art d'une très grande beauté",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "psycho-prosopagnosie",
+      "category": "psychologie",
+      "markedIdx": 1,
+      "marked": "Vous êtes incapable de reconnaître les visages familiers, même le vôtre",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "sci-proxima",
+      "category": "science",
+      "markedIdx": 1,
+      "marked": "Proxima du Centaure",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "sci-black-hole",
+      "category": "science",
       "markedIdx": 3,
-      "marked": "T-Bag",
+      "marked": "Un objet dont la gravité est si forte que rien n'en sort",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "sci-emc2",
+      "category": "science",
+      "markedIdx": 1,
+      "marked": "Énergie = masse × vitesse de la lumière au carré",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "sci-leap-year",
+      "category": "science",
+      "markedIdx": 1,
+      "marked": "Pour compenser le quart de jour excédentaire de l'année solaire",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "astro-elem-0003",
+      "category": "science",
+      "markedIdx": 3,
+      "marked": "Io",
       "risks": [
         "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "tv-doctor-who-species",
+      "category": "series",
+      "markedIdx": 3,
+      "marked": "Les Seigneurs du Temps",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "tv-dexter-miami",
+      "category": "series",
+      "markedIdx": 3,
+      "marked": "Miami",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "sport-ali-quote",
+      "category": "sport",
+      "markedIdx": 3,
+      "marked": "Flotte comme un papillon, pique comme une abeille",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "fin-sport-0018",
+      "category": "sport",
+      "markedIdx": 3,
+      "marked": "Gazon",
+      "risks": [
+        "reponse-trop-courte",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "tech-google-founders",
+      "category": "technologie",
+      "markedIdx": 1,
+      "marked": "Larry Page et Sergey Brin",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "tech-ampere-unit",
+      "category": "technologie",
+      "markedIdx": 3,
+      "marked": "L'intensité du courant électrique",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "tech-qwerty",
+      "category": "technologie",
+      "markedIdx": 1,
+      "marked": "Pour éviter que les tiges des machines à écrire se coincent",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "tech-pionniers-0007",
+      "category": "technologie",
+      "markedIdx": 1,
+      "marked": "L'Atlantic Telegraph Company",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "fin-vehicules-0002",
+      "category": "vehicules",
+      "markedIdx": 1,
+      "marked": "Ford Motor Company",
+      "risks": [
+        "reponse-trop-longue",
+        "position-1ou3"
+      ],
+      "riskScore": 0.5
+    },
+    {
+      "id": "fin-vehicules-0010",
+      "category": "vehicules",
+      "markedIdx": 1,
+      "marked": "Le Deepsea Challenger",
+      "risks": [
+        "reponse-trop-longue",
         "position-1ou3"
       ],
       "riskScore": 0.5

@@ -19,6 +19,10 @@ interface LoadQuestionsOptions {
   requireBilingual?: boolean;
   /** Langue de contenu demandée (distincte de la langue de l'interface). */
   language?: string;
+  /** Langue officielle de la partie (explicite) */
+  gameLanguage?: "fr" | "en";
+  /** Mode de langue ("shared" ou "per-player") */
+  languageMode?: "shared" | "per-player";
 }
 
 export interface QuestionPoolResponse {
@@ -43,6 +47,8 @@ async function authenticatedHeaders(): Promise<Record<string, string>> {
 export async function loadGameQuestions(options: LoadQuestionsOptions): Promise<QuestionPoolResponse> {
   const participantTokens = await getParticipantTokens(options.players);
   await resolvePlayerProfiles(participantTokens);
+  const targetLanguage = options.gameLanguage ?? options.language ?? useLanguageStore.getState().language;
+  const isBilingual = options.requireBilingual ?? (options.languageMode === "per-player");
   const response = await fetch("/api/questions", {
     method: "POST",
     headers: await authenticatedHeaders(),
@@ -51,8 +57,10 @@ export async function loadGameQuestions(options: LoadQuestionsOptions): Promise<
       category: options.category,
       difficulties: options.difficulties,
       ai: options.ai ?? false,
-      requireBilingual: options.requireBilingual ?? false,
-      language: options.language ?? useLanguageStore.getState().language,
+      requireBilingual: isBilingual,
+      language: targetLanguage,
+      gameLanguage: options.gameLanguage ?? (targetLanguage === "en" ? "en" : "fr"),
+      languageMode: options.languageMode ?? (isBilingual ? "per-player" : "shared"),
       sessionId: options.sessionId,
       onlineSessionId: options.onlineSessionId,
       participantTokens,

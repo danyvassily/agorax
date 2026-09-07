@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0280",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What phylum do jellyfish belong to?",
+    "question": "À quel embranchement (phylum) les méduses appartiennent-elles ?",
     "answers": [
-      "Mollusca",
-      "Chordata",
-      "Arthropoda",
-      "Cnidaria"
+      "Mollusques",
+      "Chordés",
+      "Arthropodes",
+      "Cnidaires"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0282",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "According to statistics, how are wolves killed today?",
+    "question": "Selon les statistiques environnementales, par quels moyens les loups sont-ils tués de nos jours ?",
     "answers": [
-      "By hunters and poachers",
-      "All of these",
-      "By people",
-      "By poison and areal hunters"
+      "Par les chasseurs et braconniers",
+      "Par toutes ces causes réunies",
+      "Par des activités humaines directes",
+      "Par les poisons et tirs aériens"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0284",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "At what age does a wolf usually leave its pack?",
+    "question": "À quel âge un jeune loup quitte-t-il généralement sa meute d'origine ?",
     "answers": [
-      "2-3 years",
-      "5-6 years",
-      "1-2 years",
-      "3-4 years"
+      "2 à 3 ans",
+      "5 à 6 ans",
+      "1 à 2 ans",
+      "3 à 4 ans"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0287",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Name the largest mollusk and the largest invertebrate in the world?",
+    "question": "Quel est le plus grand mollusque et le plus grand invertébré au monde ?",
     "answers": [
-      "Colossal squid",
-      "Giant squid",
-      "North Pacific Giant Octopus",
-      "Giant African snail"
+      "Le calmar colossal",
+      "Le calmar géant",
+      "La pieuvre géante du Pacifique",
+      "L'escargot géant africain"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0289",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Where are vampire bats mostly found?",
+    "question": "Où rencontre-t-on principalement les chauves-souris vampires ?",
     "answers": [
-      "Mexico, Central America and South America",
-      "Africa",
-      "Asia",
-      "Australia"
+      "Mexique, Amérique centrale et Amérique du Sud",
+      "Afrique",
+      "Asie",
+      "Australie"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -205,12 +205,12 @@
     "familyId": "family-animaux-0290",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How do wolves mark their territory?",
+    "question": "De quelles façons les loups marquent-ils leur territoire ?",
     "answers": [
-      "By urinating",
-      "By defecating",
-      "All of these",
-      "By rubbing against objects"
+      "Par l'urine",
+      "Par les fèces",
+      "Par toutes ces méthodes",
+      "En se frottant aux objets"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -245,12 +245,12 @@
     "familyId": "family-animaux-0299",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How did the Black Mamba snake get its name?",
+    "question": "D'où le mamba noir tire-t-il son nom ?",
     "answers": [
-      "Because its venom is black",
-      "Because its eggs are black",
-      "Because its mouth is black",
-      "Because of its color"
+      "De son venin noir",
+      "De ses œufs noirs",
+      "De l'intérieur noir de sa bouche",
+      "De sa peau extérieure"
     ],
     "correctAnswer": 2,
     "category": "animaux",

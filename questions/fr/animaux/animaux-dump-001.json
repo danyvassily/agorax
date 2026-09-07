@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0055",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Which statement about elephants is untrue?",
+    "question": "Quelle affirmation concernant les éléphants est fausse ?",
     "answers": [
-      "Elephants do not have great memories",
-      "Elephants cry",
-      "Elephants sleep standing up",
-      "There are some pink elephants in India"
+      "Les éléphants n'ont pas une bonne mémoire",
+      "Les éléphants pleurent",
+      "Les éléphants dorment debout",
+      "Il existe des éléphants roses en Inde"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0058",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What type of animal is a lamprey?",
+    "question": "Quel type d'animal est une lamproie ?",
     "answers": [
-      "worm",
-      "insect",
-      "amphibian",
-      "fish"
+      "Un ver",
+      "Un insecte",
+      "Un amphibien",
+      "Un poisson"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0060",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What maximum height at the withers can Chihuahuas reach?",
+    "question": "Quelle hauteur maximale au garrot un chihuahua peut-il atteindre ?",
     "answers": [
-      "9 inches (22 cm)",
-      "15 inches (38 cm)",
-      "12 inches (30 cm)",
-      "24 inches (60 cm)"
+      "22 cm",
+      "38 cm",
+      "30 cm",
+      "60 cm"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0066",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Also called Sea Biscuit, this animal lives in deeper water half-buried in the sand. ?",
+    "question": "Aussi appelé 'biscuit de mer', quel animal vit à demi enfoui dans le sable des fonds marins ?",
     "answers": [
-      "Sand Dollar",
-      "Mussel",
-      "Star Fish",
-      "Scallop"
+      "Le clypéastre (dollar des sables)",
+      "La moule",
+      "L'étoile de mer",
+      "La coquille Saint-Jacques"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0068",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "The diet of the koala consists mainly of what plant species?",
+    "question": "De quelle plante se compose principalement le régime alimentaire du koala ?",
     "answers": [
-      "Willow",
-      "Eucalyptus",
-      "Cork Oak",
-      "Bamboo"
+      "Le saule",
+      "L'eucalyptus",
+      "Le chêne-liège",
+      "Le bambou"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -205,12 +205,12 @@
     "familyId": "family-animaux-0069",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "This Australian monotreme lays eggs and has a remarkable sense of electroception. ?",
+    "question": "Quel monotrème australien pond des œufs et possède un sens aigu d'électroréception ?",
     "answers": [
-      "Platypus",
-      "Emu",
-      "Dingo",
-      "Red kangaroo"
+      "L'ornithorynque",
+      "L'émeu",
+      "Le dingo",
+      "Le kangourou roux"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -245,12 +245,12 @@
     "familyId": "family-animaux-0070",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Qantas, Australias largest airline company, has what Australian animal on its red-and-white logo?",
+    "question": "Quel animal australien figure sur le logo rouge et blanc de la compagnie aérienne Qantas ?",
     "answers": [
-      "Emu",
-      "Koala",
-      "Kangaroo",
-      "Tasmanian devil"
+      "L'émeu",
+      "Le koala",
+      "Le kangourou",
+      "Le diable de Tasmanie"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -285,11 +285,11 @@
     "familyId": "family-animaux-0072",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "The venomous lizard Gila monster was named after what?",
+    "question": "D'après quoi le monstre de Gila, lézard venimeux, a-t-il été nommé ?",
     "answers": [
-      "Gilligans Island",
-      "The Gila River basin",
-      "The Gila Expedition 1857",
+      "L'île de Gilligan",
+      "Le bassin de la rivière Gila",
+      "L'expédition Gila de 1857",
       "Alberto Gilardino"
     ],
     "correctAnswer": 1,

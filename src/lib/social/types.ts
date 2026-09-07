@@ -38,6 +38,8 @@ export interface Lobby {
   category?: string | null;
   questionCount?: number;
   maxPlayers: number;
+  gameLanguage?: "fr" | "en";
+  languageMode?: "shared" | "per-player";
   createdAt: string;
   updatedAt: string;
   closedAt?: string | null;
@@ -68,6 +70,8 @@ export interface GameSession {
   currentQuestion?: Record<string, unknown> | null;
   answersRevealed: boolean;
   stateVersion: number;
+  gameLanguage?: "fr" | "en";
+  languageMode?: "shared" | "per-player";
   createdAt: string;
   startedAt?: string | null;
   finishedAt?: string | null;

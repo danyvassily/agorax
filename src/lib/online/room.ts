@@ -42,6 +42,8 @@ export interface OnlineSession {
   question_count: number;
   max_players: number;
   buzzer_player_id: string | null;
+  game_language?: "fr" | "en";
+  language_mode?: "shared" | "per-player";
 }
 
 export interface OnlinePlayer {
@@ -69,6 +71,8 @@ export interface RoomOptions {
   category: string;
   questionCount: number;
   maxPlayers: number;
+  gameLanguage?: "fr" | "en";
+  languageMode?: "shared" | "per-player";
 }
 
 const CODE_ALPHABET = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"; // sans O/0/I/1

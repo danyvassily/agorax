@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0352",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Where are the gliding membranes of the Draco lizard species positioned?",
+    "question": "Où se situent les membranes de vol plané chez le lézard dragon volant (Draco) ?",
     "answers": [
-      "They do not have a gliding membrane",
-      "Between their fingers and toes",
-      "On their elongated ribs",
-      "Between its front and hind legs"
+      "Il n'a pas de membrane",
+      "Entre ses doigts et ses orteils",
+      "Soutenues par ses côtes allongées",
+      "Entre ses pattes avant et arrière"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0355",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Adult Goliath beetles, found in Africas tropical forests, feed on what?",
+    "question": "De quoi se nourrissent principalement les scarabées Goliath adultes dans les forêts tropicales d'Afrique ?",
     "answers": [
-      "Carrion",
-      "Fruits and tree sap",
-      "Insects and other invertebrates",
-      "Leaves and grasses"
+      "De charognes",
+      "De fruits et de sève d'arbres",
+      "D'insectes et invertébrés",
+      "De feuilles et d'herbes"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0357",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Which whale expels a reddish-brown fluid when threatened, much like an octopus?",
+    "question": "Quel cétacé projette un liquide brun rougeâtre pour fuir lorsqu'il est menacé ?",
     "answers": [
-      "Andrew’s beaked whale",
-      "Dwarf sperm whale",
-      "Pygmy sperm whale",
-      "Fin whale"
+      "La baleine à bec d'Andrew",
+      "Le cachalot nain",
+      "Le cachalot pygmée",
+      "Le rorqual commun"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0359",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "The family “delphinidae” include which kind of cetacean?",
+    "question": "Quelle famille de cétacés est désignée sous le terme scientifique 'Delphinidae' ?",
     "answers": [
-      "Rorqual whales",
-      "Southern right whales",
-      "Dolphins",
-      "Porpoises"
+      "Les rorquals",
+      "Les baleines franches",
+      "Les dauphins",
+      "Les marsouins"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0359",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "The family “phocoenidae” describe which group of cetacean?",
+    "question": "Quel groupe de cétacés la famille 'Phocoenidae' regroupe-t-elle ?",
     "answers": [
-      "Porpoises",
-      "Dolphins",
-      "Indus and Ganges river dolphins",
-      "Beaked whales"
+      "Les marsouins",
+      "Les dauphins",
+      "Les dauphins de rivière",
+      "Les baleines à bec"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -205,12 +205,12 @@
     "familyId": "family-animaux-0364",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "The Microraptor, the smallest known non-avian dinosaur, inhabited this modern day area during the early Cretaceous Period 130-125.5 million years ago. ?",
+    "question": "Dans quelle région actuelle vivait le Microraptor, petit dinosaure ailé du Crétacé inférieur ?",
     "answers": [
       "Madagascar",
       "Canada",
-      "Australia",
-      "China"
+      "Australie",
+      "Chine"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -245,12 +245,12 @@
     "familyId": "family-animaux-0371",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "The sound of what musical instrument does the call of the Macaroni Penguin resemble?",
+    "question": "À quel instrument de musique le cri du manchot gorfou doré (Macaroni) ressemble-t-il ?",
     "answers": [
-      "Flute",
-      "Trumpet",
-      "Ocarina",
-      "Saxophone"
+      "La flûte",
+      "La trompette",
+      "L'ocarina",
+      "Le saxophone"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -285,12 +285,12 @@
     "familyId": "family-animaux-0372",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Most penguin species are piscivorous, meaning what?",
+    "question": "La plupart des manchots sont piscivores, ce qui signifie :",
     "answers": [
-      "They feed primarily on fish",
-      "An aquatic animal",
-      "They do not drink water",
-      "They have a tubular body shape"
+      "Qu'ils se nourrissent principalement de poissons",
+      "Qu'ils sont strictement aquatiques",
+      "Qu'ils ne boivent jamais",
+      "Qu'ils ont un corps fuselé"
     ],
     "correctAnswer": 0,
     "category": "animaux",

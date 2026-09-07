@@ -19,13 +19,12 @@ import { CATEGORY_LABELS } from "@/lib/game/modes";
 import { TimerBar, Confetti, PillBadge } from "@/components/ui/primitives";
 import { RoundRoastPanel } from "@/components/game/round-roast-panel";
 import { Trophy, Swords, AlertCircle, ChevronLeft } from "lucide-react";
-import { useLanguageStore } from "@/lib/store/language";
+import { localizeQuestion } from "@/lib/questions/localize";
 
 export function TeamBattleGame() {
   const router = useRouter();
   const config = useGameStore((s) => s.config);
   const { entries } = useHistoryStore();
-  const language = useLanguageStore((s) => s.language);
 
   const [questions, setQuestions] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
@@ -60,6 +59,8 @@ export function TeamBattleGame() {
         setScoreA(0);
         setScoreB(0);
         setCurrentTeam("A");
+        const gameLanguage = config?.gameLanguage ?? "fr";
+        const languageMode = config?.languageMode ?? "shared";
         const data = await loadGameQuestions({
           count: config?.questionCount ?? 10,
           category: config?.category,
@@ -67,8 +68,10 @@ export function TeamBattleGame() {
           players,
           history: entries,
           sessionId: config?.sessionId ?? crypto.randomUUID(),
-          language,
-          ai: language === "en",
+          gameLanguage,
+          languageMode,
+          language: gameLanguage,
+          ai: false,
         });
         if (cancelled) return;
         const pool = (data.questions ?? []) as Question[];
@@ -91,7 +94,11 @@ export function TeamBattleGame() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [reloadKey]);
 
-  const current = questions[index];
+  const rawCurrent = questions[index];
+  const current = useMemo(
+    () => (rawCurrent ? { ...rawCurrent, ...localizeQuestion(rawCurrent, config?.gameLanguage ?? "fr") } : undefined),
+    [rawCurrent, config?.gameLanguage],
+  );
   const isLast = index >= questions.length - 1;
 
   useEffect(() => {

@@ -6,12 +6,34 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { QuestionHistory, QuestionReport, REPORT_REASONS } from "@/lib/questions/schema";
 
+export interface ReportTelemetry {
+  roomId?: string;
+  gameId?: string;
+  questionId?: string;
+  catalogLanguage?: string;
+  requestedLanguage?: string;
+  renderedLanguage?: string;
+  uiLanguage?: string;
+  gameLanguage?: string;
+  languageMode?: string;
+  playerLanguage?: string;
+  playerId?: string;
+  sourceFile?: string;
+  timestamp?: string;
+  [key: string]: unknown;
+}
+
 interface HistoryState {
   entries: QuestionHistory[];
   reports: QuestionReport[];
   addEntry: (entry: Omit<QuestionHistory, "servedAt">) => void;
   markSeen: (questionId: string, familyId: string, profileIds: string[], sessionId?: string) => void;
-  addReport: (questionId: string, reason: (typeof REPORT_REASONS)[number], details?: string) => void;
+  addReport: (
+    questionId: string,
+    reason: (typeof REPORT_REASONS)[number],
+    details?: string,
+    telemetry?: ReportTelemetry,
+  ) => void;
   clear: () => void;
 }
 
@@ -87,13 +109,28 @@ export const useHistoryStore = create<HistoryState>()(
         set((state) => ({
           entries: appendSeenEntries(state.entries, questionId, familyId, profileIds, sessionId),
         })),
-      addReport: (questionId, reason, details) =>
+      addReport: (questionId, reason, details, telemetry) => {
+        if (reason === "mauvaise-langue" && process.env.NODE_ENV !== "production") {
+          console.warn("[Agorax-telemetry] Language mismatch reported:", {
+            questionId,
+            reason,
+            details,
+            telemetry,
+          });
+        }
         set((s) => ({
           reports: [
             ...s.reports,
-            { questionId, reason, details, createdAt: new Date().toISOString() },
+            {
+              questionId,
+              reason,
+              details,
+              telemetry,
+              createdAt: new Date().toISOString(),
+            },
           ].slice(-500),
-        })),
+        }));
+      },
       clear: () => set({ entries: [], reports: [] }),
     }),
     { name: "Agorax-history" },

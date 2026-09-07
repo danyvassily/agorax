@@ -226,6 +226,7 @@ export const REPORT_REASONS = [
   "question-obsolete",
   "faute",
   "mauvaise-categorie",
+  "mauvaise-langue",
   "contenu-inapproprie",
   "autre",
 ] as const;
@@ -234,6 +235,7 @@ export const QuestionReportSchema = z.object({
   questionId: z.string(),
   reason: z.enum(REPORT_REASONS),
   details: z.string().max(500).optional(),
+  telemetry: z.record(z.unknown()).optional(),
   createdAt: z.string(),
 });
 export type QuestionReport = z.infer<typeof QuestionReportSchema>;

@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0230",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Until what age can the female elephant (called a cow) produce offspring?",
+    "question": "Jusqu'à quel âge une femelle éléphant peut-elle avoir des petits ?",
     "answers": [
-      "75 years",
-      "50 years",
-      "15 years",
-      "7 years"
+      "75 ans",
+      "50 ans",
+      "15 ans",
+      "7 ans"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0235",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Which is true about elephants?",
+    "question": "Parmi ces affirmations sur les éléphants, laquelle est correcte ?",
     "answers": [
-      "The elephant is a good swimmer.",
-      "An elephants skin is 2.5 inches thick.",
-      "The elephant is not a protected species.",
-      "The elephant is a good jumper."
+      "L'éléphant est un excellent nageur",
+      "La peau de l'éléphant fait 6 centimètres d'épaisseur",
+      "L'éléphant n'est pas protégé",
+      "L'éléphant est doué pour le saut"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0237",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "The echidnas diet consists mainly of this group of animals. ?",
+    "question": "De quoi l'échidné se nourrit-il essentiellement ?",
     "answers": [
-      "Insects",
-      "Mammals",
-      "Fish",
-      "Birds"
+      "D'insectes",
+      "De mammifères",
+      "De poissons",
+      "D'oiseaux"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0238",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Where does the kookaburra, a common Australian bird, get its name from?",
+    "question": "Quelle est l'origine du nom de l'oiseau australien kookaburra ?",
     "answers": [
-      "The aboriginal name for it",
-      "Its appearance",
-      "The food it eats",
-      "The sound it makes"
+      "Son nom dans la langue aborigène Wiradjuri",
+      "Son apparence physique",
+      "Sa nourriture favorite",
+      "L'onomatopée de son rire"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0247",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Which country does the Clydesdale horse originate from?",
+    "question": "De quelle nation est originaire le cheval de trait Clydesdale ?",
     "answers": [
-      "Scotland",
-      "Spain",
-      "Ireland",
-      "England"
+      "Écosse",
+      "Espagne",
+      "Irlande",
+      "Angleterre"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -205,12 +205,12 @@
     "familyId": "family-animaux-0247",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What famous beer brand uses the Clydesdale horse as its mascot?",
+    "question": "Quelle célèbre brasserie emploie un attelage de chevaux Clydesdale dans ses publicités ?",
     "answers": [
       "Anheuser-Busch",
-      "Upland",
+      "Foster's",
       "Heineken",
-      "Fosters"
+      "Upland"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -245,11 +245,11 @@
     "familyId": "family-animaux-0248",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What year was the Clydesdale Horse Society formally founded?",
+    "question": "En quelle année a été fondée la société officielle du cheval Clydesdale ?",
     "answers": [
-      "1925",
-      "1885",
       "1887",
+      "1885",
+      "1925",
       "1901"
     ],
     "correctAnswer": 2,
@@ -285,12 +285,12 @@
     "familyId": "family-animaux-0249",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How long does a Clydesdale horse’s pregnancy last?",
+    "question": "Quelle est la durée de gestation d'un cheval Clydesdale ?",
     "answers": [
-      "11 Months",
-      "9 months",
-      "15 Months",
-      "24 Months"
+      "11 mois",
+      "9 mois",
+      "15 mois",
+      "24 mois"
     ],
     "correctAnswer": 0,
     "category": "animaux",

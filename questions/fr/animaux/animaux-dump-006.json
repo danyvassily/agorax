@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0178",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Until what age can the female elephant (called a cow) produce offspring?",
+    "question": "Jusqu'à quel âge environ une femelle éléphant peut-elle donner naissance à des petits ?",
     "answers": [
-      "7 years",
-      "15 years",
-      "75 years",
-      "50 years"
+      "7 ans",
+      "15 ans",
+      "75 ans",
+      "50 ans"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0182",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Which is true about elephants?",
+    "question": "Laquelle de ces affirmations sur les éléphants est vraie ?",
     "answers": [
-      "The elephant is not a protected species.",
-      "The elephant is a good jumper.",
-      "An elephants skin is 2.5 inches thick.",
-      "The elephant is a good swimmer."
+      "L'éléphant n'est pas une espèce protégée",
+      "L'éléphant est capable de sauter",
+      "La peau de l'éléphant mesure 6 cm d'épaisseur",
+      "L'éléphant est un très bon nageur"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0185",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "The echidnas diet consists mainly of this group of animals. ?",
+    "question": "De quel groupe d'animaux se compose principalement le régime de l'échidné ?",
     "answers": [
-      "Mammals",
-      "Fish",
-      "Insects",
-      "Birds"
+      "Mammifères",
+      "Poissons",
+      "Insectes",
+      "Oiseaux"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0185",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Where does the kookaburra, a common Australian bird, get its name from?",
+    "question": "D'où le kookaburra, oiseau emblématique d'Australie, tire-t-il son nom ?",
     "answers": [
-      "The sound it makes",
-      "The food it eats",
-      "Its appearance",
-      "The aboriginal name for it"
+      "Du son de son cri",
+      "De son régime alimentaire",
+      "De son apparence physique",
+      "D'un mot aborigène"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0194",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Which country does the Clydesdale horse originate from?",
+    "question": "De quel pays le cheval de race Clydesdale est-il originaire ?",
     "answers": [
-      "England",
-      "Scotland",
-      "Ireland",
-      "Spain"
+      "Angleterre",
+      "Écosse",
+      "Irlande",
+      "Espagne"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -205,12 +205,12 @@
     "familyId": "family-animaux-0195",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What famous beer brand uses the Clydesdale horse as its mascot?",
+    "question": "Quelle marque de bière utilise les chevaux Clydesdale comme mascotte légendaire ?",
     "answers": [
-      "Fosters",
+      "Foster's",
       "Heineken",
       "Upland",
-      "Anheuser-Busch"
+      "Budweiser (Anheuser-Busch)"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -245,10 +245,10 @@
     "familyId": "family-animaux-0195",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What year was the Clydesdale Horse Society formally founded?",
+    "question": "En quelle année la Clydesdale Horse Society a-t-elle été officiellement fondée ?",
     "answers": [
       "1885",
-      "1887",
+      "1877",
       "1925",
       "1901"
     ],
@@ -285,12 +285,12 @@
     "familyId": "family-animaux-0197",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How long does a Clydesdale horse’s pregnancy last?",
+    "question": "Combien de temps dure la gestation d'une jument Clydesdale ?",
     "answers": [
-      "15 Months",
-      "11 Months",
-      "9 months",
-      "24 Months"
+      "15 mois",
+      "11 mois",
+      "9 mois",
+      "24 mois"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -325,12 +325,12 @@
     "familyId": "family-animaux-0198",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What common name does the dog breed New Guinea Highland Dog have?",
+    "question": "Quel surnom donne-t-on au chien chanteur de Nouvelle-Guinée ?",
     "answers": [
-      "Swimmer",
-      "Wrestler",
-      "Prowler",
-      "Singer"
+      "Le nageur",
+      "Le lutteur",
+      "Le rôdeur",
+      "Le chanteur"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -365,12 +365,12 @@
     "familyId": "family-animaux-0199",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "In what color does the Pekingese dog breed come?",
+    "question": "De quelles couleurs peut être la robe du pékinois ?",
     "answers": [
-      "All of these",
-      "Black",
-      "White",
-      "Light gold"
+      "Toutes ces couleurs",
+      "Noir",
+      "Blanc",
+      "Fauve doré"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -405,12 +405,12 @@
     "familyId": "family-animaux-0199",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "In what European country did the Rough Collie dog breed originate?",
+    "question": "Dans quelle région européenne le colley à poil long (Rough Collie) est-il apparu ?",
     "answers": [
-      "Scotland",
+      "Écosse",
       "France",
-      "Germany",
-      "Ireland"
+      "Allemagne",
+      "Irlande"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -445,12 +445,12 @@
     "familyId": "family-animaux-0200",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What dog breed has an elongated body, very short legs, short shiny coat and a long snout?",
+    "question": "Quelle race de chien possède un corps allongé, de courtes pattes et un long museau ?",
     "answers": [
       "Elo",
-      "English Foxhound",
-      "Dachshund",
-      "Dogo Guatemalteco"
+      "Foxhound anglais",
+      "Teckel",
+      "Dogue du Guatemala"
     ],
     "correctAnswer": 2,
     "category": "animaux",

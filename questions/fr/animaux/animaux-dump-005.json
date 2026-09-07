@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0156",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Hyenas are most closely related to what creatures?",
+    "question": "De quel animal les hyènes sont-elles génétiquement les plus proches phylogénétiquement ?",
     "answers": [
-      "Cats",
-      "Bears",
-      "Mongoose",
-      "Badger"
+      "Les félins",
+      "Les ours",
+      "Les mangoustes",
+      "Les blaireaux"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0163",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Why are pigeon nests or eggs rarely seen?",
+    "question": "Pourquoi voit-on très rarement les nids ou les œufs de pigeons des villes ?",
     "answers": [
-      "Pigeons dont build nests.",
-      "Pigeons do their best to conceal nests.",
-      "Pigeons are cliff dwellers and build their nests in high places.",
-      "Pigeons are picky and only build nests high up in certain types of trees."
+      "Les pigeons ne construisent pas de nids",
+      "Les pigeons camouflent parfaitement leurs nids",
+      "Les pigeons nichent sur les falaises et bâtiments en hauteur",
+      "Les pigeons ne nichent que dans de très rares arbres"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -125,7 +125,7 @@
     "familyId": "family-animaux-0169",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "In the 1980s, who voiced the character of Dino, the pet dinosaur in the animated series The Flintstones?",
+    "question": "Dans les années 1980, qui doublait la voix originale de Dino dans Les Pierrafeu ?",
     "answers": [
       "Mel Blanc",
       "Frank Welker",

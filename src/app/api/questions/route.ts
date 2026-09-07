@@ -22,6 +22,8 @@ const RequestSchema = z.object({
   requireBilingual: z.boolean().optional().default(false),
   ai: z.boolean().default(false),
   language: z.enum(["fr", "en"]).default("fr"),
+  gameLanguage: z.enum(["fr", "en"]).optional(),
+  languageMode: z.enum(["shared", "per-player"]).optional(),
   sessionId: z.string().uuid().optional(),
   onlineSessionId: z.string().uuid().optional(),
   participantTokens: z.array(z.string().min(12).max(200)).min(1).max(8).optional(),
@@ -111,34 +113,38 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Requête invalide", details: parsed.error.issues }, { status: 400 });
   }
 
-  const { count, category, difficulties, ai, language, onlineSessionId, participantTokens, participantHistories, history } = parsed.data;
+  const { count, category, difficulties, ai, onlineSessionId, participantTokens, participantHistories, history } = parsed.data;
+  const requestedLanguage = parsed.data.gameLanguage ?? parsed.data.language;
+  const languageMode = parsed.data.languageMode ?? (parsed.data.requireBilingual ? "per-player" : "shared");
+  const isBilingualRequired = parsed.data.requireBilingual || languageMode === "per-player" || Boolean(onlineSessionId);
   const sessionId = parsed.data.sessionId ?? crypto.randomUUID();
   const cat = (category ?? "mixed") as QuestionCategory | "mixed";
   const histories: ParticipantHistory[] = participantHistories?.length ? participantHistories : [{ entries: history }];
-  // Le catalogue doit suivre la langue demandée. On ne retombe en français
-  // que si le catalogue traduit n'existe pas encore, jamais silencieusement
-  // lorsque l'anglais est disponible.
-  const localizedPool = loadQuestions(language).questions;
-  const localPool = localizedPool.filter(q => q.verification?.status !== "disputed").map((q) => ({ ...q, translations: { ...q.translations } }));
-  // En ligne, conserver les deux variantes quand elles existent afin que
-  // chaque appareil rende la question dans sa propre langue. La famille et
-  // l'index de bonne réponse restent partagés.
-  if (language === "fr" || language === "en") {
-    const alternateLanguage = language === "fr" ? "en" : "fr";
-    const alternateById = new Map(loadQuestions(alternateLanguage).questions.map((q) => [q.id, q]));
-    for (const question of localPool) {
-      const alternate = alternateById.get(question.id);
-      if (alternate && alternate.correctAnswer === question.correctAnswer) {
-        question.translations = {
-          ...(question.translations ?? {}),
-          [alternateLanguage]: { question: alternate.question, answers: alternate.answers, explanation: alternate.explanation },
-        };
-      }
+
+  // Le catalogue doit suivre la langue demandée. Défense en profondeur : la question
+  // doit correspondre rigoureusement à la langue demandée.
+  const localizedPool = loadQuestions(requestedLanguage).questions;
+  const localPool = localizedPool
+    .filter(q => q.verification?.status !== "disputed" && q.language === requestedLanguage)
+    .map((q) => ({ ...q, translations: { ...q.translations } }));
+
+  // En ligne ou si requis, conserver les deux variantes synchronisées afin que
+  // chaque appareil rende la question dans sa propre langue.
+  const alternateLanguage = requestedLanguage === "fr" ? "en" : "fr";
+  const alternateById = new Map(loadQuestions(alternateLanguage).questions.map((q) => [q.id, q]));
+  for (const question of localPool) {
+    const alternate = alternateById.get(question.id);
+    if (alternate && alternate.correctAnswer === question.correctAnswer && alternate.answers.length === question.answers.length) {
+      question.translations = {
+        ...(question.translations ?? {}),
+        [alternateLanguage]: { question: alternate.question, answers: alternate.answers, explanation: alternate.explanation },
+      };
     }
   }
+
   const supabase = participantTokens?.length ? getRequestSupabase(request) : null;
-  const stages = stagePools((onlineSessionId || parsed.data.requireBilingual)
-    ? localPool.filter(q => q.translations?.[language === "fr" ? "en" : "fr"]?.answers?.length === q.answers.length)
+  const stages = stagePools(isBilingualRequired
+    ? localPool.filter(q => q.translations?.[alternateLanguage]?.answers?.length === q.answers.length)
     : localPool, cat, difficulties);
 
   let questions: Question[] = [];
@@ -166,6 +172,8 @@ export async function POST(request: Request) {
       pool: localPool,
       participantHistories: histories,
       count,
+      language: requestedLanguage,
+      requireBilingual: isBilingualRequired,
       categories: cat === "mixed" ? undefined : [cat],
       difficulties,
       progressiveFallback: true,
@@ -187,7 +195,7 @@ export async function POST(request: Request) {
         if (!aiLimit.allowed) aiSkipped = "rate_limited";
         else {
           try {
-            const generated = await generateQuestionsWithDeepSeek(Math.min((count - questions.length) * 2, 12), cat, language);
+            const generated = await generateQuestionsWithDeepSeek(Math.min((count - questions.length) * 2, 12), cat, requestedLanguage);
             const deduplicated = generated.filter((candidate, index, all) =>
               !isKnowledgeDuplicate(candidate, localPool) &&
               !isKnowledgeDuplicate(candidate, questions) &&

@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0251",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What common name does the dog breed New Guinea Highland Dog have?",
+    "question": "Quel qualificatif donne-t-on traditionnellement au chien des hautes terres de Nouvelle-Guinée ?",
     "answers": [
-      "Prowler",
-      "Singer",
-      "Swimmer",
-      "Wrestler"
+      "Rôdeur",
+      "Chanteur",
+      "Nageur",
+      "Lutteur"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0251",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "In what color does the Pekingese dog breed come?",
+    "question": "Quelles couleurs de pelage sont admises pour le chien pékinois ?",
     "answers": [
-      "All of these",
-      "Black",
-      "White",
-      "Light gold"
+      "Toutes ces couleurs",
+      "Noir",
+      "Blanc",
+      "Doré"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0252",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "In what European country did the Rough Collie dog breed originate?",
+    "question": "Quel pays d'Europe est le berceau historique du colley à poil long ?",
     "answers": [
-      "Ireland",
+      "Irlande",
       "France",
-      "Scotland",
-      "Germany"
+      "Écosse",
+      "Allemagne"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0252",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What dog breed has an elongated body, very short legs, short shiny coat and a long snout?",
+    "question": "Quel chien est réputé pour son corps longiligne et ses pattes très courtes ?",
     "answers": [
-      "Dogo Guatemalteco",
-      "Dachshund",
+      "Dogue guatémaltèque",
+      "Teckel",
       "Elo",
-      "English Foxhound"
+      "Foxhound"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0253",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "This extremely large and tall German dog breed has a very short shiny coat and strong muscular body with a majestic posture. ?",
+    "question": "Quelle très grande race de chien allemande est également appelée grand danois ?",
     "answers": [
-      "German Mastiff",
+      "Dogue allemand",
       "Boarhound",
-      "Great Dane",
-      "All of these"
+      "Grand danois",
+      "Tous ces noms"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -205,12 +205,12 @@
     "familyId": "family-animaux-0260",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What color eyes do male box turtles commonly have?",
+    "question": "De quelle couleur sont généralement les yeux des tortues-boîtes mâles ?",
     "answers": [
-      "blue",
-      "green",
-      "black",
-      "red"
+      "Bleus",
+      "Verts",
+      "Noirs",
+      "Rouges"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -245,12 +245,12 @@
     "familyId": "family-animaux-0261",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Whiteflies generally feed on what?",
+    "question": "De quoi les aleurodes (mouches blanches) se nourrissent-elles principalement ?",
     "answers": [
-      "Fruit",
-      "Insects",
-      "Leaves",
-      "Carrion"
+      "De fruits",
+      "D'insectes",
+      "De feuilles et sève",
+      "De charognes"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -285,10 +285,10 @@
     "familyId": "family-animaux-0265",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "In what Latin American country did the Chihuahua dog breed originate?",
+    "question": "Dans quel pays d'Amérique latine le chihuahua trouve-t-il ses origines ?",
     "answers": [
       "Cuba",
-      "Mexico",
+      "Mexique",
       "Nicaragua",
       "Guatemala"
     ],
@@ -325,11 +325,11 @@
     "familyId": "family-animaux-0266",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "In what country did the American Akita dog breed originate?",
+    "question": "De quel pays la race de chien Akita est-elle originaire à la base ?",
     "answers": [
-      "United States",
-      "Japan",
-      "China",
+      "États-Unis",
+      "Japon",
+      "Chine",
       "Canada"
     ],
     "correctAnswer": 1,
@@ -365,12 +365,12 @@
     "familyId": "family-animaux-0267",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "In what northern country did the Siberian Husky dog breed originate?",
+    "question": "Dans quelle région nordique le Husky sibérien a-t-il été développé ?",
     "answers": [
-      "Finland",
-      "Russia",
-      "Norway",
-      "Alaska, USA"
+      "Finlande",
+      "Russie",
+      "Norvège",
+      "Alaska"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -405,12 +405,12 @@
     "familyId": "family-animaux-0272",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What time of year do nutrias breed?",
+    "question": "À quelle période de l'année le ragondin se reproduit-il ?",
     "answers": [
-      "In the winter months",
-      "In the Fall",
-      "In the spring",
-      "All year round"
+      "Pendant les mois d'hiver",
+      "À l'automne",
+      "Au printemps",
+      "Toute l'année"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -445,12 +445,12 @@
     "familyId": "family-animaux-0274",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What place did the Yorkshire Terrier take in the AKC registered breed popularity in the USA in 2008?",
+    "question": "À quel rang de popularité des races canines figurait le Yorkshire Terrier aux USA en 2008 ?",
     "answers": [
-      "50th",
-      "2nd",
-      "1st",
-      "79th"
+      "50e",
+      "2e",
+      "1er",
+      "79e"
     ],
     "correctAnswer": 1,
     "category": "animaux",

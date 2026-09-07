@@ -40,6 +40,9 @@ export interface Player {
   team?: "A" | "B";
 }
 
+export type SupportedLanguage = "fr" | "en";
+export type LanguageMode = "shared" | "per-player";
+
 export interface GameConfig {
   /** Identifiant stable du lot et de ses réservations. */
   sessionId: string;
@@ -53,6 +56,10 @@ export interface GameConfig {
   debateMinutes: number;
   debateMode: string;
   duration?: "express" | "classic";
+  /** Langue officielle de la partie (questions servies en mode partagé) */
+  gameLanguage: SupportedLanguage;
+  /** Mode linguistique : partagé (tous les joueurs voient gameLanguage) ou par joueur */
+  languageMode: LanguageMode;
 }
 
 export interface GameState {
@@ -112,6 +119,45 @@ export function resizePlayers(current: Player[], count: number): Player[] {
   return out;
 }
 
+/** Normalisation centralisée de GameConfig pour garantir l'absence de valeurs indéfinies ou contaminées. */
+export function normalizeGameConfig(
+  raw?: Partial<GameConfig> | null,
+  fallbackUiLanguage: SupportedLanguage = "fr"
+): GameConfig {
+  const gameLanguage: SupportedLanguage =
+    raw?.gameLanguage === "en" || raw?.gameLanguage === "fr"
+      ? raw.gameLanguage
+      : fallbackUiLanguage === "en"
+      ? "en"
+      : "fr";
+
+  const languageMode: LanguageMode =
+    raw?.languageMode === "per-player" ? "per-player" : "shared";
+
+  const players = Array.isArray(raw?.players) && raw.players.length > 0
+    ? raw.players.map((p) => ({
+        ...p,
+        profileToken: p.profileToken || randomId(),
+        language: p.language === "en" || p.language === "fr" ? p.language : gameLanguage,
+      }))
+    : [makePlayer(0)];
+
+  return {
+    sessionId: raw?.sessionId ?? randomId(),
+    mode: raw?.mode ?? "classic",
+    category: raw?.category ?? "mixed",
+    difficulty: raw?.difficulty ?? "mixed",
+    players,
+    questionCount: typeof raw?.questionCount === "number" ? raw.questionCount : 10,
+    timePerQuestion: typeof raw?.timePerQuestion === "number" ? raw.timePerQuestion : 15,
+    debateMinutes: typeof raw?.debateMinutes === "number" ? raw.debateMinutes : 5,
+    debateMode: raw?.debateMode ?? "standard",
+    duration: raw?.duration,
+    gameLanguage,
+    languageMode,
+  };
+}
+
 export const DEFAULT_CONFIG: GameConfig = {
   sessionId: randomId(),
   mode: "classic",
@@ -122,6 +168,8 @@ export const DEFAULT_CONFIG: GameConfig = {
   timePerQuestion: 15,
   debateMinutes: 5,
   debateMode: "standard",
+  gameLanguage: "fr",
+  languageMode: "shared",
 };
 
 export const useGameStore = create<GameState>()(
@@ -130,7 +178,7 @@ export const useGameStore = create<GameState>()(
       players: [makePlayer(0, "Joueur 1"), makePlayer(1, "Joueur 2")],
       setPlayers: (players) => set({ players }),
       config: null,
-      setConfig: (config) => set({ config }),
+      setConfig: (config) => set({ config: normalizeGameConfig(config) }),
       reset: () => set({ config: null }),
       addScore: (playerId, points) =>
         set((s) => ({

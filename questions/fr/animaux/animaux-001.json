@@ -445,12 +445,12 @@
     "familyId": "family-animaux-007",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Cobras are venomous snakes of family Elapidae, that generally inhabit regions of these two continents. ?",
+    "question": "Les cobras sont des serpents venimeux de la famille des Elapidae qui habitent principalement ces deux continents :",
     "answers": [
-      "Asia and Australia",
-      "South America and Asia",
-      "South America and Australia",
-      "Asia and Africa"
+      "Asie et Australie",
+      "Amérique du Sud et Asie",
+      "Amérique du Sud et Australie",
+      "Asie et Afrique"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -485,12 +485,12 @@
     "familyId": "family-animaux-018",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Ancient Japanese thought this animal caused earthquakes. ?",
+    "question": "Selon les croyances japonaises anciennes, quel animal provoquait les séismes ?",
     "answers": [
-      "Frogs",
-      "Birds",
-      "Spiders",
-      "Snakes"
+      "Les grenouilles",
+      "Les oiseaux",
+      "Les araignées",
+      "Les serpents"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -525,12 +525,12 @@
     "familyId": "family-animaux-019",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "This animal can clean its own ears with its 21-inch tongue. ?",
+    "question": "Quel animal peut se nettoyer les oreilles avec sa langue de plus de 50 cm ?",
     "answers": [
-      "Lion",
-      "Lizard",
-      "Giraffe",
-      "Elephant"
+      "Le lion",
+      "Le lézard",
+      "La girafe",
+      "L'éléphant"
     ],
     "correctAnswer": 2,
     "category": "animaux",

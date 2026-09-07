@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0482",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What kangaroo species set a record by moving with 64 kilometers per hour (40 mph)?",
+    "question": "Quelle espèce de grand kangourou peut atteindre une vitesse de pointe de 64 km/h ?",
     "answers": [
-      "All of these",
-      "Eastern Grey Kangaroo",
-      "Forester Kangaroo",
-      "Great Grey Kangaroo"
+      "Toutes ces espèces",
+      "Le kangourou géant",
+      "Le kangourou de Tasmanie",
+      "Le grand kangourou gris"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0484",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What other common name is used for a mudpuppy?",
+    "question": "Quel autre nom vernaculaire donne-t-on au necture tacheté (mudpuppy) ?",
     "answers": [
-      "Waterdog",
-      "Water Canine",
-      "Salamander",
-      "Mud Dog"
+      "Chien d'eau",
+      "Canin aquatique",
+      "Salamandre géante",
+      "Chien de boue"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0484",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What type of animal is a mudpuppy?",
+    "question": "À quel ordre zoologique appartient le necture tacheté (mudpuppy) ?",
     "answers": [
-      "skink",
-      "fish",
-      "salamander",
-      "eel"
+      "Les scinques",
+      "Les poissons",
+      "Les salamandres (amphibiens urodèles)",
+      "Les anguilles"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0486",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How long is the average mudpuppy?",
+    "question": "Quelle taille moyenne mesure un necture tacheté adulte ?",
     "answers": [
-      "12 inches",
-      "5-7 inches",
-      "1 1/2 -3 inches",
-      "13-16 inches"
+      "30 cm",
+      "15 cm",
+      "5 cm",
+      "35 à 40 cm"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0487",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Wombats are endemic to this geographical area. ?",
+    "question": "Dans quelle région géographique les wombats sont-ils endémiques ?",
     "answers": [
-      "Australia and Tasmania",
-      "Indonesia and the Philippines",
-      "Madagascar",
-      "South America"
+      "Australie",
+      "Afrique",
+      "Amérique du Sud",
+      "Madagascar"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -205,12 +205,12 @@
     "familyId": "family-animaux-0488",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What unusual anatomical feature do wombats possess?",
+    "question": "Quelle particularité anatomique remarquable la poche des wombats présente-t-elle ?",
     "answers": [
-      "They dont have eyelids.",
-      "Their pouch faces backwards.",
-      "They dont have a spleen.",
-      "All of these"
+      "Elle n'a pas de paupières",
+      "Elle est orientée vers l'arrière pour ne pas recevoir de terre en creusant",
+      "Elle ne possède pas de rate",
+      "Toutes ces réponses"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -245,12 +245,12 @@
     "familyId": "family-animaux-0496",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How do most bat species spend the cold winter months?",
+    "question": "Comment la plupart des chauves-souris tempérées passent-elles l'hiver froid ?",
     "answers": [
-      "None of these",
-      "They migrate south to to regions with warmer climates.",
-      "They do not change their behavior in the winter.",
-      "They hibernate."
+      "Aucune de ces réponses",
+      "Elles migrent au sud dans les zones tropicales",
+      "Elles ne modifient pas leurs habitudes",
+      "Elles hibernent dans des grottes"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -285,12 +285,12 @@
     "familyId": "family-animaux-0499",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "During what geological time period did the ammonites evolve?",
+    "question": "À quelle ère géologique les ammonites sont-elles apparues ?",
     "answers": [
-      "The Devonian period",
-      "The Silurian period",
-      "The Carboniferous period",
-      "The Triassic period"
+      "Au Dévonien",
+      "Au Crétacé",
+      "Au Jurassique",
+      "Au Cambrien"
     ],
     "correctAnswer": 0,
     "category": "animaux",

@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0426",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What interesting resting posture does the Indian Treeshrew, a.k.a. Madras Treeshrew, have?",
+    "question": "Quelle posture de repos insolite la toupaye de Madras adopte-t-elle souvent ?",
     "answers": [
-      "Hanging upside down from a branch",
-      "Cuddling its rear legs",
-      "With its tail resting on its head",
-      "Sprawling on the ground as if its dead"
+      "Suspendue la tête en bas",
+      "Blottie contre ses pattes arrière",
+      "Avec sa queue repliée sur sa tête",
+      "Étendue de tout son long simulant la mort"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0428",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How do platypuses reproduce?",
+    "question": "Comment les ornithorynques se reproduisent-ils ?",
     "answers": [
-      "Platypuses reproduce asexually.",
-      "Platypuses lay eggs.",
-      "Platypuses are metatherian.",
-      "None of these"
+      "Par reproduction asexuée",
+      "En pondant des œufs",
+      "Comme des marsupiaux",
+      "Aucune de ces réponses"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0431",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What geographical region are chinchillas native to?",
+    "question": "De quelle région géographique les chinchillas sont-ils originaires ?",
     "answers": [
-      "North America",
-      "Asia",
-      "South America",
-      "Africa"
+      "Amérique du Nord",
+      "Asie",
+      "Amérique du Sud",
+      "Afrique"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0433",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What chinchilla species has become extinct as a result of fur hunting?",
+    "question": "Quelle variété de chinchilla a disparu en raison de la chasse pour sa fourrure ?",
     "answers": [
-      "Giant Chinchilla",
-      "Long-tailed Chinchilla",
-      "Red-nosed Chinchilla",
-      "All of these"
+      "Le chinchilla géant",
+      "Le chinchilla à longue queue",
+      "Le chinchilla à nez rouge",
+      "Toutes ces espèces"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0438",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "This hairless cat breed originated in Russia. ?",
+    "question": "Quelle race de chat sans poils est originaire de Russie ?",
     "answers": [
       "Don Sphynx",
       "Donskoy",
-      "All of these",
-      "Don Hairless"
+      "Tous ces noms",
+      "Don nu"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -205,12 +205,12 @@
     "familyId": "family-animaux-0439",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "This cat breed occurred in Thailand, has very slim elongated body, short fur and very large ears. ?",
+    "question": "Quelle race de chat originaire de Thaïlande a un corps élancé et de très grandes oreilles ?",
     "answers": [
-      "Oriental Shorthair",
+      "Oriental shorthair",
       "Selkirk Rex",
       "Singapura",
-      "Siamese"
+      "Siamois"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -245,12 +245,12 @@
     "familyId": "family-animaux-0442",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What important internal organ does the ostrich lack?",
+    "question": "De quel organe interne essentiel l'autruche est-elle dépourvue ?",
     "answers": [
-      "Liver",
-      "Spleen",
-      "Gallbladder",
-      "All of these"
+      "Le foie",
+      "La rate",
+      "La vésicule biliaire",
+      "Tous ces organes"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -285,12 +285,12 @@
     "familyId": "family-animaux-0444",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What unusual anatomical feature does the male ostrich possess?",
+    "question": "Quelle particularité anatomique remarquable possède l'autruche mâle ?",
     "answers": [
-      "It has four testicles.",
-      "All of these",
-      "It has a copulatory organ.",
-      "It has a very small horn on its head."
+      "Elle possède quatre testicules",
+      "Toutes ces caractéristiques",
+      "Elle possède un organe copulateur",
+      "Elle a une petite corne sur le crâne"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -325,12 +325,12 @@
     "familyId": "family-animaux-0445",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Unlike other ostriches, this subspecies of ostrich has small feathers on its head. ?",
+    "question": "Quelle sous-espèce d'autruche possède de petites plumes sur la tête contrairement aux autres ?",
     "answers": [
-      "North African Ostrich",
-      "Somali Ostrich",
-      "Arabian Ostrich",
-      "Masai Ostrich"
+      "Autruche de Somalie",
+      "Autruche масаï",
+      "Autruche rouge",
+      "Autruche australe"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -365,12 +365,12 @@
     "familyId": "family-animaux-0445",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Which subspecies of ostrich became extinct around 1966?",
+    "question": "Quelle sous-espèce d'autruche s'est éteinte vers le milieu du XXe siècle (1966) ?",
     "answers": [
-      "Somali Ostrich",
-      "Middle Eastern Ostrich",
-      "Red-necked Ostrich",
-      "Southern Ostrich"
+      "Autruche de Somalie",
+      "Autruche d'Arabie",
+      "Autruche à cou rouge",
+      "Autruche d'Afrique du Sud"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -405,12 +405,12 @@
     "familyId": "family-animaux-0447",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What elephant species has two fingerlike projections at the end of its trunk?",
+    "question": "Quelle espèce d'éléphant possède deux doigts préhensiles au bout de sa trompe ?",
     "answers": [
-      "Asian Elephant",
-      "Sri Lankan Elephant",
-      "African Elephant",
-      "All of these"
+      "Éléphant d'Asie",
+      "Éléphant du Sri Lanka",
+      "Éléphant d'Afrique",
+      "Toutes ces espèces"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -445,12 +445,12 @@
     "familyId": "family-animaux-0448",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What statement is true about elephants mammary glands?",
+    "question": "Quelle affirmation est exacte à propos des mamelles des éléphantes ?",
     "answers": [
-      "They have only one mammary gland.",
-      "They have two pairs of mammary glands.",
-      "They have one pair of mammary glands.",
-      "None of these"
+      "Elles n'ont qu'une seule mamelle",
+      "Elles ont deux paires de mamelles",
+      "Elles ont une paire de mamelles pectorales",
+      "Aucune de ces réponses"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -485,12 +485,12 @@
     "familyId": "family-animaux-0449",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How long does the gestation period of elephants last?",
+    "question": "Quelle est la durée moyenne de la gestation chez l'éléphant ?",
     "answers": [
-      "12 months",
-      "30 months",
-      "22 months",
-      "18 months"
+      "12 mois",
+      "30 mois",
+      "22 mois",
+      "18 mois"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -525,12 +525,12 @@
     "familyId": "family-animaux-0450",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Why isnt the baby elephant able to control its trunk?",
+    "question": "Pourquoi le jeune éléphanteau a-t-il du mal à contrôler sa trompe à la naissance ?",
     "answers": [
-      "Because it is too heavy for it",
-      "Because it lacks muscle tone",
-      "Because it cannot feel it",
-      "All of these"
+      "Elle est trop lourde",
+      "Il manque de tonus musculaire et d'apprentissage nerveux",
+      "Il ne ressent aucune sensation",
+      "Toutes ces raisons"
     ],
     "correctAnswer": 1,
     "category": "animaux",

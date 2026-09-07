@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0461",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What geographic area did the guinea pig originate from?",
+    "question": "De quel continent le cochon d'Inde est-il originaire ?",
     "answers": [
-      "South America",
-      "Australia and New Guinea",
-      "North America",
-      "Africa"
+      "Amérique du Sud",
+      "Australie et Nouvelle-Guinée",
+      "Amérique du Nord",
+      "Afrique"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -45,7 +45,7 @@
     "familyId": "family-animaux-0464",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What actor voiced the guinea pig character called Rodney in the 1998 comedy movie Dr. Dolittle?",
+    "question": "Quel acteur doublait le cochon d'Inde Rodney dans le film Docteur Dolittle (1998) ?",
     "answers": [
       "Eddie Murphy",
       "Chris Rock",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0465",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "To what continent are raccoons native?",
+    "question": "De quel continent le raton laveur est-il indigène ?",
     "answers": [
-      "Both Americas",
-      "North America",
-      "South America",
-      "Australia"
+      "Amérique du Nord",
+      "Asie",
+      "Europe",
+      "Australie"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0465",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Captive raccoons are known for performing this vacuum activity. ?",
+    "question": "Quel comportement de 'lavage' stéréotypé les ratons laveurs captifs pratiquent-ils ?",
     "answers": [
-      "All of these",
-      "Scratching their belly",
-      "Dousing their food",
-      "Playing dead"
+      "Nettoyer leurs pattes dans l'eau",
+      "Laper des cailloux",
+      "Cacher des graines",
+      "Tourner sur eux-mêmes"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0466",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What animal is a major predator for wild raccoons?",
+    "question": "Lequel de ces prédateurs s'attaque couramment au raton laveur sauvage ?",
     "answers": [
-      "All of these",
-      "Bald eagle",
-      "Coyote",
-      "Bobcat"
+      "Tous ces prédateurs",
+      "Le pygargue à tête blanche",
+      "Le coyote",
+      "Le lynx roux"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -205,12 +205,12 @@
     "familyId": "family-animaux-0468",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What have raccoons been mostly hunted for throughout history?",
+    "question": "Pour quel produit les ratons laveurs ont-ils été massivement chassés dans l'histoire ?",
     "answers": [
-      "Their fat",
-      "Their meat",
-      "Their fur",
-      "Their bones"
+      "Leur graisse",
+      "Leur viande",
+      "Leur fourrure",
+      "Leurs os"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -245,9 +245,9 @@
     "familyId": "family-animaux-0469",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What popular cartoon character from a 1995 animated movie keeps a raccoon as a pet?",
+    "question": "Dans quel grand film d'animation Disney l'héroïne a-t-elle un raton laveur nommé Meeko ?",
     "answers": [
-      "Simba",
+      "Le Roi Lion",
       "Mulan",
       "Shrek",
       "Pocahontas"
@@ -285,12 +285,12 @@
     "familyId": "family-animaux-0471",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How did the glass lizard, also known as glass snake, get its interesting name?",
+    "question": "Pourquoi l'orvet ou 'lézard de verre' porte-t-il ce surnom singulier ?",
     "answers": [
-      "Its eyes are glass-like.",
-      "It is almost transparent.",
-      "It can climb on glass.",
-      "It breaks easily."
+      "Ses yeux brillent comme du verre",
+      "Il est translucide",
+      "Il grimpe sur les vitres",
+      "Sa queue se brise très facilement lorsqu'il est attaqué"
     ],
     "correctAnswer": 3,
     "category": "animaux",

@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0076",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "No lizard species live on which continent?",
+    "question": "Sur quel continent ne vit aucune espèce de lézard à l'état sauvage ?",
     "answers": [
-      "South America",
-      "Asia",
+      "Amérique du Sud",
+      "Asie",
       "Europe",
-      "Antarctica"
+      "Antarctique"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0078",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Which shark is the fastest swimmer?",
+    "question": "Quel requin est le nageur le plus rapide de l'océan ?",
     "answers": [
-      "goblin shark",
-      "sandtiger shark",
-      "mako shark",
-      "nurse shark"
+      "Le requin-lutin",
+      "Le requin-taureau",
+      "Le requin mako",
+      "Le requin-nourrice"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0080",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How long is a giraffes gestation period?",
+    "question": "Combien de temps dure la période de gestation d'une girafe ?",
     "answers": [
-      "14- 15 months",
-      "18 - 20 months",
-      "10 months",
-      "9 months"
+      "14 à 15 mois",
+      "18 à 20 mois",
+      "10 mois",
+      "9 mois"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0085",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How long can a goldfish live in optimal conditions?",
+    "question": "Combien de temps un poisson rouge peut-il vivre dans des conditions optimales ?",
     "answers": [
-      "8 years",
-      "20 years",
-      "5 years",
-      "10 years"
+      "8 ans",
+      "20 ans",
+      "5 ans",
+      "10 ans"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -165,11 +165,11 @@
     "familyId": "family-animaux-0086",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What color are wild goldfish?",
+    "question": "De quelle couleur sont les poissons rouges à l'état sauvage ?",
     "answers": [
-      "Green",
-      "Silver",
-      "Yellow",
+      "Verte",
+      "Argentée",
+      "Jaune",
       "Orange"
     ],
     "correctAnswer": 0,

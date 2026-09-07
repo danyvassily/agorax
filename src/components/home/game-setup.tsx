@@ -1,7 +1,7 @@
 "use client";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { ChevronLeft, Minus, Plus, ArrowRight, Globe } from 'lucide-react';
-import { MAX_PLAYERS, newGameSessionId, resizePlayers, type GameConfig, type GameMode, type Player, useGameStore } from '@/lib/store/game';
+import { MAX_PLAYERS, newGameSessionId, resizePlayers, type GameConfig, type GameMode, type Player, type SupportedLanguage, type LanguageMode, useGameStore } from '@/lib/store/game';
 import { useSettingsStore } from '@/lib/store/settings';
 import { useAuth } from '@/lib/auth/use-auth';
 import { useLanguageStore } from '@/lib/store/language';
@@ -11,7 +11,6 @@ import { categoryLabel } from '@/lib/game/modes';
 import { PlayerDot } from '@/components/ui/primitives';
 import { KawaiiMascot } from '@/components/ui/kawaii-mascot';
 import { CHARACTERS, characterImage } from '@/lib/characters';
-import { LanguageSelector } from '@/components/ui/language-selector';
 
 export function GameSetup({
   mode,
@@ -33,6 +32,9 @@ export function GameSetup({
   const { user } = useAuth();
   const setPlayers = useGameStore(s => s.setPlayers);
 
+  const [gameLanguage, setGameLanguage] = useState<SupportedLanguage>(lang === 'en' ? 'en' : 'fr');
+  const [languageMode, setLanguageMode] = useState<LanguageMode>('shared');
+
   const [players, setDraft] = useState<Player[]>(() =>
     resizePlayers(
       useGameStore.getState().players,
@@ -40,13 +42,9 @@ export function GameSetup({
     ).map((p, i) => ({
       ...p,
       ...(i === 0 && user ? { name: user.name, avatarUrl: user.avatarUrl ?? undefined } : {}),
-      language: p.language ?? lang,
+      language: lang === 'en' ? 'en' : 'fr',
     }))
   );
-
-  useEffect(() => {
-    setDraft(prev => prev.map(p => ({ ...p, language: p.language ?? lang })));
-  }, [lang]);
 
   const [category, setCategory] = useState<QuestionCategory | 'mixed'>('mixed');
   const [count, setCount] = useState(settings.defaultQuestionCount);
@@ -58,7 +56,7 @@ export function GameSetup({
     const final = players.map((p, i) => ({
       ...p,
       name: p.name.trim() || (en ? `Player ${i + 1}` : `Joueur ${i + 1}`),
-      language: p.language || lang,
+      language: languageMode === 'shared' ? gameLanguage : (p.language ?? gameLanguage),
     }));
     setPlayers(final);
     onLaunch({
@@ -77,6 +75,8 @@ export function GameSetup({
       debateMinutes: settings.debateMinutes,
       debateMode: 'standard',
       duration,
+      gameLanguage,
+      languageMode,
     });
   }
 
@@ -102,20 +102,69 @@ export function GameSetup({
 
       <div className="jx-setup-grid">
         <div>
-          {/* Sélection explicite de la langue pour le jeu et les questions */}
+          {/* Sélection explicite de la langue pour la partie et les questions */}
           <section className="jx-form-card">
             <div className="flex items-center gap-2 mb-2">
               <Globe size={18} className="text-fp-primary" />
               <h2 className="text-base font-bold">
-                {en ? 'Language of questions & game' : 'Langue des questions et du jeu'}
+                {en ? 'Game Questions Language' : 'Langue des questions de la partie'}
               </h2>
             </div>
             <p className="text-xs text-fp-text-dim mb-3">
               {en
-                ? 'Choose whether questions are displayed in French or English.'
-                : 'Choisis si les questions et l’application s’affichent en français ou en anglais.'}
+                ? 'Official question language used for this game session.'
+                : 'Langue officielle des questions utilisée pour cette session de jeu.'}
             </p>
-            <LanguageSelector variant="pills" />
+            <div className="flex gap-2.5 mb-3" role="group" aria-label="Langue de la partie">
+              <button
+                type="button"
+                onClick={() => setGameLanguage('fr')}
+                className={`flex flex-1 items-center justify-center gap-2 rounded-2xl py-2.5 px-3 text-sm font-bold transition-all ${
+                  gameLanguage === 'fr'
+                    ? 'bg-fp-primary text-white shadow-md'
+                    : 'border border-black/10 bg-white text-fp-text hover:bg-black/[0.03]'
+                }`}
+              >
+                <span>🇫🇷</span>
+                <span>Français</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setGameLanguage('en')}
+                className={`flex flex-1 items-center justify-center gap-2 rounded-2xl py-2.5 px-3 text-sm font-bold transition-all ${
+                  gameLanguage === 'en'
+                    ? 'bg-fp-primary text-white shadow-md'
+                    : 'border border-black/10 bg-white text-fp-text hover:bg-black/[0.03]'
+                }`}
+              >
+                <span>🇬🇧</span>
+                <span>English</span>
+              </button>
+            </div>
+
+            {individualLanguage && !solo && (
+              <div className="pt-2 border-t border-black/5">
+                <span className="text-xs font-bold block mb-1.5 text-fp-text-dim">
+                  {en ? 'Language mode' : 'Mode de distribution des langues'}
+                </span>
+                <div className="jx-segments">
+                  <button
+                    type="button"
+                    aria-pressed={languageMode === 'shared'}
+                    onClick={() => setLanguageMode('shared')}
+                  >
+                    {en ? 'Shared (All in same language)' : 'Partagée (Tous ensemble)'}
+                  </button>
+                  <button
+                    type="button"
+                    aria-pressed={languageMode === 'per-player'}
+                    onClick={() => setLanguageMode('per-player')}
+                  >
+                    {en ? 'Per-player (Bilingual)' : 'Par joueur (Bilingue)'}
+                  </button>
+                </div>
+              </div>
+            )}
           </section>
 
           {/* Section Joueurs */}
@@ -139,7 +188,7 @@ export function GameSetup({
                       setDraft(
                         resizePlayers(players, players.length + 1).map(p => ({
                           ...p,
-                          language: p.language ?? lang,
+                          language: p.language ?? gameLanguage,
                         }))
                       )
                     }
@@ -165,10 +214,10 @@ export function GameSetup({
                     }
                     maxLength={24}
                   />
-                  {individualLanguage && (
+                  {individualLanguage && languageMode === 'per-player' && (
                     <select
                       aria-label={`${en ? 'Language' : 'Langue'} ${p.name}`}
-                      value={p.language ?? lang}
+                      value={p.language ?? gameLanguage}
                       onChange={e =>
                         setDraft(
                           players.map((v, j) =>

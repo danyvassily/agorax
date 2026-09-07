@@ -43,7 +43,8 @@ export function localizeQuestion(
   options: { autoTranslate?: boolean } = { autoTranslate: false }
 ): LocalizedQuestion {
   const base = lang.toLowerCase().split("-")[0];
-  if (q.language === base) {
+  const nativeLang = q.language ?? "fr";
+  if (nativeLang === base) {
     return { question: q.question, answers: q.answers, correctAnswer: q.correctAnswer, explanation: q.explanation, lang: base };
   }
   const t = q.translations?.[base];
@@ -76,14 +77,16 @@ export function localizeQuestion(
     }
   }
 
-  if (base !== "fr" && q.language === base) {
-    return {
-      question: q.question,
-      answers: q.answers,
-      correctAnswer: q.correctAnswer,
-      explanation: q.explanation,
-      lang: base,
-    };
+  // Repli sécurisé : si la traduction demandée n'existe pas, la question est rendue
+  // dans sa langue native (q.language ou défaut "fr"). Ne JAMAIS étiqueter "fr" une question dont le
+  // texte est en anglais (ou vice-versa), afin de préserver l'observabilité et les invariants.
+  const renderedLang = nativeLang;
+  if (renderedLang !== base) {
+    if (process.env.NODE_ENV !== "production") {
+      console.warn(
+        `[localizeQuestion] Traduction indisponible pour '${base}' sur la question '${(q as { id?: string }).id ?? "unknown"}'. Langue native conservée: '${renderedLang}'.`,
+      );
+    }
   }
 
   return {
@@ -91,6 +94,6 @@ export function localizeQuestion(
     answers: q.answers,
     correctAnswer: q.correctAnswer,
     explanation: q.explanation,
-    lang: "fr",
+    lang: renderedLang,
   };
 }

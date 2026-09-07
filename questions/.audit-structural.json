@@ -1,22 +1,32 @@
 {
-  "generatedAt": "2026-09-02T18:15:43.695Z",
-  "total": 2081,
+  "generatedAt": "2026-09-07T17:41:55.608Z",
+  "total": 3364,
   "correctAnswerDistribution": {
-    "0": 912,
-    "1": 382,
-    "2": 386,
-    "3": 401
+    "0": 1296,
+    "1": 683,
+    "2": 690,
+    "3": 695
   },
   "skew": [
     [
       "0",
-      912
+      1296
     ]
   ],
   "answerLeakCount": 0,
   "answerLeaks": [],
-  "substringDistractorCount": 21,
+  "substringDistractorCount": 28,
   "substringDistractors": [
+    {
+      "id": "animaux-dump2-0718",
+      "a": "Dolphins",
+      "b": "Indus and Ganges river dolphins"
+    },
+    {
+      "id": "animaux-final-0820",
+      "a": "Dolphins",
+      "b": "Indus and Ganges river dolphins"
+    },
     {
       "id": "cg-ani-escargot",
       "a": "Environ 10",
@@ -33,6 +43,21 @@
       "b": "Waluigi"
     },
     {
+      "id": "fin-gaming-0003",
+      "a": "La PlayStation",
+      "b": "La PlayStation 2"
+    },
+    {
+      "id": "fin-gaming-0004",
+      "a": "La Wii",
+      "b": "La Wii U"
+    },
+    {
+      "id": "game-studios-0011",
+      "a": "La Wii",
+      "b": "La Wii U"
+    },
+    {
       "id": "war-marathon-roi-perse",
       "a": "Xerxès Ier",
       "b": "Artaxerxès Ier"
@@ -46,6 +71,16 @@
       "id": "war-nap-pie7",
       "a": "Pie VI",
       "b": "Pie VII"
+    },
+    {
+      "id": "hist-bulk-0013",
+      "a": "Louis XV",
+      "b": "Louis XVI"
+    },
+    {
+      "id": "hist-bulk-0024",
+      "a": "Georges Picquart",
+      "b": "Marie-Georges Picquart"
     },
     {
       "id": "war-cent-ans-charles7",
@@ -93,37 +128,275 @@
       "b": "Louis XVIII"
     },
     {
-      "id": "egyptian-isis-goddess-of-magic",
-      "a": "Nout",
-      "b": "Tefnout"
+      "id": "fin-musique-0015",
+      "a": "Le violon",
+      "b": "Le violoncelle"
     },
     {
-      "id": "egyptian-seth-wife-nephthys",
-      "a": "Nout",
-      "b": "Tefnout"
-    },
-    {
-      "id": "egyptian-maat-goddess-of-truth",
-      "a": "Nout",
-      "b": "Tefnout"
-    },
-    {
-      "id": "egyptian-nephthys-isis-canopic-jars",
-      "a": "Nout",
-      "b": "Tefnout"
-    },
-    {
-      "id": "egyptian-mummification-seventy-days",
-      "a": "Dix jours",
-      "b": "Soixante-dix jours"
+      "id": "fin-musique-0016",
+      "a": "Le violon",
+      "b": "Le violoncelle"
     },
     {
       "id": "sci-baby-bones",
       "a": "Environ 50",
       "b": "Environ 500"
+    },
+    {
+      "id": "fin-technologie-0003",
+      "a": "Java",
+      "b": "JavaScript"
+    },
+    {
+      "id": "tech-pionniers-0006",
+      "a": "Java",
+      "b": "JavaScript"
+    },
+    {
+      "id": "tech-web-0005",
+      "a": "HTTP",
+      "b": "HTTPS"
     }
   ],
   "duplicateAnswerGroups": [
+    [
+      "badger|bears|cats|mongoose",
+      [
+        "animaux-dump-0311@2",
+        "animaux-dump2-0416@2"
+      ]
+    ],
+    [
+      "pigeons are cliff dwellers and build their nests in high places.|pigeons are picky and only build nests high up in certain types of trees.|pigeons do their best to conceal nests.|pigeons dont build nests.",
+      [
+        "animaux-dump-0325@2",
+        "animaux-dump2-0430@0"
+      ]
+    ],
+    [
+      "cretazoic|holozoic|mesozoic|protozoic",
+      [
+        "animaux-dump-0327@0",
+        "animaux-dump2-0432@2"
+      ]
+    ],
+    [
+      "alan reed|frank welker|jean vander pyl|mel blanc",
+      [
+        "animaux-dump-0337@0",
+        "animaux-dump2-0442@1"
+      ]
+    ],
+    [
+      "15 years|50 years|7 years|75 years",
+      [
+        "animaux-dump-0355@3",
+        "animaux-dump2-0460@1"
+      ]
+    ],
+    [
+      "an elephants skin is 2.5 inches thick.|the elephant is a good jumper.|the elephant is a good swimmer.|the elephant is not a protected species.",
+      [
+        "animaux-dump-0364@3",
+        "animaux-dump2-0469@0"
+      ]
+    ],
+    [
+      "birds|fish|insects|mammals",
+      [
+        "animaux-dump-0369@2",
+        "animaux-dump2-0474@0"
+      ]
+    ],
+    [
+      "its appearance|the aboriginal name for it|the food it eats|the sound it makes",
+      [
+        "animaux-dump-0370@3",
+        "animaux-dump2-0475@0"
+      ]
+    ],
+    [
+      "england|ireland|scotland|spain",
+      [
+        "animaux-dump-0388@1",
+        "animaux-dump2-0493@0"
+      ]
+    ],
+    [
+      "anheuser-busch|fosters|heineken|upland",
+      [
+        "animaux-dump-0389@3",
+        "animaux-dump2-0494@0"
+      ]
+    ],
+    [
+      "1885|1887|1901|1925",
+      [
+        "animaux-dump-0390@1",
+        "animaux-dump2-0495@2"
+      ]
+    ],
+    [
+      "11 months|15 months|24 months|9 months",
+      [
+        "animaux-dump-0393@1",
+        "animaux-dump2-0498@0"
+      ]
+    ],
+    [
+      "prowler|singer|swimmer|wrestler",
+      [
+        "animaux-dump-0396@3",
+        "animaux-dump2-0501@1"
+      ]
+    ],
+    [
+      "all of these|black|light gold|white",
+      [
+        "animaux-dump-0397@0",
+        "animaux-dump2-0502@0"
+      ]
+    ],
+    [
+      "france|germany|ireland|scotland",
+      [
+        "animaux-dump-0398@0",
+        "animaux-dump2-0503@2"
+      ]
+    ],
+    [
+      "dachshund|dogo guatemalteco|elo|english foxhound",
+      [
+        "animaux-dump-0399@2",
+        "animaux-dump2-0504@1"
+      ]
+    ],
+    [
+      "between its front and hind legs|between their fingers and toes|on their elongated ribs|they do not have a gliding membrane",
+      [
+        "animaux-dump2-0703@2",
+        "animaux-final-0805@3"
+      ]
+    ],
+    [
+      "carrion|fruits and tree sap|insects and other invertebrates|leaves and grasses",
+      [
+        "animaux-dump2-0709@1",
+        "animaux-final-0811@3"
+      ]
+    ],
+    [
+      "andrew’s beaked whale|dwarf sperm whale|fin whale|pygmy sperm whale",
+      [
+        "animaux-dump2-0714@2",
+        "animaux-final-0816@1"
+      ]
+    ],
+    [
+      "dolphins|porpoises|rorqual whales|southern right whales",
+      [
+        "animaux-dump2-0717@2",
+        "animaux-final-0819@0"
+      ]
+    ],
+    [
+      "beaked whales|dolphins|indus and ganges river dolphins|porpoises",
+      [
+        "animaux-dump2-0718@0",
+        "animaux-final-0820@2"
+      ]
+    ],
+    [
+      "australia|canada|china|madagascar",
+      [
+        "animaux-dump2-0727@3",
+        "animaux-final-0829@1"
+      ]
+    ],
+    [
+      "flute|ocarina|saxophone|trumpet",
+      [
+        "animaux-dump2-0742@1",
+        "animaux-final-0844@2"
+      ]
+    ],
+    [
+      "an aquatic animal|they do not drink water|they feed primarily on fish|they have a tubular body shape",
+      [
+        "animaux-dump2-0743@0",
+        "animaux-final-0845@1"
+      ]
+    ],
+    [
+      "barcelone|madrid|séville|valence",
+      [
+        "art-archi-0001@3",
+        "series-culte-0007@2"
+      ]
+    ],
+    [
+      "botticelli|léonard de vinci|michel-ange|raphaël",
+      [
+        "art-bulk-0001@2",
+        "war-ren-sixtine@1"
+      ]
+    ],
+    [
+      "claude monet|paul cézanne|paul gauguin|vincent van gogh",
+      [
+        "art-bulk-0003@1",
+        "art-vangogh-starrynight-artist@0"
+      ]
+    ],
+    [
+      "edvard munch|egon schiele|gustav klimt|wassily kandinsky",
+      [
+        "art-bulk-0009@3",
+        "fin-art-0018@1"
+      ]
+    ],
+    [
+      "henri de toulouse-lautrec|paul cézanne|paul gauguin|vincent van gogh",
+      [
+        "fin-art-0016@0",
+        "art-toiles-0008@2"
+      ]
+    ],
+    [
+      "andy warhol|jean-michel basquiat|keith haring|roy lichtenstein",
+      [
+        "fin-art-0020@2",
+        "art-toiles-0015@0"
+      ]
+    ],
+    [
+      "al pacino|james caan|marlon brando|robert de niro",
+      [
+        "film-godfather-vito@1",
+        "cine-bulk-0009@1"
+      ]
+    ],
+    [
+      "david cronenberg|denis villeneuve|jean-marc vallée|xavier dolan",
+      [
+        "cine-bulk-0015@3",
+        "fin-cinema-0009@1"
+      ]
+    ],
+    [
+      "brian de palma|francis ford coppola|martin scorsese|michael cimino",
+      [
+        "cine-films-0001@1",
+        "fin-cinema-0004@1"
+      ]
+    ],
+    [
+      "andré franquin|hergé|morris|peyo",
+      [
+        "comics-bd-011@1",
+        "multi-theme-0006@2"
+      ]
+    ],
     [
       "le circus maximus|le colisée|le panthéon|les thermes de caracalla",
       [
@@ -139,10 +412,10 @@
       ]
     ],
     [
-      "dix|huit|quatre|six",
+      "deux|quatre|trois|un",
       [
-        "cg-ani-araignee@1",
-        "egyptian-ogdoad-eight-deities@3"
+        "cg-ani-poulpe@1",
+        "manga-onepiece-zoro@0"
       ]
     ],
     [
@@ -167,10 +440,39 @@
       ]
     ],
     [
+      "berne|bâle|genève|zurich",
+      [
+        "cg-cap-suisse@2",
+        "hist-bulk-0038@3"
+      ]
+    ],
+    [
+      "l'airbus a380|le boeing 747|le concorde|le tupolev tu-144",
+      [
+        "cg-xx-concorde@3",
+        "vehicules-opentdb-002@1",
+        "fin-vehicules-0003@3"
+      ]
+    ],
+    [
       "l'atacama|le gobi|le kalahari|le sahara",
       [
         "cg-ins-sahara@0",
         "sci-sahara@0"
+      ]
+    ],
+    [
+      "l'afrique|l'amérique du nord|l'asie|l'europe",
+      [
+        "cg-ins-asie@3",
+        "jeux-societe-014@2"
+      ]
+    ],
+    [
+      "la garonne|la loire|la seine|le rhône",
+      [
+        "cg-geo-seine@0",
+        "fin-geographie-0039@0"
       ]
     ],
     [
@@ -189,26 +491,28 @@
       ]
     ],
     [
+      "albert einstein|isaac newton|max planck|niels bohr",
+      [
+        "cg-sci-einstein@3",
+        "sci-bulk-0006@2"
+      ]
+    ],
+    [
       "jupiter|mars|mercure|vénus",
       [
         "cg-sci-mars@1",
         "odd-venus-day@0",
         "sci-mars-red@2",
-        "sci-venus-hottest@3"
+        "sci-venus-hottest@3",
+        "sci-bulk-0003@2"
       ]
     ],
     [
       "novak djokovic|pete sampras|rafael nadal|roger federer",
       [
         "cg-sport-djokovic@0",
-        "sport-djokovic-record@0"
-      ]
-    ],
-    [
-      "deux|huit|quatre|six",
-      [
-        "cg-ins-papillon@0",
-        "egyptian-abu-simbel-four-colossi@3"
+        "sport-djokovic-record@0",
+        "sport-ext-0001@0"
       ]
     ],
     [
@@ -216,21 +520,33 @@
       [
         "cg-ins-saturne@3",
         "sci-jupiter-largest@3",
-        "sci-saturn-rings@1"
+        "sci-saturn-rings@1",
+        "sci-bulk-0002@3",
+        "sci-bulk-0004@3"
       ]
     ],
     [
       "le congo|le niger|le nil|le zambèze",
       [
         "cg-rec-nil@2",
+        "fin-geographie-0027@3",
         "sci-nile@3"
+      ]
+    ],
+    [
+      "bornéo|la nouvelle-guinée|le groenland|madagascar",
+      [
+        "cg-rec-groenland@1",
+        "fin-geographie-0051@1"
       ]
     ],
     [
       "l'allemagne|l'argentine|l'italie|le brésil",
       [
         "cg-rec-bresil@2",
-        "foot-brazil-5@2"
+        "foot-brazil-5@2",
+        "fin-football-0002@3",
+        "sport-champions-0001@0"
       ]
     ],
     [
@@ -238,6 +554,20 @@
       [
         "food-sushi-japan@1",
         "sport-judo-japan@2"
+      ]
+    ],
+    [
+      "berlin|francfort|hambourg|munich",
+      [
+        "food-hamburger@1",
+        "fin-sport-0008@3"
+      ]
+    ],
+    [
+      "l'argentine|l'italie|l'uruguay|le brésil",
+      [
+        "foot-wc-1930-winner@3",
+        "fin-football-0001@2"
       ]
     ],
     [
@@ -257,6 +587,146 @@
       ]
     ],
     [
+      "l'ac milan|l'as rome|l'inter milan|la juventus",
+      [
+        "foot-juventus@2",
+        "fin-football-0014@0"
+      ]
+    ],
+    [
+      "knuckles|shadow|sonic|tails",
+      [
+        "fin-gaming-0016@0",
+        "game-studios-0015@3"
+      ]
+    ],
+    [
+      "afrique|amérique du nord|asie|europe",
+      [
+        "geo-continents-0001@2",
+        "geo-continents-0004@0",
+        "geo-continents-0011@2",
+        "geo-continents-0015@2",
+        "geo-continents-0028@0",
+        "geo-continents-0033@1",
+        "geo-continents-0039@0",
+        "geo-continents-0040@0"
+      ]
+    ],
+    [
+      "amérique du sud|asie|europe|océanie",
+      [
+        "geo-continents-0002@3",
+        "geo-continents-0020@2",
+        "geo-continents-0053@0"
+      ]
+    ],
+    [
+      "afrique|amérique du nord|europe|océanie",
+      [
+        "geo-continents-0003@1",
+        "geo-continents-0041@3",
+        "geo-continents-0050@1"
+      ]
+    ],
+    [
+      "afrique|amérique du sud|europe|océanie",
+      [
+        "geo-continents-0005@0",
+        "geo-continents-0026@1"
+      ]
+    ],
+    [
+      "afrique|amérique du nord|amérique du sud|europe",
+      [
+        "geo-continents-0006@1",
+        "geo-continents-0010@0",
+        "geo-continents-0012@0",
+        "geo-continents-0029@0"
+      ]
+    ],
+    [
+      "afrique|asie|europe|océanie",
+      [
+        "geo-continents-0007@0",
+        "geo-continents-0036@2",
+        "geo-continents-0051@2",
+        "geo-continents-0054@3"
+      ]
+    ],
+    [
+      "amérique du nord|amérique du sud|asie|europe",
+      [
+        "geo-continents-0008@3",
+        "geo-continents-0014@1",
+        "geo-continents-0017@0",
+        "geo-continents-0019@3",
+        "geo-continents-0021@1",
+        "geo-continents-0022@1",
+        "geo-continents-0024@0"
+      ]
+    ],
+    [
+      "afrique|amérique du sud|asie|europe",
+      [
+        "geo-continents-0009@1",
+        "geo-continents-0016@3",
+        "geo-continents-0031@1",
+        "geo-continents-0042@1",
+        "geo-continents-0043@2"
+      ]
+    ],
+    [
+      "amérique du nord|asie|europe|océanie",
+      [
+        "geo-continents-0013@2",
+        "geo-continents-0030@3"
+      ]
+    ],
+    [
+      "afrique|amérique du sud|asie|océanie",
+      [
+        "geo-continents-0018@3",
+        "geo-continents-0023@1",
+        "geo-continents-0034@0",
+        "geo-continents-0035@1",
+        "geo-continents-0037@2",
+        "geo-continents-0038@2",
+        "geo-continents-0049@0",
+        "geo-continents-0052@3"
+      ]
+    ],
+    [
+      "afrique|amérique du nord|asie|océanie",
+      [
+        "geo-continents-0032@3",
+        "geo-continents-0046@3",
+        "geo-continents-0047@3"
+      ]
+    ],
+    [
+      "afrique|amérique du nord|amérique du sud|océanie",
+      [
+        "geo-continents-0044@2",
+        "geo-continents-0045@2",
+        "geo-continents-0048@0"
+      ]
+    ],
+    [
+      "l'adige|l'arno|le pô|le tibre",
+      [
+        "fin-geographie-0036@3",
+        "fin-geographie-0038@2"
+      ]
+    ],
+    [
+      "cuba|hispaniola|la jamaïque|porto rico",
+      [
+        "fin-geographie-0066@0",
+        "fin-geographie-0067@3"
+      ]
+    ],
+    [
       "alexander graham bell|guglielmo marconi|nikola tesla|thomas edison",
       [
         "war-indus-bell@3",
@@ -268,6 +738,13 @@
       [
         "war-gf-gagarine@0",
         "sci-gagarin@2"
+      ]
+    ],
+    [
+      "1961|1965|1969|1972",
+      [
+        "war-gf-lune-1969@3",
+        "hist-dates-0008@3"
       ]
     ],
     [
@@ -285,6 +762,27 @@
       ]
     ],
     [
+      "le traité de saint-germain|le traité de sèvres|le traité de trianon|le traité de versailles",
+      [
+        "war-ww1-versailles@1",
+        "hist-bulk-0030@3"
+      ]
+    ],
+    [
+      "1938|1939|1940|1941",
+      [
+        "war-ww2-debut-1939@0",
+        "hist-dates-0006@3"
+      ]
+    ],
+    [
+      "1939|1940|1941|1942",
+      [
+        "war-ww2-france-1940@0",
+        "hist-dates-0020@2"
+      ]
+    ],
+    [
       "1942|1943|1944|1945",
       [
         "war-ww2-stalingrad-fin@3",
@@ -299,10 +797,24 @@
       ]
     ],
     [
+      "charles viii|françois ier|henri ii|louis xii",
+      [
+        "hist-bulk-0009@2",
+        "war-ren-francois1@2"
+      ]
+    ],
+    [
       "auguste|caligula|néron|trajan",
       [
         "war-rome-premier-empereur@2",
         "phil-seneca-tutor-of-nero@0"
+      ]
+    ],
+    [
+      "bleu|jaune|rouge|vert",
+      [
+        "odd-octopus-blue-blood@2",
+        "jeux-societe-008@1"
       ]
     ],
     [
@@ -313,6 +825,41 @@
       ]
     ],
     [
+      "4|5|6|7",
+      [
+        "jeux-societe-007@0",
+        "jeux-societe-019@0",
+        "music-guitar-strings@3",
+        "fin-musique-0023@1",
+        "sport-olympic-rings@1",
+        "sport-champions-0006@2",
+        "sport-bulk-0006@3",
+        "fin-sport-0015@3"
+      ]
+    ],
+    [
+      "3|4|5|6",
+      [
+        "jeux-societe-016@3",
+        "jeux-societe-028@3",
+        "sport-grand-slam@2"
+      ]
+    ],
+    [
+      "gustave flaubert|honoré de balzac|victor hugo|émile zola",
+      [
+        "book-hugo-notre-dame@0",
+        "lit-bulk-0001@3"
+      ]
+    ],
+    [
+      "la reine margot|le comte de monte-cristo|les trois mousquetaires|vingt ans après",
+      [
+        "book-dumas-monte-cristo@0",
+        "lit-bulk-0012@0"
+      ]
+    ],
+    [
       "charles perrault|hans christian andersen|les frères grimm|oscar wilde",
       [
         "book-perrault@0",
@@ -320,31 +867,60 @@
       ]
     ],
     [
-      "4|5|6|7",
+      "charlotte brontë|emily brontë|jane austen|mary shelley",
       [
-        "music-guitar-strings@3",
-        "sport-olympic-rings@1"
+        "book-shelley@1",
+        "lit-auteurs-0016@0"
       ]
     ],
     [
-      "geb|osiris|râ|seth",
+      "ernest hemingway|f. scott fitzgerald|john steinbeck|william faulkner",
       [
-        "egyptian-horus-father-osiris@2",
-        "egyptian-anubis-father-osiris@1"
+        "book-hemingway@1",
+        "lit-auteurs-0029@3",
+        "lit-bulk-0011@2"
       ]
     ],
     [
-      "isis|maât|nout|tefnout",
+      "l'étranger|la chute|la peste|le premier homme",
       [
-        "egyptian-isis-goddess-of-magic@0",
-        "egyptian-nephthys-isis-canopic-jars@3"
+        "lit-bulk-0008@1",
+        "phil-camus-the-plague-oran@3"
       ]
     ],
     [
-      "abou simbel|edfou|karnak|philae",
+      "gelus|rem|ryuk|sidoh",
       [
-        "egyptian-amun-karnak-temple@0",
-        "egyptian-karnak-largest-temple-complex@1"
+        "anime-death-note-ryuk@1",
+        "manga-culte-0005@0"
+      ]
+    ],
+    [
+      "bad|dangerous|off the wall|thriller",
+      [
+        "music-thriller-album@3",
+        "music-legend-0003@2"
+      ]
+    ],
+    [
+      "la finlande|la norvège|la suède|le danemark",
+      [
+        "music-abba-country@0",
+        "vehicules-opentdb-004@2"
+      ]
+    ],
+    [
+      "bob marley|burning spear|jimmy cliff|peter tosh",
+      [
+        "music-bob-marley@0",
+        "music-legend-0008@2"
+      ]
+    ],
+    [
+      "franz schubert|joseph haydn|ludwig van beethoven|wolfgang amadeus mozart",
+      [
+        "fin-musique-0002@3",
+        "music-legend-0005@3"
       ]
     ],
     [
@@ -386,6 +962,13 @@
       ]
     ],
     [
+      "apollon|mars|mercure|vulcain",
+      [
+        "myth-pantheon-0006@2",
+        "myth-pantheon-0009@1"
+      ]
+    ],
+    [
       "l'académie|le jardin|le lycée|le portique",
       [
         "phil-plato-foundation-of-the-academy@2",
@@ -400,15 +983,160 @@
       ]
     ],
     [
+      "irène joliot-curie|lise meitner|marie curie|rosalind franklin",
+      [
+        "sci-curie-radium@0",
+        "sci-bulk-0018@1"
+      ]
+    ],
+    [
+      "l'argon|le diazote|le dioxyde de carbone|le dioxygène",
+      [
+        "sci-bulk-0008@0",
+        "fin-science-0004@2"
+      ]
+    ],
+    [
+      "ag|au|fe|or",
+      [
+        "sci-bulk-0010@0",
+        "fin-science-0005@1"
+      ]
+    ],
+    [
+      "l'hydrogène|l'hélium|l'oxygène|le carbone",
+      [
+        "sci-bulk-0029@0",
+        "fin-science-0001@1"
+      ]
+    ],
+    [
       "001|067|218|456",
       [
         "tv-squid-game-456@1",
         "tv-squid-game-number-gi-hun@0"
       ]
+    ],
+    [
+      "carl lewis|tyson gay|usain bolt|yohan blake",
+      [
+        "sport-100m-bolt@2",
+        "sport-bulk-0007@2"
+      ]
+    ],
+    [
+      "ian thorpe|mark spitz|michael phelps|ryan lochte",
+      [
+        "sport-champions-0003@2",
+        "fin-sport-0022@0"
+      ]
+    ],
+    [
+      "brisbane|melbourne|perth|sydney",
+      [
+        "fin-sport-0006@1",
+        "fin-sport-0019@0",
+        "sport-ext-0005@3"
+      ]
+    ],
+    [
+      "ada lovelace|grace hopper|katherine johnson|margaret hamilton",
+      [
+        "tech-ada-lovelace@0",
+        "tech-pionniers-0002@3"
+      ]
+    ],
+    [
+      "java|javascript|php|python",
+      [
+        "fin-technologie-0003@2",
+        "tech-pionniers-0006@1"
+      ]
+    ],
+    [
+      "android|ios|symbian|windows phone",
+      [
+        "fin-technologie-0007@3",
+        "tech-web-0007@0"
+      ]
+    ],
+    [
+      "la bande magnétique|la disquette|le cd-rom|le disque ssd",
+      [
+        "fin-technologie-0009@1",
+        "tech-web-0010@3"
+      ]
+    ],
+    [
+      "l'olympic|le britannic|le lusitania|le titanic",
+      [
+        "vehicules-opentdb-006@3",
+        "fin-vehicules-0009@2"
+      ]
     ]
   ],
-  "lengthOutlierCount": 123,
+  "lengthOutlierCount": 170,
   "lengthOutliers": [
+    {
+      "id": "animaux-dump-0237",
+      "answers": [
+        "No one knows for sure but there are four theories trying to explain this behaviour.",
+        "They can drown if their holes fill up.",
+        "They cant take the acid rain.",
+        "The temperature on the surface is cooler."
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "animaux-dump2-0578",
+      "answers": [
+        "Mexico, Central America and South America",
+        "Africa",
+        "Asia",
+        "Australia"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "animaux-dump2-0656",
+      "answers": [
+        "On the ground",
+        "In other birds nests",
+        "On balconies",
+        "On rocks"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "animaux-final-0877",
+      "answers": [
+        "Oriental Shorthair",
+        "Selkirk Rex",
+        "Singapura",
+        "Siamese"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "art-archi-0005",
+      "answers": [
+        "Saqqarah",
+        "Louxor",
+        "Karnak",
+        "Le plateau de Gizeh"
+      ],
+      "correctIdx": 3
+    },
+    {
+      "id": "fin-art-0007",
+      "answers": [
+        "Le MoMA",
+        "Le Metropolitan Museum of Art",
+        "Le musée Guggenheim",
+        "Le Whitney Museum"
+      ],
+      "correctIdx": 1
+    },
     {
       "id": "art-seurat-grandejatte-technique",
       "answers": [
@@ -426,6 +1154,56 @@
         "La Reine des neiges",
         "Raiponce",
         "Vaiana"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "cine-cannes-0017",
+      "answers": [
+        "Jacques Audiard",
+        "Jean-Pierre et Luc Dardenne",
+        "Lucas Belvaux",
+        "Philippe Lioret"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "cine-cannes-0022",
+      "answers": [
+        "Benoît Jacquot",
+        "Bruno Dumont",
+        "Chantal Akerman",
+        "Jean-Pierre et Luc Dardenne"
+      ],
+      "correctIdx": 3
+    },
+    {
+      "id": "comics-bd-011",
+      "answers": [
+        "Morris",
+        "André Franquin",
+        "Hergé",
+        "Peyo"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "multi-theme-0006",
+      "answers": [
+        "Peyo",
+        "Hergé",
+        "André Franquin",
+        "Morris"
+      ],
+      "correctIdx": 2
+    },
+    {
+      "id": "fin-comics-bd-0015",
+      "answers": [
+        "Cosey et Derib",
+        "Grzegorz Rosiński et Jean Van Hamme",
+        "Loisel et Le Tendre",
+        "Bourgeon et Lacroix"
       ],
       "correctIdx": 1
     },
@@ -550,6 +1328,26 @@
       "correctIdx": 3
     },
     {
+      "id": "food-cuisine-0003",
+      "answers": [
+        "Le cèpe de Bordeaux",
+        "La truffe noire (du Périgord)",
+        "La girolle",
+        "La morille"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "food-cuisine-0008",
+      "answers": [
+        "Le Sud-Ouest (Occitanie)",
+        "La Bretagne",
+        "La Bourgogne",
+        "L'Alsace"
+      ],
+      "correctIdx": 0
+    },
+    {
       "id": "foot-england-record",
       "answers": [
         "Manchester United",
@@ -558,6 +1356,16 @@
         "Chelsea"
       ],
       "correctIdx": 0
+    },
+    {
+      "id": "foot-ext-0008",
+      "answers": [
+        "La Coupe du Nil",
+        "La Coupe d'Afrique des Nations (CAN)",
+        "Le Championnat d'Afrique",
+        "Le Trophée Sahara"
+      ],
+      "correctIdx": 1
     },
     {
       "id": "game-minecraft-creator",
@@ -606,6 +1414,36 @@
         "2K Games",
         "Electronic Arts",
         "Ubisoft"
+      ],
+      "correctIdx": 2
+    },
+    {
+      "id": "game-studios-0008",
+      "answers": [
+        "Grand Theft Auto (GTA)",
+        "Mafia",
+        "Max Payne",
+        "Red Dead Redemption"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "game-studios-0013",
+      "answers": [
+        "Umbrella Corporation",
+        "Aperture Science",
+        "Vault-Tec",
+        "Shinra"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "flag-sa",
+      "answers": [
+        "Pakistan",
+        "Iran",
+        "Arabie Saoudite",
+        "Venezuela"
       ],
       "correctIdx": 2
     },
@@ -840,6 +1678,136 @@
       "correctIdx": 0
     },
     {
+      "id": "geo-continents-0018",
+      "answers": [
+        "Asie",
+        "Afrique",
+        "Océanie",
+        "Amérique du Sud"
+      ],
+      "correctIdx": 3
+    },
+    {
+      "id": "geo-continents-0020",
+      "answers": [
+        "Océanie",
+        "Europe",
+        "Amérique du Sud",
+        "Asie"
+      ],
+      "correctIdx": 2
+    },
+    {
+      "id": "geo-continents-0023",
+      "answers": [
+        "Océanie",
+        "Amérique du Sud",
+        "Afrique",
+        "Asie"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "geo-continents-0026",
+      "answers": [
+        "Europe",
+        "Amérique du Sud",
+        "Océanie",
+        "Afrique"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "geo-continents-0027",
+      "answers": [
+        "Asie",
+        "Amérique du Nord",
+        "Océanie",
+        "Amérique du Sud"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "geo-continents-0028",
+      "answers": [
+        "Amérique du Nord",
+        "Afrique",
+        "Europe",
+        "Asie"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "fin-geographie-0052",
+      "answers": [
+        "Bornéo",
+        "La Nouvelle-Guinée",
+        "Sumatra",
+        "Madagascar"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "fin-geographie-0060",
+      "answers": [
+        "Les îles Canaries",
+        "Madère",
+        "Les Baléares",
+        "Les Açores"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "geo-prefectures-0013",
+      "answers": [
+        "Riom",
+        "Thiers",
+        "Issoire",
+        "Clermont-Ferrand"
+      ],
+      "correctIdx": 3
+    },
+    {
+      "id": "geo-prefectures-0018",
+      "answers": [
+        "Châlons-en-Champagne",
+        "Épernay",
+        "Vitry-le-François",
+        "Reims"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "geo-prefectures-0037",
+      "answers": [
+        "Oyonnax",
+        "Belley",
+        "Gex",
+        "Bourg-en-Bresse"
+      ],
+      "correctIdx": 3
+    },
+    {
+      "id": "geo-prefectures-0038",
+      "answers": [
+        "Lons-le-Saunier",
+        "Saint-Claude",
+        "Dole",
+        "Arbois"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "geo-prefectures-0043",
+      "answers": [
+        "Charleville-Mézières",
+        "Sedan",
+        "Rethel",
+        "Vouziers"
+      ],
+      "correctIdx": 0
+    },
+    {
       "id": "war-gf-varsovie",
       "answers": [
         "Le Comecon",
@@ -888,6 +1856,36 @@
         "Au château de Versailles"
       ],
       "correctIdx": 2
+    },
+    {
+      "id": "hist-bulk-0006",
+      "answers": [
+        "Jean le Bon",
+        "Philippe IV",
+        "Louis VII",
+        "Louis IX (Saint Louis)"
+      ],
+      "correctIdx": 3
+    },
+    {
+      "id": "hist-bulk-0017",
+      "answers": [
+        "Napoléon Bonaparte",
+        "Danton",
+        "La Fayette",
+        "Murat"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "hist-bulk-0040",
+      "answers": [
+        "L'Unesco",
+        "La SDN",
+        "L'OTAN",
+        "L'Organisation des Nations Unies (ONU)"
+      ],
+      "correctIdx": 3
     },
     {
       "id": "war-rev-jeu-de-paume",
@@ -960,6 +1958,16 @@
       "correctIdx": 2
     },
     {
+      "id": "meme-homer-bush",
+      "answers": [
+        "Il vient de se faire rejeter par Flanders",
+        "Il se cache de Marge",
+        "Il fuit la police",
+        "Il évite M. Burns"
+      ],
+      "correctIdx": 0
+    },
+    {
       "id": "web-deep-web",
       "answers": [
         "Une version chiffrée de Google",
@@ -990,6 +1998,26 @@
       "correctIdx": 3
     },
     {
+      "id": "jeux-societe-022",
+      "answers": [
+        "Chronicles of Crime",
+        "Watson & Holmes",
+        "Sherlock Holmes Détective-Conseil",
+        "Mister Jack"
+      ],
+      "correctIdx": 2
+    },
+    {
+      "id": "fin-jeux-de-societe-0006",
+      "answers": [
+        "Ticket to Ride",
+        "Colt Express",
+        "Steam",
+        "Les Aventuriers du Rail"
+      ],
+      "correctIdx": 3
+    },
+    {
       "id": "book-saint-exupery",
       "answers": [
         "Marcel Pagnol",
@@ -1006,6 +2034,26 @@
         "Friedrich Schiller",
         "Thomas Mann",
         "Hermann Hesse"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "lit-auteurs-0022",
+      "answers": [
+        "Jean Giono",
+        "Marcel Pagnol",
+        "Jacques Prévert",
+        "Antoine de Saint-Exupéry"
+      ],
+      "correctIdx": 3
+    },
+    {
+      "id": "lit-bulk-0002",
+      "answers": [
+        "Cyrano de Bergerac",
+        "Ruy Blas",
+        "L'Aiglon",
+        "Chantecler"
       ],
       "correctIdx": 0
     },
@@ -1056,6 +2104,56 @@
         "La lame de Behelit",
         "L'épée de Griffith",
         "L'Excalibur Maudite"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "manga-culte-0001",
+      "answers": [
+        "Le fruit Hito Hito",
+        "Le fruit Mera Mera",
+        "Le fruit Ope Ope",
+        "Le fruit Gomu Gomu (du Caoutchoutier)"
+      ],
+      "correctIdx": 3
+    },
+    {
+      "id": "manga-culte-0003",
+      "answers": [
+        "La planète Vegeta",
+        "Yardrat",
+        "Beerus",
+        "Namek"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "manga-onepiece-marineford",
+      "answers": [
+        "Portgas D. Ace",
+        "Barbe Blanche",
+        "Sabo",
+        "Jinbei"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "manga-onepiece-yonko",
+      "answers": [
+        "Don Quijote Doflamingo",
+        "Baggy le Clown",
+        "Barbe Noire",
+        "Shanks"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "manga-fma-tucker",
+      "answers": [
+        "Sa fille Nina et son chien",
+        "Sa femme",
+        "Des prisonniers d'Ishval",
+        "Lui-même"
       ],
       "correctIdx": 0
     },
@@ -1138,106 +2236,6 @@
         "La Corée du Sud"
       ],
       "correctIdx": 3
-    },
-    {
-      "id": "egyptian-ra-crosses-the-duat-at-night",
-      "answers": [
-        "La Douat, le monde souterrain",
-        "Le Nil",
-        "Le désert de Libye",
-        "Les champs d'Ialou"
-      ],
-      "correctIdx": 0
-    },
-    {
-      "id": "egyptian-osiris-god-of-vegetation",
-      "answers": [
-        "Aux séismes",
-        "À la végétation et à la renaissance des récoltes",
-        "À la guerre et aux combats",
-        "Aux éclipses"
-      ],
-      "correctIdx": 1
-    },
-    {
-      "id": "egyptian-seth-unknown-animal",
-      "answers": [
-        "Le chat",
-        "L'ibis",
-        "L'hippopotame",
-        "Un animal imaginaire non identifié"
-      ],
-      "correctIdx": 3
-    },
-    {
-      "id": "egyptian-hathor-protector-of-women",
-      "answers": [
-        "Les femmes et les nouveau-nés",
-        "Les soldats",
-        "Les scribes",
-        "Les paysans"
-      ],
-      "correctIdx": 0
-    },
-    {
-      "id": "egyptian-ptah-patron-of-artisans",
-      "answers": [
-        "Les pêcheurs",
-        "Les scribes",
-        "Les médecins",
-        "Les artisans et les forgerons"
-      ],
-      "correctIdx": 3
-    },
-    {
-      "id": "egyptian-nephthys-sister-of-isis",
-      "answers": [
-        "La femme de Thot",
-        "La mère de Bastet",
-        "La sœur d'Isis, d'Osiris et de Seth",
-        "La fille de Râ"
-      ],
-      "correctIdx": 2
-    },
-    {
-      "id": "egyptian-forty-two-assessors",
-      "answers": [
-        "Trente",
-        "Sept",
-        "Quarante-deux",
-        "Douze"
-      ],
-      "correctIdx": 2
-    },
-    {
-      "id": "egyptian-ba-the-bird-soul",
-      "answers": [
-        "Un chat",
-        "Un oiseau à tête humaine",
-        "Un faucon",
-        "Un serpent ailé"
-      ],
-      "correctIdx": 1
-    },
-    {
-      "id": "egyptian-ushabti-funerary-figurines",
-      "answers": [
-        "À nourrir le défunt",
-        "À éclairer le chemin vers l'au-delà",
-        "À remplacer le défunt dans les travaux des champs de l'au-delà",
-        "À garder la tombe"
-      ],
-      "correctIdx": 2
-    },
-    {
-      "id": "egyptian-djoser-first-step-pyramid",
-      "answers": [
-        "La pyramide rhomboïdale",
-        "La pyramide de Meïdoum",
-        "La pyramide à degrés de Djéser à Saqqarah",
-        "La Grande Pyramide"
-      ],
-      "correctIdx": 2
     },
     {
       "id": "greek-cerberus-snake-tail",
@@ -1400,6 +2398,26 @@
       "correctIdx": 1
     },
     {
+      "id": "myth-heracles-0006",
+      "answers": [
+        "Les Harpies",
+        "Les Stryges",
+        "Les Sirènes",
+        "Les Oiseaux du lac Stymphale"
+      ],
+      "correctIdx": 3
+    },
+    {
+      "id": "myth-heracles-0012",
+      "answers": [
+        "Anubis",
+        "Le Sphinx",
+        "Le chien Cerbère",
+        "Orthos"
+      ],
+      "correctIdx": 2
+    },
+    {
       "id": "phil-socrates-maiutics-method",
       "answers": [
         "À la guerre",
@@ -1510,6 +2528,86 @@
       "correctIdx": 0
     },
     {
+      "id": "psycho-biais-ancrage",
+      "answers": [
+        "Refuser tout compromis",
+        "S'appuyer excessivement sur la toute première information reçue",
+        "S'énerver face à une offre trop basse",
+        "Copier la stratégie de l'adversaire"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "psycho-effet-halo",
+      "answers": [
+        "On ressent une présence fantomatique",
+        "L'évaluation d'une caractéristique d'une personne influence le jugement sur ses autres traits",
+        "On oublie instantanément ce qu'on allait dire",
+        "On perçoit des visages dans les nuages"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "psycho-test-marshmallow",
+      "answers": [
+        "L'intelligence spatiale",
+        "La capacité à différer la récompense (gratification différée)",
+        "L'empathie face à la privation des autres",
+        "La résistance au sucre"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "psycho-pyramide-maslow",
+      "answers": [
+        "Les besoins d'appartenance",
+        "Les besoins physiologiques (manger, boire, dormir)",
+        "Les besoins de sécurité",
+        "Le besoin d'accomplissement de soi"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "psycho-syndrome-stendhal",
+      "answers": [
+        "La foule et le bruit",
+        "Une profusion d'œuvres d'art d'une très grande beauté",
+        "L'architecture religieuse",
+        "Le manque de sommeil dû au décalage horaire"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "psycho-syndrome-jerusalem",
+      "answers": [
+        "Une amnésie temporaire totale",
+        "La perte du langage maternel",
+        "Des délires mystiques, se prenant pour une figure biblique (comme Moïse ou Jésus)",
+        "Une phobie soudaine des édifices religieux"
+      ],
+      "correctIdx": 2
+    },
+    {
+      "id": "psycho-syndrome-imposteur",
+      "answers": [
+        "Mentir sur son CV pour obtenir un emploi",
+        "Voler l'identité d'autrui",
+        "Attribuer ses réussites à la chance et craindre d'être démasquée comme incompétente",
+        "Inventer des maladies pour attirer l'attention"
+      ],
+      "correctIdx": 2
+    },
+    {
+      "id": "psycho-syndrome-cotard",
+      "answers": [
+        "Le monde entier est une simulation",
+        "Il est immortel",
+        "Ses organes sont pourris ou qu'il est déjà mort (délire de négation)",
+        "Tous ses proches veulent l'empoisonner"
+      ],
+      "correctIdx": 2
+    },
+    {
       "id": "sci-proxima",
       "answers": [
         "Véga",
@@ -1548,6 +2646,16 @@
         "Pour les marées"
       ],
       "correctIdx": 1
+    },
+    {
+      "id": "sci-bulk-0027",
+      "answers": [
+        "Le James Webb (JWST)",
+        "Hubble",
+        "Kepler",
+        "Spitzer"
+      ],
+      "correctIdx": 0
     },
     {
       "id": "tv-stranger-things-upside-down",
@@ -1638,9 +2746,83 @@
         "Pour les gauchers"
       ],
       "correctIdx": 1
+    },
+    {
+      "id": "tech-pionniers-0007",
+      "answers": [
+        "AT&T",
+        "L'Atlantic Telegraph Company",
+        "Bell Telephone",
+        "Western Union"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "vehicules-opentdb-017",
+      "answers": [
+        "Gemini 4",
+        "Soyouz 11",
+        "Le module Apollo 11 (Eagle)",
+        "Vostok 1"
+      ],
+      "correctIdx": 2
+    },
+    {
+      "id": "fin-vehicules-0010",
+      "answers": [
+        "Le Shinkai 6500",
+        "Le Deepsea Challenger",
+        "L'Alvin",
+        "Le Nautile"
+      ],
+      "correctIdx": 1
     }
   ],
   "singleItemSubcategories": [
+    [
+      "art/postimpressionnisme",
+      1
+    ],
+    [
+      "art/surrealisme",
+      1
+    ],
+    [
+      "art/impressionnisme",
+      1
+    ],
+    [
+      "art/cubisme",
+      1
+    ],
+    [
+      "art/expressionnisme",
+      1
+    ],
+    [
+      "art/art-nouveau",
+      1
+    ],
+    [
+      "art/pop-art",
+      1
+    ],
+    [
+      "cinema/nouvelle-vague",
+      1
+    ],
+    [
+      "cinema/cinema-muet",
+      1
+    ],
+    [
+      "comics-bd/polar",
+      1
+    ],
+    [
+      "comics-bd/sci-fi",
+      1
+    ],
     [
       "philosophie/sociologie",
       1
@@ -1654,11 +2836,123 @@
       1
     ],
     [
+      "food/sauces",
+      1
+    ],
+    [
+      "food/charcuterie",
+      1
+    ],
+    [
+      "football/regles",
+      1
+    ],
+    [
+      "football/euro",
+      1
+    ],
+    [
+      "football/entraineurs",
+      1
+    ],
+    [
+      "football/competitions",
+      1
+    ],
+    [
       "gaming/records",
       1
     ],
     [
+      "gaming/consoles-histoire",
+      1
+    ],
+    [
+      "gaming/arcade-retro",
+      1
+    ],
+    [
+      "gaming/studios",
+      1
+    ],
+    [
+      "gaming/rpg",
+      1
+    ],
+    [
+      "histoire/xxe-siecle",
+      1
+    ],
+    [
+      "histoire/europe",
+      1
+    ],
+    [
+      "histoire/france-contemporaine",
+      1
+    ],
+    [
+      "histoire/russie",
+      1
+    ],
+    [
+      "histoire/asie",
+      1
+    ],
+    [
+      "histoire/ameriques",
+      1
+    ],
+    [
       "insolite/nature-facts",
+      1
+    ],
+    [
+      "insolite/corps-humain",
+      1
+    ],
+    [
+      "insolite/mathematiques",
+      1
+    ],
+    [
+      "jeux-de-societe/lettres",
+      1
+    ],
+    [
+      "jeux-de-societe/des",
+      1
+    ],
+    [
+      "jeux-de-societe/bluff",
+      1
+    ],
+    [
+      "jeux-de-societe/escape-game",
+      1
+    ],
+    [
+      "jeux-de-societe/reflexion",
+      1
+    ],
+    [
+      "litterature/essais",
+      1
+    ],
+    [
+      "litterature/aventures",
+      1
+    ],
+    [
+      "litterature/contes",
+      1
+    ],
+    [
+      "litterature/fantasy",
+      1
+    ],
+    [
+      "litterature/antiquite",
       1
     ],
     [
@@ -1698,7 +2992,39 @@
       1
     ],
     [
+      "manga-anime/comedie-romance",
+      1
+    ],
+    [
+      "manga-anime/pionniers",
+      1
+    ],
+    [
+      "manga-anime/animation",
+      1
+    ],
+    [
+      "manga-anime/mecha",
+      1
+    ],
+    [
+      "musique/rock-francais",
+      1
+    ],
+    [
+      "psychologie/psychologie-sociale",
+      1
+    ],
+    [
+      "psychologie/troubles",
+      1
+    ],
+    [
       "science/paleontologie",
+      1
+    ],
+    [
+      "science/chimie-histoire",
       1
     ],
     [
@@ -1726,7 +3052,83 @@
       1
     ],
     [
-      "technologie/web",
+      "series/fantasy",
+      1
+    ],
+    [
+      "series/espionnage",
+      1
+    ],
+    [
+      "series/action",
+      1
+    ],
+    [
+      "series/sci-fi",
+      1
+    ],
+    [
+      "sport/basketball",
+      1
+    ],
+    [
+      "sport/rugby",
+      1
+    ],
+    [
+      "sport/natation",
+      1
+    ],
+    [
+      "sport/cyclisme",
+      1
+    ],
+    [
+      "sport/arts-martiaux",
+      1
+    ],
+    [
+      "sport/golf",
+      1
+    ],
+    [
+      "sport/ski",
+      1
+    ],
+    [
+      "technologie/informatique",
+      1
+    ],
+    [
+      "technologie/systemes",
+      1
+    ],
+    [
+      "internet/moteurs-de-recherche",
+      1
+    ],
+    [
+      "internet/encyclopedies",
+      1
+    ],
+    [
+      "internet/video",
+      1
+    ],
+    [
+      "technologie/securite",
+      1
+    ],
+    [
+      "technologie/electronique",
+      1
+    ],
+    [
+      "technologie/intelligence-artificielle",
+      1
+    ],
+    [
+      "vehicules/transport-urbain",
       1
     ]
   ]

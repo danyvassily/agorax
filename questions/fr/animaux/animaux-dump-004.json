@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0127",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "The does “cheetah” mean translated from Sanskrit?",
+    "question": "Que signifie littéralement le mot 'guépard' (cheetah) d'origine sanskrite ?",
     "answers": [
-      "Fast",
-      "Lightning",
-      "Stealth cat",
-      "Spotted One"
+      "Rapide",
+      "Éclair",
+      "Félin furtif",
+      "Le tacheté"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0130",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What frog is the most poisonous?",
+    "question": "Quelle grenouille est la plus venimeuse au monde ?",
     "answers": [
-      "Red-Eyed tree frog",
-      "Dart Frog",
-      "Corroboree Frog",
-      "Cane Toad"
+      "La rainette aux yeux rouges",
+      "La grenouille dendrobate",
+      "La grenouille corroboree",
+      "Le crapaud buffle"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0133",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How tall is a typical zebra at the shoulder?",
+    "question": "Quelle est la taille typique d'un zèbre au garrot ?",
     "answers": [
-      "5 1/2 feet (1.6 m)",
-      "4 feet (1.2 m)",
-      "6 feet (1.8 m)",
-      "3 feet (0.9 m)"
+      "1,6 m",
+      "1,2 m",
+      "1,8 m",
+      "0,9 m"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0133",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How fast can a zebra run?",
+    "question": "À quelle vitesse maximale un zèbre peut-il courir ?",
     "answers": [
-      "30 mph (50 km/h)",
-      "50 mph (80 km/h)",
-      "40 mph (65 km/h)",
-      "25 mph (40 km/h)"
+      "50 km/h",
+      "80 km/h",
+      "65 km/h",
+      "40 km/h"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0134",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How long can a zebra live in captivity?",
+    "question": "Combien d'années un zèbre peut-il vivre en captivité ?",
     "answers": [
-      "30 years",
-      "20 years",
-      "40 years",
-      "15 years"
+      "30 ans",
+      "20 ans",
+      "40 ans",
+      "15 ans"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -205,12 +205,12 @@
     "familyId": "family-animaux-0136",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "About how long have ants been around on Earth?",
+    "question": "Depuis environ combien de temps les fourmis existent-elles sur Terre ?",
     "answers": [
-      "8 million years",
-      "60 million years",
-      "45 milllion years",
-      "25 million years"
+      "8 millions d'années",
+      "60 millions d'années",
+      "45 millions d'années",
+      "25 millions d'années"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -245,12 +245,12 @@
     "familyId": "family-animaux-0139",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Which statement about ants is untrue?",
+    "question": "Quelle affirmation sur les fourmis est fausse ?",
     "answers": [
-      "Ants are sometimes put into Thai salads.",
-      "Bullet ants are considered to have the most painful sting.",
-      "An ant colony will eat its own larvae if there is no other food around.",
-      "Anteaters prefer ants to any other type of food."
+      "Les fourmis sont parfois consommées en salades thaïlandaises",
+      "La fourmi balle de fusil possède la piqûre la plus douloureuse",
+      "Une colonie peut manger ses propres larves en cas de famine",
+      "Le tamanoir ne mange que des fourmis à l'exclusion de tout autre aliment"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -285,12 +285,12 @@
     "familyId": "family-animaux-0142",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Why do flamingos often stand on one leg?",
+    "question": "Pourquoi les flamants roses dorment-ils souvent sur une seule patte ?",
     "answers": [
-      "Noone knows for sure.",
-      "To keep their feet from becoming waterlogged.",
-      "To keep feet from getting tired.",
-      "To stir up as little silt from bottom as possible."
+      "Personne ne le sait avec certitude",
+      "Pour éviter que leurs pattes ne soient détrempées",
+      "Pour éviter d'avoir les pattes fatiguées",
+      "Pour remuer le moins de vase possible au fond de l'eau"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -325,12 +325,12 @@
     "familyId": "family-animaux-0142",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What decade did the pop culture icon the plastic lawn flamingo come into existence?",
+    "question": "Dans quelle décennie le flamant rose en plastique pour pelouse a-t-il été créé ?",
     "answers": [
-      "60s",
-      "40s",
-      "30s",
-      "80s"
+      "Années 1950",
+      "Années 1940",
+      "Années 1930",
+      "Années 1980"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -365,12 +365,12 @@
     "familyId": "family-animaux-0144",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Why were Thylacines called Tigers?",
+    "question": "Pourquoi le thylacine était-il surnommé 'tigre de Tasmanie' ?",
     "answers": [
-      "because they looked like cats",
-      "because of their mean disposition",
-      "because of the stripes on their back",
-      "because of the vicious way in which they killed their prey"
+      "Parce qu'il ressemblait à un félin",
+      "En raison de son agressivité",
+      "En raison des rayures sur son dos",
+      "Pour sa manière féroce de tuer ses proies"
     ],
     "correctAnswer": 2,
     "category": "animaux",

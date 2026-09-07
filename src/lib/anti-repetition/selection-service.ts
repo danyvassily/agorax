@@ -23,7 +23,7 @@ export async function getQuestions(
 ): Promise<QuestionSelectionResponse> {
   if (!params.playerProfileIds?.length) throw new Error("No player profile provided");
 
-  const language = params.language ?? "fr";
+  const language = (params.language === "en" ? "en" : "fr") as "fr" | "en";
   const sessionId = params.sessionId ?? `session_${Date.now()}`;
   const allQuestions = (datasetOverride ?? loadQuestions(language).questions).map((question) => ({
     ...question,
@@ -42,6 +42,7 @@ export async function getQuestions(
     pool: allQuestions,
     participantHistories: [{ entries: syntheticHistory }],
     count: params.count,
+    language,
     categories: params.categories,
     difficulties: requestedDifficulties(params),
     reservedFamilyIds: reservedFamilies,

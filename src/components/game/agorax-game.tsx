@@ -5,7 +5,7 @@
  * Tour par tour → Duels → Buzzer → Le Cut → Finale La Ligne.
  * Multi-joueurs sur un appareil (2 à 8).
  */
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState, useCallback, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { useGameStore, makePlayer } from "@/lib/store/game";
 import { useHistoryStore } from "@/lib/store/history";
@@ -35,6 +35,8 @@ import { RoundRoastPanel } from "./round-roast-panel";
 import { ArtworkViewer } from "./artwork-viewer";
 import { Trophy, AlertCircle, ChevronLeft, Zap } from "lucide-react";
 import { useLanguageStore } from "@/lib/store/language";
+import { localizeQuestion } from "@/lib/questions/localize";
+import { translate } from "@/lib/i18n";
 
 const DIFFICULTY_LABELS: Record<string, string> = {
   easy: "Facile",
@@ -88,14 +90,18 @@ export function AgoraxGame() {
           })),
         });
 
+        const gameLanguage = config?.gameLanguage ?? "fr";
+        const languageMode = config?.languageMode ?? "shared";
         const data = await loadGameQuestions({
           count: config?.duration === "classic" ? 65 : 35,
           category: config?.category,
           players: playersConfig,
           history: entries,
           sessionId: config?.sessionId ?? crypto.randomUUID(),
-          language,
-          ai: language === "en",
+          gameLanguage,
+          languageMode,
+          language: gameLanguage,
+          ai: false,
         });
         if (cancelled) return;
 
@@ -399,6 +405,18 @@ export function AgoraxGame() {
     );
   }
 
+  const rawCurrentQ = gameState?.currentQuestion;
+  const currentQ: Question | undefined = useMemo(() => {
+    if (!rawCurrentQ) return undefined;
+    const localized = localizeQuestion(rawCurrentQ, config?.gameLanguage ?? "fr");
+    return {
+      ...rawCurrentQ,
+      question: localized.question,
+      answers: localized.answers,
+      explanation: localized.explanation ?? rawCurrentQ.explanation,
+    };
+  }, [rawCurrentQ, config?.gameLanguage]);
+
   // ---------- Chargement ----------
   if (loading) {
     return (
@@ -425,7 +443,6 @@ export function AgoraxGame() {
     );
   }
 
-  const currentQ = gameState.currentQuestion;
   const activePlayer = gameState.players[gameState.activePlayerIndex];
   const otherPlayers = gameState.players.filter((_, i) => i !== gameState.activePlayerIndex);
 
@@ -442,7 +459,7 @@ export function AgoraxGame() {
           state={gameState.laLigne}
           finalist1={f1}
           finalist2={f2}
-          currentQuestion={currentQ}
+          currentQuestion={currentQ ?? null}
           onAnswer={handleLaLigneAnswer}
           onTimeExpired={handleLaLigneTimeExpired}
         />
@@ -732,13 +749,28 @@ export function AgoraxGame() {
                   key={r}
                   type="button"
                   onClick={() => {
-                    if (currentQ) addReport(currentQ.id, r);
+                    if (currentQ) {
+                      addReport(currentQ.id, r, undefined, {
+                        gameId: config?.sessionId,
+                        questionId: currentQ.id,
+                        catalogLanguage: rawCurrentQ?.language,
+                        requestedLanguage: config?.gameLanguage ?? "fr",
+                        renderedLanguage: config?.gameLanguage ?? "fr",
+                        uiLanguage: language,
+                        gameLanguage: config?.gameLanguage ?? "fr",
+                        languageMode: config?.languageMode ?? "shared",
+                        playerLanguage: activePlayer?.id,
+                        playerId: activePlayer?.id,
+                        sourceFile: rawCurrentQ?.source?.provider,
+                        timestamp: new Date().toISOString(),
+                      });
+                    }
                     setReportOpen(false);
                     setReportDone(true);
                   }}
                   className="w-full rounded-xl bg-black/[0.03] px-4 py-2.5 text-left text-[14px] font-medium text-fp-text hover:bg-black/[0.06]"
                 >
-                  {r.replace(/-/g, " ")}
+                  {translate(language, `report.reason.${r}`)}
                 </button>
               ))}
             </div>

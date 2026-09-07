@@ -15,6 +15,8 @@ export interface QuestionSelectionRequest {
   pool: Question[];
   participantHistories: ParticipantHistory[];
   count: number;
+  language?: "fr" | "en";
+  requireBilingual?: boolean;
   categories?: string[];
   difficulties?: QuestionDifficulty[];
   reservedFamilyIds?: Iterable<string>;
@@ -68,6 +70,8 @@ export function getUnseenQuestions(request: QuestionSelectionRequest): QuestionS
     jitter: 0.15,
     seed: request.seed,
     reservedFamilyIds: reservedFamilies,
+    language: request.language,
+    requireBilingual: request.requireBilingual,
   } as const;
 
   let fallbackStage: QuestionSelectionResponse["fallbackStage"] = "exact";

@@ -87,6 +87,7 @@ describe("Partie multilingue : 1 joueur Anglais + 3 joueurs Français sur 5 ques
 
       // Vues des joueurs 2, 3, 4 (Bob, Chloé, David sur leurs écrans en français)
       for (const frenchPlayer of [players[1], players[2], players[3]]) {
+        expect(frenchPlayer.language).toBe("fr");
         const frenchView = localizeQuestion(rawQuestion, "fr");
         expect(frenchView.lang).toBe("fr");
         expect(frenchView.question).toBe(rawQuestion.question);

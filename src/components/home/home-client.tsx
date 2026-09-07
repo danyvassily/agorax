@@ -1,6 +1,6 @@
 "use client";
 import Link from 'next/link';
-import { ArrowRight, ScanLine, CalendarDays, Sparkles, LogIn, UserPlus } from 'lucide-react';
+import { ArrowRight, ScanLine, CalendarDays, Sparkles, UserPlus } from 'lucide-react';
 import { AppNavigation } from '@/components/ui/app-navigation';
 import { KawaiiMascot } from '@/components/ui/kawaii-mascot';
 import { GoogleIcon } from '@/components/ui/google-icon';

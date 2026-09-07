@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0101",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Approximately what amount of meat does an adult male lion’s diet require per day?",
+    "question": "Environ quelle quantité de viande un lion mâle adulte doit-il consommer par jour ?",
     "answers": [
-      "10 lbs. (4.5 kg)",
-      "15 lbs. (6.8 kg)",
-      "5 lbs. (2.2 kg)",
-      "25 lbs. (11 kg)"
+      "4,5 kg",
+      "6,8 kg",
+      "2,2 kg",
+      "11 kg"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0104",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Where can the polar bear be found?",
+    "question": "Où vit l'ours polaire à l'état naturel ?",
     "answers": [
-      "South Pole",
-      "Arctic",
-      "Antartica",
-      "All of these"
+      "Au pôle Sud",
+      "En Arctique",
+      "En Antarctique",
+      "Toutes ces réponses"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0105",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What color is a polar bears skin?",
+    "question": "De quelle couleur est la peau de l'ours polaire sous sa fourrure ?",
     "answers": [
-      "Pink",
-      "Yellow",
-      "Black",
-      "White"
+      "Rose",
+      "Jaune",
+      "Noire",
+      "Blanche"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0112",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Butterflies taste their food through this organ. ?",
+    "question": "Par quel organe les papillons goûtent-ils leur nourriture ?",
     "answers": [
-      "The legs",
-      "Their faceted eyes",
-      "The wings",
-      "The proboscis"
+      "Les pattes",
+      "Leurs yeux à facettes",
+      "Les ailes",
+      "La trompe"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -205,12 +205,12 @@
     "familyId": "family-animaux-0115",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Why do cats suddenly race through the house?",
+    "question": "Pourquoi les chats piquent-ils soudainement des sprints à travers la maison ?",
     "answers": [
-      "They want to get your attention.",
-      "They feel the presence of a ghost.",
-      "They feel a change in the weather.",
-      "They have an overflow of pent-up energy."
+      "Ils veulent attirer votre attention",
+      "Ils ressentent la présence d'un fantôme",
+      "Ils sentent un changement de météo",
+      "Ils ont un trop-plein d'énergie accumulée"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -245,12 +245,12 @@
     "familyId": "family-animaux-0115",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Why does a cat rub against your leg?",
+    "question": "Pourquoi un chat se frotte-t-il contre les jambes de son maître ?",
     "answers": [
-      "To mark you by depositing his/ her scent",
-      "Because she/ he really likes you.",
-      "To show he/ she trusts you",
-      "Because it feels good."
+      "Pour marquer son territoire en déposant son odeur",
+      "Parce qu'il l'aime beaucoup",
+      "Pour montrer sa confiance",
+      "Parce que c'est agréable"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -285,12 +285,12 @@
     "familyId": "family-animaux-0116",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Why does a cat bury his/ her waste?",
+    "question": "Pourquoi un chat enterre-t-il ses excréments dans sa litière ?",
     "answers": [
-      "To show their dominance",
-      "To protect their trail from predators",
-      "Because they are very clean animals.",
-      "Because they are so territorial."
+      "Pour prouver sa dominance",
+      "Pour masquer sa piste face aux prédateurs",
+      "Parce que c'est un animal très propre",
+      "Parce qu'il est très territorial"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -325,12 +325,12 @@
     "familyId": "family-animaux-0117",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Why do cats go crazy over catnip?",
+    "question": "Pourquoi les chats deviennent-ils fous au contact de l'herbe aux chats (cataire) ?",
     "answers": [
-      "Because it smells like tasty food",
-      "Because it smells like a cat in heat",
-      "Because it smells like prey",
-      "Because it is an aphrodisiac"
+      "Parce qu'elle sent la nourriture délicieuse",
+      "Parce qu'elle imite l'odeur d'un chat en chaleur",
+      "Parce qu'elle sent la proie",
+      "Parce que c'est un aphrodisiaque"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -365,12 +365,12 @@
     "familyId": "family-animaux-0119",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Why do earthworms come to the surface after rainstorms?",
+    "question": "Pourquoi les vers de terre remontent-ils à la surface après une forte pluie ?",
     "answers": [
-      "No one knows for sure but there are four theories trying to explain this behaviour.",
-      "They can drown if their holes fill up.",
-      "They cant take the acid rain.",
-      "The temperature on the surface is cooler."
+      "Plusieurs théories existent sans certitude absolue",
+      "Ils se noient quand leurs galeries sont inondées",
+      "Ils ne supportent pas l'acidité de la pluie",
+      "La température de surface est plus fraîche"
     ],
     "correctAnswer": 0,
     "category": "animaux",

@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0328",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "How did the smallest bird in the world, the Bee Hummingbird, get its name?",
+    "question": "Pourquoi le colibri d'Elena est-il surnommé 'colibri-abeille' ?",
     "answers": [
-      "Because of its black-and-yellow plumage",
-      "Because it is approximately the size of a large bee",
-      "Because of the sound it make with its wings",
-      "Because it feeds on bees"
+      "À cause de son plumage jaune et noir",
+      "Parce qu'il a la taille approximative d'une grosse abeille",
+      "Pour le bruit caractéristique de ses ailes",
+      "Parce qu'il chasse les abeilles"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0328",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Where does the Giant Cowbird, a passerine bird found in South America, lay its eggs?",
+    "question": "Où le vacher géant, oiseau parasite d'Amérique du Sud, pond-il ses œufs ?",
     "answers": [
-      "On the ground",
-      "In other birds nests",
-      "On balconies",
-      "On rocks"
+      "Au sol",
+      "Dans le nid d'autres oiseaux",
+      "Sur les balcons",
+      "Sur les falaises rocheuses"
     ],
     "correctAnswer": 1,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0334",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What time of day does the tiger shark usually hunt?",
+    "question": "À quel moment de la journée le requin-tigre chasse-t-il préférentiellement ?",
     "answers": [
-      "Nighttime",
-      "Mid morning",
-      "Early morning",
-      "They hunt at different times throughout the day"
+      "La nuit",
+      "En milieu de matinée",
+      "Tôt le matin",
+      "À heures variables toute la journée"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0338",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What bizarre food would pigs occasionally eat, being omnivores?",
+    "question": "Quels aliments insolites les porcs omnivores peuvent-ils consommer occasionnellement ?",
     "answers": [
-      "Their young",
-      "Tree bark",
-      "All of these",
-      "Rotting carcasses"
+      "Leurs propres petits",
+      "De l'écorce d'arbre",
+      "Tous ces aliments",
+      "Des carcasses en décomposition"
     ],
     "correctAnswer": 2,
     "category": "animaux",

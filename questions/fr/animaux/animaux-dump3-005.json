@@ -5,12 +5,12 @@
     "familyId": "family-animaux-0501",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Ammonites became extinct at the end of what geological period?",
+    "question": "À la fin de quelle période géologique les ammonites ont-elles totalement disparu ?",
     "answers": [
-      "Triassic",
-      "Permian",
-      "Cretaceous",
-      "Jurassic"
+      "Au Jurassique",
+      "Au Crétacé",
+      "Au Trias",
+      "Au Permien"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -45,12 +45,12 @@
     "familyId": "family-animaux-0510",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What interesting characteristic do all amphibians called caecilians share?",
+    "question": "Quelle caractéristique singulière toutes les cécilies (amphibiens gymnophiones) partagent-elles ?",
     "answers": [
-      "They have external ears.",
-      "They are hermaphrodites.",
-      "They have four eyes.",
-      "They have no legs."
+      "Elles ont des oreilles externes",
+      "Elles sont hermaphrodites",
+      "Elles possèdent quatre yeux",
+      "Elles sont totalement apodes (sans pattes)"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -85,12 +85,12 @@
     "familyId": "family-animaux-0511",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What animal does the greater siren, a nocturnal amphibian, resemble externally?",
+    "question": "À quel animal la grande sirène (amphibien aquatique) ressemble-t-elle à première vue ?",
     "answers": [
-      "An eel",
-      "A lizard",
-      "A frog",
-      "A gecko"
+      "Une anguille",
+      "Un lézard",
+      "Une grenouille",
+      "Un gecko"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0513",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Where does the female Suriname Toad keep its eggs until they develop into young frogs?",
+    "question": "Où la femelle du crapaud du Surinam (Pipa pipa) incube-t-elle ses œufs ?",
     "answers": [
-      "In its stomach",
-      "Between its hind legs",
-      "On its back",
-      "In its vocal sac"
+      "Dans son estomac",
+      "Entre ses pattes arrière",
+      "Enfouis dans la peau de son dos",
+      "Dans son sac vocal"
     ],
     "correctAnswer": 2,
     "category": "animaux",
@@ -165,12 +165,12 @@
     "familyId": "family-animaux-0518",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What unusual physical characteristic does the lemur Aye-aye possess?",
+    "question": "Quelle particularité physique célèbre caractérise le lémurien aye-aye de Madagascar ?",
     "answers": [
-      "It has 4 nipples.",
-      "All of these",
-      "Its pupils are constantly dilated.",
-      "It has extremely long fingers."
+      "Il a quatre mamelles",
+      "Toutes ces réponses",
+      "Ses pupilles sont dilatées en permanence",
+      "Il a un majeur extrêmement long et effilé pour déloger les larves"
     ],
     "correctAnswer": 3,
     "category": "animaux",
@@ -205,12 +205,12 @@
     "familyId": "family-animaux-0519",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "In what places does the nocturnal Aye-aye sleep during the daytime?",
+    "question": "Où le nocturne aye-aye dort-il pendant la journée ?",
     "answers": [
-      "On trees",
-      "Hanging from a branch.",
-      "On a branch, covering its body with a big leaf",
-      "In holes in the ground"
+      "Dans des nids de branchages perchés dans les arbres",
+      "Suspendu à une branche par les pieds",
+      "Sur une branche sous une feuille de palmier",
+      "Dans des terriers souterrains"
     ],
     "correctAnswer": 0,
     "category": "animaux",
@@ -245,12 +245,12 @@
     "familyId": "family-animaux-0525",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "What unusual anatomical characteristic does the koala possess?",
+    "question": "Quelle particularité anatomique remarquable caractérise l'appareil reproducteur des koalas ?",
     "answers": [
-      "The female has two vaginas.",
-      "The female has two uteri.",
-      "All of these",
-      "The make has a bifurcated penis."
+      "La femelle a deux vagins latéraux",
+      "La femelle a deux utérus distincts",
+      "Toutes ces caractéristiques",
+      "Le mâle a un pénis bifide"
     ],
     "correctAnswer": 2,
     "category": "animaux",

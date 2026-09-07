@@ -296,6 +296,7 @@ export function OnlineRoom() {
       setSession(resetSession);
       setCurrentMode(nextMode);
       const requestedCount = nextMode === "rapidfire" ? 20 : resetSession.question_count ?? 10;
+      const gameLanguage = useLanguageStore.getState().language === "en" ? "en" : "fr";
       const data = await loadGameQuestions({
         count: requestedCount,
         category: resetSession.category ?? undefined,
@@ -304,7 +305,9 @@ export function OnlineRoom() {
         sessionId: resetSession.id,
         onlineSessionId: resetSession.id,
         ai: false,
-        language: useLanguageStore.getState().language,
+        gameLanguage,
+        languageMode: "shared",
+        language: gameLanguage,
       });
       const qs = data.questions ?? [];
       questionsRef.current = qs;
@@ -464,7 +467,8 @@ export function OnlineRoom() {
   }
 
   const q = session?.current_question;
-  const qLocal = q ? localizeQuestion(q, lang) : null;
+  const effectiveSessionLang = session?.language_mode === "per-player" ? lang : ((q?.language as "fr" | "en") ?? "fr");
+  const qLocal = q ? localizeQuestion(q, effectiveSessionLang) : null;
   const en = lang === "en";
   const correctAnswer = revealed ? q?.correctAnswer : undefined;
   const answeredCount = answeredCountForCurrent;

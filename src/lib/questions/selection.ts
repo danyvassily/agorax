@@ -19,6 +19,10 @@ export interface SelectionHistoryEntry {
 
 export interface SelectionOptions {
   count: number;
+  /** Langue stricte demandée pour la sélection (défense en profondeur) */
+  language?: "fr" | "en";
+  /** Exige des questions bilingues (traductions synchronisées disponibles) */
+  requireBilingual?: boolean;
   /** Catégories autorisées (toutes si vide) */
   categories?: string[];
   /** Difficultés autorisées (toutes si vide) */
@@ -112,15 +116,29 @@ export function selectQuestions(
   const candidateContent = new Set<string>();
   const candidateKnowledge = new Set<string>();
   const candidates = pool.filter((q) => {
-    if (options.categories?.length && !options.categories.includes(q.category)) return false;
-    if (options.difficulties?.length && !options.difficulties.includes(q.difficulty)) return false;
+    // 1. Contrainte de langue (défense en profondeur non négociable en mode shared)
+    if (options.language && q.language !== options.language) return false;
+    if (options.requireBilingual) {
+      const alt = (options.language ?? q.language) === "fr" ? "en" : "fr";
+      const trans = q.translations?.[alt];
+      if (!trans || !trans.answers || trans.answers.length !== q.answers.length) return false;
+    }
+
+    // 2. Exclusions déjà vues (questions et familles)
     if (seenQuestions.has(historyKey(q.id))) return false;
     if (seenFamilies.has(historyKey(q.familyId))) return false;
+    if (reservedFamilies.has(historyKey(q.familyId))) return false;
+
+    // 3. Catégories et 4. Difficultés
+    if (options.categories?.length && !options.categories.includes(q.category)) return false;
+    if (options.difficulties?.length && !options.difficulties.includes(q.difficulty)) return false;
+
+    // 5. Anti-répétition conceptuelle et sémantique
     const content = q.contentHash ?? canonicalKey(q);
     const knowledge = canonicalizeKnowledgeKey(q.knowledgeKey ?? q.familyId);
     if (seenContent.has(content) || candidateContent.has(content)) return false;
     if (seenKnowledge.has(knowledge) || candidateKnowledge.has(knowledge)) return false;
-    if (reservedFamilies.has(historyKey(q.familyId))) return false;
+
     candidateContent.add(content);
     candidateKnowledge.add(knowledge);
     return true;
