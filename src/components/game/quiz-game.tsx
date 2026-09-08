@@ -28,6 +28,7 @@ import { AlertCircle, Flag, ChevronLeft, Check, X, Pause, Play, ArrowRight } fro
 import { sound } from "@/lib/audio/sound-engine";
 import { isQuizAnswerCorrect, playerQuestionCount, startQuestionCountdown } from "@/lib/game/quiz-round";
 import { recordEloResults } from "@/lib/ranking/client";
+import { useWakeLock } from "@/lib/device/wake-lock";
 
 interface QuizGameProps {
   mode: "classic" | "truefalse" | "rapidfire";
@@ -56,6 +57,7 @@ export function QuizGame({ mode }: QuizGameProps) {
   const [paused, setPaused] = useState(false);
   const remainingRef = useRef(0);
   const [phase, setPhase] = useState<Phase>("loading");
+  useWakeLock(phase === "playing" || phase === "handoff");
   const [questions, setQuestions] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
@@ -255,6 +257,14 @@ export function QuizGame({ mode }: QuizGameProps) {
       setTimeLeft(remaining);
     }, () => handleAnswerRef.current(-1));
   }, [phase, currentRaw, timePerQuestion, paused]);
+
+  useEffect(() => {
+    if (phase === "playing" && !paused) {
+      if (timeLeft === 3) sound.playCountdown(3);
+      else if (timeLeft === 2) sound.playCountdown(2);
+      else if (timeLeft === 1) sound.playCountdown(1);
+    }
+  }, [timeLeft, phase, paused]);
 
   function startTurn() {
     setTimeLeft(timePerQuestion); remainingRef.current = timePerQuestion;

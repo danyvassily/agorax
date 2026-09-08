@@ -28,6 +28,7 @@ import {
   subscribeAnswers,
   hostPushQuestion,
   hostMarkAnswers,
+  hostSetPause,
   submitAnswer,
   claimRoomBuzzer,
   submitRoomBuzzerAnswer,
@@ -52,9 +53,12 @@ import { KawaiiMascot } from "@/components/ui/kawaii-mascot";
 import { RoundRoastPanel } from "@/components/game/round-roast-panel";
 import { AppIcon } from "@/components/ui/icons";
 import { AppNavigation } from "@/components/ui/app-navigation";
+import { useWakeLock } from "@/lib/device/wake-lock";
+import { RoomQRCode } from "@/components/game/room-qr-code";
 import {
   Globe,
   Play,
+  Pause,
   Eye,
   ArrowRight,
   ChevronLeft,
@@ -91,7 +95,16 @@ export function OnlineRoom() {
 
   const searchParams = useSearchParams();
   const [view, setView] = useState<View>(() => searchParams.get("create") === "1" ? "create" : "entry");
-  const [pseudoDraft, setPseudo] = useState<string | null>(null);
+  const [pseudoDraft, setPseudo] = useState<string | null>(() => {
+    if (typeof window !== "undefined") {
+      try {
+        return localStorage.getItem("Agorax-saved-nickname");
+      } catch {
+        return null;
+      }
+    }
+    return null;
+  });
   const storedPseudo = pseudoDraft ?? user?.name ?? savedPlayers[0]?.name ?? "";
   const pseudo = lang === "en"
     ? storedPseudo.replace(/^Joueur (\d+)$/, "Player $1")
@@ -133,6 +146,20 @@ export function OnlineRoom() {
   const joiningRef = useRef(false);
   const autoJoinedRef = useRef(false);
 
+  // Wake Lock : Empêche la mise en veille de l'écran en cours de partie ou dans le lobby
+  useWakeLock(view === "playing" || view === "lobby");
+
+  const handlePseudoChange = (val: string) => {
+    setPseudo(val);
+    try {
+      if (val.trim()) {
+        localStorage.setItem("Agorax-saved-nickname", val.trim());
+      }
+    } catch {
+      // non bloquant
+    }
+  };
+
   const isHost = myPlayer?.is_host === true;
   const isBuzzerMode = currentMode === "agorax";
   const buzzerPlayer = players.find((player) => player.id === session?.buzzer_player_id);
@@ -140,11 +167,21 @@ export function OnlineRoom() {
   const currentQuestion: Question | null =
     questions[index()] ?? (session?.current_question as Question | null) ?? null;
   const revealed = session?.answers_revealed ?? false;
+  const isPaused = Boolean(session?.current_question?.is_paused);
   const questionCount = currentMode === "rapidfire" ? 20 : session?.question_count ?? questions.length ?? 10;
   const timePerQuestion = currentMode === "rapidfire" ? 6 : 15;
 
   function index() {
     return session?.question_index ?? 0;
+  }
+
+  async function togglePause() {
+    if (!session || !isHost) return;
+    try {
+      await hostSetPause(session.id, !isPaused);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Impossible de modifier la pause");
+    }
   }
 
   // Abonnements Realtime quand un salon est actif
@@ -164,7 +201,18 @@ export function OnlineRoom() {
         setMyPlayer(updated);
       }
     });
-    const unsubAnswers = subscribeAnswers(sessionId, setAnswers);
+    const unsubAnswers = subscribeAnswers(sessionId, (freshAnswers) => {
+      setAnswers(freshAnswers);
+      // Récupération sans perte d'état si le joueur recharge en cours de question
+      const currentIdx = sessionRef.current?.question_index ?? 0;
+      const myAns = freshAnswers.find(
+        (a) => a.player_id === myPlayerRef.current?.id && a.question_index === currentIdx
+      );
+      if (myAns && myAns.answer_index !== null) {
+        setAnswered(true);
+        setSelected(myAns.answer_index);
+      }
+    });
     return () => {
       unsubSession();
       unsubPlayers();
@@ -188,9 +236,9 @@ export function OnlineRoom() {
     return () => clearTimeout(id);
   }, [sessionPhase]);
 
-  // Timer du joueur quand la question est poussée
+  // Timer du joueur quand la question est poussée (suspendu si pause)
   useEffect(() => {
-    if (view !== "playing" || revealed || !hasCurrentQuestion) return;
+    if (view !== "playing" || revealed || !hasCurrentQuestion || isPaused) return;
     const id = setTimeout(() => {
       setAnswered(false);
       setSelected(null);
@@ -211,11 +259,23 @@ export function OnlineRoom() {
       clearTimeout(id);
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [session?.state_version, view, revealed, hasCurrentQuestion, timePerQuestion]);
+  }, [session?.state_version, view, revealed, hasCurrentQuestion, timePerQuestion, isPaused]);
 
+  // Sons et micro-vibrations haptiques 3-2-1
   useEffect(() => {
-    if (view === "playing" && hasCurrentQuestion && !revealed) sound.playQuestionIncoming();
-  }, [view, session?.question_index, hasCurrentQuestion, revealed]);
+    if (view === "playing" && !revealed && !isPaused) {
+      if (timeLeft === 3) sound.playCountdown(3);
+      else if (timeLeft === 2) sound.playCountdown(2);
+      else if (timeLeft === 1) sound.playCountdown(1);
+    }
+  }, [timeLeft, view, revealed, isPaused]);
+
+  // Son et vibration "GO" à l'arrivée d'une nouvelle question
+  useEffect(() => {
+    if (view === "playing" && hasCurrentQuestion && !revealed && !isPaused) {
+      sound.playGo();
+    }
+  }, [view, session?.question_index, hasCurrentQuestion, revealed, isPaused]);
 
   const answeredCountForCurrent = answers.filter((answer) => answer.question_index === index()).length;
   const allAnsweredRef = useRef(false);
@@ -231,6 +291,7 @@ export function OnlineRoom() {
     setBusy(true);
     setError(null);
     try {
+      if (pseudo.trim()) localStorage.setItem("Agorax-saved-nickname", pseudo.trim());
       const res = await createRoom(pseudo, {
         mode: currentMode,
         category: createCategory,
@@ -259,6 +320,7 @@ export function OnlineRoom() {
     setBusy(true);
     setError(null);
     try {
+      if (pseudo.trim()) localStorage.setItem("Agorax-saved-nickname", pseudo.trim());
       const res = await joinRoom((code ?? joinCode).trim().toUpperCase(), pseudo);
       sessionRef.current = res.session;
       setSession(res.session);
@@ -549,6 +611,20 @@ export function OnlineRoom() {
           setMyPlayer(p as OnlinePlayer);
           setReady(p.ready === true);
           if (s.mode) setCurrentMode(s.mode as GameMode);
+          if (p.is_host) {
+            try {
+              const cachedQs = localStorage.getItem(`Agorax-questions-${s.id}`);
+              if (cachedQs) {
+                const parsedQs = JSON.parse(cachedQs) as Question[];
+                if (Array.isArray(parsedQs) && parsedQs.length > 0) {
+                  questionsRef.current = parsedQs;
+                  setQuestions(parsedQs);
+                }
+              }
+            } catch {
+              // non bloquant
+            }
+          }
           if (s.phase === "playing") setView("playing");
           else setView("lobby");
         }
@@ -589,7 +665,6 @@ export function OnlineRoom() {
 
   const otherPlayers = players.filter((p) => p.id !== myPlayer?.id);
   const allOthersReady = otherPlayers.length === 0 || otherPlayers.every((p) => isPlayerReady(p));
-  const everyoneReady = players.length >= 1 && players.every((p) => isPlayerReady(p));
   const canStart = isHost && players.length >= 1;
 
   // ---------- Vue 1 : Entrée ----------
@@ -637,16 +712,30 @@ export function OnlineRoom() {
         </div>
 
         <SectionTitle>{en ? "Your nickname" : "Votre pseudo"}</SectionTitle>
-        <div className="fp-card p-4 flex items-center gap-3">
-          <PlayerDot name={pseudo || "?"} avatarUrl={user?.avatarUrl} colorIndex={0} size={38} />
-          <input
-            value={pseudo}
-            onChange={(e) => setPseudo(e.target.value)}
-            maxLength={20}
-            placeholder={en ? "E.g. Alex" : "Ex : Alex"}
-            aria-label={en ? "Your nickname" : "Votre pseudo"}
-            className="fp-input flex-1 px-4 py-3 text-[16px] font-medium"
-          />
+        <div className="fp-card p-4 flex flex-col gap-3">
+          {pseudo && !user?.name && (
+            <div className="flex items-center justify-between rounded-xl bg-fp-primary/10 px-3.5 py-2 text-[12px] font-bold text-fp-primary border border-fp-primary/20">
+              <span>{en ? `Playing as ${pseudo}` : `Continuer en tant que ${pseudo}`}</span>
+              <button
+                type="button"
+                onClick={() => handlePseudoChange("")}
+                className="text-[11px] font-semibold text-fp-text-dim hover:text-fp-text underline ml-2"
+              >
+                {en ? "Change" : "Modifier"}
+              </button>
+            </div>
+          )}
+          <div className="flex items-center gap-3">
+            <PlayerDot name={pseudo || "?"} avatarUrl={user?.avatarUrl} colorIndex={0} size={38} />
+            <input
+              value={pseudo}
+              onChange={(e) => handlePseudoChange(e.target.value)}
+              maxLength={20}
+              placeholder={en ? "E.g. Alex" : "Ex : Alex"}
+              aria-label={en ? "Your nickname" : "Votre pseudo"}
+              className="fp-input flex-1 px-4 py-3 text-[16px] font-medium"
+            />
+          </div>
         </div>
 
         <SectionTitle>{en ? "Question language" : "Langue des questions"}</SectionTitle>
@@ -733,17 +822,28 @@ export function OnlineRoom() {
           <h1>{en ? `${host?.name ?? pseudo}’s room` : `Le salon de ${host?.name ?? pseudo}`}</h1>
         </header>
 
-        <section className="jx-form-card jx-aqua text-center">
-          <p>{en ? "Room code" : "Code du salon"}</p>
-          <div className="jx-room-code">{session.room_code}</div>
-          <div className="jx-room-actions">
-            <button className="fp-btn-secondary" onClick={() => void copyCode()}>
-              {copied ? <Check size={18} /> : <Copy size={18} />}
-              {copied ? (en ? "Copied" : "Copié") : (en ? "Copy" : "Copier")}
+        <section className="jx-form-card jx-aqua text-center flex flex-col items-center">
+          <span className="text-[11px] uppercase font-bold tracking-wider text-black/50">{en ? "Room code" : "Code du salon"}</span>
+          <div className="my-1 font-mono text-4xl sm:text-5xl font-black tracking-widest text-fp-primary uppercase select-all">
+            {session.room_code}
+          </div>
+
+          <div className="my-2.5">
+            <RoomQRCode
+              url={`${typeof window !== "undefined" ? window.location.origin : ""}/play/online?room=${encodeURIComponent(session.room_code)}`}
+              roomCode={session.room_code}
+              size={140}
+            />
+          </div>
+
+          <div className="jx-room-actions w-full flex gap-2 justify-center mt-1">
+            <button className="fp-btn-secondary flex items-center justify-center gap-1.5 py-2.5 px-4" onClick={() => void copyCode()}>
+              {copied ? <Check size={18} className="text-emerald-500" /> : <Copy size={18} />}
+              {copied ? (en ? "Code copied!" : "Code copié !") : (en ? "Copy code" : "Copier le code")}
             </button>
-            <button className="fp-btn-secondary" onClick={() => void shareRoom()}>
+            <button className="fp-btn-secondary flex items-center justify-center gap-1.5 py-2.5 px-4" onClick={() => void shareRoom()}>
               <Share2 size={18} />
-              {en ? "Invite" : "Inviter"}
+              {en ? "Share link" : "Inviter (lien)"}
             </button>
           </div>
         </section>
@@ -869,15 +969,32 @@ export function OnlineRoom() {
       <main className="jx-game mx-auto flex min-h-dvh w-full flex-col px-4 sm:px-6 pb-12 pt-3 animate-rise">
         {/* Navigation & Question Indicator */}
         <div className="flex items-center justify-between">
-          <button
-            type="button"
-            onClick={leave}
-            className="fp-btn-ghost inline-flex items-center gap-1 px-2 py-1 text-[15px]"
-            aria-label={en ? "Leave" : "Quitter"}
-          >
-            <ChevronLeft className="h-5 w-5" />
-            <span>{en ? "Leave" : "Quitter"}</span>
-          </button>
+          <div className="flex items-center gap-1.5">
+            <button
+              type="button"
+              onClick={leave}
+              className="fp-btn-ghost inline-flex items-center gap-1 px-2 py-1 text-[15px]"
+              aria-label={en ? "Leave" : "Quitter"}
+            >
+              <ChevronLeft className="h-5 w-5" />
+              <span>{en ? "Leave" : "Quitter"}</span>
+            </button>
+            {isHost && (
+              <button
+                type="button"
+                onClick={() => void togglePause()}
+                className={`inline-flex items-center gap-1 rounded-xl px-2.5 py-1 text-[13px] font-bold transition active:scale-95 ${
+                  isPaused
+                    ? "bg-emerald-500 text-white shadow-xs"
+                    : "bg-black/[0.05] text-fp-text-dim hover:bg-black/[0.1] hover:text-fp-text"
+                }`}
+                title={isPaused ? (en ? "Resume" : "Reprendre") : (en ? "Pause" : "Mettre en pause")}
+              >
+                {isPaused ? <Play className="h-3.5 w-3.5 fill-current" /> : <Pause className="h-3.5 w-3.5" />}
+                <span>{isPaused ? (en ? "Resume" : "Reprendre") : "Pause"}</span>
+              </button>
+            )}
+          </div>
           
           <div className="flex items-center gap-1.5" aria-label={`Question ${qIndex + 1}`}>
             {Array.from({ length: Math.min(questionCount, 20) }).map((_, i) => (
@@ -1069,6 +1186,33 @@ export function OnlineRoom() {
           <div className="flex flex-1 flex-col items-center justify-center text-center">
             <div className="h-9 w-9 animate-spin rounded-full border-[3px] border-black/10 border-t-fp-primary" />
             <p className="mt-4 text-[14px] text-fp-text-dim">Préparation des questions…</p>
+          </div>
+        )}
+
+        {/* Overlay Pause Mode Soirée */}
+        {isPaused && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/75 p-4 backdrop-blur-sm animate-in fade-in">
+            <div className="flex max-w-sm w-full flex-col items-center rounded-3xl bg-white p-6 text-center shadow-2xl">
+              <KawaiiMascot theme="neo" size={120} />
+              <h2 className="mt-3 text-2xl font-black text-black">
+                {en ? "Game Paused" : "Partie en pause"}
+              </h2>
+              <p className="mt-2 text-sm text-black/65">
+                {isHost
+                  ? (en ? "Take a break! Click Resume when all players are ready." : "Prenez un verre ou respirez ! Clique sur Reprendre quand tout le monde est prêt.")
+                  : (en ? "The host paused the game. We’ll resume shortly!" : "L'hôte a mis la partie en pause. On reprend dans un instant !")}
+              </p>
+              {isHost && (
+                <button
+                  type="button"
+                  onClick={() => void togglePause()}
+                  className="mt-6 flex w-full items-center justify-center gap-2 rounded-2xl bg-black py-4 text-[15px] font-bold text-white transition hover:bg-black/90 active:scale-95 shadow-md"
+                >
+                  <Play className="h-5 w-5 fill-current" />
+                  <span>{en ? "Resume game" : "Reprendre la partie"}</span>
+                </button>
+              )}
+            </div>
           </div>
         )}
       </main>

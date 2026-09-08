@@ -308,6 +308,62 @@ class SoundEngine {
     osc.start(now);
     osc.stop(now + 0.03);
   }
+
+  /**
+   * Compte à rebours 3-2-1 : micro-vibration haptique et note ascendante
+   */
+  public playCountdown(step: 3 | 2 | 1) {
+    this.vibrate(20);
+    if (!this.soundEnabled) return;
+    const ctx = this.getContext();
+    if (!ctx) return;
+
+    const now = ctx.currentTime;
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    const freqs: Record<number, number> = { 3: 440, 2: 554.37, 1: 659.25 };
+    const freq = freqs[step] ?? 440;
+
+    osc.type = "sine";
+    osc.frequency.setValueAtTime(freq, now);
+
+    gain.gain.setValueAtTime(0.18, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.12);
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.start(now);
+    osc.stop(now + 0.12);
+  }
+
+  /**
+   * Signal GO : impulsion haptique franche et accord dynamique
+   */
+  public playGo() {
+    this.vibrate([30, 25, 60]);
+    if (!this.soundEnabled) return;
+    const ctx = this.getContext();
+    if (!ctx) return;
+
+    const now = ctx.currentTime;
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+
+    osc.type = "triangle";
+    osc.frequency.setValueAtTime(523.25, now);
+    osc.frequency.exponentialRampToValueAtTime(1046.5, now + 0.2);
+
+    gain.gain.setValueAtTime(0.28, now);
+    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    osc.start(now);
+    osc.stop(now + 0.3);
+  }
 }
 
 export const sound = new SoundEngine();

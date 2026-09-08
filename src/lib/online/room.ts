@@ -34,6 +34,8 @@ export interface OnlineSession {
     media?: Question["media"];
     /** Traductions (en) — chaque joueur affiche sa langue */
     translations?: Partial<Record<string, { question: string; answers?: string[]; explanation?: string }>>;
+    /** Mode pause déclenché par l'hôte */
+    is_paused?: boolean;
   } | null;
   answers_revealed: boolean;
   state_version: number;
@@ -430,6 +432,27 @@ export async function hostPushQuestion(
     })
     .eq("id", sessionId);
   if (error) throw new Error(`Push question: ${error.message}`);
+}
+
+/** Met en pause ou reprend la partie (contrôlé par l'hôte). */
+export async function hostSetPause(sessionId: string, paused: boolean): Promise<void> {
+  const sb = getSupabaseBrowser();
+  if (!sb) return;
+  const { data: session, error: fetchErr } = await sb
+    .from("game_sessions")
+    .select("current_question, state_version")
+    .eq("id", sessionId)
+    .single();
+  if (fetchErr || !session) return;
+  const current = (session.current_question ?? {}) as Record<string, unknown>;
+  const { error } = await sb
+    .from("game_sessions")
+    .update({
+      current_question: { ...current, is_paused: paused },
+      state_version: (session.state_version ?? 0) + 1,
+    })
+    .eq("id", sessionId);
+  if (error) throw new Error(`Pause salon: ${error.message}`);
 }
 
 /** Nettoie la manche précédente tout en conservant le salon et son code. */
