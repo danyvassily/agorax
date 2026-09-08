@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ArrowRight, ScanLine, CalendarDays, Sparkles, UserPlus } from 'lucide-react';
 import { AppNavigation } from '@/components/ui/app-navigation';
 import { KawaiiMascot } from '@/components/ui/kawaii-mascot';
+import { HomeLiveDemo } from '@/components/home/home-live-demo';
 import { GoogleIcon } from '@/components/ui/google-icon';
 import { useAuth } from '@/lib/auth/use-auth';
 import { useLanguageStore } from '@/lib/store/language';
@@ -62,6 +63,9 @@ export function HomeClient() {
             </div>
           </section>
         )}
+
+        {/* Mini-mode Démo 60s Live */}
+        <HomeLiveDemo />
 
         <div className="jx-home-grid">
           <section className="jx-hero jx-aqua">

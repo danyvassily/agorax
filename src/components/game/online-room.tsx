@@ -55,6 +55,7 @@ import { AppIcon } from "@/components/ui/icons";
 import { AppNavigation } from "@/components/ui/app-navigation";
 import { useWakeLock } from "@/lib/device/wake-lock";
 import { RoomQRCode } from "@/components/game/room-qr-code";
+import { PostGameCard } from "@/components/game/post-game-card";
 import {
   Globe,
   Play,
@@ -138,6 +139,8 @@ export function OnlineRoom() {
   const [createCount, setCreateCount] = useState<number>(10);
   const [createMaxPlayers, setCreateMaxPlayers] = useState<number>(4);
 
+  const [joinedMidGameIndex, setJoinedMidGameIndex] = useState<number | null>(null);
+
   const questionsRef = useRef<Question[]>([]);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const sessionRef = useRef<OnlineSession | null>(null);
@@ -168,6 +171,7 @@ export function OnlineRoom() {
     questions[index()] ?? (session?.current_question as Question | null) ?? null;
   const revealed = session?.answers_revealed ?? false;
   const isPaused = Boolean(session?.current_question?.is_paused);
+  const isSpectatingCurrent = joinedMidGameIndex !== null && joinedMidGameIndex === index();
   const questionCount = currentMode === "rapidfire" ? 20 : session?.question_count ?? questions.length ?? 10;
   const timePerQuestion = currentMode === "rapidfire" ? 6 : 15;
 
@@ -328,7 +332,12 @@ export function OnlineRoom() {
       setMyPlayer(res.player);
       setReady(res.player.ready === true);
       localStorage.setItem("Agorax-last-room", JSON.stringify({ sessionId: res.session.id, playerId: res.player.id }));
-      setView("lobby");
+      if (res.session.phase === "playing") {
+        setJoinedMidGameIndex(res.session.question_index);
+        setView("playing");
+      } else {
+        setView("lobby");
+      }
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     } finally {
@@ -1032,6 +1041,18 @@ export function OnlineRoom() {
                 </span>
               </div>
 
+              {/* Bandeau Spectateur Actif si arrivée en cours de partie */}
+              {isSpectatingCurrent && (
+                <div className="mb-4 mt-4 flex items-center gap-2.5 rounded-2xl bg-amber-500/10 px-4 py-3 text-xs sm:text-sm font-bold text-amber-800 border border-amber-500/20 animate-in fade-in">
+                  <span className="text-xl">🍿</span>
+                  <span>
+                    {en
+                      ? "You joined mid-game! You're observing this round and will play on the next question."
+                      : "Tu as rejoint en cours de manche ! Tu observes ce tour et tu joueras dès la question suivante."}
+                  </span>
+                </div>
+              )}
+
               {/* Mascotte interactive temps réel */}
               <div className="jx-feedback mt-4 flex items-center gap-3.5 rounded-2xl bg-white p-3.5 border border-black/[0.04] shadow-xs">
                 {!answered && !revealed && (
@@ -1116,24 +1137,34 @@ export function OnlineRoom() {
                     } else {
                       cls = "opacity-35";
                     }
-                  } else if (answered) {
-                    cls = i === selected
-                      ? "border-2 border-fp-primary bg-fp-primary/10 text-fp-text font-semibold shadow-xs"
-                      : "opacity-40";
+                  } else if (answered || isSpectatingCurrent) {
+                    if (i === selected) {
+                      cls = "border-2 border-fp-primary bg-fp-primary/10 text-fp-primary font-semibold shadow-xs";
+                    } else {
+                      cls = "opacity-45";
+                    }
                   }
 
                   return (
                     <button
                       key={i}
                       type="button"
-                      disabled={revealed || answered}
+                      disabled={revealed || answered || isSpectatingCurrent}
                       onClick={() => sendAnswer(i)}
                       className={`fp-answer flex min-h-[64px] items-center gap-3.5 px-5 py-4 text-left text-[16px] font-medium ${cls}`}
                     >
                       <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-black/[0.05] text-[14px] font-bold text-fp-text-dim">
                         {["A", "B", "C", "D"][i]}
                       </span>
-                      <span className="flex-1 leading-snug">{answer}</span>{revealed&&i===correctAnswer&&<Check size={18} aria-label={en?"Correct answer":"Bonne réponse"}/>}
+                      <span className="flex-1 leading-snug">
+                        {answer}
+                        {isSpectatingCurrent && !revealed && (
+                          <span className="ml-2 text-xs text-fp-text-dim font-normal">
+                            ({en ? "Observing" : "En observation"})
+                          </span>
+                        )}
+                      </span>
+                      {revealed && i === correctAnswer && <Check size={18} aria-label={en ? "Correct answer" : "Bonne réponse"} />}
                     </button>
                   );
                 })}
@@ -1269,6 +1300,20 @@ export function OnlineRoom() {
             score: player.score,
             colorIndex: players.indexOf(player),
           }))}
+        />
+
+        {/* Carte de score finale partageable en 1 tap */}
+        <PostGameCard
+          players={sorted.map((p) => ({
+            id: p.id,
+            name: p.name,
+            score: p.score,
+            avatarUrl: presence[p.id]?.avatarUrl,
+          }))}
+          winner={winner ? { id: winner.id, name: winner.name, score: winner.score, avatarUrl: presence[winner.id]?.avatarUrl } : null}
+          roomCode={session?.room_code ?? ""}
+          mode={currentMode}
+          lang={lang}
         />
 
         {/* Contrôles Post-Game : Rejouer, Changer de mode, Retour au salon */}

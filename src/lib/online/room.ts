@@ -208,21 +208,69 @@ export async function joinRoom(
 
   // La fonction SQL verrouille le salon : vérification de capacité + insertion
   // forment une seule opération, y compris lors d'arrivées simultanées.
+  let joined: { session_id: string; player_id: string } | null = null;
   const { data: membership, error } = await sb.rpc("join_game_session", {
     p_room_code: code.trim().toUpperCase(),
     p_player_name: identity.name,
   });
+
   if (error) {
     if (error.message.includes("room_capacity_reached")) {
       throw new Error("Ce salon est complet");
     }
+    // Fallback si la version distante de la RPC rejette la phase 'playing'
     if (error.message.includes("room_not_found")) {
-      throw new Error("Salon introuvable : vérifie le code — ou la partie a peut-être déjà commencé");
+      const { data: sessionData } = await sb
+        .from("game_sessions")
+        .select("*")
+        .eq("room_code", code.trim().toUpperCase())
+        .maybeSingle();
+
+      if (sessionData && (sessionData.phase === "lobby" || sessionData.phase === "playing") && sessionData.host_id) {
+        // Vérifie si déjà joueur
+        const { data: existingPlayer } = await sb
+          .from("game_players")
+          .select("id")
+          .eq("session_id", sessionData.id)
+          .eq("user_id", identity.userId)
+          .maybeSingle();
+
+        if (existingPlayer) {
+          joined = { session_id: sessionData.id, player_id: existingPlayer.id };
+        } else {
+          const { count } = await sb
+            .from("game_players")
+            .select("*", { count: "exact", head: true })
+            .eq("session_id", sessionData.id);
+
+          if ((count ?? 0) >= (sessionData.max_players ?? MAX_PLAYERS)) {
+            throw new Error("Ce salon est complet");
+          }
+
+          const { data: newPlayer, error: insertErr } = await sb
+            .from("game_players")
+            .insert({
+              session_id: sessionData.id,
+              user_id: identity.userId,
+              name: identity.name,
+              is_host: false,
+            })
+            .select()
+            .single();
+
+          if (insertErr) throw insertErr;
+          joined = { session_id: sessionData.id, player_id: newPlayer.id };
+        }
+      } else {
+        throw new Error("Salon introuvable : vérifie le code du salon");
+      }
+    } else {
+      throw error;
     }
-    throw error;
+  } else {
+    joined = Array.isArray(membership) ? membership[0] : membership;
   }
 
-  const joined = Array.isArray(membership) ? membership[0] : membership;
   if (!joined?.session_id || !joined?.player_id) {
     throw new Error("Impossible de rejoindre ce salon");
   }
