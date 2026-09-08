@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
+    "deploy:hostinger": "bash scripts/deploy-hostinger.sh",
     "test:agents": "tsx scripts/agents/orchestrator.ts --all",
     "test:agents:deep": "tsx scripts/agents/orchestrator.ts --deep",
     "test:agents:unit": "tsx scripts/agents/orchestrator.ts --unit",
