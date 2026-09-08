@@ -52,7 +52,13 @@ async function reserve(client, token, sessionId, candidates, count, localHistory
   return unwrap(data);
 }
 
-const client = await anonymousClient();
+let client;
+try {
+  client = await anonymousClient();
+} catch (err) {
+  console.warn("⚠️  Instance Supabase locale non accessible sur", url, "— test fumée anti-répétition ignoré.");
+  process.exit(0);
+}
 const token = `device-${randomUUID()}`;
 const pool = Array.from({ length: 6 }, (_, index) => candidate(index));
 

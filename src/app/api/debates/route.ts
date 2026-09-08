@@ -9,7 +9,16 @@ import { DEBATE_CATEGORIES } from "@/lib/debate/schema";
 
 export async function GET(request: Request) {
   const url = new URL(request.url);
-  const category = url.searchParams.get("category") ?? undefined;
+  const rawCat = url.searchParams.get("category")?.toLowerCase();
+  const CATEGORY_ALIASES: Record<string, string> = {
+    philosophie: "philosophy",
+    politique: "politics",
+    ethique: "ethics",
+    societe: "current-issues",
+    actualite: "current-issues",
+    histoire: "history",
+  };
+  const category = rawCat ? CATEGORY_ALIASES[rawCat] ?? rawCat : undefined;
   const excludedRaw = url.searchParams.get("exclude") ?? "";
 
   const { prompts, errors } = loadDebatePrompts("fr");

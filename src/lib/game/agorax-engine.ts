@@ -163,7 +163,7 @@ export function checkTypedAnswer(typedInput: string, acceptedAnswers: string[] =
     const cleanTarget = normalizeString(target);
     if (cleanInput === cleanTarget) return true;
     // Tolérance d'inclusion pour les noms de personnalités (ex: "Scott" pour "Ridley Scott")
-    if (cleanTarget.includes(" ") && cleanInput.length >= 4 && cleanTarget.includes(cleanInput)) {
+    if (target.includes(" ") && cleanInput.length >= 4 && cleanTarget.includes(cleanInput)) {
       return true;
     }
     return false;

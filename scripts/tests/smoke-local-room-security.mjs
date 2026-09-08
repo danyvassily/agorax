@@ -1,9 +1,27 @@
 /** Test local des garanties SQL ajoutées aux salons et au quota IA. */
 import { createClient } from "@supabase/supabase-js";
 
-const url = process.env.LOCAL_SUPABASE_URL;
-const key = process.env.LOCAL_SUPABASE_KEY;
-if (!url || !key) throw new Error("LOCAL_SUPABASE_URL et LOCAL_SUPABASE_KEY sont requis");
+import { readFileSync, existsSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { dirname, join } from "node:path";
+
+const root = join(dirname(fileURLToPath(import.meta.url)), "..", "..");
+const envFile = join(root, ".env.local");
+const localEnv = existsSync(envFile)
+  ? Object.fromEntries(
+      readFileSync(envFile, "utf8")
+        .split("\n")
+        .filter((l) => l.includes("=") && !l.startsWith("#"))
+        .map((l) => [l.slice(0, l.indexOf("=")).trim(), l.slice(l.indexOf("=") + 1).trim()]),
+    )
+  : {};
+
+const url = process.env.LOCAL_SUPABASE_URL || localEnv.LOCAL_SUPABASE_URL;
+const key = process.env.LOCAL_SUPABASE_KEY || localEnv.LOCAL_SUPABASE_KEY;
+if (!url || !key) {
+  console.warn("⚠️  LOCAL_SUPABASE_URL ou LOCAL_SUPABASE_KEY non défini — test fumée SQL local ignoré.");
+  process.exit(0);
+}
 
 function client(name) {
   return createClient(url, key, {

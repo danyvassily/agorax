@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T17:41:55.608Z",
+  "generatedAt": "2026-09-08T11:15:59.909Z",
   "total": 3364,
   "correctAnswerDistribution": {
     "0": 1296,
@@ -15,17 +15,22 @@
   ],
   "answerLeakCount": 0,
   "answerLeaks": [],
-  "substringDistractorCount": 28,
+  "substringDistractorCount": 29,
   "substringDistractors": [
     {
       "id": "animaux-dump2-0718",
-      "a": "Dolphins",
-      "b": "Indus and Ganges river dolphins"
+      "a": "Les dauphins",
+      "b": "Les dauphins de rivière"
     },
     {
       "id": "animaux-final-0820",
-      "a": "Dolphins",
-      "b": "Indus and Ganges river dolphins"
+      "a": "Les dauphins",
+      "b": "Les dauphins du Gange"
+    },
+    {
+      "id": "animaux-final-0972",
+      "a": "5 cm",
+      "b": "15 cm"
     },
     {
       "id": "cg-ani-escargot",
@@ -160,20 +165,6 @@
   ],
   "duplicateAnswerGroups": [
     [
-      "badger|bears|cats|mongoose",
-      [
-        "animaux-dump-0311@2",
-        "animaux-dump2-0416@2"
-      ]
-    ],
-    [
-      "pigeons are cliff dwellers and build their nests in high places.|pigeons are picky and only build nests high up in certain types of trees.|pigeons do their best to conceal nests.|pigeons dont build nests.",
-      [
-        "animaux-dump-0325@2",
-        "animaux-dump2-0430@0"
-      ]
-    ],
-    [
       "cretazoic|holozoic|mesozoic|protozoic",
       [
         "animaux-dump-0327@0",
@@ -188,143 +179,59 @@
       ]
     ],
     [
-      "15 years|50 years|7 years|75 years",
+      "15 ans|50 ans|7 ans|75 ans",
       [
         "animaux-dump-0355@3",
         "animaux-dump2-0460@1"
       ]
     ],
     [
-      "an elephants skin is 2.5 inches thick.|the elephant is a good jumper.|the elephant is a good swimmer.|the elephant is not a protected species.",
-      [
-        "animaux-dump-0364@3",
-        "animaux-dump2-0469@0"
-      ]
-    ],
-    [
-      "birds|fish|insects|mammals",
-      [
-        "animaux-dump-0369@2",
-        "animaux-dump2-0474@0"
-      ]
-    ],
-    [
-      "its appearance|the aboriginal name for it|the food it eats|the sound it makes",
-      [
-        "animaux-dump-0370@3",
-        "animaux-dump2-0475@0"
-      ]
-    ],
-    [
-      "england|ireland|scotland|spain",
+      "angleterre|espagne|irlande|écosse",
       [
         "animaux-dump-0388@1",
         "animaux-dump2-0493@0"
       ]
     ],
     [
-      "anheuser-busch|fosters|heineken|upland",
-      [
-        "animaux-dump-0389@3",
-        "animaux-dump2-0494@0"
-      ]
-    ],
-    [
-      "1885|1887|1901|1925",
-      [
-        "animaux-dump-0390@1",
-        "animaux-dump2-0495@2"
-      ]
-    ],
-    [
-      "11 months|15 months|24 months|9 months",
+      "11 mois|15 mois|24 mois|9 mois",
       [
         "animaux-dump-0393@1",
         "animaux-dump2-0498@0"
       ]
     ],
     [
-      "prowler|singer|swimmer|wrestler",
-      [
-        "animaux-dump-0396@3",
-        "animaux-dump2-0501@1"
-      ]
-    ],
-    [
-      "all of these|black|light gold|white",
-      [
-        "animaux-dump-0397@0",
-        "animaux-dump2-0502@0"
-      ]
-    ],
-    [
-      "france|germany|ireland|scotland",
+      "allemagne|france|irlande|écosse",
       [
         "animaux-dump-0398@0",
         "animaux-dump2-0503@2"
       ]
     ],
     [
-      "dachshund|dogo guatemalteco|elo|english foxhound",
-      [
-        "animaux-dump-0399@2",
-        "animaux-dump2-0504@1"
-      ]
-    ],
-    [
-      "between its front and hind legs|between their fingers and toes|on their elongated ribs|they do not have a gliding membrane",
-      [
-        "animaux-dump2-0703@2",
-        "animaux-final-0805@3"
-      ]
-    ],
-    [
-      "carrion|fruits and tree sap|insects and other invertebrates|leaves and grasses",
-      [
-        "animaux-dump2-0709@1",
-        "animaux-final-0811@3"
-      ]
-    ],
-    [
-      "andrew’s beaked whale|dwarf sperm whale|fin whale|pygmy sperm whale",
-      [
-        "animaux-dump2-0714@2",
-        "animaux-final-0816@1"
-      ]
-    ],
-    [
-      "dolphins|porpoises|rorqual whales|southern right whales",
+      "les baleines franches|les dauphins|les marsouins|les rorquals",
       [
         "animaux-dump2-0717@2",
         "animaux-final-0819@0"
       ]
     ],
     [
-      "beaked whales|dolphins|indus and ganges river dolphins|porpoises",
-      [
-        "animaux-dump2-0718@0",
-        "animaux-final-0820@2"
-      ]
-    ],
-    [
-      "australia|canada|china|madagascar",
+      "australie|canada|chine|madagascar",
       [
         "animaux-dump2-0727@3",
         "animaux-final-0829@1"
       ]
     ],
     [
-      "flute|ocarina|saxophone|trumpet",
+      "l'ocarina|la flûte|la trompette|le saxophone",
       [
         "animaux-dump2-0742@1",
         "animaux-final-0844@2"
       ]
     ],
     [
-      "an aquatic animal|they do not drink water|they feed primarily on fish|they have a tubular body shape",
+      "afrique|amérique du nord|amérique du sud|asie",
       [
-        "animaux-dump2-0743@0",
-        "animaux-final-0845@1"
+        "animaux-final-0862@2",
+        "geo-continents-0025@1"
       ]
     ],
     [
@@ -1075,47 +982,177 @@
       ]
     ]
   ],
-  "lengthOutlierCount": 170,
+  "lengthOutlierCount": 183,
   "lengthOutliers": [
     {
-      "id": "animaux-dump-0237",
+      "id": "animaux-dump-0131",
       "answers": [
-        "No one knows for sure but there are four theories trying to explain this behaviour.",
-        "They can drown if their holes fill up.",
-        "They cant take the acid rain.",
-        "The temperature on the surface is cooler."
+        "Le clypéastre (dollar des sables)",
+        "La moule",
+        "L'étoile de mer",
+        "La coquille Saint-Jacques"
       ],
       "correctIdx": 0
+    },
+    {
+      "id": "animaux-dump-0230",
+      "answers": [
+        "Pour marquer son territoire en déposant son odeur",
+        "Parce qu'il l'aime beaucoup",
+        "Pour montrer sa confiance",
+        "Parce que c'est agréable"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "animaux-dump-0389",
+      "answers": [
+        "Foster's",
+        "Heineken",
+        "Upland",
+        "Budweiser (Anheuser-Busch)"
+      ],
+      "correctIdx": 3
+    },
+    {
+      "id": "animaux-dump-0397",
+      "answers": [
+        "Toutes ces couleurs",
+        "Noir",
+        "Blanc",
+        "Fauve doré"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "animaux-dump2-0475",
+      "answers": [
+        "Son nom dans la langue aborigène Wiradjuri",
+        "Son apparence physique",
+        "Sa nourriture favorite",
+        "L'onomatopée de son rire"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "animaux-dump2-0502",
+      "answers": [
+        "Toutes ces couleurs",
+        "Noir",
+        "Blanc",
+        "Doré"
+      ],
+      "correctIdx": 0
+    },
+    {
+      "id": "animaux-dump2-0521",
+      "answers": [
+        "De fruits",
+        "D'insectes",
+        "De feuilles et sève",
+        "De charognes"
+      ],
+      "correctIdx": 2
     },
     {
       "id": "animaux-dump2-0578",
       "answers": [
-        "Mexico, Central America and South America",
-        "Africa",
-        "Asia",
-        "Australia"
+        "Mexique, Amérique centrale et Amérique du Sud",
+        "Afrique",
+        "Asie",
+        "Australie"
       ],
       "correctIdx": 0
     },
     {
-      "id": "animaux-dump2-0656",
+      "id": "animaux-dump2-0621",
       "answers": [
-        "On the ground",
-        "In other birds nests",
-        "On balconies",
-        "On rocks"
+        "Nu et courant",
+        "Sportif et tacheté",
+        "Nu et houppette à poudre (Powderpuff)",
+        "Aquatique et coureur"
+      ],
+      "correctIdx": 2
+    },
+    {
+      "id": "animaux-dump2-0647",
+      "answers": [
+        "Pour la beauté de leur chant",
+        "Pour le bourdonnement produit par leurs battements d'ailes",
+        "En hommage à Michael Hummings",
+        "Aucune de ces réponses"
       ],
       "correctIdx": 1
     },
     {
       "id": "animaux-final-0877",
       "answers": [
-        "Oriental Shorthair",
+        "Oriental shorthair",
         "Selkirk Rex",
         "Singapura",
-        "Siamese"
+        "Siamois"
       ],
       "correctIdx": 0
+    },
+    {
+      "id": "animaux-final-0884",
+      "answers": [
+        "Le foie",
+        "La rate",
+        "La vésicule biliaire",
+        "Tous ces organes"
+      ],
+      "correctIdx": 2
+    },
+    {
+      "id": "animaux-final-0899",
+      "answers": [
+        "Elle est trop lourde",
+        "Il manque de tonus musculaire et d'apprentissage nerveux",
+        "Il ne ressent aucune sensation",
+        "Toutes ces raisons"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "animaux-final-0942",
+      "answers": [
+        "Ses yeux brillent comme du verre",
+        "Il est translucide",
+        "Il grimpe sur les vitres",
+        "Sa queue se brise très facilement lorsqu'il est attaqué"
+      ],
+      "correctIdx": 3
+    },
+    {
+      "id": "animaux-final-0968",
+      "answers": [
+        "Les scinques",
+        "Les poissons",
+        "Les salamandres (amphibiens urodèles)",
+        "Les anguilles"
+      ],
+      "correctIdx": 2
+    },
+    {
+      "id": "animaux-final-0976",
+      "answers": [
+        "Elle n'a pas de paupières",
+        "Elle est orientée vers l'arrière pour ne pas recevoir de terre en creusant",
+        "Elle ne possède pas de rate",
+        "Toutes ces réponses"
+      ],
+      "correctIdx": 1
+    },
+    {
+      "id": "animaux-final-1036",
+      "answers": [
+        "Il a quatre mamelles",
+        "Toutes ces réponses",
+        "Ses pupilles sont dilatées en permanence",
+        "Il a un majeur extrêmement long et effilé pour déloger les larves"
+      ],
+      "correctIdx": 3
     },
     {
       "id": "art-archi-0005",
