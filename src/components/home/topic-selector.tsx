@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Image from "next/image";
 import { Check, ChevronDown, Search, Shuffle } from "lucide-react";
 import { CATEGORIES, type QuestionCategory } from "@/lib/questions/schema";
 import { categoryLabel } from "@/lib/game/modes";
@@ -22,6 +23,30 @@ const FEATURED_TOPICS: QuestionCategory[] = [
   "insolite",
   "animaux",
 ];
+
+const THEME_IMAGES: Partial<Record<QuestionCategory, string>> = {
+  cinema: "/images/themes/cinema.png",
+  series: "/images/themes/cinema.png",
+  science: "/images/themes/science.png",
+  technologie: "/images/themes/science.png",
+  gaming: "/images/themes/gaming.png",
+  food: "/images/themes/food.png",
+  geographie: "/images/themes/geographie.png",
+  voyage: "/images/themes/geographie.png",
+  musique: "/images/themes/musique.png",
+  "manga-anime": "/images/themes/manga-anime.png",
+  histoire: "/images/team/toby.png",
+  sport: "/images/team/ziggy.png",
+  football: "/images/team/ziggy.png",
+  "culture-generale": "/images/team/luma.png",
+  litterature: "/images/team/luma.png",
+  animaux: "/images/team/milo.png",
+  insolite: "/images/team/barnaby.png",
+  politique: "/images/team/leo.png",
+  psychologie: "/images/team/sora.png",
+  philosophie: "/images/team/sora.png",
+  "jeux-de-societe": "/images/team/koa.png",
+};
 
 const TOPIC_ICONS: Record<QuestionCategory, string> = {
   "culture-generale": "🧠",
@@ -140,7 +165,19 @@ export function TopicSelector({
               key={topic}
               onClick={() => onChange(topic)}
             >
-              <span className={styles.topicIcon} aria-hidden="true">{TOPIC_ICONS[topic]}</span>
+              <span className={styles.topicIcon} aria-hidden="true">
+                {THEME_IMAGES[topic] ? (
+                  <Image
+                    src={THEME_IMAGES[topic]!}
+                    alt=""
+                    width={44}
+                    height={44}
+                    className={styles.themeImage}
+                  />
+                ) : (
+                  TOPIC_ICONS[topic]
+                )}
+              </span>
               <strong>{categoryLabel(language, topic)}</strong>
               <span className={styles.check}><Check size={10} strokeWidth={3} /></span>
             </button>

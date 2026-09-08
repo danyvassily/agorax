@@ -7,7 +7,18 @@ import { KawaiiMascot } from '@/components/ui/kawaii-mascot';
 import { useLanguageStore } from '@/lib/store/language';
 import { MODE_META, modeLabel } from '@/lib/game/modes';
 import { type GameMode } from '@/lib/store/game';
-const roster:{mode:GameMode;character:string;fr:string;en:string}[]=[{mode:'classic',character:'luma',fr:'Culture générale, à chacun son tour.',en:'General knowledge, one turn at a time.'},{mode:'wyr',character:'poppy',fr:'Des choix impossibles qui lancent la discussion.',en:'Impossible choices to get everyone talking.'},{mode:'debate',character:'luma',fr:'Chacun son avis, tout le monde participe.',en:'Every opinion has a place.'},{mode:'rapidfire',character:'ziggy',fr:'20 questions, 6 secondes pour répondre.',en:'20 questions, 6 seconds per answer.'},{mode:'truefalse',character:'milo',fr:'Deux choix. Fais confiance à ton intuition.',en:'Two choices. Trust your instinct.'},{mode:'teambattle',character:'poppy',fr:'Deux équipes, une seule victoire.',en:'Two teams, one winner.'},{mode:'timeline',character:'luma',fr:'Remets les événements dans le bon ordre.',en:'Put events in the right order.'},{mode:'guess',character:'milo',fr:'Un indice après l’autre.',en:'One clue at a time.'},{mode:'iq',character:'neo',fr:'Logique, suites et mémoire.',en:'Logic, patterns and memory.'},{mode:'psycho',character:'neo',fr:'Découvre ton profil en solo.',en:'Discover your personality solo.'}];
+const roster:{mode:GameMode;character:string;fr:string;en:string}[]=[
+  {mode:'classic',character:'luma',fr:'Culture générale, à chacun son tour.',en:'General knowledge, one turn at a time.'},
+  {mode:'wyr',character:'poppy',fr:'Des choix impossibles qui lancent la discussion.',en:'Impossible choices to get everyone talking.'},
+  {mode:'debate',character:'leo',fr:'Chacun son avis, tout le monde participe.',en:'Every opinion has a place.'},
+  {mode:'rapidfire',character:'ziggy',fr:'20 questions, 6 secondes pour répondre.',en:'20 questions, 6 seconds per answer.'},
+  {mode:'truefalse',character:'milo',fr:'Deux choix. Fais confiance à ton intuition.',en:'Two choices. Trust your instinct.'},
+  {mode:'teambattle',character:'koa',fr:'Deux équipes, une seule victoire.',en:'Two teams, one winner.'},
+  {mode:'timeline',character:'toby',fr:'Remets les événements dans le bon ordre.',en:'Put events in the right order.'},
+  {mode:'guess',character:'barnaby',fr:'Un indice après l’autre.',en:'One clue at a time.'},
+  {mode:'iq',character:'neo',fr:'Logique, suites et mémoire.',en:'Logic, patterns and memory.'},
+  {mode:'psycho',character:'sora',fr:'Découvre ton profil en solo.',en:'Discover your personality solo.'}
+];
 export function LocalPlayClient({solo=false}:{solo?:boolean}){
  const en=useLanguageStore(s=>s.language)==='en';const [group,setGroup]=useState(false);const [device,setDevice]=useState<'local'|'online'>('local');const [search,setSearch]=useState('');
  const count=solo?1:group?4:2;
