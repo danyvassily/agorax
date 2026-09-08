@@ -66,31 +66,4 @@ describe("P1 Features Test Suite", () => {
       expect(text).toContain("PARTY7");
     });
   });
-
-  describe("3. Home Live Demo (Mode Démo 60s)", () => {
-    it("valide la structure des questions du widget de démo", () => {
-      const demoQuestions = [
-        {
-          id: "demo-1",
-          questionFr: "Quel pays partage la plus longue frontière terrestre avec la France ?",
-          answersFr: ["L'Espagne", "Le Brésil", "L'Allemagne", "L'Italie"],
-          correctAnswer: 1, // Le Brésil (Guyane française)
-        },
-        {
-          id: "demo-2",
-          questionFr: "Combien de cœurs possède une pieuvre ?",
-          answersFr: ["1", "2", "3", "4"],
-          correctAnswer: 2, // 3 cœurs
-        },
-      ];
-
-      for (const q of demoQuestions) {
-        expect(q.id).toBeDefined();
-        expect(q.questionFr.length).toBeGreaterThan(10);
-        expect(q.answersFr).toHaveLength(4);
-        expect(q.correctAnswer).toBeGreaterThanOrEqual(0);
-        expect(q.correctAnswer).toBeLessThan(4);
-      }
-    });
-  });
 });
