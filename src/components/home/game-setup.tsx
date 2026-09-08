@@ -5,12 +5,18 @@ import { MAX_PLAYERS, newGameSessionId, resizePlayers, type GameConfig, type Gam
 import { useSettingsStore } from '@/lib/store/settings';
 import { useAuth } from '@/lib/auth/use-auth';
 import { useLanguageStore } from '@/lib/store/language';
-import { CATEGORIES, type QuestionCategory } from '@/lib/questions/schema';
-import { CATEGORY_LABELS, MODE_META, QUESTION_COUNT_OPTIONS, modeLabel } from '@/lib/game/modes';
-import { categoryLabel } from '@/lib/game/modes';
+import type { QuestionCategory } from '@/lib/questions/schema';
+import { categoryLabel, MODE_META, QUESTION_COUNT_OPTIONS, modeLabel } from '@/lib/game/modes';
 import { PlayerDot } from '@/components/ui/primitives';
 import { KawaiiMascot } from '@/components/ui/kawaii-mascot';
 import { CHARACTERS, characterImage } from '@/lib/characters';
+import { TopicSelector } from '@/components/home/topic-selector';
+
+function localizeDefaultPlayerName(name: string, index: number, language: 'fr' | 'en') {
+  return language === 'en'
+    ? name.replace(/^Joueur(?: (\d+))?$/, (_, number) => `Player ${number ?? index + 1}`)
+    : name.replace(/^Player(?: (\d+))?$/, (_, number) => `Joueur ${number ?? index + 1}`);
+}
 
 export function GameSetup({
   mode,
@@ -32,7 +38,8 @@ export function GameSetup({
   const { user } = useAuth();
   const setPlayers = useGameStore(s => s.setPlayers);
 
-  const [gameLanguage, setGameLanguage] = useState<SupportedLanguage>(lang === 'en' ? 'en' : 'fr');
+  const [gameLanguageOverride, setGameLanguage] = useState<SupportedLanguage | null>(null);
+  const gameLanguage: SupportedLanguage = gameLanguageOverride ?? lang;
   const [languageMode, setLanguageMode] = useState<LanguageMode>('shared');
 
   const [players, setDraft] = useState<Player[]>(() =>
@@ -42,7 +49,12 @@ export function GameSetup({
     ).map((p, i) => ({
       ...p,
       ...(i === 0 && user ? { name: user.name, avatarUrl: user.avatarUrl ?? undefined } : {}),
-      language: lang === 'en' ? 'en' : 'fr',
+      ...(!user || i > 0
+        ? {
+            name: localizeDefaultPlayerName(p.name, i, lang),
+          }
+        : {}),
+      language: undefined,
     }))
   );
 
@@ -55,7 +67,9 @@ export function GameSetup({
   function launch() {
     const final = players.map((p, i) => ({
       ...p,
-      name: p.name.trim() || (en ? `Player ${i + 1}` : `Joueur ${i + 1}`),
+      name:
+        localizeDefaultPlayerName(p.name, i, lang).trim() ||
+        (en ? `Player ${i + 1}` : `Joueur ${i + 1}`),
       language: languageMode === 'shared' ? gameLanguage : (p.language ?? gameLanguage),
     }));
     setPlayers(final);
@@ -100,10 +114,61 @@ export function GameSetup({
         <h1>{modeLabel(mode, lang)}</h1>
       </header>
 
+      {meta.usesQuestionCatalog && (
+        <section className="jx-form-card">
+          <span className="jx-eyebrow">{en ? 'STEP 1 · YOUR GAME' : 'ÉTAPE 1 · TA PARTIE'}</span>
+          <h2 className="mt-2">{en ? 'Choose your topic' : 'Choisis ton thème'}</h2>
+          <p className="mt-1 text-sm text-fp-text-dim">
+            {en
+              ? 'Pick a favourite or let Agorax create a varied mix.'
+              : 'Choisis un favori ou laisse Agorax préparer un mélange varié.'}
+          </p>
+          <TopicSelector value={category} language={lang} onChange={setCategory} />
+
+          {mode === 'agorax' ? (
+            <>
+              <h3>{en ? 'Game format' : 'Format de la partie'}</h3>
+              <div className="jx-segments">
+                <button
+                  aria-pressed={duration === 'express'}
+                  onClick={() => setDuration('express')}
+                >
+                  Express · ~10 min
+                </button>
+                <button
+                  aria-pressed={duration === 'classic'}
+                  onClick={() => setDuration('classic')}
+                >
+                  {en ? 'Classic' : 'Classique'} · ~20 min
+                </button>
+              </div>
+            </>
+          ) : (
+            !['rapidfire', 'truefalse'].includes(mode) && (
+              <>
+                <h3>{en ? 'Number of questions' : 'Nombre de questions'}</h3>
+                <div className="jx-segments">
+                  {QUESTION_COUNT_OPTIONS.map(n => (
+                    <button key={n} aria-pressed={count === n} onClick={() => setCount(n)}>
+                      {n}
+                    </button>
+                  ))}
+                </div>
+              </>
+            )
+          )}
+        </section>
+      )}
+
       <div className="jx-setup-grid">
         <div>
           {/* Sélection explicite de la langue pour la partie et les questions */}
           <section className="jx-form-card">
+            <span className="jx-eyebrow">
+              {meta.usesQuestionCatalog
+                ? (en ? 'STEP 2 · QUESTIONS' : 'ÉTAPE 2 · QUESTIONS')
+                : (en ? 'STEP 1 · LANGUAGE' : 'ÉTAPE 1 · LANGUE')}
+            </span>
             <div className="flex items-center gap-2 mb-2">
               <Globe size={18} className="text-fp-primary" />
               <h2 className="text-base font-bold">
@@ -115,7 +180,7 @@ export function GameSetup({
                 ? 'Official question language used for this game session.'
                 : 'Langue officielle des questions utilisée pour cette session de jeu.'}
             </p>
-            <div className="flex gap-2.5 mb-3" role="group" aria-label="Langue de la partie">
+            <div className="flex gap-2.5 mb-3" role="group" aria-label={en ? 'Game language' : 'Langue de la partie'}>
               <button
                 type="button"
                 onClick={() => setGameLanguage('fr')}
@@ -169,6 +234,11 @@ export function GameSetup({
 
           {/* Section Joueurs */}
           <section className="jx-form-card">
+            <span className="jx-eyebrow">
+              {meta.usesQuestionCatalog
+                ? (en ? 'STEP 3 · PLAYERS' : 'ÉTAPE 3 · JOUEURS')
+                : (en ? 'STEP 2 · PLAYERS' : 'ÉTAPE 2 · JOUEURS')}
+            </span>
             <div className="jx-section-heading">
               <h2>{solo ? (en ? 'Your player' : 'Ton joueur') : en ? 'Your team' : 'Ton équipe'}</h2>
               {!solo && (
@@ -199,96 +269,68 @@ export function GameSetup({
               )}
             </div>
             <div className="space-y-3">
-              {players.map((p, i) => (
-                <div className="jx-player-field" key={p.id}>
-                  <PlayerDot
-                    name={p.name}
-                    avatarUrl={p.avatarUrl ?? characterImage(CHARACTERS[i % 5].id)}
-                    size={42}
-                  />
-                  <input
-                    value={p.name}
-                    aria-label={`${en ? 'Player' : 'Joueur'} ${i + 1}`}
-                    onChange={e =>
-                      setDraft(players.map((v, j) => (j === i ? { ...v, name: e.target.value } : v)))
-                    }
-                    maxLength={24}
-                  />
-                  {individualLanguage && languageMode === 'per-player' && (
-                    <select
-                      aria-label={`${en ? 'Language' : 'Langue'} ${p.name}`}
-                      value={p.language ?? gameLanguage}
+              {players.map((p, i) => {
+                const displayName = localizeDefaultPlayerName(p.name, i, lang);
+                return (
+                  <div className="jx-player-field" key={p.id}>
+                    <PlayerDot
+                      name={displayName}
+                      avatarUrl={p.avatarUrl ?? characterImage(CHARACTERS[i % 5].id)}
+                      size={42}
+                    />
+                    <input
+                      value={displayName}
+                      aria-label={`${en ? 'Player' : 'Joueur'} ${i + 1}`}
                       onChange={e =>
-                        setDraft(
-                          players.map((v, j) =>
-                            j === i ? { ...v, language: e.target.value as 'en' | 'fr' } : v
-                          )
-                        )
+                        setDraft(players.map((v, j) =>
+                          j === i ? { ...v, name: e.target.value } : v
+                        ))
                       }
-                    >
-                      <option value="fr">🇫🇷 FR</option>
-                      <option value="en">🇬🇧 EN</option>
-                    </select>
-                  )}
-                </div>
-              ))}
+                      maxLength={24}
+                    />
+                    {individualLanguage && languageMode === 'per-player' && (
+                      <select
+                        aria-label={`${en ? 'Language' : 'Langue'} ${displayName}`}
+                        value={p.language ?? gameLanguage}
+                        onChange={e =>
+                          setDraft(
+                            players.map((v, j) =>
+                              j === i ? { ...v, language: e.target.value as 'en' | 'fr' } : v
+                            )
+                          )
+                        }
+                      >
+                        <option value="fr">🇫🇷 FR</option>
+                        <option value="en">🇬🇧 EN</option>
+                      </select>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           </section>
 
-          {meta.usesQuestionCatalog && (
-            <section className="jx-form-card">
-              <h2>{en ? 'Choose your topics' : 'Choisis tes thèmes'}</h2>
-              <div className="jx-topics">
-                {(['mixed', ...CATEGORIES] as const).map(c => (
-                  <button aria-pressed={c === category} key={c} onClick={() => setCategory(c)}>
-                    {en ? categoryLabel(lang, c) : CATEGORY_LABELS[c]}
-                  </button>
-                ))}
-              </div>
-              {mode === 'agorax' ? (
-                <>
-                  <h3>{en ? 'Game format' : 'Format de la partie'}</h3>
-                  <div className="jx-segments">
-                    <button
-                      aria-pressed={duration === 'express'}
-                      onClick={() => setDuration('express')}
-                    >
-                      Express · ~10 min
-                    </button>
-                    <button
-                      aria-pressed={duration === 'classic'}
-                      onClick={() => setDuration('classic')}
-                    >
-                      {en ? 'Classic' : 'Classique'} · ~20 min
-                    </button>
-                  </div>
-                </>
-              ) : (
-                !['rapidfire', 'truefalse'].includes(mode) && (
-                  <>
-                    <h3>{en ? 'Number of questions' : 'Nombre de questions'}</h3>
-                    <div className="jx-segments">
-                      {QUESTION_COUNT_OPTIONS.map(n => (
-                        <button key={n} aria-pressed={count === n} onClick={() => setCount(n)}>
-                          {n}
-                        </button>
-                      ))}
-                    </div>
-                  </>
-                )
-              )}
-            </section>
-          )}
         </div>
 
         <aside className="jx-form-card jx-summary">
-          <KawaiiMascot theme={solo ? 'neo' : 'poppy'} size={145} />
+          <KawaiiMascot theme={solo ? 'neo' : 'poppy'} size={145} eager />
           <h2>{en ? 'Ready to play?' : 'Prêts à jouer ?'}</h2>
           <p>
             {modeLabel(mode, lang)} · {players.length} {en ? 'player(s)' : 'joueur(s)'}
           </p>
+          {meta.usesQuestionCatalog && (
+            <div className="my-3 rounded-xl bg-fp-yellow/35 px-3 py-2 text-sm font-bold text-fp-text">
+              {category === 'mixed' ? (en ? '🎲 All topics' : '🎲 Tous les thèmes') : `🎯 ${categoryLabel(lang, category)}`}
+            </div>
+          )}
           <div className="my-3 inline-flex items-center gap-1.5 rounded-full bg-fp-primary/10 px-3 py-1 text-xs font-bold text-fp-primary">
-            <span>{lang === 'en' ? '🇬🇧 English questions' : '🇫🇷 Questions en français'}</span>
+            <span>
+              {gameLanguage === 'en'
+                ? '🇬🇧 English questions'
+                : en
+                  ? '🇫🇷 Questions in French'
+                  : '🇫🇷 Questions en français'}
+            </span>
           </div>
           <p>
             {individualLanguage
