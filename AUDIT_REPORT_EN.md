@@ -1,20 +1,20 @@
 # Translation Audit Report
 
-## File: gaming/gaming-002.json
+## File: cinema/cinema-cannes-001.json
 
-[PASS] The translation is accurate and natural. The question "What are the pieces in Tetris called?" preserves the original meaning, and the answer options are correctly translated with the same order (Dominoes, Pentominoes, Cubes, Tetrominoes). The correct answer index (3) remains unchanged.
-
----
-
-## File: geographie/generated-all-001.json
-
-[PASS] The translation is accurate and idiomatic. "Vienne" correctly becomes "Vienna," the question structure is natural in English, and all answer options are properly translated while preserving their original order. The correct answer index remains 0.
+[PASS] The translation is accurate and idiomatic. The question meaning is fully preserved, the English phrasing is natural for an international audience, and the answer order remains identical (correct answer still at index 2).
 
 ---
 
-## File: histoire/histoire-dates-001.json
+## File: animaux/animaux-dump-003.json
 
-[PASS] The meaning is perfectly preserved, the English is idiomatic and natural, and the answer order (1788, 1792, 1790, 1789) is unchanged.
+[FAIL] The English question "Butterflies taste their food through this organ. ?" is awkward and contains a misplaced period before the question mark. It should be phrased as a proper question, e.g., "Through which organ do butterflies taste their food?" The meaning is preserved, and the answer order is identical, but the unnatural phrasing and punctuation error make it unsuitable for an international audience.
+
+---
+
+## File: musique/musique-legendes-001.json
+
+[PASS] The translation accurately preserves the meaning of the original French question, is idiomatic and natural in English, and the answer order remains unchanged (Cassius, Justice, Daft Punk, Air) with the correct answer still at index 2.
 
 ---
 

@@ -45,7 +45,7 @@
     "familyId": "family-animaux-001",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "All these animals are omnivores, except one. ?",
+    "question": "All of these animals are omnivores, except one:",
     "answers": [
       "Fox",
       "Snail",
@@ -125,7 +125,7 @@
     "familyId": "family-animaux-002",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "These are typically Australian animals, with the exception of one. ?",
+    "question": "Which of these animals is NOT native to Australia?",
     "answers": [
       "Dingo",
       "Sloth",
@@ -245,7 +245,7 @@
     "familyId": "family-animaux-004",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "All these animals have big ears (relative to their size), except one. ?",
+    "question": "All of these animals have large ears relative to their size, except one:",
     "answers": [
       "Foxes",
       "Polar bear",
@@ -325,7 +325,7 @@
     "familyId": "family-animaux-005",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Snakes are animals of this type. ?",
+    "question": "What type of diet do snakes have?",
     "answers": [
       "Herbivores",
       "Vegetarian",
@@ -365,7 +365,7 @@
     "familyId": "family-animaux-005",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Snakes consume their food through this process. ?",
+    "question": "How do snakes ingest their food?",
     "answers": [
       "Absorb",
       "Swallow",
@@ -445,7 +445,7 @@
     "familyId": "family-animaux-007",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Cobras are venomous snakes of family Elapidae, that generally inhabit regions of these two continents. ?",
+    "question": "On which two continents do cobras (Elapidae family) primarily live?",
     "answers": [
       "Asia and Australia",
       "South America and Asia",
@@ -485,7 +485,7 @@
     "familyId": "family-animaux-018",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Ancient Japanese thought this animal caused earthquakes. ?",
+    "question": "According to ancient Japanese folklore, which animal was believed to cause earthquakes?",
     "answers": [
       "Frogs",
       "Birds",

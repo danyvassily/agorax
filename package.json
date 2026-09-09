@@ -32,6 +32,7 @@
     "questions:audit:verify": "tsx scripts/questions/audit/verify.ts",
     "questions:audit:apply": "tsx scripts/questions/audit/apply.ts",
     "questions:audit:language": "tsx scripts/questions/audit/language.ts",
+    "questions:sync:supabase": "tsx scripts/questions/sync-supabase.ts",
     "questions:ingest:opentdb": "tsx scripts/archive/ingest-opentdb.ts",
     "questions:build:new-themes": "tsx scripts/archive/build-opentrivia-dumps.ts"
   },

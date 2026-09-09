@@ -45,7 +45,7 @@
     "familyId": "family-animaux-001",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Tous ces animaux sont omnivores, sauf un. ?",
+    "question": "Tous ces animaux sont omnivores, sauf un :",
     "answers": [
       "Renard",
       "Escargot",
@@ -125,7 +125,7 @@
     "familyId": "family-animaux-002",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Il s'agit d'animaux typiquement australiens, à l'exception d'un seul. ?",
+    "question": "Parmi ces animaux, lequel n'est PAS originaire d'Australie ?",
     "answers": [
       "Dingo",
       "Paresseux",
@@ -245,7 +245,7 @@
     "familyId": "family-animaux-004",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Tous ces animaux ont de grandes oreilles (par rapport à leur taille), sauf un. ?",
+    "question": "Tous ces animaux ont de grandes oreilles par rapport à leur taille, sauf un :",
     "answers": [
       "Renards",
       "Ours polaire",
@@ -285,7 +285,7 @@
     "familyId": "family-animaux-004",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Ce pourcentage de tous les serpents de la planète est mortel pour l'homme. ?",
+    "question": "Quel pourcentage de tous les serpents de la planète est mortel pour l'homme ?",
     "answers": [
       "25%",
       "10%",
@@ -325,7 +325,7 @@
     "familyId": "family-animaux-005",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Les serpents sont des animaux de ce type. ?",
+    "question": "Quel est le régime alimentaire des serpents ?",
     "answers": [
       "Herbivores",
       "Végétarien",
@@ -365,7 +365,7 @@
     "familyId": "family-animaux-005",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Les serpents consomment leur nourriture par le biais de ce processus. ?",
+    "question": "Comment les serpents ingèrent-ils leur nourriture ?",
     "answers": [
       "Absorber",
       "Avaler",
@@ -405,12 +405,12 @@
     "familyId": "family-animaux-006",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Les serpents appartiennent à la catégorie suivante. ?",
+    "question": "À quel groupe d'animaux appartiennent les serpents ?",
     "answers": [
-      "Invertebrates",
-      "Lizards",
+      "Invertébrés",
+      "Lézards",
       "Reptiles",
-      "Mammals"
+      "Mammifères"
     ],
     "correctAnswer": 2,
     "category": "animaux",

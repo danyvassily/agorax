@@ -125,12 +125,12 @@
     "familyId": "family-animaux-0465",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Captive raccoons are known for performing this vacuum activity. ?",
+    "question": "Which stereotypical behavior do captive raccoons exhibit with their food?",
     "answers": [
-      "All of these",
       "Scratching their belly",
-      "Dousing their food",
-      "Playing dead"
+      "Playing dead",
+      "Dousing their food in water",
+      "Spinning around"
     ],
     "correctAnswer": 2,
     "category": "animaux",

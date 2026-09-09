@@ -125,11 +125,11 @@
     "familyId": "family-animaux-0465",
     "type": "mcq",
     "inputMode": "mcq",
-    "question": "Quel comportement de 'lavage' stéréotypé les ratons laveurs captifs pratiquent-ils ?",
+    "question": "Quel comportement stéréotypé les ratons laveurs captifs pratiquent-ils avec leur nourriture ?",
     "answers": [
-      "Nettoyer leurs pattes dans l'eau",
-      "Laper des cailloux",
-      "Cacher des graines",
+      "Se gratter le ventre",
+      "Faire le mort",
+      "Tremper leurs aliments dans l'eau",
       "Tourner sur eux-mêmes"
     ],
     "correctAnswer": 2,
