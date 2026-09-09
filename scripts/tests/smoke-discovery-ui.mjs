@@ -17,6 +17,7 @@ try {
   await page.getByRole("checkbox").nth(1).click();
   await page.getByRole("button", { name: "Afficher la carte", exact: true }).click();
   await page.getByRole("button", { name: "Masquer / garder pour moi", exact: true }).waitFor();
+  assert.equal(await page.evaluate(() => JSON.parse(localStorage.getItem("Agorax-discovery-seen-v1") ?? "[]").length), 1);
   await page.getByRole("button", { name: "Passer / suite", exact: true }).click();
   await page.getByRole("heading", { name: "Joueur 2", exact: true }).waitFor();
   assert.equal(await page.getByRole("button", { name: "Masquer / garder pour moi", exact: true }).count(), 0);

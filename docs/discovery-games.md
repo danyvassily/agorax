@@ -20,8 +20,8 @@ The device selector links to a discovery room for remote play.
   treatment. Original prompts link to the WHO guide as further reading; they do
   not reproduce the guide or imply its endorsement.
 - Astrology is explicitly entertainment, not scientific assessment or prediction.
-- Seen card IDs are remembered in component memory during the visit, never
-  personal responses. Exhaustion requires an explicit replay. This is not
+- Seen card IDs are persisted on the current device, never personal responses.
+  Exhaustion requires an explicit replay. This is not
   account-wide or cross-device history; remote selection currently uses the
   host's displayed-card history, not an aggregation of every participant.
 

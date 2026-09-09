@@ -10,6 +10,20 @@ import { DISCOVERY_PACKS, discoveryDeck, discoveryStateSchema, type DiscoverySta
 import { createRoom, joinRoom, leaveRoom, subscribePlayers, subscribeSession, type OnlinePlayer, type OnlineSession } from "@/lib/online/room";
 import { getSupabaseBrowser } from "@/lib/supabase/client";
 
+function consumeDiscoveryHandoff(roomCode: string): { session: OnlineSession; player: OnlinePlayer } | null {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = sessionStorage.getItem("Agorax-discovery-handoff");
+    sessionStorage.removeItem("Agorax-discovery-handoff");
+    if (!raw) return null;
+    const handoff = JSON.parse(raw) as { session?: OnlineSession; player?: OnlinePlayer };
+    if (handoff.session?.mode === "discovery" && handoff.player?.id && (!roomCode || handoff.session.room_code === roomCode)) {
+      return { session: handoff.session, player: handoff.player };
+    }
+  } catch { /* A malformed handoff is ignored and the normal join form remains. */ }
+  return null;
+}
+
 /** Only card IDs and progression are shared. No personal answers are collected. */
 export function DiscoveryGame() {
   const params = useSearchParams();
@@ -18,6 +32,7 @@ export function DiscoveryGame() {
   const en = lang === "en";
   const language = en ? "en" : "fr";
   const online = params.get("device") === "online";
+  const initialRoomCode = params.get("room") ?? "";
   const initialCount = params.get("solo") === "1" ? 1 : Math.max(2, Math.min(8, Number(params.get("players")) || 2));
   const [names, setNames] = useState<string[]>(Array.from({ length: initialCount }, () => ""));
   const [packId, setPackId] = useState(DISCOVERY_PACKS.some(p => p.id === params.get("pack")) ? params.get("pack")! : DISCOVERY_PACKS[0].id);
@@ -30,13 +45,28 @@ export function DiscoveryGame() {
   const [session, setSession] = useState<OnlineSession | null>(null);
   const [me, setMe] = useState<OnlinePlayer | null>(null);
   const [players, setPlayers] = useState<OnlinePlayer[]>([]);
-  const [code, setCode] = useState(params.get("room") ?? "");
+  const [code, setCode] = useState(initialRoomCode);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [exhausted, setExhausted] = useState(false);
-  const seen = useRef(new Set<string>());
+  const [seenIds, setSeenIds] = useState<string[]>(() => {
+    if (typeof window === "undefined") return [];
+    try {
+      const stored = JSON.parse(localStorage.getItem("Agorax-discovery-seen-v1") ?? "[]");
+      return Array.isArray(stored) ? stored.filter((id): id is string => typeof id === "string") : [];
+    } catch { return []; }
+  });
   const lock = useRef(false);
   const sessionId = session?.id;
+
+  useEffect(() => {
+    if (!online || session) return;
+    const timer = window.setTimeout(() => {
+      const handoff = consumeDiscoveryHandoff(initialRoomCode);
+      if (handoff) { setSession(handoff.session); setMe(handoff.player); }
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, [initialRoomCode, online, session]);
 
   useEffect(() => {
     if (!sessionId) return;
@@ -89,7 +119,7 @@ export function DiscoveryGame() {
   }
 
   async function start(replay = false) {
-    const deck = discoveryDeck(packId, replay ? [] : [...seen.current]);
+    const deck = discoveryDeck(packId, replay ? [] : seenIds);
     if (!deck.length) { setExhausted(true); return; }
     const next: DiscoveryState = { packId, deck, roundId: crypto.randomUUID() };
     if (online) {
@@ -98,7 +128,15 @@ export function DiscoveryGame() {
     setExhausted(false); setTurn(0); setAccepted([]); setVisibleKey("");
   }
 
-  function show() { if (card && consent) { seen.current.add(card.id); setVisibleKey(key); } }
+  function show() {
+    if (!card || !consent) return;
+    if (!seenIds.includes(card.id)) {
+      const next = [...seenIds, card.id];
+      setSeenIds(next);
+      try { localStorage.setItem("Agorax-discovery-seen-v1", JSON.stringify(next)); } catch { /* Memory state still works. */ }
+    }
+    setVisibleKey(key);
+  }
   async function next() {
     if (!state) return;
     if (online) { await run(async () => update(index + 1 >= state.deck.length ? { phase: "finished" } : { question_index: index + 1 })); }
@@ -129,11 +167,11 @@ export function DiscoveryGame() {
     {session && <section className="jx-form-card"><h2>{en ? "Room" : "Salon"} : {session.room_code}</h2><p>{players.map(p => p.name).join(" · ")}</p><p>{en ? "Talk using your usual voice call. The host controls the cards; your answers are never sent to this room." : "Discutez avec votre appel vocal habituel. L’hôte pilote les cartes ; vos réponses ne sont jamais envoyées dans ce salon."}</p><button className="fp-btn-secondary mt-3" disabled={busy} onClick={() => void run(async () => { await navigator.clipboard.writeText(`${window.location.origin}/play/discovery?device=online&room=${encodeURIComponent(session.room_code)}`); })}>{en ? "Copy invitation link" : "Copier le lien d’invitation"}</button>{!session.host_id && <p role="alert">{en ? "The host has left. Leave the room to start a new one." : "L’hôte est parti. Quitte le salon pour en créer un nouveau."}</p>}</section>}
     {setup && (!online || host) && <section className="space-y-4">
       {!online && <div className="jx-form-card space-y-3"><label>{en ? "Players" : "Joueurs"}<select className="fp-input" value={names.length} onChange={e => setNames(Array.from({ length: Number(e.target.value) }, (_, i) => names[i] ?? ""))}>{Array.from({ length: 8 }, (_, i) => <option key={i} value={i + 1}>{i + 1}</option>)}</select></label>{names.map((name, i) => <label className="block" key={i}>{en ? "Player" : "Joueur"} {i + 1}<input className="fp-input" maxLength={20} value={name} onChange={e => setNames(names.map((n, j) => i === j ? e.target.value : n))} /></label>)}</div>}
-      <div className="jx-game-grid">{DISCOVERY_PACKS.map(p => <button className={`jx-form-card text-left ${packId === p.id ? "ring-2 ring-fp-primary" : ""}`} aria-pressed={packId === p.id} key={p.id} onClick={() => { setPackId(p.id); setExhausted(false); }}><h2>{p.title[language]}</h2><p>{p.description[language]}</p><small>{p.cards.length} {en ? "cards · solo or together" : "cartes · solo ou ensemble"}</small></button>)}</div>
-      {exhausted ? <div role="status"><p>{en ? "All cards in this pack have been shown during this visit. Choose another pack or explicitly replay." : "Toutes les cartes de ce thème ont été affichées pendant cette visite. Choisis un autre thème ou rejoue explicitement."}</p><button className="fp-btn-secondary" onClick={() => void start(true)} disabled={busy}>{en ? "Replay these cards" : "Rejouer ces cartes"}</button></div> : <button className="fp-btn-primary" disabled={busy} onClick={() => void start()}>{en ? "Start" : "Commencer"}</button>}
+      <div className="jx-game-grid">{DISCOVERY_PACKS.map(p => <button className={`jx-form-card text-left ${packId === p.id ? "ring-2 ring-fp-primary" : ""}`} aria-pressed={packId === p.id} key={p.id} onClick={() => { setPackId(p.id); setExhausted(false); }}><KawaiiMascot theme={p.mascot} size={88} animation="float"/><h2>{p.title[language]}</h2><p>{p.description[language]}</p><small>{p.cards.length} {en ? "cards · solo or together" : "cartes · solo ou ensemble"}</small></button>)}</div>
+      {exhausted ? <div role="status"><p>{en ? "All cards in this pack have already been shown on this device. Choose another pack or explicitly replay." : "Toutes les cartes de ce thème ont déjà été affichées sur cet appareil. Choisis un autre thème ou rejoue explicitement."}</p><button className="fp-btn-secondary" onClick={() => void start(true)} disabled={busy}>{en ? "Replay these cards" : "Rejouer ces cartes"}</button></div> : <button className="fp-btn-primary" disabled={busy} onClick={() => void start()}>{en ? "Start" : "Commencer"}</button>}
     </section>}
     {online && session && !host && !state && <p role="status">{en ? "Waiting for the host to choose a pack." : "En attente du choix de l’hôte."}</p>}
-    {state && !finished && <section className="jx-form-card space-y-5"><p>{pack.title[language]} · {index + 1}/{state.deck.length}</p><KawaiiMascot theme="luma" size={130} animation="float" />
+    {state && !finished && <section className="jx-form-card space-y-5"><p>{pack.title[language]} · {index + 1}/{state.deck.length}</p><KawaiiMascot theme={pack.mascot} size={130} animation={shown ? "wobble" : "float"} />
       {!consent ? <div className="space-y-4"><h2>{en ? "Adults only · voluntary participation" : "Adultes uniquement · participation volontaire"}</h2><p>{en ? "Each person must freely agree. Nobody owes an answer or a physical action. Consent can be withdrawn at any time." : "Chaque personne doit accepter librement. Personne ne doit une réponse ni un geste. Le consentement peut être retiré à tout moment."}</p>{personNames.map((name, i) => <label className="flex gap-3" key={i}><input type="checkbox" checked={accepted.includes(consentKeys[i])} onChange={e => setAccepted(e.target.checked ? [...accepted, consentKeys[i]] : accepted.filter(k => k !== consentKeys[i]))} />{name} — {en ? "I am 18 or over and I want to participate." : "J’ai 18 ans ou plus et je souhaite participer."}</label>)}</div> : !shown ? <div><h2>{online ? (en ? "Your private turn" : "Ton tour privé") : personNames[turn]}</h2><p>{en ? "Show the card only when you are comfortable. Sharing is optional." : "Affiche la carte seulement si tu le souhaites. Le partage est facultatif."}</p><button className="fp-btn-primary mt-4" onClick={show}>{en ? "Show card" : "Afficher la carte"}</button></div> : <div className="space-y-4"><h2 className="text-2xl">{card?.text[language]}</h2>{card?.reveal && <><button className="fp-btn-secondary" onClick={() => setRevealKey(key)}>{en ? "Show answer" : "Voir la réponse"}</button>{revealKey === key && <p>{card.reveal[language]}</p>}</>}<button className="fp-btn-ghost" onClick={() => setVisibleKey("")}>{en ? "Hide / keep private" : "Masquer / garder pour moi"}</button></div>}
       {(!online || host) && <button className="fp-btn-secondary" disabled={busy} onClick={() => void next()}>{en ? "Skip / next" : "Passer / suite"}</button>}
       {online && !host && <p>{en ? "The host advances after checking that everyone is comfortable." : "L’hôte avance après avoir vérifié que chacun est à l’aise."}</p>}

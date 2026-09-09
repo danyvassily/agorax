@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { DISCOVERY_PACKS, discoveryDeck, discoveryStateSchema } from "../src/lib/game/discovery";
+import { CHARACTERS } from "../src/lib/characters";
 
 describe("discovery catalogue", () => {
   it("provides seven bilingual packs and 42 unique cards", () => {
@@ -21,6 +22,10 @@ describe("discovery catalogue", () => {
   it("isolates intimate content in an explicitly adult pack", () => {
     expect(DISCOVERY_PACKS.filter(p => p.adult).map(p => p.id)).toEqual(["couple-adult"]);
     expect(DISCOVERY_PACKS[0].adult).not.toBe(true);
+  });
+  it("uses an existing kawaii character for every pack", () => {
+    const characters = new Set(CHARACTERS.map(character => character.id));
+    for (const pack of DISCOVERY_PACKS) expect(characters.has(pack.mascot as never)).toBe(true);
   });
   it("excludes already displayed cards and never silently recycles exhausted packs", () => {
     for (const pack of DISCOVERY_PACKS) {

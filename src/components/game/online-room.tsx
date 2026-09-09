@@ -327,6 +327,7 @@ export function OnlineRoom() {
       if (pseudo.trim()) localStorage.setItem("Agorax-saved-nickname", pseudo.trim());
       const res = await joinRoom((code ?? joinCode).trim().toUpperCase(), pseudo);
       if (res.session.mode === "discovery") {
+        sessionStorage.setItem("Agorax-discovery-handoff", JSON.stringify({ session: res.session, player: res.player }));
         router.push(`/play/discovery?device=online&room=${encodeURIComponent(res.session.room_code)}`);
         return;
       }
