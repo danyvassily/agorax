@@ -4,7 +4,7 @@ import { getAllQuizSlugs } from "@/lib/questions/seo-quiz";
 import { AppNavigation } from "@/components/ui/app-navigation";
 import { Sparkles } from "lucide-react";
 import { LocalizedText } from "@/components/ui/localized-text";
-import { CATEGORY_LABELS } from "@/lib/game/modes";
+import { categoryLabel } from "@/lib/game/modes";
 import { getSubthemesForCategory } from "@/lib/questions/subthemes";
 import type { QuestionCategory } from "@/lib/questions/schema";
 import { GsapAnimatedTitle } from "@/components/ui/gsap-animated-title";
@@ -57,14 +57,15 @@ export default async function QuizIndexPage() {
           {Object.entries(categories)
             .sort()
             .map(([cat, quizSlugs]) => {
-              const label = CATEGORY_LABELS[cat as QuestionCategory] ?? cat;
+              const labelFr = categoryLabel("fr", cat);
+              const labelEn = categoryLabel("en", cat);
               const subthemes = getSubthemesForCategory(cat as QuestionCategory);
 
               return (
                 <section key={cat} className="space-y-3">
                   <div className="flex flex-wrap items-center justify-between gap-2">
                     <GsapAnimatedTitle as="h2" className="text-2xl font-black text-fp-text flex items-center gap-2" variant="pop" scrollTrigger>
-                      <span>{label}</span>
+                      <LocalizedText fr={labelFr} en={labelEn} />
                       <span className="text-xs font-bold text-fp-primary bg-fp-primary/10 px-2.5 py-0.5 rounded-full">
                         {quizSlugs.length} quiz
                       </span>

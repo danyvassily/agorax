@@ -57,7 +57,7 @@ export default async function Image() {
             marginBottom: 28,
           }}
         >
-          ⚡ Le Jeu de Soirée Ultime
+          Le Jeu de Soirée Ultime
         </div>
 
         {/* Title */}
@@ -110,7 +110,7 @@ export default async function Image() {
               color: "#FFFFFF",
             }}
           >
-            🔥 10+ Modes de jeu
+            10+ Modes de jeu
           </div>
           <div
             style={{
@@ -123,7 +123,7 @@ export default async function Image() {
               color: "#FFFFFF",
             }}
           >
-            📱 100% Gratuit & Sans Pub
+            100% Gratuit & Sans Pub
           </div>
           <div
             style={{
@@ -136,7 +136,7 @@ export default async function Image() {
               color: "#FFFFFF",
             }}
           >
-            🌐 Multijoueur & Solo
+            Multijoueur & Solo
           </div>
         </div>
 

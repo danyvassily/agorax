@@ -2,7 +2,7 @@
   {
     "id": "qapi-politique-quel-est-le-nom-du-46eme-preside-o08oyq",
     "conceptId": "concept-politique-quel-est-le-nom-du-46eme-preside",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-quel-est-le-nom-du-46eme-preside-o08oyq",
     "knowledgeKey": "politique.institutions.quel-est-le-nom-du-46eme-preside",
     "contentHash": "0e9f926b5344a24cc0563324761a2a66c975e0a27e1df162e25efb665a84ca78",
     "type": "mcq",
@@ -46,7 +46,7 @@
   {
     "id": "qapi-politique-en-quelle-annee-se-deroule-la-pr-ogp9jr",
     "conceptId": "concept-politique-en-quelle-annee-se-deroule-la-pr",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-en-quelle-annee-se-deroule-la-pr-ogp9jr",
     "knowledgeKey": "politique.institutions.en-quelle-annee-se-deroule-la-pr",
     "contentHash": "32631ee950b7e858d98ce5892490481765fa0be658eabe38a5bc7587e64e35fa",
     "type": "mcq",
@@ -90,7 +90,7 @@
   {
     "id": "qapi-politique-quel-president-francais-de-la-ve-g5499d",
     "conceptId": "concept-politique-quel-president-francais-de-la-ve",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-quel-president-francais-de-la-ve-g5499d",
     "knowledgeKey": "politique.institutions.quel-president-francais-de-la-ve",
     "contentHash": "275eca4aaaec4cd3a7895312e7869598ad33281ca590f01f288ec310d24014b1",
     "type": "mcq",
@@ -134,7 +134,7 @@
   {
     "id": "qapi-politique-quel-docteur-en-informatique-a-p-qzt6r7",
     "conceptId": "concept-politique-quel-docteur-en-informatique-a-p",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-quel-docteur-en-informatique-a-p-qzt6r7",
     "knowledgeKey": "politique.institutions.quel-docteur-en-informatique-a-p",
     "contentHash": "c738ff1b5e43e6d8fc1c4bfca97459423d8fb0400473161a0c16663be946abdd",
     "type": "mcq",
@@ -178,7 +178,7 @@
   {
     "id": "qapi-politique-qui-a-dit-en-2022-je-vis-avec-un-0qgr5l",
     "conceptId": "concept-politique-qui-a-dit-en-2022-je-vis-avec-un",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-qui-a-dit-en-2022-je-vis-avec-un-0qgr5l",
     "knowledgeKey": "politique.institutions.qui-a-dit-en-2022-je-vis-avec-un",
     "contentHash": "6e2c6e924f9252d6691b86d9be44bfd97deab52f8d5b6e59b058bc1f901024b5",
     "type": "mcq",
@@ -222,7 +222,7 @@
   {
     "id": "qapi-politique-parti-de-melun-le-5-mai-2022-ou--l51z8z",
     "conceptId": "concept-politique-parti-de-melun-le-5-mai-2022-ou-",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-parti-de-melun-le-5-mai-2022-ou--l51z8z",
     "knowledgeKey": "politique.institutions.parti-de-melun-le-5-mai-2022-ou-",
     "contentHash": "c4c0a935930507e5634c428c94d06f92bd34e5f238f520af825b0b403d17dd23",
     "type": "mcq",
@@ -266,7 +266,7 @@
   {
     "id": "qapi-politique-qui-a-ete-elu-personnalite-de-l--jmiazh",
     "conceptId": "concept-politique-qui-a-ete-elu-personnalite-de-l-",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-qui-a-ete-elu-personnalite-de-l--jmiazh",
     "knowledgeKey": "politique.institutions.qui-a-ete-elu-personnalite-de-l-",
     "contentHash": "298309ca3423d98be2b5140adcdf8ccb884a3f13ab21a735752b9f0f214b5401",
     "type": "mcq",
@@ -310,7 +310,7 @@
   {
     "id": "qapi-politique-quel-fidele-collaborateur-de-kar-4jzgxg",
     "conceptId": "concept-politique-quel-fidele-collaborateur-de-kar",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-quel-fidele-collaborateur-de-kar-4jzgxg",
     "knowledgeKey": "politique.institutions.quel-fidele-collaborateur-de-kar",
     "contentHash": "3c51401a9cc6ab7c85fafc57533a8e45d40cac1b2e2924f51131a1b70fd3f12e",
     "type": "mcq",
@@ -354,7 +354,7 @@
   {
     "id": "qapi-politique-en-quelle-annee-a-ete-legalise-l-m5xv4s",
     "conceptId": "concept-politique-en-quelle-annee-a-ete-legalise-l",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-en-quelle-annee-a-ete-legalise-l-m5xv4s",
     "knowledgeKey": "politique.institutions.en-quelle-annee-a-ete-legalise-l",
     "contentHash": "b3a4edd98bf840f0e4b61d71458a0ba5effb593abbf989cca47ef85a7f396eeb",
     "type": "mcq",
@@ -398,7 +398,7 @@
   {
     "id": "qapi-politique-dans-quel-pays-la-chaine-d-infor-lvfx7m",
     "conceptId": "concept-politique-dans-quel-pays-la-chaine-d-infor",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-dans-quel-pays-la-chaine-d-infor-lvfx7m",
     "knowledgeKey": "politique.institutions.dans-quel-pays-la-chaine-d-infor",
     "contentHash": "3e5d3cd443462b0ca8c183474036dc8c8b1bff3ebbf1cd9c74dd9e7b5afdb1dd",
     "type": "mcq",
@@ -442,7 +442,7 @@
   {
     "id": "qapi-politique-dans-quel-pays-du-monde-le-palai-ohzlw2",
     "conceptId": "concept-politique-dans-quel-pays-du-monde-le-palai",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-dans-quel-pays-du-monde-le-palai-ohzlw2",
     "knowledgeKey": "politique.institutions.dans-quel-pays-du-monde-le-palai",
     "contentHash": "484211f5da027f3d4a6d5c1da64e6ac2c44f6458c99183ec8c2c9e9efb7f3876",
     "type": "mcq",
@@ -486,7 +486,7 @@
   {
     "id": "qapi-politique-dans-quel-pays-un-ancien-premier-2n3u5d",
     "conceptId": "concept-politique-dans-quel-pays-un-ancien-premier",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-dans-quel-pays-un-ancien-premier-2n3u5d",
     "knowledgeKey": "politique.institutions.dans-quel-pays-un-ancien-premier",
     "contentHash": "b3bbdc5fba0dd454438959c4bef81939609e53efebbea65a82ce5890725e10be",
     "type": "mcq",
@@ -530,7 +530,7 @@
   {
     "id": "qapi-politique-quel-homme-politique-francais-a--0w3gmi",
     "conceptId": "concept-politique-quel-homme-politique-francais-a-",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-quel-homme-politique-francais-a--0w3gmi",
     "knowledgeKey": "politique.institutions.quel-homme-politique-francais-a-",
     "contentHash": "b0bf0d00e061bfa9bd5ebf50dc7dfacc7b1ab8bd7bd82f634dee6bbab940317f",
     "type": "mcq",
@@ -574,7 +574,7 @@
   {
     "id": "qapi-politique-quel-est-le-1er-president-de-cin-5dpe8v",
     "conceptId": "concept-politique-quel-est-le-1er-president-de-cin",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-quel-est-le-1er-president-de-cin-5dpe8v",
     "knowledgeKey": "politique.institutions.quel-est-le-1er-president-de-cin",
     "contentHash": "4af9211525282315b443cda1177257f8f82d578d4ad3a0f6f33e492327c76b8e",
     "type": "mcq",
@@ -618,7 +618,7 @@
   {
     "id": "qapi-politique-quel-pays-est-connu-pour-son-sys-ctyvae",
     "conceptId": "concept-politique-quel-pays-est-connu-pour-son-sys",
-    "familyId": "family-politique-institutions",
+    "familyId": "family-qapi-politique-quel-pays-est-connu-pour-son-sys-ctyvae",
     "knowledgeKey": "politique.institutions.quel-pays-est-connu-pour-son-sys",
     "contentHash": "64f7bb0fd057a6d7f45be622872fdf359b38882000f844f551725f9d6f551d5f",
     "type": "mcq",

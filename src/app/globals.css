@@ -381,6 +381,37 @@ button:not(:disabled), a { cursor: pointer; }
     margin-top: 3px!important;
   }
 
+  .jx-game-screen .jx-online-score {
+    min-height: 43px;
+    margin-top: 3px;
+    padding-bottom: 3px;
+    gap: 5px;
+  }
+
+  .jx-game-screen .jx-online-score > div {
+    min-width: 44px;
+    max-width: 64px;
+    gap: 1px;
+    line-height: 1.05;
+  }
+
+  .jx-game-screen .jx-online-score > div > span:first-child {
+    width: 24px!important;
+    height: 24px!important;
+  }
+
+  .jx-game-screen .jx-online-score span {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 9px;
+  }
+
+  .jx-game-screen .jx-online-score strong {
+    font-size: 11px;
+  }
+
   .jx-question-stage {
     min-height: 0;
     margin-top: 7px!important;
@@ -455,6 +486,35 @@ button:not(:disabled), a { cursor: pointer; }
   .jx-game-screen .jx-feedback p:last-child {
     font-size: 10px!important;
     line-height: 1.25;
+  }
+
+  .jx-game-screen .jx-buzzer {
+    width: 112px!important;
+    min-height: 112px!important;
+    margin-top: 9px!important;
+    font-size: 17px!important;
+    box-shadow: 0 5px 0 #c54f46, 0 0 0 6px #ffe9da!important;
+  }
+
+  .jx-game-screen .jx-buzzer svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .jx-game-screen .jx-question-stage > div > .rounded-3xl {
+    margin-top: 8px!important;
+    padding: 8px!important;
+  }
+
+  .jx-game-screen .jx-question-stage > div > .rounded-3xl .jx-mascot {
+    width: 45px!important;
+    height: 45px!important;
+    margin-bottom: 0!important;
+  }
+
+  .jx-game-screen .jx-question-stage + div,
+  .jx-game-screen .jx-question-stage > div + div {
+    margin-top: 6px!important;
   }
 
   .jx-game-screen .jx-score-strip {

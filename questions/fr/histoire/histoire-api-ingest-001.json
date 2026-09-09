@@ -2,7 +2,7 @@
   {
     "id": "qapi-histoire-de-quel-roi-de-france-anne-d-aut-mzvtvh",
     "conceptId": "concept-histoire-de-quel-roi-de-france-anne-d-aut",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-de-quel-roi-de-france-anne-d-aut-mzvtvh",
     "knowledgeKey": "histoire.antiquite.de-quel-roi-de-france-anne-d-aut",
     "contentHash": "f281f3624fb5cdc470bc2e98cc363806c4fc694abc0e16429340d45a7edd251b",
     "type": "mcq",
@@ -46,7 +46,7 @@
   {
     "id": "qapi-histoire-quel-est-l-ancien-nom-de-la-vill-nh5lm3",
     "conceptId": "concept-histoire-quel-est-l-ancien-nom-de-la-vill",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-quel-est-l-ancien-nom-de-la-vill-nh5lm3",
     "knowledgeKey": "histoire.antiquite.quel-est-l-ancien-nom-de-la-vill",
     "contentHash": "2ce31da3d8cd52b69bf54a7ea1fb40bd82c3c3a45f90ff77d4eccb0da8fb88e9",
     "type": "mcq",
@@ -90,7 +90,7 @@
   {
     "id": "qapi-histoire-vers-quelle-date-a-ete-invente-l-819hvh",
     "conceptId": "concept-histoire-vers-quelle-date-a-ete-invente-l",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-vers-quelle-date-a-ete-invente-l-819hvh",
     "knowledgeKey": "histoire.antiquite.vers-quelle-date-a-ete-invente-l",
     "contentHash": "5c56b5b4ab85e5361429138acf5f87480b8416ab49f408d54a08cb8276fce2c9",
     "type": "mcq",
@@ -134,7 +134,7 @@
   {
     "id": "qapi-histoire-ou-ont-ete-juges-les-nazis-cggy3w",
     "conceptId": "concept-histoire-ou-ont-ete-juges-les-nazis",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-ou-ont-ete-juges-les-nazis-cggy3w",
     "knowledgeKey": "histoire.antiquite.ou-ont-ete-juges-les-nazis",
     "contentHash": "79bbcd14c8cc3e65e06cbec0aa83b6aeee5db2d7c9609987c9d390143b8cc8f9",
     "type": "mcq",
@@ -178,7 +178,7 @@
   {
     "id": "qapi-histoire-dans-quelle-ville-charles-vii-fu-zvd42k",
     "conceptId": "concept-histoire-dans-quelle-ville-charles-vii-fu",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-dans-quelle-ville-charles-vii-fu-zvd42k",
     "knowledgeKey": "histoire.antiquite.dans-quelle-ville-charles-vii-fu",
     "contentHash": "d6ec09e746191189b2505c70b067afbf7b94a7c52daca0ced07a6b0fa4b0f497",
     "type": "mcq",
@@ -222,7 +222,7 @@
   {
     "id": "qapi-histoire-quel-empire-fut-dirige-par-gengi-0krh8v",
     "conceptId": "concept-histoire-quel-empire-fut-dirige-par-gengi",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-quel-empire-fut-dirige-par-gengi-0krh8v",
     "knowledgeKey": "histoire.antiquite.quel-empire-fut-dirige-par-gengi",
     "contentHash": "9c80cf4221b82ade09104373df5712a970ed2eb63d808f0e3cca4513cccee5b8",
     "type": "mcq",
@@ -266,7 +266,7 @@
   {
     "id": "qapi-histoire-quelle-etait-la-nationalite-de-m-78xx7e",
     "conceptId": "concept-histoire-quelle-etait-la-nationalite-de-m",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-quelle-etait-la-nationalite-de-m-78xx7e",
     "knowledgeKey": "histoire.antiquite.quelle-etait-la-nationalite-de-m",
     "contentHash": "f97618527be83ef3a6db036db5487c9c0179e85d861ca90e7e95ef17793e48c2",
     "type": "mcq",
@@ -310,7 +310,7 @@
   {
     "id": "qapi-histoire-quel-traite-partagea-le-monde-en-k0r7m1",
     "conceptId": "concept-histoire-quel-traite-partagea-le-monde-en",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-quel-traite-partagea-le-monde-en-k0r7m1",
     "knowledgeKey": "histoire.antiquite.quel-traite-partagea-le-monde-en",
     "contentHash": "f784b52bf9a9c15e14202ef8dfd3a40da172cc1bf7c1939e0e62e537c27b2383",
     "type": "mcq",
@@ -354,7 +354,7 @@
   {
     "id": "qapi-histoire-quel-est-le-nom-du-code-juridiqu-zztliy",
     "conceptId": "concept-histoire-quel-est-le-nom-du-code-juridiqu",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-quel-est-le-nom-du-code-juridiqu-zztliy",
     "knowledgeKey": "histoire.antiquite.quel-est-le-nom-du-code-juridiqu",
     "contentHash": "fde53986e550f9855aa431676d38acd17764ef5f997842c913f97d08993d3edb",
     "type": "mcq",
@@ -398,7 +398,7 @@
   {
     "id": "qapi-histoire-comment-s-appelle-la-periode-de--k3fdb1",
     "conceptId": "concept-histoire-comment-s-appelle-la-periode-de-",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-comment-s-appelle-la-periode-de--k3fdb1",
     "knowledgeKey": "histoire.antiquite.comment-s-appelle-la-periode-de-",
     "contentHash": "a1554a9f3b77063702f375bb1f9ffad99bdc41d8702176d72349f4a46b6f4550",
     "type": "mcq",
@@ -442,7 +442,7 @@
   {
     "id": "qapi-histoire-quelle-merveille-du-monde-antiqu-jg10iy",
     "conceptId": "concept-histoire-quelle-merveille-du-monde-antiqu",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-quelle-merveille-du-monde-antiqu-jg10iy",
     "knowledgeKey": "histoire.antiquite.quelle-merveille-du-monde-antiqu",
     "contentHash": "a7703a0fb10064d2eb8ce0af19a7e326c6187ca8a5a4ac65e03dc038874c7d42",
     "type": "mcq",
@@ -486,7 +486,7 @@
   {
     "id": "qapi-histoire-a-quel-pays-africain-actuel-corr-bhurrc",
     "conceptId": "concept-histoire-a-quel-pays-africain-actuel-corr",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-a-quel-pays-africain-actuel-corr-bhurrc",
     "knowledgeKey": "histoire.antiquite.a-quel-pays-africain-actuel-corr",
     "contentHash": "e1f11fd4f0dccf6a6b01d39db8f1c9de9bd2bac244d6cccf1f966257528d5b3a",
     "type": "mcq",
@@ -530,7 +530,7 @@
   {
     "id": "qapi-histoire-qui-etait-la-reine-d-egypte-conn-n1kx1m",
     "conceptId": "concept-histoire-qui-etait-la-reine-d-egypte-conn",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-qui-etait-la-reine-d-egypte-conn-n1kx1m",
     "knowledgeKey": "histoire.antiquite.qui-etait-la-reine-d-egypte-conn",
     "contentHash": "5c7fbbc4e0155df8c9d66bf0a7f6e1e8be67d465c78fd9955b2ac5d37959b61a",
     "type": "mcq",
@@ -574,7 +574,7 @@
   {
     "id": "qapi-histoire-qui-a-fonde-la-croix-rouge-en-18-ojcw1e",
     "conceptId": "concept-histoire-qui-a-fonde-la-croix-rouge-en-18",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-qui-a-fonde-la-croix-rouge-en-18-ojcw1e",
     "knowledgeKey": "histoire.antiquite.qui-a-fonde-la-croix-rouge-en-18",
     "contentHash": "6a90acf55a85a433a5e524a1ff7a406ab9d4215b8e5a24415999b81259fa91fc",
     "type": "mcq",
@@ -618,7 +618,7 @@
   {
     "id": "qapi-histoire-quelle-bataille-mit-fin-a-l-empi-6bq0sy",
     "conceptId": "concept-histoire-quelle-bataille-mit-fin-a-l-empi",
-    "familyId": "family-histoire-antiquite",
+    "familyId": "family-qapi-histoire-quelle-bataille-mit-fin-a-l-empi-6bq0sy",
     "knowledgeKey": "histoire.antiquite.quelle-bataille-mit-fin-a-l-empi",
     "contentHash": "515eaf4607d655d5f5e6bb383c8685761ce7a89e719e86347072c7776263aa01",
     "type": "mcq",

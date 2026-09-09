@@ -2,7 +2,7 @@
   {
     "id": "ttapi-geographie-in-which-country-is-the-mekong-r-94ffac",
     "conceptId": "concept-geographie-in-which-country-is-the-mekong-r",
-    "familyId": "family-geographie-hydrographie-fleuves",
+    "familyId": "family-ttapi-geographie-in-which-country-is-the-mekong-r-94ffac",
     "knowledgeKey": "geographie.hydrographie-fleuves.in-which-country-is-the-mekong-r",
     "contentHash": "d2c660b5ef6be12ca4c1f1106828d8232bea5971909225c35310808651a36c70",
     "type": "mcq",
@@ -47,7 +47,7 @@
   {
     "id": "ttapi-geographie-in-which-country-is-the-city-of--0e3cb7",
     "conceptId": "concept-geographie-in-which-country-is-the-city-of-",
-    "familyId": "family-geographie-capitales",
+    "familyId": "family-ttapi-geographie-in-which-country-is-the-city-of--0e3cb7",
     "knowledgeKey": "geographie.capitales.in-which-country-is-the-city-of-",
     "contentHash": "1b8e5f13f1334966a3a1240d24487cbea0140dffba87ee6d57b0892eac5df395",
     "type": "mcq",
@@ -92,7 +92,7 @@
   {
     "id": "ttapi-geographie-in-which-country-would-you-find--1183a1",
     "conceptId": "concept-geographie-in-which-country-would-you-find-",
-    "familyId": "family-geographie-capitales",
+    "familyId": "family-ttapi-geographie-in-which-country-would-you-find--1183a1",
     "knowledgeKey": "geographie.capitales.in-which-country-would-you-find-",
     "contentHash": "d436b4dbe274d38c39953b6e756c17a48c407331a4bb6fa3715c2925125f247a",
     "type": "mcq",
@@ -136,7 +136,7 @@
   {
     "id": "ttapi-geographie-what-is-the-capital-city-of-jord-949d30",
     "conceptId": "concept-geographie-what-is-the-capital-city-of-jord",
-    "familyId": "family-geographie-capitales",
+    "familyId": "family-ttapi-geographie-what-is-the-capital-city-of-jord-949d30",
     "knowledgeKey": "geographie.capitales.what-is-the-capital-city-of-jord",
     "contentHash": "f49e8449e0ce84d97e0ce34080d66ddf70c1b8b02bf6066194358f36320aced5",
     "type": "mcq",
@@ -180,7 +180,7 @@
   {
     "id": "ttapi-geographie-the-little-mermaid-is-found-in-t-94ff9c",
     "conceptId": "concept-geographie-the-little-mermaid-is-found-in-t",
-    "familyId": "family-geographie-capitales",
+    "familyId": "family-ttapi-geographie-the-little-mermaid-is-found-in-t-94ff9c",
     "knowledgeKey": "geographie.capitales.the-little-mermaid-is-found-in-t",
     "contentHash": "d194e7f663d59606f2c30e618cc0cfa10aaea1580b4852e1afdcd7c2c88dcbcb",
     "type": "mcq",
@@ -225,7 +225,7 @@
   {
     "id": "ttapi-geographie-which-scottish-town-was-once-a-c-646b11",
     "conceptId": "concept-geographie-which-scottish-town-was-once-a-c",
-    "familyId": "family-geographie-capitales",
+    "familyId": "family-ttapi-geographie-which-scottish-town-was-once-a-c-646b11",
     "knowledgeKey": "geographie.capitales.which-scottish-town-was-once-a-c",
     "contentHash": "0c7176618c5e7dece53a39dfdaed10a6bdc2c9a333e2fef4e98f770aa1ab5b0c",
     "type": "mcq",
@@ -272,7 +272,7 @@
   {
     "id": "ttapi-geographie-abuja-is-the-capital-city-of-whi-949d81",
     "conceptId": "concept-geographie-abuja-is-the-capital-city-of-whi",
-    "familyId": "family-geographie-capitales",
+    "familyId": "family-ttapi-geographie-abuja-is-the-capital-city-of-whi-949d81",
     "knowledgeKey": "geographie.capitales.abuja-is-the-capital-city-of-whi",
     "contentHash": "ac7d8c9aa9b35b4378ced82802f9d5263ea79aeef884efccb1f3b60c2b8ff119",
     "type": "mcq",
@@ -316,7 +316,7 @@
   {
     "id": "ttapi-geographie-what-is-the-capital-city-of-egyp-949cf0",
     "conceptId": "concept-geographie-what-is-the-capital-city-of-egyp",
-    "familyId": "family-geographie-capitales",
+    "familyId": "family-ttapi-geographie-what-is-the-capital-city-of-egyp-949cf0",
     "knowledgeKey": "geographie.capitales.what-is-the-capital-city-of-egyp",
     "contentHash": "4e32cddb6307a18f8e87a9637aa671a815b8191c2d5c23193fd6707101d4335f",
     "type": "mcq",
@@ -360,7 +360,7 @@
   {
     "id": "ttapi-geographie-which-country-administers-martin-2aac11",
     "conceptId": "concept-geographie-which-country-administers-martin",
-    "familyId": "family-geographie-capitales",
+    "familyId": "family-ttapi-geographie-which-country-administers-martin-2aac11",
     "knowledgeKey": "geographie.capitales.which-country-administers-martin",
     "contentHash": "9a4baca3a6b41b06c4975196121e117efab37e01b9f542a2bc54c9fecca5c23b",
     "type": "mcq",
@@ -404,7 +404,7 @@
   {
     "id": "ttapi-geographie-which-of-these-countries-borders-9508cc",
     "conceptId": "concept-geographie-which-of-these-countries-borders",
-    "familyId": "family-geographie-capitales",
+    "familyId": "family-ttapi-geographie-which-of-these-countries-borders-9508cc",
     "knowledgeKey": "geographie.capitales.which-of-these-countries-borders",
     "contentHash": "d0160c19ec2567a3f8a6cdf8dbb069ab7545ae4b0b7ca44d42020252786fd869",
     "type": "mcq",

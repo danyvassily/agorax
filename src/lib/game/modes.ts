@@ -172,5 +172,21 @@ export const QUESTION_COUNT_OPTIONS = [5, 10, 20] as const;
 
 const EN_MODE_NAMES: Record<GameMode,string> = {agorax:'Quiz Party',classic:'Classic quiz',truefalse:'True or false',rapidfire:'Rapid Fire',timeline:'Timeline',teambattle:'Team battle',wyr:'Would you rather?',guess:'Clues',debate:'The great debate',psycho:'Personality profile',iq:'Logic challenge'};
 export function modeLabel(mode:GameMode,language:string){return language==='en'?EN_MODE_NAMES[mode]:mode==='agorax'?'Quiz Party':mode==='wyr'?'Tu préfères ?':mode==='debate'?'Le grand débat':MODE_META[mode].name;}
+const EN_MODE_SUBTITLES: Record<GameMode, string> = {
+  agorax: "Turn-taking, buzzer rounds and The Line finale",
+  classic: "Four answers and 15 seconds per question",
+  truefalse: "Fast and unforgiving",
+  rapidfire: "20 questions with 6 seconds each",
+  timeline: "Put events back in chronological order",
+  teambattle: "Two teams face off",
+  wyr: "Impossible choices that spark debate",
+  guess: "Guess with progressive clues",
+  debate: "Philosophy, politics and ethics — nobody wins",
+  psycho: "18 party dilemmas reveal your true archetype",
+  iq: "Logic, sequences and memory in eight challenges",
+};
+export function modeSubtitle(mode: GameMode, language: string) {
+  return language === "en" ? EN_MODE_SUBTITLES[mode] : MODE_META[mode].subtitle;
+}
 const EN_CATEGORIES: Record<string,string> = {mixed:'All topics','culture-generale':'General knowledge',geographie:'Geography',histoire:'History',cinema:'Cinema',series:'TV series',musique:'Music','manga-anime':'Manga & anime',gaming:'Video games',science:'Science',technologie:'Technology',internet:'Internet','mythologie-grecque':'Greek mythology',philosophie:'Philosophy',sport:'Sport',football:'Football',food:'Food',voyage:'Travel',art:'Art',litterature:'Literature',insolite:'Curiosities',politique:'Politics',animaux:'Animals & nature','jeux-de-societe':'Board games','comics-bd':'Comics',vehicules:'Vehicles',psychologie:'Psychology'};
 export function categoryLabel(language:string,category:string){return language==='en'?(EN_CATEGORIES[category]??category):(CATEGORY_LABELS[category as keyof typeof CATEGORY_LABELS]??category);}

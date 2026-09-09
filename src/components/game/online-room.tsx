@@ -42,7 +42,7 @@ import {
   type RoomAnswer,
 } from "@/lib/online/room";
 import { makePlayer } from "@/lib/store/game";
-import { MODE_META, QUESTION_COUNT_OPTIONS, modeLabel, categoryLabel } from "@/lib/game/modes";
+import { MODE_META, QUESTION_COUNT_OPTIONS, modeLabel, modeSubtitle, categoryLabel } from "@/lib/game/modes";
 import { localizeQuestion } from "@/lib/questions/localize";
 import { useLanguageStore } from "@/lib/store/language";
 import { CATEGORIES, type QuestionCategory } from "@/lib/questions/schema";
@@ -417,7 +417,7 @@ export function OnlineRoom() {
         onlineSessionId: resetSession.id,
         ai: false,
         gameLanguage,
-        languageMode: "shared",
+        languageMode: "per-player",
         language: gameLanguage,
       });
       const qs = data.questions ?? [];
@@ -460,12 +460,20 @@ export function OnlineRoom() {
       const accepted = isBuzzerMode
         ? await submitRoomBuzzerAnswer(session.id, myPlayer.id, index(), i, elapsed)
         : (await submitAnswer(session.id, myPlayer.id, index(), i, elapsed), true);
-      if (!accepted) throw new Error("Un autre joueur a pris le buzzer avant toi");
+      if (!accepted) {
+        throw new Error(en ? "Another player reached the buzzer first." : "Un autre joueur a pris le buzzer avant toi.");
+      }
       sound.playAnswerLocked();
     } catch (cause) {
       setAnswered(false);
       setSelected(null);
-      setError(cause instanceof Error ? cause.message : "La réponse n'a pas pu être enregistrée");
+      setError(
+        cause instanceof Error
+          ? cause.message
+          : en
+            ? "Your answer could not be saved."
+            : "La réponse n'a pas pu être enregistrée.",
+      );
     }
       }
 
@@ -578,7 +586,9 @@ export function OnlineRoom() {
   }
 
   const q = session?.current_question;
-  const effectiveSessionLang = session?.language_mode === "per-player" ? lang : ((q?.language as "fr" | "en") ?? "fr");
+  // Une question en ligne contient ses variantes synchronisées. Chaque appareil
+  // l'affiche dans la langue choisie localement, sans modifier l'index de réponse.
+  const effectiveSessionLang = lang;
   const qLocal = q ? localizeQuestion(q, effectiveSessionLang) : null;
   const en = lang === "en";
   const correctAnswer = revealed ? q?.correctAnswer : undefined;
@@ -982,9 +992,9 @@ export function OnlineRoom() {
     const isOnlineWrong = revealed && myAnswer !== null && myAnswer !== correctAnswer;
 
     return (
-      <main className="jx-game mx-auto flex min-h-dvh w-full flex-col px-4 sm:px-6 pb-12 pt-3 animate-rise">
+      <main className="jx-game jx-game-screen mx-auto flex min-h-dvh w-full flex-col px-4 sm:px-6 pb-12 pt-3 animate-rise">
         {/* Navigation & Question Indicator */}
-        <div className="flex items-center justify-between">
+        <div className="jx-game-topbar flex items-center justify-between">
           <div className="flex items-center gap-1.5">
             <button
               type="button"
@@ -1031,20 +1041,20 @@ export function OnlineRoom() {
         <div className="jx-online-score">{players.map((p,i)=><div key={p.id}><PlayerDot name={p.name} avatarUrl={presence[p.id]?.avatarUrl??characterImage(CHARACTERS[i%5].id)} size={34}/><span>{p.name}</span><strong>{p.score}</strong></div>)}</div>
         {/* Timer Bar */}
         {!revealed && (
-          <div className="mt-4">
+          <div className="jx-game-timer mt-4">
             <TimerBar seconds={timeLeft} total={timePerQuestion} />
           </div>
         )}
 
         {q ? (
-          <section className="mt-5 flex-1 flex flex-col justify-between">
+          <section className="jx-question-stage mt-5 flex-1 flex flex-col justify-between">
             <div>
-              <div className="flex items-center justify-between">
+              <div className="jx-question-meta flex items-center justify-between">
                 <PillBadge colorClass="bg-fp-primary/10 text-fp-primary">
                   {isHost ? (en ? "Host · Answer!" : "Hôte · Répondez !") : (en ? "Your turn!" : "À vous de jouer !")}
                 </PillBadge>
                 <span className="text-[13px] font-medium text-fp-text-dim tabular-nums">
-                  {answeredCount}/{players.length} ont répondu
+                  {answeredCount}/{players.length} {en ? "answered" : "ont répondu"}
                 </span>
               </div>
 
@@ -1066,8 +1076,8 @@ export function OnlineRoom() {
                   <>
                     <KawaiiMascot theme="thinking" size={62} animation="float" />
                     <div>
-                      <p className="text-[14px] font-bold text-fp-text">À toi de réfléchir 🤔</p>
-                      <p className="text-[12px] text-fp-text-dim">Sélectionne vite ta réponse avant la fin du chrono !</p>
+                      <p className="text-[14px] font-bold text-fp-text">{en ? "Think it through 🤔" : "À toi de réfléchir 🤔"}</p>
+                      <p className="text-[12px] text-fp-text-dim">{en ? "Choose before the timer runs out!" : "Sélectionne vite ta réponse avant la fin du chrono !"}</p>
                     </div>
                   </>
                 )}
@@ -1075,8 +1085,8 @@ export function OnlineRoom() {
                   <>
                     <KawaiiMascot theme="waiting" size={62} animation="wobble" />
                     <div>
-                      <p className="text-[14px] font-bold text-fp-primary">Réponse validée ! 📱</p>
-                      <p className="text-[12px] text-fp-text-dim">Patiente pendant que les autres joueurs répondent.</p>
+                      <p className="text-[14px] font-bold text-fp-primary">{en ? "Answer locked in! 📱" : "Réponse validée ! 📱"}</p>
+                      <p className="text-[12px] text-fp-text-dim">{en ? "Waiting for the other players." : "Patiente pendant que les autres joueurs répondent."}</p>
                     </div>
                   </>
                 )}
@@ -1084,8 +1094,8 @@ export function OnlineRoom() {
                   <>
                     <KawaiiMascot theme="happy" size={62} animation="celebrate" />
                     <div>
-                      <p className="text-[14px] font-bold text-fp-success">Bravo ! Bonne réponse 🎉</p>
-                      <p className="text-[12px] text-fp-text-dim">Tu marques des points pour le classement !</p>
+                      <p className="text-[14px] font-bold text-fp-success">{en ? "Great answer! 🎉" : "Bravo ! Bonne réponse 🎉"}</p>
+                      <p className="text-[12px] text-fp-text-dim">{en ? "You score points for the ranking!" : "Tu marques des points pour le classement !"}</p>
                     </div>
                   </>
                 )}
@@ -1102,7 +1112,8 @@ export function OnlineRoom() {
 
               <h1
                 key={qLocal!.question}
-                className="animate-rise mt-4 text-[22px] sm:text-[28px] font-bold leading-snug text-fp-text"
+                data-length={qLocal!.question.length > 110 ? "long" : qLocal!.question.length > 72 ? "medium" : "short"}
+                className="jx-question-title animate-rise mt-4 text-[22px] sm:text-[28px] font-bold leading-snug text-fp-text"
               >
                 {qLocal!.question}
               </h1>
@@ -1127,13 +1138,13 @@ export function OnlineRoom() {
               {isBuzzerMode && session.buzzer_player_id && !iOwnBuzzer && !revealed && (
                 <div className="mt-7 rounded-3xl border border-fp-warning/30 bg-fp-warning/10 p-6 text-center">
                   <KawaiiMascot theme="waiting" size={70} animation="bounce" />
-                  <p className="mt-3 text-base font-black text-fp-text">{buzzerPlayer?.name ?? "Un joueur"} a buzzé en premier</p>
-                  <p className="mt-1 text-sm text-fp-text-dim">Sa réponse est en cours. Prépare-toi pour la prochaine question.</p>
+                  <p className="mt-3 text-base font-black text-fp-text">{en ? `${buzzerPlayer?.name ?? "A player"} buzzed first` : `${buzzerPlayer?.name ?? "Un joueur"} a buzzé en premier`}</p>
+                  <p className="mt-1 text-sm text-fp-text-dim">{en ? "Their answer is in progress. Get ready for the next question." : "Sa réponse est en cours. Prépare-toi pour la prochaine question."}</p>
                 </div>
               )}
 
               {/* 4 Cartes de réponses : tout le monde, ou seulement le gagnant du buzzer */}
-              {(!isBuzzerMode || iOwnBuzzer || revealed) && <div className="mt-6 grid grid-cols-1 gap-3">
+              {(!isBuzzerMode || iOwnBuzzer || revealed) && <div className="jx-answer-grid mt-6 grid grid-cols-1 gap-3">
                 {qLocal!.answers.map((answer, i) => {
                   let cls = "text-fp-text";
                   if (revealed) {
@@ -1181,7 +1192,7 @@ export function OnlineRoom() {
               {revealed && qLocal?.explanation && (
                 <div className="animate-rise mt-5 rounded-2xl bg-black/[0.03] p-4 text-[14px] leading-relaxed text-fp-text-dim">
                   <strong className="block text-[12px] font-semibold uppercase tracking-wider text-fp-text mb-1">
-                    Explication
+                    {en ? "Explanation" : "Explication"}
                   </strong>
                   {qLocal.explanation}
                 </div>
@@ -1216,14 +1227,16 @@ export function OnlineRoom() {
 
             {answered && !revealed && (
               <p className="mt-6 text-center text-[14px] font-medium text-fp-text-dim animate-pulse">
-                {isHost ? "Votre réponse est enregistrée — révélez dès que tout le monde est prêt" : "Réponse envoyée — en attente des autres joueurs…"}
+                {isHost
+                  ? (en ? "Your answer is saved — reveal it when everyone is ready" : "Votre réponse est enregistrée — révélez dès que tout le monde est prêt")
+                  : (en ? "Answer sent — waiting for the other players…" : "Réponse envoyée — en attente des autres joueurs…")}
               </p>
             )}
           </section>
         ) : (
           <div className="flex flex-1 flex-col items-center justify-center text-center">
             <div className="h-9 w-9 animate-spin rounded-full border-[3px] border-black/10 border-t-fp-primary" />
-            <p className="mt-4 text-[14px] text-fp-text-dim">Préparation des questions…</p>
+            <p className="mt-4 text-[14px] text-fp-text-dim">{en ? "Preparing questions…" : "Préparation des questions…"}</p>
           </div>
         )}
 
@@ -1270,10 +1283,10 @@ export function OnlineRoom() {
           <div className="mx-auto mb-2 flex justify-center">
             <KawaiiMascot theme="party-dance" size={88} animation="celebrate" className="border border-black/[0.05] shadow-sm" />
           </div>
-          <h1 className="mt-3 text-[28px] sm:text-[34px] font-bold text-fp-text">Partie terminée</h1>
+          <h1 className="mt-3 text-[28px] sm:text-[34px] font-bold text-fp-text">{en ? "Game complete" : "Partie terminée"}</h1>
           {winner && (
             <p className="mt-1 text-[16px] text-fp-text-dim">
-              🎉 <strong>{winner.name}</strong> remporte la victoire avec {winner.score} points !
+              🎉 <strong>{winner.name}</strong> {en ? `wins with ${winner.score} points!` : `remporte la victoire avec ${winner.score} points !`}
             </p>
           )}
         </div>
@@ -1289,7 +1302,7 @@ export function OnlineRoom() {
               <span className="flex-1 text-[16px] font-semibold text-fp-text">
                 {p.name}
                 {p.user_id === myPlayer?.user_id && (
-                  <span className="ml-1.5 text-[13px] font-normal text-fp-primary">(vous)</span>
+                  <span className="ml-1.5 text-[13px] font-normal text-fp-primary">({en ? "you" : "vous"})</span>
                 )}
               </span>
               <span className="rounded-full bg-black/[0.04] px-3 py-1 text-[15px] font-bold text-fp-text tabular-nums">
@@ -1335,7 +1348,7 @@ export function OnlineRoom() {
                   className="fp-btn-primary flex-1 py-4 text-[16px] flex items-center justify-center gap-2"
                 >
                   <Play className="h-5 w-5 fill-white" />
-                  <span>{busy ? "Nouvelles questions…" : `Rejouer · ${MODE_META[currentMode]?.name ?? currentMode}`}</span>
+                  <span>{busy ? (en ? "New questions…" : "Nouvelles questions…") : `${en ? "Play again" : "Rejouer"} · ${modeLabel(currentMode, lang)}`}</span>
                 </button>
                 <button
                   type="button"
@@ -1343,7 +1356,7 @@ export function OnlineRoom() {
                   className="fp-btn-secondary flex-1 py-4 text-[16px] flex items-center justify-center gap-2"
                 >
                   <RotateCcw className="h-4.5 w-4.5" />
-                  <span>Changer de mode</span>
+                  <span>{en ? "Change mode" : "Changer de mode"}</span>
                 </button>
               </div>
 
@@ -1361,7 +1374,7 @@ export function OnlineRoom() {
                       }`}
                     >
                       <AppIcon name={option.icon} className="h-5 w-5 text-fp-primary" />
-                      <span className="mt-2 block text-xs font-extrabold text-fp-text">Jouer à {option.name}</span>
+                      <span className="mt-2 block text-xs font-extrabold text-fp-text">{en ? "Play" : "Jouer à"} {modeLabel(mode, lang)}</span>
                     </button>
                   );
                 })}
@@ -1372,17 +1385,19 @@ export function OnlineRoom() {
                 onClick={() => void handleReturnToLobby()}
                 className="fp-btn-ghost w-full py-3 text-[15px] text-fp-primary font-semibold"
               >
-                Retour au salon
+                {en ? "Back to room" : "Retour au salon"}
               </button>
             </>
           ) : (
             <div className="text-center space-y-3">
               <div className="fp-card p-4">
-                <p className="text-[14px] font-bold text-fp-text">Le groupe reste ensemble !</p>
-                <p className="text-[12px] text-fp-text-dim">En attente du prochain choix de l&apos;hôte…</p>
+                <p className="text-[14px] font-bold text-fp-text">{en ? "The group stays together!" : "Le groupe reste ensemble !"}</p>
+                <p className="text-[12px] text-fp-text-dim">{en ? "Waiting for the host’s next choice…" : "En attente du prochain choix de l’hôte…"}</p>
               </div>
               <p className="text-[12px] text-fp-text-dim">
-                Le salon se rouvrira automatiquement dès que l&apos;hôte choisira le prochain mode.
+                {en
+                  ? "The room will reopen automatically as soon as the host chooses the next mode."
+                  : "Le salon se rouvrira automatiquement dès que l’hôte choisira le prochain mode."}
               </p>
             </div>
           )}
@@ -1401,13 +1416,13 @@ export function OnlineRoom() {
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 p-4 backdrop-blur-xs animate-fade-in">
             <div className="fp-card w-full max-w-md p-5 animate-rise shadow-2xl">
               <div className="flex items-center justify-between pb-3 border-b border-black/[0.06]">
-                <h3 className="text-[17px] font-bold text-fp-text">Choisir le nouveau mode</h3>
+                <h3 className="text-[17px] font-bold text-fp-text">{en ? "Choose the new mode" : "Choisir le nouveau mode"}</h3>
                 <button
                   type="button"
                   onClick={() => setShowModeModal(false)}
                   className="text-fp-text-dim hover:text-fp-text text-[14px] font-medium"
                 >
-                  Fermer
+                  {en ? "Close" : "Fermer"}
                 </button>
               </div>
 
@@ -1427,8 +1442,8 @@ export function OnlineRoom() {
                         <AppIcon name={mMeta.icon} className="h-4.5 w-4.5" />
                       </div>
                       <div className="flex-1 min-w-0">
-                        <p className="text-[14px] font-bold text-fp-text">{mMeta.name}</p>
-                        <p className="text-[12px] text-fp-text-dim truncate">{mMeta.subtitle}</p>
+                        <p className="text-[14px] font-bold text-fp-text">{modeLabel(m, lang)}</p>
+                        <p className="text-[12px] text-fp-text-dim truncate">{modeSubtitle(m, lang)}</p>
                       </div>
                       {currentMode === m && <Check className="h-4.5 w-4.5 text-fp-primary shrink-0" />}
                     </button>

@@ -17,9 +17,8 @@ import {
   type Question,
   type QuestionCategory,
   type QuestionDifficulty,
-  CATEGORIES,
 } from "../../src/lib/questions/schema";
-import { CATEGORY_SUBTHEMES, getSubthemesForCategory } from "../../src/lib/questions/subthemes";
+import { getSubthemesForCategory } from "../../src/lib/questions/subthemes";
 import { normalizeText } from "../../src/lib/questions/dedupe";
 import { QUESTIONS_ROOT, logSection, writeJson } from "./lib";
 
@@ -106,29 +105,31 @@ function slugify(str: string): string {
     .slice(0, 48);
 }
 
-const QUESTIONS_FR_ROOT = path.join(QUESTIONS_ROOT, "fr");
-
 /** Charge tous les hashes existants pour empêcher tout doublon */
 function loadExistingQuestionHashes(): Set<string> {
   const hashes = new Set<string>();
-  if (!fs.existsSync(QUESTIONS_FR_ROOT)) return hashes;
+  if (!fs.existsSync(QUESTIONS_ROOT)) return hashes;
 
-  const categories = fs.readdirSync(QUESTIONS_FR_ROOT);
-  for (const cat of categories) {
-    const catDir = path.join(QUESTIONS_FR_ROOT, cat);
-    if (!fs.statSync(catDir).isDirectory()) continue;
+  const languages = fs.readdirSync(QUESTIONS_ROOT, { withFileTypes: true }).filter((entry) => entry.isDirectory());
+  for (const language of languages) {
+    const languageRoot = path.join(QUESTIONS_ROOT, language.name);
+    const categories = fs.readdirSync(languageRoot);
+    for (const cat of categories) {
+      const catDir = path.join(languageRoot, cat);
+      if (!fs.statSync(catDir).isDirectory()) continue;
 
-    const files = fs.readdirSync(catDir).filter((f) => f.endsWith(".json"));
-    for (const f of files) {
-      try {
-        const raw = JSON.parse(fs.readFileSync(path.join(catDir, f), "utf-8"));
-        const list: Question[] = Array.isArray(raw) ? raw : raw.questions || [];
-        for (const q of list) {
-          if (q.contentHash) hashes.add(q.contentHash);
-          hashes.add(createHash("sha256").update(normalizeText(q.question)).digest("hex"));
+      const files = fs.readdirSync(catDir).filter((f) => f.endsWith(".json"));
+      for (const f of files) {
+        try {
+          const raw = JSON.parse(fs.readFileSync(path.join(catDir, f), "utf-8"));
+          const list: Question[] = Array.isArray(raw) ? raw : raw.questions || [];
+          for (const q of list) {
+            if (q.contentHash) hashes.add(q.contentHash);
+            hashes.add(createHash("sha256").update(normalizeText(q.question)).digest("hex"));
+          }
+        } catch {
+          // Ignorer les erreurs de lecture ponctuelles
         }
-      } catch {
-        // Ignorer les erreurs de lecture ponctuelles
       }
     }
   }
@@ -154,6 +155,10 @@ const QUIZZAPI_CAT_MAP: Record<string, QuestionCategory> = {
   actu_politique: "politique",
 };
 
+const QUIZZAPI_QUERY_CAT_MAP: Partial<Record<QuestionCategory, string>> = Object.fromEntries(
+  Object.entries(QUIZZAPI_CAT_MAP).map(([remoteCategory, category]) => [category, remoteCategory]),
+);
+
 interface QuizzApiItem {
   id: string;
   question: string;
@@ -168,7 +173,9 @@ async function fetchFromQuizzApi(
   count: number,
   difficulty?: string
 ): Promise<Question[]> {
-  const targetCategory = category ?? "culture_generale";
+  const targetCategory = category
+    ? QUIZZAPI_QUERY_CAT_MAP[category as QuestionCategory] ?? category
+    : "culture_generale";
   const limit = Math.min(count, 50);
 
   const url = new URL("https://quizzapi.fr/api/v2/quiz");
@@ -227,7 +234,7 @@ async function fetchFromQuizzApi(
     const qObj: Question = {
       id: uniqueId,
       conceptId: `concept-${agoraxCategory}-${qSlug}`,
-      familyId: `family-${agoraxCategory}-${assignedSubtheme}`,
+      familyId: `family-${uniqueId}`,
       knowledgeKey: `${agoraxCategory}.${assignedSubtheme}.${qSlug}`,
       contentHash,
       type: "mcq",
@@ -279,6 +286,10 @@ const TRIVIA_API_CAT_MAP: Record<string, QuestionCategory> = {
   general_knowledge: "culture-generale",
 };
 
+const TRIVIA_API_QUERY_CAT_MAP: Partial<Record<QuestionCategory, string>> = Object.fromEntries(
+  Object.entries(TRIVIA_API_CAT_MAP).map(([remoteCategory, category]) => [category, remoteCategory]),
+);
+
 interface TheTriviaApiItem {
   id: string;
   category: string;
@@ -299,7 +310,7 @@ async function fetchFromTheTriviaApi(
   url.searchParams.set("limit", limit.toString());
 
   if (category) {
-    url.searchParams.set("categories", category);
+    url.searchParams.set("categories", TRIVIA_API_QUERY_CAT_MAP[category as QuestionCategory] ?? category);
   }
   if (difficulty) {
     url.searchParams.set("difficulties", difficulty);
@@ -346,7 +357,7 @@ async function fetchFromTheTriviaApi(
     const qObj: Question = {
       id: uniqueId,
       conceptId: `concept-${agoraxCategory}-${qSlug}`,
-      familyId: `family-${agoraxCategory}-${assignedSubtheme}`,
+      familyId: `family-${uniqueId}`,
       knowledgeKey: `${agoraxCategory}.${assignedSubtheme}.${qSlug}`,
       contentHash,
       type: "mcq",
@@ -433,16 +444,18 @@ async function main() {
     return;
   }
 
-  // Regroupement par catégorie et écriture dans questions/fr/
+  // Regroupement par langue et catégorie. Une source anglaise ne doit jamais
+  // être écrite dans le catalogue français (et inversement).
   const grouped: Record<string, Question[]> = {};
   for (const q of validQuestions) {
-    const key = q.category;
+    const key = `${q.language}/${q.category}`;
     if (!grouped[key]) grouped[key] = [];
     grouped[key].push(q);
   }
 
-  for (const [cat, qList] of Object.entries(grouped)) {
-    const catDir = path.join(QUESTIONS_FR_ROOT, cat);
+  for (const [languageAndCategory, qList] of Object.entries(grouped)) {
+    const [language, cat] = languageAndCategory.split("/");
+    const catDir = path.join(QUESTIONS_ROOT, language, cat);
     fs.mkdirSync(catDir, { recursive: true });
 
     const targetFile = path.join(catDir, `${cat}-api-ingest-001.json`);

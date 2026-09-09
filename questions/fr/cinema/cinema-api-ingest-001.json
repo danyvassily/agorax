@@ -2,7 +2,7 @@
   {
     "id": "qapi-cinema-quel-cineaste-est-le-realisateur-bw9rn6",
     "conceptId": "concept-cinema-quel-cineaste-est-le-realisateur",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quel-cineaste-est-le-realisateur-bw9rn6",
     "knowledgeKey": "cinema.films-cultes.quel-cineaste-est-le-realisateur",
     "contentHash": "a3d57f76854e1056c65976171617a8dfb4de99769d6427592eda063d162a94ce",
     "type": "mcq",
@@ -46,7 +46,7 @@
   {
     "id": "qapi-cinema-quel-film-muet-de-1927-est-consi-hb1med",
     "conceptId": "concept-cinema-quel-film-muet-de-1927-est-consi",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quel-film-muet-de-1927-est-consi-hb1med",
     "knowledgeKey": "cinema.films-cultes.quel-film-muet-de-1927-est-consi",
     "contentHash": "d29ad93a6f75e5f9d108be79c83babeda648c977c8bd6e4e08e8ad15fa28d67b",
     "type": "mcq",
@@ -90,7 +90,7 @@
   {
     "id": "qapi-cinema-quelle-mannequin-des-hauts-de-fr-udebqx",
     "conceptId": "concept-cinema-quelle-mannequin-des-hauts-de-fr",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quelle-mannequin-des-hauts-de-fr-udebqx",
     "knowledgeKey": "cinema.films-cultes.quelle-mannequin-des-hauts-de-fr",
     "contentHash": "7b4d63f43901031f788e99b37d930459058e2c637027b77f92c14ccfbcb10f93",
     "type": "mcq",
@@ -134,7 +134,7 @@
   {
     "id": "qapi-cinema-quel-realisateur-est-connu-pour--09kx60",
     "conceptId": "concept-cinema-quel-realisateur-est-connu-pour-",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quel-realisateur-est-connu-pour--09kx60",
     "knowledgeKey": "cinema.films-cultes.quel-realisateur-est-connu-pour-",
     "contentHash": "bfa050b3ed2702082cbaaddc779ea849217a6e56c1d95992bb30d2f84431c2af",
     "type": "mcq",
@@ -178,7 +178,7 @@
   {
     "id": "qapi-cinema-quel-acteur-joue-le-role-de-hube-n6wwn0",
     "conceptId": "concept-cinema-quel-acteur-joue-le-role-de-hube",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quel-acteur-joue-le-role-de-hube-n6wwn0",
     "knowledgeKey": "cinema.films-cultes.quel-acteur-joue-le-role-de-hube",
     "contentHash": "8d595b160d638f8b71ffbfd31e8c178b57242854859a38c546c02fc517b468ac",
     "type": "mcq",
@@ -222,7 +222,7 @@
   {
     "id": "qapi-cinema-quel-acteur-incarne-iron-man-dan-px81vp",
     "conceptId": "concept-cinema-quel-acteur-incarne-iron-man-dan",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quel-acteur-incarne-iron-man-dan-px81vp",
     "knowledgeKey": "cinema.films-cultes.quel-acteur-incarne-iron-man-dan",
     "contentHash": "34445c6b648c283fab46583255e1b125ec37d79ab88d8fdc8ac79ca24250eb1d",
     "type": "mcq",
@@ -266,7 +266,7 @@
   {
     "id": "qapi-cinema-qui-a-joue-en-premier-le-role-de-jttdmm",
     "conceptId": "concept-cinema-qui-a-joue-en-premier-le-role-de",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-qui-a-joue-en-premier-le-role-de-jttdmm",
     "knowledgeKey": "cinema.films-cultes.qui-a-joue-en-premier-le-role-de",
     "contentHash": "661e463a807fbe29648856a22b7f5a5a3d72ac6e08e98ac444d6ff57971ecd92",
     "type": "mcq",
@@ -310,7 +310,7 @@
   {
     "id": "qapi-cinema-quel-metier-est-exerce-par-jango-effojn",
     "conceptId": "concept-cinema-quel-metier-est-exerce-par-jango",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quel-metier-est-exerce-par-jango-effojn",
     "knowledgeKey": "cinema.films-cultes.quel-metier-est-exerce-par-jango",
     "contentHash": "a9f2a26fdfac4bcf784b0c9fb0c02e1eaaf4ff50018b9d0d57420d11439e8a9f",
     "type": "mcq",
@@ -354,7 +354,7 @@
   {
     "id": "qapi-cinema-quelle-serie-de-film-de-s-f-a-et-z0l96x",
     "conceptId": "concept-cinema-quelle-serie-de-film-de-s-f-a-et",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quelle-serie-de-film-de-s-f-a-et-z0l96x",
     "knowledgeKey": "cinema.films-cultes.quelle-serie-de-film-de-s-f-a-et",
     "contentHash": "aec349930976626a5e8d74785a49fc4c000bd5ed47e722e43797c4788222cf04",
     "type": "mcq",
@@ -398,7 +398,7 @@
   {
     "id": "qapi-cinema-quelle-serie-francaise-lancee-en-1jupcg",
     "conceptId": "concept-cinema-quelle-serie-francaise-lancee-en",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quelle-serie-francaise-lancee-en-1jupcg",
     "knowledgeKey": "cinema.films-cultes.quelle-serie-francaise-lancee-en",
     "contentHash": "ea8e3e5d6de270cc26ae8315b3cb8a0141ea6315020779f682015598b7dbd813",
     "type": "mcq",
@@ -442,7 +442,7 @@
   {
     "id": "qapi-cinema-quel-est-le-nom-de-la-serie-tv-d-75c2wm",
     "conceptId": "concept-cinema-quel-est-le-nom-de-la-serie-tv-d",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quel-est-le-nom-de-la-serie-tv-d-75c2wm",
     "knowledgeKey": "cinema.films-cultes.quel-est-le-nom-de-la-serie-tv-d",
     "contentHash": "965b5c89ea1085379026475500247b9c222fffef8aaef1725512d7c0b6265217",
     "type": "mcq",
@@ -486,7 +486,7 @@
   {
     "id": "qapi-cinema-quelle-serie-met-en-avant-le-car-3zafs7",
     "conceptId": "concept-cinema-quelle-serie-met-en-avant-le-car",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quelle-serie-met-en-avant-le-car-3zafs7",
     "knowledgeKey": "cinema.films-cultes.quelle-serie-met-en-avant-le-car",
     "contentHash": "cffb21b5ad635bca4d4662eb30b1eaccc57b8596ec9a39227f63c092699a0ebe",
     "type": "mcq",
@@ -530,7 +530,7 @@
   {
     "id": "qapi-cinema-quel-est-l-acteur-principal-de-l-h2zckd",
     "conceptId": "concept-cinema-quel-est-l-acteur-principal-de-l",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quel-est-l-acteur-principal-de-l-h2zckd",
     "knowledgeKey": "cinema.films-cultes.quel-est-l-acteur-principal-de-l",
     "contentHash": "0108589c3452a9f94cac99e4e1f53bd2edfabd89122dace26d672800c03b8afc",
     "type": "mcq",
@@ -574,7 +574,7 @@
   {
     "id": "qapi-cinema-quel-film-met-en-scene-un-clown--atahu7",
     "conceptId": "concept-cinema-quel-film-met-en-scene-un-clown-",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-quel-film-met-en-scene-un-clown--atahu7",
     "knowledgeKey": "cinema.films-cultes.quel-film-met-en-scene-un-clown-",
     "contentHash": "beaec5acc47e567322a5ff6ce2df4c1a04ea68f8d47b0d416ae0929af26372bb",
     "type": "mcq",
@@ -618,7 +618,7 @@
   {
     "id": "qapi-cinema-dans-le-film-le-magnifique-jean--s3jrim",
     "conceptId": "concept-cinema-dans-le-film-le-magnifique-jean-",
-    "familyId": "family-cinema-films-cultes",
+    "familyId": "family-qapi-cinema-dans-le-film-le-magnifique-jean--s3jrim",
     "knowledgeKey": "cinema.films-cultes.dans-le-film-le-magnifique-jean-",
     "contentHash": "2d423295af3e6f270657fbb7fb8f95481f2eccd5e62c9ca4ca95fb545497be21",
     "type": "mcq",

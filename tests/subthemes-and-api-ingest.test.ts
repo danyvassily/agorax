@@ -63,6 +63,36 @@ describe("Subthemes & External Ingestion Architecture", () => {
     }
   });
 
+  it("stores API imports in their declared language catalogue", () => {
+    for (const language of ["fr", "en"] as const) {
+      const languageDir = path.join(process.cwd(), "questions", language);
+      for (const category of fs.readdirSync(languageDir)) {
+        const categoryDir = path.join(languageDir, category);
+        if (!fs.statSync(categoryDir).isDirectory()) continue;
+
+        for (const file of fs.readdirSync(categoryDir).filter((name) => name.includes("api-ingest"))) {
+          const questions = parseQuestionBatch(JSON.parse(fs.readFileSync(path.join(categoryDir, file), "utf8"))).questions;
+          expect(questions.every((question) => question.language === language), `${language}/${category}/${file}`).toBe(true);
+        }
+      }
+    }
+  });
+
+  it("does not collapse unrelated API questions into a single family", () => {
+    for (const language of ["fr", "en"] as const) {
+      const languageDir = path.join(process.cwd(), "questions", language);
+      for (const category of fs.readdirSync(languageDir)) {
+        const categoryDir = path.join(languageDir, category);
+        if (!fs.statSync(categoryDir).isDirectory()) continue;
+
+        for (const file of fs.readdirSync(categoryDir).filter((name) => name.includes("api-ingest"))) {
+          const questions = parseQuestionBatch(JSON.parse(fs.readFileSync(path.join(categoryDir, file), "utf8"))).questions;
+          expect(new Set(questions.map((question) => question.familyId)).size, `${language}/${category}/${file}`).toBe(questions.length);
+        }
+      }
+    }
+  });
+
   it("filters questions accurately by subcategory in selection engine", async () => {
     const { selectQuestions } = await import("@/lib/questions/selection");
     const { loadQuestions } = await import("@/lib/questions/load");
