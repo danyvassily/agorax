@@ -7,8 +7,17 @@ import { connection } from "next/server";
 import { LocalizedText } from "@/components/ui/localized-text";
 
 export const metadata: Metadata = {
-  title: "Le Défi du Jour - Agorax",
-  description: "Relevez le défi quotidien ! 10 questions identiques pour tout le monde. Gardez votre série de victoires et comparez votre score avec vos amis.",
+  title: "Le Défi du Jour — Agorax",
+  description:
+    "Relevez le défi quotidien ! 10 questions identiques pour tout le monde. Gardez votre série de victoires et comparez votre score avec vos amis.",
+  alternates: {
+    canonical: "https://agorax.online/daily",
+  },
+  openGraph: {
+    title: "Le Défi du Jour — Agorax",
+    description: "10 questions identiques pour tout le monde chaque jour. Gardez votre série !",
+    url: "https://agorax.online/daily",
+  },
 };
 
 export default async function DailyPage() {

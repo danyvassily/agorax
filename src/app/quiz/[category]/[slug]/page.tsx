@@ -22,13 +22,29 @@ export async function generateMetadata({
     return { title: "Quiz non trouvé" };
   }
 
+  const quizUrl = `https://agorax.online/quiz/${category}/${slug}`;
+
   return {
-    title: `Quiz ${quiz.title} - Testez vos connaissances !`,
-    description: `Découvrez notre quiz de 20 questions sur ${quiz.title}. Jouez seul ou lancez une partie multijoueur avec vos amis.`,
+    title: `Quiz ${quiz.title} — Testez vos connaissances !`,
+    description: `Découvrez notre quiz de ${quiz.questions.length} questions sur ${quiz.title}. Jouez seul ou lancez une partie multijoueur avec vos amis sur Agorax.`,
+    alternates: {
+      canonical: quizUrl,
+      languages: {
+        "fr-FR": quizUrl,
+        "en-US": quizUrl,
+        "x-default": quizUrl,
+      },
+    },
     openGraph: {
-      title: `Quiz ${quiz.title}`,
-      description: `Testez vos connaissances sur ${quiz.title} !`,
-      type: "website",
+      title: `Quiz ${quiz.title} | Agorax`,
+      description: `Testez vos connaissances sur ${quiz.title} avec ${quiz.questions.length} questions interactives !`,
+      url: quizUrl,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `Quiz ${quiz.title} | Agorax`,
+      description: `Testez vos connaissances sur ${quiz.title} avec ${quiz.questions.length} questions interactives !`,
     },
   };
 }

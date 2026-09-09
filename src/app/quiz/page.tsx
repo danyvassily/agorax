@@ -4,9 +4,20 @@ import { AppNavigation } from "@/components/ui/app-navigation";
 import { Sparkles } from "lucide-react";
 import { LocalizedText } from "@/components/ui/localized-text";
 
-export const metadata = {
-  title: "Tous nos Quiz - Agorax",
-  description: "Explorez notre immense catalogue de quiz par catégories. Histoire, Géographie, Cinéma, Jeux Vidéo et bien plus !",
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Tous nos Quiz — Catalogue Thématique Agorax",
+  description:
+    "Explorez notre immense catalogue de quiz par catégories : Histoire, Géographie, Cinéma, Jeux Vidéo, Philosophie et bien plus !",
+  alternates: {
+    canonical: "https://agorax.online/quiz",
+  },
+  openGraph: {
+    title: "Tous nos Quiz — Agorax",
+    description: "Explorez notre immense catalogue de quiz thématiques.",
+    url: "https://agorax.online/quiz",
+  },
 };
 
 export default async function QuizIndexPage() {
