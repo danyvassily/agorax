@@ -216,11 +216,13 @@ export function PlayerDot({
   colorIndex = 0,
   size = 36,
   avatarUrl,
+  loading = "lazy",
 }: {
   name: string;
   colorIndex?: number;
   size?: number;
   avatarUrl?: string | null;
+  loading?: "eager" | "lazy";
 }) {
   if (avatarUrl) {
     return (
@@ -233,7 +235,7 @@ export function PlayerDot({
           src={avatarUrl}
           alt={name}
           className="h-full w-full object-cover"
-          loading="lazy"
+          loading={loading}
         />
       </span>
     );

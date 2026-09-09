@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, type ElementType, type ReactNode } from "react";
 import gsap from "gsap";
+import { getMotionPreset, type MotionPresetName } from "@/lib/motion/motion-config";
 
 interface GsapAnimatedTitleProps {
   children: ReactNode;
@@ -37,71 +38,24 @@ export function GsapAnimatedTitle({
 
     const words = el.querySelectorAll(".gsap-word");
     if (!words.length) return;
+    let animationContext: gsap.Context | null = null;
 
     const runAnimation = () => {
       hasAnimatedRef.current = true;
-      const ctx = gsap.context(() => {
-        if (variant === "slide-up") {
-          gsap.fromTo(
-            words,
-            {
-              opacity: 0,
-              y: 22,
-              filter: "blur(4px)",
-            },
-            {
-              opacity: 1,
-              y: 0,
-              filter: "blur(0px)",
-              duration: 0.65,
-              stagger,
-              delay,
-              ease: "power3.out",
-              clearProps: "filter,transform",
-            },
-          );
-        } else if (variant === "pop") {
-          gsap.fromTo(
-            words,
-            {
-              opacity: 0,
-              scale: 0.85,
-              y: 16,
-            },
-            {
-              opacity: 1,
-              scale: 1,
-              y: 0,
-              duration: 0.55,
-              stagger,
-              delay,
-              ease: "back.out(1.8)",
-              clearProps: "transform",
-            },
-          );
-        } else if (variant === "wave") {
-          gsap.fromTo(
-            words,
-            {
-              opacity: 0,
-              y: 18,
-              rotation: -2,
-            },
-            {
-              opacity: 1,
-              y: 0,
-              rotation: 0,
-              duration: 0.6,
-              stagger,
-              delay,
-              ease: "power2.out",
-              clearProps: "transform",
-            },
-          );
-        }
+      const presetName: MotionPresetName = variant === "slide-up" ? "title" : variant;
+      const preset = getMotionPreset(presetName);
+      animationContext = gsap.context(() => {
+        gsap.fromTo(words, preset.from, {
+          ...preset.to,
+          duration: preset.duration,
+          stagger,
+          delay,
+          ease: preset.ease,
+          force3D: true,
+          overwrite: "auto",
+          clearProps: "transform,opacity,visibility",
+        });
       }, containerRef);
-
-      return () => ctx.revert();
     };
 
     if (scrollTrigger && "IntersectionObserver" in window) {
@@ -118,9 +72,13 @@ export function GsapAnimatedTitle({
         { threshold: 0.15, rootMargin: "0px 0px -40px 0px" },
       );
       observer.observe(el);
-      return () => observer.disconnect();
+      return () => {
+        observer.disconnect();
+        animationContext?.revert();
+      };
     } else {
-      return runAnimation();
+      runAnimation();
+      return () => animationContext?.revert();
     }
   }, [variant, delay, stagger, scrollTrigger]);
 
@@ -132,7 +90,7 @@ export function GsapAnimatedTitle({
         {words.map((word, i) => (
           <span
             key={`${word}-${i}`}
-            className="gsap-word inline-block will-change-transform mr-[0.26em] last:mr-0"
+            className="gsap-word inline-block mr-[0.26em] last:mr-0"
           >
             {word}
           </span>
@@ -144,7 +102,7 @@ export function GsapAnimatedTitle({
   // If children contains complex JSX, wrap it
   return (
     <Component ref={containerRef} className={className}>
-      <span className="gsap-word inline-block will-change-transform">
+      <span className="gsap-word inline-block">
         {children}
       </span>
     </Component>

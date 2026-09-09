@@ -156,7 +156,13 @@ export function LocalPlayClient({ solo = false }: { solo?: boolean }) {
           </label>
         </div>
 
-        <GsapScrollReveal className="jx-game-grid" stagger={0.06} y={16}>
+        <GsapScrollReveal
+          className="jx-game-grid"
+          stagger={0.045}
+          duration={0.46}
+          y={12}
+          animationKey={`${solo}-${group}-${device}-${search}-${modes.map((mode) => mode.mode).join("-")}`}
+        >
           {modes.map((c) => (
             <Link
               key={c.mode}

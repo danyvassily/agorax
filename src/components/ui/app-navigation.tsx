@@ -79,7 +79,7 @@ export function AppNavigation() {
             className="jx-profile-link shrink-0"
             title={isLoggedIn ? (user?.email || user?.name || "Profil") : (en ? "Guest profile" : "Profil invité")}
           >
-            <PlayerDot name={user?.name ?? "J"} avatarUrl={user?.avatarUrl ?? "/images/team/milo.png"} size={38} />
+            <PlayerDot name={user?.name ?? "J"} avatarUrl={user?.avatarUrl ?? "/images/team/milo.png"} size={38} loading="eager" />
           </Link>
         </div>
       </div>

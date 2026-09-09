@@ -179,30 +179,38 @@ export interface AuthState {
   updateLanguage: (newLang: UILanguage) => Promise<void>;
 }
 
-function getInitialGuestUser(): AuthUser {
-  if (typeof window !== "undefined") {
-    const cached = safeGetStorage(LOCAL_AUTH_KEY);
-    if (cached) {
-      try {
-        return JSON.parse(cached) as AuthUser;
-      } catch {}
-    }
-  }
+export function createServerSafeAuthSnapshot(): Pick<
+  AuthState,
+  "user" | "loading" | "isLoggedIn"
+> {
   return {
-    id: "guest",
-    name: "Joueur",
-    isAnonymous: true,
-    avatarColor: 0,
-    avatarUrl: null,
+    user: {
+      id: "guest",
+      name: "Joueur",
+      isAnonymous: true,
+      avatarColor: 0,
+      avatarUrl: null,
+    },
+    loading: true,
+    isLoggedIn: false,
   };
+}
+
+function getCachedAuthUser(): AuthUser | null {
+  const cached = safeGetStorage(LOCAL_AUTH_KEY);
+  if (!cached) return null;
+
+  try {
+    return JSON.parse(cached) as AuthUser;
+  } catch {
+    return null;
+  }
 }
 
 let isRefreshing = false;
 
 export const useAuthStore = create<AuthState>((set, get) => ({
-  user: getInitialGuestUser(),
-  loading: false,
-  isLoggedIn: typeof window !== "undefined" && !getInitialGuestUser().isAnonymous,
+  ...createServerSafeAuthSnapshot(),
 
   refreshUser: async () => {
     if (typeof window === "undefined") {
@@ -785,6 +793,16 @@ export const useAuthStore = create<AuthState>((set, get) => ({
 export function AuthHydrator() {
   useEffect(() => {
     let mounted = true;
+
+    // Keep SSR and the first browser render identical, then restore the local
+    // profile after hydration while Supabase validates the active session.
+    const cachedUser = getCachedAuthUser();
+    if (cachedUser) {
+      useAuthStore.setState({
+        user: cachedUser,
+        isLoggedIn: !cachedUser.isAnonymous,
+      });
+    }
 
     const init = async () => {
       if (mounted) await useAuthStore.getState().refreshUser();

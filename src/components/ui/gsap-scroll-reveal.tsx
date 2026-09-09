@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, type ReactNode } from "react";
 import gsap from "gsap";
+import { getMotionPreset } from "@/lib/motion/motion-config";
 
 interface GsapScrollRevealProps {
   children: ReactNode;
@@ -11,6 +12,8 @@ interface GsapScrollRevealProps {
   duration?: number;
   y?: number;
   selector?: string;
+  /** Relance un mouvement court quand le contenu filtré ou trié change. */
+  animationKey?: string | number;
 }
 
 export function GsapScrollReveal({
@@ -21,12 +24,14 @@ export function GsapScrollReveal({
   duration = 0.6,
   y = 24,
   selector,
+  animationKey,
 }: GsapScrollRevealProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const hasAnimatedRef = useRef(false);
 
   useEffect(() => {
     const el = containerRef.current;
+    if (animationKey !== undefined) hasAnimatedRef.current = false;
     if (!el || hasAnimatedRef.current) return;
 
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
@@ -38,34 +43,42 @@ export function GsapScrollReveal({
       : Array.from(el.children);
 
     if (!targets.length) return;
+    let animationContext: gsap.Context | null = null;
+
+    const runAnimation = () => {
+      if (hasAnimatedRef.current) return;
+      hasAnimatedRef.current = true;
+      const preset = getMotionPreset("reveal");
+      animationContext = gsap.context(() => {
+        gsap.fromTo(
+          targets,
+          { ...preset.from, y },
+          {
+            ...preset.to,
+            duration: duration ?? preset.duration,
+            delay,
+            stagger,
+            ease: preset.ease,
+            force3D: true,
+            overwrite: "auto",
+            clearProps: "transform,opacity,visibility",
+          },
+        );
+      }, containerRef);
+    };
+
+    if (!("IntersectionObserver" in window)) {
+      runAnimation();
+      return () => animationContext?.revert();
+    }
 
     const observer = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
           if (entry.isIntersecting) {
-            hasAnimatedRef.current = true;
             observer.disconnect();
-
-            const ctx = gsap.context(() => {
-              gsap.fromTo(
-                targets,
-                {
-                  opacity: 0,
-                  y,
-                },
-                {
-                  opacity: 1,
-                  y: 0,
-                  duration,
-                  delay,
-                  stagger,
-                  ease: "power2.out",
-                  clearProps: "transform,opacity",
-                },
-              );
-            }, containerRef);
-
-            return () => ctx.revert();
+            runAnimation();
+            break;
           }
         }
       },
@@ -73,8 +86,11 @@ export function GsapScrollReveal({
     );
 
     observer.observe(el);
-    return () => observer.disconnect();
-  }, [stagger, delay, duration, y, selector]);
+    return () => {
+      observer.disconnect();
+      animationContext?.revert();
+    };
+  }, [stagger, delay, duration, y, selector, animationKey]);
 
   return (
     <div ref={containerRef} className={className}>
