@@ -198,6 +198,283 @@ button:not(:disabled), a { cursor: pointer; }
 .fp-list { overflow: hidden; }
 .fp-list > * + * { border-top: 1px solid var(--color-fp-border); }
 
+/* Catalogue de quiz : les thèmes sont prioritaires, les lots techniques restent secondaires. */
+.jx-quiz-catalog {
+  display: grid;
+  gap: 1.75rem;
+}
+
+.jx-quiz-category {
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--color-fp-border) 82%, var(--color-fp-primary));
+  border-radius: 1.75rem;
+  background: color-mix(in srgb, var(--color-fp-card) 95%, var(--color-fp-bg));
+  box-shadow: 0 18px 50px rgba(110, 82, 54, 0.07);
+}
+
+.jx-quiz-category-head {
+  display: grid;
+  grid-template-columns: 4.25rem minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.jx-quiz-category-icon {
+  display: grid;
+  width: 4.25rem;
+  height: 4.25rem;
+  place-items: center;
+  border-radius: 1.25rem;
+  background: var(--color-fp-fill);
+  font-size: 2rem;
+  box-shadow: inset 0 0 0 1px rgba(17, 139, 120, 0.12);
+}
+
+.jx-quiz-category h2 {
+  margin-top: 0.2rem;
+  color: var(--color-fp-text);
+  font-size: clamp(1.65rem, 4vw, 2.15rem);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+}
+
+.jx-quiz-kicker {
+  color: var(--color-fp-primary);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.jx-quiz-category-copy {
+  max-width: 38rem;
+  margin-top: 0.55rem;
+  color: var(--color-fp-text-dim);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.jx-quiz-play-all {
+  min-width: 10.5rem;
+  white-space: nowrap;
+}
+
+.jx-quiz-subthemes-block {
+  padding: 1rem 0 1.25rem;
+  border-top: 1px solid color-mix(in srgb, var(--color-fp-border) 72%, transparent);
+  background: color-mix(in srgb, var(--color-fp-fill) 28%, transparent);
+}
+
+.jx-quiz-subthemes-title {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0 1.5rem 0.85rem;
+}
+
+.jx-quiz-subthemes-title div {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.jx-quiz-subthemes-title strong {
+  font-size: 0.88rem;
+}
+
+.jx-quiz-subthemes-title span {
+  color: var(--color-fp-text-dim);
+  font-size: 0.7rem;
+}
+
+.jx-quiz-subthemes-title > span {
+  flex: none;
+  color: var(--color-fp-primary);
+  font-weight: 750;
+}
+
+.jx-quiz-subthemes {
+  display: flex;
+  gap: 0.7rem;
+  overflow-x: auto;
+  padding: 0.15rem 1.5rem 0.35rem;
+  scroll-padding-inline: 1.5rem;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.jx-quiz-subthemes::-webkit-scrollbar {
+  display: none;
+}
+
+.jx-quiz-subtheme {
+  display: grid;
+  min-height: 4.25rem;
+  flex: 0 0 min(17rem, 76vw);
+  grid-template-columns: 2.55rem minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.65rem 0.8rem;
+  scroll-snap-align: start;
+  border: 1px solid var(--color-fp-border);
+  border-radius: 1rem;
+  background: var(--color-fp-card);
+  color: var(--color-fp-text);
+  font-size: 0.78rem;
+  font-weight: 750;
+  line-height: 1.25;
+  transition: transform 220ms var(--motion-out), border-color 220ms ease, box-shadow 220ms ease;
+}
+
+.jx-quiz-subtheme:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--color-fp-primary) 55%, var(--color-fp-border));
+  box-shadow: 0 9px 22px rgba(110, 82, 54, 0.08);
+}
+
+.jx-quiz-subtheme:active {
+  transform: scale(0.98);
+}
+
+.jx-quiz-subtheme > svg {
+  color: var(--color-fp-primary);
+}
+
+.jx-quiz-subtheme-icon {
+  display: grid;
+  width: 2.55rem;
+  height: 2.55rem;
+  place-items: center;
+  border-radius: 0.8rem;
+  background: color-mix(in srgb, var(--color-fp-yellow) 42%, white);
+  font-size: 1.25rem;
+}
+
+.jx-quiz-series {
+  border-top: 1px solid color-mix(in srgb, var(--color-fp-border) 78%, transparent);
+}
+
+.jx-quiz-series summary {
+  display: grid;
+  min-height: 3.75rem;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.65rem 1.5rem;
+  list-style: none;
+  color: var(--color-fp-text-dim);
+  font-size: 0.8rem;
+  font-weight: 750;
+}
+
+.jx-quiz-series summary::-webkit-details-marker {
+  display: none;
+}
+
+.jx-quiz-series summary > span:first-child {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--color-fp-text);
+}
+
+.jx-quiz-series summary > span:nth-child(2) {
+  min-width: 1.6rem;
+  padding: 0.2rem 0.45rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-fp-primary) 10%, transparent);
+  color: var(--color-fp-primary);
+  text-align: center;
+  font-size: 0.68rem;
+}
+
+.jx-quiz-series-chevron {
+  transition: transform 220ms var(--motion-out);
+}
+
+.jx-quiz-series[open] .jx-quiz-series-chevron {
+  transform: rotate(180deg);
+}
+
+.jx-quiz-series-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.55rem;
+  padding: 0 1.5rem 1.5rem;
+}
+
+.jx-quiz-series-grid > a {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  min-height: 3.2rem;
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.85rem;
+  background: color-mix(in srgb, var(--color-fp-bg) 60%, white);
+  color: var(--color-fp-text);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.jx-quiz-series-grid > a span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.jx-quiz-series-grid > a svg {
+  flex: none;
+  color: var(--color-fp-primary);
+}
+
+@media (max-width: 639px) {
+  .jx-quiz-category {
+    border-radius: 1.45rem;
+  }
+
+  .jx-quiz-category-head {
+    grid-template-columns: 3.5rem minmax(0, 1fr);
+    gap: 0.8rem;
+    padding: 1.15rem;
+  }
+
+  .jx-quiz-category-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 1rem;
+    font-size: 1.65rem;
+  }
+
+  .jx-quiz-category-copy {
+    font-size: 0.78rem;
+  }
+
+  .jx-quiz-play-all {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .jx-quiz-subthemes-title,
+  .jx-quiz-subthemes,
+  .jx-quiz-series summary {
+    padding-inline: 1.15rem;
+  }
+
+  .jx-quiz-subthemes {
+    scroll-padding-inline: 1.15rem;
+  }
+
+  .jx-quiz-series-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1.15rem 1.15rem;
+  }
+}
+
 .fp-group-title {
   padding: 1.75rem 0.25rem 0.55rem;
   font-size: 0.76rem;

@@ -2,13 +2,14 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getAllQuizSlugs } from "@/lib/questions/seo-quiz";
 import { AppNavigation } from "@/components/ui/app-navigation";
-import { Sparkles } from "lucide-react";
+import { ChevronDown, ChevronRight, Layers3, Play, Sparkles } from "lucide-react";
 import { LocalizedText } from "@/components/ui/localized-text";
 import { categoryLabel } from "@/lib/game/modes";
 import { getSubthemesForCategory } from "@/lib/questions/subthemes";
 import type { QuestionCategory } from "@/lib/questions/schema";
 import { GsapAnimatedTitle } from "@/components/ui/gsap-animated-title";
 import { GsapScrollReveal } from "@/components/ui/gsap-scroll-reveal";
+import { formatQuizPackTitle } from "@/lib/questions/quiz-catalog";
 
 export const metadata: Metadata = {
   title: "Tous nos Quiz — Catalogue Thématique Agorax",
@@ -34,6 +35,8 @@ export default async function QuizIndexPage() {
     categories[category].push(slug);
   }
 
+  Object.values(categories).forEach((quizSlugs) => quizSlugs.sort());
+
   return (
     <>
       <AppNavigation />
@@ -53,7 +56,7 @@ export default async function QuizIndexPage() {
           </p>
         </header>
 
-        <div className="mx-auto max-w-4xl space-y-12">
+        <div className="jx-quiz-catalog mx-auto max-w-5xl">
           {Object.entries(categories)
             .sort()
             .map(([cat, quizSlugs]) => {
@@ -62,62 +65,76 @@ export default async function QuizIndexPage() {
               const subthemes = getSubthemesForCategory(cat as QuestionCategory);
 
               return (
-                <section key={cat} className="space-y-3">
-                  <div className="flex flex-wrap items-center justify-between gap-2">
-                    <GsapAnimatedTitle as="h2" className="text-2xl font-black text-fp-text flex items-center gap-2" variant="pop" scrollTrigger>
-                      <LocalizedText fr={labelFr} en={labelEn} />
-                      <span className="text-xs font-bold text-fp-primary bg-fp-primary/10 px-2.5 py-0.5 rounded-full">
-                        {quizSlugs.length} quiz
-                      </span>
-                    </GsapAnimatedTitle>
+                <section key={cat} className="jx-quiz-category">
+                  <div className="jx-quiz-category-head">
+                    <div className="jx-quiz-category-icon" aria-hidden="true">
+                      {subthemes[0]?.icon ?? "✨"}
+                    </div>
+                    <div>
+                      <p className="jx-quiz-kicker">
+                        <LocalizedText fr="Collection" en="Collection" /> · {quizSlugs.length} <LocalizedText fr="séries" en="series" />
+                      </p>
+                      <GsapAnimatedTitle as="h2" variant="pop" scrollTrigger>
+                        <LocalizedText fr={labelFr} en={labelEn} />
+                      </GsapAnimatedTitle>
+                      <p className="jx-quiz-category-copy">
+                        <LocalizedText
+                          fr="Choisis un sous-thème ou lance un mélange surprise de toute la collection."
+                          en="Pick a sub-theme or start a surprise mix from the whole collection."
+                        />
+                      </p>
+                    </div>
+                    <Link href={`/play/local/classic?category=${cat}`} className="fp-btn-primary jx-quiz-play-all">
+                      <Play size={17} fill="currentColor" aria-hidden="true" />
+                      <LocalizedText fr="Jouer ce thème" en="Play this topic" />
+                    </Link>
                   </div>
 
-                  {/* Badges de sous-thèmes cliquables */}
                   {subthemes.length > 0 && (
-                    <div className="flex flex-wrap items-center gap-1.5 pb-2">
-                      <span className="text-xs font-semibold text-fp-text-dim mr-1">
-                        <LocalizedText fr="Sous-thèmes :" en="Sub-themes:" />
-                      </span>
-                      {subthemes.map((sub) => (
-                        <Link
-                          key={sub.slug}
-                          href={`/play/local/classic?category=${cat}&subcategory=${sub.slug}`}
-                          className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-fp-surface border border-fp-border/70 hover:border-fp-primary/60 hover:bg-fp-primary/10 text-xs font-semibold text-fp-text hover:text-fp-primary transition-all duration-200 shadow-2xs group"
-                          title={`Jouer le sous-thème ${sub.nameFr}`}
-                        >
-                          <span className="text-sm">{sub.icon}</span>
-                          <span>
-                            <LocalizedText fr={sub.nameFr} en={sub.nameEn} />
-                          </span>
-                          <span className="text-[10px] text-fp-primary opacity-50 group-hover:opacity-100 transition-opacity font-bold">
-                            ▶
-                          </span>
-                        </Link>
-                      ))}
+                    <div className="jx-quiz-subthemes-block">
+                      <div className="jx-quiz-subthemes-title">
+                        <div>
+                          <strong><LocalizedText fr="Choisis ton terrain" en="Choose your playground" /></strong>
+                          <span><LocalizedText fr="Un toucher lance directement la partie" en="One tap starts the game" /></span>
+                        </div>
+                        <span><LocalizedText fr="Glisse" en="Swipe" /> →</span>
+                      </div>
+                      <div className="jx-quiz-subthemes" aria-label={`${labelFr} / ${labelEn}`}>
+                        {subthemes.map((sub) => (
+                          <Link
+                            key={sub.slug}
+                            href={`/play/local/classic?category=${cat}&subcategory=${sub.slug}`}
+                            className="jx-quiz-subtheme"
+                          >
+                            <span className="jx-quiz-subtheme-icon" aria-hidden="true">{sub.icon}</span>
+                            <span><LocalizedText fr={sub.nameFr} en={sub.nameEn} /></span>
+                            <ChevronRight size={17} aria-hidden="true" />
+                          </Link>
+                        ))}
+                      </div>
                     </div>
                   )}
 
-                  <GsapScrollReveal className="grid gap-3 sm:grid-cols-2 md:grid-cols-3" stagger={0.04} y={18}>
-                    {quizSlugs.map((slug) => {
-                      const title = slug
-                        .split("-")
-                        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-                        .join(" ");
-
-                      return (
-                        <Link
-                          key={slug}
-                          href={`/quiz/${cat}/${slug}`}
-                          className="fp-card p-4 transition-all duration-200 hover:-translate-y-1 hover:border-fp-primary/40 hover:shadow-md"
-                        >
-                          <h3 className="font-bold text-fp-text text-sm sm:text-base">{title}</h3>
-                          <p className="mt-1 text-xs text-fp-text-dim">
-                            <LocalizedText fr="Jouer au quiz →" en="Play quiz →" />
-                          </p>
+                  <details className="jx-quiz-series">
+                    <summary>
+                      <span><Layers3 size={18} aria-hidden="true" /><LocalizedText fr="Voir les séries de quiz" en="Browse quiz series" /></span>
+                      <span>{quizSlugs.length}</span>
+                      <ChevronDown className="jx-quiz-series-chevron" size={18} aria-hidden="true" />
+                    </summary>
+                    <GsapScrollReveal className="jx-quiz-series-grid" stagger={0.025} y={8}>
+                      {quizSlugs.map((slug, position) => (
+                        <Link key={slug} href={`/quiz/${cat}/${slug}`}>
+                          <span>
+                            <LocalizedText
+                              fr={formatQuizPackTitle({ slug, category: cat, categoryName: labelFr, language: "fr", position })}
+                              en={formatQuizPackTitle({ slug, category: cat, categoryName: labelEn, language: "en", position })}
+                            />
+                          </span>
+                          <ChevronRight size={16} aria-hidden="true" />
                         </Link>
-                      );
-                    })}
-                  </GsapScrollReveal>
+                      ))}
+                    </GsapScrollReveal>
+                  </details>
                 </section>
               );
             })}

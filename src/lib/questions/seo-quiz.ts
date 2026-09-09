@@ -3,6 +3,8 @@ import path from "path";
 import { parseQuestionBatch, type Question } from "./schema";
 import { withEnglishTranslations } from "./bilingual";
 import { getUnseenQuestions } from "./question-selection-service";
+import { formatQuizPackTitle } from "./quiz-catalog";
+import { categoryLabel } from "@/lib/game/modes";
 
 const QUESTIONS_DIR = path.join(process.cwd(), "questions/fr");
 
@@ -54,11 +56,18 @@ export async function getQuizBySlug(category: string, slug: string): Promise<Qui
     const questions = parseQuestionBatch(JSON.parse(content)).questions;
     if (!questions.length) return null;
     
-    // Formatting title from slug: 'revolution-francaise' -> 'Revolution Francaise'
-    const title = slug
-      .split("-")
-      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" ");
+    const categoryFiles = (await fs.readdir(path.join(QUESTIONS_DIR, category)))
+      .filter((file) => file.endsWith(".json"))
+      .map((file) => file.replace(".json", ""))
+      .sort();
+    const position = Math.max(0, categoryFiles.indexOf(slug));
+    const title = formatQuizPackTitle({
+      slug,
+      category,
+      categoryName: categoryLabel("fr", category),
+      language: "fr",
+      position,
+    });
 
     return {
       category,
