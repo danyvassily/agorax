@@ -4,6 +4,7 @@ import { BRAND } from "@/lib/brand";
 import { LanguageHydrator } from "@/components/providers/language-hydrator";
 import { UpdateChecker } from "@/components/providers/update-checker";
 import { AuthHydrator } from "@/lib/auth/use-auth";
+import { MobileTabBar } from "@/components/ui/app-navigation";
 
 export const metadata: Metadata = {
   title: `${BRAND.name} — ${BRAND.tagline}`,
@@ -55,6 +56,7 @@ export default function RootLayout({
         <UpdateChecker />
         <AuthHydrator />
         {children}
+        <MobileTabBar />
       </body>
     </html>
   );
