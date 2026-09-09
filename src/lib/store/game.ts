@@ -48,6 +48,7 @@ export interface GameConfig {
   sessionId: string;
   mode: GameMode;
   category: QuestionCategory | "mixed";
+  subcategory?: string;
   difficulty: string; // "mixed" | easy | medium | hard | expert
   players: Player[];
   questionCount: number;

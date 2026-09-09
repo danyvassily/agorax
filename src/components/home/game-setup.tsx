@@ -22,12 +22,16 @@ export function GameSetup({
   mode,
   solo = false,
   initialCount,
+  initialCategory,
+  initialSubcategory,
   onBack,
   onLaunch,
 }: {
   mode: GameMode;
   solo?: boolean;
   initialCount?: number;
+  initialCategory?: QuestionCategory | 'mixed';
+  initialSubcategory?: string;
   onBack: () => void;
   onLaunch: (config: GameConfig) => void;
 }) {
@@ -58,11 +62,19 @@ export function GameSetup({
     }))
   );
 
-  const [category, setCategory] = useState<QuestionCategory | 'mixed'>('mixed');
+  const [category, setCategory] = useState<QuestionCategory | 'mixed'>(initialCategory ?? 'mixed');
+  const [subcategory, setSubcategory] = useState<string | undefined>(initialSubcategory);
   const [count, setCount] = useState(settings.defaultQuestionCount);
   const [duration, setDuration] = useState<'express' | 'classic'>('express');
   const individualLanguage = ['classic', 'rapidfire', 'truefalse'].includes(mode);
   const min = solo ? 1 : Math.max(2, meta.minPlayers);
+
+  function handleCategoryChange(newCat: QuestionCategory | 'mixed') {
+    setCategory(newCat);
+    if (newCat === 'mixed' || newCat !== category) {
+      setSubcategory(undefined);
+    }
+  }
 
   function launch() {
     const final = players.map((p, i) => ({
@@ -77,6 +89,7 @@ export function GameSetup({
       sessionId: newGameSessionId(),
       mode,
       category,
+      subcategory,
       difficulty: 'mixed',
       players: final,
       questionCount: count,
@@ -123,7 +136,13 @@ export function GameSetup({
               ? 'Pick a favourite or let Agorax create a varied mix.'
               : 'Choisis un favori ou laisse Agorax préparer un mélange varié.'}
           </p>
-          <TopicSelector value={category} language={lang} onChange={setCategory} />
+          <TopicSelector
+            value={category}
+            subcategory={subcategory}
+            language={lang}
+            onChange={handleCategoryChange}
+            onSubcategoryChange={setSubcategory}
+          />
 
           {mode === 'agorax' ? (
             <>
@@ -320,7 +339,11 @@ export function GameSetup({
           </p>
           {meta.usesQuestionCatalog && (
             <div className="my-3 rounded-xl bg-fp-yellow/35 px-3 py-2 text-sm font-bold text-fp-text">
-              {category === 'mixed' ? (en ? '🎲 All topics' : '🎲 Tous les thèmes') : `🎯 ${categoryLabel(lang, category)}`}
+              {category === 'mixed'
+                ? (en ? '🎲 All topics' : '🎲 Tous les thèmes')
+                : subcategory
+                ? `🎯 ${categoryLabel(lang, category)} · ${subcategory}`
+                : `🎯 ${categoryLabel(lang, category)}`}
             </div>
           )}
           <div className="my-3 inline-flex items-center gap-1.5 rounded-full bg-fp-primary/10 px-3 py-1 text-xs font-bold text-fp-primary">

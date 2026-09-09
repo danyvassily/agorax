@@ -5,6 +5,7 @@
  */
 import fs from "node:fs";
 import { loadQuestions } from "./lib";
+import { CATEGORY_SUBTHEMES } from "../../src/lib/questions/subthemes";
 
 const env = fs.readFileSync(".env.local", "utf8");
 const match = env.match(/SUPABASE_ACCESS_TOKEN=([^\s]+)/);
@@ -54,6 +55,62 @@ async function main() {
 
   console.log(`📦 Catalogue FR local : ${frDataset.questions.length} questions`);
   console.log(`📦 Catalogue EN local : ${enDataset.questions.length} questions`);
+
+  // 0. Synchroniser question_categories (parents et sous-thèmes)
+  console.log("🔄 Synchronisation des thèmes et sous-thèmes dans question_categories...");
+  const PARENT_NAMES: Record<string, { fr: string; en: string }> = {
+    "culture-generale": { fr: "Culture générale", en: "General knowledge" },
+    geographie: { fr: "Géographie", en: "Geography" },
+    histoire: { fr: "Histoire", en: "History" },
+    cinema: { fr: "Cinéma", en: "Cinema" },
+    series: { fr: "Séries", en: "TV series" },
+    musique: { fr: "Musique", en: "Music" },
+    "manga-anime": { fr: "Manga & Anime", en: "Manga & anime" },
+    gaming: { fr: "Jeux vidéo", en: "Video games" },
+    science: { fr: "Science", en: "Science" },
+    technologie: { fr: "Technologie", en: "Technology" },
+    internet: { fr: "Internet", en: "Internet" },
+    "mythologie-grecque": { fr: "Mythologie grecque", en: "Greek mythology" },
+    philosophie: { fr: "Philosophie", en: "Philosophy" },
+    sport: { fr: "Sport", en: "Sport" },
+    football: { fr: "Football", en: "Football" },
+    food: { fr: "Cuisine", en: "Food" },
+    voyage: { fr: "Voyage", en: "Travel" },
+    art: { fr: "Art", en: "Art" },
+    litterature: { fr: "Littérature", en: "Literature" },
+    insolite: { fr: "Insolite", en: "Curiosities" },
+    politique: { fr: "Politique", en: "Politics" },
+    animaux: { fr: "Animaux & Nature", en: "Animals & nature" },
+    "jeux-de-societe": { fr: "Jeux de société", en: "Board games" },
+    "comics-bd": { fr: "Comics & BD", en: "Comics" },
+    vehicules: { fr: "Véhicules & Auto", en: "Vehicles" },
+    psychologie: { fr: "Psychologie", en: "Psychology" },
+  };
+
+  const parentRows = Object.entries(PARENT_NAMES).map(([id, names]) => {
+    return `(${esc(id)}, ${esc(names.fr)}, ${esc(names.en)}, NULL)`;
+  });
+  await executeSql(`
+    INSERT INTO public.question_categories (id, label_fr, label_en, parent)
+    VALUES ${parentRows.join(",")}
+    ON CONFLICT (id) DO UPDATE SET label_fr = EXCLUDED.label_fr, label_en = EXCLUDED.label_en;
+  `);
+
+  const subthemeRows: string[] = [];
+  for (const [cat, subList] of Object.entries(CATEGORY_SUBTHEMES)) {
+    for (const sub of subList) {
+      const subId = `${cat}:${sub.slug}`;
+      const labelFr = sub.icon ? `${sub.icon} ${sub.nameFr}` : sub.nameFr;
+      const labelEn = sub.icon ? `${sub.icon} ${sub.nameEn}` : sub.nameEn;
+      subthemeRows.push(`(${esc(subId)}, ${esc(labelFr)}, ${esc(labelEn)}, ${esc(cat)})`);
+    }
+  }
+  await executeSql(`
+    INSERT INTO public.question_categories (id, label_fr, label_en, parent)
+    VALUES ${subthemeRows.join(",")}
+    ON CONFLICT (id) DO UPDATE SET label_fr = EXCLUDED.label_fr, label_en = EXCLUDED.label_en, parent = EXCLUDED.parent;
+  `);
+  console.log(`✅ ${parentRows.length} thèmes et ${subthemeRows.length} sous-thèmes synchronisés dans Supabase.`);
 
   // 1. Synchroniser question_families
   const familyMap = new Map<string, { knowledgeKey: string; category: string; subcategory: string }>();

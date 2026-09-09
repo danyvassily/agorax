@@ -93,12 +93,16 @@ function normalize(value: string) {
 
 export function TopicSelector({
   value,
+  subcategory,
   language,
   onChange,
+  onSubcategoryChange,
 }: {
   value: Topic;
+  subcategory?: string;
   language: "fr" | "en";
   onChange: (topic: Topic) => void;
+  onSubcategoryChange?: (subcategory: string | undefined) => void;
 }) {
   const en = language === "en";
   const [expanded, setExpanded] = useState(false);
@@ -196,20 +200,57 @@ export function TopicSelector({
 
       {value !== "mixed" && (
         <div className="mt-4 p-3.5 rounded-2xl bg-fp-surface border border-fp-border/70 animate-rise">
-          <div className="flex items-center gap-1.5 font-bold text-fp-text text-xs mb-2">
-            <span>✨</span>
-            <span>{en ? "Featured Sub-topics:" : "Sous-thèmes au programme :"}</span>
-          </div>
-          <div className="flex flex-wrap gap-1.5">
-            {getSubthemesForCategory(value).map((sub) => (
-              <span
-                key={sub.slug}
-                className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-fp-primary/10 border border-fp-primary/20 text-fp-primary text-[11px] font-semibold"
+          <div className="flex items-center justify-between gap-1.5 font-bold text-fp-text text-xs mb-2.5">
+            <div className="flex items-center gap-1.5">
+              <span>✨</span>
+              <span>{en ? "Choose a Sub-theme (optional):" : "Choisir un sous-thème (optionnel) :"}</span>
+            </div>
+            {subcategory && onSubcategoryChange && (
+              <button
+                type="button"
+                onClick={() => onSubcategoryChange(undefined)}
+                className="text-[11px] text-fp-primary hover:underline font-semibold"
               >
-                <span>{sub.icon}</span>
-                <span>{en ? sub.nameEn : sub.nameFr}</span>
-              </span>
-            ))}
+                {en ? "All sub-themes" : "Tous les sous-thèmes"}
+              </button>
+            )}
+          </div>
+          <div className="flex flex-wrap gap-1.5" role="radiogroup" aria-label={en ? "Sub-themes" : "Sous-thèmes"}>
+            <button
+              type="button"
+              role="radio"
+              aria-checked={!subcategory}
+              onClick={() => onSubcategoryChange?.(undefined)}
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
+                !subcategory
+                  ? "bg-fp-primary text-white shadow-sm ring-2 ring-fp-primary/30"
+                  : "bg-fp-surface border border-fp-border/70 text-fp-text hover:border-fp-primary/50"
+              }`}
+            >
+              <span>🌐</span>
+              <span>{en ? "All" : "Tous"}</span>
+            </button>
+            {getSubthemesForCategory(value).map((sub) => {
+              const isSelected = subcategory === sub.slug;
+              return (
+                <button
+                  key={sub.slug}
+                  type="button"
+                  role="radio"
+                  aria-checked={isSelected}
+                  onClick={() => onSubcategoryChange?.(isSelected ? undefined : sub.slug)}
+                  className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
+                    isSelected
+                      ? "bg-fp-primary text-white shadow-sm ring-2 ring-fp-primary/30"
+                      : "bg-fp-surface border border-fp-border/70 text-fp-text hover:border-fp-primary/50"
+                  }`}
+                >
+                  <span>{sub.icon}</span>
+                  <span>{en ? sub.nameEn : sub.nameFr}</span>
+                  {isSelected && <Check size={12} strokeWidth={3} />}
+                </button>
+              );
+            })}
           </div>
         </div>
       )}

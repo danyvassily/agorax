@@ -64,6 +64,7 @@ export function TeamBattleGame() {
         const data = await loadGameQuestions({
           count: config?.questionCount ?? 10,
           category: config?.category,
+          subcategory: config?.subcategory,
           difficulties: config?.difficulty && config.difficulty !== "mixed" ? [config.difficulty] : undefined,
           players,
           history: entries,

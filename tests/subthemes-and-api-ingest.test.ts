@@ -62,4 +62,46 @@ describe("Subthemes & External Ingestion Architecture", () => {
       }
     }
   });
+
+  it("filters questions accurately by subcategory in selection engine", async () => {
+    const { selectQuestions } = await import("@/lib/questions/selection");
+    const { loadQuestions } = await import("@/lib/questions/load");
+
+    const pool = loadQuestions("fr").questions;
+    // Test with geographie
+    const geoPool = pool.filter((q) => q.category === "geographie");
+    expect(geoPool.length).toBeGreaterThan(10);
+
+    const capitalesResult = selectQuestions(geoPool, [], {
+      count: 5,
+      categories: ["geographie"],
+      subcategories: ["capitales"],
+    });
+
+    expect(capitalesResult.questions.length).toBeGreaterThan(0);
+    for (const q of capitalesResult.questions) {
+      const match =
+        q.subcategory.toLowerCase() === "capitales" ||
+        q.tags?.some((t) => t.toLowerCase() === "capitales");
+      expect(match).toBe(true);
+    }
+  });
+
+  it("progressively falls back to parent category if subcategory pool is smaller than requested count", async () => {
+    const { getUnseenQuestions } = await import("@/lib/questions/question-selection-service");
+    const { loadQuestions } = await import("@/lib/questions/load");
+
+    const pool = loadQuestions("fr").questions;
+    const result = getUnseenQuestions({
+      pool,
+      participantHistories: [],
+      count: 10,
+      categories: ["cinema"],
+      subcategories: ["films-cultes"],
+      progressiveFallback: true,
+    });
+
+    expect(result.questions.length).toBe(10);
+    expect(result.questions.every((q) => q.category === "cinema")).toBe(true);
+  });
 });

@@ -18,6 +18,7 @@ const HistoryEntrySchema = z.object({
 const RequestSchema = z.object({
   count: z.number().int().min(1).max(60).default(10),
   category: z.string().optional(),
+  subcategory: z.string().optional(),
   difficulties: z.array(z.enum(["easy", "medium", "hard", "expert"])).optional(),
   requireBilingual: z.boolean().optional().default(false),
   ai: z.boolean().default(false),
@@ -75,11 +76,22 @@ function stagePools(
   pool: Question[],
   category: QuestionCategory | "mixed",
   difficulties?: QuestionDifficulty[],
+  subcategory?: string,
 ): Question[][] {
   const categoryPool = category === "mixed" ? pool : pool.filter((question) => question.category === category);
+  const subcategoryPool = subcategory
+    ? categoryPool.filter(
+        (q) =>
+          q.subcategory?.toLowerCase() === subcategory.toLowerCase() ||
+          q.tags?.some((t) => t.toLowerCase() === subcategory.toLowerCase()),
+      )
+    : null;
+
+  const targetPool = subcategoryPool && subcategoryPool.length > 0 ? subcategoryPool : categoryPool;
+
   const exact = difficulties?.length
-    ? categoryPool.filter((question) => difficulties.includes(question.difficulty))
-    : categoryPool;
+    ? targetPool.filter((question) => difficulties.includes(question.difficulty))
+    : targetPool;
   const neighborRanks = new Set<number>();
   const order: QuestionDifficulty[] = ["easy", "medium", "hard", "expert"];
   for (const difficulty of difficulties ?? []) {
@@ -89,12 +101,18 @@ function stagePools(
     if (rank < order.length - 1) neighborRanks.add(rank + 1);
   }
   const neighbor = difficulties?.length
-    ? categoryPool.filter((question) => neighborRanks.has(order.indexOf(question.difficulty)))
-    : categoryPool;
+    ? targetPool.filter((question) => neighborRanks.has(order.indexOf(question.difficulty)))
+    : targetPool;
+
+  const parentFallback = subcategoryPool ? categoryPool : [];
+
   const compatible = difficulties?.length
     ? pool.filter((question) => neighborRanks.has(order.indexOf(question.difficulty)))
     : pool;
-  return [exact, neighbor, compatible].map(uniqueFamilies);
+
+  return (subcategoryPool ? [exact, neighbor, parentFallback, compatible] : [exact, neighbor, compatible]).map(
+    uniqueFamilies,
+  );
 }
 
 export async function POST(request: Request) {
@@ -113,7 +131,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Requête invalide", details: parsed.error.issues }, { status: 400 });
   }
 
-  const { count, category, difficulties, ai, onlineSessionId, participantTokens, participantHistories, history } = parsed.data;
+  const { count, category, subcategory, difficulties, ai, onlineSessionId, participantTokens, participantHistories, history } = parsed.data;
   const requestedLanguage = parsed.data.gameLanguage ?? parsed.data.language;
   const languageMode = parsed.data.languageMode ?? (parsed.data.requireBilingual ? "per-player" : "shared");
   const isBilingualRequired = parsed.data.requireBilingual || languageMode === "per-player" || Boolean(onlineSessionId);
@@ -143,16 +161,23 @@ export async function POST(request: Request) {
   }
 
   const supabase = participantTokens?.length ? getRequestSupabase(request) : null;
-  const stages = stagePools(isBilingualRequired
-    ? localPool.filter(q => q.translations?.[alternateLanguage]?.answers?.length === q.answers.length)
-    : localPool, cat, difficulties);
+  const stages = stagePools(
+    isBilingualRequired
+      ? localPool.filter((q) => q.translations?.[alternateLanguage]?.answers?.length === q.answers.length)
+      : localPool,
+    cat,
+    difficulties,
+    subcategory,
+  );
 
   let questions: Question[] = [];
   let fallbackStage = "exact";
   let remoteEnabled = Boolean(supabase && participantTokens?.length);
   if (remoteEnabled && supabase && participantTokens) {
     try {
-      const labels = ["exact", "neighbor_difficulty", "compatible_categories"];
+      const labels = subcategory
+        ? ["exact", "neighbor_difficulty", "category_fallback", "compatible_categories"]
+        : ["exact", "neighbor_difficulty", "compatible_categories"];
       for (let index = 0; index < stages.length && questions.length < count; index++) {
         const selected = await reserveRemotely({
           supabase, sessionId, onlineSessionId, participantTokens,
@@ -175,6 +200,7 @@ export async function POST(request: Request) {
       language: requestedLanguage,
       requireBilingual: isBilingualRequired,
       categories: cat === "mixed" ? undefined : [cat],
+      subcategories: subcategory ? [subcategory] : undefined,
       difficulties,
       progressiveFallback: true,
     });

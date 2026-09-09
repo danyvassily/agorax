@@ -18,6 +18,7 @@ export interface QuestionSelectionRequest {
   language?: "fr" | "en";
   requireBilingual?: boolean;
   categories?: string[];
+  subcategories?: string[];
   difficulties?: QuestionDifficulty[];
   reservedFamilyIds?: Iterable<string>;
   seed?: number;
@@ -78,6 +79,7 @@ export function getUnseenQuestions(request: QuestionSelectionRequest): QuestionS
   let result = selectQuestions(request.pool, history, {
     ...baseOptions,
     categories: request.categories,
+    subcategories: request.subcategories,
     difficulties: request.difficulties,
   });
 
@@ -86,7 +88,18 @@ export function getUnseenQuestions(request: QuestionSelectionRequest): QuestionS
     result = selectQuestions(request.pool, history, {
       ...baseOptions,
       categories: request.categories,
+      subcategories: request.subcategories,
       difficulties: neighboringDifficulties(request.difficulties),
+    });
+  }
+
+  if (request.progressiveFallback !== false && result.questions.length < request.count && request.subcategories?.length) {
+    result = selectQuestions(request.pool, history, {
+      ...baseOptions,
+      categories: request.categories,
+      difficulties: request.difficulties?.length
+        ? neighboringDifficulties(request.difficulties)
+        : undefined,
     });
   }
 

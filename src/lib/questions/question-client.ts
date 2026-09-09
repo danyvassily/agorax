@@ -10,6 +10,7 @@ import { useLanguageStore } from "@/lib/store/language";
 interface LoadQuestionsOptions {
   count: number;
   category?: string;
+  subcategory?: string;
   difficulties?: string[];
   players: Player[];
   history: QuestionHistory[];
@@ -55,6 +56,7 @@ export async function loadGameQuestions(options: LoadQuestionsOptions): Promise<
     body: JSON.stringify({
       count: options.count,
       category: options.category,
+      subcategory: options.subcategory,
       difficulties: options.difficulties,
       ai: options.ai ?? false,
       requireBilingual: isBilingual,

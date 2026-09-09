@@ -69,17 +69,27 @@ export default async function QuizIndexPage() {
                     </h2>
                   </div>
 
-                  {/* Badges de sous-thèmes */}
+                  {/* Badges de sous-thèmes cliquables */}
                   {subthemes.length > 0 && (
-                    <div className="flex flex-wrap gap-1.5 pb-2">
+                    <div className="flex flex-wrap items-center gap-1.5 pb-2">
+                      <span className="text-xs font-semibold text-fp-text-dim mr-1">
+                        <LocalizedText fr="Sous-thèmes :" en="Sub-themes:" />
+                      </span>
                       {subthemes.map((sub) => (
-                        <span
+                        <Link
                           key={sub.slug}
-                          className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-fp-surface border border-fp-border/60 text-xs font-medium text-fp-text-dim"
+                          href={`/play/local/classic?category=${cat}&subcategory=${sub.slug}`}
+                          className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-fp-surface border border-fp-border/70 hover:border-fp-primary/60 hover:bg-fp-primary/10 text-xs font-semibold text-fp-text hover:text-fp-primary transition-all duration-200 shadow-2xs group"
+                          title={`Jouer le sous-thème ${sub.nameFr}`}
                         >
-                          <span>{sub.icon}</span>
-                          <span>{sub.nameFr}</span>
-                        </span>
+                          <span className="text-sm">{sub.icon}</span>
+                          <span>
+                            <LocalizedText fr={sub.nameFr} en={sub.nameEn} />
+                          </span>
+                          <span className="text-[10px] text-fp-primary opacity-50 group-hover:opacity-100 transition-opacity font-bold">
+                            ▶
+                          </span>
+                        </Link>
                       ))}
                     </div>
                   )}

@@ -96,6 +96,7 @@ export function AgoraxGame() {
         const data = await loadGameQuestions({
           count: config?.duration === "classic" ? 65 : 35,
           category: config?.category,
+          subcategory: config?.subcategory,
           players: playersConfig,
           history: entries,
           sessionId: config?.sessionId ?? crypto.randomUUID(),

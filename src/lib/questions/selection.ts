@@ -25,6 +25,8 @@ export interface SelectionOptions {
   requireBilingual?: boolean;
   /** Catégories autorisées (toutes si vide) */
   categories?: string[];
+  /** Sous-catégories autorisées (toutes si vide) */
+  subcategories?: string[];
   /** Difficultés autorisées (toutes si vide) */
   difficulties?: QuestionDifficulty[];
   /** Spécialité du joueur actif (promut les questions de sa spécialité en Niveau 4 — Expert) */
@@ -129,8 +131,16 @@ export function selectQuestions(
     if (seenFamilies.has(historyKey(q.familyId))) return false;
     if (reservedFamilies.has(historyKey(q.familyId))) return false;
 
-    // 3. Catégories et 4. Difficultés
+    // 3. Catégories, sous-catégories et 4. Difficultés
     if (options.categories?.length && !options.categories.includes(q.category)) return false;
+    if (options.subcategories?.length) {
+      const match = options.subcategories.some(
+        (sub) =>
+          q.subcategory?.toLowerCase() === sub.toLowerCase() ||
+          q.tags?.some((t) => t.toLowerCase() === sub.toLowerCase()),
+      );
+      if (!match) return false;
+    }
     if (options.difficulties?.length && !options.difficulties.includes(q.difficulty)) return false;
 
     // 5. Anti-répétition conceptuelle et sémantique
