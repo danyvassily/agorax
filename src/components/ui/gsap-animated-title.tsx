@@ -128,7 +128,7 @@ export function GsapAnimatedTitle({
   if (typeof children === "string") {
     const words = children.split(" ");
     return (
-      <Component ref={containerRef} className={`${className} inline-block`}>
+      <Component ref={containerRef} className={className}>
         {words.map((word, i) => (
           <span
             key={`${word}-${i}`}
