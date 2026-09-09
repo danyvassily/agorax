@@ -7,6 +7,8 @@ import { LocalizedText } from "@/components/ui/localized-text";
 import { CATEGORY_LABELS } from "@/lib/game/modes";
 import { getSubthemesForCategory } from "@/lib/questions/subthemes";
 import type { QuestionCategory } from "@/lib/questions/schema";
+import { GsapAnimatedTitle } from "@/components/ui/gsap-animated-title";
+import { GsapScrollReveal } from "@/components/ui/gsap-scroll-reveal";
 
 export const metadata: Metadata = {
   title: "Tous nos Quiz — Catalogue Thématique Agorax",
@@ -40,9 +42,9 @@ export default async function QuizIndexPage() {
           <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-fp-primary/10 text-fp-primary shadow-sm">
             <Sparkles className="h-8 w-8" />
           </div>
-          <h1 className="mt-5 text-3xl font-black text-fp-text sm:text-4xl">
+          <GsapAnimatedTitle as="h1" className="mt-5 text-3xl font-black text-fp-text sm:text-4xl" variant="slide-up">
             <LocalizedText fr="Tous les Quiz & Thèmes" en="All Quizzes & Topics" />
-          </h1>
+          </GsapAnimatedTitle>
           <p className="mt-3 text-fp-text-dim max-w-xl mx-auto">
             <LocalizedText
               fr="Découvrez nos quiz par thèmes et sous-thèmes. Entraînez-vous avant de défier vos amis !"
@@ -61,12 +63,12 @@ export default async function QuizIndexPage() {
               return (
                 <section key={cat} className="space-y-3">
                   <div className="flex flex-wrap items-center justify-between gap-2">
-                    <h2 className="text-2xl font-black text-fp-text flex items-center gap-2">
+                    <GsapAnimatedTitle as="h2" className="text-2xl font-black text-fp-text flex items-center gap-2" variant="pop" scrollTrigger>
                       <span>{label}</span>
                       <span className="text-xs font-bold text-fp-primary bg-fp-primary/10 px-2.5 py-0.5 rounded-full">
                         {quizSlugs.length} quiz
                       </span>
-                    </h2>
+                    </GsapAnimatedTitle>
                   </div>
 
                   {/* Badges de sous-thèmes cliquables */}
@@ -94,7 +96,7 @@ export default async function QuizIndexPage() {
                     </div>
                   )}
 
-                  <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+                  <GsapScrollReveal className="grid gap-3 sm:grid-cols-2 md:grid-cols-3" stagger={0.04} y={18}>
                     {quizSlugs.map((slug) => {
                       const title = slug
                         .split("-")
@@ -105,7 +107,7 @@ export default async function QuizIndexPage() {
                         <Link
                           key={slug}
                           href={`/quiz/${cat}/${slug}`}
-                          className="fp-card p-4 transition-all hover:-translate-y-0.5 hover:border-fp-primary/40 hover:shadow-sm"
+                          className="fp-card p-4 transition-all duration-200 hover:-translate-y-1 hover:border-fp-primary/40 hover:shadow-md"
                         >
                           <h3 className="font-bold text-fp-text text-sm sm:text-base">{title}</h3>
                           <p className="mt-1 text-xs text-fp-text-dim">
@@ -114,7 +116,7 @@ export default async function QuizIndexPage() {
                         </Link>
                       );
                     })}
-                  </div>
+                  </GsapScrollReveal>
                 </section>
               );
             })}

@@ -7,6 +7,8 @@ import { GoogleIcon } from '@/components/ui/google-icon';
 import { useAuth } from '@/lib/auth/use-auth';
 import { useLanguageStore } from '@/lib/store/language';
 import { CHARACTERS } from '@/lib/characters';
+import { GsapAnimatedTitle } from '@/components/ui/gsap-animated-title';
+import { GsapScrollReveal } from '@/components/ui/gsap-scroll-reveal';
 
 export function HomeClient() {
   const { user, isLoggedIn, signInWithGoogle } = useAuth();
@@ -17,12 +19,14 @@ export function HomeClient() {
       <AppNavigation />
       <main className="jx-page">
         <header className="jx-page-title">
-          <p>
+          <p className="animate-fade">
             {en ? 'Hello' : 'Salut'}
             {user?.name && !/^Joueur/.test(user.name) ? ` ${user.name}` : ''} !
           </p>
-          <h1>{en ? 'What shall we play?' : 'On joue à quoi ?'}</h1>
-          <p>{en ? 'A solo challenge or a night together.' : 'Un défi solo ou une soirée ensemble.'}</p>
+          <GsapAnimatedTitle as="h1" variant="slide-up">
+            {en ? 'What shall we play?' : 'On joue à quoi ?'}
+          </GsapAnimatedTitle>
+          <p className="animate-fade">{en ? 'A solo challenge or a night together.' : 'Un défi solo ou une soirée ensemble.'}</p>
         </header>
 
         {/* Bannière Connexion / Inscription si non connecté */}
@@ -63,11 +67,13 @@ export function HomeClient() {
           </section>
         )}
 
-        <div className="jx-home-grid">
+        <GsapScrollReveal className="jx-home-grid" stagger={0.12} duration={0.65}>
           <section className="jx-hero jx-aqua">
             <div className="jx-hero-copy">
               <span className="jx-eyebrow">{en ? 'MAKE IT A GAME NIGHT' : 'LA SOIRÉE COMMENCE ICI'}</span>
-              <h2>{en ? 'Better together.' : 'C’est mieux ensemble.'}</h2>
+              <GsapAnimatedTitle as="h2" variant="pop" delay={0.2} stagger={0.07}>
+                {en ? 'Better together.' : 'C’est mieux ensemble.'}
+              </GsapAnimatedTitle>
               <p>
                 {en
                   ? '2 to 8 players. A little rivalry, a lot of fun.'
@@ -79,11 +85,11 @@ export function HomeClient() {
               <KawaiiMascot theme="poppy" size={190} />
             </div>
             <div className="jx-hero-actions">
-              <Link href="/play/local" className="fp-btn-primary">
+              <Link href="/play/local" className="fp-btn-primary transition-transform duration-200 hover:scale-[1.02] active:scale-[0.98]">
                 {en ? 'Play together' : 'Jouer ensemble'}
                 <ArrowRight size={18} />
               </Link>
-              <Link href="/play/online" className="fp-btn-secondary">
+              <Link href="/play/online" className="fp-btn-secondary transition-transform duration-200 hover:scale-[1.02] active:scale-[0.98]">
                 <ScanLine size={18} />
                 {en ? 'Join with a code' : 'Rejoindre avec un code'}
               </Link>
@@ -91,7 +97,7 @@ export function HomeClient() {
           </section>
 
           <div className="jx-home-side">
-            <Link href="/play/solo" className="jx-feature jx-yellow">
+            <Link href="/play/solo" className="jx-feature jx-yellow transition-transform duration-200 hover:-translate-y-1">
               <div>
                 <span className="jx-eyebrow">{en ? 'YOUR MOMENT' : 'TON MOMENT À TOI'}</span>
                 <h2>{en ? 'My solo challenge' : 'Mon défi solo'}</h2>
@@ -99,7 +105,7 @@ export function HomeClient() {
               </div>
               <KawaiiMascot theme="neo" size={140} />
             </Link>
-            <Link href="/daily" className="jx-feature">
+            <Link href="/daily" className="jx-feature transition-transform duration-200 hover:-translate-y-1">
               <div>
                 <CalendarDays size={24} />
                 <h2>{en ? 'Daily challenge' : 'Défi du jour'}</h2>
@@ -108,22 +114,29 @@ export function HomeClient() {
               <ArrowRight size={23} />
             </Link>
           </div>
-        </div>
+        </GsapScrollReveal>
 
         <section className="jx-team-section">
           <div>
-            <h2>{en ? 'Your crew is waiting' : 'Ton équipe t’attend'}</h2>
+            <GsapAnimatedTitle as="h2" variant="slide-up" scrollTrigger>
+              {en ? 'Your crew is waiting' : 'Ton équipe t’attend'}
+            </GsapAnimatedTitle>
             <p>{en ? 'Five personalities. Find your favourite.' : 'Cinq personnalités. Trouve la tienne.'}</p>
           </div>
-          <div className="jx-team-row">
+          <GsapScrollReveal className="jx-team-row" stagger={0.06} y={18}>
             {CHARACTERS.map(c => (
-              <Link href={`/profile?character=${c.id}`} key={c.id} style={{ background: c.color }}>
+              <Link
+                href={`/profile?character=${c.id}`}
+                key={c.id}
+                style={{ background: c.color }}
+                className="transition-transform duration-200 hover:-translate-y-1.5"
+              >
                 <KawaiiMascot theme={c.id} size={88} />
                 <strong>{c.name}</strong>
                 <span>{en ? c.roleEn : c.role}</span>
               </Link>
             ))}
-          </div>
+          </GsapScrollReveal>
         </section>
       </main>
     </>
