@@ -27,7 +27,7 @@ export function ProfileClient({ character }: { character?: string }) {
     <>
       <AppNavigation />
       <main className="jx-page jx-profile-page">
-        <ProfileEditor key={`${activeUser.id}-${character ?? ''}`} user={activeUser} character={character} />
+        <ProfileEditor key={`${activeUser.id}-${activeUser.avatarUrl ?? ''}-${character ?? ''}`} user={activeUser} character={character} />
       </main>
     </>
   );

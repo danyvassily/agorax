@@ -42,6 +42,7 @@ export interface AuthUser {
   createdAt?: string;
   eloRating?: number;
   eloGamesPlayed?: number;
+  language?: UILanguage;
 }
 
 const LOCAL_AUTH_KEY = "Agorax_auth_user";
@@ -220,6 +221,13 @@ export const useAuthStore = create<AuthState>((set, get) => ({
           const authUserId = data.user.id;
           const email = data.user.email;
           const metadata = data.user.user_metadata ?? {};
+          const oauthAvatar =
+            typeof metadata.avatar_url === "string" && !isInlineAvatar(metadata.avatar_url)
+              ? metadata.avatar_url
+              : typeof metadata.picture === "string" && !isInlineAvatar(metadata.picture)
+              ? metadata.picture
+              : null;
+
           const legacyMetadataAvatar = isInlineAvatar(String(metadata.avatar_url ?? ""))
             ? String(metadata.avatar_url)
             : null;
@@ -228,7 +236,8 @@ export const useAuthStore = create<AuthState>((set, get) => ({
             sb.auth.updateUser({ data: { avatar_url: null } }).catch(() => {});
           }
 
-          const resolved = await resolvePlayerProfiles([await getOrCreateDeviceToken()]);
+          const deviceToken = await getOrCreateDeviceToken();
+          const resolved = await resolvePlayerProfiles([deviceToken]);
           const resolvedProfileId = resolved[0]?.profile_id;
           const profileQuery = sb.from("player_profiles").select("*");
           const { data: prof } = resolvedProfileId
@@ -237,8 +246,16 @@ export const useAuthStore = create<AuthState>((set, get) => ({
 
           const name = prof?.nickname || metadata.username || metadata.name || email?.split("@")[0] || "Joueur";
           const avatarColor = prof?.avatar_color ?? 0;
-          let avatarStorageValue = prof?.avatar_url || null;
+          let avatarStorageValue = prof?.avatar_url || oauthAvatar || null;
           let avatarUrl = await resolveProfileAvatar(avatarStorageValue);
+
+          // Si le profil distant n'a pas encore d'avatar mais que OAuth en fournit un, persister en base
+          if (!prof?.avatar_url && oauthAvatar && prof?.id) {
+            try {
+              await sb.from("player_profiles").update({ avatar_url: oauthAvatar }).eq("id", prof.id);
+            } catch {}
+          }
+
           const pendingAvatar = safeGetStorage(PENDING_AVATAR_KEY);
           const inlineAvatar = isInlineAvatar(avatarStorageValue)
             ? avatarStorageValue
@@ -291,23 +308,71 @@ export const useAuthStore = create<AuthState>((set, get) => ({
           return;
         }
 
-        const resolved = await resolvePlayerProfiles([await getOrCreateDeviceToken()]);
-        if (resolved[0]?.profile_id) {
-          const currentName = useGameStore.getState().players[0]?.name || "Joueur";
-          const currentAvatar = useGameStore.getState().players[0]?.avatarUrl || null;
-          const anonymousUser: AuthUser = {
-            id: resolved[0].profile_id,
-            name: currentName,
-            isAnonymous: true,
-            avatarColor: 0,
-            avatarUrl: currentAvatar,
-          };
-          set({ user: anonymousUser, isLoggedIn: false });
-          setCachedProfileId(anonymousUser.id);
-          safeRemoveStorage(LOCAL_AUTH_KEY);
-          set({ loading: false });
-          return;
+        const deviceToken = await getOrCreateDeviceToken();
+        const resolved = await resolvePlayerProfiles([deviceToken]);
+        const resolvedProfileId = resolved[0]?.profile_id;
+
+        let prof: { id: string; nickname?: string; avatar_url?: string | null; language?: string; avatar_color?: number } | null = null;
+        if (resolvedProfileId) {
+          const { data: remoteProf } = await sb.from("player_profiles").select("*").eq("id", resolvedProfileId).maybeSingle();
+          prof = remoteProf;
         }
+
+        const cachedRaw = safeGetStorage(LOCAL_AUTH_KEY);
+        let cachedUser: AuthUser | null = null;
+        if (cachedRaw) {
+          try { cachedUser = JSON.parse(cachedRaw); } catch {}
+        }
+
+        const currentName = prof?.nickname && prof.nickname !== "Joueur"
+          ? prof.nickname
+          : cachedUser?.name && cachedUser.name !== "Joueur"
+          ? cachedUser.name
+          : useGameStore.getState().players[0]?.name || "Joueur";
+
+        const rawAvatar = prof?.avatar_url || cachedUser?.avatarUrl || useGameStore.getState().players[0]?.avatarUrl || null;
+        const resolvedAvatar = await resolveProfileAvatar(rawAvatar);
+
+        // Si le cache local possédait un avatar non encore synchronisé avec le profil distant, le synchroniser
+        if (!prof?.avatar_url && rawAvatar && resolvedProfileId) {
+          try {
+            await sb.rpc("save_player_profile", {
+              p_profile_id: resolvedProfileId,
+              p_nickname: currentName,
+              p_avatar_url: rawAvatar,
+              p_language: prof?.language || useLanguageStore.getState().language,
+              p_device_token: deviceToken,
+            });
+          } catch {}
+        }
+
+        const anonymousUser: AuthUser = {
+          id: resolvedProfileId || cachedUser?.id || `anon_${deviceToken.slice(0, 12)}`,
+          name: currentName,
+          isAnonymous: true,
+          avatarColor: prof?.avatar_color ?? cachedUser?.avatarColor ?? 0,
+          avatarUrl: resolvedAvatar,
+          avatarStorageValue: isStoredAvatar(rawAvatar) ? rawAvatar : null,
+        };
+
+        set({ user: anonymousUser, isLoggedIn: false });
+        setCachedProfileId(anonymousUser.id);
+        safeSetStorage(LOCAL_AUTH_KEY, JSON.stringify(anonymousUser));
+
+        if (prof?.language) {
+          useLanguageStore.getState().setLanguage(prof.language as UILanguage);
+        } else if (cachedUser?.language) {
+          useLanguageStore.getState().setLanguage(cachedUser.language as UILanguage);
+        }
+
+        useGameStore.getState().setPlayers(
+          useGameStore.getState().players.map((p, i) =>
+            i === 0 ? { ...p, name: currentName, avatarUrl: resolvedAvatar || undefined } : p
+          )
+        );
+
+        set({ loading: false });
+        return;
       }
 
       const cached = safeGetStorage(LOCAL_AUTH_KEY);
@@ -335,6 +400,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
       };
       
       set({ user: anonUser, isLoggedIn: false });
+      safeSetStorage(LOCAL_AUTH_KEY, JSON.stringify(anonUser));
     } catch (err) {
       console.error("[useAuth] Erreur lors du chargement:", err);
     } finally {
@@ -470,15 +536,27 @@ export const useAuthStore = create<AuthState>((set, get) => ({
       const metadata = data.user.user_metadata ?? {};
       const name = metadata.username || metadata.name || email.split("@")[0];
 
-      if (metadata.avatar_url) {
+      if (metadata.avatar_url && isInlineAvatar(metadata.avatar_url)) {
         sb.auth.updateUser({ data: { avatar_url: null } }).catch(() => {});
       }
 
       await sb.from("player_profiles").update({ nickname: name }).eq("id", profileId);
 
       const { data: prof } = await sb.from("player_profiles").select("avatar_url, nickname, language").eq("id", profileId).maybeSingle();
-      const avatarStorageValue = prof?.avatar_url || null;
+      const oauthAvatar =
+        typeof metadata.avatar_url === "string" && !isInlineAvatar(metadata.avatar_url)
+          ? metadata.avatar_url
+          : typeof metadata.picture === "string" && !isInlineAvatar(metadata.picture)
+          ? metadata.picture
+          : null;
+      const avatarStorageValue = prof?.avatar_url || oauthAvatar || null;
       const avatarUrl = await resolveProfileAvatar(avatarStorageValue);
+
+      if (!prof?.avatar_url && oauthAvatar && profileId) {
+        try {
+          await sb.from("player_profiles").update({ avatar_url: oauthAvatar }).eq("id", profileId);
+        } catch {}
+      }
 
       const activeUser: AuthUser = {
         id: profileId,
@@ -632,24 +710,49 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     const sb = getSupabaseBrowser();
     let storedAvatarValue = avatarUrl;
     let displayAvatarUrl = avatarUrl;
-    if (sb && isSupabaseConfigured && !user.isAnonymous) {
-      if (isInlineAvatar(avatarUrl)) {
-        const storedAvatar = await uploadProfileAvatar(avatarUrl);
-        storedAvatarValue = storedAvatar.storageValue;
-        displayAvatarUrl = storedAvatar.displayUrl;
-      } else if (avatarUrl === user.avatarUrl && user.avatarStorageValue) {
-        storedAvatarValue = user.avatarStorageValue;
-      }
-      // One database write: a failed save must not publish optimistic local success.
-      const { error } = await sb.from("player_profiles")
-        .update({ nickname: clean, avatar_url: storedAvatarValue, language })
-        .eq("id", user.id).select("id").single();
-      if (error) throw error;
-      safeRemoveStorage(PENDING_AVATAR_KEY);
-      if (!storedAvatarValue || storedAvatarValue.startsWith("/images/team/")) {
-        try { await removeProfileAvatar(); } catch { /* The profile is already saved; orphan cleanup can retry later. */ }
+
+    if (sb && isSupabaseConfigured) {
+      if (!user.isAnonymous) {
+        if (isInlineAvatar(avatarUrl)) {
+          const storedAvatar = await uploadProfileAvatar(avatarUrl);
+          storedAvatarValue = storedAvatar.storageValue;
+          displayAvatarUrl = storedAvatar.displayUrl;
+        } else if (avatarUrl === user.avatarUrl && user.avatarStorageValue) {
+          storedAvatarValue = user.avatarStorageValue;
+        }
+        // Pour les comptes connectés : persistance via RPC save_player_profile ou match direct
+        const { error: rpcError } = await sb.rpc("save_player_profile", {
+          p_profile_id: user.id,
+          p_nickname: clean,
+          p_avatar_url: storedAvatarValue,
+          p_language: language,
+        });
+        if (rpcError) {
+          const { error } = await sb.from("player_profiles")
+            .update({ nickname: clean, avatar_url: storedAvatarValue, language })
+            .or(`id.eq.${user.id},user_id.eq.${user.id}`);
+          if (error) throw error;
+        }
+        safeRemoveStorage(PENDING_AVATAR_KEY);
+        if (!storedAvatarValue || storedAvatarValue.startsWith("/images/team/")) {
+          try { await removeProfileAvatar(); } catch { /* The profile is already saved; orphan cleanup can retry later. */ }
+        }
+      } else {
+        // Mode invité : persistance distante via device_token
+        const deviceToken = await getOrCreateDeviceToken();
+        const { error: rpcError } = await sb.rpc("save_player_profile", {
+          p_profile_id: user.id,
+          p_nickname: clean,
+          p_avatar_url: storedAvatarValue,
+          p_language: language,
+          p_device_token: deviceToken,
+        });
+        if (rpcError) {
+          console.warn("[updateProfile] persistance distante invité différée:", rpcError.message);
+        }
       }
     }
+
     const updatedUser = {
       ...user,
       name: clean,
@@ -688,6 +791,27 @@ export function AuthHydrator() {
     };
     init();
 
+    const handleStorage = (event: StorageEvent) => {
+      if (event.key === LOCAL_AUTH_KEY && event.newValue) {
+        try {
+          const syncedUser = JSON.parse(event.newValue) as AuthUser;
+          useAuthStore.setState({ user: syncedUser, isLoggedIn: !syncedUser.isAnonymous });
+          useGameStore.getState().setPlayers(
+            useGameStore.getState().players.map((p, i) =>
+              i === 0
+                ? {
+                    ...p,
+                    name: syncedUser.name,
+                    avatarUrl: syncedUser.avatarUrl || undefined,
+                  }
+                : p
+            )
+          );
+        } catch {}
+      }
+    };
+    window.addEventListener("storage", handleStorage);
+
     const sb = getSupabaseBrowser();
     if (sb && isSupabaseConfigured) {
       const { data: sub } = sb.auth.onAuthStateChange((event, session) => {
@@ -708,12 +832,14 @@ export function AuthHydrator() {
       });
       return () => {
         mounted = false;
+        window.removeEventListener("storage", handleStorage);
         sub.subscription.unsubscribe();
       };
     }
 
     return () => {
       mounted = false;
+      window.removeEventListener("storage", handleStorage);
     };
   }, []);
 
