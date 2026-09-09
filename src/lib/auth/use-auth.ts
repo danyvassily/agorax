@@ -23,6 +23,13 @@ import {
   MIN_ACCOUNT_PASSWORD_LENGTH,
   passwordRecoveryRedirect,
 } from "@/lib/auth/password";
+import {
+  isInlineAvatar,
+  isStoredAvatar,
+  removeProfileAvatar,
+  resolveProfileAvatar,
+  uploadProfileAvatar,
+} from "@/lib/auth/avatar-storage";
 
 export interface AuthUser {
   id: string;
@@ -31,12 +38,14 @@ export interface AuthUser {
   isAnonymous: boolean;
   avatarColor: number;
   avatarUrl?: string | null;
+  avatarStorageValue?: string | null;
   createdAt?: string;
   eloRating?: number;
   eloGamesPlayed?: number;
 }
 
 const LOCAL_AUTH_KEY = "Agorax_auth_user";
+const PENDING_AVATAR_KEY = "Agorax_pending_avatar";
 const PASSWORD_RECOVERY_SESSION_KEY = "Agorax_password_recovery_started_at";
 const PASSWORD_RECOVERY_MAX_AGE_MS = 30 * 60 * 1000;
 
@@ -211,8 +220,11 @@ export const useAuthStore = create<AuthState>((set, get) => ({
           const authUserId = data.user.id;
           const email = data.user.email;
           const metadata = data.user.user_metadata ?? {};
+          const legacyMetadataAvatar = isInlineAvatar(String(metadata.avatar_url ?? ""))
+            ? String(metadata.avatar_url)
+            : null;
 
-          if (metadata.avatar_url && String(metadata.avatar_url).startsWith("data:")) {
+          if (legacyMetadataAvatar) {
             sb.auth.updateUser({ data: { avatar_url: null } }).catch(() => {});
           }
 
@@ -225,7 +237,29 @@ export const useAuthStore = create<AuthState>((set, get) => ({
 
           const name = prof?.nickname || metadata.username || metadata.name || email?.split("@")[0] || "Joueur";
           const avatarColor = prof?.avatar_color ?? 0;
-          const avatarUrl = prof?.avatar_url || null;
+          let avatarStorageValue = prof?.avatar_url || null;
+          let avatarUrl = await resolveProfileAvatar(avatarStorageValue);
+          const pendingAvatar = safeGetStorage(PENDING_AVATAR_KEY);
+          const inlineAvatar = isInlineAvatar(avatarStorageValue)
+            ? avatarStorageValue
+            : isInlineAvatar(pendingAvatar) ? pendingAvatar : legacyMetadataAvatar;
+          if (inlineAvatar && prof?.id) {
+            try {
+              const storedAvatar = await uploadProfileAvatar(inlineAvatar);
+              const { error: avatarError } = await sb.from("player_profiles")
+                .update({ avatar_url: storedAvatar.storageValue })
+                .eq("id", prof.id)
+                .select("id")
+                .single();
+              if (!avatarError) {
+                avatarStorageValue = storedAvatar.storageValue;
+                avatarUrl = storedAvatar.displayUrl;
+                safeRemoveStorage(PENDING_AVATAR_KEY);
+              }
+            } catch {
+              // Keep the pending image locally and retry after the next authenticated refresh.
+            }
+          }
 
           const activeUser: AuthUser = {
             id: prof?.id || authUserId,
@@ -234,6 +268,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
             isAnonymous: false,
             avatarColor,
             avatarUrl,
+            avatarStorageValue: isStoredAvatar(avatarStorageValue) ? avatarStorageValue : null,
             createdAt: data.user.created_at,
             eloRating: prof?.elo_rating ?? 1000,
             eloGamesPlayed: prof?.elo_games_played ?? 0,
@@ -337,10 +372,29 @@ export const useAuthStore = create<AuthState>((set, get) => ({
         const userId = data.user.id;
         const resolved = data.session ? await resolvePlayerProfiles([deviceToken]) : [];
         const profileId = resolved[0]?.profile_id ?? userId;
+        let storedAvatarValue = avatarUrl ?? null;
+        let displayAvatarUrl = avatarUrl ?? null;
+
+        if (isInlineAvatar(avatarUrl)) {
+          if (data.session) {
+            try {
+              const storedAvatar = await uploadProfileAvatar(avatarUrl);
+              storedAvatarValue = storedAvatar.storageValue;
+              displayAvatarUrl = storedAvatar.displayUrl;
+              safeRemoveStorage(PENDING_AVATAR_KEY);
+            } catch {
+              safeSetStorage(PENDING_AVATAR_KEY, avatarUrl);
+              storedAvatarValue = null;
+            }
+          } else {
+            safeSetStorage(PENDING_AVATAR_KEY, avatarUrl);
+            storedAvatarValue = null;
+          }
+        }
 
         if (data.session) {
           try {
-            await sb.from("player_profiles").update({ nickname: cleanName, ...(avatarUrl ? { avatar_url: avatarUrl } : {}) }).eq("id", profileId);
+            await sb.from("player_profiles").update({ nickname: cleanName, ...(storedAvatarValue ? { avatar_url: storedAvatarValue } : {}) }).eq("id", profileId);
           } catch {}
         }
 
@@ -350,7 +404,8 @@ export const useAuthStore = create<AuthState>((set, get) => ({
           name: cleanName,
           isAnonymous: false,
           avatarColor: 0,
-          avatarUrl: avatarUrl ?? null,
+          avatarUrl: displayAvatarUrl,
+          avatarStorageValue: isStoredAvatar(storedAvatarValue) ? storedAvatarValue : null,
           createdAt: data.user.created_at,
         };
 
@@ -360,7 +415,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
         }
 
         const players = useGameStore.getState().players;
-        const updatedPlayers = players.map((p, i) => i === 0 ? { ...p, name: cleanName, avatarUrl: avatarUrl || undefined } : p);
+        const updatedPlayers = players.map((p, i) => i === 0 ? { ...p, name: cleanName, avatarUrl: displayAvatarUrl || undefined } : p);
         useGameStore.getState().setPlayers(updatedPlayers);
         if (language) useLanguageStore.getState().setLanguage(language);
 
@@ -422,7 +477,8 @@ export const useAuthStore = create<AuthState>((set, get) => ({
       await sb.from("player_profiles").update({ nickname: name }).eq("id", profileId);
 
       const { data: prof } = await sb.from("player_profiles").select("avatar_url, nickname, language").eq("id", profileId).maybeSingle();
-      const avatarUrl = prof?.avatar_url || null;
+      const avatarStorageValue = prof?.avatar_url || null;
+      const avatarUrl = await resolveProfileAvatar(avatarStorageValue);
 
       const activeUser: AuthUser = {
         id: profileId,
@@ -431,6 +487,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
         isAnonymous: false,
         avatarColor: 0,
         avatarUrl,
+        avatarStorageValue: isStoredAvatar(avatarStorageValue) ? avatarStorageValue : null,
         createdAt: data.user.created_at,
       };
 
@@ -573,19 +630,37 @@ export const useAuthStore = create<AuthState>((set, get) => ({
     const clean = name.trim().slice(0, 24);
     if (!clean || !["fr", "en"].includes(language)) throw new Error("Profil invalide");
     const sb = getSupabaseBrowser();
+    let storedAvatarValue = avatarUrl;
+    let displayAvatarUrl = avatarUrl;
     if (sb && isSupabaseConfigured && !user.isAnonymous) {
+      if (isInlineAvatar(avatarUrl)) {
+        const storedAvatar = await uploadProfileAvatar(avatarUrl);
+        storedAvatarValue = storedAvatar.storageValue;
+        displayAvatarUrl = storedAvatar.displayUrl;
+      } else if (avatarUrl === user.avatarUrl && user.avatarStorageValue) {
+        storedAvatarValue = user.avatarStorageValue;
+      }
       // One database write: a failed save must not publish optimistic local success.
       const { error } = await sb.from("player_profiles")
-        .update({ nickname: clean, avatar_url: avatarUrl, language })
+        .update({ nickname: clean, avatar_url: storedAvatarValue, language })
         .eq("id", user.id).select("id").single();
       if (error) throw error;
+      safeRemoveStorage(PENDING_AVATAR_KEY);
+      if (!storedAvatarValue || storedAvatarValue.startsWith("/images/team/")) {
+        try { await removeProfileAvatar(); } catch { /* The profile is already saved; orphan cleanup can retry later. */ }
+      }
     }
-    const updatedUser = { ...user, name: clean, avatarUrl };
+    const updatedUser = {
+      ...user,
+      name: clean,
+      avatarUrl: displayAvatarUrl,
+      avatarStorageValue: isStoredAvatar(storedAvatarValue) ? storedAvatarValue : null,
+    };
     set({ user: updatedUser });
     safeSetStorage(LOCAL_AUTH_KEY, JSON.stringify(updatedUser));
     useLanguageStore.getState().setLanguage(language);
     useGameStore.getState().setPlayers(useGameStore.getState().players.map((p, i) =>
-      i === 0 ? { ...p, name: clean, avatarUrl: avatarUrl || undefined, language } : p));
+      i === 0 ? { ...p, name: clean, avatarUrl: displayAvatarUrl || undefined, language } : p));
   },
   updateName: async (name) => {
     const user = get().user;
