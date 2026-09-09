@@ -1,0 +1,662 @@
+[
+  {
+    "id": "qapi-sport-quelle-activite-est-directement--lz6yz3",
+    "conceptId": "concept-sport-quelle-activite-est-directement-",
+    "familyId": "family-sport-jeux-olympiques",
+    "knowledgeKey": "sport.jeux-olympiques.quelle-activite-est-directement-",
+    "contentHash": "440bbdce5397b469a7cc60ea169b39e134f02ba9b8090fd1ba0d64b9807c9f89",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle activité est directement associée à la danse “Pasodoble” ?",
+    "answers": [
+      "La corrida",
+      "Le carnaval",
+      "La plage",
+      "L'opéra"
+    ],
+    "correctAnswer": 0,
+    "acceptedTypedAnswers": [
+      "La corrida"
+    ],
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv3004chzroq2lz6yz3",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-quel-est-le-tournoi-de-tennis-jo-kvdvcl",
+    "conceptId": "concept-sport-quel-est-le-tournoi-de-tennis-jo",
+    "familyId": "family-sport-tennis",
+    "knowledgeKey": "sport.tennis.quel-est-le-tournoi-de-tennis-jo",
+    "contentHash": "d7173cc55f9ec1187d882dc9f8975b3d3b1bd261d18716ecf741e9882233ad8d",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le tournoi de tennis joué sur gazon ?",
+    "answers": [
+      "US Open",
+      "Australian Open",
+      "Roland-Garros",
+      "Wimbledon"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Wimbledon"
+    ],
+    "category": "sport",
+    "subcategory": "tennis",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "tennis",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmguyorf10006hz3pe2kvdvcl",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-lequel-de-ces-sports-se-joue-ave-26d6hd",
+    "conceptId": "concept-sport-lequel-de-ces-sports-se-joue-ave",
+    "familyId": "family-sport-jeux-olympiques",
+    "knowledgeKey": "sport.jeux-olympiques.lequel-de-ces-sports-se-joue-ave",
+    "contentHash": "f7bb5ba7a737c480fe435e3d55da39698e3001e84f29c2bd4bbf1ad757c1a893",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Lequel de ces sports se joue avec un ballon ?",
+    "answers": [
+      "Tennis",
+      "Handball",
+      "Tricot",
+      "Saut à la perche"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "Handball"
+    ],
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv1002thzro9e26d6hd",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-quel-sport-est-associe-au-trophe-xywre5",
+    "conceptId": "concept-sport-quel-sport-est-associe-au-trophe",
+    "familyId": "family-sport-jeux-olympiques",
+    "knowledgeKey": "sport.jeux-olympiques.quel-sport-est-associe-au-trophe",
+    "contentHash": "a94da0ad5715ad3ecbc854de882b4bfab1754340b940cc03d10a4a7954f79d57",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel sport est associé au trophée de la Ryder Cup ?",
+    "answers": [
+      "Baseball",
+      "Golf",
+      "Rugby",
+      "Tennis"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "Golf"
+    ],
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmguyorf1000bhz3p85xywre5",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-qui-a-remporte-la-can-2023-organ-h1rchu",
+    "conceptId": "concept-sport-qui-a-remporte-la-can-2023-organ",
+    "familyId": "family-sport-jeux-olympiques",
+    "knowledgeKey": "sport.jeux-olympiques.qui-a-remporte-la-can-2023-organ",
+    "contentHash": "feb291fbede211bfb394eb8c1a26eb703b26001f8041f3bdc33fb46f17f01297",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui a remporté la can 2023 organisée en Côte d'Ivoire ?",
+    "answers": [
+      "Le Maroc",
+      "Le Sénégal",
+      "L'Algérie",
+      "La Côte d'Ivoire"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "La Côte d'Ivoire"
+    ],
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmiqoycem001vhz0l5vh1rchu",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-quel-etait-le-pays-organisateur--lyjzsh",
+    "conceptId": "concept-sport-quel-etait-le-pays-organisateur-",
+    "familyId": "family-sport-rugby",
+    "knowledgeKey": "sport.rugby.quel-etait-le-pays-organisateur-",
+    "contentHash": "e5662932f8010d72da5c7e5c99e3260b12003331c11cb338eedcf5baecb11b5e",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel était le pays organisateur de la Coupe du Monde de Rugby en 2019 ?",
+    "answers": [
+      "Angleterre",
+      "Japon",
+      "Italie",
+      "Australie"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "Japon"
+    ],
+    "category": "sport",
+    "subcategory": "rugby",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "rugby",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv4004jhzro40lyjzsh",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-quel-sport-utilise-un-ballon-ron-jzlgsw",
+    "conceptId": "concept-sport-quel-sport-utilise-un-ballon-ron",
+    "familyId": "family-sport-jeux-olympiques",
+    "knowledgeKey": "sport.jeux-olympiques.quel-sport-utilise-un-ballon-ron",
+    "contentHash": "ceeb3334d5d4068f902306e480f67636424bc0c9a7984abe5b3f10ff39843dfe",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel sport utilise un ballon rond et se joue principalement avec les pieds ?",
+    "answers": [
+      "Tennis",
+      "Football",
+      "Rugby",
+      "Basketball"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "Football"
+    ],
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv7007chzrooyjzlgsw",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-quelle-nation-a-le-plus-de-titre-q5qsz5",
+    "conceptId": "concept-sport-quelle-nation-a-le-plus-de-titre",
+    "familyId": "family-sport-rugby",
+    "knowledgeKey": "sport.rugby.quelle-nation-a-le-plus-de-titre",
+    "contentHash": "341717169b37d1a95854131808f04e9ce823a69791fff0afd6379d244bd556ad",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle nation a le plus de titres en Coupe du Monde de Rugby ?",
+    "answers": [
+      "Australie",
+      "Nouvelle-Zélande",
+      "Angleterre",
+      "Afrique du Sud"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Afrique du Sud"
+    ],
+    "category": "sport",
+    "subcategory": "rugby",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "rugby",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmguyorf1000ghz3pf5q5qsz5",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-qui-a-ete-surnomme-l-entraineur--2qrzai",
+    "conceptId": "concept-sport-qui-a-ete-surnomme-l-entraineur-",
+    "familyId": "family-sport-jeux-olympiques",
+    "knowledgeKey": "sport.jeux-olympiques.qui-a-ete-surnomme-l-entraineur-",
+    "contentHash": "33440072c97518aae9c100c3b99e8471f5b6fac36ccf3351a7e6f81f0d2bde9e",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui a été surnommé l'entraineur le plus nul du football français depuis Louis XVI ?",
+    "answers": [
+      "Paul Le Guen",
+      "Pascal Dupraz",
+      "Raymond Domenech",
+      "Jocelyn Gourvennec"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Raymond Domenech"
+    ],
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv7007nhzrona2qrzai",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-ou-se-sont-tenus-les-jeux-olympi-ov9ono",
+    "conceptId": "concept-sport-ou-se-sont-tenus-les-jeux-olympi",
+    "familyId": "family-sport-jeux-olympiques",
+    "knowledgeKey": "sport.jeux-olympiques.ou-se-sont-tenus-les-jeux-olympi",
+    "contentHash": "cffab9bf2b41137fce2f96582d2bdf7a4bb58f8c269bd5a149d041cb26e66a96",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Où se sont tenus les Jeux Olympiques d'été de l'an 2000 ?",
+    "answers": [
+      "Sydney (Australie)",
+      "Pékin (Chine)",
+      "Atlanta (États-Unis)",
+      "Athènes (Grèce)"
+    ],
+    "correctAnswer": 0,
+    "acceptedTypedAnswers": [
+      "Sydney (Australie)"
+    ],
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmks1tcng005phz0ltmov9ono",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-dans-quel-sport-utilise-t-on-une-1i0e21",
+    "conceptId": "concept-sport-dans-quel-sport-utilise-t-on-une",
+    "familyId": "family-sport-jeux-olympiques",
+    "knowledgeKey": "sport.jeux-olympiques.dans-quel-sport-utilise-t-on-une",
+    "contentHash": "d26901bc7008132d0d8a04d40a14603d19059b66fb63b144c4dc965453bea0d2",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quel sport utilise-t-on une raquette et un volant ?",
+    "answers": [
+      "Tennis",
+      "Badminton",
+      "Ping-pong",
+      "Squash"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "Badminton"
+    ],
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmguyorf10002hz3pax1i0e21",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-comment-appelle-t-on-l-espace-si-oz8uz2",
+    "conceptId": "concept-sport-comment-appelle-t-on-l-espace-si",
+    "familyId": "family-sport-jeux-olympiques",
+    "knowledgeKey": "sport.jeux-olympiques.comment-appelle-t-on-l-espace-si",
+    "contentHash": "0b5e03a97611388d9a69e63003fc05889c14f43f8db0e364a1360a2985f1677e",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Comment appelle-t-on l'espace situé entre deux skis placés côte à côte ?",
+    "answers": [
+      "Stem",
+      "Half-pipe",
+      "Télémark",
+      "Cambre"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Cambre"
+    ],
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv20039hzroreoz8uz2",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-a-quelle-frequence-la-coupe-du-m-q97qzv",
+    "conceptId": "concept-sport-a-quelle-frequence-la-coupe-du-m",
+    "familyId": "family-sport-rugby",
+    "knowledgeKey": "sport.rugby.a-quelle-frequence-la-coupe-du-m",
+    "contentHash": "c3e663478da72452459c8c928069502cf50470b0df6541656fe45bd267b9b6b3",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "À quelle fréquence, la Coupe du Monde de Rugby à XV est-elle organisée ?",
+    "answers": [
+      "Tous les 4 ans",
+      "Tous les 6 ans",
+      "Tous les 5 ans",
+      "Tous les 3 ans"
+    ],
+    "correctAnswer": 0,
+    "acceptedTypedAnswers": [
+      "Tous les 4 ans"
+    ],
+    "category": "sport",
+    "subcategory": "rugby",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "rugby",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv3004ghzrocaq97qzv",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-comment-s-appelle-le-petit-fils--a1m97l",
+    "conceptId": "concept-sport-comment-s-appelle-le-petit-fils-",
+    "familyId": "family-sport-jeux-olympiques",
+    "knowledgeKey": "sport.jeux-olympiques.comment-s-appelle-le-petit-fils-",
+    "contentHash": "90774ce946012b73c3bf09fabc69dffb0b9f29cc84bca2d076b824964870b51b",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Comment s'appelle le petit-fils de Raymond Poulidor ?",
+    "answers": [
+      "Victor Lafay",
+      "Romain Bardet",
+      "Thibault Pinot",
+      "Mathieu van der Poel"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Mathieu van der Poel"
+    ],
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv7007ohzromka1m97l",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-sport-aux-jeux-olympiques-d-hiver-de-2-5slevh",
+    "conceptId": "concept-sport-aux-jeux-olympiques-d-hiver-de-2",
+    "familyId": "family-sport-jeux-olympiques",
+    "knowledgeKey": "sport.jeux-olympiques.aux-jeux-olympiques-d-hiver-de-2",
+    "contentHash": "8e4ec61dd18eb4754c6528bab90cc18f01e987df36b4ca960805a8b06b22bd0b",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Aux Jeux olympiques d'hiver de 2026, quel pays a remporté le plus de médailles d'or ?",
+    "answers": [
+      "Chine",
+      "États-Unis",
+      "Italie",
+      "Norvège"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Norvège"
+    ],
+    "category": "sport",
+    "subcategory": "jeux-olympiques",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "sport",
+      "jeux-olympiques",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmmwc1g12002dhzl61w5slevh",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  }
+]

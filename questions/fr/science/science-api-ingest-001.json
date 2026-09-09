@@ -1,0 +1,618 @@
+[
+  {
+    "id": "qapi-science-en-combien-de-phases-le-cycle-de-84hx0f",
+    "conceptId": "concept-science-en-combien-de-phases-le-cycle-de",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.en-combien-de-phases-le-cycle-de",
+    "contentHash": "8137e700f716b2e7a80fcbee77154bae7e80d72cd045fba998c255b5faab7dc7",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "En combien de phases, le cycle de la Lune est-il découpé ?",
+    "answers": [
+      "6 phases",
+      "4 phases",
+      "10 phases",
+      "8 phases"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "8 phases"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv5005vhzro0n84hx0f",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-quel-est-le-mode-de-locomotion-d-45hcnl",
+    "conceptId": "concept-science-quel-est-le-mode-de-locomotion-d",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.quel-est-le-mode-de-locomotion-d",
+    "contentHash": "b8c1dfb8ac66dbe67a5eb2a5e190cb0f5846817399e0377ad429ddea18edfe10",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le mode de locomotion du chat ?",
+    "answers": [
+      "Onguligrade",
+      "Coussinigrade",
+      "Plantigrade",
+      "Digitigrade"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Digitigrade"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmjqa94ng004fhz0ldb45hcnl",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-quel-est-l-element-chimique-repr-11jh4r",
+    "conceptId": "concept-science-quel-est-l-element-chimique-repr",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.quel-est-l-element-chimique-repr",
+    "contentHash": "5374a8d3356beb68e55f523d94cbd67552e5fa60ac2337dee684a8e4deb7fc19",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est l’élément chimique représenté par le symbole O ?",
+    "answers": [
+      "Or",
+      "Ozone",
+      "Oxygène",
+      "Osmium"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Oxygène"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmguwgjnv000ghzkm6o11jh4r",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-de-combien-de-paires-de-bases-nu-tw24eu",
+    "conceptId": "concept-science-de-combien-de-paires-de-bases-nu",
+    "familyId": "family-science-corps-humain",
+    "knowledgeKey": "science.corps-humain.de-combien-de-paires-de-bases-nu",
+    "contentHash": "0f5ce39953216f7feb91e25ef95a38ae1c09696fd5477073128603b618247283",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "De combien de paires de bases (nucléotides) est constitué le génome humain ?",
+    "answers": [
+      "3,2 millions",
+      "3,2 milliards",
+      "32 millions",
+      "320 millions"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "3,2 milliards"
+    ],
+    "category": "science",
+    "subcategory": "corps-humain",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "science",
+      "corps-humain",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmgqcr343000dhz951jtw24eu",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-quelle-hormone-est-responsable-d-g10wxn",
+    "conceptId": "concept-science-quelle-hormone-est-responsable-d",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.quelle-hormone-est-responsable-d",
+    "contentHash": "63855003103f9d7341d9f1fdc70c30c74c3efe7b7f4595747734340a12a5865b",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle hormone est responsable de la satiété ?",
+    "answers": [
+      "Insuline",
+      "Ocytocine",
+      "Leptine",
+      "Gastrine"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Leptine"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmsm6dmhq0013hz9cong10wxn",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-quel-est-le-nom-scientifique-pou-03jg2l",
+    "conceptId": "concept-science-quel-est-le-nom-scientifique-pou",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.quel-est-le-nom-scientifique-pou",
+    "contentHash": "b731ab0cf058165b5ea3f4b1c686cd21de370597ec29e45aa6f419406ec841b6",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le nom scientifique pour un bleu ?",
+    "answers": [
+      "Epistaxis",
+      "Erythème",
+      "Nævus",
+      "Ecchymose"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Ecchymose"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmpsddy95008jhzl6n603jg2l",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-quel-est-l-objet-d-etude-de-l-en-quoit3",
+    "conceptId": "concept-science-quel-est-l-objet-d-etude-de-l-en",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.quel-est-l-objet-d-etude-de-l-en",
+    "contentHash": "e33cb29ead5c4dd0698b1a2f9d39d01743ade0e3df3e6a35285bb12ebe52de0e",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est l'objet d'étude de l'entomologie ?",
+    "answers": [
+      "Les poissons",
+      "Les reptiles",
+      "Les insectes",
+      "Les oiseaux"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Les insectes"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmkbcl93g0051hz0lb3quoit3",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-quelle-planete-du-systeme-solair-4qyxws",
+    "conceptId": "concept-science-quelle-planete-du-systeme-solair",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.quelle-planete-du-systeme-solair",
+    "contentHash": "4ec54305face090c402f2fdbc75759e2f087cdec40ab5544a9d9a3c0133b6d30",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle planète du système solaire fait un tour complet du Soleil en 224,7 jours terrestres ?",
+    "answers": [
+      "Jupiter",
+      "Mercure",
+      "Mars",
+      "Venus"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Venus"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmskesif0000hhz9cxx4qyxws",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-dans-un-triangle-quelconque-quel-r9bicv",
+    "conceptId": "concept-science-dans-un-triangle-quelconque-quel",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.dans-un-triangle-quelconque-quel",
+    "contentHash": "c6d77c0be794f59284c1285c930b26ba5273bbf5323ec789d64ec44a703c4a34",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans un triangle quelconque, quelle demi-droite partage un angle en deux angles égaux ?",
+    "answers": [
+      "Médiane",
+      "Médiatrice",
+      "Bissectrice",
+      "Hauteur"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Bissectrice"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmsgdj95a002vhzbt4nr9bicv",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-quelle-etoile-est-la-plus-proche-6n34vw",
+    "conceptId": "concept-science-quelle-etoile-est-la-plus-proche",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.quelle-etoile-est-la-plus-proche",
+    "contentHash": "b69273668f7770bfe67296bf184e3c202c6d69b9468251ed48be4ef79004d414",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle étoile est la plus proche de notre système solaire ?",
+    "answers": [
+      "Sirius",
+      "Arcturus",
+      "Proxima Centauri",
+      "Véga"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Proxima Centauri"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmgqc6qtj0007hz95706n34vw",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-quelle-affection-neurologique-es-q79h66",
+    "conceptId": "concept-science-quelle-affection-neurologique-es",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.quelle-affection-neurologique-es",
+    "contentHash": "a6e943043ebafb91f6abb6183769346108b2adf9c1f653de9bc79897e7e0896c",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle affection neurologique est aussi appelée mal comitial ?",
+    "answers": [
+      "Maladie de Lyme",
+      "Maladie d'Alzheimer",
+      "Épilepsie",
+      "Narcolepsie"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Épilepsie"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmt77t59k001lhz9c2eq79h66",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-quelle-est-la-seule-planete-du-s-to5o1m",
+    "conceptId": "concept-science-quelle-est-la-seule-planete-du-s",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.quelle-est-la-seule-planete-du-s",
+    "contentHash": "d6841fe1f78f45d16e18f40863fd5158ce6a2d9735352c77ad90a90e862c7e6b",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle est la seule planète du Système solaire pour laquelle la rotation sur elle-même est plus lente que la révolution autour du Soleil ?",
+    "answers": [
+      "Saturne",
+      "Neptune",
+      "Vénus",
+      "Mars"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Vénus"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmtg2h57n002thz9czito5o1m",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-comment-appelle-t-on-le-petit-du-8hgzy5",
+    "conceptId": "concept-science-comment-appelle-t-on-le-petit-du",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.comment-appelle-t-on-le-petit-du",
+    "contentHash": "90c0d4b158a79b157a110b09c0fc0810fc37525a136eca613d5b965f20ffc127",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Comment appelle-t-on le petit du paon ?",
+    "answers": [
+      "Le paonneau",
+      "Le paonnais",
+      "Le paoné",
+      "Le panneau"
+    ],
+    "correctAnswer": 0,
+    "acceptedTypedAnswers": [
+      "Le paonneau"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmiudmxvz001zhz0lhu8hgzy5",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-science-a-combien-d-annees-lumieres-se-s-vln1kt",
+    "conceptId": "concept-science-a-combien-d-annees-lumieres-se-s",
+    "familyId": "family-science-astronomie",
+    "knowledgeKey": "science.astronomie.a-combien-d-annees-lumieres-se-s",
+    "contentHash": "faa961d29952df3252a8d518e3b447654b90093bc43b861d893d25951fb644db",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "A combien d'années-lumières se situe environ l'étoile la plus proche de notre système solaire, Proxima Centauri ?",
+    "answers": [
+      "42",
+      "4",
+      "320",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "4"
+    ],
+    "category": "science",
+    "subcategory": "astronomie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "science",
+      "astronomie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmgqc9r7r0009hz95obvln1kt",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  }
+]

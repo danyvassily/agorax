@@ -1,0 +1,618 @@
+[
+  {
+    "id": "qapi-food-quel-est-le-nom-du-plat-indien-c-wp4lfp",
+    "conceptId": "concept-food-quel-est-le-nom-du-plat-indien-c",
+    "familyId": "family-food-epices-ingredients",
+    "knowledgeKey": "food.epices-ingredients.quel-est-le-nom-du-plat-indien-c",
+    "contentHash": "9eee2ed71f136635e4818d2b017c6a741397b57473a3f3dc37999da9b0916d4b",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le nom du plat indien composé de lentilles et d’épices ?",
+    "answers": [
+      "Dal",
+      "Curry",
+      "Naan",
+      "Tandoori"
+    ],
+    "correctAnswer": 0,
+    "acceptedTypedAnswers": [
+      "Dal"
+    ],
+    "category": "food",
+    "subcategory": "epices-ingredients",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "epices-ingredients",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmgux4s2q000ahzwkb4wp4lfp",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-de-quelle-region-le-kouglof-est--m3efew",
+    "conceptId": "concept-food-de-quelle-region-le-kouglof-est-",
+    "familyId": "family-food-gastronomie-francaise",
+    "knowledgeKey": "food.gastronomie-francaise.de-quelle-region-le-kouglof-est-",
+    "contentHash": "7dfe875aa454e06bdebd1ae2b05e5420b592f9bb3fb712eaf7a438c21176d4bd",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "De quelle région le Kouglof est-il une spécialité ?",
+    "answers": [
+      "Franche-Comté",
+      "Rhône-Alpes",
+      "Alsace",
+      "Aveyron"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Alsace"
+    ],
+    "category": "food",
+    "subcategory": "gastronomie-francaise",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "gastronomie-francaise",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv6006khzroeim3efew",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-quel-pays-est-le-premier-product-fnye82",
+    "conceptId": "concept-food-quel-pays-est-le-premier-product",
+    "familyId": "family-food-gastronomie-francaise",
+    "knowledgeKey": "food.gastronomie-francaise.quel-pays-est-le-premier-product",
+    "contentHash": "42a3649a764df84f87b43c47e36f878ce64fdee3f39bd33d93615e36b686d11b",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel pays est le premier producteur mondial de tomates ?",
+    "answers": [
+      "La Chine",
+      "Le Maroc",
+      "L'Italie",
+      "Les Pays-Bas"
+    ],
+    "correctAnswer": 0,
+    "acceptedTypedAnswers": [
+      "La Chine"
+    ],
+    "category": "food",
+    "subcategory": "gastronomie-francaise",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "gastronomie-francaise",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv5005chzro12fnye82",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-comment-appelle-t-on-la-confiser-jguoda",
+    "conceptId": "concept-food-comment-appelle-t-on-la-confiser",
+    "familyId": "family-food-gastronomie-francaise",
+    "knowledgeKey": "food.gastronomie-francaise.comment-appelle-t-on-la-confiser",
+    "contentHash": "24063f86a2bb8d50dd6a369eac0111eae6aaf6b8057c3271a2ec86710d7fb922",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Comment appelle-t-on la confiserie espagnole à base d'amandes grillées et de miel ?",
+    "answers": [
+      "Le mascarpone",
+      "Le turrón",
+      "Le polvorón",
+      "Le chuletón"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "Le turrón"
+    ],
+    "category": "food",
+    "subcategory": "gastronomie-francaise",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "gastronomie-francaise",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmkfcpm8u0057hz0lrdjguoda",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-de-quel-coin-de-france-est-origi-l17093",
+    "conceptId": "concept-food-de-quel-coin-de-france-est-origi",
+    "familyId": "family-food-gastronomie-francaise",
+    "knowledgeKey": "food.gastronomie-francaise.de-quel-coin-de-france-est-origi",
+    "contentHash": "06c443a29d175713a1360f7f0952a475f994a0f353ebcfc00e1bd82b73a7b9c4",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "De quel coin de France est originaire l’Aligot ?",
+    "answers": [
+      "Bourgogne",
+      "Corse",
+      "Ile-de-France",
+      "Auvergne"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Auvergne"
+    ],
+    "category": "food",
+    "subcategory": "gastronomie-francaise",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "gastronomie-francaise",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv6006jhzrov7l17093",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-de-quelle-couleur-est-la-praline-io8vyd",
+    "conceptId": "concept-food-de-quelle-couleur-est-la-praline",
+    "familyId": "family-food-gastronomie-francaise",
+    "knowledgeKey": "food.gastronomie-francaise.de-quelle-couleur-est-la-praline",
+    "contentHash": "d45408f333ba4cf662079e3412feceb9ccaa23472f9742affb22dd07c94f5654",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "De quelle couleur est la praline utilisée pour la tarte aux pralines lyonnaise ?",
+    "answers": [
+      "Verte",
+      "Rose",
+      "Bleue",
+      "Orange"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "Rose"
+    ],
+    "category": "food",
+    "subcategory": "gastronomie-francaise",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "gastronomie-francaise",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmiif69u90015hz0lf9io8vyd",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-quelle-epice-provient-du-pistil--td5sf9",
+    "conceptId": "concept-food-quelle-epice-provient-du-pistil-",
+    "familyId": "family-food-gastronomie-francaise",
+    "knowledgeKey": "food.gastronomie-francaise.quelle-epice-provient-du-pistil-",
+    "contentHash": "f96d0b07d022c6acbeb73dab62072fc68a27c5146214e38025a8260a055eee9a",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle épice provient du pistil d’une fleur de crocus ?",
+    "answers": [
+      "Curcuma",
+      "Cardamome",
+      "Safran",
+      "Gingembre"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Safran"
+    ],
+    "category": "food",
+    "subcategory": "gastronomie-francaise",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "gastronomie-francaise",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmgux4s2q000fhzwkpwtd5sf9",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-de-quelle-region-francaise-le-ga-q2k1xh",
+    "conceptId": "concept-food-de-quelle-region-francaise-le-ga",
+    "familyId": "family-food-gastronomie-francaise",
+    "knowledgeKey": "food.gastronomie-francaise.de-quelle-region-francaise-le-ga",
+    "contentHash": "d2adbe8df2f71b913fa891cbcbaa0214bbfd67772821888e5bd248cad2fde226",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "De quelle région française le gâteau de Noël nommé \"Manalas\" est-il une spécialité ?",
+    "answers": [
+      "Auvergne",
+      "Corse",
+      "Alsace",
+      "Bretagne"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Alsace"
+    ],
+    "category": "food",
+    "subcategory": "gastronomie-francaise",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "gastronomie-francaise",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdv6006rhzrollq2k1xh",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-avec-quel-fromage-prepare-t-on-u-ne9bz3",
+    "conceptId": "concept-food-avec-quel-fromage-prepare-t-on-u",
+    "familyId": "family-food-gastronomie-francaise",
+    "knowledgeKey": "food.gastronomie-francaise.avec-quel-fromage-prepare-t-on-u",
+    "contentHash": "75a3c494a2e6a985689f3110b22adea1cc9c29659cd14939fcad51dfe8a2b288",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Avec quel fromage prépare-t-on un aligot ?",
+    "answers": [
+      "Beaufort",
+      "Cantal",
+      "Tomme Fraîche",
+      "Conté"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Tomme Fraîche"
+    ],
+    "category": "food",
+    "subcategory": "gastronomie-francaise",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "gastronomie-francaise",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmguq59xl0021hz9510ne9bz3",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-en-quelle-annee-fut-cree-le-prem-wp6bsi",
+    "conceptId": "concept-food-en-quelle-annee-fut-cree-le-prem",
+    "familyId": "family-food-gastronomie-francaise",
+    "knowledgeKey": "food.gastronomie-francaise.en-quelle-annee-fut-cree-le-prem",
+    "contentHash": "f4d3df7efa5b1cb8a5f3a255c6fb40593ecfe88ddfb4d2b935db17d827259e52",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "En quelle année fut créé le premier Guide Michelin, célèbre guide gastronomique ?",
+    "answers": [
+      "1900",
+      "1798",
+      "1865",
+      "1830"
+    ],
+    "correctAnswer": 0,
+    "acceptedTypedAnswers": [
+      "1900"
+    ],
+    "category": "food",
+    "subcategory": "gastronomie-francaise",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "gastronomie-francaise",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmk8efj95004xhz0lymwp6bsi",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-quel-pays-est-celebre-pour-le-pl-m1d825",
+    "conceptId": "concept-food-quel-pays-est-celebre-pour-le-pl",
+    "familyId": "family-food-gastronomie-francaise",
+    "knowledgeKey": "food.gastronomie-francaise.quel-pays-est-celebre-pour-le-pl",
+    "contentHash": "32c85ae89e9c8d2f7d23dd7c48a7b28323cca6a9a402b65d7ec5fa3a3ebb228a",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel pays est célèbre pour le plat appelé paella ?",
+    "answers": [
+      "Italie",
+      "Portugal",
+      "Mexique",
+      "Espagne"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Espagne"
+    ],
+    "category": "food",
+    "subcategory": "gastronomie-francaise",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "gastronomie-francaise",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmgux4s2q0004hzwkokm1d825",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-quelle-patisserie-en-escargot-su-zkxd03",
+    "conceptId": "concept-food-quelle-patisserie-en-escargot-su",
+    "familyId": "family-food-patisserie",
+    "knowledgeKey": "food.patisserie.quelle-patisserie-en-escargot-su",
+    "contentHash": "8c11be0863382e42ddde6ec52f394e7181ec05da4b058cb9c476be5b978a1294",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle pâtisserie \"en escargot\", sucrée, fermentée et cuite au four, est un dessert traditionnel et emblématique de l'île de Majorque ?",
+    "answers": [
+      "Torrijas",
+      "Turrón",
+      "Ensaïmada",
+      "Quesillo"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Ensaïmada"
+    ],
+    "category": "food",
+    "subcategory": "patisserie",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "patisserie",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmskg498u000rhz9cbkzkxd03",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-quel-est-le-nom-du-processus-de--35r4n7",
+    "conceptId": "concept-food-quel-est-le-nom-du-processus-de-",
+    "familyId": "family-food-gastronomie-francaise",
+    "knowledgeKey": "food.gastronomie-francaise.quel-est-le-nom-du-processus-de-",
+    "contentHash": "d8d0d300e40267fbef3e799273e236542bb26fef2f8fd34f9683e6065fba605e",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le nom du processus de transformation du lait en fromage ?",
+    "answers": [
+      "Pasteurisation",
+      "Affinage",
+      "Lactosérum",
+      "Caillage"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Caillage"
+    ],
+    "category": "food",
+    "subcategory": "gastronomie-francaise",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "gastronomie-francaise",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmgux4s2q000jhzwkan35r4n7",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-food-quelle-expression-anglaise-desig-5zkfnh",
+    "conceptId": "concept-food-quelle-expression-anglaise-desig",
+    "familyId": "family-food-gastronomie-francaise",
+    "knowledgeKey": "food.gastronomie-francaise.quelle-expression-anglaise-desig",
+    "contentHash": "6967075f2efe460d0c7b1d1ac4ce6420311f0dc3301df362aba4dc340b2ce324",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle expression anglaise désigne un cocktail où l'alcool est servi avec des glaçons dans un verre ?",
+    "answers": [
+      "Straight up",
+      "With a twist",
+      "Neat",
+      "On the rocks"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "On the rocks"
+    ],
+    "category": "food",
+    "subcategory": "gastronomie-francaise",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "gastronomie",
+      "gastronomie-francaise",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmlwcl0sz000ihzhys25zkfnh",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  }
+]

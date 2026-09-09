@@ -34,7 +34,8 @@
     "questions:audit:language": "tsx scripts/questions/audit/language.ts",
     "questions:sync:supabase": "tsx scripts/questions/sync-supabase.ts",
     "questions:ingest:opentdb": "tsx scripts/archive/ingest-opentdb.ts",
-    "questions:build:new-themes": "tsx scripts/archive/build-opentrivia-dumps.ts"
+    "questions:build:new-themes": "tsx scripts/archive/build-opentrivia-dumps.ts",
+    "questions:ingest:api": "tsx scripts/questions/ingest-external-apis.ts"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",

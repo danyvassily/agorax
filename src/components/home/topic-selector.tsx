@@ -5,6 +5,7 @@ import Image from "next/image";
 import { Check, ChevronDown, Search, Shuffle } from "lucide-react";
 import { CATEGORIES, type QuestionCategory } from "@/lib/questions/schema";
 import { categoryLabel } from "@/lib/game/modes";
+import { getSubthemesForCategory } from "@/lib/questions/subthemes";
 import styles from "./topic-selector.module.css";
 
 type Topic = QuestionCategory | "mixed";
@@ -192,6 +193,26 @@ export function TopicSelector({
           <p className={styles.empty}>{en ? "No matching topic." : "Aucun thème correspondant."}</p>
         )}
       </div>
+
+      {value !== "mixed" && (
+        <div className="mt-4 p-3.5 rounded-2xl bg-fp-surface border border-fp-border/70 animate-rise">
+          <div className="flex items-center gap-1.5 font-bold text-fp-text text-xs mb-2">
+            <span>✨</span>
+            <span>{en ? "Featured Sub-topics:" : "Sous-thèmes au programme :"}</span>
+          </div>
+          <div className="flex flex-wrap gap-1.5">
+            {getSubthemesForCategory(value).map((sub) => (
+              <span
+                key={sub.slug}
+                className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-fp-primary/10 border border-fp-primary/20 text-fp-primary text-[11px] font-semibold"
+              >
+                <span>{sub.icon}</span>
+                <span>{en ? sub.nameEn : sub.nameFr}</span>
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

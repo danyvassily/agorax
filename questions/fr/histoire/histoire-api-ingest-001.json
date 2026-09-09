@@ -1,0 +1,662 @@
+[
+  {
+    "id": "qapi-histoire-de-quel-roi-de-france-anne-d-aut-mzvtvh",
+    "conceptId": "concept-histoire-de-quel-roi-de-france-anne-d-aut",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.de-quel-roi-de-france-anne-d-aut",
+    "contentHash": "f281f3624fb5cdc470bc2e98cc363806c4fc694abc0e16429340d45a7edd251b",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "De quel roi de France, Anne d'Autriche était-elle la mère ?",
+    "answers": [
+      "Louis XIV",
+      "Louis XVI",
+      "Henri IV",
+      "François Ier"
+    ],
+    "correctAnswer": 0,
+    "acceptedTypedAnswers": [
+      "Louis XIV"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmjydemb3004lhz0lt1mzvtvh",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-quel-est-l-ancien-nom-de-la-vill-nh5lm3",
+    "conceptId": "concept-histoire-quel-est-l-ancien-nom-de-la-vill",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.quel-est-l-ancien-nom-de-la-vill",
+    "contentHash": "2ce31da3d8cd52b69bf54a7ea1fb40bd82c3c3a45f90ff77d4eccb0da8fb88e9",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est l'ancien nom de la ville de New York avant sa conquête par les Anglais ?",
+    "answers": [
+      "Nouvelle-Orléans",
+      "Nouvelle-Lisbonne",
+      "Nouvelle-Barcelone",
+      "Nouvelle-Amsterdam"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Nouvelle-Amsterdam"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cml2ff9o7006vhz0llsnh5lm3",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-vers-quelle-date-a-ete-invente-l-819hvh",
+    "conceptId": "concept-histoire-vers-quelle-date-a-ete-invente-l",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.vers-quelle-date-a-ete-invente-l",
+    "contentHash": "5c56b5b4ab85e5361429138acf5f87480b8416ab49f408d54a08cb8276fce2c9",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Vers quelle date a été inventé l'écriture ?",
+    "answers": [
+      "-10500",
+      "-3600",
+      "-3300",
+      "-2900"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "-3300"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdut002nhzrolt819hvh",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-ou-ont-ete-juges-les-nazis-cggy3w",
+    "conceptId": "concept-histoire-ou-ont-ete-juges-les-nazis",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.ou-ont-ete-juges-les-nazis",
+    "contentHash": "79bbcd14c8cc3e65e06cbec0aa83b6aeee5db2d7c9609987c9d390143b8cc8f9",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Où ont été jugés les nazis ?",
+    "answers": [
+      "Sigmaringen",
+      "Berlin",
+      "Nuremberg",
+      "Auschwitz"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Nuremberg"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmck8wdut002ohzrod1cggy3w",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-dans-quelle-ville-charles-vii-fu-zvd42k",
+    "conceptId": "concept-histoire-dans-quelle-ville-charles-vii-fu",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.dans-quelle-ville-charles-vii-fu",
+    "contentHash": "d6ec09e746191189b2505c70b067afbf7b94a7c52daca0ced07a6b0fa4b0f497",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Dans quelle ville Charles VII fut-il sacré roi de France, en 1429 ?",
+    "answers": [
+      "Orléans",
+      "Aix-la-Chapelle",
+      "Reims",
+      "Saint-Denis"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Reims"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmn2vfp0x002zhzl69gzvd42k",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-quel-empire-fut-dirige-par-gengi-0krh8v",
+    "conceptId": "concept-histoire-quel-empire-fut-dirige-par-gengi",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.quel-empire-fut-dirige-par-gengi",
+    "contentHash": "9c80cf4221b82ade09104373df5712a970ed2eb63d808f0e3cca4513cccee5b8",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel empire fut dirigé par Gengis Khan ?",
+    "answers": [
+      "Empire mongol",
+      "Empire perse",
+      "Empire chinois",
+      "Empire hittite"
+    ],
+    "correctAnswer": 0,
+    "acceptedTypedAnswers": [
+      "Empire mongol"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmguxt8tz0006hze6cq0krh8v",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-quelle-etait-la-nationalite-de-m-78xx7e",
+    "conceptId": "concept-histoire-quelle-etait-la-nationalite-de-m",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.quelle-etait-la-nationalite-de-m",
+    "contentHash": "f97618527be83ef3a6db036db5487c9c0179e85d861ca90e7e95ef17793e48c2",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle était la nationalité de Marco Polo ?",
+    "answers": [
+      "Française",
+      "Vénitienne",
+      "Portugaise",
+      "Espagnole"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "Vénitienne"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmktcbtvl005vhz0lef78xx7e",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-quel-traite-partagea-le-monde-en-k0r7m1",
+    "conceptId": "concept-histoire-quel-traite-partagea-le-monde-en",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.quel-traite-partagea-le-monde-en",
+    "contentHash": "f784b52bf9a9c15e14202ef8dfd3a40da172cc1bf7c1939e0e62e537c27b2383",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel traité partagea le monde entre l’Espagne et le Portugal en 1494 ?",
+    "answers": [
+      "Traité de Saragosse",
+      "Traité de Verdun",
+      "Traité d'Utrecht",
+      "Traité de Tordesillas"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Traité de Tordesillas"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmguxt8u0000dhze612k0r7m1",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-quel-est-le-nom-du-code-juridiqu-zztliy",
+    "conceptId": "concept-histoire-quel-est-le-nom-du-code-juridiqu",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.quel-est-le-nom-du-code-juridiqu",
+    "contentHash": "fde53986e550f9855aa431676d38acd17764ef5f997842c913f97d08993d3edb",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quel est le nom du code juridique promulgué par Napoléon ?",
+    "answers": [
+      "Code pénal",
+      "Code civil",
+      "Code constitutionnel",
+      "Code administratif"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "Code civil"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmguxt8u0000ehze6u5zztliy",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-comment-s-appelle-la-periode-de--k3fdb1",
+    "conceptId": "concept-histoire-comment-s-appelle-la-periode-de-",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.comment-s-appelle-la-periode-de-",
+    "contentHash": "a1554a9f3b77063702f375bb1f9ffad99bdc41d8702176d72349f4a46b6f4550",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Comment s’appelle la période de renouveau artistique et culturel en Europe entre les XVe et XVIe siècles ?",
+    "answers": [
+      "Baroque",
+      "Romantisme",
+      "Classicisme",
+      "Renaissance"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Renaissance"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmguxt8u0000ghze6kmk3fdb1",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-quelle-merveille-du-monde-antiqu-jg10iy",
+    "conceptId": "concept-histoire-quelle-merveille-du-monde-antiqu",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.quelle-merveille-du-monde-antiqu",
+    "contentHash": "a7703a0fb10064d2eb8ce0af19a7e326c6187ca8a5a4ac65e03dc038874c7d42",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle merveille du monde antique représente Hélios, le dieu du Soleil ?",
+    "answers": [
+      "La colonne d'Hercules",
+      "Le mausolée d'Halicarnasse",
+      "Le phare d'Alexandrie",
+      "Le colosse de Rhodes"
+    ],
+    "correctAnswer": 3,
+    "acceptedTypedAnswers": [
+      "Le colosse de Rhodes"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmkrdd6qk005nhz0luzjg10iy",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-a-quel-pays-africain-actuel-corr-bhurrc",
+    "conceptId": "concept-histoire-a-quel-pays-africain-actuel-corr",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.a-quel-pays-africain-actuel-corr",
+    "contentHash": "e1f11fd4f0dccf6a6b01d39db8f1c9de9bd2bac244d6cccf1f966257528d5b3a",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "A quel pays africain actuel correspond l'ancien royaume du Dahomey ?",
+    "answers": [
+      "Mauritanie",
+      "Bénin",
+      "Liberia",
+      "Côte-d'Ivoire"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "Bénin"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmmge3org001dhzl67xbhurrc",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-qui-etait-la-reine-d-egypte-conn-n1kx1m",
+    "conceptId": "concept-histoire-qui-etait-la-reine-d-egypte-conn",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.qui-etait-la-reine-d-egypte-conn",
+    "contentHash": "5c7fbbc4e0155df8c9d66bf0a7f6e1e8be67d465c78fd9955b2ac5d37959b61a",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui était la reine d’Égypte connue pour sa relation avec Jules César ?",
+    "answers": [
+      "Bérénice",
+      "Cléopâtre",
+      "Néfertiti",
+      "Hatchepsout"
+    ],
+    "correctAnswer": 1,
+    "acceptedTypedAnswers": [
+      "Cléopâtre"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "easy",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmguxt8tz0004hze6wxn1kx1m",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-qui-a-fonde-la-croix-rouge-en-18-ojcw1e",
+    "conceptId": "concept-histoire-qui-a-fonde-la-croix-rouge-en-18",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.qui-a-fonde-la-croix-rouge-en-18",
+    "contentHash": "6a90acf55a85a433a5e524a1ff7a406ab9d4215b8e5a24415999b81259fa91fc",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Qui a fondé la Croix Rouge en 1863 ?",
+    "answers": [
+      "Louis Pasteur",
+      "Florence Nightingale",
+      "Henri Dunant",
+      "Albert Schweitzer"
+    ],
+    "correctAnswer": 2,
+    "acceptedTypedAnswers": [
+      "Henri Dunant"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "medium",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmgs6047q001phz95vdojcw1e",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  },
+  {
+    "id": "qapi-histoire-quelle-bataille-mit-fin-a-l-empi-6bq0sy",
+    "conceptId": "concept-histoire-quelle-bataille-mit-fin-a-l-empi",
+    "familyId": "family-histoire-antiquite",
+    "knowledgeKey": "histoire.antiquite.quelle-bataille-mit-fin-a-l-empi",
+    "contentHash": "515eaf4607d655d5f5e6bb383c8685761ce7a89e719e86347072c7776263aa01",
+    "type": "mcq",
+    "inputMode": "mcq",
+    "question": "Quelle bataille mit fin à l’Empire napoléonien en 1815 ?",
+    "answers": [
+      "Bataille de Waterloo",
+      "Bataille d'Austerlitz",
+      "Bataille de Borodino",
+      "Bataille de Leipzig"
+    ],
+    "correctAnswer": 0,
+    "acceptedTypedAnswers": [
+      "Bataille de Waterloo"
+    ],
+    "category": "histoire",
+    "subcategory": "antiquite",
+    "difficulty": "hard",
+    "language": "fr",
+    "tags": [
+      "histoire",
+      "antiquite",
+      "quizzapi"
+    ],
+    "source": {
+      "provider": "quizzapi",
+      "sourceId": "cmguxt8u0000ihze6ms6bq0sy",
+      "url": "https://quizzapi.fr",
+      "license": "Open Data"
+    },
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://quizzapi.fr"
+      ]
+    },
+    "confidence": 0.9,
+    "qualityScore": 0.9,
+    "version": 1
+  }
+]
