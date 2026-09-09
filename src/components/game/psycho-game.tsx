@@ -4,6 +4,7 @@
  * JOUXTA — Mode Profil Psycho (Analyse Psychologique)
  * Test introspectif et décalé de 18 scénarios pour révéler son archétype de soirée.
  * Supporte le jeu en Solo et le Pass-and-Play multi-joueurs avec bilan comparatif.
+ * Entièrement bilingue (FR / EN).
  */
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
@@ -45,24 +46,32 @@ const EXPERIENCE_META: Record<PsychoExperience, { name: string; description: str
   quick: { name: "Dilemmes express", description: "6 choix rapides pour révéler ton style de soirée en 2 minutes.", nameEn: "Quick dilemmas", descriptionEn: "Six rapid choices to reveal your party style in two minutes.", minPlayers: 1, emoji: "⚡" },
 };
 
-const ANALYZING_STEPS = [
+const ANALYZING_STEPS_FR = [
   "Analyse de vos réflexes sociaux et de vos dilemmes…",
   "Détection de vos contradictions inavouées…",
   "Calcul de votre potentiel chaotique en soirée…",
   "Révélation de votre archétype psychologique…",
 ];
 
+const ANALYZING_STEPS_EN = [
+  "Analyzing your social reflexes and dilemma choices…",
+  "Detecting your unspoken contradictions…",
+  "Calculating your party chaos potential…",
+  "Revealing your psychological archetype…",
+];
+
 export function PsychoGame() {
   const router = useRouter();
   const config = useGameStore((s) => s.config);
   const language = useLanguageStore((s) => s.language);
+  const isEn = language === "en";
 
   const players: Player[] = useMemo(() => {
     if (config?.players && config.players.length > 0) {
       return config.players;
     }
-    return [makePlayer(0, "Joueur 1")];
-  }, [config?.players]);
+    return [makePlayer(0, isEn ? "Player 1" : "Joueur 1")];
+  }, [config?.players, isEn]);
 
   const [activePlayerIndex, setActivePlayerIndex] = useState(0);
   const [completedProfiles, setCompletedProfiles] = useState<Record<string, PsychoProfileResult>>({});
@@ -94,12 +103,14 @@ export function PsychoGame() {
     return null;
   }, [completedProfiles, currentPlayer.id, answers, questionCount]);
 
+  const analyzingSteps = isEn ? ANALYZING_STEPS_EN : ANALYZING_STEPS_FR;
+
   // Phase d'analyse animée
   useEffect(() => {
     if (phase !== "analyzing") return;
     let step = 0;
     const interval = setInterval(() => {
-      if (step >= ANALYZING_STEPS.length - 1) {
+      if (step >= analyzingSteps.length - 1) {
         clearInterval(interval);
         setPhase("report");
         setShowConfetti(true);
@@ -112,7 +123,7 @@ export function PsychoGame() {
     }, 550);
 
     return () => clearInterval(interval);
-  }, [phase]);
+  }, [phase, analyzingSteps.length]);
 
   function handleSelectOption(optionIndex: number) {
     sound.playBuzzerPress();
@@ -175,7 +186,7 @@ export function PsychoGame() {
 
   async function handleCopyShare() {
     if (!profileResult) return;
-    const text = generatePsychoShareText(profileResult, currentPlayer.name);
+    const text = generatePsychoShareText(profileResult, currentPlayer.name, language);
     try {
       if (navigator.clipboard) {
         await navigator.clipboard.writeText(text);
@@ -192,13 +203,13 @@ export function PsychoGame() {
     return (
       <main className="mx-auto min-h-dvh w-full max-w-3xl px-4 py-8 sm:px-6 animate-rise">
         <button type="button" onClick={() => router.push("/play/local")} className="fp-btn-ghost inline-flex items-center gap-1.5 text-sm">
-          <ChevronLeft className="h-4 w-4" /> Tous les modes
+          <ChevronLeft className="h-4 w-4" /> {isEn ? "All game modes" : "Tous les modes"}
         </button>
         <div className="mt-7 text-center">
           <KawaiiMascot theme="thinking" size={105} animation="float" />
-            <p className="mt-4 text-xs font-black uppercase tracking-[0.18em] text-fp-primary">{language === "en" ? "Party psychology" : "Profil Psycho"}</p>
-          <h1 className="mt-2 text-3xl font-black text-fp-text sm:text-4xl">{language === "en" ? "Choose your experience" : "Quelle expérience voulez-vous vivre ?"}</h1>
-          <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-fp-text-dim">{language === "en" ? "Playful personality games for your group. No result is a psychological diagnosis." : "Des jeux de personnalité ludiques pour votre groupe. Aucun résultat n&apos;est un diagnostic psychologique."}</p>
+          <p className="mt-4 text-xs font-black uppercase tracking-[0.18em] text-fp-primary">{isEn ? "Party psychology" : "Profil Psycho"}</p>
+          <h1 className="mt-2 text-3xl font-black text-fp-text sm:text-4xl">{isEn ? "Choose your experience" : "Quelle expérience voulez-vous vivre ?"}</h1>
+          <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-fp-text-dim">{isEn ? "Playful personality games for your group. No result is a psychological diagnosis." : "Des jeux de personnalité ludiques pour votre groupe. Aucun résultat n'est un diagnostic psychologique."}</p>
         </div>
         <div className="mt-8 grid gap-3 sm:grid-cols-3">
           {(Object.entries(EXPERIENCE_META) as Array<[PsychoExperience, (typeof EXPERIENCE_META)[PsychoExperience]]>).map(([id, meta]) => {
@@ -212,9 +223,9 @@ export function PsychoGame() {
                 className="fp-card min-h-48 p-5 text-left transition hover:-translate-y-0.5 hover:border-fp-primary/35 disabled:cursor-not-allowed disabled:opacity-45"
               >
                 <span className="text-3xl" aria-hidden="true">{meta.emoji}</span>
-                <span className="mt-5 block text-lg font-black text-fp-text">{language === "en" ? meta.nameEn : meta.name}</span>
-                <span className="mt-2 block text-sm leading-relaxed text-fp-text-dim">{language === "en" ? meta.descriptionEn : meta.description}</span>
-                <span className="mt-4 block text-xs font-bold text-fp-primary">{available ? `${players.length} ${language === "en" ? `player${players.length > 1 ? "s" : ""} ready` : `joueur${players.length > 1 ? "s" : ""} prêt${players.length > 1 ? "s" : ""}`}` : `${language === "en" ? "Minimum" : "Minimum"} ${meta.minPlayers} ${language === "en" ? "players" : "joueurs"}`}</span>
+                <span className="mt-5 block text-lg font-black text-fp-text">{isEn ? meta.nameEn : meta.name}</span>
+                <span className="mt-2 block text-sm leading-relaxed text-fp-text-dim">{isEn ? meta.descriptionEn : meta.description}</span>
+                <span className="mt-4 block text-xs font-bold text-fp-primary">{available ? (isEn ? (players.length + (players.length > 1 ? " players ready" : " player ready")) : (players.length + (players.length > 1 ? " joueurs prêts" : " joueur prêt"))) : (isEn ? ("Minimum " + meta.minPlayers + " players") : ("Minimum " + meta.minPlayers + " joueurs"))}</span>
               </button>
             );
           })}
@@ -237,7 +248,7 @@ export function PsychoGame() {
             className="fp-btn-ghost -ml-2 inline-flex items-center gap-1 text-sm text-fp-text-dim"
           >
             <ChevronLeft className="h-4 w-4" />
-            <span>Quitter</span>
+            <span>{isEn ? "Quit" : "Quitter"}</span>
           </button>
 
           <div className="flex items-center gap-2 rounded-full border border-fp-border bg-white px-3 py-1 shadow-xs">
@@ -247,23 +258,23 @@ export function PsychoGame() {
             </span>
           </div>
 
-          <PillBadge>{currentQuestion.theme}</PillBadge>
+          <PillBadge>{isEn ? (currentQuestion.themeEn ?? currentQuestion.theme) : currentQuestion.theme}</PillBadge>
         </div>
 
-        <p className="mt-4 text-xs text-fp-text-dim">Un jeu de soirée, pas un test psychologique validé ni un diagnostic.</p>
+        <p className="mt-4 text-xs text-fp-text-dim">{isEn ? "A party game, not a validated psychological test or diagnosis." : "Un jeu de soirée, pas un test psychologique validé ni un diagnostic."}</p>
 
         {/* Barre de progression */}
         <div className="mt-4">
           <div className="flex items-center justify-between text-xs font-extrabold text-fp-text-dim mb-1.5">
             <span>
-              {language === "en" ? `Question ${currentIndex + 1} of ${activeQuestions.length}` : `Question ${currentIndex + 1} sur ${activeQuestions.length}`}
+              {isEn ? ("Question " + (currentIndex + 1) + " of " + activeQuestions.length) : ("Question " + (currentIndex + 1) + " sur " + activeQuestions.length)}
             </span>
             <span>{progressPercent}%</span>
           </div>
           <div className="h-2 w-full overflow-hidden rounded-full bg-fp-border/60">
             <div
               className="h-full bg-gradient-to-r from-fp-primary to-purple-600 transition-all duration-300 ease-out"
-              style={{ width: `${progressPercent}%` }}
+              style={{ width: progressPercent + "%" }}
             />
           </div>
         </div>
@@ -273,15 +284,15 @@ export function PsychoGame() {
           <div className="rounded-3xl border border-fp-border bg-white p-6 sm:p-8 shadow-sm">
             <div className="flex items-center justify-between gap-2">
               <span className="text-xs font-black uppercase tracking-wider text-fp-primary">
-                Dilemme #{currentIndex + 1}
+                {isEn ? ("Dilemma #" + (currentIndex + 1)) : ("Dilemme #" + (currentIndex + 1))}
               </span>
               <span className="text-xs font-bold text-fp-text-dim">
-                Choix personnel
+                {isEn ? "Personal choice" : "Choix personnel"}
               </span>
             </div>
 
             <h2 className="mt-3 text-xl sm:text-2xl font-bold leading-snug text-fp-text">
-              {currentQuestion.situation}
+              {isEn ? (currentQuestion.situationEn ?? currentQuestion.situation) : currentQuestion.situation}
             </h2>
 
             {/* Options */}
@@ -309,7 +320,7 @@ export function PsychoGame() {
                       {["A", "B", "C", "D"][i]}
                     </span>
                     <span className="flex-1 text-[15px] sm:text-[16px] font-medium leading-relaxed">
-                      {opt.text}
+                      {isEn ? (opt.textEn ?? opt.text) : opt.text}
                     </span>
                   </button>
                 );
@@ -326,7 +337,7 @@ export function PsychoGame() {
                 className="fp-btn-ghost text-xs text-fp-text-dim inline-flex items-center gap-1"
               >
                 <ChevronLeft className="h-3.5 w-3.5" />
-                <span>Question précédente</span>
+                <span>{isEn ? "Previous question" : "Question précédente"}</span>
               </button>
             </div>
           )}
@@ -345,11 +356,11 @@ export function PsychoGame() {
         <div className="mt-8 flex items-center justify-center gap-2">
           <div className="h-4 w-4 animate-spin rounded-full border-2 border-fp-border border-t-fp-primary" />
           <span className="text-sm font-bold uppercase tracking-widest text-fp-primary">
-            Analyse de {currentPlayer.name}
+            {isEn ? ("Analyzing " + currentPlayer.name) : ("Analyse de " + currentPlayer.name)}
           </span>
         </div>
         <p className="mt-3 text-lg font-bold text-fp-text min-h-[3.5rem] flex items-center justify-center">
-          {ANALYZING_STEPS[analyzingStep]}
+          {analyzingSteps[analyzingStep]}
         </p>
       </main>
     );
@@ -370,7 +381,9 @@ export function PsychoGame() {
     const groupResult = experience === "group" && completedResults.length >= 3
       ? calculatePsychoGroup(completedResults)
       : null;
-    const axisLabels: Record<string, string> = { audace: "audace", empathie: "empathie", ordre: "organisation", idealisme: "idéalisme" };
+    const axisLabels: Record<string, string> = isEn
+      ? { audace: "boldness", empathie: "empathy", ordre: "structure", idealisme: "idealism" }
+      : { audace: "audace", empathie: "empathie", ordre: "organisation", idealisme: "idéalisme" };
 
     return (
       <main className="mx-auto min-h-dvh w-full max-w-3xl px-4 sm:px-6 py-8 animate-rise">
@@ -384,11 +397,11 @@ export function PsychoGame() {
             className="fp-btn-ghost inline-flex items-center gap-1.5 text-sm"
           >
             <ChevronLeft className="h-4 w-4" />
-            <span>Tous les modes</span>
+            <span>{isEn ? "All game modes" : "Tous les modes"}</span>
           </button>
           <div className="flex items-center gap-2">
             <PlayerDot name={currentPlayer.name} colorIndex={currentPlayer.color} size={20} />
-            <PillBadge>Bilan de {currentPlayer.name}</PillBadge>
+            <PillBadge>{isEn ? (currentPlayer.name + "'s Profile") : ("Bilan de " + currentPlayer.name)}</PillBadge>
           </div>
         </div>
 
@@ -401,29 +414,29 @@ export function PsychoGame() {
 
             <div className="mt-5 inline-flex items-center gap-2 rounded-full bg-fp-primary/10 px-4 py-1.5 text-xs font-black uppercase tracking-wider text-fp-primary">
               <span>{primaryArchetype.emoji}</span>
-              <span>{primaryArchetype.badge}</span>
+              <span>{isEn ? (primaryArchetype.badgeEn ?? primaryArchetype.badge) : primaryArchetype.badge}</span>
             </div>
 
             <h1 className="mt-3 text-3xl sm:text-5xl font-black tracking-tight text-fp-text">
-              {primaryArchetype.name}
+              {isEn ? (primaryArchetype.nameEn ?? primaryArchetype.name) : primaryArchetype.name}
             </h1>
 
             {/* Pourcentages hybrides */}
             <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
               <span className="rounded-full bg-fp-primary text-white text-xs font-extrabold px-3 py-1">
-                Dominant : {primaryPercentage}%
+                {isEn ? "Dominant" : "Dominant"} : {primaryPercentage}%
               </span>
               <span className="rounded-full bg-black/[0.05] text-fp-text-dim text-xs font-bold px-3 py-1">
-                Nuance : {secondaryArchetype.name} ({secondaryPercentage}%)
+                {isEn ? "Nuance" : "Nuance"} : {isEn ? (secondaryArchetype.nameEn ?? secondaryArchetype.name) : secondaryArchetype.name} ({secondaryPercentage}%)
               </span>
             </div>
 
             <blockquote className="mt-6 text-base sm:text-lg font-medium italic text-fp-text max-w-xl mx-auto border-l-4 border-fp-primary/40 pl-4 text-left">
-              {primaryArchetype.quote}
+              {isEn ? (primaryArchetype.quoteEn ?? primaryArchetype.quote) : primaryArchetype.quote}
             </blockquote>
 
             <p className="mt-6 text-sm sm:text-base leading-relaxed text-fp-text-dim text-left max-w-2xl mx-auto">
-              {primaryArchetype.description}
+              {isEn ? (primaryArchetype.descriptionEn ?? primaryArchetype.description) : primaryArchetype.description}
             </p>
           </div>
         </section>
@@ -433,30 +446,30 @@ export function PsychoGame() {
           <div className="rounded-3xl border border-emerald-200 bg-emerald-50/50 p-5 shadow-xs">
             <div className="flex items-center gap-2 text-emerald-800 font-extrabold text-sm">
               <Zap className="h-4 w-4 fill-current" />
-              <span>Superpouvoir</span>
+              <span>{isEn ? "Superpower" : "Superpouvoir"}</span>
             </div>
             <p className="mt-2 text-sm text-emerald-950 font-semibold leading-relaxed">
-              {primaryArchetype.superpower}
+              {isEn ? (primaryArchetype.superpowerEn ?? primaryArchetype.superpower) : primaryArchetype.superpower}
             </p>
           </div>
 
           <div className="rounded-3xl border border-amber-200 bg-amber-50/50 p-5 shadow-xs">
             <div className="flex items-center gap-2 text-amber-800 font-extrabold text-sm">
               <ShieldAlert className="h-4 w-4 fill-current" />
-              <span>Angle Mort</span>
+              <span>{isEn ? "Blind Spot" : "Angle Mort"}</span>
             </div>
             <p className="mt-2 text-sm text-amber-950 font-semibold leading-relaxed">
-              {primaryArchetype.blindSpot}
+              {isEn ? (primaryArchetype.blindSpotEn ?? primaryArchetype.blindSpot) : primaryArchetype.blindSpot}
             </p>
           </div>
 
           <div className="rounded-3xl border border-blue-200 bg-blue-50/50 p-5 shadow-xs">
             <div className="flex items-center gap-2 text-blue-800 font-extrabold text-sm">
               <GlassWater className="h-4 w-4" />
-              <span>Règle de Survie</span>
+              <span>{isEn ? "Party Survival" : "Règle de Survie"}</span>
             </div>
             <p className="mt-2 text-sm text-blue-950 font-semibold leading-relaxed">
-              {primaryArchetype.partySurvival}
+              {isEn ? (primaryArchetype.partySurvivalEn ?? primaryArchetype.partySurvival) : primaryArchetype.partySurvival}
             </p>
           </div>
         </section>
@@ -465,9 +478,9 @@ export function PsychoGame() {
         <section className="mt-6 rounded-3xl border border-fp-border bg-white p-6 sm:p-8 shadow-sm">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-lg font-black text-fp-text">Vos Jauges de Tempérament</h2>
+              <h2 className="text-lg font-black text-fp-text">{isEn ? "Your Temperament Gauges" : "Vos Jauges de Tempérament"}</h2>
               <p className="text-xs text-fp-text-dim mt-0.5">
-                Calcul précis basé sur vos 18 choix réels
+                {isEn ? "Precise calculation based on your actual choices" : "Calcul précis basé sur vos 18 choix réels"}
               </p>
             </div>
             <Sparkles className="h-5 w-5 text-fp-primary" />
@@ -477,13 +490,13 @@ export function PsychoGame() {
             {/* Axe Audace */}
             <div>
               <div className="flex justify-between text-xs font-bold text-fp-text mb-1.5">
-                <span className="text-fp-text-dim">Prudence ({100 - axes.audace}%)</span>
-                <span className="text-fp-primary font-black">Audace ({axes.audace}%)</span>
+                <span className="text-fp-text-dim">{isEn ? ("Caution (" + (100 - axes.audace) + "%)") : ("Prudence (" + (100 - axes.audace) + "%)")}</span>
+                <span className="text-fp-primary font-black">{isEn ? ("Boldness (" + axes.audace + "%)") : ("Audace (" + axes.audace + "%)")}</span>
               </div>
               <div className="h-3 w-full overflow-hidden rounded-full bg-fp-border/50">
                 <div
                   className="h-full bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full transition-all duration-700"
-                  style={{ width: `${axes.audace}%` }}
+                  style={{ width: axes.audace + "%" }}
                 />
               </div>
             </div>
@@ -491,13 +504,13 @@ export function PsychoGame() {
             {/* Axe Empathie */}
             <div>
               <div className="flex justify-between text-xs font-bold text-fp-text mb-1.5">
-                <span className="text-fp-text-dim">Calcul ({100 - axes.empathie}%)</span>
-                <span className="text-emerald-600 font-black">Empathie ({axes.empathie}%)</span>
+                <span className="text-fp-text-dim">{isEn ? ("Calculation (" + (100 - axes.empathie) + "%)") : ("Calcul (" + (100 - axes.empathie) + "%)")}</span>
+                <span className="text-emerald-600 font-black">{isEn ? ("Empathy (" + axes.empathie + "%)") : ("Empathie (" + axes.empathie + "%)")}</span>
               </div>
               <div className="h-3 w-full overflow-hidden rounded-full bg-fp-border/50">
                 <div
                   className="h-full bg-gradient-to-r from-teal-500 to-emerald-600 rounded-full transition-all duration-700"
-                  style={{ width: `${axes.empathie}%` }}
+                  style={{ width: axes.empathie + "%" }}
                 />
               </div>
             </div>
@@ -505,13 +518,13 @@ export function PsychoGame() {
             {/* Axe Ordre */}
             <div>
               <div className="flex justify-between text-xs font-bold text-fp-text mb-1.5">
-                <span className="text-fp-text-dim">Chaos ({100 - axes.ordre}%)</span>
-                <span className="text-amber-600 font-black">Ordre & Méthode ({axes.ordre}%)</span>
+                <span className="text-fp-text-dim">{isEn ? ("Chaos (" + (100 - axes.ordre) + "%)") : ("Chaos (" + (100 - axes.ordre) + "%)")}</span>
+                <span className="text-amber-600 font-black">{isEn ? ("Order & Structure (" + axes.ordre + "%)") : ("Ordre & Méthode (" + axes.ordre + "%)")}</span>
               </div>
               <div className="h-3 w-full overflow-hidden rounded-full bg-fp-border/50">
                 <div
                   className="h-full bg-gradient-to-r from-amber-500 to-orange-600 rounded-full transition-all duration-700"
-                  style={{ width: `${axes.ordre}%` }}
+                  style={{ width: axes.ordre + "%" }}
                 />
               </div>
             </div>
@@ -519,13 +532,13 @@ export function PsychoGame() {
             {/* Axe Idéalisme */}
             <div>
               <div className="flex justify-between text-xs font-bold text-fp-text mb-1.5">
-                <span className="text-fp-text-dim">Réalisme Cynique ({100 - axes.idealisme}%)</span>
-                <span className="text-purple-600 font-black">Idéalisme ({axes.idealisme}%)</span>
+                <span className="text-fp-text-dim">{isEn ? ("Cynical Realism (" + (100 - axes.idealisme) + "%)") : ("Réalisme Cynique (" + (100 - axes.idealisme) + "%)")}</span>
+                <span className="text-purple-600 font-black">{isEn ? ("Idealism (" + axes.idealisme + "%)") : ("Idéalisme (" + axes.idealisme + "%)")}</span>
               </div>
               <div className="h-3 w-full overflow-hidden rounded-full bg-fp-border/50">
                 <div
                   className="h-full bg-gradient-to-r from-violet-500 to-purple-600 rounded-full transition-all duration-700"
-                  style={{ width: `${axes.idealisme}%` }}
+                  style={{ width: axes.idealisme + "%" }}
                 />
               </div>
             </div>
@@ -537,26 +550,26 @@ export function PsychoGame() {
           <div className="rounded-3xl border border-emerald-200 bg-emerald-50/40 p-6 shadow-sm">
             <div className="flex items-center gap-2 text-emerald-800 font-extrabold text-sm">
               <Heart className="h-4.5 w-4.5 fill-current" />
-              <span>Allié Idéal en Soirée</span>
+              <span>{isEn ? "Ideal Party Ally" : "Allié Idéal en Soirée"}</span>
             </div>
             <h3 className="mt-2 text-lg font-black text-fp-text">
-              {primaryArchetype.idealPair.name}
+              {isEn ? (primaryArchetype.idealPair.nameEn ?? primaryArchetype.idealPair.name) : primaryArchetype.idealPair.name}
             </h3>
             <p className="mt-2 text-sm text-fp-text-dim leading-relaxed">
-              {primaryArchetype.idealPair.reason}
+              {isEn ? (primaryArchetype.idealPair.reasonEn ?? primaryArchetype.idealPair.reason) : primaryArchetype.idealPair.reason}
             </p>
           </div>
 
           <div className="rounded-3xl border border-rose-200 bg-rose-50/40 p-6 shadow-sm">
             <div className="flex items-center gap-2 text-rose-800 font-extrabold text-sm">
               <Flame className="h-4.5 w-4.5 fill-current" />
-              <span>Némésis Toxique</span>
+              <span>{isEn ? "Toxic Nemesis" : "Némésis Toxique"}</span>
             </div>
             <h3 className="mt-2 text-lg font-black text-fp-text">
-              {primaryArchetype.nemesisPair.name}
+              {isEn ? (primaryArchetype.nemesisPair.nameEn ?? primaryArchetype.nemesisPair.name) : primaryArchetype.nemesisPair.name}
             </h3>
             <p className="mt-2 text-sm text-fp-text-dim leading-relaxed">
-              {primaryArchetype.nemesisPair.reason}
+              {isEn ? (primaryArchetype.nemesisPair.reasonEn ?? primaryArchetype.nemesisPair.reason) : primaryArchetype.nemesisPair.reason}
             </p>
           </div>
         </section>
@@ -566,7 +579,9 @@ export function PsychoGame() {
           <section className="mt-6 rounded-3xl border border-fp-border bg-white p-6 shadow-sm">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5 text-fp-primary" />
-              <h2 className="text-lg font-black text-fp-text">Profils du groupe ({completedEntries.length})</h2>
+              <h2 className="text-lg font-black text-fp-text">
+                {isEn ? ("Group Profiles (" + completedEntries.length + ")") : ("Profils du groupe (" + completedEntries.length + ")")}
+              </h2>
             </div>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
               {completedEntries.map(([playerId, pResult]) => {
@@ -577,11 +592,11 @@ export function PsychoGame() {
                     className="flex items-center justify-between rounded-2xl border border-fp-border bg-fp-bg/40 p-3.5"
                   >
                     <div className="flex items-center gap-3">
-                      <PlayerDot name={pl?.name ?? "Joueur"} colorIndex={pl?.color ?? 0} size={28} />
+                      <PlayerDot name={pl?.name ?? (isEn ? "Player" : "Joueur")} colorIndex={pl?.color ?? 0} size={28} />
                       <div>
-                        <p className="text-sm font-black text-fp-text">{pl?.name ?? "Joueur"}</p>
+                        <p className="text-sm font-black text-fp-text">{pl?.name ?? (isEn ? "Player" : "Joueur")}</p>
                         <p className="text-xs text-fp-primary font-extrabold">
-                          {pResult.primaryArchetype.emoji} {pResult.primaryArchetype.name}
+                          {pResult.primaryArchetype.emoji} {isEn ? (pResult.primaryArchetype.nameEn ?? pResult.primaryArchetype.name) : pResult.primaryArchetype.name}
                         </p>
                       </div>
                     </div>
@@ -597,18 +612,37 @@ export function PsychoGame() {
 
         {isLastPlayer && compatibility && (
           <section className="mt-6 rounded-3xl border border-pink-200 bg-pink-50/60 p-6 text-center shadow-sm">
-            <p className="text-sm font-black uppercase tracking-wider text-pink-700">Affinité ludique du duo</p>
+            <p className="text-sm font-black uppercase tracking-wider text-pink-700">
+              {isEn ? "Playful duo affinity" : "Affinité ludique du duo"}
+            </p>
             <p className="mt-2 text-5xl font-black text-fp-text">{compatibility.affinity}%</p>
-          <p className="mt-3 text-sm text-fp-text-dim">Votre terrain commun : <strong>{axisLabels[compatibility.strongestSharedAxis]}</strong>. Votre contraste le plus marqué : <strong>{axisLabels[compatibility.biggestDifferenceAxis]}</strong>.</p>
+            <p className="mt-3 text-sm text-fp-text-dim">
+              {isEn ? (
+                <>Shared ground: <strong>{axisLabels[compatibility.strongestSharedAxis]}</strong>. Main contrast: <strong>{axisLabels[compatibility.biggestDifferenceAxis]}</strong>.</>
+              ) : (
+                <>Votre terrain commun : <strong>{axisLabels[compatibility.strongestSharedAxis]}</strong>. Votre contraste le plus marqué : <strong>{axisLabels[compatibility.biggestDifferenceAxis]}</strong>.</>
+              )}
+            </p>
           </section>
         )}
 
         {isLastPlayer && groupResult && (
           <section className="mt-6 rounded-3xl border border-violet-200 bg-violet-50/60 p-6 shadow-sm">
-            <div className="flex items-center gap-2"><Users className="h-5 w-5 text-violet-700" /><h2 className="text-lg font-black text-fp-text">Dynamique du groupe</h2></div>
-            <p className="mt-3 text-sm text-fp-text-dim">Énergie dominante : <strong>{axisLabels[groupResult.dominantAxis]}</strong> · indice de diversité : <strong>{groupResult.diversity}/100</strong>.</p>
+            <div className="flex items-center gap-2"><Users className="h-5 w-5 text-violet-700" /><h2 className="text-lg font-black text-fp-text">{isEn ? "Group dynamics" : "Dynamique du groupe"}</h2></div>
+            <p className="mt-3 text-sm text-fp-text-dim">
+              {isEn ? (
+                <>Dominant energy: <strong>{axisLabels[groupResult.dominantAxis]}</strong> · diversity index: <strong>{groupResult.diversity}/100</strong>.</>
+              ) : (
+                <>Énergie dominante : <strong>{axisLabels[groupResult.dominantAxis]}</strong> · indice de diversité : <strong>{groupResult.diversity}/100</strong>.</>
+              )}
+            </p>
             <div className="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-4">
-              {Object.entries(groupResult.averages).map(([axis, value]) => <div key={axis} className="rounded-2xl bg-white p-3"><p className="text-xs font-bold capitalize text-fp-text-dim">{axisLabels[axis]}</p><p className="mt-1 text-xl font-black text-fp-text">{value}%</p></div>)}
+              {Object.entries(groupResult.averages).map(([axis, value]) => (
+                <div key={axis} className="rounded-2xl bg-white p-3">
+                  <p className="text-xs font-bold capitalize text-fp-text-dim">{axisLabels[axis]}</p>
+                  <p className="mt-1 text-xl font-black text-fp-text">{value}%</p>
+                </div>
+              ))}
             </div>
           </section>
         )}
@@ -622,7 +656,7 @@ export function PsychoGame() {
               onClick={handleNextPlayerTurn}
               className="fp-btn-primary flex-1 py-4 text-base font-bold shadow-lg gap-2"
             >
-              <span>Au tour de {nextPlayer.name}</span>
+              <span>{isEn ? (nextPlayer.name + "'s turn") : ("Au tour de " + nextPlayer.name)}</span>
               <ArrowRight className="h-5 w-5" />
             </button>
           )}
@@ -637,12 +671,12 @@ export function PsychoGame() {
             {copied ? (
               <>
                 <Check className="h-5 w-5" />
-                <span>Bilan de {currentPlayer.name} copié !</span>
+                <span>{isEn ? (currentPlayer.name + "'s profile copied!") : ("Bilan de " + currentPlayer.name + " copié !")}</span>
               </>
             ) : (
               <>
                 <Share2 className="h-5 w-5" />
-                <span>Partager mon bilan</span>
+                <span>{isEn ? "Share my profile" : "Partager mon bilan"}</span>
               </>
             )}
           </button>
@@ -653,7 +687,7 @@ export function PsychoGame() {
             className="fp-btn-secondary py-4 px-6 text-base font-bold gap-2"
           >
             <RotateCcw className="h-5 w-5" />
-            <span>{isLastPlayer && completedEntries.length > 1 ? "Recommencer tout" : "Recommencer"}</span>
+            <span>{isLastPlayer && completedEntries.length > 1 ? (isEn ? "Restart all" : "Recommencer tout") : (isEn ? "Restart" : "Recommencer")}</span>
           </button>
         </section>
       </main>
@@ -664,7 +698,7 @@ export function PsychoGame() {
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col items-center justify-center px-6 text-center animate-rise">
       <div className="h-8 w-8 animate-spin rounded-full border-[3px] border-fp-border border-t-fp-primary" />
-      <p className="mt-4 text-sm text-fp-text-dim">Initialisation du test psychologique…</p>
+      <p className="mt-4 text-sm text-fp-text-dim">{isEn ? "Initializing personality test…" : "Initialisation du test psychologique…"}</p>
     </main>
   );
 }

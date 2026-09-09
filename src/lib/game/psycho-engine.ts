@@ -160,9 +160,40 @@ export function calculatePsychoProfile(answers: number[]): PsychoProfileResult {
 /**
  * Génère le texte de partage pour les réseaux sociaux et messageries (WhatsApp, X, Instagram)
  */
-export function generatePsychoShareText(profile: PsychoProfileResult, playerName = "Joueur"): string {
+export function generatePsychoShareText(
+  profile: PsychoProfileResult,
+  playerName = "Joueur",
+  language = "fr",
+): string {
   const p = profile.primaryArchetype;
   const s = profile.secondaryArchetype;
+
+  if (language === "en") {
+    const defaultName = playerName === "Joueur" ? "Player" : playerName;
+    return [
+      `🎭 Personality Profile (${defaultName}) on AGORAX`,
+      `Party game — playful results, not a diagnostic tool.`,
+      `──────────────────────────`,
+      `${p.emoji} Dominant Archetype: ${p.nameEn ?? p.name} (${profile.primaryPercentage}%)`,
+      `✨ Nuance: ${s.nameEn ?? s.name} (${profile.secondaryPercentage}%)`,
+      ``,
+      `💬 ${p.quoteEn ?? p.quote}`,
+      ``,
+      `⚡ Superpower: ${p.superpowerEn ?? p.superpower}`,
+      `⚠️ Blind Spot: ${p.blindSpotEn ?? p.blindSpot}`,
+      ``,
+      `📊 Temperament Gauges:`,
+      `• Boldness: ${profile.axes.audace}%`,
+      `• Empathy: ${profile.axes.empathie}%`,
+      `• Order: ${profile.axes.ordre}%`,
+      `• Idealism: ${profile.axes.idealisme}%`,
+      ``,
+      `❤️ Ideal Ally: ${p.idealPair.nameEn ?? p.idealPair.name}`,
+      `⚡ Toxic Nemesis: ${p.nemesisPair.nameEn ?? p.nemesisPair.name}`,
+      `──────────────────────────`,
+      `Discover your profile on AGORAX! 🎮`,
+    ].join("\n");
+  }
 
   return [
     `🎭 Profil Psycho (${playerName}) sur AGORAX`,

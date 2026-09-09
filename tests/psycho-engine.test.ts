@@ -151,4 +151,50 @@ describe("Psycho Mode — Moteur de Calcul (Engine)", () => {
       expect(validThemes).toContain(arch.kawaiiTheme);
     }
   });
+
+  it("garantit un bilinguisme parfait (FR/EN) pour toutes les questions et les 8 archétypes", () => {
+    // 18 questions et leurs 72 options ont des textes anglais valides
+    for (const q of PSYCHO_QUESTIONS) {
+      expect(q.themeEn).toBeDefined();
+      expect(q.themeEn.length).toBeGreaterThan(3);
+      expect(q.situationEn).toBeDefined();
+      expect(q.situationEn.length).toBeGreaterThan(10);
+      expect(q.options.length).toBe(4);
+      for (const opt of q.options) {
+        expect(opt.textEn).toBeDefined();
+        expect(opt.textEn.length).toBeGreaterThan(5);
+      }
+    }
+
+    // Les 8 archétypes possèdent toutes leurs propriétés anglaises
+    for (const arch of Object.values(PSYCHO_ARCHETYPES)) {
+      expect(arch.nameEn).toBeDefined();
+      expect(arch.nameEn.length).toBeGreaterThan(3);
+      expect(arch.badgeEn).toBeDefined();
+      expect(arch.quoteEn).toBeDefined();
+      expect(arch.taglineEn).toBeDefined();
+      expect(arch.descriptionEn).toBeDefined();
+      expect(arch.superpowerEn).toBeDefined();
+      expect(arch.blindSpotEn).toBeDefined();
+      expect(arch.partySurvivalEn).toBeDefined();
+      expect(arch.idealPair.nameEn).toBeDefined();
+      expect(arch.idealPair.reasonEn).toBeDefined();
+      expect(arch.nemesisPair.nameEn).toBeDefined();
+      expect(arch.nemesisPair.reasonEn).toBeDefined();
+    }
+
+    // Test de partage en anglais
+    const answers = [0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1, 2, 3, 0, 1];
+    const profile = calculatePsychoProfile(answers);
+    const textEn = generatePsychoShareText(profile, "Alex", "en");
+
+    expect(textEn).toContain("Personality Profile (Alex) on AGORAX");
+    expect(textEn).toContain(profile.primaryArchetype.nameEn);
+    expect(textEn).toContain(profile.secondaryArchetype.nameEn);
+    expect(textEn).toContain("Superpower:");
+    expect(textEn).toContain("Blind Spot:");
+    expect(textEn).toContain("Ideal Ally:");
+    expect(textEn).toContain("Toxic Nemesis:");
+    expect(textEn).toContain("Discover your profile on AGORAX!");
+  });
 });
