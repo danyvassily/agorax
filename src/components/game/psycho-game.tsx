@@ -21,6 +21,7 @@ import { sound } from "@/lib/audio/sound-engine";
 import { useLanguageStore } from "@/lib/store/language";
 import { PillBadge, Confetti, PlayerDot } from "@/components/ui/primitives";
 import { KawaiiMascot } from "@/components/ui/kawaii-mascot";
+import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 import {
   ChevronLeft,
   Share2,
@@ -76,6 +77,7 @@ export function PsychoGame() {
   const [activePlayerIndex, setActivePlayerIndex] = useState(0);
   const [completedProfiles, setCompletedProfiles] = useState<Record<string, PsychoProfileResult>>({});
   const [phase, setPhase] = useState<Phase>("intro");
+  useMobileGameNavigation(phase === "playing" || phase === "analyzing");
   const [experience, setExperience] = useState<PsychoExperience>("individual");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<number[]>([]);

@@ -349,4 +349,248 @@ button:not(:disabled), a { cursor: pointer; }
     transition: none;
   }
 }
+
+/* Une question complète tient dans l'écran mobile, sans navigation pendant la manche. */
+@media (max-width: 767px) {
+  body[data-mobile-game-active] {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  body[data-mobile-game-active] .jx-mobile-nav {
+    display: none;
+  }
+
+  .jx-game-screen {
+    height: calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+    min-height: 0!important;
+    max-height: calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+    padding: 4px 12px 6px!important;
+    overflow: hidden;
+  }
+
+  .jx-game-topbar {
+    min-height: 34px;
+  }
+
+  .jx-game-topbar .fp-btn-ghost {
+    min-height: 34px;
+    padding-block: 2px;
+  }
+
+  .jx-game-timer {
+    margin-top: 3px!important;
+  }
+
+  .jx-question-stage {
+    min-height: 0;
+    margin-top: 7px!important;
+  }
+
+  .jx-question-meta {
+    min-height: 38px;
+  }
+
+  .jx-question-meta > span:first-child {
+    max-width: calc(100% - 48px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .jx-question-meta > div:last-child {
+    width: 42px!important;
+    height: 42px!important;
+  }
+
+  .jx-game-screen .jx-question-title {
+    margin-block: 6px 0!important;
+    font-size: clamp(18px, 2.9vh, 24px)!important;
+    line-height: 1.16!important;
+  }
+
+  .jx-game-screen .jx-question-title[data-length="medium"] {
+    font-size: clamp(17px, 2.65vh, 22px)!important;
+  }
+
+  .jx-game-screen .jx-question-title[data-length="long"] {
+    font-size: clamp(15px, 2.35vh, 19px)!important;
+    line-height: 1.12!important;
+  }
+
+  .jx-answer-grid {
+    margin-top: 8px!important;
+    gap: clamp(5px, 0.8vh, 8px)!important;
+  }
+
+  .jx-game-screen .jx-answer-grid .fp-answer {
+    min-height: clamp(46px, 7.2vh, 58px)!important;
+    padding: 7px 12px!important;
+    gap: 10px!important;
+    font-size: clamp(13px, 1.9vh, 15px)!important;
+  }
+
+  .jx-game-screen .jx-answer-grid .fp-answer > span:first-child {
+    width: 28px!important;
+    height: 28px!important;
+    font-size: 12px!important;
+  }
+
+  .jx-game-screen .jx-feedback {
+    min-height: 48px;
+    margin-top: 7px!important;
+    padding: 6px 9px!important;
+    gap: 8px!important;
+    border-radius: 14px;
+  }
+
+  .jx-game-screen .jx-feedback .jx-mascot {
+    width: 38px!important;
+    height: 38px!important;
+  }
+
+  .jx-game-screen .jx-feedback p:first-child {
+    font-size: 12px!important;
+  }
+
+  .jx-game-screen .jx-feedback p:last-child {
+    font-size: 10px!important;
+    line-height: 1.25;
+  }
+
+  .jx-game-screen .jx-score-strip {
+    min-height: 39px;
+    margin-top: 7px;
+    padding: 7px 11px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+
+  .jx-game-screen > .fp-btn-primary {
+    min-height: 42px;
+    margin-top: 6px!important;
+    padding-block: 8px;
+  }
+
+  .jx-game-screen .jx-report-action {
+    margin-top: 2px!important;
+    line-height: 1;
+  }
+
+  .jx-game-screen .jx-report-action button {
+    font-size: 10px;
+  }
+
+  .jx-game-screen .jx-question-stage > div.relative {
+    max-height: 11vh;
+    margin-top: 5px!important;
+  }
+
+  .jx-game-screen .jx-question-stage > div.relative img {
+    max-height: 11vh;
+  }
+
+  .jx-daily-page:has(.jx-daily-game) {
+    height: calc(100dvh - 60px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+    min-height: 0;
+    padding: 4px 12px 6px;
+    overflow: hidden;
+  }
+
+  .jx-daily-page:has(.jx-daily-game) .jx-daily-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 31px;
+    margin: 0 0 5px!important;
+  }
+
+  .jx-daily-page:has(.jx-daily-game) .jx-daily-icon,
+  .jx-daily-page:has(.jx-daily-game) .jx-daily-hero p {
+    display: none;
+  }
+
+  .jx-daily-page:has(.jx-daily-game) .jx-daily-hero h1 {
+    margin: 0;
+    font-size: 19px;
+    line-height: 1.15;
+  }
+
+  .jx-daily-progress {
+    min-height: 24px;
+    margin-bottom: 6px!important;
+    padding-inline: 2px;
+    font-size: 12px;
+  }
+
+  .jx-daily-question {
+    min-height: 72px;
+    margin-bottom: 7px!important;
+    padding: 12px 14px!important;
+    border-radius: 16px;
+  }
+
+  .jx-daily-question h2 {
+    font-size: clamp(17px, 2.7vh, 22px)!important;
+    line-height: 1.2!important;
+  }
+
+  .jx-daily-question h2[data-length="medium"] {
+    font-size: clamp(16px, 2.45vh, 20px)!important;
+  }
+
+  .jx-daily-question h2[data-length="long"] {
+    font-size: clamp(14px, 2.15vh, 18px)!important;
+    line-height: 1.15!important;
+  }
+
+  .jx-daily-question > div.relative {
+    max-height: 10vh;
+    margin-top: 0!important;
+  }
+
+  .jx-daily-question > div.relative img {
+    max-height: 10vh;
+  }
+
+  .jx-daily-answers {
+    gap: clamp(5px, 0.8vh, 8px)!important;
+  }
+
+  .jx-daily-answers button {
+    min-height: clamp(46px, 7.1vh, 58px)!important;
+    padding: 7px 12px!important;
+    border-radius: 14px;
+    font-size: clamp(13px, 1.9vh, 15px);
+    line-height: 1.2;
+  }
+
+  .jx-daily-next {
+    height: 42px!important;
+    margin-top: 5px!important;
+  }
+
+  .jx-daily-next button {
+    min-height: 40px;
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 380px), (max-height: 720px) {
+  .jx-game-screen .jx-question-title,
+  .jx-daily-question h2 {
+    font-size: 15px!important;
+  }
+
+  .jx-game-screen .jx-answer-grid .fp-answer,
+  .jx-daily-answers button {
+    min-height: 43px!important;
+    font-size: 12px!important;
+  }
+
+  .jx-game-screen .jx-feedback {
+    min-height: 42px;
+  }
+}
 @media(prefers-reduced-motion:reduce){.jx-mascot,.jx-celebrate{animation:none!important}.jx-feature,.jx-game-card,.jx-team-row>a{transition:none}}

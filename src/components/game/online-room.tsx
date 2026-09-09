@@ -77,6 +77,7 @@ import { useAuth } from "@/lib/auth/use-auth";
 import { characterImage, CHARACTERS } from "@/lib/characters";
 import { sound } from "@/lib/audio/sound-engine";
 import { QuestionMedia } from "@/components/game/question-media";
+import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 
 type View = "entry" | "create" | "lobby" | "playing" | "results";
 
@@ -96,6 +97,7 @@ export function OnlineRoom() {
 
   const searchParams = useSearchParams();
   const [view, setView] = useState<View>(() => searchParams.get("create") === "1" ? "create" : "entry");
+  useMobileGameNavigation(view === "playing");
   const [pseudoDraft, setPseudo] = useState<string | null>(() => {
     if (typeof window !== "undefined") {
       try {

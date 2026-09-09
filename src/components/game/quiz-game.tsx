@@ -29,6 +29,7 @@ import { sound } from "@/lib/audio/sound-engine";
 import { isQuizAnswerCorrect, playerQuestionCount, startQuestionCountdown } from "@/lib/game/quiz-round";
 import { recordEloResults } from "@/lib/ranking/client";
 import { useWakeLock } from "@/lib/device/wake-lock";
+import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 
 interface QuizGameProps {
   mode: "classic" | "truefalse" | "rapidfire";
@@ -63,6 +64,7 @@ export function QuizGame({ mode }: QuizGameProps) {
   const [selected, setSelected] = useState<number | null>(null);
   const [timeLeft, setTimeLeft] = useState(0);
   const [error, setError] = useState<string | null>(null);
+  useMobileGameNavigation(!error && phase !== "results");
   const [reportOpen, setReportOpen] = useState(false);
   const [reportDone, setReportDone] = useState(false);
   /** Scores locaux par joueur : { [playerId]: { score, correct } } */
@@ -379,9 +381,9 @@ export function QuizGame({ mode }: QuizGameProps) {
 
   // ---------- Jeu ----------
   return (
-    <main className="jx-game mx-auto flex min-h-dvh w-full flex-col px-4 sm:px-6 pb-12 pt-3 animate-rise">
+    <main className="jx-game jx-game-screen mx-auto flex min-h-dvh w-full flex-col px-4 sm:px-6 pb-12 pt-3 animate-rise">
       {/* Barre de navigation */}
-      <div className="flex items-center justify-between">
+      <div className="jx-game-topbar flex items-center justify-between">
         <button
           type="button"
           onClick={() => router.push("/")}
@@ -406,14 +408,14 @@ export function QuizGame({ mode }: QuizGameProps) {
 
       {/* Timer */}
       {mode !== "rapidfire" && (
-        <div className="mt-4">
+        <div className="jx-game-timer mt-4">
           <TimerBar seconds={timeLeft} total={timePerQuestion} />
         </div>
       )}
 
       {/* Question */}
-      <section className="mt-5 flex-1">
-        <div className="flex items-center justify-between">
+      <section className="jx-question-stage mt-5 flex-1">
+        <div className="jx-question-meta flex items-center justify-between">
           <PillBadge>
             {CATEGORY_LABELS[current.category]} · {DIFFICULTY_LABELS[current.difficulty] ?? current.difficulty}
           </PillBadge>
@@ -455,7 +457,11 @@ export function QuizGame({ mode }: QuizGameProps) {
 
         {current.media && <QuestionMedia media={current.media} />}
 
-        <h1 key={current.id} className="animate-rise mt-4 text-[22px] sm:text-[28px] font-bold leading-snug text-fp-text">
+        <h1
+          key={current.id}
+          data-length={current.question.length > 110 ? "long" : current.question.length > 72 ? "medium" : "short"}
+          className="jx-question-title animate-rise mt-4 text-[22px] sm:text-[28px] font-bold leading-snug text-fp-text"
+        >
           {current.question}
         </h1>
 
@@ -516,7 +522,7 @@ export function QuizGame({ mode }: QuizGameProps) {
             )}
           </div>
         ) : (
-          <div className="mt-6 grid grid-cols-1 gap-2.5">
+          <div className="jx-answer-grid mt-6 grid grid-cols-1 gap-2.5">
             {current.answers.map((answer, i) => {
               let cls = "text-fp-text";
               let disabled = paused;
@@ -567,7 +573,7 @@ export function QuizGame({ mode }: QuizGameProps) {
       {paused && <div className="jx-modal" role="dialog" aria-modal="true" aria-label={tr("Partie en pause", "Game paused")}><div><KawaiiMascot theme="neo" size={140}/><h2>{tr("On fait une pause ?", "Taking a break?")}</h2><button autoFocus className="fp-btn-primary" onClick={()=>setPaused(false)}><Play size={18}/>{tr("Reprendre", "Resume")}</button><button className="fp-btn-ghost" onClick={()=>router.push('/play/solo')}>{tr("Quitter la partie", "Leave game")}</button></div></div>}
       {/* Signaler */}
       {phase === "answer" && !reportDone && (
-        <div className="mt-4 text-center">
+        <div className="jx-report-action mt-4 text-center">
           <button
             type="button"
             onClick={() => setReportOpen(true)}

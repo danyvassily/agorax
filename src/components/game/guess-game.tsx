@@ -13,6 +13,7 @@ import { useGameStore } from "@/lib/store/game";
 import { PlayerDot, PillBadge } from "@/components/ui/primitives";
 import { RoundRoastPanel } from "@/components/game/round-roast-panel";
 import { Trophy, ChevronLeft, Check, X } from "lucide-react";
+import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 
 export function GuessGame() {
   const router = useRouter();
@@ -28,6 +29,7 @@ export function GuessGame() {
   const [usedIds, setUsedIds] = useState<string[]>([]);
   const [scores, setScores] = useState<Record<string, number>>({});
   const [finished, setFinished] = useState(false);
+  useMobileGameNavigation(!finished);
 
   const activeIdx = (round - 1) % Math.max(1, players.length);
   const active = players[activeIdx];

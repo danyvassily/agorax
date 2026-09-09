@@ -37,6 +37,7 @@ import { Trophy, AlertCircle, ChevronLeft, Zap } from "lucide-react";
 import { useLanguageStore } from "@/lib/store/language";
 import { localizeQuestion } from "@/lib/questions/localize";
 import { translate } from "@/lib/i18n";
+import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 
 const DIFFICULTY_LABELS: Record<string, string> = {
   easy: "Facile",
@@ -61,6 +62,7 @@ export function AgoraxGame() {
   const [reportDone, setReportDone] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
+  useMobileGameNavigation(!error && gameState?.phase !== "champion");
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const stealTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);

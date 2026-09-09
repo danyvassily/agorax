@@ -30,9 +30,9 @@ export default async function DailyPage() {
   return (
     <>
       <AppNavigation />
-      <main className="fp-page pb-24">
-        <header className="mb-8 mt-4 text-center">
-          <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-fp-primary/10 text-fp-primary shadow-sm">
+      <main className="jx-daily-page fp-page pb-24">
+        <header className="jx-daily-hero mb-8 mt-4 text-center">
+          <div className="jx-daily-icon mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-fp-primary/10 text-fp-primary shadow-sm">
             <Calendar className="h-8 w-8" />
           </div>
           <h1 className="mt-5 text-3xl font-black text-fp-text sm:text-4xl">

@@ -10,6 +10,7 @@ import { useLanguageStore } from "@/lib/store/language";
 import { answerOrder } from "@/lib/questions/answer-order";
 import { useQuizExposure } from "@/lib/questions/use-quiz-exposure";
 import { QuestionMedia } from "@/components/game/question-media";
+import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 
 interface SoloQuizClientProps {
   questions: Question[];
@@ -23,7 +24,8 @@ export function SoloQuizClient({ questions, quizTitle }: SoloQuizClientProps) {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [score, setScore] = useState(0);
   const [isFinished, setIsFinished] = useState(false);
-  const shuffledAnswers = answerOrder(questions[currentIndex]);
+  useMobileGameNavigation(!isFinished && questions.length > 0);
+  const shuffledAnswers = questions[currentIndex] ? answerOrder(questions[currentIndex]) : [];
   const [isAnswerRevealed, setIsAnswerRevealed] = useState(false);
   useQuizExposure(questions[currentIndex], !isFinished);
 

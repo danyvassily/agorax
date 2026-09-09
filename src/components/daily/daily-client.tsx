@@ -10,6 +10,7 @@ import { useLanguageStore } from "@/lib/store/language";
 import { answerOrder } from "@/lib/questions/answer-order";
 import { useQuizExposure } from "@/lib/questions/use-quiz-exposure";
 import { QuestionMedia } from "@/components/game/question-media";
+import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 
 const subscribe = () => () => {};
 
@@ -24,13 +25,14 @@ export function DailyClient({ questions, dateString }: DailyClientProps) {
   const store = useDailyStore();
   
   const hasPlayedToday = store.lastPlayedDate === dateString;
+  useMobileGameNavigation(mounted && !hasPlayedToday && questions.length > 0);
 
   const language = useLanguageStore(s => s.language);
   const t = (fr: string, en: string) => language === "en" ? en : fr;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [isAnswerRevealed, setIsAnswerRevealed] = useState(false);
-  const shuffledAnswers = answerOrder(questions[currentIndex]);
+  const shuffledAnswers = questions[currentIndex] ? answerOrder(questions[currentIndex]) : [];
   
   // Track history for the share grid: true = correct, false = incorrect
   const [answersHistory, setAnswersHistory] = useState<boolean[]>([]);
@@ -132,8 +134,8 @@ export function DailyClient({ questions, dateString }: DailyClientProps) {
   const currentQuestion = { ...questions[currentIndex], ...localizeQuestion(questions[currentIndex], language, { autoTranslate: false }) };
 
   return (
-    <div className="mx-auto max-w-2xl">
-      <div className="mb-6 flex items-center justify-between px-2 text-sm font-bold text-fp-text-dim">
+    <div className="jx-daily-game mx-auto max-w-2xl">
+      <div className="jx-daily-progress mb-6 flex items-center justify-between px-2 text-sm font-bold text-fp-text-dim">
         <span>Question {currentIndex + 1} / {questions.length}</span>
         <div className="flex min-w-0 flex-1 max-w-[55%] gap-1">
           {Array.from({ length: questions.length }).map((_, i) => (
@@ -156,14 +158,17 @@ export function DailyClient({ questions, dateString }: DailyClientProps) {
           exit={{ opacity: 0, x: -20 }}
           transition={{ duration: 0.2 }}
         >
-          <div className="fp-card mb-6 p-6 sm:p-8">
+          <div className="jx-daily-question fp-card mb-6 p-6 sm:p-8">
             {currentQuestion.media && <QuestionMedia media={currentQuestion.media} />}
-            <h2 className={`text-xl font-bold leading-relaxed text-fp-text sm:text-2xl ${currentQuestion.media ? 'mt-4' : ''}`}>
+            <h2
+              data-length={currentQuestion.question.length > 110 ? "long" : currentQuestion.question.length > 72 ? "medium" : "short"}
+              className={`text-xl font-bold leading-relaxed text-fp-text sm:text-2xl ${currentQuestion.media ? 'mt-4' : ''}`}
+            >
               {currentQuestion.question}
             </h2>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-2">
+          <div className="jx-daily-answers grid gap-3 sm:grid-cols-2">
             {shuffledAnswers.map((answer, i) => {
               const isSelected = selectedAnswer === answer;
               const isCorrect = answer === currentQuestion.correctAnswer;
@@ -201,7 +206,7 @@ export function DailyClient({ questions, dateString }: DailyClientProps) {
         </motion.div>
       </AnimatePresence>
 
-      <div className="mt-8 flex h-14 items-center justify-end">
+      <div className="jx-daily-next mt-8 flex h-14 items-center justify-end">
         {isAnswerRevealed && (
           <motion.button
             initial={{ opacity: 0, y: 10 }}

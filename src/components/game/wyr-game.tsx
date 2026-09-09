@@ -12,6 +12,7 @@ import { useSettingsStore } from "@/lib/store/settings";
 import { useLanguageStore } from "@/lib/store/language";
 import { PlayerDot, PillBadge } from "@/components/ui/primitives";
 import { Scale, ChevronLeft } from "lucide-react";
+import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 
 export function WyrGame() {
   const router = useRouter();
@@ -25,6 +26,7 @@ export function WyrGame() {
   const [chosen, setChosen] = useState<"A" | "B" | null>(null);
   const [history, setHistory] = useState<string[]>([]);
   const [finished, setFinished] = useState(false);
+  useMobileGameNavigation(!finished);
   const [sessionKey, setSessionKey] = useState(0);
 
   const totalRounds = Math.max(settings.wyrRounds, players.length * 2);

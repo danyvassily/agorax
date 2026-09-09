@@ -20,6 +20,7 @@ import { TimerBar, Confetti, PillBadge } from "@/components/ui/primitives";
 import { RoundRoastPanel } from "@/components/game/round-roast-panel";
 import { Trophy, Swords, AlertCircle, ChevronLeft } from "lucide-react";
 import { localizeQuestion } from "@/lib/questions/localize";
+import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 
 export function TeamBattleGame() {
   const router = useRouter();
@@ -35,6 +36,7 @@ export function TeamBattleGame() {
   const [scoreB, setScoreB] = useState(0);
   const [currentTeam, setCurrentTeam] = useState<"A" | "B">("A");
   const [error, setError] = useState<string | null>(null);
+  useMobileGameNavigation(!error && phase !== "results");
   const [reloadKey, setReloadKey] = useState(0);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const answeredRef = useRef(false);

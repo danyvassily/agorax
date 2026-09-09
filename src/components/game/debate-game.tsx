@@ -23,6 +23,7 @@ import { useGameStore } from "@/lib/store/game";
 import { useSettingsStore } from "@/lib/store/settings";
 import { ProgressRing, PillBadge, TimerBar, PlayerDot } from "@/components/ui/primitives";
 import { KawaiiMascot } from "@/components/ui/kawaii-mascot";
+import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 import {
   MessageSquareQuote,
   RefreshCw,
@@ -54,6 +55,7 @@ export function DebateGame() {
   const [showDevil, setShowDevil] = useState(false);
   const [metrics, setMetrics] = useState({ points: 0, arguments: 0, questions: 0 });
   const [reloadKey, setReloadKey] = useState(0);
+  useMobileGameNavigation(!error && phase !== "setup" && phase !== "results");
 
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const globalTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);

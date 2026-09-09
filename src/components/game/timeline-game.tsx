@@ -13,6 +13,7 @@ import { useGameStore } from "@/lib/store/game";
 import { PlayerDot, PillBadge } from "@/components/ui/primitives";
 import { RoundRoastPanel } from "@/components/game/round-roast-panel";
 import { ChevronLeft, Clock } from "lucide-react";
+import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 
 export function TimelineGame() {
   const router = useRouter();
@@ -27,6 +28,7 @@ export function TimelineGame() {
   const [checked, setChecked] = useState<boolean | null>(null);
   const [scores, setScores] = useState<Record<string, number>>({});
   const [finished, setFinished] = useState(false);
+  useMobileGameNavigation(!finished);
 
   const correctOrder = useMemo(() => [...events].sort((a, b) => a.year - b.year), [events]);
   const activeIdx = round % Math.max(1, players.length);
