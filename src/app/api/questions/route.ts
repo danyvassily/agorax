@@ -134,7 +134,7 @@ export async function POST(request: Request) {
   const { count, category, subcategory, difficulties, ai, onlineSessionId, participantTokens, participantHistories, history } = parsed.data;
   const requestedLanguage = parsed.data.gameLanguage ?? parsed.data.language;
   const languageMode = parsed.data.languageMode ?? (parsed.data.requireBilingual ? "per-player" : "shared");
-  const isBilingualRequired = parsed.data.requireBilingual || languageMode === "per-player" || Boolean(onlineSessionId);
+  const isBilingualRequired = parsed.data.requireBilingual || languageMode === "per-player";
   const sessionId = parsed.data.sessionId ?? crypto.randomUUID();
   const cat = (category ?? "mixed") as QuestionCategory | "mixed";
   const histories: ParticipantHistory[] = participantHistories?.length ? participantHistories : [{ entries: history }];
@@ -146,8 +146,8 @@ export async function POST(request: Request) {
     .filter(q => q.verification?.status !== "disputed" && q.language === requestedLanguage)
     .map((q) => ({ ...q, translations: { ...q.translations } }));
 
-  // En ligne ou si requis, conserver les deux variantes synchronisées afin que
-  // chaque appareil rende la question dans sa propre langue.
+  // Les variantes traduites ne sont obligatoires qu'en mode par joueur. Une partie
+  // en ligne en langue partagée doit rester strictement dans gameLanguage.
   const alternateLanguage = requestedLanguage === "fr" ? "en" : "fr";
   const alternateById = new Map(loadQuestions(alternateLanguage).questions.map((q) => [q.id, q]));
   for (const question of localPool) {
@@ -161,14 +161,10 @@ export async function POST(request: Request) {
   }
 
   const supabase = participantTokens?.length ? getRequestSupabase(request) : null;
-  const stages = stagePools(
-    isBilingualRequired
-      ? localPool.filter((q) => q.translations?.[alternateLanguage]?.answers?.length === q.answers.length)
-      : localPool,
-    cat,
-    difficulties,
-    subcategory,
-  );
+  const eligiblePool = isBilingualRequired
+    ? localPool.filter((q) => q.translations?.[alternateLanguage]?.answers?.length === q.answers.length)
+    : localPool;
+  const stages = stagePools(eligiblePool, cat, difficulties, subcategory);
 
   let questions: Question[] = [];
   let fallbackStage = "exact";
@@ -194,7 +190,7 @@ export async function POST(request: Request) {
 
   if (!remoteEnabled) {
     const result = getUnseenQuestions({
-      pool: localPool,
+      pool: eligiblePool,
       participantHistories: histories,
       count,
       language: requestedLanguage,
@@ -209,9 +205,12 @@ export async function POST(request: Request) {
   }
 
   let aiGenerated = false;
-  let aiSkipped: "authentication_required" | "rate_limited" | "unavailable" | undefined;
+  let aiSkipped: "authentication_required" | "rate_limited" | "unavailable" | "bilingual_required" | undefined;
   if (questions.length < count && ai) {
-    if (!isDeepSeekEnabled()) aiSkipped = "unavailable";
+    // Le générateur produit une seule langue par appel. En partie bilingue, mieux vaut
+    // signaler un pool incomplet que servir une question impossible à localiser.
+    if (isBilingualRequired) aiSkipped = "bilingual_required";
+    else if (!isDeepSeekEnabled()) aiSkipped = "unavailable";
     else {
       const quota = await consumeAuthenticatedAiQuota(request);
       if (!quota.authenticated) aiSkipped = "authentication_required";
@@ -223,6 +222,7 @@ export async function POST(request: Request) {
           try {
             const generated = await generateQuestionsWithDeepSeek(Math.min((count - questions.length) * 2, 12), cat, requestedLanguage);
             const deduplicated = generated.filter((candidate, index, all) =>
+              candidate.language === requestedLanguage &&
               !isKnowledgeDuplicate(candidate, localPool) &&
               !isKnowledgeDuplicate(candidate, questions) &&
               !isKnowledgeDuplicate(candidate, all.slice(0, index)),
@@ -236,6 +236,7 @@ export async function POST(request: Request) {
                   pool: deduplicated,
                   participantHistories: histories,
                   count: count - questions.length,
+                  language: requestedLanguage,
                   progressiveFallback: false,
                 }).questions;
             questions.push(...additions);
@@ -253,7 +254,7 @@ export async function POST(request: Request) {
   console.info("[QUESTION_SELECTION]", {
     players: participantTokens?.length ?? histories.length,
     requested: count,
-    candidatesInitial: localPool.length,
+    candidatesInitial: eligiblePool.length,
     selected: questions.length,
     fallbackStage,
     poolExhausted,
