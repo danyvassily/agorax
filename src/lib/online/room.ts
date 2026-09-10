@@ -46,6 +46,9 @@ export interface OnlineSession {
   buzzer_player_id: string | null;
   game_language?: "fr" | "en";
   language_mode?: "shared" | "per-player";
+  question_started_at?: string | null;
+  question_duration_seconds?: number | null;
+  paused_remaining_ms?: number | null;
 }
 
 export interface OnlinePlayer {
@@ -57,6 +60,7 @@ export interface OnlinePlayer {
   is_host: boolean;
   score: number;
   ready?: boolean;
+  is_spectator?: boolean;
 }
 
 export interface RoomAnswer {
@@ -150,8 +154,10 @@ export async function createRoom(
         phase: "lobby",
         mode: opts.mode,
         category: opts.category,
-        question_count: opts.questionCount,
+        question_count: opts.mode === "rapidfire" ? 20 : opts.questionCount,
         max_players: Math.max(2, Math.min(MAX_PLAYERS, opts.maxPlayers)),
+        game_language: opts.gameLanguage ?? "fr",
+        language_mode: opts.languageMode ?? "per-player",
       })
       .select()
       .single();
@@ -215,61 +221,15 @@ export async function joinRoom(
   });
 
   if (error) {
-    if (error.message.includes("room_capacity_reached")) {
-      throw new Error("Ce salon est complet");
-    }
-    // Fallback si la version distante de la RPC rejette la phase 'playing'
-    if (error.message.includes("room_not_found")) {
-      const { data: sessionData } = await sb
-        .from("game_sessions")
-        .select("*")
-        .eq("room_code", code.trim().toUpperCase())
-        .maybeSingle();
-
-      if (sessionData && (sessionData.phase === "lobby" || sessionData.phase === "playing") && sessionData.host_id) {
-        // Vérifie si déjà joueur
-        const { data: existingPlayer } = await sb
-          .from("game_players")
-          .select("id")
-          .eq("session_id", sessionData.id)
-          .eq("user_id", identity.userId)
-          .maybeSingle();
-
-        if (existingPlayer) {
-          joined = { session_id: sessionData.id, player_id: existingPlayer.id };
-        } else {
-          const { count } = await sb
-            .from("game_players")
-            .select("*", { count: "exact", head: true })
-            .eq("session_id", sessionData.id);
-
-          if ((count ?? 0) >= (sessionData.max_players ?? MAX_PLAYERS)) {
-            throw new Error("Ce salon est complet");
-          }
-
-          const { data: newPlayer, error: insertErr } = await sb
-            .from("game_players")
-            .insert({
-              session_id: sessionData.id,
-              user_id: identity.userId,
-              name: identity.name,
-              is_host: false,
-            })
-            .select()
-            .single();
-
-          if (insertErr) throw insertErr;
-          joined = { session_id: sessionData.id, player_id: newPlayer.id };
-        }
-      } else {
-        throw new Error("Salon introuvable : vérifie le code du salon");
-      }
-    } else {
-      throw error;
-    }
-  } else {
-    joined = Array.isArray(membership) ? membership[0] : membership;
+  if (error.message.includes("room_capacity_reached")) {
+    throw new Error("Ce salon est complet");
   }
+  if (error.message.includes("room_not_found")) {
+    throw new Error("Salon introuvable : vérifie le code du salon");
+  }
+  throw error;
+}
+joined = Array.isArray(membership) ? membership[0] : membership;
 
   if (!joined?.session_id || !joined?.player_id) {
     throw new Error("Impossible de rejoindre ce salon");
@@ -417,6 +377,7 @@ export async function hostPushQuestion(
   index: number,
   revealed: boolean,
   currentStateVersion: number = 0,
+  durationSeconds: number = 15,
 ): Promise<void> {
   const sb = getSupabaseBrowser();
   if (!sb) return;
@@ -476,7 +437,14 @@ export async function hostPushQuestion(
       question_index: index,
       answers_revealed: revealed,
       state_version: currentStateVersion + 1,
-      ...(!revealed ? { buzzer_player_id: null } : {}),
+      ...(!revealed
+        ? {
+            buzzer_player_id: null,
+            question_started_at: new Date().toISOString(),
+            question_duration_seconds: durationSeconds,
+            paused_remaining_ms: null,
+          }
+        : {}),
     })
     .eq("id", sessionId);
   if (error) throw new Error(`Push question: ${error.message}`);
@@ -488,16 +456,27 @@ export async function hostSetPause(sessionId: string, paused: boolean): Promise<
   if (!sb) return;
   const { data: session, error: fetchErr } = await sb
     .from("game_sessions")
-    .select("current_question, state_version")
+    .select("current_question, state_version, question_started_at, question_duration_seconds, paused_remaining_ms")
     .eq("id", sessionId)
     .single();
-  if (fetchErr || !session) return;
-  const current = (session.current_question ?? {}) as Record<string, unknown>;
+  if (fetchErr) throw new Error(`Pause salon: ${fetchErr.message}`);
+  if (!session?.current_question) return;
+
+  const current = session.current_question as Record<string, unknown>;
+  const durationMs = Math.max(1000, Number(session.question_duration_seconds ?? 15) * 1000);
+  const startedAt = session.question_started_at ? Date.parse(session.question_started_at) : Date.now();
+  const remainingMs = paused
+    ? Math.max(0, startedAt + durationMs - Date.now())
+    : Math.max(0, Number(session.paused_remaining_ms ?? durationMs));
+
   const { error } = await sb
     .from("game_sessions")
     .update({
       current_question: { ...current, is_paused: paused },
       state_version: (session.state_version ?? 0) + 1,
+      question_started_at: paused ? null : new Date().toISOString(),
+      question_duration_seconds: paused ? session.question_duration_seconds : Math.max(1, Math.ceil(remainingMs / 1000)),
+      paused_remaining_ms: paused ? remainingMs : null,
     })
     .eq("id", sessionId);
   if (error) throw new Error(`Pause salon: ${error.message}`);
@@ -553,10 +532,13 @@ export async function hostMarkAnswers(
   if (!sb) return;
   await Promise.all(
     answers.map(async (a) => {
+      if (a.id.startsWith("local-")) return;
       const correct = a.answer_index === question.correctAnswer;
-      await sb.from("room_answers").update({ correct }).eq("id", a.id);
+      const { error: answerError } = await sb.from("room_answers").update({ correct }).eq("id", a.id);
+      if (answerError) throw new Error(`Correction réponse: ${answerError.message}`);
       if (correct) {
-        await sb.rpc("increment_player_score", { p_player_id: a.player_id, p_points: 10 });
+        const { error: scoreError } = await sb.rpc("increment_player_score", { p_player_id: a.player_id, p_points: 10 });
+        if (scoreError) throw new Error(`Score: ${scoreError.message}`);
       }
     }),
   );
@@ -604,11 +586,12 @@ export async function leaveRoom(sessionId: string, playerId: string): Promise<vo
 export async function setPlayerReady(sessionId: string, playerId: string, ready: boolean): Promise<void> {
   const sb = getSupabaseBrowser();
   if (!sb) return;
-  try {
-    await sb.from("game_players").update({ ready }).eq("id", playerId).eq("session_id", sessionId);
-  } catch (error) {
-    console.warn("[room] setPlayerReady non bloquant:", error);
-  }
+  const { error } = await sb
+    .from("game_players")
+    .update({ ready })
+    .eq("id", playerId)
+    .eq("session_id", sessionId);
+  if (error) throw new Error(`État prêt: ${error.message}`);
 }
 
 export { isSupabaseConfigured };

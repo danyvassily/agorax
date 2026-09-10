@@ -85,6 +85,17 @@ function elapsedSince(start: number) {
   return Math.max(0, Date.now() - start);
 }
 
+function remainingSeconds(session: OnlineSession | null, fallbackSeconds: number): number {
+  if (!session) return fallbackSeconds;
+  if (session.paused_remaining_ms != null) {
+    return Math.max(0, Math.ceil(session.paused_remaining_ms / 1000));
+  }
+  const started = session.question_started_at ? Date.parse(session.question_started_at) : NaN;
+  if (!Number.isFinite(started)) return fallbackSeconds;
+  const duration = Math.max(1, session.question_duration_seconds ?? fallbackSeconds) * 1000;
+  return Math.max(0, Math.ceil((started + duration - Date.now()) / 1000));
+}
+
 const AVAILABLE_ONLINE_MODES: GameMode[] = ["classic", "rapidfire", "truefalse", "teambattle", "agorax"];
 
 export function OnlineRoom() {
@@ -173,7 +184,7 @@ export function OnlineRoom() {
     questions[index()] ?? (session?.current_question as Question | null) ?? null;
   const revealed = session?.answers_revealed ?? false;
   const isPaused = Boolean(session?.current_question?.is_paused);
-  const isSpectatingCurrent = joinedMidGameIndex !== null && joinedMidGameIndex === index();
+  const isSpectatingCurrent = myPlayer?.is_spectator === true || (joinedMidGameIndex !== null && joinedMidGameIndex === index());
   const questionCount = currentMode === "rapidfire" ? 20 : session?.question_count ?? questions.length ?? 10;
   const timePerQuestion = currentMode === "rapidfire" ? 6 : 15;
 
@@ -242,30 +253,50 @@ export function OnlineRoom() {
     return () => clearTimeout(id);
   }, [sessionPhase]);
 
-  // Timer du joueur quand la question est poussée (suspendu si pause)
+  // Timer synchronisé sur l'horloge serveur de la question.
   useEffect(() => {
-    if (view !== "playing" || revealed || !hasCurrentQuestion || isPaused) return;
-    const id = setTimeout(() => {
+    if (view !== "playing" || revealed || !hasCurrentQuestion) return;
+    if (timerRef.current) clearInterval(timerRef.current);
+
+    const sync = () => {
+      const left = remainingSeconds(sessionRef.current, timePerQuestion);
+      setTimeLeft(left);
+      if (left <= 0) {
+        setAnswered(true);
+        if (timerRef.current) clearInterval(timerRef.current);
+      }
+    };
+
+    if (isPaused) {
+      const pauseSync = setTimeout(sync, 0);
+      return () => clearTimeout(pauseSync);
+    }
+
+    const currentSession = sessionRef.current;
+    const serverStart = currentSession?.question_started_at ? Date.parse(currentSession.question_started_at) : NaN;
+    startRef.current = Number.isFinite(serverStart) ? serverStart : Date.now();
+    const initialSync = setTimeout(() => {
       setAnswered(false);
       setSelected(null);
-      setTimeLeft(timePerQuestion);
-      startRef.current = Date.now();
-      timerRef.current = setInterval(() => {
-        setTimeLeft((tl) => {
-          if (tl <= 1) {
-            if (timerRef.current) clearInterval(timerRef.current);
-            setAnswered(true);
-            return 0;
-          }
-          return tl - 1;
-        });
-      }, 1000);
+      sync();
     }, 0);
+    timerRef.current = setInterval(sync, 250);
+
     return () => {
-      clearTimeout(id);
+      clearTimeout(initialSync);
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [session?.state_version, view, revealed, hasCurrentQuestion, timePerQuestion, isPaused]);
+  }, [
+    session?.question_index,
+    session?.question_started_at,
+    session?.question_duration_seconds,
+    session?.paused_remaining_ms,
+    view,
+    revealed,
+    hasCurrentQuestion,
+    timePerQuestion,
+    isPaused,
+  ]);
 
   // Sons et micro-vibrations haptiques 3-2-1
   useEffect(() => {
@@ -283,13 +314,14 @@ export function OnlineRoom() {
     }
   }, [view, session?.question_index, hasCurrentQuestion, revealed, isPaused]);
 
+  const activePlayers = players.filter((player) => !player.is_spectator);
   const answeredCountForCurrent = answers.filter((answer) => answer.question_index === index()).length;
   const allAnsweredRef = useRef(false);
   useEffect(() => {
-    const allAnswered = !isBuzzerMode && players.length > 0 && answeredCountForCurrent >= players.length;
+    const allAnswered = !isBuzzerMode && activePlayers.length > 0 && answeredCountForCurrent >= activePlayers.length;
     if (isHost && allAnswered && !allAnsweredRef.current && !revealed) sound.playAllAnswered();
     allAnsweredRef.current = allAnswered;
-  }, [answeredCountForCurrent, isBuzzerMode, isHost, players.length, revealed]);
+  }, [answeredCountForCurrent, isBuzzerMode, isHost, activePlayers.length, revealed]);
 
   async function create() {
     if (joiningRef.current) return;
@@ -301,8 +333,10 @@ export function OnlineRoom() {
       const res = await createRoom(pseudo, {
         mode: currentMode,
         category: createCategory,
-        questionCount: createCount,
+        questionCount: currentMode === "rapidfire" ? 20 : createCount,
         maxPlayers: createMaxPlayers,
+        gameLanguage: lang,
+        languageMode: "per-player",
       });
       sessionRef.current = res.session;
       setSession(res.session);
@@ -403,7 +437,8 @@ export function OnlineRoom() {
       setSession(resetSession);
       setCurrentMode(nextMode);
       const requestedCount = nextMode === "rapidfire" ? 20 : resetSession.question_count ?? 10;
-      const gameLanguage = useLanguageStore.getState().language === "en" ? "en" : "fr";
+      const gameLanguage = resetSession.game_language ?? (useLanguageStore.getState().language === "en" ? "en" : "fr");
+      const languageMode = resetSession.language_mode ?? "per-player";
       const effectivePlayers = savedPlayers.length > 0
         ? savedPlayers.slice(0, 1)
         : [makePlayer(0, myPlayer?.name ?? pseudo)];
@@ -417,7 +452,7 @@ export function OnlineRoom() {
         onlineSessionId: resetSession.id,
         ai: false,
         gameLanguage,
-        languageMode: "per-player",
+        languageMode,
         language: gameLanguage,
       });
       const qs = data.questions ?? [];
@@ -430,7 +465,7 @@ export function OnlineRoom() {
       }
 
       if (qs.length === 0) throw new Error(en ? "No questions available" : "Aucune question disponible");
-      await hostPushQuestion(resetSession.id, qs[0], 0, false, resetSession.state_version ?? 0);
+      await hostPushQuestion(resetSession.id, qs[0], 0, false, resetSession.state_version ?? 0, nextMode === "rapidfire" ? 6 : 15);
       setView("playing");
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
@@ -527,7 +562,7 @@ export function OnlineRoom() {
       setView("results");
       return;
     }
-    await hostPushQuestion(session.id, qs[nextIdx], nextIdx, false, session.state_version ?? 0);
+    await hostPushQuestion(session.id, qs[nextIdx], nextIdx, false, session.state_version ?? 0, timePerQuestion);
   }
 
   async function copyCode() {
@@ -573,11 +608,11 @@ export function OnlineRoom() {
 
   async function leave() {
     if (timerRef.current) clearInterval(timerRef.current);
-    if (session && myPlayer && !isHost) {
+    if (session && myPlayer) {
       try {
         await leaveRoom(session.id, myPlayer.id);
       } catch {
-        // best effort
+        // La navigation locale ne doit pas rester bloquée si le réseau tombe.
       }
     }
     localStorage.removeItem("Agorax-last-room");
@@ -588,7 +623,7 @@ export function OnlineRoom() {
   const q = session?.current_question;
   // Une question en ligne contient ses variantes synchronisées. Chaque appareil
   // l'affiche dans la langue choisie localement, sans modifier l'index de réponse.
-  const effectiveSessionLang = lang;
+  const effectiveSessionLang = session?.language_mode === "shared" ? (session.game_language ?? lang) : lang;
   const qLocal = q ? localizeQuestion(q, effectiveSessionLang) : null;
   const en = lang === "en";
   const correctAnswer = revealed ? q?.correctAnswer : undefined;
@@ -1054,7 +1089,7 @@ export function OnlineRoom() {
                   {isHost ? (en ? "Host · Answer!" : "Hôte · Répondez !") : (en ? "Your turn!" : "À vous de jouer !")}
                 </PillBadge>
                 <span className="text-[13px] font-medium text-fp-text-dim tabular-nums">
-                  {answeredCount}/{players.length} {en ? "answered" : "ont répondu"}
+                  {answeredCount}/{activePlayers.length} {en ? "answered" : "ont répondu"}
                 </span>
               </div>
 
