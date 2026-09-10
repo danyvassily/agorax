@@ -19,7 +19,7 @@ import {
 import { useLanguageStore } from "@/lib/store/language";
 import { localizeQuestion } from "@/lib/questions/localize";
 import { translate } from "@/lib/i18n";
-import { CATEGORY_LABELS } from "@/lib/game/modes";
+import { categoryLabel } from "@/lib/game/modes";
 import { ProgressRing, TimerBar, Confetti, PlayerDot, PillBadge } from "@/components/ui/primitives";
 import { KawaiiMascot } from "@/components/ui/kawaii-mascot";
 import { RoundRoastPanel } from "@/components/game/round-roast-panel";
@@ -417,7 +417,7 @@ export function QuizGame({ mode }: QuizGameProps) {
       <section className="jx-question-stage mt-5 flex-1">
         <div className="jx-question-meta flex items-center justify-between">
           <PillBadge>
-            {CATEGORY_LABELS[current.category]} · {DIFFICULTY_LABELS[current.difficulty] ?? current.difficulty}
+            {categoryLabel(playerLanguage, current.category)} · {en ? current.difficulty.charAt(0).toUpperCase() + current.difficulty.slice(1) : (DIFFICULTY_LABELS[current.difficulty] ?? current.difficulty)}
           </PillBadge>
           {(
             <ProgressRing seconds={timeLeft} total={timePerQuestion} size={48} danger={timeLeft <= 2} />

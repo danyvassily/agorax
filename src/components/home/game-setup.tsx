@@ -11,6 +11,7 @@ import { PlayerDot } from '@/components/ui/primitives';
 import { KawaiiMascot } from '@/components/ui/kawaii-mascot';
 import { CHARACTERS, characterImage } from '@/lib/characters';
 import { TopicSelector } from '@/components/home/topic-selector';
+import { ChoiceSheet } from '@/components/ui/choice-sheet';
 
 function localizeDefaultPlayerName(name: string, index: number, language: 'fr' | 'en') {
   return language === 'en'
@@ -21,6 +22,7 @@ function localizeDefaultPlayerName(name: string, index: number, language: 'fr' |
 export function GameSetup({
   mode,
   solo = false,
+  compact = false,
   initialCount,
   initialCategory,
   initialSubcategory,
@@ -29,6 +31,7 @@ export function GameSetup({
 }: {
   mode: GameMode;
   solo?: boolean;
+  compact?: boolean;
   initialCount?: number;
   initialCategory?: QuestionCategory | 'mixed';
   initialSubcategory?: string;
@@ -65,6 +68,7 @@ export function GameSetup({
   const [category, setCategory] = useState<QuestionCategory | 'mixed'>(initialCategory ?? 'mixed');
   const [subcategory, setSubcategory] = useState<string | undefined>(initialSubcategory);
   const [count, setCount] = useState(settings.defaultQuestionCount);
+  const [difficulty, setDifficulty] = useState('mixed');
   const [duration, setDuration] = useState<'express' | 'classic'>('express');
   const individualLanguage = ['classic', 'rapidfire', 'truefalse'].includes(mode);
   const min = solo ? 1 : Math.max(2, meta.minPlayers);
@@ -90,7 +94,7 @@ export function GameSetup({
       mode,
       category,
       subcategory,
-      difficulty: 'mixed',
+      difficulty,
       players: final,
       questionCount: count,
       timePerQuestion:
@@ -106,6 +110,25 @@ export function GameSetup({
       languageMode,
     });
   }
+
+  if (compact) return <div className="mx-auto w-full max-w-xl">
+    <button type="button" className="fp-btn-ghost" onClick={onBack}><ChevronLeft size={19} />{en ? 'Back' : 'Retour'}</button>
+    <header className="flex items-center justify-between gap-4 my-6">
+      <div><h1 className="text-3xl font-bold tracking-tight">{en ? 'Prepare your quiz' : 'Préparer le quiz'}</h1><p className="mt-2 text-sm text-fp-text-dim">{en ? 'Pick a topic. We’ll take care of the questions.' : 'Choisis un thème, on s’occupe des questions.'}</p></div>
+      <KawaiiMascot theme="neo" size={68} />
+    </header>
+    <TopicSelector value={category} subcategory={subcategory} language={lang} onChange={handleCategoryChange} onSubcategoryChange={setSubcategory} />
+    <div className="overflow-hidden rounded-2xl border border-fp-border bg-white my-5">
+      <ChoiceSheet label={en ? 'Questions' : 'Questions'} language={lang} value={String(count)} onChange={v => setCount(Number(v))} options={QUESTION_COUNT_OPTIONS.map(n => ({value: String(n), label: String(n)}))} />
+      <ChoiceSheet label={en ? 'Difficulty' : 'Difficulté'} language={lang} value={difficulty} onChange={setDifficulty} options={[
+        {value: 'mixed', label: en ? 'All levels' : 'Tous niveaux'}, {value: 'easy', label: en ? 'Easy' : 'Facile'}, {value: 'medium', label: en ? 'Medium' : 'Moyen'}, {value: 'hard', label: en ? 'Hard' : 'Difficile'}, {value: 'expert', label: 'Expert'}
+      ]} />
+    </div>
+    <details className="my-5"><summary className="cursor-pointer py-3 text-sm text-fp-text-dim">{en ? 'Advanced settings' : 'Réglages avancés'}</summary>
+      <div className="overflow-hidden rounded-2xl border border-fp-border"><ChoiceSheet label={en ? 'Question language' : 'Langue des questions'} language={lang} value={gameLanguage} onChange={v => setGameLanguage(v as SupportedLanguage)} options={[{value:'fr',label:'Français'},{value:'en',label:'English'}]} /></div>
+    </details>
+    <button type="button" className="fp-btn-primary w-full mt-3" onClick={launch}>{en ? 'Start quiz' : 'Lancer le quiz'}<ArrowRight size={18} /></button>
+  </div>;
 
   return (
     <>

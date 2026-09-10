@@ -7,12 +7,14 @@ import type { QuestionCategory } from '@/lib/questions/schema';
 export function LocalGameSetupClient({
   mode,
   solo = false,
+  compact = false,
   initialCount,
   initialCategory,
   initialSubcategory,
 }: {
   mode: GameMode;
   solo?: boolean;
+  compact?: boolean;
   initialCount?: number;
   initialCategory?: QuestionCategory | 'mixed';
   initialSubcategory?: string;
@@ -24,6 +26,7 @@ export function LocalGameSetupClient({
       <GameSetup
         mode={mode}
         solo={solo}
+        compact={compact}
         initialCount={initialCount}
         initialCategory={initialCategory}
         initialSubcategory={initialSubcategory}
