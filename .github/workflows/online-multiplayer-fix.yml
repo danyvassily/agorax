@@ -19,22 +19,139 @@ jobs:
           ref: fix/online-multiplayer-sync
           fetch-depth: 0
 
-      - name: Apply targeted multiplayer patches
+      - name: Finalize multiplayer patches
         if: github.actor != 'github-actions[bot]'
-        run: python scripts/apply-online-multiplayer-fix.py
+        shell: python
+        run: |
+          from pathlib import Path
 
-      - name: Commit patched sources
+          def replace_once(path, old, new):
+              p = Path(path)
+              text = p.read_text()
+              if text.count(old) != 1:
+                  raise SystemExit(f"Expected one match in {path}")
+              p.write_text(text.replace(old, new, 1))
+
+          room = Path("src/lib/online/room.ts")
+          text = room.read_text()
+          start_marker = '  if (error) {\n    if (error.message.includes("room_capacity_reached")) {'
+          end_marker = '  if (!joined?.session_id || !joined?.player_id) {'
+          start = text.find(start_marker, text.find('sb.rpc("join_game_session"'))
+          end = text.find(end_marker, start)
+          if start < 0 or end < 0:
+              raise SystemExit("Could not locate legacy join fallback")
+          replacement = '''  if (error) {
+            if (error.message.includes("room_capacity_reached")) {
+              throw new Error("Ce salon est complet");
+            }
+            if (error.message.includes("room_not_found")) {
+              throw new Error("Salon introuvable : vérifie le code du salon");
+            }
+            throw error;
+          }
+          joined = Array.isArray(membership) ? membership[0] : membership;
+
+          '''
+          room.write_text(text[:start] + replacement + text[end:])
+
+          old_timer = '''  // Timer synchronisé sur l'horloge serveur de la question.
+            useEffect(() => {
+              if (view !== "playing" || revealed || !hasCurrentQuestion) return;
+              if (timerRef.current) clearInterval(timerRef.current);
+
+              const sync = () => {
+                const left = remainingSeconds(sessionRef.current, timePerQuestion);
+                setTimeLeft(left);
+                if (left <= 0) {
+                  setAnswered(true);
+                  if (timerRef.current) clearInterval(timerRef.current);
+                }
+              };
+
+              if (isPaused) {
+                setTimeLeft(remainingSeconds(session, timePerQuestion));
+                return;
+              }
+
+              setAnswered(false);
+              setSelected(null);
+              const serverStart = session?.question_started_at ? Date.parse(session.question_started_at) : NaN;
+              startRef.current = Number.isFinite(serverStart) ? serverStart : Date.now();
+              sync();
+              timerRef.current = setInterval(sync, 250);
+
+              return () => {
+                if (timerRef.current) clearInterval(timerRef.current);
+              };
+            }, [
+              session?.question_index,
+              session?.question_started_at,
+              session?.question_duration_seconds,
+              session?.paused_remaining_ms,
+              view,
+              revealed,
+              hasCurrentQuestion,
+              timePerQuestion,
+              isPaused,
+            ]);'''
+          new_timer = '''  // Timer synchronisé sur l'horloge serveur de la question.
+            useEffect(() => {
+              if (view !== "playing" || revealed || !hasCurrentQuestion) return;
+              if (timerRef.current) clearInterval(timerRef.current);
+
+              const sync = () => {
+                const left = remainingSeconds(sessionRef.current, timePerQuestion);
+                setTimeLeft(left);
+                if (left <= 0) {
+                  setAnswered(true);
+                  if (timerRef.current) clearInterval(timerRef.current);
+                }
+              };
+
+              if (isPaused) {
+                const pauseSync = setTimeout(sync, 0);
+                return () => clearTimeout(pauseSync);
+              }
+
+              const currentSession = sessionRef.current;
+              const serverStart = currentSession?.question_started_at ? Date.parse(currentSession.question_started_at) : NaN;
+              startRef.current = Number.isFinite(serverStart) ? serverStart : Date.now();
+              const initialSync = setTimeout(() => {
+                setAnswered(false);
+                setSelected(null);
+                sync();
+              }, 0);
+              timerRef.current = setInterval(sync, 250);
+
+              return () => {
+                clearTimeout(initialSync);
+                if (timerRef.current) clearInterval(timerRef.current);
+              };
+            }, [
+              session?.question_index,
+              session?.question_started_at,
+              session?.question_duration_seconds,
+              session?.paused_remaining_ms,
+              view,
+              revealed,
+              hasCurrentQuestion,
+              timePerQuestion,
+              isPaused,
+            ]);'''
+          replace_once("src/components/game/online-room.tsx", old_timer, new_timer)
+
+      - name: Commit finalized sources
         if: github.actor != 'github-actions[bot]'
         run: |
           if git diff --quiet; then
             echo "No source changes required"
-            exit 0
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add src/lib/online/room.ts src/components/game/online-room.tsx
+            git commit -m "fix(multiplayer): finalize synchronized room flow"
+            git push origin HEAD:fix/online-multiplayer-sync
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/lib/online/room.ts src/components/game/online-room.tsx
-          git commit -m "fix(multiplayer): synchronize online game state"
-          git push origin HEAD:fix/online-multiplayer-sync
 
       - uses: actions/setup-node@v4
         with:
