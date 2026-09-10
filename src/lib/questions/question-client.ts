@@ -34,7 +34,7 @@ export interface QuestionPoolResponse {
   poolExhausted: boolean;
   reason?: "INSUFFICIENT_UNSEEN_QUESTIONS";
   aiGenerated?: boolean;
-  aiSkipped?: string;
+  aiSkipped?: "authentication_required" | "rate_limited" | "unavailable" | "bilingual_required";
 }
 
 async function authenticatedHeaders(): Promise<Record<string, string>> {
