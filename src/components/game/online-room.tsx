@@ -268,18 +268,22 @@ export function OnlineRoom() {
     };
 
     if (isPaused) {
-      setTimeLeft(remainingSeconds(session, timePerQuestion));
-      return;
+      const pauseSync = setTimeout(sync, 0);
+      return () => clearTimeout(pauseSync);
     }
 
-    setAnswered(false);
-    setSelected(null);
-    const serverStart = session?.question_started_at ? Date.parse(session.question_started_at) : NaN;
+    const currentSession = sessionRef.current;
+    const serverStart = currentSession?.question_started_at ? Date.parse(currentSession.question_started_at) : NaN;
     startRef.current = Number.isFinite(serverStart) ? serverStart : Date.now();
-    sync();
+    const initialSync = setTimeout(() => {
+      setAnswered(false);
+      setSelected(null);
+      sync();
+    }, 0);
     timerRef.current = setInterval(sync, 250);
 
     return () => {
+      clearTimeout(initialSync);
       if (timerRef.current) clearInterval(timerRef.current);
     };
   }, [
