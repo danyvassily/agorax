@@ -156,6 +156,8 @@ export function OnlineRoom() {
 
   const questionsRef = useRef<Question[]>([]);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const timerQuestionRef = useRef<string>("");
+  const roundActionRef = useRef(false);
   const sessionRef = useRef<OnlineSession | null>(null);
   const myPlayerRef = useRef<OnlinePlayer | null>(null);
   const startRef = useRef(0);
@@ -185,7 +187,7 @@ export function OnlineRoom() {
   const revealed = session?.answers_revealed ?? false;
   const isPaused = Boolean(session?.current_question?.is_paused);
   const isSpectatingCurrent = myPlayer?.is_spectator === true || (joinedMidGameIndex !== null && joinedMidGameIndex === index());
-  const questionCount = currentMode === "rapidfire" ? 20 : session?.question_count ?? questions.length ?? 10;
+  const questionCount = session?.question_count ?? (questions.length || 10);
   const timePerQuestion = currentMode === "rapidfire" ? 6 : 15;
 
   function index() {
@@ -276,8 +278,12 @@ export function OnlineRoom() {
     const serverStart = currentSession?.question_started_at ? Date.parse(currentSession.question_started_at) : NaN;
     startRef.current = Number.isFinite(serverStart) ? serverStart : Date.now();
     const initialSync = setTimeout(() => {
-      setAnswered(false);
-      setSelected(null);
+      const key = `${currentSession?.id}:${currentSession?.question_index}:${currentSession?.current_question?.id}`;
+      if (timerQuestionRef.current !== key) {
+        timerQuestionRef.current = key;
+        setAnswered(false);
+        setSelected(null);
+      }
       sync();
     }, 0);
     timerRef.current = setInterval(sync, 250);
@@ -407,32 +413,9 @@ export function OnlineRoom() {
     setError(null);
     setBusy(true);
     try {
+      const resetSession = await resetOnlineRound(session.id, nextMode);
       clearRoundClientState();
-      let resetSession = session;
-      try {
-        resetSession = await resetOnlineRound(session.id, nextMode);
-      } catch (roundErr) {
-        console.warn("resetOnlineRound fallback direct update:", roundErr);
-        const sb = getSupabaseBrowser();
-        if (sb) {
-          const { data: updated } = await sb
-            .from("game_sessions")
-            .update({
-              phase: "lobby",
-              mode: nextMode,
-              question_index: -1,
-              current_question: null,
-              answers_revealed: false,
-              buzzer_player_id: null,
-              state_version: (session.state_version ?? 0) + 1,
-            })
-            .eq("id", session.id)
-            .select("*")
-            .single();
-          if (updated) resetSession = updated as OnlineSession;
-        }
-      }
-
+      timerQuestionRef.current = "";
       sessionRef.current = resetSession;
       setSession(resetSession);
       setCurrentMode(nextMode);
@@ -465,6 +448,10 @@ export function OnlineRoom() {
       }
 
       if (qs.length === 0) throw new Error(en ? "No questions available" : "Aucune question disponible");
+      const sb = getSupabaseBrowser();
+      if (!sb) throw new Error("Connexion indisponible");
+      const { error: countError } = await sb.from("game_sessions").update({ question_count: qs.length }).eq("id", resetSession.id);
+      if (countError) throw countError;
       await hostPushQuestion(resetSession.id, qs[0], 0, false, resetSession.state_version ?? 0, nextMode === "rapidfire" ? 6 : 15);
       setView("playing");
     } catch (e) {
@@ -514,14 +501,14 @@ export function OnlineRoom() {
 
   useEffect(() => {
     const displayed = session?.current_question;
-    if (view !== "playing" || !displayed?.id || !displayed.familyId || savedPlayers.length === 0 || !session) return;
+    if (view !== "playing" || !displayed?.id || !displayed.familyId || !session) return;
     void markQuestionDisplayed({
       question: { id: displayed.id, familyId: displayed.familyId },
-      players: savedPlayers.slice(0, 1),
+      players: savedPlayers.length ? savedPlayers.slice(0, 1) : [makePlayer(0, myPlayer?.name ?? pseudo)],
       sessionId: session.id,
       onlineSessionId: session.id,
     });
-  }, [view, session?.id, session?.state_version, session?.current_question, savedPlayers, session]);
+  }, [view, session?.id, session?.state_version, session?.current_question, savedPlayers, session, myPlayer?.name, pseudo]);
 
   async function reveal() {
     if (!session || !isHost || !currentQuestion) return;
@@ -556,6 +543,7 @@ export function OnlineRoom() {
   async function nextQuestion() {
     if (!session || !isHost) return;
     const qs = questionsRef.current;
+    if (!qs.length) throw new Error(en ? "The question list could not be restored. Reload before continuing." : "La liste des questions n’a pas pu être restaurée. Recharge avant de continuer.");
     const nextIdx = index() + 1;
     if (nextIdx >= qs.length) {
       await finishRoom(session.id);
@@ -563,6 +551,16 @@ export function OnlineRoom() {
       return;
     }
     await hostPushQuestion(session.id, qs[nextIdx], nextIdx, false, session.state_version ?? 0, timePerQuestion);
+  }
+
+  async function runRoundAction(action: () => Promise<void>) {
+    if (roundActionRef.current) return;
+    roundActionRef.current = true;
+    setBusy(true);
+    setError(null);
+    try { await action(); }
+    catch (cause) { setError(cause instanceof Error ? cause.message : String(cause)); }
+    finally { roundActionRef.current = false; setBusy(false); }
   }
 
   async function copyCode() {
@@ -573,13 +571,13 @@ export function OnlineRoom() {
 
   // Retour au salon persistant après match (sans recréer de salon !)
   async function handleReturnToLobby(nextMode: GameMode = currentMode) {
-    clearRoundClientState();
     if (session && isHost) {
       const resetSession = await resetOnlineRound(session.id, nextMode);
       sessionRef.current = resetSession;
       setSession(resetSession);
       setCurrentMode(nextMode);
     }
+    clearRoundClientState();
     sound.playModeChanged();
     setView("lobby");
   }
@@ -1028,6 +1026,7 @@ export function OnlineRoom() {
 
     return (
       <main className="jx-game jx-game-screen mx-auto flex min-h-dvh w-full flex-col px-4 sm:px-6 pb-12 pt-3 animate-rise">
+        {error && <p role="alert" className="jx-error">{error}</p>}
         {/* Navigation & Question Indicator */}
         <div className="jx-game-topbar flex items-center justify-between">
           <div className="flex items-center gap-1.5">
@@ -1240,8 +1239,8 @@ export function OnlineRoom() {
                 {!revealed ? (
                   <button
                     type="button"
-                    onClick={reveal}
-                    disabled={!q || (isBuzzerMode && answeredCount === 0 && timeLeft > 0)}
+                    onClick={() => void runRoundAction(reveal)}
+                    disabled={busy || !q || (isBuzzerMode && answeredCount === 0 && timeLeft > 0)}
                     className="fp-btn-primary flex flex-1 items-center justify-center gap-2 py-4 text-[16px]"
                   >
                     <Eye className="h-5 w-5" />
@@ -1250,7 +1249,8 @@ export function OnlineRoom() {
                 ) : (
                   <button
                     type="button"
-                    onClick={nextQuestion}
+                    onClick={() => void runRoundAction(nextQuestion)}
+                    disabled={busy}
                     className="fp-btn-primary flex flex-1 items-center justify-center gap-2 py-4 text-[16px]"
                   >
                     <span>{index() >= questions.length - 1 ? (en ? "See final ranking" : "Voir le classement final") : (en ? "Next question" : "Question suivante")}</span>
@@ -1417,7 +1417,7 @@ export function OnlineRoom() {
 
               <button
                 type="button"
-                onClick={() => void handleReturnToLobby()}
+                onClick={() => void runRoundAction(() => handleReturnToLobby())}
                 className="fp-btn-ghost w-full py-3 text-[15px] text-fp-primary font-semibold"
               >
                 {en ? "Back to room" : "Retour au salon"}
@@ -1468,7 +1468,7 @@ export function OnlineRoom() {
                     <button
                       key={m}
                       type="button"
-                      onClick={() => void handleReturnToLobby(m)}
+                      onClick={() => void runRoundAction(() => handleReturnToLobby(m))}
                       className={`flex w-full items-center gap-3 p-3 rounded-xl text-left transition-all ${
                         currentMode === m ? "bg-fp-primary/10 border border-fp-primary/30" : "hover:bg-black/[0.03]"
                       }`}

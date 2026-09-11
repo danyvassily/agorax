@@ -6,6 +6,7 @@ import type { Question } from "./schema";
 import { getAccessToken, getParticipantTokens, resolvePlayerProfiles } from "@/lib/identity/identity-service";
 import { toParticipantHistories, useHistoryStore } from "@/lib/store/history";
 import { useLanguageStore } from "@/lib/store/language";
+import { flushExposures, useExposureOutbox } from "./exposure-outbox";
 
 interface LoadQuestionsOptions {
   count: number;
@@ -48,10 +49,12 @@ async function authenticatedHeaders(): Promise<Record<string, string>> {
 export async function loadGameQuestions(options: LoadQuestionsOptions): Promise<QuestionPoolResponse> {
   const participantTokens = await getParticipantTokens(options.players);
   await resolvePlayerProfiles(participantTokens);
+  void flushExposures(authenticatedHeaders);
   const targetLanguage = options.gameLanguage ?? options.language ?? useLanguageStore.getState().language;
   const isBilingual = options.requireBilingual ?? (options.languageMode === "per-player");
   const response = await fetch("/api/questions", {
     method: "POST",
+    signal: AbortSignal.timeout(60_000),
     headers: await authenticatedHeaders(),
     body: JSON.stringify({
       count: options.count,
@@ -66,10 +69,13 @@ export async function loadGameQuestions(options: LoadQuestionsOptions): Promise<
       sessionId: options.sessionId,
       onlineSessionId: options.onlineSessionId,
       participantTokens,
-      participantHistories: toParticipantHistories(options.history, participantTokens),
+      participantHistories: toParticipantHistories([...options.history, ...useHistoryStore.getState().entries], participantTokens),
     }),
   });
-  if (!response.ok) throw new Error(`Impossible de charger les questions (${response.status})`);
+  if (!response.ok) {
+    const body = await response.json().catch(() => ({}));
+    throw new Error(body.error ?? `Impossible de charger les questions (${response.status})`);
+  }
   return response.json() as Promise<QuestionPoolResponse>;
 }
 
@@ -87,22 +93,24 @@ export async function markQuestionDisplayed(options: {
     participantTokens,
     options.sessionId,
   );
+  useExposureOutbox.getState().enqueue({
+    sessionId: options.sessionId,
+    onlineSessionId: options.onlineSessionId,
+    participantTokens,
+    questionId: options.question.id,
+    familyId: options.question.familyId,
+  });
   try {
     await resolvePlayerProfiles(participantTokens);
-    await fetch("/api/questions/seen", {
-      method: "POST",
-      headers: await authenticatedHeaders(),
-      body: JSON.stringify({
-        sessionId: options.sessionId,
-        onlineSessionId: options.onlineSessionId,
-        participantTokens,
-        questionId: options.question.id,
-        familyId: options.question.familyId,
-      }),
-    });
+    await flushExposures(authenticatedHeaders);
   } catch (error) {
     console.warn("[question-history] synchronisation différée:", error);
   }
+}
+
+if (typeof window !== "undefined") {
+  window.addEventListener("online", () => { void flushExposures(authenticatedHeaders); });
+  window.addEventListener("focus", () => { void flushExposures(authenticatedHeaders); });
 }
 
 export async function markQuestionAnswered(options: {

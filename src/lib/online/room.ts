@@ -126,6 +126,7 @@ export async function ensureOnlineIdentity(pseudo: string): Promise<{ userId: st
   }
   const deviceToken = await getOrCreateDeviceToken();
   const profiles = await resolvePlayerProfiles([deviceToken]);
+  if (!profiles[0]?.profile_id) throw new Error("Historique indisponible : reconnecte-toi avant de rejoindre le salon.");
   return { userId: user.id, profileId: profiles[0]?.profile_id ?? null, deviceToken, name };
 }
 
@@ -262,11 +263,18 @@ export function subscribeSession(sessionId: string, onUpdate: (s: OnlineSession)
   const sb = getSupabaseBrowser();
   if (!sb) return () => {};
   let cancelled = false;
+  let latestVersion = -1;
+  const deliver = (session: OnlineSession) => {
+    const version = session.state_version ?? 0;
+    if (cancelled || version <= latestVersion) return;
+    latestVersion = version;
+    onUpdate(session);
+  };
 
   const poll = async () => {
     try {
       const { data } = await sb.from("game_sessions").select("*").eq("id", sessionId).single();
-      if (!cancelled && data) onUpdate(data as OnlineSession);
+      if (data) deliver(data as OnlineSession);
     } catch {
       // salon supprimé ou réseau — ignoré, le polling continue
     }
@@ -278,7 +286,7 @@ export function subscribeSession(sessionId: string, onUpdate: (s: OnlineSession)
       "postgres_changes",
       { event: "UPDATE", schema: "public", table: "game_sessions", filter: `id=eq.${sessionId}` },
       (payload) => {
-        if (payload.new) onUpdate(payload.new as OnlineSession);
+        if (payload.new) deliver(payload.new as OnlineSession);
       },
     )
     .subscribe();
@@ -595,4 +603,3 @@ export async function setPlayerReady(sessionId: string, playerId: string, ready:
 }
 
 export { isSupabaseConfigured };
-

@@ -57,19 +57,24 @@ async function reserveRemotely(options: {
   participantHistories: ParticipantHistory[];
 }): Promise<Question[]> {
   if (options.count <= 0 || options.candidates.length === 0) return [];
+  const selected: Question[] = [];
+  // Bound ingestion work and respect the database's 4,000-candidate limit.
+  for (let offset = 0; offset < options.candidates.length && selected.length < options.count; offset += 300) {
   const { data, error } = await options.supabase.rpc("reserve_unseen_questions", {
     p_session_id: options.sessionId,
     p_device_tokens: options.participantTokens,
     p_online_session_id: options.onlineSessionId ?? null,
-    p_candidates: options.candidates,
-    p_count: options.count,
+    p_candidates: options.candidates.slice(offset, offset + 300),
+    p_count: options.count - selected.length,
     p_local_history: options.participantHistories,
     p_ttl_seconds: 900,
   });
   if (error) throw error;
-  return (data ?? []).map((row: { question?: Question } | Question) =>
+  selected.push(...(data ?? []).map((row: { question?: Question } | Question) =>
     "question" in row && row.question ? row.question : row,
-  ) as Question[];
+  ) as Question[]);
+  }
+  return selected;
 }
 
 function stagePools(
@@ -161,6 +166,10 @@ export async function POST(request: Request) {
   }
 
   const supabase = participantTokens?.length ? getRequestSupabase(request) : null;
+  // A room cannot safely fall back to the host's private, incomplete history.
+  if (onlineSessionId && !supabase) {
+    return NextResponse.json({ error: "Reconnecte-toi au salon pour synchroniser les historiques.", code: "HISTORY_UNAVAILABLE" }, { status: 503 });
+  }
   const eligiblePool = isBilingualRequired
     ? localPool.filter((q) => q.translations?.[alternateLanguage]?.answers?.length === q.answers.length)
     : localPool;
@@ -168,7 +177,7 @@ export async function POST(request: Request) {
 
   let questions: Question[] = [];
   let fallbackStage = "exact";
-  let remoteEnabled = Boolean(supabase && participantTokens?.length);
+  const remoteEnabled = Boolean(supabase && participantTokens?.length);
   if (remoteEnabled && supabase && participantTokens) {
     try {
       const labels = subcategory
@@ -183,8 +192,8 @@ export async function POST(request: Request) {
         if (selected.length > 0) fallbackStage = labels[index];
       }
     } catch (error) {
-      remoteEnabled = false;
       console.error("[QUESTION_SELECTION] réservation distante indisponible:", error);
+      return NextResponse.json({ error: "Les historiques ne peuvent pas être vérifiés. Réessaie dans un instant ; les questions déjà vues ne seront pas réutilisées.", code: "HISTORY_UNAVAILABLE" }, { status: 503 });
     }
   }
 
