@@ -9,13 +9,13 @@ import { LocalizedText } from "@/components/ui/localized-text";
 export const metadata: Metadata = {
   title: "Le Défi du Jour — Agorax",
   description:
-    "Relevez le défi quotidien ! 10 questions identiques pour tout le monde. Gardez votre série de victoires et comparez votre score avec vos amis.",
+    "Relevez le défi quotidien avec les questions que vous n’avez pas encore vues. Gardez votre série !",
   alternates: {
     canonical: "https://agorax.online/daily",
   },
   openGraph: {
     title: "Le Défi du Jour — Agorax",
-    description: "10 questions identiques pour tout le monde chaque jour. Gardez votre série !",
+    description: "Jusqu’à 10 questions inédites chaque jour. Gardez votre série !",
     url: "https://agorax.online/daily",
   },
 };
@@ -39,7 +39,7 @@ export default async function DailyPage() {
             <LocalizedText fr="Le Défi du Jour" en="Daily challenge" />
           </h1>
           <p className="mt-2 text-fp-text-dim max-w-xl mx-auto">
-            <LocalizedText fr="10 questions identiques pour tout le monde. Maintenez votre série !" en="The same 10 questions for everyone. Keep your streak going!" />
+            <LocalizedText fr="Jusqu’à 10 questions du jour, en excluant celles déjà vues. Maintenez votre série !" en="Up to 10 daily questions, excluding those you have already seen. Keep your streak going!" />
           </p>
         </header>
 

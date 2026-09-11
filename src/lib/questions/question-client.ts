@@ -12,6 +12,7 @@ interface LoadQuestionsOptions {
   count: number;
   category?: string;
   subcategory?: string;
+  questionIds?: string[];
   difficulties?: string[];
   players: Player[];
   history: QuestionHistory[];
@@ -60,6 +61,7 @@ export async function loadGameQuestions(options: LoadQuestionsOptions): Promise<
       count: options.count,
       category: options.category,
       subcategory: options.subcategory,
+      questionIds: options.questionIds,
       difficulties: options.difficulties,
       ai: options.ai ?? false,
       requireBilingual: isBilingual,

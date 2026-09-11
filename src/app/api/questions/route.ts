@@ -3,7 +3,7 @@ import { z } from "zod";
 import { loadQuestions } from "@/lib/questions/load";
 import { generateQuestionsWithDeepSeek, isDeepSeekEnabled } from "@/lib/questions/deepseek";
 import { isKnowledgeDuplicate } from "@/lib/questions/dedupe";
-import { getUnseenQuestions, type ParticipantHistory } from "@/lib/questions/question-selection-service";
+import type { ParticipantHistory } from "@/lib/questions/question-selection-service";
 import { consumeRateLimit, consumeAuthenticatedAiQuota, getRequestClientKey } from "@/lib/server/request-security";
 import { getRequestSupabase } from "@/lib/supabase/request";
 import type { Question, QuestionCategory, QuestionDifficulty } from "@/lib/questions/schema";
@@ -19,6 +19,7 @@ const RequestSchema = z.object({
   count: z.number().int().min(1).max(60).default(10),
   category: z.string().optional(),
   subcategory: z.string().optional(),
+  questionIds: z.array(z.string().min(1).max(200)).min(1).max(60).optional(),
   difficulties: z.array(z.enum(["easy", "medium", "hard", "expert"])).optional(),
   requireBilingual: z.boolean().optional().default(false),
   ai: z.boolean().default(false),
@@ -167,15 +168,17 @@ export async function POST(request: Request) {
 
   const supabase = participantTokens?.length ? getRequestSupabase(request) : null;
   // A room cannot safely fall back to the host's private, incomplete history.
-  if (onlineSessionId && !supabase) {
+  if (!supabase || !participantTokens?.length) {
     return NextResponse.json({ error: "Reconnecte-toi au salon pour synchroniser les historiques.", code: "HISTORY_UNAVAILABLE" }, { status: 503 });
   }
+  const requestedIds = parsed.data.questionIds ? new Set(parsed.data.questionIds) : null;
+  const scopedPool = requestedIds ? localPool.filter(q => requestedIds.has(q.id)) : localPool;
   const eligiblePool = isBilingualRequired
-    ? localPool.filter((q) => q.translations?.[alternateLanguage]?.answers?.length === q.answers.length)
-    : localPool;
+    ? scopedPool.filter((q) => q.translations?.[alternateLanguage]?.answers?.length === q.answers.length)
+    : scopedPool;
   const stages = stagePools(eligiblePool, cat, difficulties, subcategory);
 
-  let questions: Question[] = [];
+  const questions: Question[] = [];
   let fallbackStage = "exact";
   const remoteEnabled = Boolean(supabase && participantTokens?.length);
   if (remoteEnabled && supabase && participantTokens) {
@@ -197,25 +200,9 @@ export async function POST(request: Request) {
     }
   }
 
-  if (!remoteEnabled) {
-    const result = getUnseenQuestions({
-      pool: eligiblePool,
-      participantHistories: histories,
-      count,
-      language: requestedLanguage,
-      requireBilingual: isBilingualRequired,
-      categories: cat === "mixed" ? undefined : [cat],
-      subcategories: subcategory ? [subcategory] : undefined,
-      difficulties,
-      progressiveFallback: true,
-    });
-    questions = result.questions;
-    fallbackStage = result.fallbackStage;
-  }
-
   let aiGenerated = false;
   let aiSkipped: "authentication_required" | "rate_limited" | "unavailable" | "bilingual_required" | undefined;
-  if (questions.length < count && ai) {
+  if (questions.length < count && ai && !requestedIds) {
     // Le générateur produit une seule langue par appel. En partie bilingue, mieux vaut
     // signaler un pool incomplet que servir une question impossible à localiser.
     if (isBilingualRequired) aiSkipped = "bilingual_required";
@@ -236,18 +223,10 @@ export async function POST(request: Request) {
               !isKnowledgeDuplicate(candidate, questions) &&
               !isKnowledgeDuplicate(candidate, all.slice(0, index)),
             );
-            const additions = remoteEnabled && supabase && participantTokens
-              ? await reserveRemotely({
+            const additions = await reserveRemotely({
                   supabase, sessionId, onlineSessionId, participantTokens,
                   candidates: deduplicated, count: count - questions.length, participantHistories: histories,
-                })
-              : getUnseenQuestions({
-                  pool: deduplicated,
-                  participantHistories: histories,
-                  count: count - questions.length,
-                  language: requestedLanguage,
-                  progressiveFallback: false,
-                }).questions;
+                });
             questions.push(...additions);
             aiGenerated = additions.length > 0;
           } catch (error) {

@@ -9,6 +9,7 @@ import { localizeQuestion } from "@/lib/questions/localize";
 import { useLanguageStore } from "@/lib/store/language";
 import { answerOrder } from "@/lib/questions/answer-order";
 import { useQuizExposure } from "@/lib/questions/use-quiz-exposure";
+import { useUnseenQuiz } from "@/lib/questions/use-unseen-quiz";
 import { QuestionMedia } from "@/components/game/question-media";
 import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 
@@ -19,12 +20,14 @@ interface DailyClientProps {
   dateString: string;
 }
 
-export function DailyClient({ questions, dateString }: DailyClientProps) {
+export function DailyClient({ questions: candidates, dateString }: DailyClientProps) {
   const mounted = useSyncExternalStore(subscribe, () => true, () => false);
   const [shareStatus, setShareStatus] = useState("");
   const store = useDailyStore();
   
   const hasPlayedToday = store.lastPlayedDate === dateString;
+  const selection = useUnseenQuiz(candidates, mounted && !hasPlayedToday);
+  const { questions } = selection;
   useMobileGameNavigation(mounted && !hasPlayedToday && questions.length > 0);
 
   const language = useLanguageStore(s => s.language);
@@ -36,7 +39,7 @@ export function DailyClient({ questions, dateString }: DailyClientProps) {
   
   // Track history for the share grid: true = correct, false = incorrect
   const [answersHistory, setAnswersHistory] = useState<boolean[]>([]);
-  useQuizExposure(questions[currentIndex], mounted && !hasPlayedToday);
+  useQuizExposure(questions[currentIndex], mounted && !hasPlayedToday, selection.sessionId);
 
 
 
@@ -127,8 +130,9 @@ export function DailyClient({ questions, dateString }: DailyClientProps) {
     );
   }
 
-  if (questions.length === 0) {
-    return <div className="text-center p-8">{t("Questions non disponibles.", "Questions unavailable.")}</div>;
+  if (selection.loading) return <p role="status">{t("Vérification de ton historique…", "Checking your history…")}</p>;
+  if (selection.error || questions.length === 0) {
+    return <div role="status" className="text-center p-8">{selection.error ? t("Impossible de vérifier ton historique. Réessaie plus tard.", "Unable to verify your history. Please try again later.") : t("Aucune question inédite restante dans le défi du jour. Reviens demain !", "No unseen questions remain in today’s challenge. Come back tomorrow!")}</div>;
   }
 
   const currentQuestion = { ...questions[currentIndex], ...localizeQuestion(questions[currentIndex], language, { autoTranslate: false }) };

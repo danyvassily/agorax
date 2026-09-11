@@ -19,6 +19,18 @@ describe("API history guarantees", () => {
     expect(response.status).toBe(503);
     expect(mocks.rpc).not.toHaveBeenCalled();
   });
+  it("also fails closed in solo when authentication is unavailable", async () => {
+    mocks.authenticated = false;
+    const response = await POST(new Request("http://localhost/api/questions", { method: "POST", body: JSON.stringify({ ...body, onlineSessionId: undefined }) }));
+    expect(response.status).toBe(503);
+    expect(mocks.rpc).not.toHaveBeenCalled();
+  });
+  it("does not substitute unrelated questions for an exhausted public pack", async () => {
+    mocks.rpc.mockResolvedValue({ data: [], error: null });
+    const response = await POST(new Request("http://localhost/api/questions", { method: "POST", body: JSON.stringify({ ...body, questionIds: ["nonexistent-pack-question"] }) }));
+    expect(await response.json()).toMatchObject({ questions: [], poolExhausted: true });
+    expect(mocks.rpc).not.toHaveBeenCalled();
+  });
   it("bounds ingestion and reports exhaustion rather than repeating", async () => {
     mocks.rpc.mockResolvedValue({ data: [], error: null });
     const response = await POST(new Request("http://localhost/api/questions", { method: "POST", body: JSON.stringify(body) }));

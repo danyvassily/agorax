@@ -432,18 +432,18 @@ export class DeepDatabaseAgent {
     // Envoi à la route POST /api/questions
     const response = await handleQuestionsPost(mockRequestWithSupabaseCrash);
     this.assert(
-      "L'API /api/questions renvoie un statut 200 même si Supabase est défaillant",
-      response.status === 200,
+      "L'API bloque la sélection si Supabase est défaillant",
+      response.status === 503,
     );
 
     const body = await response.json();
     this.assert(
-      "5 questions valides servies malgré la défaillance distante (repli local-first)",
-      Array.isArray(body.questions) && body.questions.length === 5,
+      "Aucune question servie sans vérifier l'historique distant",
+      body.questions === undefined,
     );
     this.assert(
-      "La réponse indique le mode dégradé (pool local utilisé sans blocage)",
-      body.aiGenerated === false || body.aiSkipped !== undefined,
+      "La réponse indique explicitement l'indisponibilité de l'historique",
+      body.code === "HISTORY_UNAVAILABLE",
     );
 
     // Vérification que le moteur purement local fonctionne à 100% sans aucun appel réseau

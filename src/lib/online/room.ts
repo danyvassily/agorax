@@ -11,6 +11,7 @@ import type { Question } from "@/lib/questions/schema";
 import { MAX_PLAYERS } from "@/lib/store/game";
 import { getOrCreateDeviceToken, resolvePlayerProfiles } from "@/lib/identity/identity-service";
 import { translateQuestionToEnglish } from "@/lib/questions/translator";
+import { useLanguageStore } from "@/lib/store/language";
 
 export interface OnlineSession {
   id: string;
@@ -222,6 +223,9 @@ export async function joinRoom(
   });
 
   if (error) {
+  if (error.message.includes("round_already_prepared")) {
+    throw new Error(useLanguageStore.getState().language === "en" ? "This round is already prepared. Join when the host returns to the lobby." : "Cette manche est déjà préparée. Rejoins le groupe lorsque l’hôte revient au salon.");
+  }
   if (error.message.includes("room_capacity_reached")) {
     throw new Error("Ce salon est complet");
   }

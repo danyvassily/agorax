@@ -9,6 +9,7 @@ import { localizeQuestion } from "@/lib/questions/localize";
 import { useLanguageStore } from "@/lib/store/language";
 import { answerOrder } from "@/lib/questions/answer-order";
 import { useQuizExposure } from "@/lib/questions/use-quiz-exposure";
+import { useUnseenQuiz } from "@/lib/questions/use-unseen-quiz";
 import { QuestionMedia } from "@/components/game/question-media";
 import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
 
@@ -17,7 +18,9 @@ interface SoloQuizClientProps {
   quizTitle: string;
 }
 
-export function SoloQuizClient({ questions, quizTitle }: SoloQuizClientProps) {
+export function SoloQuizClient({ questions: candidates, quizTitle }: SoloQuizClientProps) {
+  const selection = useUnseenQuiz(candidates);
+  const { questions } = selection;
   const language = useLanguageStore(s => s.language);
   const t = (fr: string, en: string) => language === "en" ? en : fr;
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -27,7 +30,7 @@ export function SoloQuizClient({ questions, quizTitle }: SoloQuizClientProps) {
   useMobileGameNavigation(!isFinished && questions.length > 0);
   const shuffledAnswers = questions[currentIndex] ? answerOrder(questions[currentIndex]) : [];
   const [isAnswerRevealed, setIsAnswerRevealed] = useState(false);
-  useQuizExposure(questions[currentIndex], !isFinished);
+  useQuizExposure(questions[currentIndex], !isFinished, selection.sessionId);
 
   // Initialize shuffled answers on mount or when index changes
 
@@ -55,6 +58,7 @@ export function SoloQuizClient({ questions, quizTitle }: SoloQuizClientProps) {
   }
 
   function handleRestart() {
+    selection.reload();
     setCurrentIndex(0);
     setScore(0);
     setSelectedAnswer(null);
@@ -62,8 +66,9 @@ export function SoloQuizClient({ questions, quizTitle }: SoloQuizClientProps) {
     setIsFinished(false);
   }
 
-  if (questions.length === 0) {
-    return <div className="text-center p-8">{t("Aucune question disponible.", "No questions available.")}</div>;
+  if (selection.loading) return <p role="status">{t("Vérification de ton historique…", "Checking your history…")}</p>;
+  if (selection.error || questions.length === 0) {
+    return <div className="text-center p-8"><p role="status">{selection.error ? t("Historique indisponible. Aucune question ne sera affichée sans vérification.", "History unavailable. No questions will be shown without verification.") : t("Tu as déjà reçu toutes les questions disponibles de ce quiz. Choisis un autre thème.", "You have already received every available question in this quiz. Choose another topic.")}</p><Link href="/quiz" className="fp-btn-primary mt-4">{t("Autres thèmes", "Other topics")}</Link></div>;
   }
 
   if (isFinished) {
@@ -93,7 +98,7 @@ export function SoloQuizClient({ questions, quizTitle }: SoloQuizClientProps) {
               onClick={handleRestart}
               className="flex items-center justify-center gap-2 rounded-2xl bg-fp-fill py-3.5 font-bold text-fp-text transition-colors hover:bg-fp-border"
             >
-              <RotateCcw className="h-4.5 w-4.5" /> {t("Rejouer (mêmes questions)", "Practise again (same questions)")}
+              <RotateCcw className="h-4.5 w-4.5" /> {t("Chercher des questions inédites", "Find unseen questions")}
             </button>
             <Link
               href="/play/local"

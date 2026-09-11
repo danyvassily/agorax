@@ -1,18 +1,15 @@
 "use client";
 
 import { useEffect } from "react";
-import { getOrCreateDeviceToken } from "@/lib/identity/identity-service";
-import { useHistoryStore } from "@/lib/store/history";
+import { markQuestionDisplayed } from "./question-client";
 import type { Question } from "./schema";
 
 /** Public practice quizzes also contribute to the next game's exclusion history. */
-export function useQuizExposure(question: Question | undefined, visible: boolean) {
+export function useQuizExposure(question: Question | undefined, visible: boolean, sessionId?: string) {
   const questionId = question?.id;
   const familyId = question?.familyId;
   useEffect(() => {
-    if (!visible || !questionId || !familyId) return;
-    void getOrCreateDeviceToken().then(token => {
-      useHistoryStore.getState().markSeen(questionId, familyId, [token]);
-    }).catch(error => console.warn("[question-history] Could not persist exposure", error));
-  }, [questionId, familyId, visible]);
+    if (!visible || !questionId || !familyId || !sessionId) return;
+    void markQuestionDisplayed({ question: { id: questionId, familyId }, players: [], sessionId });
+  }, [questionId, familyId, visible, sessionId]);
 }

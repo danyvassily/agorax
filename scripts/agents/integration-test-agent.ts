@@ -72,14 +72,14 @@ export class IntegrationTestAgent {
     });
     const res1 = await handleQuestionsPost(req1);
     const data1 = await res1.json();
-    this.assert("POST /api/questions retourne HTTP 200", res1.status === 200);
+    this.assert("Sans identité vérifiable, POST /api/questions bloque la sélection", res1.status === 503);
     this.assert(
-      "Retourne un tableau de questions non vide",
-      Array.isArray(data1.questions) && data1.questions.length > 0,
+      "Ne transmet aucune question sans historique",
+      data1.questions === undefined,
     );
     this.assert(
-      "Toutes les questions retournées sont de la catégorie demandée",
-      data1.questions.every((q: { category: string }) => q.category === "histoire"),
+      "Explique pourquoi la sélection est bloquée",
+      data1.code === "HISTORY_UNAVAILABLE",
     );
 
     // 1.2 Requête avec options bilingues exigées
@@ -93,12 +93,10 @@ export class IntegrationTestAgent {
     });
     const resBilingual = await handleQuestionsPost(reqBilingual);
     const dataBilingual = await resBilingual.json();
-    this.assert("Requête requireBilingual retourne HTTP 200", resBilingual.status === 200);
+    this.assert("Le bilingue ne contourne pas l'identité", resBilingual.status === 503);
     this.assert(
-      "Les questions bilingues disposent d'une traduction anglaise",
-      dataBilingual.questions.every((q: { translations?: { en?: { question: string } } }) =>
-        Boolean(q.translations?.en?.question),
-      ),
+      "Aucune question bilingue sans vérification",
+      dataBilingual.questions === undefined,
     );
 
     // 1.3 Validation Zod d'entrée (count négatif ou excessif)
@@ -116,7 +114,7 @@ export class IntegrationTestAgent {
     );
 
     // 1.4 Anti-répétition via historique envoyé au serveur
-    const firstQ = data1.questions[0];
+    const firstQ = { id: "previous-question", familyId: "previous-family" };
     const reqHistory = new Request("http://localhost:3000/api/questions", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -138,7 +136,7 @@ export class IntegrationTestAgent {
     const servedIds = (dataHistory.questions || []).map((q: { id: string }) => q.id);
     this.assert(
       "La question récemment vue dans l'historique est écartée de la nouvelle sélection",
-      !servedIds.includes(firstQ.id),
+      resHistory.status === 503 && !servedIds.includes(firstQ.id),
     );
 
     this.currentSection!.durationMs = performance.now() - t0;

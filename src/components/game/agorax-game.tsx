@@ -38,6 +38,7 @@ import { useLanguageStore } from "@/lib/store/language";
 import { localizeQuestion } from "@/lib/questions/localize";
 import { translate } from "@/lib/i18n";
 import { useMobileGameNavigation } from "@/lib/navigation/use-mobile-game-navigation";
+import { nextRoundQuestion } from "@/lib/questions/round-cursor";
 
 const DIFFICULTY_LABELS: Record<string, string> = {
   easy: "Facile",
@@ -96,7 +97,7 @@ export function AgoraxGame() {
         const gameLanguage = config?.gameLanguage ?? "fr";
         const languageMode = config?.languageMode ?? "shared";
         const data = await loadGameQuestions({
-          count: config?.duration === "classic" ? 65 : 35,
+          count: config?.duration === "classic" ? 60 : 35,
           category: config?.category,
           subcategory: config?.subcategory,
           players: playersConfig,
@@ -122,6 +123,8 @@ export function AgoraxGame() {
         setLoading(false);
       } catch (e) {
         if (!cancelled) setError(e instanceof Error ? e.message : "Erreur inattendue");
+      } finally {
+        if (!cancelled) setLoading(false);
       }
     }
 
@@ -175,15 +178,17 @@ export function AgoraxGame() {
 
     setGameState((prev) => {
       if (!prev) return null;
-      const nextQIndex = prev.currentQuestionIndex + 1;
+      const next = nextRoundQuestion(questionsPool, prev.currentQuestionIndex);
+      if (!next) return { ...prev, phase: "champion", currentQuestion: null };
+      const nextQIndex = next.index;
       const nextPlayerIdx = (prev.activePlayerIndex + 1) % prev.players.length;
 
       // Déclenchement du Cut
       if (nextQIndex >= 12) {
-        return { ...prev, phase: "le-cut" };
+        return { ...prev, phase: "le-cut", currentQuestionIndex: next.index, currentQuestion: next.question };
       }
 
-      const nextQ = questionsPool[nextQIndex % questionsPool.length];
+      const nextQ = next.question;
       const isRound2 = nextQIndex >= 4 && nextQIndex < 8;
       const isRound3 = nextQIndex >= 8;
 
@@ -348,8 +353,12 @@ export function AgoraxGame() {
     sound.playDouble();
     setGameState((prev) => {
       if (!prev) return null;
+      const next = nextRoundQuestion(questionsPool, prev.currentQuestionIndex);
+      if (!next) return { ...prev, phase: "champion", currentQuestion: null };
       return {
         ...prev,
+        currentQuestionIndex: next.index,
+        currentQuestion: next.question,
         phase: "la-ligne",
         roundTitle: "Finale · La Ligne",
         laLigne: {
@@ -376,13 +385,17 @@ export function AgoraxGame() {
       setShowConfetti(true);
       setGameState((prev) => (prev ? { ...prev, phase: "champion", laLigne: nextState } : null));
     } else {
-      const nextQ = questionsPool[(gameState.currentQuestionIndex + 1) % questionsPool.length];
+      const next = nextRoundQuestion(questionsPool, gameState.currentQuestionIndex);
+      if (!next) {
+        setGameState(prev => prev ? { ...prev, phase: "champion", currentQuestion: null, laLigne: nextState } : null);
+        return;
+      }
       setGameState((prev) =>
         prev
           ? {
               ...prev,
-              currentQuestionIndex: prev.currentQuestionIndex + 1,
-              currentQuestion: nextQ,
+              currentQuestionIndex: next.index,
+              currentQuestion: next.question,
               laLigne: nextState,
             }
           : null,
@@ -475,7 +488,7 @@ export function AgoraxGame() {
   // PHASE : LE CUT
   // -------------------------------------------------------------
   if (gameState.phase === "le-cut") {
-    const sauvetageQ = questionsPool[gameState.currentQuestionIndex % questionsPool.length];
+    const sauvetageQ = gameState.currentQuestion;
     return (
       <main className="mx-auto flex min-h-dvh w-full max-w-2xl flex-col items-center justify-center px-4 py-8">
         <LeCutModal
@@ -491,7 +504,7 @@ export function AgoraxGame() {
   // PHASE : CHAMPION
   // -------------------------------------------------------------
   if (gameState.phase === "champion") {
-    const winnerId = gameState.laLigne?.winnerId ?? gameState.players[0].id;
+    const winnerId = gameState.laLigne?.winnerId ?? [...gameState.players].sort((a, b) => b.score - a.score)[0].id;
     const champion = gameState.players.find((p) => p.id === winnerId) ?? gameState.players[0];
     const ranking = [...gameState.players].sort((a, b) => b.score - a.score);
 
@@ -502,7 +515,7 @@ export function AgoraxGame() {
           <Trophy className="h-7 w-7" />
         </div>
         <p className="mt-3 text-[13px] font-medium uppercase tracking-wide text-fp-text-dim">
-          Champion de la partie
+          {gameState.currentQuestion === null ? (language === "en" ? "No unseen questions remain · Final scores" : "Questions inédites épuisées · Scores finaux") : (language === "en" ? "Game champion" : "Champion de la partie")}
         </p>
         <h1 className="mt-1 text-[32px] font-bold tracking-tight text-fp-text">{champion.name}</h1>
 
